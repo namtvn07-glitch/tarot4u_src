@@ -1,0 +1,28 @@
+# Secrets — never commit, kể cả bản đã "revert" (git nhớ hết).
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Asset đối thủ tạm thời cho §7.2 UI trải bài — xem
+# Research/plan/03-kien-truc-ai.md §7.3. Không bao giờ commit/deploy.
+public/_placeholder-doi-thu/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Vercel
+.vercel

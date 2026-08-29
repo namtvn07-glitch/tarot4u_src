@@ -1,0 +1,5 @@
+# Local-only within scripts/base-content/ — root .gitignore already covers
+# node_modules/ and .env*, this adds patterns specific to this script.
+# output/chunks/ holds raw per-chunk agent output on the way to the reviewed,
+# merged output/base-content.json — that merged file is what gets committed.
+output/chunks/

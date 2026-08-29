@@ -1,0 +1,24 @@
+{
+  "name": "base-content",
+  "version": "1.0.0",
+  "private": true,
+  "description": "780 tổ hợp nội dung Lớp Nền (78 lá x 2 hướng x 5 chủ đề), sinh trực tiếp bởi agent Claude Code (không gọi Anthropic API, không cần API key) rồi gộp/validate cục bộ. Độc lập hoàn toàn với root repo — không phải code sản phẩm chạy runtime.",
+  "type": "module",
+  "scripts": {
+    "chunks": "tsx src/print-chunks.ts",
+    "merge": "tsx src/merge.ts",
+    "merge:strict": "tsx src/merge.ts --strict",
+    "import": "tsx src/import.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0",
+    "dotenv": "^16.4.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

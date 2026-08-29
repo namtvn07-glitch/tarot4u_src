@@ -1,0 +1,1673 @@
+{
+  "cards": [
+    {
+      "id": "the-fool",
+      "number": 0,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Fool",
+      "name_vi": "Kẻ Khờ",
+      "image_filename": "the-fool.jpg",
+      "upright_keywords": [
+        "khởi đầu mới",
+        "tự do",
+        "ngây thơ",
+        "phiêu lưu",
+        "tự phát",
+        "niềm tin"
+      ],
+      "reversed_keywords": [
+        "liều lĩnh",
+        "bốc đồng",
+        "thiếu suy nghĩ",
+        "sợ thay đổi",
+        "ngây thơ quá mức"
+      ]
+    },
+    {
+      "id": "the-magician",
+      "number": 1,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Magician",
+      "name_vi": "Pháp Sư",
+      "image_filename": "the-magician.jpg",
+      "upright_keywords": [
+        "sáng tạo",
+        "ý chí",
+        "kỹ năng",
+        "hành động",
+        "tự tin",
+        "biểu hiện bản thân"
+      ],
+      "reversed_keywords": [
+        "thao túng",
+        "lừa dối",
+        "tiềm năng chưa khai thác",
+        "thiếu kế hoạch",
+        "ảo tưởng"
+      ]
+    },
+    {
+      "id": "the-high-priestess",
+      "number": 2,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The High Priestess",
+      "name_vi": "Nữ Tư Tế",
+      "image_filename": "the-high-priestess.jpg",
+      "upright_keywords": [
+        "trực giác",
+        "bí ẩn",
+        "tiềm thức",
+        "tri thức nội tâm",
+        "im lặng"
+      ],
+      "reversed_keywords": [
+        "bí mật bị che giấu",
+        "mất kết nối trực giác",
+        "hời hợt",
+        "rối loạn nội tâm"
+      ]
+    },
+    {
+      "id": "the-empress",
+      "number": 3,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Empress",
+      "name_vi": "Nữ Hoàng",
+      "image_filename": "the-empress.jpg",
+      "upright_keywords": [
+        "sung túc",
+        "nuôi dưỡng",
+        "sáng tạo",
+        "thiên nhiên",
+        "phong phú",
+        "nữ tính"
+      ],
+      "reversed_keywords": [
+        "phụ thuộc",
+        "trì trệ sáng tạo",
+        "mất cân bằng",
+        "bảo bọc quá mức"
+      ]
+    },
+    {
+      "id": "the-emperor",
+      "number": 4,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Emperor",
+      "name_vi": "Hoàng Đế",
+      "image_filename": "the-emperor.jpg",
+      "upright_keywords": [
+        "quyền lực",
+        "cấu trúc",
+        "kỷ luật",
+        "ổn định",
+        "quyền uy",
+        "bảo hộ"
+      ],
+      "reversed_keywords": [
+        "độc đoán",
+        "cứng nhắc",
+        "mất kiểm soát",
+        "lạm quyền"
+      ]
+    },
+    {
+      "id": "the-hierophant",
+      "number": 5,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Hierophant",
+      "name_vi": "Giáo Hoàng",
+      "image_filename": "the-hierophant.jpg",
+      "upright_keywords": [
+        "truyền thống",
+        "tâm linh",
+        "giáo dục",
+        "quy tắc",
+        "cố vấn",
+        "niềm tin"
+      ],
+      "reversed_keywords": [
+        "nổi loạn",
+        "phá cách",
+        "giáo điều",
+        "tư duy hẹp hòi"
+      ]
+    },
+    {
+      "id": "the-lovers",
+      "number": 6,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Lovers",
+      "name_vi": "Tình Nhân",
+      "image_filename": "the-lovers.jpg",
+      "upright_keywords": [
+        "tình yêu",
+        "hài hòa",
+        "lựa chọn",
+        "kết nối",
+        "giá trị chung"
+      ],
+      "reversed_keywords": [
+        "mất cân bằng",
+        "lựa chọn sai lầm",
+        "bất hòa",
+        "xung đột giá trị"
+      ]
+    },
+    {
+      "id": "the-chariot",
+      "number": 7,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Chariot",
+      "name_vi": "Cỗ Xe",
+      "image_filename": "the-chariot.jpg",
+      "upright_keywords": [
+        "ý chí",
+        "chiến thắng",
+        "quyết tâm",
+        "kiểm soát",
+        "tiến về phía trước"
+      ],
+      "reversed_keywords": [
+        "mất phương hướng",
+        "thiếu kiểm soát",
+        "hung hăng",
+        "trì hoãn"
+      ]
+    },
+    {
+      "id": "strength",
+      "number": 8,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "Strength",
+      "name_vi": "Sức Mạnh",
+      "image_filename": "strength.jpg",
+      "upright_keywords": [
+        "can đảm",
+        "kiên nhẫn",
+        "lòng trắc ẩn",
+        "sức mạnh nội tâm",
+        "kiểm soát bản năng"
+      ],
+      "reversed_keywords": [
+        "nghi ngờ bản thân",
+        "yếu đuối",
+        "mất kiên nhẫn",
+        "bốc đồng"
+      ]
+    },
+    {
+      "id": "the-hermit",
+      "number": 9,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Hermit",
+      "name_vi": "Ẩn Sĩ",
+      "image_filename": "the-hermit.jpg",
+      "upright_keywords": [
+        "nội tâm",
+        "tìm kiếm chân lý",
+        "cô độc",
+        "chiêm nghiệm",
+        "dẫn dắt"
+      ],
+      "reversed_keywords": [
+        "cô lập",
+        "lạc lối",
+        "từ chối giúp đỡ",
+        "cô đơn quá mức"
+      ]
+    },
+    {
+      "id": "wheel-of-fortune",
+      "number": 10,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "Wheel of Fortune",
+      "name_vi": "Bánh Xe Số Mệnh",
+      "image_filename": "wheel-of-fortune.jpg",
+      "upright_keywords": [
+        "vận mệnh",
+        "chu kỳ",
+        "thay đổi",
+        "cơ hội",
+        "bước ngoặt"
+      ],
+      "reversed_keywords": [
+        "vận rủi",
+        "trì trệ",
+        "mất kiểm soát",
+        "phá vỡ chu kỳ"
+      ]
+    },
+    {
+      "id": "justice",
+      "number": 11,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "Justice",
+      "name_vi": "Công Lý",
+      "image_filename": "justice.jpg",
+      "upright_keywords": [
+        "công bằng",
+        "sự thật",
+        "luật nhân quả",
+        "trách nhiệm",
+        "cân bằng"
+      ],
+      "reversed_keywords": [
+        "bất công",
+        "thiên vị",
+        "trốn tránh trách nhiệm",
+        "mất cân bằng"
+      ]
+    },
+    {
+      "id": "the-hanged-man",
+      "number": 12,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Hanged Man",
+      "name_vi": "Kẻ Treo Ngược",
+      "image_filename": "the-hanged-man.jpg",
+      "upright_keywords": [
+        "hy sinh",
+        "buông bỏ",
+        "góc nhìn mới",
+        "tạm dừng",
+        "chờ đợi"
+      ],
+      "reversed_keywords": [
+        "trì hoãn vô ích",
+        "chống cự",
+        "hy sinh vô nghĩa",
+        "mắc kẹt"
+      ]
+    },
+    {
+      "id": "death",
+      "number": 13,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "Death",
+      "name_vi": "Tử Thần",
+      "image_filename": "death.jpg",
+      "upright_keywords": [
+        "kết thúc",
+        "chuyển hóa",
+        "khởi đầu mới",
+        "buông bỏ quá khứ"
+      ],
+      "reversed_keywords": [
+        "sợ thay đổi",
+        "trì trệ",
+        "chống lại chuyển hóa",
+        "mắc kẹt trong quá khứ"
+      ]
+    },
+    {
+      "id": "temperance",
+      "number": 14,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "Temperance",
+      "name_vi": "Tiết Chế",
+      "image_filename": "temperance.jpg",
+      "upright_keywords": [
+        "cân bằng",
+        "điều độ",
+        "kiên nhẫn",
+        "hòa hợp",
+        "chữa lành"
+      ],
+      "reversed_keywords": [
+        "mất cân bằng",
+        "thái quá",
+        "thiếu kiên nhẫn",
+        "xung đột nội tâm"
+      ]
+    },
+    {
+      "id": "the-devil",
+      "number": 15,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Devil",
+      "name_vi": "Ác Quỷ",
+      "image_filename": "the-devil.jpg",
+      "upright_keywords": [
+        "ràng buộc",
+        "cám dỗ",
+        "ham muốn vật chất",
+        "nô lệ cho thói quen"
+      ],
+      "reversed_keywords": [
+        "giải thoát",
+        "nhận thức",
+        "phá bỏ xiềng xích",
+        "vượt qua cám dỗ"
+      ]
+    },
+    {
+      "id": "the-tower",
+      "number": 16,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Tower",
+      "name_vi": "Tòa Tháp",
+      "image_filename": "the-tower.jpg",
+      "upright_keywords": [
+        "biến động đột ngột",
+        "sụp đổ",
+        "tỉnh ngộ",
+        "khủng hoảng",
+        "thay đổi bất ngờ"
+      ],
+      "reversed_keywords": [
+        "tránh né thảm họa",
+        "sợ thay đổi",
+        "khủng hoảng nội tâm",
+        "sụp đổ trì hoãn"
+      ]
+    },
+    {
+      "id": "the-star",
+      "number": 17,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Star",
+      "name_vi": "Ngôi Sao",
+      "image_filename": "the-star.jpg",
+      "upright_keywords": [
+        "hy vọng",
+        "niềm tin",
+        "cảm hứng",
+        "chữa lành",
+        "thanh thản"
+      ],
+      "reversed_keywords": [
+        "tuyệt vọng",
+        "mất niềm tin",
+        "thiếu tự tin",
+        "ngắt kết nối"
+      ]
+    },
+    {
+      "id": "the-moon",
+      "number": 18,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Moon",
+      "name_vi": "Mặt Trăng",
+      "image_filename": "the-moon.jpg",
+      "upright_keywords": [
+        "ảo giác",
+        "sợ hãi tiềm thức",
+        "trực giác",
+        "mơ hồ",
+        "bất an"
+      ],
+      "reversed_keywords": [
+        "giải tỏa sợ hãi",
+        "sáng tỏ",
+        "vượt qua nhầm lẫn",
+        "sự thật lộ diện"
+      ]
+    },
+    {
+      "id": "the-sun",
+      "number": 19,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The Sun",
+      "name_vi": "Mặt Trời",
+      "image_filename": "the-sun.jpg",
+      "upright_keywords": [
+        "niềm vui",
+        "thành công",
+        "sức sống",
+        "lạc quan",
+        "rõ ràng"
+      ],
+      "reversed_keywords": [
+        "bi quan tạm thời",
+        "trì hoãn thành công",
+        "thiếu nhiệt huyết",
+        "u ám nội tâm"
+      ]
+    },
+    {
+      "id": "judgement",
+      "number": 20,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "Judgement",
+      "name_vi": "Phán Xét",
+      "image_filename": "judgement.jpg",
+      "upright_keywords": [
+        "thức tỉnh",
+        "tái sinh",
+        "đánh giá lại",
+        "gọi hồn",
+        "tha thứ"
+      ],
+      "reversed_keywords": [
+        "nghi ngờ bản thân",
+        "trốn tránh phán xét",
+        "thiếu tha thứ",
+        "trì hoãn thức tỉnh"
+      ]
+    },
+    {
+      "id": "the-world",
+      "number": 21,
+      "arcana": "major",
+      "suit": null,
+      "name_en": "The World",
+      "name_vi": "Thế Giới",
+      "image_filename": "the-world.jpg",
+      "upright_keywords": [
+        "hoàn thành",
+        "viên mãn",
+        "hợp nhất",
+        "thành tựu",
+        "du hành"
+      ],
+      "reversed_keywords": [
+        "dang dở",
+        "thiếu trọn vẹn",
+        "trì hoãn thành công",
+        "tìm kiếm sự khép kín"
+      ]
+    },
+    {
+      "id": "ace-of-wands",
+      "number": 1,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Ace of Wands",
+      "name_vi": "Át Gậy",
+      "image_filename": "ace-of-wands.jpg",
+      "upright_keywords": [
+        "khởi đầu mới",
+        "cảm hứng",
+        "tiềm năng sáng tạo",
+        "nhiệt huyết",
+        "cơ hội"
+      ],
+      "reversed_keywords": [
+        "trì hoãn",
+        "thiếu động lực",
+        "cảm hứng lụi tàn",
+        "kế hoạch đổ vỡ"
+      ]
+    },
+    {
+      "id": "two-of-wands",
+      "number": 2,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Two of Wands",
+      "name_vi": "Hai Gậy",
+      "image_filename": "two-of-wands.jpg",
+      "upright_keywords": [
+        "lập kế hoạch",
+        "tầm nhìn xa",
+        "quyết định tương lai",
+        "khám phá"
+      ],
+      "reversed_keywords": [
+        "sợ thay đổi",
+        "thiếu kế hoạch",
+        "do dự",
+        "tầm nhìn hạn hẹp"
+      ]
+    },
+    {
+      "id": "three-of-wands",
+      "number": 3,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Three of Wands",
+      "name_vi": "Ba Gậy",
+      "image_filename": "three-of-wands.jpg",
+      "upright_keywords": [
+        "mở rộng",
+        "tầm nhìn",
+        "chờ đợi kết quả",
+        "hợp tác",
+        "tiến triển"
+      ],
+      "reversed_keywords": [
+        "trì hoãn",
+        "trở ngại",
+        "thiếu tầm nhìn",
+        "kế hoạch thất bại"
+      ]
+    },
+    {
+      "id": "four-of-wands",
+      "number": 4,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Four of Wands",
+      "name_vi": "Bốn Gậy",
+      "image_filename": "four-of-wands.jpg",
+      "upright_keywords": [
+        "lễ kỷ niệm",
+        "hòa hợp",
+        "ổn định gia đình",
+        "thành tựu"
+      ],
+      "reversed_keywords": [
+        "bất hòa gia đình",
+        "thiếu ổn định",
+        "hoãn lễ kỷ niệm",
+        "căng thẳng nội bộ"
+      ]
+    },
+    {
+      "id": "five-of-wands",
+      "number": 5,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Five of Wands",
+      "name_vi": "Năm Gậy",
+      "image_filename": "five-of-wands.jpg",
+      "upright_keywords": [
+        "xung đột",
+        "cạnh tranh",
+        "bất đồng",
+        "thử thách"
+      ],
+      "reversed_keywords": [
+        "tránh xung đột",
+        "hòa giải",
+        "cạnh tranh nội bộ giảm",
+        "thỏa hiệp"
+      ]
+    },
+    {
+      "id": "six-of-wands",
+      "number": 6,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Six of Wands",
+      "name_vi": "Sáu Gậy",
+      "image_filename": "six-of-wands.jpg",
+      "upright_keywords": [
+        "chiến thắng",
+        "công nhận",
+        "tự tin",
+        "thành công"
+      ],
+      "reversed_keywords": [
+        "thất bại",
+        "thiếu công nhận",
+        "kiêu ngạo",
+        "hoài nghi bản thân"
+      ]
+    },
+    {
+      "id": "seven-of-wands",
+      "number": 7,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Seven of Wands",
+      "name_vi": "Bảy Gậy",
+      "image_filename": "seven-of-wands.jpg",
+      "upright_keywords": [
+        "phòng thủ",
+        "kiên định",
+        "đối mặt thử thách",
+        "bảo vệ lập trường"
+      ],
+      "reversed_keywords": [
+        "kiệt sức",
+        "bỏ cuộc",
+        "áp lực quá lớn",
+        "mất tự tin"
+      ]
+    },
+    {
+      "id": "eight-of-wands",
+      "number": 8,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Eight of Wands",
+      "name_vi": "Tám Gậy",
+      "image_filename": "eight-of-wands.jpg",
+      "upright_keywords": [
+        "tốc độ",
+        "hành động nhanh",
+        "tiến triển",
+        "tin tức đến nhanh"
+      ],
+      "reversed_keywords": [
+        "trì hoãn",
+        "chậm trễ",
+        "thất vọng",
+        "mất kiểm soát tốc độ"
+      ]
+    },
+    {
+      "id": "nine-of-wands",
+      "number": 9,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Nine of Wands",
+      "name_vi": "Chín Gậy",
+      "image_filename": "nine-of-wands.jpg",
+      "upright_keywords": [
+        "kiên cường",
+        "cảnh giác",
+        "bền bỉ",
+        "gần đích"
+      ],
+      "reversed_keywords": [
+        "kiệt sức",
+        "hoang tưởng",
+        "phòng thủ quá mức",
+        "muốn bỏ cuộc"
+      ]
+    },
+    {
+      "id": "ten-of-wands",
+      "number": 10,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Ten of Wands",
+      "name_vi": "Mười Gậy",
+      "image_filename": "ten-of-wands.jpg",
+      "upright_keywords": [
+        "gánh nặng",
+        "trách nhiệm",
+        "quá tải",
+        "áp lực"
+      ],
+      "reversed_keywords": [
+        "buông bỏ gánh nặng",
+        "ủy quyền",
+        "kiệt sức",
+        "giải thoát"
+      ]
+    },
+    {
+      "id": "page-of-wands",
+      "number": 11,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Page of Wands",
+      "name_vi": "Thị Đồng Gậy",
+      "image_filename": "page-of-wands.jpg",
+      "upright_keywords": [
+        "khám phá",
+        "nhiệt huyết tuổi trẻ",
+        "tin tức mới",
+        "tinh thần phiêu lưu"
+      ],
+      "reversed_keywords": [
+        "thiếu định hướng",
+        "tin xấu",
+        "trì hoãn",
+        "bốc đồng"
+      ]
+    },
+    {
+      "id": "knight-of-wands",
+      "number": 12,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Knight of Wands",
+      "name_vi": "Kỵ Sĩ Gậy",
+      "image_filename": "knight-of-wands.jpg",
+      "upright_keywords": [
+        "hành động",
+        "đam mê",
+        "phiêu lưu",
+        "bốc đồng",
+        "năng lượng"
+      ],
+      "reversed_keywords": [
+        "hấp tấp",
+        "thiếu kiên nhẫn",
+        "thất thường",
+        "kế hoạch bỏ dở"
+      ]
+    },
+    {
+      "id": "queen-of-wands",
+      "number": 13,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "Queen of Wands",
+      "name_vi": "Nữ Hoàng Gậy",
+      "image_filename": "queen-of-wands.jpg",
+      "upright_keywords": [
+        "tự tin",
+        "quyến rũ",
+        "độc lập",
+        "năng động",
+        "ấm áp"
+      ],
+      "reversed_keywords": [
+        "ghen tuông",
+        "đòi hỏi",
+        "thiếu kiên nhẫn",
+        "tự ti"
+      ]
+    },
+    {
+      "id": "king-of-wands",
+      "number": 14,
+      "arcana": "minor",
+      "suit": "wands",
+      "name_en": "King of Wands",
+      "name_vi": "Vua Gậy",
+      "image_filename": "king-of-wands.jpg",
+      "upright_keywords": [
+        "lãnh đạo",
+        "tầm nhìn",
+        "can đảm",
+        "truyền cảm hứng"
+      ],
+      "reversed_keywords": [
+        "độc đoán",
+        "bốc đồng",
+        "kỳ vọng cao",
+        "nóng nảy"
+      ]
+    },
+    {
+      "id": "ace-of-cups",
+      "number": 1,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Ace of Cups",
+      "name_vi": "Át Cốc",
+      "image_filename": "ace-of-cups.jpg",
+      "upright_keywords": [
+        "khởi đầu cảm xúc mới",
+        "tình yêu",
+        "trực giác",
+        "lòng trắc ẩn"
+      ],
+      "reversed_keywords": [
+        "cảm xúc kìm nén",
+        "mất cân bằng cảm xúc",
+        "tình yêu chưa trọn",
+        "trống rỗng"
+      ]
+    },
+    {
+      "id": "two-of-cups",
+      "number": 2,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Two of Cups",
+      "name_vi": "Hai Cốc",
+      "image_filename": "two-of-cups.jpg",
+      "upright_keywords": [
+        "kết nối",
+        "hợp tác",
+        "tình yêu hài hòa",
+        "thu hút lẫn nhau"
+      ],
+      "reversed_keywords": [
+        "mất cân bằng trong mối quan hệ",
+        "chia ly",
+        "bất hòa",
+        "thiếu tin tưởng"
+      ]
+    },
+    {
+      "id": "three-of-cups",
+      "number": 3,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Three of Cups",
+      "name_vi": "Ba Cốc",
+      "image_filename": "three-of-cups.jpg",
+      "upright_keywords": [
+        "tình bạn",
+        "ăn mừng",
+        "cộng đồng",
+        "niềm vui chung"
+      ],
+      "reversed_keywords": [
+        "cô lập xã hội",
+        "tiệc tùng thái quá",
+        "mâu thuẫn bạn bè",
+        "ganh tị"
+      ]
+    },
+    {
+      "id": "four-of-cups",
+      "number": 4,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Four of Cups",
+      "name_vi": "Bốn Cốc",
+      "image_filename": "four-of-cups.jpg",
+      "upright_keywords": [
+        "thờ ơ",
+        "trầm ngâm",
+        "bỏ lỡ cơ hội",
+        "chán nản"
+      ],
+      "reversed_keywords": [
+        "tỉnh thức",
+        "đón nhận cơ hội mới",
+        "thoát khỏi trì trệ",
+        "khơi lại động lực"
+      ]
+    },
+    {
+      "id": "five-of-cups",
+      "number": 5,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Five of Cups",
+      "name_vi": "Năm Cốc",
+      "image_filename": "five-of-cups.jpg",
+      "upright_keywords": [
+        "mất mát",
+        "tiếc nuối",
+        "đau buồn",
+        "thất vọng"
+      ],
+      "reversed_keywords": [
+        "chấp nhận",
+        "tha thứ",
+        "tìm lại hy vọng",
+        "chữa lành"
+      ]
+    },
+    {
+      "id": "six-of-cups",
+      "number": 6,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Six of Cups",
+      "name_vi": "Sáu Cốc",
+      "image_filename": "six-of-cups.jpg",
+      "upright_keywords": [
+        "hoài niệm",
+        "ký ức tuổi thơ",
+        "ngây thơ",
+        "tái ngộ"
+      ],
+      "reversed_keywords": [
+        "mắc kẹt trong quá khứ",
+        "thiếu thực tế",
+        "khao khát hoài niệm",
+        "trốn tránh hiện tại"
+      ]
+    },
+    {
+      "id": "seven-of-cups",
+      "number": 7,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Seven of Cups",
+      "name_vi": "Bảy Cốc",
+      "image_filename": "seven-of-cups.jpg",
+      "upright_keywords": [
+        "ảo tưởng",
+        "nhiều lựa chọn",
+        "mơ mộng",
+        "thiếu quyết đoán"
+      ],
+      "reversed_keywords": [
+        "rõ ràng",
+        "quyết đoán",
+        "gạt bỏ ảo tưởng",
+        "chọn đúng hướng"
+      ]
+    },
+    {
+      "id": "eight-of-cups",
+      "number": 8,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Eight of Cups",
+      "name_vi": "Tám Cốc",
+      "image_filename": "eight-of-cups.jpg",
+      "upright_keywords": [
+        "từ bỏ",
+        "tìm kiếm ý nghĩa sâu xa",
+        "rời bỏ",
+        "hành trình nội tâm"
+      ],
+      "reversed_keywords": [
+        "sợ thay đổi",
+        "ở lại dù không hạnh phúc",
+        "do dự rời đi",
+        "trốn tránh sự thật"
+      ]
+    },
+    {
+      "id": "nine-of-cups",
+      "number": 9,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Nine of Cups",
+      "name_vi": "Chín Cốc",
+      "image_filename": "nine-of-cups.jpg",
+      "upright_keywords": [
+        "mãn nguyện",
+        "hạnh phúc",
+        "ước nguyện thành hiện thực",
+        "hài lòng"
+      ],
+      "reversed_keywords": [
+        "thỏa mãn hời hợt",
+        "tham lam",
+        "bất mãn nội tâm",
+        "kiêu ngạo"
+      ]
+    },
+    {
+      "id": "ten-of-cups",
+      "number": 10,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Ten of Cups",
+      "name_vi": "Mười Cốc",
+      "image_filename": "ten-of-cups.jpg",
+      "upright_keywords": [
+        "hạnh phúc gia đình",
+        "viên mãn cảm xúc",
+        "hòa hợp lâu dài",
+        "gắn kết bền vững"
+      ],
+      "reversed_keywords": [
+        "bất hòa gia đình",
+        "giá trị lệch lạc",
+        "hạnh phúc giả tạo",
+        "kỳ vọng đổ vỡ"
+      ]
+    },
+    {
+      "id": "page-of-cups",
+      "number": 11,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Page of Cups",
+      "name_vi": "Thị Đồng Cốc",
+      "image_filename": "page-of-cups.jpg",
+      "upright_keywords": [
+        "tin tức cảm xúc",
+        "sáng tạo",
+        "trực giác nhạy bén",
+        "khởi đầu tình cảm"
+      ],
+      "reversed_keywords": [
+        "bất ổn cảm xúc",
+        "sáng tạo bị chặn",
+        "tin tức thất vọng",
+        "trẻ con"
+      ]
+    },
+    {
+      "id": "knight-of-cups",
+      "number": 12,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Knight of Cups",
+      "name_vi": "Kỵ Sĩ Cốc",
+      "image_filename": "knight-of-cups.jpg",
+      "upright_keywords": [
+        "lãng mạn",
+        "quyến rũ",
+        "theo đuổi cảm xúc",
+        "lý tưởng hóa"
+      ],
+      "reversed_keywords": [
+        "ghen tuông",
+        "thất vọng tình cảm",
+        "lừa dối",
+        "tâm trạng thất thường"
+      ]
+    },
+    {
+      "id": "queen-of-cups",
+      "number": 13,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "Queen of Cups",
+      "name_vi": "Nữ Hoàng Cốc",
+      "image_filename": "queen-of-cups.jpg",
+      "upright_keywords": [
+        "trực giác sâu sắc",
+        "lòng trắc ẩn",
+        "thấu cảm",
+        "điềm tĩnh"
+      ],
+      "reversed_keywords": [
+        "cảm xúc bất ổn",
+        "phụ thuộc cảm xúc",
+        "tự thương hại",
+        "u sầu"
+      ]
+    },
+    {
+      "id": "king-of-cups",
+      "number": 14,
+      "arcana": "minor",
+      "suit": "cups",
+      "name_en": "King of Cups",
+      "name_vi": "Vua Cốc",
+      "image_filename": "king-of-cups.jpg",
+      "upright_keywords": [
+        "cân bằng cảm xúc",
+        "khôn ngoan",
+        "điềm đạm",
+        "bao dung"
+      ],
+      "reversed_keywords": [
+        "lạnh lùng",
+        "thao túng cảm xúc",
+        "bất ổn tâm lý",
+        "vô tâm"
+      ]
+    },
+    {
+      "id": "ace-of-swords",
+      "number": 1,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Ace of Swords",
+      "name_vi": "Át Kiếm",
+      "image_filename": "ace-of-swords.jpg",
+      "upright_keywords": [
+        "đột phá tư duy",
+        "sự thật",
+        "rõ ràng",
+        "ý tưởng mới"
+      ],
+      "reversed_keywords": [
+        "nhầm lẫn",
+        "tư duy hỗn loạn",
+        "sự thật bị bóp méo",
+        "phán đoán sai"
+      ]
+    },
+    {
+      "id": "two-of-swords",
+      "number": 2,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Two of Swords",
+      "name_vi": "Hai Kiếm",
+      "image_filename": "two-of-swords.jpg",
+      "upright_keywords": [
+        "quyết định khó khăn",
+        "thế bế tắc",
+        "cân bằng căng thẳng",
+        "do dự"
+      ],
+      "reversed_keywords": [
+        "do dự kéo dài",
+        "thông tin bị che giấu",
+        "quá tải lựa chọn",
+        "mất phương hướng"
+      ]
+    },
+    {
+      "id": "three-of-swords",
+      "number": 3,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Three of Swords",
+      "name_vi": "Ba Kiếm",
+      "image_filename": "three-of-swords.jpg",
+      "upright_keywords": [
+        "đau khổ",
+        "tổn thương",
+        "chia ly",
+        "đau lòng"
+      ],
+      "reversed_keywords": [
+        "chữa lành",
+        "tha thứ",
+        "vượt qua đau buồn",
+        "hồi phục"
+      ]
+    },
+    {
+      "id": "four-of-swords",
+      "number": 4,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Four of Swords",
+      "name_vi": "Bốn Kiếm",
+      "image_filename": "four-of-swords.jpg",
+      "upright_keywords": [
+        "nghỉ ngơi",
+        "hồi phục",
+        "tạm dừng",
+        "thiền định"
+      ],
+      "reversed_keywords": [
+        "kiệt sức",
+        "trì hoãn nghỉ ngơi",
+        "căng thẳng kéo dài",
+        "kiệt quệ"
+      ]
+    },
+    {
+      "id": "five-of-swords",
+      "number": 5,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Five of Swords",
+      "name_vi": "Năm Kiếm",
+      "image_filename": "five-of-swords.jpg",
+      "upright_keywords": [
+        "xung đột",
+        "chiến thắng phải trả giá",
+        "bất hòa",
+        "ích kỷ"
+      ],
+      "reversed_keywords": [
+        "hòa giải",
+        "buông bỏ hận thù",
+        "hậu quả xung đột",
+        "chấp nhận thua cuộc"
+      ]
+    },
+    {
+      "id": "six-of-swords",
+      "number": 6,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Six of Swords",
+      "name_vi": "Sáu Kiếm",
+      "image_filename": "six-of-swords.jpg",
+      "upright_keywords": [
+        "chuyển tiếp",
+        "rời xa khó khăn",
+        "hành trình đến bình yên",
+        "buông bỏ quá khứ"
+      ],
+      "reversed_keywords": [
+        "mắc kẹt",
+        "kháng cự thay đổi",
+        "quá khứ chưa buông",
+        "trì trệ"
+      ]
+    },
+    {
+      "id": "seven-of-swords",
+      "number": 7,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Seven of Swords",
+      "name_vi": "Bảy Kiếm",
+      "image_filename": "seven-of-swords.jpg",
+      "upright_keywords": [
+        "lừa dối",
+        "chiến lược",
+        "hành động lén lút",
+        "mưu mẹo"
+      ],
+      "reversed_keywords": [
+        "thú nhận",
+        "bị phát hiện",
+        "hối lỗi",
+        "minh bạch trở lại"
+      ]
+    },
+    {
+      "id": "eight-of-swords",
+      "number": 8,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Eight of Swords",
+      "name_vi": "Tám Kiếm",
+      "image_filename": "eight-of-swords.jpg",
+      "upright_keywords": [
+        "cảm giác bị mắc kẹt",
+        "hạn chế tự áp đặt",
+        "bất lực",
+        "sợ hãi vô hình"
+      ],
+      "reversed_keywords": [
+        "giải thoát bản thân",
+        "nhận ra tự do",
+        "vượt qua sợ hãi",
+        "thay đổi góc nhìn"
+      ]
+    },
+    {
+      "id": "nine-of-swords",
+      "number": 9,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Nine of Swords",
+      "name_vi": "Chín Kiếm",
+      "image_filename": "nine-of-swords.jpg",
+      "upright_keywords": [
+        "lo âu",
+        "ác mộng",
+        "căng thẳng tâm lý",
+        "tội lỗi"
+      ],
+      "reversed_keywords": [
+        "hy vọng trở lại",
+        "vượt qua lo âu",
+        "tìm kiếm giúp đỡ",
+        "giải tỏa nỗi sợ"
+      ]
+    },
+    {
+      "id": "ten-of-swords",
+      "number": 10,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Ten of Swords",
+      "name_vi": "Mười Kiếm",
+      "image_filename": "ten-of-swords.jpg",
+      "upright_keywords": [
+        "kết thúc đau đớn",
+        "phản bội",
+        "chạm đáy",
+        "kiệt quệ"
+      ],
+      "reversed_keywords": [
+        "hồi phục",
+        "kết thúc không thể tránh khỏi",
+        "ánh sáng cuối đường hầm",
+        "vượt qua khủng hoảng"
+      ]
+    },
+    {
+      "id": "page-of-swords",
+      "number": 11,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Page of Swords",
+      "name_vi": "Thị Đồng Kiếm",
+      "image_filename": "page-of-swords.jpg",
+      "upright_keywords": [
+        "tò mò",
+        "tư duy sắc bén",
+        "tin tức mới",
+        "cảnh giác"
+      ],
+      "reversed_keywords": [
+        "tin đồn",
+        "thiếu suy nghĩ",
+        "hấp tấp",
+        "do thám"
+      ]
+    },
+    {
+      "id": "knight-of-swords",
+      "number": 12,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Knight of Swords",
+      "name_vi": "Kỵ Sĩ Kiếm",
+      "image_filename": "knight-of-swords.jpg",
+      "upright_keywords": [
+        "hành động quyết liệt",
+        "tham vọng",
+        "tốc độ",
+        "thẳng thắn"
+      ],
+      "reversed_keywords": [
+        "liều lĩnh",
+        "hung hăng",
+        "thiếu kiên nhẫn",
+        "tranh cãi"
+      ]
+    },
+    {
+      "id": "queen-of-swords",
+      "number": 13,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "Queen of Swords",
+      "name_vi": "Nữ Hoàng Kiếm",
+      "image_filename": "queen-of-swords.jpg",
+      "upright_keywords": [
+        "độc lập",
+        "tư duy rõ ràng",
+        "thẳng thắn",
+        "kinh nghiệm sống"
+      ],
+      "reversed_keywords": [
+        "lạnh lùng",
+        "cay nghiệt",
+        "cô lập",
+        "phán xét khắc nghiệt"
+      ]
+    },
+    {
+      "id": "king-of-swords",
+      "number": 14,
+      "arcana": "minor",
+      "suit": "swords",
+      "name_en": "King of Swords",
+      "name_vi": "Vua Kiếm",
+      "image_filename": "king-of-swords.jpg",
+      "upright_keywords": [
+        "quyền uy trí tuệ",
+        "công bằng",
+        "tư duy logic",
+        "sự thật"
+      ],
+      "reversed_keywords": [
+        "lạm quyền",
+        "thao túng",
+        "độc đoán",
+        "lạnh lùng"
+      ]
+    },
+    {
+      "id": "ace-of-pentacles",
+      "number": 1,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Ace of Pentacles",
+      "name_vi": "Át Tiền",
+      "image_filename": "ace-of-pentacles.jpg",
+      "upright_keywords": [
+        "cơ hội mới",
+        "thịnh vượng",
+        "ổn định vật chất",
+        "khởi đầu tài chính"
+      ],
+      "reversed_keywords": [
+        "cơ hội bị bỏ lỡ",
+        "kế hoạch tài chính thất bại",
+        "bất ổn",
+        "thiếu chuẩn bị"
+      ]
+    },
+    {
+      "id": "two-of-pentacles",
+      "number": 2,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Two of Pentacles",
+      "name_vi": "Hai Tiền",
+      "image_filename": "two-of-pentacles.jpg",
+      "upright_keywords": [
+        "cân bằng",
+        "thích nghi",
+        "quản lý nhiều việc",
+        "linh hoạt"
+      ],
+      "reversed_keywords": [
+        "mất cân bằng",
+        "quá tải",
+        "quản lý kém",
+        "bất ổn tài chính"
+      ]
+    },
+    {
+      "id": "three-of-pentacles",
+      "number": 3,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Three of Pentacles",
+      "name_vi": "Ba Tiền",
+      "image_filename": "three-of-pentacles.jpg",
+      "upright_keywords": [
+        "hợp tác",
+        "kỹ năng",
+        "học hỏi",
+        "xây dựng nền tảng"
+      ],
+      "reversed_keywords": [
+        "thiếu hợp tác",
+        "làm việc kém chất lượng",
+        "xung đột nhóm",
+        "thiếu kỹ năng"
+      ]
+    },
+    {
+      "id": "four-of-pentacles",
+      "number": 4,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Four of Pentacles",
+      "name_vi": "Bốn Tiền",
+      "image_filename": "four-of-pentacles.jpg",
+      "upright_keywords": [
+        "kiểm soát",
+        "tiết kiệm",
+        "an toàn",
+        "bám giữ của cải"
+      ],
+      "reversed_keywords": [
+        "keo kiệt",
+        "sợ mất mát",
+        "bám víu quá mức",
+        "buông bỏ vật chất"
+      ]
+    },
+    {
+      "id": "five-of-pentacles",
+      "number": 5,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Five of Pentacles",
+      "name_vi": "Năm Tiền",
+      "image_filename": "five-of-pentacles.jpg",
+      "upright_keywords": [
+        "khó khăn tài chính",
+        "thiếu thốn",
+        "cô lập",
+        "bất an"
+      ],
+      "reversed_keywords": [
+        "hồi phục tài chính",
+        "tìm được giúp đỡ",
+        "vượt qua khó khăn",
+        "hy vọng trở lại"
+      ]
+    },
+    {
+      "id": "six-of-pentacles",
+      "number": 6,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Six of Pentacles",
+      "name_vi": "Sáu Tiền",
+      "image_filename": "six-of-pentacles.jpg",
+      "upright_keywords": [
+        "hào phóng",
+        "cho và nhận",
+        "cân bằng tài chính",
+        "hỗ trợ"
+      ],
+      "reversed_keywords": [
+        "mất cân bằng quyền lực",
+        "nợ nần",
+        "cho nhận không công bằng",
+        "ích kỷ"
+      ]
+    },
+    {
+      "id": "seven-of-pentacles",
+      "number": 7,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Seven of Pentacles",
+      "name_vi": "Bảy Tiền",
+      "image_filename": "seven-of-pentacles.jpg",
+      "upright_keywords": [
+        "kiên nhẫn",
+        "đầu tư dài hạn",
+        "đánh giá thành quả",
+        "chờ đợi"
+      ],
+      "reversed_keywords": [
+        "thiếu kiên nhẫn",
+        "đầu tư sai lầm",
+        "kết quả không như mong đợi",
+        "bỏ cuộc sớm"
+      ]
+    },
+    {
+      "id": "eight-of-pentacles",
+      "number": 8,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Eight of Pentacles",
+      "name_vi": "Tám Tiền",
+      "image_filename": "eight-of-pentacles.jpg",
+      "upright_keywords": [
+        "chăm chỉ",
+        "tận tâm",
+        "rèn luyện kỹ năng",
+        "chú trọng chi tiết"
+      ],
+      "reversed_keywords": [
+        "làm việc cẩu thả",
+        "thiếu tham vọng",
+        "trì trệ kỹ năng",
+        "thiếu tập trung"
+      ]
+    },
+    {
+      "id": "nine-of-pentacles",
+      "number": 9,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Nine of Pentacles",
+      "name_vi": "Chín Tiền",
+      "image_filename": "nine-of-pentacles.jpg",
+      "upright_keywords": [
+        "sung túc",
+        "độc lập tài chính",
+        "tận hưởng thành quả",
+        "tự chủ"
+      ],
+      "reversed_keywords": [
+        "phụ thuộc tài chính",
+        "thể hiện quá mức",
+        "bất an vật chất",
+        "cô đơn"
+      ]
+    },
+    {
+      "id": "ten-of-pentacles",
+      "number": 10,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Ten of Pentacles",
+      "name_vi": "Mười Tiền",
+      "image_filename": "ten-of-pentacles.jpg",
+      "upright_keywords": [
+        "di sản",
+        "thịnh vượng lâu dài",
+        "gia đình",
+        "ổn định thế hệ"
+      ],
+      "reversed_keywords": [
+        "mất mát tài sản",
+        "bất hòa gia đình vì tiền bạc",
+        "bất ổn",
+        "kế hoạch tài chính đổ vỡ"
+      ]
+    },
+    {
+      "id": "page-of-pentacles",
+      "number": 11,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Page of Pentacles",
+      "name_vi": "Thị Đồng Tiền",
+      "image_filename": "page-of-pentacles.jpg",
+      "upright_keywords": [
+        "cơ hội học hỏi",
+        "tham vọng thực tế",
+        "tin tức tài chính",
+        "chăm chỉ học hỏi"
+      ],
+      "reversed_keywords": [
+        "thiếu kế hoạch",
+        "cơ hội bị bỏ lỡ",
+        "thiếu tập trung",
+        "trì hoãn học hỏi"
+      ]
+    },
+    {
+      "id": "knight-of-pentacles",
+      "number": 12,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Knight of Pentacles",
+      "name_vi": "Kỵ Sĩ Tiền",
+      "image_filename": "knight-of-pentacles.jpg",
+      "upright_keywords": [
+        "chăm chỉ",
+        "đáng tin cậy",
+        "kiên trì",
+        "thực tế"
+      ],
+      "reversed_keywords": [
+        "trì trệ",
+        "cứng nhắc",
+        "lười biếng",
+        "sợ thay đổi"
+      ]
+    },
+    {
+      "id": "queen-of-pentacles",
+      "number": 13,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "Queen of Pentacles",
+      "name_vi": "Nữ Hoàng Tiền",
+      "image_filename": "queen-of-pentacles.jpg",
+      "upright_keywords": [
+        "nuôi dưỡng",
+        "thực tế",
+        "sung túc",
+        "chăm sóc gia đình"
+      ],
+      "reversed_keywords": [
+        "mất cân bằng công việc-cuộc sống",
+        "bất an tài chính",
+        "thờ ơ",
+        "quá bảo bọc"
+      ]
+    },
+    {
+      "id": "king-of-pentacles",
+      "number": 14,
+      "arcana": "minor",
+      "suit": "pentacles",
+      "name_en": "King of Pentacles",
+      "name_vi": "Vua Tiền",
+      "image_filename": "king-of-pentacles.jpg",
+      "upright_keywords": [
+        "thành công vật chất",
+        "ổn định",
+        "lãnh đạo kinh doanh",
+        "hào phóng"
+      ],
+      "reversed_keywords": [
+        "tham lam",
+        "cứng nhắc",
+        "ám ảnh vật chất",
+        "kiểm soát quá mức"
+      ]
+    }
+  ]
+}
