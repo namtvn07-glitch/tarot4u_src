@@ -1,6 +1,14 @@
+import React from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
 import { SUPPORT_EMAIL } from "@/lib/legal-contact";
+
+export const metadata: Metadata = {
+  title: "Điều Khoản Sử Dụng",
+  description:
+    "Điều khoản và điều kiện sử dụng dịch vụ chiêm nghiệm trực tuyến Ventus Tarot.",
+};
 
 export default function DieuKhoanPage() {
   return (

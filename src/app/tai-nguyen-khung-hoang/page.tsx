@@ -1,6 +1,13 @@
 import React from "react";
+import type { Metadata } from "next";
 import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
 import { PhoneCall, HeartHandshake, ShieldAlert } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Tài Nguyên Hỗ Trợ Khủng Hoảng",
+  description:
+    "Danh sách các đường dây nóng và tổ chức chuyên môn hỗ trợ tâm lý khẩn cấp.",
+};
 
 export default function CrisisResourcePage() {
   return (

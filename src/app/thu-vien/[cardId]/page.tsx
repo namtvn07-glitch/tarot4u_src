@@ -1,67 +1,78 @@
-"use client";
-
-import React, { use } from "react";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-import { CardDetailScreen } from "@/screens/CardDetailScreen";
+import React from "react";
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { TAROT_CARDS } from "@/data/tarotCards";
-import { useAuthUser } from "@/lib/useAuthUser";
+import { LibraryChrome } from "@/components/library/LibraryChrome";
+import { CardDetailPageClient } from "@/components/library/CardDetailPageClient";
+import { buildArticleJsonLd, buildBreadcrumbJsonLd } from "@/lib/structured-data";
 
-export default function CardDetailPage({
-  params,
-}: {
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return TAROT_CARDS.map((card) => ({
+    cardId: card.id,
+  }));
+}
+
+interface CardPageProps {
   params: Promise<{ cardId: string }>;
-}) {
-  const { cardId } = use(params);
-  const card = TAROT_CARDS.find((c) => c.id === cardId) || TAROT_CARDS[0];
-  const { user, logout } = useAuthUser();
+}
+
+export async function generateMetadata({ params }: CardPageProps): Promise<Metadata> {
+  const { cardId } = await params;
+  const card = TAROT_CARDS.find((c) => c.id === cardId);
+
+  if (!card) {
+    return {
+      title: "Không Tìm Thấy Lá Bài",
+    };
+  }
+
+  const title = `${card.nameVi} (${card.name}) — Ý Nghĩa Lá Bài Tarot`;
+  const description =
+    card.psychologySummary ||
+    card.quote ||
+    `Khám phá ý nghĩa chi tiết lá bài Tarot ${card.nameVi} (${card.name}) trong tình yêu, sự nghiệp và đời sống.`;
+  const imageFilename = card.image_filename || `${card.id}.jpg`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "article",
+      images: [`/cards/${imageFilename}`],
+    },
+  };
+}
+
+export default async function CardDetailPage({ params }: CardPageProps) {
+  const { cardId } = await params;
+  const card = TAROT_CARDS.find((c) => c.id === cardId);
+
+  if (!card) {
+    notFound();
+  }
+
+  const articleJsonLd = buildArticleJsonLd(card);
+  const breadcrumbJsonLd = buildBreadcrumbJsonLd([
+    { name: "Trang chủ", url: "/" },
+    { name: "Thư Viện 78 Lá Bài", url: "/thu-vien" },
+    { name: card.nameVi, url: `/thu-vien/${card.id}` },
+  ]);
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header
-        currentScreen="library"
-        user={user}
-        onOpenTopUp={() => {
-          if (typeof window !== "undefined") {
-            window.location.href = "/nap-credits";
-          }
-        }}
-        onOpenAuth={() => {
-          if (typeof window !== "undefined") {
-            window.location.href = "/dang-nhap";
-          }
-        }}
-        onLogout={logout}
-        onNavigate={(screen) => {
-          if (typeof window !== "undefined") {
-            if (screen === "home") window.location.href = "/";
-            if (screen === "quick-read") window.location.href = "/trai-bai";
-            if (screen === "deep-read") window.location.href = "/doc-sau";
-            if (screen === "library") window.location.href = "/thu-vien";
-            if (screen === "account") window.location.href = "/tai-khoan";
-          }
-        }}
+    <LibraryChrome currentScreen="library">
+      <CardDetailPageClient card={card} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
       />
-
-      <main className="flex-grow flex flex-col relative z-10">
-        <CardDetailScreen
-          card={card}
-          onNavigate={(screen) => {
-            if (typeof window !== "undefined") {
-              if (screen === "library") window.location.href = "/thu-vien";
-              if (screen === "deep-read") window.location.href = "/doc-sau";
-              if (screen === "home") window.location.href = "/";
-            }
-          }}
-          onStartDeepReadWithInquiry={(inquiry) => {
-            if (typeof window !== "undefined") {
-              window.location.href = `/doc-sau?inquiry=${encodeURIComponent(inquiry)}`;
-            }
-          }}
-        />
-      </main>
-
-      <Footer />
-    </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+    </LibraryChrome>
   );
 }

@@ -1,5 +1,12 @@
 import React from "react";
+import type { Metadata } from "next";
 import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
+
+export const metadata: Metadata = {
+  title: "Chính Sách Quyền Riêng Tư",
+  description:
+    "Cam kết bảo vệ dữ liệu cá nhân, thông tin tài khoản và lịch sử trải bài tại Ventus Tarot.",
+};
 
 export default function PrivacyPolicyPage() {
   return (

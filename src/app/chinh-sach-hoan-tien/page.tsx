@@ -1,6 +1,13 @@
 import React from "react";
+import type { Metadata } from "next";
 import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
 import { SUPPORT_EMAIL } from "@/lib/legal-contact";
+
+export const metadata: Metadata = {
+  title: "Chính Sách Hoàn Tiền",
+  description:
+    "Quy định hoàn trả Credits và xử lý giao dịch tại Ventus Tarot.",
+};
 
 export default function RefundPolicyPage() {
   return (

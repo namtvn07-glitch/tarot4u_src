@@ -13,7 +13,10 @@ const fieldSchemas = {
   SUPABASE_SERVICE_ROLE_KEY: isProd
     ? z.string().min(1)
     : z.string().min(1).default("placeholder-service-role-key"),
-  NEXT_PUBLIC_SITE_URL: z.string().url().default("http://localhost:3000"),
+  NEXT_PUBLIC_SITE_URL: isProd
+    ? z.string().url()
+    : z.string().url().default("http://localhost:3000"),
+  GOOGLE_SITE_VERIFICATION: z.string().min(1).optional(),
   NEXT_PUBLIC_SENTRY_DSN: z.string().url().optional(),
   SENTRY_DSN: z.string().url().optional(),
   
@@ -55,6 +58,7 @@ const RAW_ENV: Record<keyof Env, string | undefined> = {
   NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
   SUPABASE_SERVICE_ROLE_KEY: process.env.SUPABASE_SERVICE_ROLE_KEY,
   NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
+  GOOGLE_SITE_VERIFICATION: process.env.GOOGLE_SITE_VERIFICATION,
   NEXT_PUBLIC_SENTRY_DSN: process.env.NEXT_PUBLIC_SENTRY_DSN,
   SENTRY_DSN: process.env.SENTRY_DSN,
   ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
