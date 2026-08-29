@@ -37,9 +37,7 @@ export async function triageQuestion(question: string): Promise<Triage> {
     userTurn: question,
     schemaName: "triage",
     schema: TriageSchema,
-    // 1024, không phải ~200 — vài provider (Gemini) không cho tắt "thinking"
-    // qua config, nên cần đủ ngân sách cho cả phần suy luận ẩn lẫn JSON trả
-    // về ở cuối, dù JSON thật chỉ cỡ vài chục token.
+    // 1024 token để đảm bảo model có đủ ngân sách thinking + JSON đầu ra
     maxTokens: 1024,
   });
 }

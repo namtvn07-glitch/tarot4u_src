@@ -22,17 +22,22 @@ export async function POST(request: Request) {
   }
   const { topic, question } = parsed.data;
 
+  // Bắt đầu gọi kiểm duyệt AI song song với xác thực & rate-limit để giảm tối đa độ trễ
+  const triagePromise = triageQuestion(question).catch((err) => {
+    Sentry.captureException(err, { extra: { topic } });
+    return null;
+  });
+
   const user = await requireUser();
   if (!user) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
-  // 10 lượt/giờ — chống spam AI call tốn phí, đủ rộng cho user thật. Key có
-  // tiền tố route (không chỉ `user:<id>`) để không đụng bucket với các route
-  // rate-limit khác (`reading-quick:user:<id>`, `orders-create:user:<id>`).
+  // 30 lượt/giờ theo đúng spec Research/plan/06-bao-mat-kiem-duyet-phap-ly.md §2.2 (100 trong dev để test thoải mái)
+  const rateLimitCount = process.env.NODE_ENV === "development" ? 100 : 30;
   let allowed: boolean;
   try {
-    allowed = await checkRateLimit(`reading-deep-shuffle:user:${user.id}`, 3600, 10);
+    allowed = await checkRateLimit(`reading-deep-shuffle:user:${user.id}`, 3600, rateLimitCount);
   } catch (rateLimitError) {
     Sentry.captureException(rateLimitError, { extra: { userId: user.id } });
     return NextResponse.json({ error: "rate_limit_check_failed" }, { status: 500 });
@@ -41,11 +46,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "rate_limited" }, { status: 429 });
   }
 
-  let triage;
-  try {
-    triage = await triageQuestion(question);
-  } catch (error) {
-    Sentry.captureException(error, { extra: { userId: user.id, topic } });
+  const triage = await triagePromise;
+  if (!triage) {
     return NextResponse.json({ error: "moderation_failed" }, { status: 500 });
   }
 

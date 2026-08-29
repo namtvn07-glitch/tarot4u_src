@@ -12,6 +12,7 @@ interface HeaderProps {
   onOpenTopUp: () => void;
   onOpenAuth: () => void;
   onLogout: () => void;
+  isBusy?: boolean;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -21,10 +22,12 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenTopUp,
   onOpenAuth,
   onLogout,
+  isBusy = false,
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleNavClick = (screen: AppScreen) => {
+    if (isBusy) return;
     if (onNavigate) {
       onNavigate(screen);
     }
@@ -32,7 +35,12 @@ export const Header: React.FC<HeaderProps> = ({
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full px-4 sm:px-8 py-3.5 flex items-center justify-between border-b border-[#3d3123]/70 bg-[#050505]/85 backdrop-blur-xl transition-all duration-300">
+    <header
+      aria-busy={isBusy}
+      className={`sticky top-0 z-40 w-full px-4 sm:px-8 py-3.5 flex items-center justify-between border-b border-[#3d3123]/70 bg-[#050505]/85 backdrop-blur-xl transition-all duration-300 ${
+        isBusy ? "pointer-events-none opacity-50 select-none cursor-wait" : ""
+      }`}
+    >
       {/* Brand Logo */}
       <div
         onClick={() => handleNavClick("home")}

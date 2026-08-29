@@ -11,6 +11,7 @@ import { useAuthUser } from "@/lib/useAuthUser";
 export default function DocSauPage() {
   const [isTopUpOpen, setIsTopUpOpen] = useState(false);
   const [isAuthOpen, setIsAuthOpen] = useState(false);
+  const [isBusy, setIsBusy] = useState(false);
   const { user, setUser, logout, addCredits, deductCredit } = useAuthUser();
 
   return (
@@ -18,6 +19,7 @@ export default function DocSauPage() {
       <Header
         currentScreen="deep-read"
         user={user}
+        isBusy={isBusy}
         onOpenTopUp={() => {
           if (!user.isLoggedIn) {
             setIsAuthOpen(true);
@@ -41,6 +43,7 @@ export default function DocSauPage() {
         <DeepReadScreen
           credits={user.credits}
           onDeductCredit={deductCredit}
+          onBusyChange={setIsBusy}
           onSaveReading={(reading) => {
             if (typeof window !== "undefined") {
               const prev = JSON.parse(localStorage.getItem("ventus_readings") || "[]");

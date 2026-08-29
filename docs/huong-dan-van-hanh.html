@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Ventus Tarot — Cẩm Nang Vận Hành, Giám Sát & Bảo Trì Hệ Thống</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap');
+
+    @page {
+      size: A4;
+      margin: 12mm 15mm;
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #0b0b0d;
+      color: #e2d9cc;
+      line-height: 1.5;
+      font-size: 12px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .section-block {
+      page-break-inside: avoid;
+    }
+
+    /* Typography */
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      color: #d4af37;
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 22px;
+      line-height: 1.2;
+      border-bottom: 2px solid #8f5a1f;
+      padding-bottom: 6px;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 16px;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border-left: 3px solid #d4af37;
+      padding-left: 8px;
+    }
+
+    h3 {
+      font-size: 13px;
+      color: #f3ece1;
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+
+    p {
+      margin: 0 0 8px 0;
+      color: #b3a48d;
+    }
+
+    /* Badges & Accents */
+    .badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-gold {
+      background: rgba(212, 175, 55, 0.15);
+      color: #d4af37;
+      border: 1px solid rgba(212, 175, 55, 0.3);
+    }
+
+    .badge-green {
+      background: rgba(95, 191, 140, 0.15);
+      color: #5fbf8c;
+      border: 1px solid rgba(95, 191, 140, 0.3);
+    }
+
+    .badge-red {
+      background: rgba(240, 96, 95, 0.15);
+      color: #f0605f;
+      border: 1px solid rgba(240, 96, 95, 0.3);
+    }
+
+    /* Cards & Containers */
+    .card {
+      background: #141316;
+      border: 1px solid #2a251e;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 10px;
+      page-break-inside: avoid;
+    }
+
+    .card-highlight {
+      border-color: rgba(212, 175, 55, 0.4);
+      background: linear-gradient(145deg, #181513, #12100f);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 12px 0;
+      font-size: 11px;
+      page-break-inside: avoid;
+    }
+
+    th {
+      background: #1a1612;
+      color: #d4af37;
+      text-align: left;
+      padding: 6px 8px;
+      border-bottom: 1px solid #3d3123;
+      font-weight: 600;
+    }
+
+    td {
+      padding: 6px 8px;
+      border-bottom: 1px solid #221c17;
+      color: #c9bfaf;
+    }
+
+    tr:nth-child(even) td {
+      background: #100f12;
+    }
+
+    /* Code & SQL */
+    pre, code {
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 10.5px;
+    }
+
+    code {
+      background: #1f1b16;
+      color: #e6b84d;
+      padding: 1px 4px;
+      border-radius: 3px;
+      border: 1px solid #382c1f;
+    }
+
+    pre {
+      background: #0d0c0e;
+      border: 1px solid #2d261e;
+      border-radius: 6px;
+      padding: 8px 10px;
+      overflow-x: auto;
+      color: #e2d9cc;
+      margin: 6px 0 8px 0;
+      page-break-inside: avoid;
+    }
+
+    /* Alerts */
+    .alert {
+      padding: 8px 10px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      font-size: 11px;
+      page-break-inside: avoid;
+    }
+
+    .alert-warning {
+      background: rgba(212, 175, 55, 0.1);
+      border: 1px solid rgba(212, 175, 55, 0.3);
+      color: #e6cf8b;
+    }
+
+    /* Header / Footer Meta */
+    .doc-header {
+      text-align: center;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #2e261d;
+    }
+
+    .doc-title {
+      font-size: 20px;
+      color: #d4af37;
+      letter-spacing: 0.5px;
+      margin-bottom: 2px;
+    }
+
+    .doc-subtitle {
+      font-size: 11.5px;
+      color: #8c7e6c;
+    }
+
+    .footer-meta {
+      font-size: 9.5px;
+      color: #635747;
+      text-align: center;
+      margin-top: 14px;
+      border-top: 1px solid #1c1813;
+      padding-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TRANG 1: TỔNG QUAN & GIÁM SÁT -->
+  <div class="doc-header">
+    <div class="badge badge-gold" style="margin-bottom: 6px;">TÀI LIỆU VẬN HÀNH SẢN PHẨM PRODUCTION</div>
+    <div class="doc-title">VENTUS TAROT — CẨM NANG VẬN HÀNH & BẢO TRÌ</div>
+    <div class="doc-subtitle">Sổ tay hướng dẫn giám sát sức khỏe, đối soát dòng tiền và quy trình ứng cứu khẩn cấp</div>
+  </div>
+
+  <h2>1. Tổng quan Kiến trúc Vận hành Hệ thống</h2>
+  <div class="card card-highlight">
+    <p style="margin-bottom: 6px;"><strong style="color: #f3ece1;">Kiến trúc dịch vụ 24/7 của Ventus Tarot bao gồm 4 khối thành phần chính:</strong></p>
+    <div class="grid-2">
+      <div>
+        <span class="badge badge-green">Frontend & Edge API</span>
+        <p style="font-size: 11px; margin-top: 4px;"><strong>Vercel Serverless</strong>: Render 104 static/SSG pages, CDN toàn cầu, Edge Middleware & Cron Jobs định kỳ.</p>
+      </div>
+      <div>
+        <span class="badge badge-green">Cơ sở dữ liệu & Auth</span>
+        <p style="font-size: 11px; margin-top: 4px;"><strong>Supabase PostgreSQL</strong>: Quản lý Authentication (Google OAuth/OTP), RLS bảo mật & bảng Sổ cái kép.</p>
+      </div>
+      <div>
+        <span class="badge badge-green">Trí tuệ Nhân tạo (AI Core)</span>
+        <p style="font-size: 11px; margin-top: 4px;"><strong>Google Gemini / Anthropic</strong>: Luận giải 2 lớp (Lớp Nền 780 tổ hợp + Lớp Cá Nhân Hóa stream real-time).</p>
+      </div>
+      <div>
+        <span class="badge badge-green">Thanh toán Tức thì</span>
+        <p style="font-size: 11px; margin-top: 4px;"><strong>PayOS (VietQR)</strong>: Sinh mã QR động chuẩn Napas247, nhận Webhook tự động cộng Credits thời gian thực.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>2. Chi tiết 5 Trụ Cột Giám Sát Sức Khỏe (Monitoring)</h2>
+  
+  <div class="card">
+    <h3 style="margin-top: 0; color: #d4af37;">A. Giám sát Ứng dụng & Serverless (Vercel)</h3>
+    <ul style="margin: 0; padding-left: 16px; color: #c9bfaf;">
+      <li><strong>Vercel Runtime Logs:</strong> Theo dõi real-time các request. Lọc status <code>500</code> hoặc <code>504 Gateway Timeout</code>.</li>
+      <li><strong>Speed Insights:</strong> Giám sát Core Web Vitals của 78 trang lá bài (LCP &lt; 2.5s, CLS &lt; 0.1, INP &lt; 200ms).</li>
+      <li><strong>Cron Jobs:</strong> Kiểm tra trạng thái chạy thành công của 2 job dọn dẹp (<code>expire-orders</code> & <code>rate-limits</code>).</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3 style="margin-top: 0; color: #d4af37;">B. Giám sát Database & Phân quyền Bảo mật (Supabase)</h3>
+    <ul style="margin: 0; padding-left: 16px; color: #c9bfaf;">
+      <li><strong>Tài nguyên máy chủ:</strong> CPU usage duy trì &lt; 30%, RAM ổn định, Disk IOPS không bị nghẽn.</li>
+      <li><strong>Auth Logs:</strong> Theo dõi tỷ lệ đăng nhập thành công qua Google OAuth và Email OTP.</li>
+      <li><strong>Sao lưu dữ liệu:</strong> Kiểm tra Daily Backups được lưu trữ an toàn trên Supabase.</li>
+    </ul>
+  </div>
+
+  <!-- PHẦN ĐỐI SOÁT DÒNG TIỀN -->
+  <h2>3. Đối Soát Dòng Tiền & Chống Gian Lận Credits (Ledger Audit)</h2>
+  <div class="card card-highlight">
+    <p><strong style="color: #d4af37;">Nguyên tắc Sổ cái kép:</strong> Số dư tại <code>profiles.credits</code> bắt buộc phải bằng tổng tất cả giao dịch nạp/trừ trong bảng <code>ledger</code>. Không có bất kỳ API nào được phép update trực tiếp cột credits.</p>
+    
+    <p style="margin-bottom: 2px;"><strong style="color: #f3ece1;">Câu lệnh SQL đối soát tự động trên Supabase SQL Editor:</strong></p>
+<pre><code>-- Kiểm tra phát hiện tài khoản bị lệch credits:
+SELECT 
+  p.id, p.email, 
+  p.credits AS current_credits,
+  COALESCE(SUM(l.amount), 0) AS calculated_credits,
+  (p.credits - COALESCE(SUM(l.amount), 0)) AS diff
+FROM profiles p
+LEFT JOIN ledger l ON p.id = l.user_id
+GROUP BY p.id, p.email, p.credits
+HAVING (p.credits - COALESCE(SUM(l.amount), 0)) != 0;</code></pre>
+    <div class="alert alert-warning" style="margin-bottom: 0;">
+      💡 <strong>Đánh giá kết quả:</strong> Nếu query trả về <code>0 rows</code>, toàn bộ tài khoản và dòng tiền trên hệ thống hoàn toàn cân bằng và chính xác 100%.
+    </div>
+  </div>
+
+  <!-- BẢO TRÌ & AI BUDGET -->
+  <h2>4. Kiểm Soát Chi Phí & Hạn Mức API AI</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Hạng mục</th>
+        <th>Cơ chế kiểm soát</th>
+        <th>Mục tiêu an toàn</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Spend Limit (Google AI / OpenAI)</strong></td>
+        <td>Đặt Hard Cap Budget trong Google Cloud Console / OpenAI Billing.</td>
+        <td>Không vượt quá ngân sách trần (Ví dụ $10–$20/tháng).</td>
+      </tr>
+      <tr>
+        <td><strong>Rate Limiting</strong></td>
+        <td>Bảng <code>rate_limits</code> chặn IP spam request vượt quá hạn mức.</td>
+        <td>Ngăn chặn triệt để bot cào phá ngân sách AI.</td>
+      </tr>
+      <tr>
+        <td><strong>Triage AI Filter</strong></td>
+        <td>Lớp lọc câu hỏi độc hại, bạo lực, tự hại trước khi gọi AI sâu.</td>
+        <td>Bảo vệ an toàn đạo đức và tiết kiệm token AI.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>5. Lịch Trình Bảo Trì Định Kỳ (Maintenance Schedule)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 20%;">Tần suất</th>
+        <th style="width: 60%;">Nội dung công việc</th>
+        <th style="width: 20%;">Thời gian</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="badge badge-gold">HÀNG NGÀY</span></td>
+        <td>- Mở Vercel Logs rà soát lỗi đỏ 500/504.<br>- Kiểm tra Dashboard PayOS xem tỷ lệ thanh toán thành công.</td>
+        <td>~3 phút</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-green">HÀNG TUẦN</span></td>
+        <td>- Chạy câu lệnh SQL đối soát credits vs ledger.<br>- Kiểm tra ngân sách tiêu thụ trên Google Cloud/OpenAI Console.<br>- Xem báo cáo người dùng mới trên Supabase.</td>
+        <td>~5 phút</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-gold">HÀNG THÁNG</span></td>
+        <td>- Tải bản snapshot backup database từ Supabase về máy lưu trữ.<br>- Rà soát Google Search Console về tình trạng index của 78 lá bài.</td>
+        <td>~10 phút</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- SỔ TAY ỨNG CỨU KHẨN CẤP -->
+  <h2>6. Sổ Tay Ứng Cứu Khẩn Cấp (Emergency Runbook)</h2>
+
+  <div class="card">
+    <h3 style="color: #f0605f; display: flex; align-items: center; gap: 6px; margin-top: 0;">
+      <span>🚨 Tình huống 1: Người dùng đã chuyển khoản ngân hàng nhưng chưa nhận được Credits</span>
+    </h3>
+    <ol style="margin: 4px 0 0 0; padding-left: 16px; color: #c9bfaf; font-size: 11.5px;">
+      <li>Truy cập <strong>PayOS Dashboard</strong> &rarr; Mục <strong>Giao dịch</strong> &rarr; Tìm mã đơn hoặc mã chuyển khoản của khách.</li>
+      <li>Kiểm tra trạng thái Webhook. Nếu báo thất bại (do timeout mạng), nhấn nút <strong>"Gửi lại Webhook" (Resend Webhook)</strong>.</li>
+      <li>Hệ thống Ventus Tarot có cơ chế Webhook Idempotent tự động cộng bù Credits an toàn mà không bao giờ bị cộng trùng lặp.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h3 style="color: #f0605f; display: flex; align-items: center; gap: 6px; margin-top: 0;">
+      <span>🚨 Tình huống 2: AI đột ngột báo lỗi hoặc hết hạn mức (API Quota Exceeded)</span>
+    </h3>
+    <ol style="margin: 4px 0 0 0; padding-left: 16px; color: #c9bfaf; font-size: 11.5px;">
+      <li>Tạo ngay 1 API Key mới tại <strong>Google AI Studio</strong> (hoặc đổi sang <code>AI_PROVIDER=openai</code> / <code>anthropic</code> dự phòng).</li>
+      <li>Vào <strong>Vercel</strong> &rarr; <strong>Settings</strong> &rarr; <strong>Environment Variables</strong> &rarr; Cập nhật giá trị key mới.</li>
+      <li>Vào tab <strong>Deployments</strong> &rarr; Chọn bản build mới nhất &rarr; Nhấn <strong>Redeploy</strong>. Hệ thống phục hồi trong 30 giây.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h3 style="color: #f0605f; display: flex; align-items: center; gap: 6px; margin-top: 0;">
+      <span>🚨 Tình huống 3: Website bị tấn công spam / DDoS</span>
+    </h3>
+    <ol style="margin: 4px 0 0 0; padding-left: 16px; color: #c9bfaf; font-size: 11.5px;">
+      <li>Bật tính năng <strong>Attack Challenge Mode (Under Attack)</strong> trên Vercel Security hoặc Cloudflare (nếu trỏ DNS qua Cloudflare).</li>
+      <li>Kiểm tra bảng <code>rate_limits</code> trên Supabase để xác định IP bất thường và thêm vào danh sách chặn.</li>
+    </ol>
+  </div>
+
+  <h2>7. Thông Tin Liên Hệ & Quản Trị Hệ Thống</h2>
+  <div class="card card-highlight">
+    <div class="grid-2" style="margin-bottom: 0;">
+      <div>
+        <p style="margin: 0; font-size: 11.5px;"><strong>Hộp thư hỗ trợ kỹ thuật:</strong> <span style="color: #d4af37;">namtvn07@gmail.com</span></p>
+        <p style="margin: 4px 0 0 0; font-size: 11.5px;"><strong>Quản lý Vercel:</strong> <span style="color: #5fbf8c;">vercel.com/dashboard</span></p>
+      </div>
+      <div>
+        <p style="margin: 0; font-size: 11.5px;"><strong>Quản lý Supabase:</strong> <span style="color: #5fbf8c;">supabase.com/dashboard</span></p>
+        <p style="margin: 4px 0 0 0; font-size: 11.5px;"><strong>Cổng thanh toán:</strong> <span style="color: #5fbf8c;">payos.vn</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-meta">
+    Ventus Tarot System Documentation · Generated on August 29, 2026 · Confidential & Internal Use Only
+  </div>
+
+</body>
+</html>

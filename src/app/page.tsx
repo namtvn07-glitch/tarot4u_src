@@ -16,7 +16,7 @@ import { CardDetailScreen } from "@/screens/CardDetailScreen";
 import { AccountScreen } from "@/screens/AccountScreen";
 
 import { TAROT_CARDS } from "@/data/tarotCards";
-import type { AppScreen, TarotCard, UserProfile, ReadingHistoryItem } from "@/types/tarot";
+import type { AppScreen, TarotCard, UserProfile, ReadingHistoryItem, Topic } from "@/types/tarot";
 import { useAuthUser } from "@/lib/useAuthUser";
 import { createClient } from "@/lib/supabase/client";
 
@@ -30,6 +30,7 @@ export default function App() {
     TAROT_CARDS.find((c) => c.id === "the-magician") || TAROT_CARDS[1] || TAROT_CARDS[0]
   );
   const [deepReadInquiry, setDeepReadInquiry] = useState<string>("");
+  const [deepReadTopic, setDeepReadTopic] = useState<Topic>("general");
 
   // Modals
   const [isTopUpOpen, setIsTopUpOpen] = useState(false);
@@ -54,7 +55,7 @@ export default function App() {
               id: r.id,
               date: new Date(r.created_at).toLocaleDateString("vi-VN"),
               topic: r.topic,
-              topicVi: r.topic === "love" ? "Tình Yêu" : r.topic === "career" ? "Sự Nghiệp" : r.topic === "finance" ? "Tài Chính" : "Tổng Quan",
+              topicVi: r.topic === "love" ? "Tình Yêu" : r.topic === "career" ? "Sự Nghiệp" : r.topic === "finance" ? "Tài Chính" : r.topic === "spiritual" ? "Tâm Linh" : "Tổng Quan",
               question: r.question,
               cards: (r.cards_drawn || []).map((c: any, i: number) => ({
                 name: c.card_id,
@@ -67,8 +68,8 @@ export default function App() {
             }));
             setReadings(formatted);
           }
-        } catch {
-          // ignore
+        } catch (e) {
+          console.error("Error fetching readings", e);
         }
       };
 
@@ -97,6 +98,7 @@ export default function App() {
       spiritual: "Tôi cần lắng nghe thông điệp nội tâm nào để tìm thấy sự bình yên?",
       general: "Bức tranh tổng quan và lời khuyên soi sáng cho giai đoạn này là gì?",
     };
+    setDeepReadTopic((topicId as Topic) || "general");
     setDeepReadInquiry(topicPrompts[topicId] || "");
     handleNavigate("deep-read");
   };
@@ -105,6 +107,8 @@ export default function App() {
     setSelectedCardDetail(card);
     handleNavigate("card-detail");
   };
+
+  const [isBusy, setIsBusy] = useState(false);
 
   const handleStartDeepReadWithInquiry = (inquiry: string) => {
     setDeepReadInquiry(inquiry);
@@ -118,6 +122,7 @@ export default function App() {
         currentScreen={currentScreen}
         onNavigate={handleNavigate}
         user={user}
+        isBusy={isBusy}
         onOpenTopUp={() => {
           if (!user.isLoggedIn) {
             setIsAuthOpen(true);
@@ -149,12 +154,14 @@ export default function App() {
 
         {currentScreen === "deep-read" && (
           <DeepReadScreen
-            key={deepReadInquiry}
+            key={`${deepReadTopic}-${deepReadInquiry}`}
             initialInquiry={deepReadInquiry}
+            initialTopic={deepReadTopic}
             onNavigate={handleNavigate}
             credits={user.credits}
             onDeductCredit={deductCredit}
             onSaveReading={handleSaveReading}
+            onBusyChange={setIsBusy}
             onOpenTopUp={() => {
               if (!user.isLoggedIn) {
                 setIsAuthOpen(true);
