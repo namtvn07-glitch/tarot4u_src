@@ -1,0 +1,7 @@
+# Auth
+
+### Google OAuth "không dùng được", không có lỗi rõ ràng trong code
+- **Symptom**: Bấm "Đăng nhập bằng Google" không hoàn tất đăng nhập, không redirect tới Google, không có lỗi console rõ ràng phía client.
+- **Root cause**: Provider Google chưa được bật trong Supabase Auth Dashboard của project **remote/production**. `SUPABASE_AUTH_GOOGLE_CLIENT_ID`/`SUPABASE_AUTH_GOOGLE_SECRET` trong `.env.local` chỉ được đọc bởi `supabase/config.toml` — tức chỉ áp dụng cho **local Supabase CLI stack**, không hề cấu hình project remote. Xác nhận qua Supabase Auth logs (`query_logs`, `source='auth_logs'`): `GET /authorize` trả `400`, `error: "provider is not enabled"`.
+- **Fix**: Dashboard → Authentication → Providers → Google → bật toggle, dán Client ID/Secret (dùng lại giá trị trong `.env.local`). Đồng thời kiểm tra Google Cloud Console → OAuth Client → Authorized redirect URIs có đúng `https://<project-ref>.supabase.co/auth/v1/callback` — lỗi kế tiếp thường gặp ngay sau khi bật provider nếu bỏ sót bước này.
+- **Prevention**: Env var có tên giống hệt config Dashboard dễ khiến tưởng nhầm là chỉ cần set env là đủ. Bất kỳ provider Auth nào (Google, GitHub, ...) đều cần bật + cấu hình riêng ở Dashboard cho **từng project** (dev/staging/production đều phải làm lại nếu là project Supabase khác nhau) — env var trong repo không tự động đồng bộ sang đó. Khi thêm provider mới, luôn dùng Auth logs (`error_code: validation_failed`, `"provider is not enabled"`) để xác nhận nhanh trước khi nghi ngờ code.
