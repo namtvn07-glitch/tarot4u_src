@@ -9,6 +9,7 @@ import { AuthModal } from "@/components/AuthModal";
 import { ReadingDetailModal } from "@/components/ReadingDetailModal";
 import type { ReadingHistoryItem, UserProfile } from "@/types/tarot";
 import { createClient } from "@/lib/supabase/client";
+import { findCardById } from "@/lib/cards";
 
 export default function TaiKhoanPage() {
   const [isTopUpOpen, setIsTopUpOpen] = useState(false);
@@ -60,13 +61,16 @@ export default function TaiKhoanPage() {
               topic: r.topic,
               topicVi: r.topic === "love" ? "Tình Yêu" : r.topic === "career" ? "Sự Nghiệp" : r.topic === "finance" ? "Tài Chính" : "Tổng Quan",
               question: r.question,
-              cards: (r.cards_drawn || []).map((c: any, i: number) => ({
-                name: c.card_id,
-                nameVi: c.card_id,
-                image: `/cards/${c.card_id}.jpg`,
-                orientation: c.orientation || "upright",
-                position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
-              })),
+              cards: (r.cards_drawn || []).map((c: any, i: number) => {
+                const card = findCardById(c.card_id);
+                return {
+                  name: card?.name_en ?? c.card_id,
+                  nameVi: card?.name_vi ?? c.card_id,
+                  image: `/cards/${card?.image_filename ?? `${c.card_id}.jpg`}`,
+                  orientation: c.orientation || "upright",
+                  position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
+                };
+              }),
               personalBody: r.personal_body,
             }));
             setReadings(formatted);
@@ -89,6 +93,12 @@ export default function TaiKhoanPage() {
 
     loadUserData();
   }, []);
+
+  async function handleDeleteReading(id: string) {
+    const res = await fetch(`/api/readings/${id}`, { method: "DELETE" });
+    if (!res.ok) throw new Error("delete_failed");
+    setReadings((prev) => prev.filter((r) => r.id !== id));
+  }
 
   const handleLogout = async () => {
     try {
@@ -146,6 +156,7 @@ export default function TaiKhoanPage() {
             }
           }}
           onViewReadingDetail={(reading) => setSelectedReading(reading)}
+          onDeleteReading={handleDeleteReading}
         />
       </main>
 

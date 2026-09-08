@@ -109,6 +109,45 @@ const QUESTION_MAX = 300;
 const FAN_CARDS_COUNT = 19;
 const SESSION_STORAGE_KEY = "ventus_deep_session";
 
+// Mã lỗi trả về từ /api/reading/deep/{shuffle,reveal,personal} — trước đây
+// hiển thị thẳng mã này (vd. "invalid_or_expired_token") làm errorMessage,
+// lộ mã lỗi kỹ thuật ra UI thay vì câu tiếng Việt có thể hành động được.
+const READING_ERROR_MESSAGES: Record<string, string> = {
+  invalid_or_expired_token:
+    "Phiên trải bài đã hết hạn (quá 15 phút chưa hoàn tất). Vui lòng bắt đầu phiên mới.",
+  invalid_reveal_index: "Có lỗi khi lật lá bài. Vui lòng thử lại.",
+  base_content_unavailable: "Có lỗi dữ liệu lá bài. Vui lòng thử lại sau ít phút.",
+  debit_failed: "Không thể trừ Credits lúc này. Vui lòng thử lại.",
+  forbidden: "Phiên trải bài không hợp lệ cho tài khoản này.",
+  invalid_request: "Yêu cầu không hợp lệ. Vui lòng thử lại.",
+};
+
+function translateReadingError(code: string | undefined, fallback: string): string {
+  if (code && READING_ERROR_MESSAGES[code]) return READING_ERROR_MESSAGES[code];
+  return fallback;
+}
+
+// drawToken chỉ ký (HMAC), không mã hoá — phần payload (chứa "exp") đọc được
+// trực tiếp không cần secret. Dùng để biết TRƯỚC khi user bấm "trải lại" xem
+// token còn hiệu lực hay đã chắc chắn hết hạn, thay vì để họ bấm rồi mới lỗi
+// (server vẫn là nơi verify chữ ký thật — decode này chỉ để hiển thị UI).
+function isDrawTokenExpired(token: string): boolean {
+  try {
+    const [body] = token.split(".");
+    const base64 = body.replace(/-/g, "+").replace(/_/g, "/");
+    const json = decodeURIComponent(
+      atob(base64)
+        .split("")
+        .map((c) => "%" + c.charCodeAt(0).toString(16).padStart(2, "0"))
+        .join(""),
+    );
+    const payload = JSON.parse(json);
+    return typeof payload.exp !== "number" || Date.now() > payload.exp;
+  } catch {
+    return true;
+  }
+}
+
 interface CardDrawResult {
   cardId: string;
   name: string;
@@ -145,12 +184,26 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   const [copiedSuccess, setCopiedSuccess] = useState(false);
   const [drawToken, setDrawToken] = useState<string | null>(null);
   const [errorMessage, setErrorMessage] = useState<string>("");
+  // true khi lỗi khiến drawToken hiện tại chết hẳn (hết hạn/không hợp lệ) —
+  // mọi thao tác tiếp theo với cùng token (lật bài tiếp, mở khoá lại) đều sẽ
+  // lỗi y hệt, nên hiện thẳng lối thoát "bắt đầu phiên mới" thay vì để user
+  // bấm lại một hành động chắc chắn thất bại lần nữa.
+  const [sessionDead, setSessionDead] = useState(false);
   const [blockedData, setBlockedData] = useState<{ category: BlockedCategory } | null>(null);
   const [isRevealing, setIsRevealing] = useState(false);
   const [isShuffling, setIsShuffling] = useState(false);
   const [refundNotice, setRefundNotice] = useState<string | null>(null);
   const [showEffects, setShowEffects] = useState(false);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
+  // true chỉ khi nhận được event "done" từ /api/reading/deep/personal — phân
+  // biệt "đã luận giải xong" với "đang luận giải dở/bị gián đoạn" khi khôi
+  // phục sessionStorage (không có field này thì không biết streamedText rỗng
+  // là "chưa gọi" hay "gọi rồi nhưng đứt giữa chừng").
+  const [analysisComplete, setAnalysisComplete] = useState(false);
+  const [sessionRecoveryNotice, setSessionRecoveryNotice] = useState(false);
+  // Biết ngay lúc khôi phục — không đợi user bấm rồi mới lỗi — token của
+  // phiên gián đoạn có còn dùng lại được để "trải lại luận giải" hay không.
+  const [recoveredTokenExpired, setRecoveredTokenExpired] = useState(false);
 
   const questionInputId = useId();
   const abortControllerRef = useRef<AbortController | null>(null);
@@ -170,13 +223,27 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           // Check if session is recent (< 2 hours)
           if (data && Date.now() - (data.timestamp || 0) < 7200000) {
             if (data.phase && data.phase !== "inquiry" && data.drawToken) {
-              setPhase(data.phase);
+              // Luận giải dở/bị gián đoạn (mất mạng, đóng tab...) không có
+              // event "done" nên analysisComplete không được lưu true — khôi
+              // phục thẳng vào "analysis" lúc đó chỉ ra 1 spinner treo vĩnh
+              // viễn vì không có request nào chạy lại phía sau nó. Lùi về
+              // "revealed" thay vào đó: bộ 3 lá đã rút (đã lưu) vẫn còn
+              // nguyên, user chủ động chọn trải lại luận giải cho đúng bộ đó
+              // hoặc bắt đầu phiên mới — không tự ý gọi lại AI (tránh trừ
+              // credits ngoài ý muốn nếu user không còn muốn tiếp tục).
+              const wasInterrupted = data.phase === "analysis" && !data.analysisComplete;
+              setPhase(wasInterrupted ? "revealed" : data.phase);
               if (data.selectedTopic) setSelectedTopic(data.selectedTopic);
               if (data.inquiry) setInquiry(data.inquiry);
               if (data.drawToken) setDrawToken(data.drawToken);
               if (data.pickedSlotIndices) setPickedSlotIndices(data.pickedSlotIndices);
               if (data.selectedCards) setSelectedCards(data.selectedCards);
-              if (data.streamedText) setStreamedText(data.streamedText);
+              if (!wasInterrupted && data.streamedText) setStreamedText(data.streamedText);
+              if (!wasInterrupted && data.analysisComplete) setAnalysisComplete(true);
+              if (wasInterrupted) {
+                setSessionRecoveryNotice(true);
+                setRecoveredTokenExpired(isDrawTokenExpired(data.drawToken));
+              }
             }
           }
         }
@@ -201,6 +268,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               pickedSlotIndices,
               selectedCards,
               streamedText,
+              analysisComplete,
               timestamp: Date.now(),
             })
           );
@@ -211,7 +279,16 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
     } catch {
       // Ignore session write error
     }
-  }, [phase, selectedTopic, inquiry, drawToken, pickedSlotIndices, selectedCards, streamedText]);
+  }, [
+    phase,
+    selectedTopic,
+    inquiry,
+    drawToken,
+    pickedSlotIndices,
+    selectedCards,
+    streamedText,
+    analysisComplete,
+  ]);
 
   // Handle Tab Switch (Page Visibility API & Dynamic Tab Title)
   useEffect(() => {
@@ -262,6 +339,10 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
     setIsShuffling(true);
     setErrorMessage("");
     setBlockedData(null);
+    setAnalysisComplete(false);
+    setSessionRecoveryNotice(false);
+    setSessionDead(false);
+    setRecoveredTokenExpired(false);
     setRefundNotice(null);
     setShowEffects(false);
 
@@ -292,7 +373,9 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           setErrorMessage("Hệ thống kiểm duyệt AI đang bận hoặc gặp gián đoạn kết nối. Vui lòng thử lại sau vài giây.");
           return;
         } else {
-          setErrorMessage(data?.error || "Không thể khởi tạo phiên trải bài. Vui lòng thử lại.");
+          setErrorMessage(
+            translateReadingError(data?.error, "Không thể khởi tạo phiên trải bài. Vui lòng thử lại."),
+          );
           return;
         }
       }
@@ -350,7 +433,8 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
 
       if (!res.ok) {
         const errData = await res.json().catch(() => ({}));
-        setErrorMessage(errData.error || "Không thể lật lá bài. Vui lòng thử lại.");
+        setErrorMessage(translateReadingError(errData.error, "Không thể lật lá bài. Vui lòng thử lại."));
+        if (errData.error === "invalid_or_expired_token") setSessionDead(true);
         setPickedSlotIndices((prev) => prev.filter((idx) => idx !== slotIndex));
         setPendingSlotIndex(null);
         return;
@@ -408,6 +492,10 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
     setIsTyping(true);
     setErrorMessage("");
     setRefundNotice(null);
+    setAnalysisComplete(false);
+    setSessionRecoveryNotice(false);
+    setSessionDead(false);
+    setRecoveredTokenExpired(false);
 
     try {
       const res = await fetch("/api/reading/deep/personal", {
@@ -424,10 +512,16 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
         if (res.status === 402 || errorData.error === "insufficient_credits") {
           setErrorMessage("Số dư Credits không đủ để thực hiện luận giải.");
           onOpenTopUp();
+        } else if (res.status === 401) {
+          setErrorMessage("Phiên đăng nhập đã hết. Vui lòng tải lại trang và đăng nhập lại.");
         } else {
           setErrorMessage(
-            errorData.error || "Không thể kết nối máy chủ để tạo luận giải chuyên sâu."
+            translateReadingError(
+              errorData.error,
+              "Không thể kết nối máy chủ để tạo luận giải chuyên sâu.",
+            ),
           );
+          if (errorData.error === "invalid_or_expired_token") setSessionDead(true);
         }
         return;
       }
@@ -452,6 +546,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
                 setStreamedText(fullText.normalize("NFC"));
               } else if (data.type === "done") {
                 setStreamedText((prev) => prev.normalize("NFC"));
+                setAnalysisComplete(true);
                 if (typeof document !== "undefined" && document.hidden) {
                   document.title = "✦ Luận giải đã sẵn sàng — Ventus Tarot";
                 }
@@ -459,6 +554,13 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
                 hasErrorOccurred = true;
                 setErrorMessage(data.message || "Lỗi trong quá trình tạo văn bản.");
                 setRefundNotice("2 Credits đã được hoàn trả lại tài khoản của bạn.");
+                // Lùi về "revealed" + hiện banner ngay trong cùng tab, không
+                // đợi user reload mới thấy — trước đây chỉ effect khôi phục
+                // lúc mount xử lý việc này, nên lỗi xảy ra mà user không rời
+                // trang thì vẫn kẹt ở "analysis" rỗng.
+                setPhase("revealed");
+                setSessionRecoveryNotice(true);
+                setRecoveredTokenExpired(drawToken ? isDrawTokenExpired(drawToken) : true);
               }
             } catch {
               // Ignore line parse error
@@ -476,6 +578,9 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       setIsTyping(false);
       setErrorMessage(err?.message || "Lỗi kết nối luồng phân tích chuyên sâu.");
       setRefundNotice("Nếu credits đã bị trừ, hệ thống sẽ tự động hoàn lại.");
+      setPhase("revealed");
+      setSessionRecoveryNotice(true);
+      setRecoveredTokenExpired(drawToken ? isDrawTokenExpired(drawToken) : true);
     }
   };
 
@@ -763,6 +868,30 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
             <p className="text-[#d4af37] font-medium border-t border-[#f0605f]/30 pt-1.5 mt-1 font-body">
               ✓ {refundNotice}
             </p>
+          )}
+          {sessionDead && (
+            <button
+              type="button"
+              onClick={() => {
+                if (typeof window !== "undefined") {
+                  sessionStorage.removeItem(SESSION_STORAGE_KEY);
+                }
+                setPhase("inquiry");
+                setInquiry("");
+                setSelectedCards([]);
+                setPickedSlotIndices([]);
+                setStreamedText("");
+                setDrawToken(null);
+                setAnalysisComplete(false);
+                setSessionRecoveryNotice(false);
+                setSessionDead(false);
+                setRecoveredTokenExpired(false);
+                setErrorMessage("");
+              }}
+              className="self-start mt-1 px-3 py-1.5 rounded-lg bg-[#8f5a1f] hover:bg-[#d4af37] hover:text-[#050505] text-white text-[11px] font-semibold uppercase tracking-wider transition-colors cursor-pointer"
+            >
+              Bắt đầu phiên mới
+            </button>
           )}
         </div>
       )}
@@ -1077,6 +1206,63 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
             </p>
           </div>
 
+          {/* Thông báo khôi phục phiên bị gián đoạn — chỉ hiện khi phase này
+              đến từ việc khôi phục sessionStorage (luận giải trước đó bị cắt
+              giữa chừng), không phải lần "revealed" bình thường. */}
+          {sessionRecoveryNotice && (
+            <div
+              role="status"
+              className="w-full max-w-2xl mx-auto mb-6 p-4 rounded-2xl bg-[#8f5a1f]/15 border border-[#d4af37]/40 text-xs sm:text-sm text-[#f3ece1] flex flex-col gap-3 font-body"
+            >
+              <p>
+                <strong className="text-[#d4af37]">Đây là phiên trải bài sâu trước đó bị lỗi</strong> khi
+                tạo luận giải (mất mạng hoặc đóng tab giữa chừng) — Credits đã được hệ thống tự
+                động hoàn lại. Bộ 3 lá bạn đã rút vẫn còn nguyên bên dưới.
+              </p>
+              {recoveredTokenExpired && (
+                <p className="text-[#f0605f] font-medium">
+                  Phiên đã hết hạn (quá 15 phút) nên không trải lại luận giải cho bộ này được nữa —
+                  chọn "Bỏ qua, trải bài khác" bên dưới.
+                </p>
+              )}
+              <div className="flex flex-wrap items-center gap-3">
+                {!recoveredTokenExpired && (
+                  <button
+                    type="button"
+                    onClick={handleUnlockDeepAnalysis}
+                    className="px-3 py-1.5 rounded-lg bg-[#8f5a1f] hover:bg-[#d4af37] hover:text-[#050505] text-white text-[11px] font-semibold uppercase tracking-wider transition-colors cursor-pointer"
+                  >
+                    Trải lại luận giải cho bộ bài này
+                  </button>
+                )}
+                <button
+                  type="button"
+                  onClick={() => {
+                    if (typeof window !== "undefined") {
+                      sessionStorage.removeItem(SESSION_STORAGE_KEY);
+                    }
+                    setPhase("inquiry");
+                    setInquiry("");
+                    setSelectedCards([]);
+                    setStreamedText("");
+                    setDrawToken(null);
+                    setAnalysisComplete(false);
+                    setSessionRecoveryNotice(false);
+                    setSessionDead(false);
+                    setRecoveredTokenExpired(false);
+                  }}
+                  className={
+                    recoveredTokenExpired
+                      ? "px-3 py-1.5 rounded-lg bg-[#8f5a1f] hover:bg-[#d4af37] hover:text-[#050505] text-white text-[11px] font-semibold uppercase tracking-wider transition-colors cursor-pointer"
+                      : "text-[#b3a48d] hover:text-white underline cursor-pointer"
+                  }
+                >
+                  Bỏ qua, trải bài khác
+                </button>
+              </div>
+            </div>
+          )}
+
           {/* 3 Cards Display */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             {selectedCards.map((card, i) => {
@@ -1117,7 +1303,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
                   <h3 className="font-display text-lg text-white font-bold mb-0.5">
                     {card.nameVi}
                   </h3>
-                  <span className="text-xs text-[#7a6e5d] mb-3 font-serif italic">
+                  <span className="text-xs text-[#7a6e5d] mb-3 font-display italic">
                     {card.name || card.nameEn}
                   </span>
 
@@ -1259,6 +1445,10 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               setSelectedCards([]);
               setStreamedText("");
               setDrawToken(null);
+              setAnalysisComplete(false);
+              setSessionRecoveryNotice(false);
+              setSessionDead(false);
+              setRecoveredTokenExpired(false);
             }}
             className="text-xs text-[#d4af37] hover:underline flex items-center gap-1.5 cursor-pointer pb-8 font-body"
           >

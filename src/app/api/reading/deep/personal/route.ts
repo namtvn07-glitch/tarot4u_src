@@ -137,7 +137,12 @@ export async function POST(request: Request) {
             position: i,
           })),
           question: payload.question,
-          personal_body: final.text,
+          // AI provider có thể trả tiếng Việt ở dạng NFD (dấu tách rời khỏi
+          // ký tự gốc) — client stream tự normalize NFC trước khi hiển thị
+          // nên không thấy lỗi lúc đó, nhưng nếu lưu thẳng final.text (NFD)
+          // thì lần xem lại sau (đọc thẳng từ DB, không qua bước normalize
+          // của luồng stream) sẽ hiện dấu câu bị tách, ngắt dòng sai chỗ.
+          personal_body: final.text.normalize("NFC"),
           ai_provider: env.AI_PROVIDER,
           model: final.model,
           input_tokens: final.usage.inputTokens,

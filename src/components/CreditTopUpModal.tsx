@@ -2,6 +2,18 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { X, Coins, Check, QrCode, ShieldCheck, AlertCircle, Loader2, ExternalLink, CheckCircle2 } from "lucide-react";
+import { PACKS } from "@/lib/orders";
+
+const vndFormatter = new Intl.NumberFormat("vi-VN");
+const RING_RADIUS = 26;
+const RING_CIRCUMFERENCE = 2 * Math.PI * RING_RADIUS;
+
+function formatCountdown(ms: number): string {
+  const totalSeconds = Math.max(0, Math.ceil(ms / 1000));
+  const m = String(Math.floor(totalSeconds / 60)).padStart(2, "0");
+  const s = String(totalSeconds % 60).padStart(2, "0");
+  return `${m}:${s}`;
+}
 
 function useFocusTrap(active: boolean, containerRef: React.RefObject<HTMLElement | null>) {
   const previouslyFocused = useRef<HTMLElement | null>(null);
@@ -80,30 +92,34 @@ interface Pack {
   description: string;
 }
 
+// Credits + giá lấy từ PACKS (src/lib/orders.ts, nguồn NEXT_PUBLIC_PACK_*_AMOUNT_VND)
+// — cùng một nguồn với giá server thật sự tính khi tạo đơn, để không lệch
+// giữa số hiển thị và số tiền charge thật (từng lệch khi component này tự
+// hardcode giá riêng).
 const PACKAGES: Pack[] = [
   {
     id: "small",
     name: "Gói Nhỏ (Trải Nghiệm)",
-    credits: 10,
-    priceFormatted: "49.000 đ",
-    priceNumber: 49000,
+    credits: PACKS.small.credits,
+    priceFormatted: `${vndFormatter.format(PACKS.small.amountVnd)} đ`,
+    priceNumber: PACKS.small.amountVnd,
     description: "Phù hợp để làm quen với các trải bài 3 lá chuyên sâu.",
   },
   {
     id: "popular",
     name: "Gói Phổ Biến (Khai Phá)",
-    credits: 30,
-    priceFormatted: "129.000 đ",
-    priceNumber: 129000,
+    credits: PACKS.popular.credits,
+    priceFormatted: `${vndFormatter.format(PACKS.popular.amountVnd)} đ`,
+    priceNumber: PACKS.popular.amountVnd,
     isPopular: true,
     description: "Tiết kiệm chi phí — Lựa chọn lý tưởng cho các câu hỏi chi tiết.",
   },
   {
     id: "large",
     name: "Gói Lớn (Minh Triết)",
-    credits: 100,
-    priceFormatted: "359.000 đ",
-    priceNumber: 359000,
+    credits: PACKS.large.credits,
+    priceFormatted: `${vndFormatter.format(PACKS.large.amountVnd)} đ`,
+    priceNumber: PACKS.large.amountVnd,
     description: "Tặng thêm nhiều Credits — Thấu suốt mọi ngã rẽ cuộc sống.",
   },
 ];
@@ -124,9 +140,18 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
   const [currentOrderId, setCurrentOrderId] = useState<string | null>(null);
   const [orderCode, setOrderCode] = useState<number | null>(null);
   const [paymentDone, setPaymentDone] = useState(false);
+  const [expiresAtMs, setExpiresAtMs] = useState<number | null>(null);
+  const [remainingMs, setRemainingMs] = useState(0);
+  const [totalMs, setTotalMs] = useState(1);
+  const [qrExpired, setQrExpired] = useState(false);
 
   const mainModalRef = useRef<HTMLDivElement>(null);
   const qrModalRef = useRef<HTMLDivElement>(null);
+  const expiredHeadingRef = useRef<HTMLHeadingElement>(null);
+
+  useEffect(() => {
+    if (qrExpired) expiredHeadingRef.current?.focus();
+  }, [qrExpired]);
 
   // Khi QR modal đang mở, nó là lớp trên cùng — bẫy focus/Esc ở đó; nếu
   // không thì bẫy ở modal chính. Chỉ một trong hai active tại một thời điểm.
@@ -135,32 +160,61 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
   useFocusTrap(isOpen && showQrModal, qrModalRef);
   useEscapeAndTabTrap(isOpen && showQrModal, qrModalRef, () => setShowQrModal(false));
 
+  // Đếm ngược tới expiresAt — tick riêng mỗi giây, độc lập với polling server
+  // bên dưới, để UI báo hết hạn ngay theo đồng hồ máy, không phải đợi tới
+  // lần poll kế tiếp.
+  useEffect(() => {
+    if (!showQrModal || !expiresAtMs || paymentDone || qrExpired) return;
+    const tick = () => {
+      const remaining = expiresAtMs - Date.now();
+      setRemainingMs(remaining);
+      if (remaining <= 0) setQrExpired(true);
+    };
+    tick();
+    const id = setInterval(tick, 1000);
+    return () => clearInterval(id);
+  }, [showQrModal, expiresAtMs, paymentDone, qrExpired]);
+
   // Poll order status when QR modal is open
   useEffect(() => {
-    if (!showQrModal || !currentOrderId || paymentDone) return;
+    if (!showQrModal || !currentOrderId || paymentDone || qrExpired) return;
 
-    const interval = setInterval(async () => {
+    const checkStatus = async () => {
       try {
         const res = await fetch(`/api/orders?orderId=${currentOrderId}`);
         if (res.ok) {
           const data = await res.json();
           if (data.status === "paid") {
             setPaymentDone(true);
-            clearInterval(interval);
             onSuccess(data.credits || selectedPack.credits);
             setTimeout(() => {
               setShowQrModal(false);
               onClose();
             }, 2500);
+          } else if (data.status === "expired") {
+            setQrExpired(true);
           }
         }
       } catch {
         // ignore polling errors
       }
-    }, 3000);
+    };
 
-    return () => clearInterval(interval);
-  }, [showQrModal, currentOrderId, paymentDone, selectedPack.credits, onSuccess, onClose]);
+    const interval = setInterval(checkStatus, 3000);
+
+    // Mobile: trình duyệt tạm dừng timer + có thể mất kết nối khi tab bị ẩn
+    // (user rời sang app ngân hàng để quét/xác nhận) — kiểm tra ngay khi
+    // quay lại tab thay vì đợi tick tiếp theo.
+    const onVisibilityChange = () => {
+      if (document.visibilityState === "visible") checkStatus();
+    };
+    document.addEventListener("visibilitychange", onVisibilityChange);
+
+    return () => {
+      clearInterval(interval);
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+    };
+  }, [showQrModal, currentOrderId, paymentDone, qrExpired, selectedPack.credits, onSuccess, onClose]);
 
   if (!isOpen) return null;
 
@@ -173,6 +227,7 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
     setIsProcessing(true);
     setErrorMsg("");
     setPaymentDone(false);
+    setQrExpired(false);
 
     try {
       const res = await fetch("/api/orders", {
@@ -199,6 +254,9 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
         setCheckoutUrl(data.checkoutUrl || "");
         setCurrentOrderId(data.orderId);
         setOrderCode(data.orderCode);
+        const expiresMs = data.expiresAt ? new Date(data.expiresAt).getTime() : Date.now();
+        setExpiresAtMs(expiresMs);
+        setTotalMs(Math.max(1, expiresMs - Date.now()));
         setShowQrModal(true);
       } else if (data?.checkoutUrl) {
         window.location.href = data.checkoutUrl;
@@ -391,14 +449,78 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
                   Đã cộng +{selectedPack.credits} Credits vào tài khoản của bạn.
                 </p>
               </div>
+            ) : qrExpired ? (
+              <div className="py-8 flex flex-col items-center gap-3">
+                <div className="w-16 h-16 rounded-full bg-[#f0605f]/15 border-2 border-[#f0605f] text-[#f0605f] flex items-center justify-center">
+                  <AlertCircle className="w-8 h-8" />
+                </div>
+                <h3
+                  ref={expiredHeadingRef}
+                  tabIndex={-1}
+                  className="font-display text-xl text-white font-bold focus:outline-none"
+                >
+                  Mã QR đã hết hạn
+                </h3>
+                <p className="text-xs text-[#b3a48d]">
+                  Đơn hàng #{orderCode} đã quá thời gian thanh toán. Tạo mã mới để tiếp tục.
+                </p>
+                <button
+                  onClick={handleStartPayment}
+                  disabled={isProcessing}
+                  className="mt-2 w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-[#8f5a1f] to-[#764a19] hover:from-[#d4af37] hover:to-[#8f5a1f] text-white hover:text-[#050505] text-xs font-semibold uppercase tracking-wider transition-all shadow-md disabled:opacity-50 cursor-pointer"
+                >
+                  {isProcessing ? "Đang tạo mã mới…" : "Tạo mã mới"}
+                </button>
+                <button
+                  onClick={() => setShowQrModal(false)}
+                  className="py-2 text-xs text-[#7a6e5d] hover:text-white cursor-pointer"
+                >
+                  Đóng
+                </button>
+              </div>
             ) : (
               <>
                 <h3 className="font-display text-xl text-white font-bold mb-0.5">
                   {selectedPack.name}
                 </h3>
-                <p className="text-[#d4af37] font-semibold text-base mb-3">
+                <p className="text-[#d4af37] font-semibold text-base mb-2">
                   Số tiền: {selectedPack.priceFormatted}
                 </p>
+
+                {/* Đếm ngược hết hạn — vòng tròn tiến trình theo expiresAt server
+                    trả về, không hardcode thời lượng (server đổi hạn mức, UI vẫn
+                    đúng tự động). */}
+                <div
+                  role="timer"
+                  aria-live="off"
+                  aria-label="Thời gian còn lại để thanh toán"
+                  className="relative mx-auto mb-3"
+                  style={{ width: 60, height: 60 }}
+                >
+                  <svg viewBox="0 0 60 60" width="60" height="60">
+                    <circle cx="30" cy="30" r={RING_RADIUS} fill="none" strokeWidth="4" stroke="#3d3123" />
+                    <circle
+                      cx="30"
+                      cy="30"
+                      r={RING_RADIUS}
+                      fill="none"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      stroke="#d4af37"
+                      strokeDasharray={RING_CIRCUMFERENCE}
+                      strokeDashoffset={
+                        RING_CIRCUMFERENCE * (1 - Math.max(0, Math.min(1, remainingMs / totalMs)))
+                      }
+                      style={{ transform: "rotate(-90deg)", transformOrigin: "30px 30px" }}
+                    />
+                  </svg>
+                  <span
+                    className="absolute inset-0 flex items-center justify-center text-[11px] font-semibold text-[#f3ece1]"
+                    aria-hidden="true"
+                  >
+                    {formatCountdown(remainingMs)}
+                  </span>
+                </div>
 
                 {/* QR Code Container */}
                 <div className="w-60 h-60 mx-auto bg-white p-3 rounded-2xl shadow-xl flex items-center justify-center border-2 border-[#d4af37]/40 mb-3">

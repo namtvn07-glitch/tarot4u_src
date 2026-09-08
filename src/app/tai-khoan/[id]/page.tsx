@@ -6,6 +6,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ArrowLeft, Calendar, Sparkles, Layers, Loader2 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
+import { findCardById } from "@/lib/cards";
 import type { ReadingHistoryItem } from "@/types/tarot";
 
 export default function ReadingDetailPage({
@@ -34,13 +35,16 @@ export default function ReadingDetailPage({
             topic: data.topic,
             topicVi: data.topic === "love" ? "Tình Yêu" : data.topic === "career" ? "Sự Nghiệp" : data.topic === "finance" ? "Tài Chính" : "Tổng Quan",
             question: data.question,
-            cards: (data.cards_drawn || []).map((c: any, i: number) => ({
-              name: c.card_id,
-              nameVi: c.card_id,
-              image: `/cards/${c.card_id}.jpg`,
-              orientation: c.orientation || "upright",
-              position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
-            })),
+            cards: (data.cards_drawn || []).map((c: any, i: number) => {
+              const card = findCardById(c.card_id);
+              return {
+                name: card?.name_en ?? c.card_id,
+                nameVi: card?.name_vi ?? c.card_id,
+                image: `/cards/${card?.image_filename ?? `${c.card_id}.jpg`}`,
+                orientation: c.orientation || "upright",
+                position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
+              };
+            }),
             personalBody: data.personal_body,
           });
         } else {
@@ -134,8 +138,8 @@ export default function ReadingDetailPage({
                   <Sparkles className="w-4 h-4" />
                   <span>Luận giải chuyên sâu:</span>
                 </div>
-                <div className="text-xs sm:text-sm text-[#f3ece1]/90 leading-relaxed whitespace-pre-line bg-[#1c1611] p-6 rounded-2xl border border-[#3d3123]/70 font-serif">
-                  {reading.personalBody}
+                <div className="text-xs sm:text-sm text-[#f3ece1]/90 leading-relaxed whitespace-pre-line bg-[#1c1611] p-6 rounded-2xl border border-[#3d3123]/70 font-display">
+                  {reading.personalBody.normalize("NFC")}
                 </div>
               </div>
             )}

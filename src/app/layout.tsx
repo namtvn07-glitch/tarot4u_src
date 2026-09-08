@@ -13,7 +13,13 @@ const cormorant = Cormorant_Garamond({
 });
 
 const plusJakarta = Plus_Jakarta_Sans({
-  variable: "--font-body",
+  // Không đặt tên "--font-body" — trùng tên với design token --font-body
+  // (tokens.css) khiến 2 khai báo cùng biến CSS này đè lên nhau tuỳ thứ tự
+  // cascade, ai thắng cũng sai: hoặc token không bao giờ trỏ tới font đã
+  // self-host (mất luôn phần subset "vietnamese"), hoặc property tự tham
+  // chiếu chính nó (--font-body: var(--font-body), ...) — CSS coi là vòng
+  // lặp, tính ra giá trị invalid, font-family sập về không có gì cả.
+  variable: "--font-plus-jakarta",
   subsets: ["latin", "vietnamese"],
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",

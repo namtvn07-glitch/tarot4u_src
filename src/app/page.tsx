@@ -19,6 +19,7 @@ import { TAROT_CARDS } from "@/data/tarotCards";
 import type { AppScreen, TarotCard, UserProfile, ReadingHistoryItem, Topic } from "@/types/tarot";
 import { useAuthUser } from "@/lib/useAuthUser";
 import { createClient } from "@/lib/supabase/client";
+import { findCardById } from "@/lib/cards";
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<AppScreen>("home");
@@ -57,13 +58,16 @@ export default function App() {
               topic: r.topic,
               topicVi: r.topic === "love" ? "Tình Yêu" : r.topic === "career" ? "Sự Nghiệp" : r.topic === "finance" ? "Tài Chính" : r.topic === "spiritual" ? "Tâm Linh" : "Tổng Quan",
               question: r.question,
-              cards: (r.cards_drawn || []).map((c: any, i: number) => ({
-                name: c.card_id,
-                nameVi: c.card_id,
-                image: `/cards/${c.card_id}.jpg`,
-                orientation: c.orientation || "upright",
-                position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
-              })),
+              cards: (r.cards_drawn || []).map((c: any, i: number) => {
+                const card = findCardById(c.card_id);
+                return {
+                  name: card?.name_en ?? c.card_id,
+                  nameVi: card?.name_vi ?? c.card_id,
+                  image: `/cards/${card?.image_filename ?? `${c.card_id}.jpg`}`,
+                  orientation: c.orientation || "upright",
+                  position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
+                };
+              }),
               personalBody: r.personal_body,
             }));
             setReadings(formatted);
@@ -78,6 +82,12 @@ export default function App() {
       setReadings([]);
     }
   }, [user.id]);
+
+  async function handleDeleteReading(id: string) {
+    const res = await fetch(`/api/readings/${id}`, { method: "DELETE" });
+    if (!res.ok) throw new Error("delete_failed");
+    setReadings((prev) => prev.filter((r) => r.id !== id));
+  }
 
   const handleNavigate = (screen: AppScreen) => {
     setCurrentScreen(screen);
@@ -201,6 +211,7 @@ export default function App() {
             }}
             onNavigate={handleNavigate}
             onViewReadingDetail={(reading) => setSelectedReadingModal(reading)}
+            onDeleteReading={handleDeleteReading}
           />
         )}
       </main>

@@ -12,8 +12,10 @@ interface AccountScreenProps {
   onOpenTopUp: () => void;
   onNavigate: (screen: AppScreen) => void;
   onViewReadingDetail: (reading: ReadingHistoryItem) => void;
-  onDeleteReading?: (id: string) => void;
+  onDeleteReading?: (id: string) => Promise<void>;
 }
+
+type DeleteRowState = { id: string; status: "confirming" | "deleting" | "error" };
 
 export const AccountScreen: React.FC<AccountScreenProps> = ({
   user,
@@ -26,6 +28,18 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
   const [activeTab, setActiveTab] = useState<"history" | "transactions">("history");
   const [ledgerRows, setLedgerRows] = useState<any[]>([]);
   const [loadingLedger, setLoadingLedger] = useState(false);
+  const [deleteRow, setDeleteRow] = useState<DeleteRowState | null>(null);
+
+  async function handleConfirmDelete(id: string) {
+    if (!onDeleteReading) return;
+    setDeleteRow({ id, status: "deleting" });
+    try {
+      await onDeleteReading(id);
+      setDeleteRow(null);
+    } catch {
+      setDeleteRow({ id, status: "error" });
+    }
+  }
 
   useEffect(() => {
     if (activeTab === "transactions" && user.id) {
@@ -148,14 +162,66 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
         {/* History Tab Content */}
         {activeTab === "history" && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {readings.map((reading) => (
+            {readings.map((reading) => {
+              const cardNames = reading.cards.map((c) => c.nameVi || c.name).join(", ");
+              const readingLabel = `lượt trải bài ${cardNames}, ${reading.date}`;
+              const rowState = deleteRow?.id === reading.id ? deleteRow.status : "idle";
+              return (
               <div
                 key={reading.id}
                 onClick={() => onViewReadingDetail(reading)}
-                className="bg-[#15100b] border border-[#3d3123] hover:border-[#d4af37]/60 p-5 rounded-2xl transition-all duration-300 cursor-pointer group flex flex-col justify-between hover:shadow-[0_0_30px_rgba(212,175,55,0.2)]"
+                className="relative bg-[#15100b] border border-[#3d3123] hover:border-[#d4af37]/60 p-5 rounded-2xl transition-all duration-300 cursor-pointer group flex flex-col justify-between hover:shadow-[0_0_30px_rgba(212,175,55,0.2)]"
               >
+                {onDeleteReading && (
+                  <div className="absolute top-3 right-3 z-10 flex items-center gap-2">
+                    {rowState === "confirming" || rowState === "deleting" ? (
+                      <>
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleConfirmDelete(reading.id);
+                          }}
+                          disabled={rowState === "deleting"}
+                          aria-label={`Xác nhận xoá ${readingLabel}`}
+                          className="px-2.5 py-1 rounded-lg bg-[#f0605f] text-white text-[10px] font-semibold uppercase tracking-wider disabled:opacity-60 cursor-pointer"
+                        >
+                          {rowState === "deleting" ? "Đang xoá…" : "Xác nhận"}
+                        </button>
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setDeleteRow(null);
+                          }}
+                          disabled={rowState === "deleting"}
+                          className="px-2.5 py-1 rounded-lg bg-[#251d16] text-[#b3a48d] text-[10px] font-semibold uppercase tracking-wider disabled:opacity-60 cursor-pointer"
+                        >
+                          Huỷ
+                        </button>
+                      </>
+                    ) : (
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setDeleteRow({ id: reading.id, status: "confirming" });
+                        }}
+                        aria-label={`Xoá ${readingLabel}`}
+                        className="p-1.5 rounded-lg bg-[#251d16] text-[#7a6e5d] opacity-0 group-hover:opacity-100 focus-visible:opacity-100 hover:text-[#f0605f] transition-all cursor-pointer"
+                      >
+                        <Trash2 className="w-3.5 h-3.5" />
+                      </button>
+                    )}
+                  </div>
+                )}
+                {rowState === "error" && (
+                  <p role="alert" className="absolute top-11 right-3 z-10 text-[10px] text-[#f0605f] bg-[#15100b] px-2 py-1 rounded-lg border border-[#f0605f]/40">
+                    Không xoá được, thử lại.
+                  </p>
+                )}
                 <div>
-                  <div className="flex items-center justify-between text-xs text-[#7a6e5d] mb-2">
+                  <div className="flex items-center justify-between text-xs text-[#7a6e5d] mb-2 pr-8">
                     <span className="px-2 py-0.5 rounded-full bg-[#251d16] text-[#d4af37] text-[10px] font-semibold uppercase">
                       {reading.topicVi || "Tổng Quan"}
                     </span>
@@ -179,7 +245,7 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
 
                   {reading.personalBody && (
                     <p className="text-xs text-[#7a6e5d] line-clamp-2 italic">
-                      "{reading.personalBody}"
+                      "{reading.personalBody.normalize("NFC")}"
                     </p>
                   )}
                 </div>
@@ -189,7 +255,8 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
                   <span>→</span>
                 </div>
               </div>
-            ))}
+              );
+            })}
 
             {readings.length === 0 && (
               <div className="col-span-2 py-16 text-center text-[#7a6e5d] bg-[#15100b] border border-[#3d3123] rounded-2xl">

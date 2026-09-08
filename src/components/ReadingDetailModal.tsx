@@ -101,8 +101,8 @@ export const ReadingDetailModal: React.FC<ReadingDetailModalProps> = ({
               <Sparkles className="w-4 h-4" />
               <span>Luận giải chuyên sâu:</span>
             </div>
-            <div className="prose prose-invert max-w-none text-xs sm:text-sm text-[#f3ece1]/90 leading-relaxed whitespace-pre-line bg-[#1c1611] p-5 rounded-xl border border-[#3d3123]/70 font-serif">
-              {reading.personalBody}
+            <div className="prose prose-invert max-w-none text-xs sm:text-sm text-[#f3ece1]/90 leading-relaxed whitespace-pre-line bg-[#1c1611] p-5 rounded-xl border border-[#3d3123]/70 font-display">
+              {reading.personalBody.normalize("NFC")}
             </div>
           </div>
         )}

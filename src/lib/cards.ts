@@ -28,6 +28,13 @@ export function getCardById(id: string): Card {
   return card;
 }
 
+// Biến thể không throw — dùng khi hiển thị dữ liệu đã lưu (lịch sử trải bài)
+// mà id có thể lệch (dữ liệu cũ, card đổi id...) — một dòng hỏng không được
+// làm sập cả danh sách.
+export function findCardById(id: string): Card | null {
+  return CARDS_BY_ID.get(id) ?? null;
+}
+
 export function getAllCards(): Card[] {
   return CARDS;
 }

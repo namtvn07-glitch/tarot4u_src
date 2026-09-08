@@ -44,8 +44,14 @@
   --space-8: 64px;
 
   /* ---- Typography Scale ---- */
-  --font-display: 'Cormorant Garamond', Georgia, "Iowan Old Style", "Palatino Linotype", serif;
-  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* var(--font-cormorant)/var(--font-plus-jakarta) — tên do next/font/google
+     tự sinh (src/app/layout.tsx), trỏ đúng file font đã self-host kèm subset
+     "vietnamese". Tên chữ phía sau chỉ là fallback nếu JS chưa chạy kịp —
+     không có var() ở đầu thì font hiển thị luôn là bản hệ điều hành (nếu có
+     cài) hoặc rơi thẳng xuống Georgia/system-ui, thiếu glyph tiếng Việt mở
+     rộng (ế/ị/ắ/ể...) gây lỗi hiển thị dấu bị tách khỏi chữ. */
+  --font-display: var(--font-cormorant), 'Cormorant Garamond', Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: var(--font-plus-jakarta), 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
   --text-display-size: 2.75rem;
   --text-display-line: 1.15;

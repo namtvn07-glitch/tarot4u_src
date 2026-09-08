@@ -45,6 +45,15 @@ const fieldSchemas = {
   PAYOS_CLIENT_ID: z.string().min(1).optional(),
   PAYOS_API_KEY: z.string().min(1).optional(),
   PAYOS_CHECKSUM_KEY: z.string().min(1).optional(),
+  // Giá gói nạp credits — PACKS (src/lib/orders.ts) được import thẳng vào
+  // component client để hiển thị giá, nên phải là NEXT_PUBLIC_* (server dùng
+  // chung giá trị này cho amount thật, không phải 2 nguồn khác nhau — client
+  // chỉ KHÔNG được tự ý đổi số này khi gửi request, không phải giá phải giấu).
+  // Default ăn theo giá thật để không vô tình chạy giá test khi quên set env.
+  // Đổi giá: sửa env var trên Vercel rồi Redeploy (NEXT_PUBLIC_* bake lúc build).
+  NEXT_PUBLIC_PACK_SMALL_AMOUNT_VND: z.coerce.number().int().positive().default(49_000),
+  NEXT_PUBLIC_PACK_POPULAR_AMOUNT_VND: z.coerce.number().int().positive().default(129_000),
+  NEXT_PUBLIC_PACK_LARGE_AMOUNT_VND: z.coerce.number().int().positive().default(359_000),
   CRON_SECRET: isProd
     ? z.string().min(16)
     : z.string().min(16).default("dev-cron-secret-key-16-chars-min"),
@@ -81,6 +90,9 @@ const RAW_ENV: Record<keyof Env, string | undefined> = {
   PAYOS_CLIENT_ID: process.env.PAYOS_CLIENT_ID,
   PAYOS_API_KEY: process.env.PAYOS_API_KEY,
   PAYOS_CHECKSUM_KEY: process.env.PAYOS_CHECKSUM_KEY,
+  NEXT_PUBLIC_PACK_SMALL_AMOUNT_VND: process.env.NEXT_PUBLIC_PACK_SMALL_AMOUNT_VND,
+  NEXT_PUBLIC_PACK_POPULAR_AMOUNT_VND: process.env.NEXT_PUBLIC_PACK_POPULAR_AMOUNT_VND,
+  NEXT_PUBLIC_PACK_LARGE_AMOUNT_VND: process.env.NEXT_PUBLIC_PACK_LARGE_AMOUNT_VND,
   CRON_SECRET: process.env.CRON_SECRET,
 };
 
@@ -95,5 +107,13 @@ function loadField<K extends keyof Env>(key: K): Env[K] {
 }
 
 export const env = new Proxy({} as Env, {
-  get: (_target, prop: keyof Env) => loadField(prop),
+  // `prop` không phải lúc nào cũng là key hợp lệ trong Env — runtime khác
+  // (React Fast Refresh, webpack HMR, ...) có thể tự dò các key như
+  // Symbol.toPrimitive/"then"/"$$typeof" trên object này (env.ts giờ được
+  // import cả vào bundle client qua src/lib/orders.ts). fieldSchemas[key] sẽ
+  // undefined với các key lạ đó — gọi .parse() lên undefined thì crash.
+  get: (_target, prop) => {
+    if (typeof prop !== "string" || !(prop in fieldSchemas)) return undefined;
+    return loadField(prop as keyof Env);
+  },
 });
