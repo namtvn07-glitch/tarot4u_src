@@ -1,8 +1,12 @@
-import { createHmac, timingSafeEqual } from "node:crypto";
+import { createHmac, randomUUID, timingSafeEqual } from "node:crypto";
 import { env } from "@/lib/env";
 import type { Draw, OrientationMode } from "@/lib/reading";
 
-const TTL_MS = 15 * 60_000; // 15 phút hiệu lực
+// 2 giờ — khớp hạn khôi phục phiên phía client (SESSION_STORAGE_KEY,
+// DeepReadScreen.tsx). Trước đây 15 phút trong khi client giữ phiên tới 2
+// tiếng: token luôn chết trước khi user quay lại thử "trải lại luận giải"
+// sau khi bị gián đoạn (mất mạng, đóng tab...), dù bộ 3 lá vẫn còn nguyên.
+const TTL_MS = 2 * 60 * 60_000;
 
 export interface DrawTokenPayload {
   userId: string;
@@ -11,6 +15,14 @@ export interface DrawTokenPayload {
   orientationMode: OrientationMode;
   cards: Draw[];
   exp: number;
+  // Sinh 1 lần khi ký token (mỗi lần /shuffle hoặc /resume ký mới là 1 ID
+  // mới) — nhúng vào token đã ký thay vì để personal/route.ts tự sinh
+  // random mỗi request. Nhờ vậy 2 request gửi TRÙNG 1 token (double-click,
+  // script gọi song song) luôn ra cùng readingId, làm cho idempotent check
+  // sẵn có trong debit_reading()/refund_reading() (theo ref_id) thật sự có
+  // tác dụng — trước đây mỗi request tự sinh randomUUID() riêng nên 2 lần
+  // bấm = 2 readingId khác nhau = trừ credits + gọi AI + ghi reading 2 lần.
+  readingId: string;
 }
 
 function base64url(input: Buffer): string {
@@ -18,9 +30,9 @@ function base64url(input: Buffer): string {
 }
 
 export function signDrawToken(
-  payload: Omit<DrawTokenPayload, "exp">,
+  payload: Omit<DrawTokenPayload, "exp" | "readingId">,
 ): string {
-  const full: DrawTokenPayload = { ...payload, exp: Date.now() + TTL_MS };
+  const full: DrawTokenPayload = { ...payload, exp: Date.now() + TTL_MS, readingId: randomUUID() };
   const body = base64url(Buffer.from(JSON.stringify(full), "utf8"));
   const signature = createHmac("sha256", env.READING_TOKEN_SECRET)
     .update(body)

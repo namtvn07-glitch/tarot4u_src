@@ -114,12 +114,13 @@ const SESSION_STORAGE_KEY = "ventus_deep_session";
 // lộ mã lỗi kỹ thuật ra UI thay vì câu tiếng Việt có thể hành động được.
 const READING_ERROR_MESSAGES: Record<string, string> = {
   invalid_or_expired_token:
-    "Phiên trải bài đã hết hạn (quá 15 phút chưa hoàn tất). Vui lòng bắt đầu phiên mới.",
+    "Phiên trải bài đã hết hạn (quá 2 giờ chưa hoàn tất). Vui lòng bắt đầu phiên mới.",
   invalid_reveal_index: "Có lỗi khi lật lá bài. Vui lòng thử lại.",
   base_content_unavailable: "Có lỗi dữ liệu lá bài. Vui lòng thử lại sau ít phút.",
   debit_failed: "Không thể trừ Credits lúc này. Vui lòng thử lại.",
   forbidden: "Phiên trải bài không hợp lệ cho tài khoản này.",
   invalid_request: "Yêu cầu không hợp lệ. Vui lòng thử lại.",
+  already_processing: "Yêu cầu này đang được xử lý (có thể do bấm 2 lần) — vui lòng đợi kết quả.",
 };
 
 function translateReadingError(code: string | undefined, fallback: string): string {
@@ -201,12 +202,23 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   // là "chưa gọi" hay "gọi rồi nhưng đứt giữa chừng").
   const [analysisComplete, setAnalysisComplete] = useState(false);
   const [sessionRecoveryNotice, setSessionRecoveryNotice] = useState(false);
+  const [isResuming, setIsResuming] = useState(false);
   // Biết ngay lúc khôi phục — không đợi user bấm rồi mới lỗi — token của
   // phiên gián đoạn có còn dùng lại được để "trải lại luận giải" hay không.
   const [recoveredTokenExpired, setRecoveredTokenExpired] = useState(false);
 
   const questionInputId = useId();
   const abortControllerRef = useRef<AbortController | null>(null);
+  // Chặn double-click/double-submit trước cả state update đầu tiên — 2 lần
+  // gọi handleUnlockDeepAnalysis liên tiếp trong cùng 1 tick JS đều đọc
+  // isTyping (useState) là false vì React chưa kịp re-render giữa 2 lần gọi
+  // đồng bộ đó, nên state không chặn được; ref đọc/ghi ngay lập tức thì
+  // chặn được. Chỉ đọc/ghi trong handler, không đọc lúc render — không vi
+  // phạm react-hooks/refs.
+  const isUnlockingRef = useRef(false);
+  // Guard tương tự cho handlePickCard — cùng lý do (isRevealing là state,
+  // đọc qua closure có thể "cũ" nếu 2 lần gọi xảy ra trong cùng 1 tick JS).
+  const isRevealingRef = useRef(false);
 
   // Notify parent component about busy state
   useEffect(() => {
@@ -408,6 +420,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   };
 
   const handlePickCard = async (slotIndex: number) => {
+    if (isRevealingRef.current) return;
     if (selectedCards.length >= 3 || isRevealing || pickedSlotIndices.includes(slotIndex)) {
       return;
     }
@@ -416,6 +429,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       return;
     }
 
+    isRevealingRef.current = true;
     setIsRevealing(true);
     const nextIndex = selectedCards.length;
     setPendingSlotIndex(nextIndex);
@@ -454,11 +468,18 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
         psychologySummary: data.base?.summary || data.base?.body || "",
       };
 
-      const updated = [...selectedCards, cardObj];
-      setSelectedCards(updated);
+      // Functional update — không đọc `selectedCards` qua closure (có thể
+      // đã cũ nếu vì lý do gì đó 2 lần reveal chồng nhau resolve lệch thứ
+      // tự), tránh 1 lần ghi đè mất lá của lần kia.
+      let newLength = 0;
+      setSelectedCards((prev) => {
+        const next = [...prev, cardObj];
+        newLength = next.length;
+        return next;
+      });
       setPendingSlotIndex(null);
 
-      if (updated.length === 3) {
+      if (newLength === 3) {
         setTimeout(() => {
           setShowEffects(true);
         }, 550);
@@ -472,17 +493,26 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       setPendingSlotIndex(null);
     } finally {
       setIsRevealing(false);
+      isRevealingRef.current = false;
     }
   };
 
-  const handleUnlockDeepAnalysis = async () => {
+  // tokenOverride: dùng ngay token vừa xin lại từ /resume (setDrawToken là
+  // async, đọc state `drawToken` ngay sau khi set trong cùng lần gọi sẽ ra
+  // giá trị cũ — phải truyền trực tiếp thay vì trông chờ vào state).
+  const handleUnlockDeepAnalysis = async (tokenOverride?: string) => {
+    if (isUnlockingRef.current) return;
+    isUnlockingRef.current = true;
+    try {
+    const activeToken = tokenOverride ?? drawToken;
+
     if (credits < 2) {
       setErrorMessage("Bạn cần ít nhất 2 Credits để mở khóa luận giải chuyên sâu.");
       onOpenTopUp();
       return;
     }
 
-    if (!drawToken) {
+    if (!activeToken) {
       setErrorMessage("Phiên trải bài không hợp lệ. Vui lòng bắt đầu lại.");
       return;
     }
@@ -502,7 +532,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          token: drawToken,
+          token: activeToken,
         }),
       });
 
@@ -581,6 +611,61 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       setPhase("revealed");
       setSessionRecoveryNotice(true);
       setRecoveredTokenExpired(drawToken ? isDrawTokenExpired(drawToken) : true);
+    }
+    } finally {
+      isUnlockingRef.current = false;
+    }
+  };
+
+  // Token cũ đã chết (hết hạn/gián đoạn) — xin cấp lại token mới cho ĐÚNG bộ
+  // 3 lá + câu hỏi đã có (không rút bài mới), rồi luận giải luôn với token
+  // đó. Client đã hợp lệ biết nội dung 3 lá này từ bước reveal trước đó, nên
+  // gửi lại không có gì phải giấu (khác với /shuffle — xem
+  // 03-kien-truc-ai.md §7.2). Câu hỏi vẫn bị kiểm duyệt lại ở server.
+  const handleRetryAnalysis = async () => {
+    if (!recoveredTokenExpired && !sessionDead) {
+      await handleUnlockDeepAnalysis();
+      return;
+    }
+
+    setIsResuming(true);
+    setErrorMessage("");
+    try {
+      const res = await fetch("/api/reading/deep/resume", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          topic: selectedTopic,
+          question: inquiry,
+          cards: selectedCards.map((c) => ({ cardId: c.cardId, orientation: c.orientation })),
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+
+      if (!res.ok) {
+        if (res.status === 401) {
+          setErrorMessage("Phiên đăng nhập đã hết. Vui lòng tải lại trang và đăng nhập lại.");
+        } else if (res.status === 429) {
+          setErrorMessage("Bạn đã thực hiện quá nhiều lượt trong 1 giờ. Vui lòng chờ ít phút.");
+        } else {
+          setErrorMessage(
+            translateReadingError(data?.error, "Không thể khôi phục phiên. Vui lòng thử lại."),
+          );
+        }
+        return;
+      }
+
+      if (data?.blocked) {
+        setBlockedData({ category: data.category as BlockedCategory });
+        return;
+      }
+
+      setDrawToken(data.token);
+      await handleUnlockDeepAnalysis(data.token);
+    } catch {
+      setErrorMessage("Lỗi kết nối khi khôi phục phiên. Vui lòng thử lại.");
+    } finally {
+      setIsResuming(false);
     }
   };
 
@@ -1220,23 +1305,24 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
                 động hoàn lại. Bộ 3 lá bạn đã rút vẫn còn nguyên bên dưới.
               </p>
               {recoveredTokenExpired && (
-                <p className="text-[#f0605f] font-medium">
-                  Phiên đã hết hạn (quá 15 phút) nên không trải lại luận giải cho bộ này được nữa —
-                  chọn "Bỏ qua, trải bài khác" bên dưới.
+                <p className="text-[#d4af37]">
+                  Token phiên trước đã hết hạn — bấm "Trải lại luận giải" sẽ tự xin cấp lại cho
+                  đúng câu hỏi và 3 lá này (kiểm duyệt lại câu hỏi, không tính thêm Credits ở bước
+                  này).
                 </p>
               )}
               <div className="flex flex-wrap items-center gap-3">
-                {!recoveredTokenExpired && (
-                  <button
-                    type="button"
-                    onClick={handleUnlockDeepAnalysis}
-                    className="px-3 py-1.5 rounded-lg bg-[#8f5a1f] hover:bg-[#d4af37] hover:text-[#050505] text-white text-[11px] font-semibold uppercase tracking-wider transition-colors cursor-pointer"
-                  >
-                    Trải lại luận giải cho bộ bài này
-                  </button>
-                )}
                 <button
                   type="button"
+                  onClick={handleRetryAnalysis}
+                  disabled={isResuming}
+                  className="px-3 py-1.5 rounded-lg bg-[#8f5a1f] hover:bg-[#d4af37] hover:text-[#050505] text-white text-[11px] font-semibold uppercase tracking-wider transition-colors cursor-pointer disabled:opacity-60"
+                >
+                  {isResuming ? "Đang khôi phục…" : "Trải lại luận giải cho bộ bài này"}
+                </button>
+                <button
+                  type="button"
+                  disabled={isResuming}
                   onClick={() => {
                     if (typeof window !== "undefined") {
                       sessionStorage.removeItem(SESSION_STORAGE_KEY);
@@ -1251,11 +1337,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
                     setSessionDead(false);
                     setRecoveredTokenExpired(false);
                   }}
-                  className={
-                    recoveredTokenExpired
-                      ? "px-3 py-1.5 rounded-lg bg-[#8f5a1f] hover:bg-[#d4af37] hover:text-[#050505] text-white text-[11px] font-semibold uppercase tracking-wider transition-colors cursor-pointer"
-                      : "text-[#b3a48d] hover:text-white underline cursor-pointer"
-                  }
+                  className="text-[#b3a48d] hover:text-white underline cursor-pointer disabled:opacity-60"
                 >
                   Bỏ qua, trải bài khác
                 </button>
@@ -1333,8 +1415,9 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           {/* Unlock Button */}
           <div className="max-w-md mx-auto flex flex-col items-center">
             <button
-              onClick={handleUnlockDeepAnalysis}
-              className="w-full py-4 px-8 rounded-2xl bg-gradient-to-r from-[#8f5a1f] to-[#764a19] hover:from-[#d4af37] hover:to-[#8f5a1f] text-white hover:text-[#050505] font-bold text-xs sm:text-sm tracking-widest uppercase transition-all duration-300 shadow-[0_0_30px_rgba(143,90,31,0.6)] hover:shadow-[0_0_40px_rgba(212,175,55,0.7)] border border-[#d4af37]/60 flex items-center justify-center gap-3 cursor-pointer active:scale-98"
+              onClick={() => handleUnlockDeepAnalysis()}
+              disabled={isTyping}
+              className="w-full py-4 px-8 rounded-2xl bg-gradient-to-r from-[#8f5a1f] to-[#764a19] hover:from-[#d4af37] hover:to-[#8f5a1f] text-white hover:text-[#050505] font-bold text-xs sm:text-sm tracking-widest uppercase transition-all duration-300 shadow-[0_0_30px_rgba(143,90,31,0.6)] hover:shadow-[0_0_40px_rgba(212,175,55,0.7)] border border-[#d4af37]/60 flex items-center justify-center gap-3 cursor-pointer active:scale-98 disabled:opacity-60 disabled:cursor-not-allowed"
             >
               <span>MỞ KHÓA LUẬN GIẢI CHUYÊN SÂU</span>
               <div className="flex items-center gap-1 bg-black/40 px-2.5 py-1 rounded-lg text-xs font-bold text-[#d4af37] border border-[#d4af37]/30">

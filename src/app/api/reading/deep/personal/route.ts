@@ -1,6 +1,5 @@
 import * as Sentry from "@sentry/nextjs";
 import { NextResponse } from "next/server";
-import { randomUUID } from "node:crypto";
 import { getAiProvider, type AiEvent } from "@/lib/ai/provider";
 import { requireUser } from "@/lib/auth";
 import { buildUserTurn, PERSONAL_LAYER_SYSTEM } from "@/lib/ai/deep-reading-prompt";
@@ -40,9 +39,27 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "forbidden" }, { status: 403 });
   }
 
-  const readingId = randomUUID();
+  // Nhúng sẵn trong token (ký 1 lần lúc /shuffle hoặc /resume) — KHÔNG tự
+  // sinh randomUUID() ở đây nữa. 2 request cùng token (double-click, script
+  // gọi song song) giờ luôn cùng readingId.
+  const readingId = payload.readingId;
   const supabaseAdmin = getSupabaseAdmin();
-  const { error: debitError } = await supabaseAdmin.rpc("debit_reading", {
+
+  // Chặn double-submit trước khi trừ credits/gọi AI — debit_reading() vẫn
+  // idempotent theo ref_id nên tiền không bị trừ 2 lần dù thiếu bước này,
+  // nhưng thiếu nó thì request trùng vẫn lọt qua gọi AI + ghi thêm 1 dòng
+  // readings trùng lặp (tốn API cost oan, không chỉ là vấn đề tiền).
+  const { data: existingDebit } = await supabaseAdmin
+    .from("credit_ledger")
+    .select("id")
+    .eq("reason", "reading")
+    .eq("ref_id", readingId)
+    .maybeSingle();
+  if (existingDebit) {
+    return NextResponse.json({ error: "already_processing" }, { status: 409 });
+  }
+
+  const { data: debited, error: debitError } = await supabaseAdmin.rpc("debit_reading", {
     p_user_id: user.id,
     p_reading_id: readingId,
     p_cost: env.DEEP_READING_COST,
@@ -53,6 +70,13 @@ export async function POST(request: Request) {
     }
     Sentry.captureException(debitError, { extra: { readingId, userId: user.id } });
     return NextResponse.json({ error: "debit_failed" }, { status: 500 });
+  }
+  // false = race thật (request khác đã debit cho đúng readingId này trước
+  // khi bước check ở trên kịp thấy) — debit_reading() tự rollback phần vừa
+  // trừ, hàm này chỉ nhận đúng false, không cần tự lo an toàn tiền nữa. Dừng
+  // ngay, không gọi AI/ghi readings trùng lần 2.
+  if (!debited) {
+    return NextResponse.json({ error: "already_processing" }, { status: 409 });
   }
 
   // Lấy từ khoá cho prompt (không truyền toàn văn Lớp Nền — §5.2). Nguồn
@@ -108,10 +132,13 @@ export async function POST(request: Request) {
 
         if (final.stopReason === "refusal") {
           send({ type: "error", message: "Không thể tạo diễn giải cho câu hỏi này. Credits đã được hoàn." });
-          const { error: refundError } = await supabaseAdmin.rpc("refund_reading", {
+          const { data: refunded, error: refundError } = await supabaseAdmin.rpc("refund_reading", {
             p_reading_id: readingId,
           });
           if (refundError) Sentry.captureException(refundError, { extra: { readingId } });
+          // false ở đây bất thường (vừa debit thành công ngay phía trên) —
+          // đáng ghi lại dù không phải lỗi nghiêm trọng để không hoàn 2 lần.
+          if (refunded === false) Sentry.captureMessage("refund_reading no-op sau debit thành công", { extra: { readingId } });
           Sentry.captureMessage("deep reading refusal", {
             extra: { readingId, provider: env.AI_PROVIDER },
           });
@@ -161,10 +188,11 @@ export async function POST(request: Request) {
         } catch {
           // controller có thể đã đóng — bỏ qua, lỗi chính đã ghi Sentry ở trên
         }
-        const { error: refundError } = await supabaseAdmin.rpc("refund_reading", {
+        const { data: refunded, error: refundError } = await supabaseAdmin.rpc("refund_reading", {
           p_reading_id: readingId,
         });
         if (refundError) Sentry.captureException(refundError, { extra: { readingId } });
+        if (refunded === false) Sentry.captureMessage("refund_reading no-op sau debit thành công", { extra: { readingId } });
         controller.close();
       }
     },

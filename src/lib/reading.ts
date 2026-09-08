@@ -56,6 +56,29 @@ export const DeepReadingRequestSchema = z.object({
   question: z.string().trim().min(1).max(500),
 });
 
+// Xin cấp lại token cho đúng bộ bài đã rút — client chỉ biết được nội dung
+// 3 lá này SAU KHI đã reveal hợp lệ qua /api/reading/deep/reveal (server trả
+// về), nên không có gì phải giấu ở bước này nữa (khác với lúc rút bài ở
+// /shuffle — xem 03-kien-truc-ai.md §7.2). Vẫn validate cardId nằm trong bộ
+// 78 lá thật + không trùng lặp, và chạy lại kiểm duyệt câu hỏi (client có
+// thể sửa text trước khi gửi lại) trước khi ký token mới.
+export const ResumeReadingRequestSchema = z.object({
+  topic: TopicSchema.default("general"),
+  question: z.string().trim().min(1).max(500),
+  cards: z
+    .array(
+      z.object({
+        cardId: z.enum(CARD_IDS as [string, ...string[]]),
+        orientation: z.enum(["upright", "reversed"]),
+      }),
+    )
+    .length(DEEP_SPREAD_SIZE)
+    .refine(
+      (cards) => new Set(cards.map((c) => c.cardId)).size === cards.length,
+      "duplicate_card_id",
+    ),
+});
+
 export function drawCards(count: number, mode: OrientationMode = "independent"): Draw[] {
   const deck = [...CARD_IDS];
   const drawn: Draw[] = [];
