@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { User, Coins, Calendar, History, CreditCard, Settings, PlusCircle, ArrowRight, Layers, Sparkles, Trash2 } from "lucide-react";
 import type { AppScreen, ReadingHistoryItem, UserProfile } from "@/types/tarot";
 import { createClient } from "@/lib/supabase/client";
+import { ChangePasswordSection } from "@/components/account/ChangePasswordSection";
 import { DeleteAccountButton } from "@/components/account/DeleteAccountButton";
 
 interface AccountScreenProps {
@@ -317,6 +318,16 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
           </div>
         )}
       </section>
+
+      {user.isLoggedIn && (
+        <section className="pt-6 border-t border-[#3d3123]/60">
+          <h2 className="font-display text-sm text-[#7a6e5d] font-semibold uppercase tracking-wider mb-3">
+            Bảo mật
+          </h2>
+          {/* Tự ẩn với tài khoản Google/magic link — xem ChangePasswordSection. */}
+          <ChangePasswordSection email={user.email} />
+        </section>
+      )}
 
       {user.isLoggedIn && (
         <section className="pt-6 border-t border-[#3d3123]/60">

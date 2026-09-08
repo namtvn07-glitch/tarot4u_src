@@ -8,7 +8,13 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/tai-khoan", "/auth/", "/nap-credits/ket-qua"],
+      disallow: [
+        "/api/",
+        "/tai-khoan",
+        "/auth/",
+        "/nap-credits/ket-qua",
+        "/dat-lai-mat-khau",
+      ],
     },
     sitemap: `${baseUrl}/sitemap.xml`,
   };

@@ -1,8 +1,12 @@
 "use client";
 
-import React, { useState } from "react";
-import { Sparkles, Mail, Lock, Eye, EyeOff, X, CheckCircle, ArrowRight, AlertCircle, Loader2 } from "lucide-react";
+import React, { useEffect, useId, useState } from "react";
+import { Sparkles, Mail, X, CheckCircle, ArrowRight, AlertCircle, Loader2, MailCheck } from "lucide-react";
+import { PASSWORD_MIN_LENGTH } from "@/lib/password";
+import { PasswordField } from "@/components/auth/PasswordField";
+import { PasswordRequirements, usePasswordCheck } from "@/components/auth/PasswordRequirements";
 import { createClient } from "@/lib/supabase/client";
+import { sendPasswordResetEmail } from "@/lib/password-reset";
 
 interface AuthModalProps {
   isOpen: boolean;
@@ -19,11 +23,28 @@ export const AuthModal: React.FC<AuthModalProps> = ({
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [magicEmail, setMagicEmail] = useState("");
-  const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [magicLinkSent, setMagicLinkSent] = useState(false);
   const [registerSuccess, setRegisterSuccess] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
+  const [resetStatus, setResetStatus] = useState<"idle" | "sending" | "sent">("idle");
+  const requirementsId = useId();
+  const emailId = useId();
+
+  // Quy tắc mật khẩu chỉ áp khi ĐẶT mật khẩu mới (tab Đăng ký) — không áp lúc đăng
+  // nhập, người dùng cũ với mật khẩu ngắn vẫn phải vào được bình thường.
+  const passwordCheck = usePasswordCheck(mode === "register" ? password : "", email);
+
+  // Link đặt lại mật khẩu hết hạn quay về đây (xem src/app/auth/callback/route.ts).
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const error = new URLSearchParams(window.location.search).get("error");
+    if (error === "link_expired") {
+      setErrorMsg(
+        "Link đặt lại mật khẩu đã hết hạn hoặc đã được dùng rồi. Hãy yêu cầu link mới.",
+      );
+    }
+  }, []);
 
   if (!isOpen) return null;
 
@@ -101,6 +122,27 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     }
   };
 
+  // Thông điệp cố tình trung tính, không phân biệt email có tài khoản hay không —
+  // Supabase cũng trả về thành công cho email lạ, đổi thông điệp ở đây là biến form
+  // này thành công cụ dò xem ai đã đăng ký.
+  const handleForgotPassword = async () => {
+    if (!email) {
+      setErrorMsg("Vui lòng nhập email của bạn trước khi yêu cầu đặt lại mật khẩu.");
+      return;
+    }
+    setErrorMsg("");
+    setResetStatus("sending");
+    const { ok } = await sendPasswordResetEmail(email);
+    if (!ok) {
+      setErrorMsg(
+        "Không gửi được email đặt lại mật khẩu lúc này. Vui lòng thử lại sau ít phút.",
+      );
+      setResetStatus("idle");
+      return;
+    }
+    setResetStatus("sent");
+  };
+
   const handlePasswordSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
@@ -145,7 +187,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({
           if (error.message.includes("User already registered")) {
             setErrorMsg("Email này đã được đăng ký. Vui lòng chuyển sang tab Đăng Nhập.");
           } else if (error.message.includes("Password should be at least")) {
-            setErrorMsg("Mật khẩu phải chứa ít nhất 6 ký tự.");
+            setErrorMsg(`Mật khẩu phải chứa ít nhất ${PASSWORD_MIN_LENGTH} ký tự.`);
+          } else if (error.code === "weak_password") {
+            setErrorMsg("Mật khẩu chưa đủ mạnh theo yêu cầu của hệ thống. Hãy chọn mật khẩu khác.");
           } else {
             setErrorMsg(error.message);
           }
@@ -195,9 +239,25 @@ export const AuthModal: React.FC<AuthModalProps> = ({
 
         {/* Error Alert Box */}
         {errorMsg && (
-          <div className="mb-4 p-3 rounded-xl bg-[#f0605f]/15 border border-[#f0605f]/40 text-[#f0605f] text-xs flex items-start gap-2">
-            <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
+          <div
+            role="alert"
+            className="mb-4 p-3 rounded-xl bg-[#f0605f]/15 border border-[#f0605f]/40 text-[#f0605f] text-xs flex items-start gap-2"
+          >
+            <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" aria-hidden="true" />
             <span>{errorMsg}</span>
+          </div>
+        )}
+
+        {resetStatus === "sent" && (
+          <div
+            role="status"
+            className="mb-4 p-3 rounded-xl bg-[#5fbf8c]/15 border border-[#5fbf8c]/40 text-[#5fbf8c] text-xs flex items-start gap-2"
+          >
+            <MailCheck className="w-4 h-4 shrink-0 mt-0.5" aria-hidden="true" />
+            <span>
+              Nếu email này có tài khoản, chúng tôi đã gửi link đặt lại mật khẩu tới{" "}
+              <strong>{email}</strong>. Kiểm tra hộp thư (kể cả mục spam).
+            </span>
           </div>
         )}
 
@@ -210,8 +270,11 @@ export const AuthModal: React.FC<AuthModalProps> = ({
         )}
 
         {registerSuccess && (
-          <div className="mb-4 p-3 rounded-xl bg-[#5fbf8c]/15 border border-[#5fbf8c]/40 text-[#5fbf8c] text-xs flex items-start gap-2">
-            <CheckCircle className="w-4 h-4 shrink-0 mt-0.5" />
+          <div
+            role="status"
+            className="mb-4 p-3 rounded-xl bg-[#5fbf8c]/15 border border-[#5fbf8c]/40 text-[#5fbf8c] text-xs flex items-start gap-2"
+          >
+            <CheckCircle className="w-4 h-4 shrink-0 mt-0.5" aria-hidden="true" />
             <span>Đăng ký thành công! Vui lòng kiểm tra email để xác nhận tài khoản trước khi đăng nhập.</span>
           </div>
         )}
@@ -255,69 +318,60 @@ export const AuthModal: React.FC<AuthModalProps> = ({
         {/* Email & Password Form */}
         <form onSubmit={handlePasswordSubmit} className="flex flex-col gap-3">
           <div>
-            <label className="text-[11px] font-semibold text-[#b3a48d] block mb-1">
+            <label
+              htmlFor={emailId}
+              className="text-[11px] font-semibold text-[#b3a48d] block mb-1"
+            >
               Địa chỉ Email
             </label>
             <div className="relative">
               <Mail className="w-4 h-4 text-[#7a6e5d] absolute left-3 top-1/2 -translate-y-1/2" />
               <input
+                id={emailId}
                 type="email"
                 required
+                autoComplete="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="tenban@gmail.com"
-                className="w-full bg-[#0e0a08] border border-[#3d3123] rounded-xl pl-9 pr-3 py-2 text-xs text-[#f3ece1] placeholder:text-[#7a6e5d] focus:outline-none focus:border-[#d4af37] focus:ring-1 focus:ring-[#d4af37] transition-all"
+                className="w-full min-h-[44px] bg-[#0e0a08] border border-[#3d3123] rounded-xl pl-9 pr-3 py-2 text-xs text-[#f3ece1] placeholder:text-[#7a6e5d] focus:outline-none focus:border-[#d4af37] focus:ring-1 focus:ring-[#d4af37] transition-all"
               />
             </div>
           </div>
 
           <div>
-            <div className="flex justify-between items-center mb-1">
-              <label className="text-[11px] font-semibold text-[#b3a48d]">
-                Mật khẩu
-              </label>
-              {mode === "login" && (
-                <button
-                  type="button"
-                  onClick={() => {
-                    if (!email) {
-                      setErrorMsg("Vui lòng nhập email của bạn trước khi yêu cầu đặt lại mật khẩu.");
-                    } else {
-                      const supabase = createClient();
-                      supabase.auth.resetPasswordForEmail(email);
-                      alert(`Liên kết đặt lại mật khẩu đã được gửi tới ${email}.`);
-                    }
-                  }}
-                  className="text-[10px] text-[#d4af37] hover:underline"
-                >
-                  Quên mật khẩu?
-                </button>
-              )}
-            </div>
-
-            <div className="relative">
-              <Lock className="w-4 h-4 text-[#7a6e5d] absolute left-3 top-1/2 -translate-y-1/2" />
-              <input
-                type={showPassword ? "text" : "password"}
-                required
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="••••••••"
-                className="w-full bg-[#0e0a08] border border-[#3d3123] rounded-xl pl-9 pr-9 py-2 text-xs text-[#f3ece1] placeholder:text-[#7a6e5d] focus:outline-none focus:border-[#d4af37] focus:ring-1 focus:ring-[#d4af37] transition-all"
+            <PasswordField
+              label="Mật khẩu"
+              value={password}
+              onChange={setPassword}
+              autoComplete={mode === "register" ? "new-password" : "current-password"}
+              describedBy={mode === "register" ? requirementsId : undefined}
+              disabled={loading}
+              labelAside={
+                mode === "login" ? (
+                  <button
+                    type="button"
+                    onClick={handleForgotPassword}
+                    disabled={resetStatus === "sending"}
+                    className="text-[10px] text-[#d4af37] hover:underline cursor-pointer disabled:opacity-50"
+                  >
+                    {resetStatus === "sending" ? "Đang gửi…" : "Quên mật khẩu?"}
+                  </button>
+                ) : undefined
+              }
+            />
+            {mode === "register" && (
+              <PasswordRequirements
+                id={requirementsId}
+                password={password}
+                check={passwordCheck}
               />
-              <button
-                type="button"
-                onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-[#7a6e5d] hover:text-[#f3ece1] cursor-pointer"
-              >
-                {showPassword ? <EyeOff className="w-3.5 h-3.5" /> : <Eye className="w-3.5 h-3.5" />}
-              </button>
-            </div>
+            )}
           </div>
 
           <button
             type="submit"
-            disabled={loading}
+            disabled={loading || (mode === "register" && !passwordCheck.canSubmit)}
             className="mt-2 w-full bg-gradient-to-r from-[#8f5a1f] to-[#764a19] hover:from-[#d4af37] hover:to-[#8f5a1f] text-white hover:text-[#050505] text-xs font-semibold py-2.5 rounded-xl transition-all duration-300 shadow-[0_0_15px_rgba(143,90,31,0.35)] cursor-pointer flex items-center justify-center gap-2 disabled:opacity-50"
           >
             {loading ? (

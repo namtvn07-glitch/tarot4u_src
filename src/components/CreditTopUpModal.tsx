@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { X, Coins, Check, QrCode, ShieldCheck, AlertCircle, Loader2, ExternalLink, CheckCircle2 } from "lucide-react";
 import { PACKS } from "@/lib/orders";
+import { useEscapeAndTabTrap, useFocusTrap } from "@/lib/useModalA11y";
 
 const vndFormatter = new Intl.NumberFormat("vi-VN");
 const RING_RADIUS = 26;
@@ -13,66 +14,6 @@ function formatCountdown(ms: number): string {
   const m = String(Math.floor(totalSeconds / 60)).padStart(2, "0");
   const s = String(totalSeconds % 60).padStart(2, "0");
   return `${m}:${s}`;
-}
-
-function useFocusTrap(active: boolean, containerRef: React.RefObject<HTMLElement | null>) {
-  const previouslyFocused = useRef<HTMLElement | null>(null);
-
-  useEffect(() => {
-    if (!active) return;
-    previouslyFocused.current = document.activeElement as HTMLElement | null;
-
-    const container = containerRef.current;
-    const focusable = container?.querySelectorAll<HTMLElement>(
-      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
-    );
-    focusable?.[0]?.focus();
-
-    return () => {
-      previouslyFocused.current?.focus();
-    };
-  }, [active, containerRef]);
-}
-
-function useEscapeAndTabTrap(
-  active: boolean,
-  containerRef: React.RefObject<HTMLElement | null>,
-  onEscape: () => void
-) {
-  useEffect(() => {
-    if (!active) return;
-
-    function handleKeyDown(e: KeyboardEvent) {
-      if (e.key === "Escape") {
-        onEscape();
-        return;
-      }
-      if (e.key !== "Tab") return;
-
-      const container = containerRef.current;
-      if (!container) return;
-      const focusable = Array.from(
-        container.querySelectorAll<HTMLElement>(
-          'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
-        )
-      ).filter((el) => el.offsetParent !== null);
-      if (focusable.length === 0) return;
-
-      const first = focusable[0];
-      const last = focusable[focusable.length - 1];
-
-      if (e.shiftKey && document.activeElement === first) {
-        e.preventDefault();
-        last.focus();
-      } else if (!e.shiftKey && document.activeElement === last) {
-        e.preventDefault();
-        first.focus();
-      }
-    }
-
-    document.addEventListener("keydown", handleKeyDown);
-    return () => document.removeEventListener("keydown", handleKeyDown);
-  }, [active, containerRef, onEscape]);
 }
 
 interface CreditTopUpModalProps {

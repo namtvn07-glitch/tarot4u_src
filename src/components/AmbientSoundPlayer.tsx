@@ -63,7 +63,12 @@ export const AmbientSoundPlayer: React.FC = () => {
   const activeSoundscapeObj = SOUNDSCAPES.find((s) => s.id === currentSoundscape) || SOUNDSCAPES[0];
 
   return (
-    <div className="fixed bottom-5 right-5 z-50" ref={menuRef}>
+    // z-40, không phải z-50: mọi modal trong app (AuthModal, CreditTopUpModal, các
+    // popup ở /tai-khoan…) dùng z-50, và widget này được mount SAU {children} trong
+    // layout.tsx — cùng z-index thì phần tử đứng sau trong DOM thắng, nên trước đây
+    // nó đè lên mọi modal chạm tới góc phải dưới màn hình. z-40 khớp với Header
+    // (thanh điều hướng cố định) — vẫn trên nội dung trang (z-10), luôn dưới modal.
+    <div className="fixed bottom-5 right-5 z-40" ref={menuRef}>
       {/* Main Trigger Button */}
       <div className="flex items-center shadow-[0_8px_25px_rgba(0,0,0,0.85)] rounded-full">
         <button

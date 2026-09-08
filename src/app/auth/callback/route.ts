@@ -23,8 +23,17 @@ export async function GET(request: Request) {
     }
   }
 
-  // Missing code or a failed exchange — back to home rather than stranding
-  // the user on a bare /auth/callback URL. A dedicated error page is part of
-  // the Giai đoạn 5 login UI, not this route.
+  // Missing code or a failed exchange. Trả người dùng về đúng nơi họ định tới kèm
+  // `error=link_expired` khi có `next` — người bấm link đặt lại mật khẩu đã hết hạn
+  // mà bị đá thẳng ra trang chủ thì không có cách nào biết chuyện gì vừa xảy ra.
+  // Không có `next` thì giữ nguyên hành vi cũ: về trang chủ.
+  if (next !== "/") {
+    // `new URL(next, origin)` an toàn ở đây vì `next` đã được lọc ở trên (bắt buộc
+    // bắt đầu bằng "/" và không phải "//"), và nó xử lý đúng cả trường hợp `next`
+    // vốn đã có sẵn query string.
+    const target = new URL(next, origin);
+    target.searchParams.set("error", "link_expired");
+    return NextResponse.redirect(target);
+  }
   return NextResponse.redirect(`${origin}/`);
 }
