@@ -71,7 +71,11 @@ export function CreateAffiliateLinkForm({ siteUrl }: { siteUrl: string }) {
     const response = await fetch("/api/admin/affiliate-links", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ code, label: label || undefined }),
+      body: JSON.stringify({
+        code,
+        label: label || undefined,
+        destination_path: path.startsWith("/") ? path : `/${path}`,
+      }),
     });
 
     if (!response.ok) {

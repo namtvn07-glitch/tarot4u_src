@@ -10,7 +10,6 @@ const PAGE_SIZE = 50;
 
 const ACTION_LABEL: Record<string, string> = {
   "users.list": "Xem danh sách người dùng",
-  "users.view": "Xem chi tiết một người dùng",
   "affiliate.create": "Tạo link affiliate",
   "affiliate.toggle": "Bật/tắt link affiliate",
   "affiliate.delete": "Xoá link affiliate",

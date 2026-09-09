@@ -14,6 +14,12 @@ const CreateSchema = z.object({
     message: "Mã chỉ gồm chữ, số, gạch ngang hoặc gạch dưới, dài 3–32 ký tự.",
   }),
   label: z.string().trim().max(120).optional(),
+  // Khớp ràng buộc check của cột trong database — cùng luật, hai lớp.
+  destination_path: z
+    .string()
+    .regex(/^\/[A-Za-z0-9/_-]*$/, { message: "Trang đích không hợp lệ." })
+    .max(200)
+    .optional(),
 });
 
 const ToggleSchema = z.object({
@@ -37,10 +43,13 @@ export async function POST(request: Request) {
     );
   }
 
-  const { code, label } = parsed.data;
-  const { error } = await getSupabaseAdmin()
-    .from("affiliate_links")
-    .insert({ code, label: label || null, created_by: admin.id });
+  const { code, label, destination_path } = parsed.data;
+  const { error } = await getSupabaseAdmin().from("affiliate_links").insert({
+    code,
+    label: label || null,
+    destination_path: destination_path || "/",
+    created_by: admin.id,
+  });
 
   if (error) {
     // 23505 = unique_violation: mã đã tồn tại. Báo đúng nguyên nhân thay vì

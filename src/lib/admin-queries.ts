@@ -49,6 +49,7 @@ export interface AdminUserRow {
 export interface AffiliateStatRow {
   code: string;
   label: string | null;
+  destination_path: string;
   is_active: boolean;
   created_at: string;
   clicks: number;

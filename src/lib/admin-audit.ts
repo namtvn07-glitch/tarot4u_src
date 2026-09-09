@@ -6,7 +6,6 @@ import { getSupabaseAdmin } from "@/lib/supabase/admin";
 // (pgaudit không thay thế được: nó cũng chỉ thấy service_role.)
 export type AdminAuditAction =
   | "users.list"
-  | "users.view"
   | "affiliate.create"
   | "affiliate.toggle"
   | "affiliate.delete";

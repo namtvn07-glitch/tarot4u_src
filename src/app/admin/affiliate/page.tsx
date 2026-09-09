@@ -141,6 +141,7 @@ export default async function AdminAffiliatePage() {
                         isActive={row.is_active}
                         siteUrl={env.NEXT_PUBLIC_SITE_URL}
                         hasSignups={row.signups > 0}
+                        destinationPath={row.destination_path}
                       />
                     </td>
                   </tr>

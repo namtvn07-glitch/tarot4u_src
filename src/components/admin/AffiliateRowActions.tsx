@@ -12,11 +12,13 @@ export function AffiliateRowActions({
   isActive,
   siteUrl,
   hasSignups,
+  destinationPath,
 }: {
   code: string;
   isActive: boolean;
   siteUrl: string;
   hasSignups: boolean;
+  destinationPath: string;
 }) {
   const router = useRouter();
   const [busy, setBusy] = useState<Busy>(null);
@@ -31,7 +33,7 @@ export function AffiliateRowActions({
     setDomain(readStoredDomain(siteUrl));
   }, [siteUrl]);
 
-  const url = buildAffiliateUrl(domain, "/", code);
+  const url = buildAffiliateUrl(domain, destinationPath, code);
 
   async function send(method: "PATCH" | "DELETE", body: unknown, kind: Busy) {
     setBusy(kind);
