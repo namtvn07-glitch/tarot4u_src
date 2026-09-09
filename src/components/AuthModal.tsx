@@ -6,6 +6,7 @@ import { PASSWORD_MIN_LENGTH } from "@/lib/password";
 import { PasswordField } from "@/components/auth/PasswordField";
 import { PasswordRequirements, usePasswordCheck } from "@/components/auth/PasswordRequirements";
 import { createClient } from "@/lib/supabase/client";
+import { withAffiliateMetadata } from "@/lib/affiliate";
 import { sendPasswordResetEmail } from "@/lib/password-reset";
 
 interface AuthModalProps {
@@ -196,9 +197,11 @@ export const AuthModal: React.FC<AuthModalProps> = ({
           email,
           password,
           options: {
-            data: {
+            // withAffiliateMetadata thêm ref_click khi có cookie affiliate —
+            // trigger handle_new_user() tra ngược ra mã và gắn vào profile.
+            data: withAffiliateMetadata({
               display_name: email.split("@")[0],
-            },
+            }),
           },
         });
 

@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Sparkles, Coins, PlusCircle, User, LogOut, Menu, X, BookOpen, Layers } from "lucide-react";
+import { Sparkles, Coins, PlusCircle, User, LogOut, Menu, X, BookOpen, Layers, ShieldCheck } from "lucide-react";
+import { useIsAdmin } from "@/lib/useIsAdmin";
 import type { AppScreen, UserProfile } from "@/types/tarot";
 
 interface HeaderProps {
@@ -25,6 +26,7 @@ export const Header: React.FC<HeaderProps> = ({
   isBusy = false,
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const isAdmin = useIsAdmin(user.id);
 
   const handleNavClick = (screen: AppScreen) => {
     if (isBusy) return;
@@ -136,6 +138,22 @@ export const Header: React.FC<HeaderProps> = ({
 
         {user.isLoggedIn ? (
           <div className="flex items-center gap-3">
+            {/* Lối vào khu quản trị. Chỉ hiện với admin — nhưng đây thuần tuý
+                là chuyện hiển thị: cổng thật nằm ở src/app/admin/layout.tsx,
+                người không phải admin gõ thẳng URL vẫn nhận 404. */}
+            {isAdmin && (
+              <Link
+                href="/admin"
+                title="Khu quản trị"
+                // Dưới breakpoint sm chữ bị ẩn, còn lại mỗi icon — aria-label
+                // để nút không thành "link" trống với trình đọc màn hình.
+                aria-label="Khu quản trị"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#15100b] border border-[#d4af37]/45 text-[#d4af37] text-xs font-semibold hover:border-[#d4af37] hover:shadow-[0_0_18px_rgba(212,175,55,0.35)] transition-all"
+              >
+                <ShieldCheck className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">Quản trị</span>
+              </Link>
+            )}
             <button
               onClick={() => handleNavClick("account")}
               className="flex items-center gap-2 p-1 rounded-full hover:ring-2 hover:ring-[#d4af37]/50 transition-all cursor-pointer"
@@ -227,6 +245,16 @@ export const Header: React.FC<HeaderProps> = ({
             >
               Lịch Sử & Tài Khoản
             </button>
+          )}
+          {isAdmin && (
+            <Link
+              href="/admin"
+              onClick={() => setMobileMenuOpen(false)}
+              className="inline-flex items-center gap-2 py-2 text-left text-base text-[#d4af37] no-underline"
+            >
+              <ShieldCheck className="w-4 h-4" />
+              Khu Quản Trị
+            </Link>
           )}
 
           <div className="pt-4 border-t border-[#3d3123] flex justify-between items-center">

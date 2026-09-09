@@ -1,4 +1,4 @@
-import { type NextRequest } from "next/server";
+import { type NextRequest, type NextFetchEvent } from "next/server";
 import { updateSession } from "@/lib/supabase/middleware";
 
 // Next.js 16 renamed the `middleware` file convention to `proxy` (the
@@ -7,8 +7,10 @@ import { updateSession } from "@/lib/supabase/middleware";
 // instrumentation.ts) live under src/ alongside src/app — Next looks for them
 // at the project root OR inside src/, not both. `src/lib/supabase/middleware.ts`
 // keeps its name; that's just an internal helper module, not the special file.
-export async function proxy(request: NextRequest) {
-  return await updateSession(request);
+// `event` để updateSession dùng waitUntil() cho lượt ghi click affiliate —
+// ghi thống kê không được làm chậm phản hồi của người dùng thật.
+export async function proxy(request: NextRequest, event: NextFetchEvent) {
+  return await updateSession(request, event);
 }
 
 export const config = {

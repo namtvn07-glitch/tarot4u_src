@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useId, useState, type FormEvent } from "react";
 import { Button } from "@/components/ui/Button";
+import { withAffiliateMetadata } from "@/lib/affiliate";
 import { createClient } from "@/lib/supabase/client";
 
 type Mode = "signin" | "signup";
@@ -37,7 +38,13 @@ export function PasswordAuthForm({ next }: { next: string }) {
     const supabase = createClient();
     const { error } =
       mode === "signup"
-        ? await supabase.auth.signUp({ email, password })
+        ? await supabase.auth.signUp({
+            email,
+            password,
+            // ref_click (nếu có cookie affiliate) đi kèm vào raw_user_meta_data;
+            // trigger handle_new_user() tra ngược ra mã và gắn vào profile.
+            options: { data: withAffiliateMetadata({}) },
+          })
         : await supabase.auth.signInWithPassword({ email, password });
 
     if (error) {
