@@ -34,8 +34,12 @@ export async function POST(request: Request) {
   if (!user) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
-  // Chặn dùng token của người khác — token tự chứa userId lúc rút bài.
-  if (payload.userId !== user.id) {
+  // Chặn dùng token của người khác — token tự chứa userId lúc rút bài. Token
+  // ký lúc ẩn danh (userId null, xem shuffle/route.ts) được phép "nhận" bởi
+  // BẤT KỲ user nào đăng nhập rồi gọi tới đây với đúng token đó — token tự
+  // nó là bí mật ký HMAC, không đoán/rò rỉ chéo user được, nên không cần bắt
+  // rút bài lại chỉ vì họ đăng nhập sau khi xem xong Lớp Nền.
+  if (payload.userId && payload.userId !== user.id) {
     return NextResponse.json({ error: "forbidden" }, { status: 403 });
   }
 

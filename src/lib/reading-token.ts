@@ -9,7 +9,10 @@ import type { Draw, OrientationMode } from "@/lib/reading";
 const TTL_MS = 2 * 60 * 60_000;
 
 export interface DrawTokenPayload {
-  userId: string;
+  // null = ký lúc ẩn danh (chưa đăng nhập tại thời điểm /shuffle) — cho phép
+  // /personal "nhận" token này bằng bất kỳ tài khoản nào đăng nhập sau đó,
+  // xem check ở personal/route.ts.
+  userId: string | null;
   topic: string;
   question: string;
   orientationMode: OrientationMode;

@@ -193,7 +193,11 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   const [pendingSlotIndex, setPendingSlotIndex] = useState<number | null>(null);
   const [streamedText, setStreamedText] = useState("");
   const [isTyping, setIsTyping] = useState(false);
-  const [savedSuccess, setSavedSuccess] = useState(false);
+  // true khi user đã lưu phiên vào lịch sử — không tự reset lại như 1 toast
+  // thoáng qua (khác copiedSuccess): lưu lịch sử là hành động 1 lần, bấm lại
+  // sẽ tạo thêm 1 dòng lịch sử trùng lặp, nên nút phải giữ nguyên trạng thái
+  // "đã lưu" cho tới khi bắt đầu phiên mới.
+  const [isSaved, setIsSaved] = useState(false);
   const [copiedSuccess, setCopiedSuccess] = useState(false);
   const [drawToken, setDrawToken] = useState<string | null>(null);
   const [errorMessage, setErrorMessage] = useState<string>("");
@@ -252,11 +256,12 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   }, [isShuffling, onBusyChange]);
 
   // Cho trang cha biết có phiên dở dang đáng hỏi trước khi điều hướng đi hay
-  // không (vd. bấm tab khác trên Header) — cùng điều kiện với handleHeaderBack.
+  // không (vd. bấm tab khác trên Header) — cùng điều kiện với handleHeaderBack,
+  // trừ khi đã lưu vào lịch sử rồi (không còn gì để mất, khỏi hỏi lại).
   useEffect(() => {
-    onSessionActiveChange?.(phase !== "inquiry" && selectedCards.length > 0);
+    onSessionActiveChange?.(phase !== "inquiry" && selectedCards.length > 0 && !isSaved);
     return () => onSessionActiveChange?.(false);
-  }, [phase, selectedCards.length, onSessionActiveChange]);
+  }, [phase, selectedCards.length, isSaved, onSessionActiveChange]);
 
   // Restore Session Storage if user previously navigated away
   useEffect(() => {
@@ -390,6 +395,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
     setRecoveredTokenExpired(false);
     setRefundNotice(null);
     setShowEffects(false);
+    setIsSaved(false);
 
     if (abortControllerRef.current) {
       abortControllerRef.current.abort();
@@ -407,12 +413,11 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       const data = await res.json().catch(() => ({}));
 
       if (!res.ok) {
-        if (res.status === 401) {
-          setErrorMessage("Vui lòng đăng nhập tài khoản trước khi thực hiện trải bài sâu.");
-          onOpenTopUp();
-          return;
-        } else if (res.status === 429) {
-          setErrorMessage("Bạn đã thực hiện quá nhiều lượt xáo bài trong 1 giờ. Vui lòng chờ ít phút.");
+        if (res.status === 429) {
+          // Ngưỡng khác nhau cho ẩn danh (1 ngày/IP) và đã đăng nhập (1
+          // giờ/user, xem shuffle/route.ts) — không nêu cụ thể mốc thời gian
+          // ở đây để tránh nói sai với 1 trong 2 trường hợp.
+          setErrorMessage("Bạn đã thực hiện quá nhiều lượt xáo bài. Vui lòng thử lại sau.");
           return;
         } else if (data?.error === "moderation_failed") {
           setErrorMessage("Hệ thống kiểm duyệt AI đang bận hoặc gặp gián đoạn kết nối. Vui lòng thử lại sau vài giây.");
@@ -438,6 +443,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       setSelectedCards([]);
       setPickedSlotIndices([]);
       setPendingSlotIndex(null);
+      setIsSaved(false);
 
       // Notify user via Tab title if they are currently on another browser tab
       if (typeof document !== "undefined" && document.hidden) {
@@ -572,7 +578,14 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           );
           onOpenTopUp();
         } else if (res.status === 401) {
-          setErrorMessage("Phiên đăng nhập đã hết. Vui lòng tải lại trang và đăng nhập lại.");
+          // Phần lớn rơi vào nhánh credits < 2 phía trên trước khi tới được
+          // đây (ẩn danh luôn có credits = 0) — nhánh này chỉ còn là phòng vệ
+          // cho trường hợp hiếm (state credits hiển thị cũ/sai). Chủ động mở
+          // modal đăng nhập luôn thay vì chỉ hiện chữ chờ user tự bấm Header.
+          setErrorMessage(
+            "Bạn cần đăng nhập để mở khóa luận giải chuyên sâu. 3 lá bạn đã rút vẫn còn nguyên.",
+          );
+          onOpenTopUp();
         } else {
           setErrorMessage(
             translateReadingError(
@@ -699,6 +712,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   };
 
   const handleSave = () => {
+    if (isSaved) return;
     const topicVi = activeTopicConfig.nameVi;
     const newReading: ReadingHistoryItem = {
       id: "reading-" + Date.now(),
@@ -718,8 +732,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       personalBody: streamedText.normalize("NFC"),
     };
     onSaveReading(newReading);
-    setSavedSuccess(true);
-    setTimeout(() => setSavedSuccess(false), 2500);
+    setIsSaved(true);
   };
 
   const handleShare = () => {
@@ -733,7 +746,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   };
 
   const handleHeaderBack = () => {
-    if (phase !== "inquiry" && selectedCards.length > 0) {
+    if (phase !== "inquiry" && selectedCards.length > 0 && !isSaved) {
       setShowExitConfirm(true);
     } else {
       onNavigate("home");
@@ -981,6 +994,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
                 setSessionDead(false);
                 setRecoveredTokenExpired(false);
                 setErrorMessage("");
+                setIsSaved(false);
               }}
               className="self-start mt-1 px-3 py-1.5 rounded-lg bg-[#8f5a1f] hover:bg-[#d4af37] hover:text-[#050505] text-white text-[11px] font-semibold uppercase tracking-wider transition-colors cursor-pointer"
             >
@@ -1345,6 +1359,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
                     setSessionRecoveryNotice(false);
                     setSessionDead(false);
                     setRecoveredTokenExpired(false);
+                    setIsSaved(false);
                   }}
                   className="text-[#b3a48d] hover:text-white underline cursor-pointer disabled:opacity-60"
                 >
@@ -1512,10 +1527,11 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           <div className="flex flex-col sm:flex-row gap-3 w-full max-w-md justify-center mb-8">
             <button
               onClick={handleSave}
-              className="flex-1 bg-[#8f5a1f] hover:bg-[#a06827] text-white text-xs font-semibold uppercase tracking-wider py-3.5 px-5 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg cursor-pointer active:scale-98 font-body"
+              disabled={isSaved}
+              className="flex-1 bg-[#8f5a1f] hover:bg-[#a06827] text-white text-xs font-semibold uppercase tracking-wider py-3.5 px-5 rounded-xl transition-all flex items-center justify-center gap-2 shadow-lg cursor-pointer active:scale-98 font-body disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:bg-[#8f5a1f]"
             >
               <Bookmark className="w-4 h-4" />
-              <span>{savedSuccess ? "Đã Lưu Lịch Sử ✓" : "Lưu Phiên Trải Bài"}</span>
+              <span>{isSaved ? "Đã Lưu Lịch Sử ✓" : "Lưu Phiên Trải Bài"}</span>
             </button>
 
             <button
@@ -1541,6 +1557,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               setSessionRecoveryNotice(false);
               setSessionDead(false);
               setRecoveredTokenExpired(false);
+              setIsSaved(false);
             }}
             className="text-xs text-[#d4af37] hover:underline flex items-center gap-1.5 cursor-pointer pb-8 font-body"
           >

@@ -215,6 +215,10 @@ Giai đoạn 1 ──┬─▶ 2 (Thiết kế) ──┬─▶ 4 (Core) ──�
 - [x] Trải bài có/không đăng nhập — Đọc nhanh không cần đăng nhập (đã xác
       nhận Giai đoạn 7); Đọc sâu không đăng nhập → `401`, không gọi AI
       (test thật 2026-08-27)
+      > ⚠️ 2026-09-09: quyết định trên đã đảo ngược có chủ đích — xem
+      > `.claude/brain/trai-nghiem-an-danh/`. Đọc sâu tới hết Lớp Nền miễn
+      > phí giờ ẩn danh được, rate-limit theo IP; chỉ bước mở khóa luận giải
+      > chuyên sâu (trừ credits) mới bắt buộc đăng nhập.
 - [x] Đọc nhanh vs Đọc sâu — 2 route riêng, hành vi đúng như thiết kế qua
       test thật ở trên + test kiểm duyệt bên dưới
 - [ ] Đủ 4 trạng thái async trên mọi màn — cần browser, chưa verify

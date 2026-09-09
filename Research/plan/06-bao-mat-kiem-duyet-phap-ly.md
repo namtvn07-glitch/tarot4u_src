@@ -61,9 +61,15 @@ Giới hạn 300 ký tự cho câu hỏi vừa chống prompt injection quy mô 
 | Endpoint | Chưa đăng nhập | Đã đăng nhập |
 |---|---|---|
 | `POST /api/reading` (quick) | 3/ngày/IP | 20/giờ |
-| `POST /api/reading` (deep) | — (bắt buộc login) | 30/giờ (credits đã là giới hạn tự nhiên) |
+| `POST /api/reading` (deep) | 3/ngày/IP | 30/giờ (credits đã là giới hạn tự nhiên) |
 | `POST /api/orders` | — | 10/giờ |
 | Magic link | 5/giờ/email | — |
+
+> 2026-09-09: đổi `POST /api/reading` (deep) từ "bắt buộc login" sang ẩn danh
+> giới hạn theo IP — chỉ bước mở khóa luận giải chuyên sâu
+> (`/api/reading/deep/personal`, trừ credits thật) mới bắt buộc đăng nhập.
+> Cùng ngưỡng Rút Nhanh dù route này tốn AI kiểm duyệt thật (không nới lỏng
+> hơn). Xem `.claude/brain/trai-nghiem-an-danh/`.
 
 ### 2.3 Phase 1 — Postgres, không thêm dependency
 

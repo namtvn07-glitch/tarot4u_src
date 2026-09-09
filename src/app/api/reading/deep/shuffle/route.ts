@@ -2,7 +2,7 @@ import * as Sentry from "@sentry/nextjs";
 import { NextResponse } from "next/server";
 import { requireUser } from "@/lib/auth";
 import { triageQuestion } from "@/lib/moderation";
-import { checkRateLimit } from "@/lib/rate-limit";
+import { checkRateLimit, getClientIp } from "@/lib/rate-limit";
 import { DeepReadingRequestSchema, drawCards } from "@/lib/reading";
 import { signDrawToken } from "@/lib/reading-token";
 import { env } from "@/lib/env";
@@ -28,18 +28,24 @@ export async function POST(request: Request) {
     return null;
   });
 
+  // Đọc sâu tới hết Lớp Nền miễn phí không cần đăng nhập nữa — chỉ bước mở
+  // khóa luận giải chuyên sâu (trừ credits, personal/route.ts) mới bắt buộc.
+  // Ẩn danh giới hạn theo IP giống hệt Rút Nhanh (06-bao-mat-kiem-duyet-phap-ly.md
+  // §2.2) vì bước này vẫn gọi AI kiểm duyệt thật trên mọi lần thử — không nới
+  // lỏng hơn Rút Nhanh dù Rút Nhanh không tốn AI.
   const user = await requireUser();
-  if (!user) {
-    return NextResponse.json({ error: "unauthorized" }, { status: 401 });
-  }
+  const rateLimitKey = user
+    ? `reading-deep-shuffle:user:${user.id}`
+    : `reading-deep-shuffle:ip:${getClientIp(request)}`;
+  const [rateLimitWindow, rateLimitMax] = user
+    ? [3600, process.env.NODE_ENV === "development" ? 100 : 30]
+    : [86400, 3];
 
-  // 30 lượt/giờ theo đúng spec Research/plan/06-bao-mat-kiem-duyet-phap-ly.md §2.2 (100 trong dev để test thoải mái)
-  const rateLimitCount = process.env.NODE_ENV === "development" ? 100 : 30;
   let allowed: boolean;
   try {
-    allowed = await checkRateLimit(`reading-deep-shuffle:user:${user.id}`, 3600, rateLimitCount);
+    allowed = await checkRateLimit(rateLimitKey, rateLimitWindow, rateLimitMax);
   } catch (rateLimitError) {
-    Sentry.captureException(rateLimitError, { extra: { userId: user.id } });
+    Sentry.captureException(rateLimitError, { extra: { userId: user?.id, topic } });
     return NextResponse.json({ error: "rate_limit_check_failed" }, { status: 500 });
   }
   if (!allowed) {
@@ -59,7 +65,7 @@ export async function POST(request: Request) {
 
   const cards = drawCards(3, triage.orientation_mode);
   const token = signDrawToken({
-    userId: user.id,
+    userId: user?.id ?? null,
     topic,
     question,
     orientationMode: triage.orientation_mode,
