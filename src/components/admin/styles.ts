@@ -8,7 +8,7 @@ import type { CSSProperties } from "react";
 // `.rounded-lg`, `.p-5` đều có).
 //
 // Đây vẫn là "dùng token, không dùng magic number" — chỉ là đường dẫn tới
-// token phải qua var() trực tiếp, đúng cách PasswordAuthForm.tsx đang làm.
+// token phải qua var() trực tiếp thay vì qua class utility.
 // Khi nào repo thêm `@theme` thì thay các object này bằng class là xong.
 
 export const surface: CSSProperties = {

@@ -15,6 +15,40 @@ interface AuthModalProps {
   onLoginSuccess: (user: { id?: string; name: string; email: string; credits?: number; avatarUrl?: string }) => void;
 }
 
+// Google OAuth và magic link đều RỜI HẲN trang, nên `onLoginSuccess` (thứ mà
+// luồng email+mật khẩu dùng để điều hướng) không bao giờ chạy được cho chúng.
+// Chỗ duy nhất chở được ý định "đăng nhập xong quay lại đâu" là query `next`
+// trên URL callback — thiếu nó thì src/app/auth/callback/route.ts mặc định về
+// "/", và người bấm đăng nhập từ /tai-khoan bị đá về trang chủ.
+// Gọi trong event handler, không phải thân render: `window.location` là impure,
+// đọc lúc render sẽ vướng rule react-hooks/purity của React Compiler.
+function resolveNextPath(): string {
+  if (typeof window === "undefined") return "/";
+  const { pathname, search } = window.location;
+  const params = new URLSearchParams(search);
+
+  // Middleware (src/lib/supabase/middleware.ts) gắn `next` khi chặn route cần
+  // đăng nhập. Chỉ nhận path tương đối: "//evil.com" được trình duyệt hiểu là
+  // protocol-relative, chặn ngay đây thay vì tin vào lớp lọc ở route callback.
+  const requested = params.get("next");
+  if (requested?.startsWith("/") && !requested.startsWith("//")) return requested;
+
+  // Vào thẳng /dang-nhap không kèm `next`: giữ đúng đích mà luồng mật khẩu của
+  // trang đó dùng, để hai cách đăng nhập không dẫn tới hai nơi khác nhau.
+  if (pathname === "/dang-nhap") return "/tai-khoan";
+
+  // Modal mở ngay giữa một trang bất kỳ (/trai-bai, /doc-sau...): trả người
+  // dùng về đúng chỗ họ đang đứng. `error` là param của chính modal này, không
+  // mang theo để lần quay lại không hiện lại thông báo cũ.
+  params.delete("error");
+  const rest = params.toString();
+  return rest ? `${pathname}?${rest}` : pathname;
+}
+
+function callbackUrl(): string {
+  return `${window.location.origin}/auth/callback?next=${encodeURIComponent(resolveNextPath())}`;
+}
+
 export const AuthModal: React.FC<AuthModalProps> = ({
   isOpen,
   onClose,
@@ -102,7 +136,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       const { error } = await supabase.auth.signInWithOAuth({
         provider: "google",
         options: {
-          redirectTo: `${window.location.origin}/auth/callback`,
+          redirectTo: callbackUrl(),
         },
       });
       if (error) {
@@ -126,7 +160,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       const { error } = await supabase.auth.signInWithOtp({
         email: magicEmail,
         options: {
-          emailRedirectTo: `${window.location.origin}/auth/callback`,
+          emailRedirectTo: callbackUrl(),
         },
       });
 
