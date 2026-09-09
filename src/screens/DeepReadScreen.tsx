@@ -22,6 +22,7 @@ import {
   X,
 } from "lucide-react";
 import { CARD_BACK_IMAGE } from "@/data/tarotCards";
+import { UnsavedDeepSessionModal } from "@/components/reading/UnsavedDeepSessionModal";
 import type { AppScreen, ReadingHistoryItem, Topic } from "@/types/tarot";
 
 interface DeepReadScreenProps {
@@ -33,6 +34,7 @@ interface DeepReadScreenProps {
   onSaveReading: (reading: ReadingHistoryItem) => void;
   onOpenTopUp: () => void;
   onBusyChange?: (busy: boolean) => void;
+  onSessionActiveChange?: (active: boolean) => void;
 }
 
 type DeepReadPhase = "inquiry" | "shuffling" | "revealed" | "analysis";
@@ -109,6 +111,15 @@ const QUESTION_MAX = 300;
 const FAN_CARDS_COUNT = 19;
 const SESSION_STORAGE_KEY = "ventus_deep_session";
 
+// Dùng bởi Header/trang cha khi chặn điều hướng đi khỏi Trải Bài Sâu lúc
+// đang dở phiên — clear thẳng ở đây thay vì lộ SESSION_STORAGE_KEY ra ngoài
+// module, tránh 2 nơi cùng đánh máy lại chuỗi key.
+export function clearDeepReadSession() {
+  if (typeof window !== "undefined") {
+    sessionStorage.removeItem(SESSION_STORAGE_KEY);
+  }
+}
+
 // Mã lỗi trả về từ /api/reading/deep/{shuffle,reveal,personal} — trước đây
 // hiển thị thẳng mã này (vd. "invalid_or_expired_token") làm errorMessage,
 // lộ mã lỗi kỹ thuật ra UI thay vì câu tiếng Việt có thể hành động được.
@@ -172,6 +183,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   onSaveReading,
   onOpenTopUp,
   onBusyChange,
+  onSessionActiveChange,
 }) => {
   const [phase, setPhase] = useState<DeepReadPhase>("inquiry");
   const [selectedTopic, setSelectedTopic] = useState<Topic>(initialTopic);
@@ -220,10 +232,31 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   // đọc qua closure có thể "cũ" nếu 2 lần gọi xảy ra trong cùng 1 tick JS).
   const isRevealingRef = useRef(false);
 
+  // Chuyển sang "revealed" khi đã lật đủ 3 lá — theo dõi selectedCards đã
+  // commit thay vì đọc biến gán trong functional updater của setSelectedCards
+  // (không đáng tin cậy với React 18 automatic batching, xem comment ở
+  // handlePickCard).
+  useEffect(() => {
+    if (phase !== "shuffling" || selectedCards.length !== 3) return;
+    const effectsTimer = setTimeout(() => setShowEffects(true), 550);
+    const phaseTimer = setTimeout(() => setPhase("revealed"), 1150);
+    return () => {
+      clearTimeout(effectsTimer);
+      clearTimeout(phaseTimer);
+    };
+  }, [phase, selectedCards.length]);
+
   // Notify parent component about busy state
   useEffect(() => {
     onBusyChange?.(isShuffling);
   }, [isShuffling, onBusyChange]);
+
+  // Cho trang cha biết có phiên dở dang đáng hỏi trước khi điều hướng đi hay
+  // không (vd. bấm tab khác trên Header) — cùng điều kiện với handleHeaderBack.
+  useEffect(() => {
+    onSessionActiveChange?.(phase !== "inquiry" && selectedCards.length > 0);
+    return () => onSessionActiveChange?.(false);
+  }, [phase, selectedCards.length, onSessionActiveChange]);
 
   // Restore Session Storage if user previously navigated away
   useEffect(() => {
@@ -470,23 +503,13 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
 
       // Functional update — không đọc `selectedCards` qua closure (có thể
       // đã cũ nếu vì lý do gì đó 2 lần reveal chồng nhau resolve lệch thứ
-      // tự), tránh 1 lần ghi đè mất lá của lần kia.
-      let newLength = 0;
-      setSelectedCards((prev) => {
-        const next = [...prev, cardObj];
-        newLength = next.length;
-        return next;
-      });
+      // tự), tránh 1 lần ghi đè mất lá của lần kia. Việc chuyển sang phase
+      // "revealed" khi đủ 3 lá được xử lý riêng ở effect theo dõi
+      // selectedCards.length — biến ngoài gán trong updater (như trước đây)
+      // không đọc được giá trị mới ngay sau setState với React 18 automatic
+      // batching, nên điều kiện "đủ 3 lá" không bao giờ đúng.
+      setSelectedCards((prev) => [...prev, cardObj]);
       setPendingSlotIndex(null);
-
-      if (newLength === 3) {
-        setTimeout(() => {
-          setShowEffects(true);
-        }, 550);
-        setTimeout(() => {
-          setPhase("revealed");
-        }, 1150);
-      }
     } catch {
       setErrorMessage("Lỗi kết nối khi lật bài. Vui lòng thử lại.");
       setPickedSlotIndices((prev) => prev.filter((idx) => idx !== slotIndex));
@@ -539,8 +562,14 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       if (!res.ok) {
         const errorData = await res.json().catch(() => ({}));
         setIsTyping(false);
+        // Lùi về "revealed" ngay — nếu không, phase vẫn kẹt ở "analysis" rỗng
+        // (spinner giả vờ đang chạy mãi) vì không có gì populate streamedText
+        // nữa, và nút "Mở khóa luận giải" chỉ tồn tại ở phase "revealed".
+        setPhase("revealed");
         if (res.status === 402 || errorData.error === "insufficient_credits") {
-          setErrorMessage("Số dư Credits không đủ để thực hiện luận giải.");
+          setErrorMessage(
+            "Số dư Credits không đủ để thực hiện luận giải. 3 lá bạn đã rút vẫn còn nguyên.",
+          );
           onOpenTopUp();
         } else if (res.status === 401) {
           setErrorMessage("Phiên đăng nhập đã hết. Vui lòng tải lại trang và đăng nhập lại.");
@@ -808,39 +837,19 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
         </button>
       </div>
 
-      {/* Navigation Exit Confirmation Modal */}
-      {showExitConfirm && (
-        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200">
-          <div className="bg-[#15100b] border-2 border-[#d4af37]/60 rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-[0_0_50px_rgba(212,175,55,0.25)] flex flex-col items-center text-center">
-            <div className="w-12 h-12 rounded-full bg-[#8f5a1f]/20 border border-[#d4af37]/40 flex items-center justify-center mb-4">
-              <Sparkles className="w-6 h-6 text-[#d4af37]" />
-            </div>
-            <h3 className="font-display text-xl sm:text-2xl text-white font-bold mb-2">
-              Lưu Tạm Phiên Trải Bài?
-            </h3>
-            <p className="text-xs sm:text-sm text-[#b3a48d] leading-relaxed mb-6 font-body">
-              Phiên trải bài của bạn đã được hệ thống tự động lưu vào bộ nhớ tạm. Bạn có thể quay lại bất cứ lúc nào mà không lo mất tiến trình.
-            </p>
-            <div className="flex gap-3 w-full">
-              <button
-                onClick={() => setShowExitConfirm(false)}
-                className="flex-1 py-3 rounded-xl bg-gradient-to-r from-[#8f5a1f] to-[#764a19] text-white font-bold text-xs uppercase tracking-wider cursor-pointer hover:from-[#d4af37] hover:to-[#8f5a1f] hover:text-[#050505] transition-all"
-              >
-                Ở Lại Tiếp Tục
-              </button>
-              <button
-                onClick={() => {
-                  setShowExitConfirm(false);
-                  onNavigate("home");
-                }}
-                className="flex-1 py-3 rounded-xl bg-[#1c1611] border border-[#3d3123] text-[#b3a48d] hover:text-white text-xs font-semibold uppercase tracking-wider cursor-pointer transition-all"
-              >
-                Về Trang Chủ
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+      <UnsavedDeepSessionModal
+        isOpen={showExitConfirm}
+        onStay={() => setShowExitConfirm(false)}
+        onSaveAndLeave={() => {
+          setShowExitConfirm(false);
+          onNavigate("home");
+        }}
+        onDiscardAndLeave={() => {
+          setShowExitConfirm(false);
+          sessionStorage.removeItem(SESSION_STORAGE_KEY);
+          onNavigate("home");
+        }}
+      />
 
       {/* Safety / Moderation Notice Component */}
       {blockedData && (

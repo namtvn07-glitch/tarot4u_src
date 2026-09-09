@@ -12,9 +12,10 @@ ba** lối vào.
 
 ## Scope
 **In**:
-- Bộ quy tắc mật khẩu dùng chung (`src/lib/password.ts`): độ dài, chặn mật khẩu đã lộ
-  (HaveIBeenPwned k-anonymity), chặn mật khẩu phổ biến/theo ngữ cảnh, **không** ép
-  quy tắc thành phần (hoa/thường/số/ký tự đặc biệt).
+- Bộ quy tắc mật khẩu dùng chung (`src/lib/password.ts`): độ dài, chặn theo ngữ cảnh
+  (email/tên thương hiệu), chặn chuỗi lặp/tuần tự, **không** ép quy tắc thành phần
+  (hoa/thường/số/ký tự đặc biệt). **Đã bỏ** kiểm mật khẩu phổ biến (wordlist) và kiểm
+  dữ liệu rò rỉ công khai (HaveIBeenPwned) theo yêu cầu 2026-09-09 — xem Progress Log.
 - UI phản hồi độ mạnh: checklist yêu cầu + nút hiện/ẩn, dùng lại ở 3 nơi.
 - Đổi mật khẩu: `GET/POST /api/account/password` + form trong `/tai-khoan`, chỉ hiện
   với tài khoản **thật sự có mật khẩu**.
@@ -40,10 +41,10 @@ ba** lối vào.
   (NIST-4: cấm ép xoay vòng định kỳ).
 - Supabase Auth dùng **bcrypt**, cắt sau **72 byte** → chặn cứng ở 72 byte thay vì cho
   nhập dài rồi âm thầm bị cắt.
-- "Leaked password protection" của Supabase **cần gói Pro**. Vì vậy việc chặn mật khẩu
-  đã lộ do **code của ta** làm (HIBP range API, miễn phí, không cần key); toggle của
-  Supabase chỉ là lớp phòng thủ thứ hai nếu project đang ở Pro.
-  → Advisor hiện tại đang cảnh báo `auth_leaked_password_protection` là **disabled**.
+- ~~"Leaked password protection" của Supabase cần gói Pro~~ — không còn liên quan sau
+  khi bỏ kiểm HIBP (2026-09-09). Advisor `auth_leaked_password_protection` vẫn đang
+  cảnh báo **disabled**, việc bật hay không giờ là lựa chọn độc lập của bạn trên
+  Dashboard, không phải phần code này bù đắp.
 - Luồng recovery đi qua `/auth/callback` sẵn có: `createBrowserClient` (@supabase/ssr)
   lưu PKCE verifier trong **cookie**, nên route handler phía server đổi được code —
   đây chính là cơ chế magic link + Google đang chạy thật.
@@ -54,7 +55,8 @@ ba** lối vào.
 ## Checklist
 - [x] Plan approved (chốt độ dài tối thiểu)
 - [x] Migration: `current_user_has_password()`
-- [x] `src/lib/password.ts` — quy tắc + HIBP + danh sách chặn
+- [x] `src/lib/password.ts` — quy tắc độ dài + ngữ cảnh + tuần tự (đã bỏ HIBP + danh
+      sách mật khẩu phổ biến, 2026-09-09)
 - [x] `PasswordField` + `PasswordRequirements` (component dùng chung)
 - [x] API `GET/POST /api/account/password`
 - [x] `ChangePasswordForm` + mục "Bảo mật" trong `AccountScreen`
@@ -129,12 +131,22 @@ ba** lối vào.
 - 2026-09-08 phát hiện + vá trong lúc test: danh sách chặn ban đầu chỉ so khớp
   chính xác nên `Matkhau123456` / `Password123` / `p@ssw0rd!!` lọt lưới — đã thêm
   so khớp phần lõi chữ cái + dịch ngược leetspeak.
+- 2026-09-09 theo yêu cầu — **bỏ hẳn** 2 rule: kiểm mật khẩu phổ biến (`COMMON_PASSWORDS`
+  + `commonVariants`/leetspeak) và kiểm dữ liệu rò rỉ công khai (`isPasswordBreached`,
+  HIBP k-anonymity). Không cần thiết cho quy mô hiện tại. Đụng tới:
+  `src/lib/password.ts` (rút gọn còn length/maxLength/context/sequence),
+  `PasswordRequirements.tsx` (bỏ toàn bộ nhánh "đang kiểm tra/đã lộ", `usePasswordCheck`
+  giờ thuần, không còn gọi mạng), `api/account/password/route.ts` (bỏ bước gọi HIBP +
+  case lỗi `breached_password`), `ChangePasswordForm.tsx` (bỏ message tương ứng),
+  `ChangePasswordSection.tsx` (sửa câu mô tả không còn nhắc "dữ liệu rò rỉ"). Rule
+  `context` (chặn email/tên thương hiệu) và `sequence` (chặn lặp/tuần tự) **giữ
+  nguyên** — không nằm trong yêu cầu bỏ. Verify: `grep` không còn nơi nào tham chiếu
+  `isPasswordBreached`/`breached_password`/rule `"common"`; typecheck ✅; build ✅.
 
-## Open Questions — đã chốt 2026-09-08
+## Open Questions — đã chốt 2026-09-08, cập nhật 2026-09-09
 - **Độ dài tối thiểu = 8.** Thấp hơn mức NIST-4 đòi cho hệ không có MFA (15) — sai
-  lệch có chủ đích, đổi lấy ma sát đăng ký thấp; bù bằng blocklist HIBP + phổ biến +
-  ngữ cảnh + tuần tự (những phần này không nới). Ghi vào `docs/learned/auth.md`: có
-  MFA rồi thì con số 8 mới thật sự đúng chuẩn.
-- **Gói Supabase: chưa rõ** → code không phụ thuộc gói; việc bật toggle
-  "Leaked password protection" (cần Pro) là bước kiểm tra ở `/finish`.
-- **HIBP lỗi mạng → fail-open + log Sentry.**
+  lệch có chủ đích, đổi lấy ma sát đăng ký thấp. Trước đây bù bằng blocklist HIBP +
+  phổ biến; **hai lớp bù đó đã bị bỏ 2026-09-09**, giờ chỉ còn chặn ngữ cảnh + tuần
+  tự — mức 8 ký tự hiện lỏng hơn dự định ban đầu của plan, chủ đích của user, không
+  phải sai sót. Ghi vào `docs/learned/auth.md`: có MFA rồi thì 8 mới thật sự đúng chuẩn.
+- ~~Gói Supabase / HIBP lỗi mạng~~ — không còn áp dụng, đã bỏ toàn bộ phần HIBP.

@@ -10,8 +10,6 @@ type Status = "idle" | "submitting" | "error";
 const ERROR_MESSAGES: Record<string, string> = {
   invalid_current_password: "Mật khẩu hiện tại không đúng.",
   same_password: "Mật khẩu mới phải khác mật khẩu hiện tại.",
-  breached_password:
-    "Mật khẩu này đã xuất hiện trong dữ liệu bị rò rỉ công khai. Hãy chọn mật khẩu khác.",
   weak_password: "Mật khẩu mới chưa đủ mạnh theo yêu cầu của hệ thống.",
   no_password_set:
     "Tài khoản này đăng nhập bằng Google hoặc link email nên chưa có mật khẩu để đổi.",

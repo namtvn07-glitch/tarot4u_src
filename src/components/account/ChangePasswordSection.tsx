@@ -83,8 +83,7 @@ export function ChangePasswordSection({ email }: { email: string }) {
           Đổi mật khẩu
         </button>
         <p className="text-[11px] text-[#b3a48d] leading-relaxed max-w-sm">
-          Cần mật khẩu hiện tại để xác nhận. Mật khẩu mới sẽ được đối chiếu với dữ liệu
-          rò rỉ công khai trước khi lưu.
+          Cần mật khẩu hiện tại để xác nhận.
         </p>
       </div>
 

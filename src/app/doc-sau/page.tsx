@@ -3,16 +3,36 @@
 import React, { useState } from "react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { DeepReadScreen } from "@/screens/DeepReadScreen";
+import { DeepReadScreen, clearDeepReadSession } from "@/screens/DeepReadScreen";
+import { UnsavedDeepSessionModal } from "@/components/reading/UnsavedDeepSessionModal";
 import { CreditTopUpModal } from "@/components/CreditTopUpModal";
 import { AuthModal } from "@/components/AuthModal";
 import { useAuthUser } from "@/lib/useAuthUser";
+import type { AppScreen } from "@/types/tarot";
+
+function navigateToScreen(screen: AppScreen) {
+  if (typeof window === "undefined") return;
+  if (screen === "home") window.location.href = "/";
+  if (screen === "quick-read") window.location.href = "/trai-bai";
+  if (screen === "library") window.location.href = "/thu-vien";
+  if (screen === "account") window.location.href = "/tai-khoan";
+}
 
 export default function DocSauPage() {
   const [isTopUpOpen, setIsTopUpOpen] = useState(false);
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [isBusy, setIsBusy] = useState(false);
+  const [isDeepSessionActive, setIsDeepSessionActive] = useState(false);
+  const [pendingNavTarget, setPendingNavTarget] = useState<AppScreen | null>(null);
   const { user, setUser, logout, addCredits, deductCredit } = useAuthUser();
+
+  const handleHeaderNavigate = (screen: AppScreen) => {
+    if (isDeepSessionActive && screen !== "deep-read") {
+      setPendingNavTarget(screen);
+      return;
+    }
+    navigateToScreen(screen);
+  };
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -29,14 +49,7 @@ export default function DocSauPage() {
         }}
         onOpenAuth={() => setIsAuthOpen(true)}
         onLogout={logout}
-        onNavigate={(screen) => {
-          if (typeof window !== "undefined") {
-            if (screen === "home") window.location.href = "/";
-            if (screen === "quick-read") window.location.href = "/trai-bai";
-            if (screen === "library") window.location.href = "/thu-vien";
-            if (screen === "account") window.location.href = "/tai-khoan";
-          }
-        }}
+        onNavigate={handleHeaderNavigate}
       />
 
       <main className="flex-grow flex flex-col relative z-10">
@@ -44,6 +57,7 @@ export default function DocSauPage() {
           credits={user.credits}
           onDeductCredit={deductCredit}
           onBusyChange={setIsBusy}
+          onSessionActiveChange={setIsDeepSessionActive}
           onSaveReading={(reading) => {
             if (typeof window !== "undefined") {
               const prev = JSON.parse(localStorage.getItem("ventus_readings") || "[]");
@@ -57,18 +71,25 @@ export default function DocSauPage() {
               setIsTopUpOpen(true);
             }
           }}
-          onNavigate={(screen) => {
-            if (typeof window !== "undefined") {
-              if (screen === "home") window.location.href = "/";
-              if (screen === "quick-read") window.location.href = "/trai-bai";
-              if (screen === "library") window.location.href = "/thu-vien";
-              if (screen === "account") window.location.href = "/tai-khoan";
-            }
-          }}
+          onNavigate={navigateToScreen}
         />
       </main>
 
       <Footer />
+
+      <UnsavedDeepSessionModal
+        isOpen={pendingNavTarget !== null}
+        onStay={() => setPendingNavTarget(null)}
+        onSaveAndLeave={() => {
+          if (pendingNavTarget) navigateToScreen(pendingNavTarget);
+          setPendingNavTarget(null);
+        }}
+        onDiscardAndLeave={() => {
+          clearDeepReadSession();
+          if (pendingNavTarget) navigateToScreen(pendingNavTarget);
+          setPendingNavTarget(null);
+        }}
+      />
 
       <CreditTopUpModal
         isOpen={isTopUpOpen}

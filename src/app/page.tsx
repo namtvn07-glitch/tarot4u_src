@@ -10,10 +10,11 @@ import { ReadingDetailModal } from "@/components/ReadingDetailModal";
 
 import { HomeScreen } from "@/screens/HomeScreen";
 import { QuickReadScreen } from "@/screens/QuickReadScreen";
-import { DeepReadScreen } from "@/screens/DeepReadScreen";
+import { DeepReadScreen, clearDeepReadSession } from "@/screens/DeepReadScreen";
 import { LibraryScreen } from "@/screens/LibraryScreen";
 import { CardDetailScreen } from "@/screens/CardDetailScreen";
 import { AccountScreen } from "@/screens/AccountScreen";
+import { UnsavedDeepSessionModal } from "@/components/reading/UnsavedDeepSessionModal";
 
 import { TAROT_CARDS } from "@/data/tarotCards";
 import type { AppScreen, TarotCard, UserProfile, ReadingHistoryItem, Topic } from "@/types/tarot";
@@ -119,10 +120,20 @@ export default function App() {
   };
 
   const [isBusy, setIsBusy] = useState(false);
+  const [isDeepSessionActive, setIsDeepSessionActive] = useState(false);
+  const [pendingNavTarget, setPendingNavTarget] = useState<AppScreen | null>(null);
 
   const handleStartDeepReadWithInquiry = (inquiry: string) => {
     setDeepReadInquiry(inquiry);
     handleNavigate("deep-read");
+  };
+
+  const handleHeaderNavigate = (screen: AppScreen) => {
+    if (isDeepSessionActive && screen !== "deep-read") {
+      setPendingNavTarget(screen);
+      return;
+    }
+    handleNavigate(screen);
   };
 
   return (
@@ -130,7 +141,7 @@ export default function App() {
       {/* Top Header */}
       <Header
         currentScreen={currentScreen}
-        onNavigate={handleNavigate}
+        onNavigate={handleHeaderNavigate}
         user={user}
         isBusy={isBusy}
         onOpenTopUp={() => {
@@ -172,6 +183,7 @@ export default function App() {
             onDeductCredit={deductCredit}
             onSaveReading={handleSaveReading}
             onBusyChange={setIsBusy}
+            onSessionActiveChange={setIsDeepSessionActive}
             onOpenTopUp={() => {
               if (!user.isLoggedIn) {
                 setIsAuthOpen(true);
@@ -220,6 +232,20 @@ export default function App() {
       <Footer />
 
       {/* Modals */}
+      <UnsavedDeepSessionModal
+        isOpen={pendingNavTarget !== null}
+        onStay={() => setPendingNavTarget(null)}
+        onSaveAndLeave={() => {
+          if (pendingNavTarget) handleNavigate(pendingNavTarget);
+          setPendingNavTarget(null);
+        }}
+        onDiscardAndLeave={() => {
+          clearDeepReadSession();
+          if (pendingNavTarget) handleNavigate(pendingNavTarget);
+          setPendingNavTarget(null);
+        }}
+      />
+
       <CreditTopUpModal
         isOpen={isTopUpOpen}
         onClose={() => setIsTopUpOpen(false)}

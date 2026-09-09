@@ -3,7 +3,7 @@ import { createClient as createSupabaseClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { env } from "@/lib/env";
-import { createPasswordSchema, isPasswordBreached } from "@/lib/password";
+import { createPasswordSchema } from "@/lib/password";
 import { checkRateLimit } from "@/lib/rate-limit";
 import { createClient } from "@/lib/supabase/server";
 
@@ -76,20 +76,6 @@ export async function POST(request: Request) {
       },
       { status: 400 },
     );
-  }
-
-  // NIST SP 800-63B-4 §3.1.1.2 — bắt buộc đối chiếu với danh sách mật khẩu đã lộ.
-  // null = không kiểm tra được (HIBP lỗi/timeout): cho qua nhưng phải để lại dấu vết,
-  // im lặng bỏ qua thì không ai biết lớp bảo vệ này đã tắt bao lâu.
-  const breached = await isPasswordBreached(newPassword);
-  if (breached === true) {
-    return NextResponse.json({ error: "breached_password" }, { status: 400 });
-  }
-  if (breached === null) {
-    Sentry.captureException(new Error("HIBP breach check unavailable"), {
-      level: "warning",
-      extra: { userId: user.id, route: "POST /api/account/password" },
-    });
   }
 
   const { data: hasPassword, error: hasPasswordError } = await supabase.rpc(

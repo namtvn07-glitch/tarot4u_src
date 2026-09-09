@@ -35,16 +35,35 @@ export const AuthModal: React.FC<AuthModalProps> = ({
   // nhập, người dùng cũ với mật khẩu ngắn vẫn phải vào được bình thường.
   const passwordCheck = usePasswordCheck(mode === "register" ? password : "", email);
 
-  // Link đặt lại mật khẩu hết hạn quay về đây (xem src/app/auth/callback/route.ts).
+  // Component này KHÔNG unmount khi đóng — cả 7 trang render nó cố định, `isOpen`
+  // chỉ điều khiển việc trả về null (dòng dưới). Không reset ở đây thì mọi state
+  // (tab đang chọn, email/mật khẩu đã gõ, "Đăng ký thành công!"...) sống mãi qua
+  // các lần đóng/mở, lộ ra đúng kiểu "vẫn lưu state cũ" khi mở lại modal. Reset mỗi
+  // lần CHUYỂN sang mở — không phải mỗi lần render — nên gõ dở giữa lúc modal đang
+  // mở không bị xoá.
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    const error = new URLSearchParams(window.location.search).get("error");
-    if (error === "link_expired") {
-      setErrorMsg(
-        "Link đặt lại mật khẩu đã hết hạn hoặc đã được dùng rồi. Hãy yêu cầu link mới.",
-      );
-    }
-  }, []);
+    if (!isOpen) return;
+    const error =
+      typeof window !== "undefined"
+        ? new URLSearchParams(window.location.search).get("error")
+        : null;
+
+    setMode("login");
+    setEmail("");
+    setPassword("");
+    setMagicEmail("");
+    setLoading(false);
+    setMagicLinkSent(false);
+    setRegisterSuccess(false);
+    setResetStatus("idle");
+    // Link đặt lại mật khẩu hết hạn quay về đây kèm query param (xem
+    // src/app/auth/callback/route.ts) — giữ lại đúng 1 trường hợp reset có ngoại lệ.
+    setErrorMsg(
+      error === "link_expired"
+        ? "Link đặt lại mật khẩu đã hết hạn hoặc đã được dùng rồi. Hãy yêu cầu link mới."
+        : "",
+    );
+  }, [isOpen]);
 
   if (!isOpen) return null;
 
