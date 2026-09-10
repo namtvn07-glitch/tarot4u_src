@@ -6,7 +6,7 @@ import { SUPPORT_EMAIL } from "@/lib/legal-contact";
 export const metadata: Metadata = {
   title: "Chính Sách Hoàn Tiền",
   description:
-    "Quy định hoàn trả Credits và xử lý giao dịch tại Ventus Tarot.",
+    "Quy định hoàn trả Credits và xử lý giao dịch tại Xem Bài Tarot.",
 };
 
 export default function RefundPolicyPage() {

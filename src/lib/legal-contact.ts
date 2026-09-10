@@ -1,4 +1,6 @@
-// TODO(deploy): placeholder — thay bằng email hỗ trợ thật trước Giai đoạn
-// 10 (Deploy), xem 08-timeline.md. Một nguồn duy nhất để không lệch giữa
-// Footer và các trang pháp lý.
-export const SUPPORT_EMAIL = "namtvn07@gmail.com";
+import { env } from "@/lib/env";
+
+// Một nguồn duy nhất để Footer và các trang pháp lý không lệch nhau.
+// Giá trị đến từ env: đổi email hỗ trợ là việc vận hành, không phải việc sửa
+// code — và không ai muốn địa chỉ liên hệ thật nằm cứng trong repo công khai.
+export const SUPPORT_EMAIL = env.NEXT_PUBLIC_SUPPORT_EMAIL;

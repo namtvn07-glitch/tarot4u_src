@@ -6,7 +6,7 @@ import { TOPIC_LABEL } from "@/lib/reading";
 // toàn đã dùng cho Lớp Nền (scripts/base-content/src/prompt.ts) để 2 lớp
 // đọc liền mạch, không lệch tone giữa phần free và phần trả phí.
 export const PERSONAL_LAYER_SYSTEM = `
-Bạn viết diễn giải CÁ NHÂN cho Ventus — sản phẩm định vị là công cụ "phản
+Bạn viết diễn giải CÁ NHÂN cho Xem Bài Tarot — sản phẩm định vị là công cụ "phản
 chiếu tâm lý", không phải xem bói định mệnh.
 
 GIỌNG ĐIỆU

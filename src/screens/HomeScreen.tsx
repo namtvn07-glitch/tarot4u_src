@@ -39,7 +39,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           <div className="absolute left-4 sm:left-6 w-28 sm:w-36 aspect-[2/3] rounded-2xl border-2 border-[#d4af37]/40 shadow-[0_10px_30px_rgba(0,0,0,0.85)] overflow-hidden -rotate-12 hover:rotate-0 transition-transform duration-500 animate-levitate-1 z-10">
             <img
               src={CARD_BACK_IMAGE}
-              alt="Mặt sau lá bài Tarot Ventus"
+              alt="Mặt sau lá bài Tarot"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
@@ -49,7 +49,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           <div className="absolute w-32 sm:w-44 aspect-[2/3] rounded-2xl border-2 border-[#d4af37] shadow-[0_0_35px_rgba(212,175,55,0.45)] overflow-hidden z-20 animate-levitate-2 group cursor-pointer">
             <img
               src={CARD_BACK_IMAGE}
-              alt="Mặt sau lá bài Tarot Ventus"
+              alt="Mặt sau lá bài Tarot"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent pointer-events-none" />
@@ -60,7 +60,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           <div className="absolute right-4 sm:right-6 w-28 sm:w-36 aspect-[2/3] rounded-2xl border-2 border-[#d4af37]/40 shadow-[0_10px_30px_rgba(0,0,0,0.85)] overflow-hidden rotate-12 hover:rotate-0 transition-transform duration-500 animate-levitate-3 z-10">
             <img
               src={CARD_BACK_IMAGE}
-              alt="Mặt sau lá bài Tarot Ventus"
+              alt="Mặt sau lá bài Tarot"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
@@ -69,7 +69,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
 
         {/* Title */}
         <h1 className="font-display text-4xl sm:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#f5e6a3] via-[#d4af37] to-[#8f5a1f] mb-3 font-bold tracking-tight drop-shadow-[0_0_25px_rgba(212,175,55,0.35)]">
-          VENTUS TAROT
+          XEM BÀI TAROT
         </h1>
 
         <p className="font-display text-lg sm:text-2xl text-[#b3a48d] max-w-2xl mb-8 font-light leading-relaxed">

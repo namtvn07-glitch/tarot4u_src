@@ -34,7 +34,7 @@ const fullCards = cardsData.cards.map((c) => {
   const careerFinanceText = uprightContent.career?.summary || uprightContent.money?.summary || "Định hướng phát triển và nắm bắt cơ hội tài chính, công việc.";
   const loveText = uprightContent.love?.summary || "Mở lòng, gắn kết chân thành và đón nhận cảm xúc tích cực.";
   const psychologyText = uprightContent.general?.summary || uprightContent.mind?.summary || "Phản chiếu sự cân bằng và trạng thái nhận thức nội tâm.";
-  const ventusAdviceText = uprightContent.general?.body?.slice(0, 240) || uprightContent.love?.body?.slice(0, 240) || "Hãy lắng nghe trực giác và đưa ra lựa chọn với sự bình tâm.";
+  const readingAdviceText = uprightContent.general?.body?.slice(0, 240) || uprightContent.love?.body?.slice(0, 240) || "Hãy lắng nghe trực giác và đưa ra lựa chọn với sự bình tâm.";
 
   return {
     id: c.id,
@@ -54,7 +54,7 @@ const fullCards = cardsData.cards.map((c) => {
     psychologySummary: psychologyText,
     careerFinance: careerFinanceText,
     loveRelationship: loveText,
-    ventusAdvice: ventusAdviceText,
+    readingAdvice: readingAdviceText,
     quote: uprightContent.general?.summary || uprightContent.love?.summary || undefined
   };
 });
@@ -62,7 +62,7 @@ const fullCards = cardsData.cards.map((c) => {
 const tsCode = `import { TarotCard, TopicItem } from "@/types/tarot";
 
 export const CARD_BACK_IMAGE = "https://lh3.googleusercontent.com/aida-public/AB6AXuCMQ7TgNzaIKmSUtza16EjN59e_D9iWzcJQsxf1Vv-_YhdTn-W1Rk07WM0t0xjuXsL96UwFAX8VPmTsQWol_d5FMRtfEgH28Bo552t1VF7f1m-QCkLbMlyLGh0AcgpsRL9YBNV9sssluFMUM2m57OLBdWb9QhqkOSM34PafCu0G66DSogZgoCdvxMgf9YJ-FD8X-zJk-w7kvh5YUmxwL1heCpdBEXoNSg6t3qj4TSVyg6wLEQNy2tg";
-export const VENTUS_TAROT_LOGO = "/cards/the-magician.jpg";
+export const BRAND_LOGO = "/cards/the-magician.jpg";
 
 export const TOPICS: TopicItem[] = [
   {

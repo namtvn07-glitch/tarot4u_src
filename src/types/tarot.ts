@@ -38,7 +38,7 @@ export interface TarotCard {
   reversedMeaning?: string;
   careerFinance?: string;
   loveRelationship?: string;
-  ventusAdvice?: string;
+  readingAdvice?: string;
   element?: 'Lửa' | 'Nước' | 'Khí' | 'Đất' | string;
   astrology?: string;
 }

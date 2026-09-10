@@ -28,13 +28,13 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(env.NEXT_PUBLIC_SITE_URL),
   title: {
-    default: "VENTUS TAROT — Khám Phá Vận Mệnh & Thông Điệp Vũ Trụ",
-    template: "%s | Ventus Tarot",
+    default: "XEM BÀI TAROT — Khám Phá Vận Mệnh & Thông Điệp Vũ Trụ",
+    template: "%s | Xem Bài Tarot",
   },
   description: "Trải bài Tarot trực tuyến thông minh với kiến trúc giải bài 2 lớp và không gian âm thanh huyền bí.",
-  keywords: ["tarot", "bói bài tarot", "trải bài 3 lá", "ventus tarot", "thần số học"],
+  keywords: ["tarot", "bói bài tarot", "trải bài 3 lá", "xem bài tarot", "thần số học"],
   openGraph: {
-    title: "VENTUS TAROT — Soi Sáng Hành Trình Nội Tâm",
+    title: "XEM BÀI TAROT — Soi Sáng Hành Trình Nội Tâm",
     description: "Trải nghiệm rút bài Tarot 3D thần bí kết hợp luận giải chuyên sâu.",
     type: "website",
   },

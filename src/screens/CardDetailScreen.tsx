@@ -151,10 +151,10 @@ export const CardDetailScreen: React.FC<CardDetailScreenProps> = ({
           <div className="md:col-span-2 bg-[#1c1611] p-6 rounded-2xl border border-[#d4af37]/45">
             <div className="flex items-center gap-2 mb-2 text-base font-semibold text-[#d4af37]">
               <Lightbulb className="w-5 h-5" />
-              <span>Lời Khuyên Từ Ventus Tarot</span>
+              <span>Lời Khuyên Từ Xem Bài Tarot</span>
             </div>
             <p className="text-xs sm:text-sm text-[#f3ece1] leading-relaxed mb-4">
-              {card.ventusAdvice || card.psychologySummary || "Hãy giữ vững niềm tin, lắng nghe trực giác và đưa ra quyết định với sự bình tâm."}
+              {card.readingAdvice || card.psychologySummary || "Hãy giữ vững niềm tin, lắng nghe trực giác và đưa ra quyết định với sự bình tâm."}
             </p>
 
             <button

@@ -44,7 +44,7 @@ export async function DELETE() {
   // giá trị domain .invalid (RFC 2606) để không còn PII lấy được, vẫn giữ
   // auth.users.id nguyên vẹn cho FK orders/credit_ledger.
   const { error: banError } = await admin.auth.admin.updateUserById(user.id, {
-    email: `deleted-${user.id}@ventus-tarot.invalid`,
+    email: `deleted-${user.id}@xembaitarot.invalid`,
     phone: "",
     user_metadata: {},
     ban_duration: "876000h",

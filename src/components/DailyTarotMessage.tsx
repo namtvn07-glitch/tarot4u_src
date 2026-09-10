@@ -138,14 +138,14 @@ export const DailyTarotMessage: React.FC<DailyTarotMessageProps> = ({
               </div>
             )}
 
-            {/* Ventus Advice */}
+            {/* Xem Bài Tarot Advice */}
             <div className="space-y-1">
               <span className="text-[11px] font-bold uppercase tracking-wider text-[#d4af37] flex items-center gap-1.5">
                 <Lightbulb className="w-3.5 h-3.5" />
-                Lời Khuyên Từ Ventus
+                Lời Khuyên Từ Xem Bài Tarot
               </span>
               <p className="text-xs sm:text-sm text-[#f3ece1]/90 leading-relaxed font-light">
-                {dailyCard.ventusAdvice || dailyCard.psychologySummary || dailyCard.summary}
+                {dailyCard.readingAdvice || dailyCard.psychologySummary || dailyCard.summary}
               </p>
             </div>
 

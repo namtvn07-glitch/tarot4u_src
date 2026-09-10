@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
               </div>
             </div>
             <span className="font-display text-lg font-bold tracking-widest text-[#f3ece1]">
-              VENTUS TAROT
+              XEM BÀI TAROT
             </span>
           </div>
           <p className="text-xs text-[#b3a48d]/80 max-w-sm leading-relaxed">
@@ -92,7 +92,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-6xl mx-auto pt-6 border-t border-[#3d3123]/50 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#7a6e5d]">
-        <p>© 2026 Ventus Tarot. Bảo lưu mọi quyền.</p>
+        <p>© 2026 Xem Bài Tarot. Bảo lưu mọi quyền.</p>
         <p className="text-[11px]">
           Sản phẩm mang tính chất chiêm nghiệm tâm lý cá nhân, không thay thế tư vấn y tế hay pháp lý chuyên nghiệp.
         </p>

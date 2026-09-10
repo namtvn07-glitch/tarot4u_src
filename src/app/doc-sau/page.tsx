@@ -9,6 +9,7 @@ import { CreditTopUpModal } from "@/components/CreditTopUpModal";
 import { AuthModal } from "@/components/AuthModal";
 import { useAuthUser } from "@/lib/useAuthUser";
 import type { AppScreen } from "@/types/tarot";
+import { READINGS_STORAGE_KEY } from "@/lib/storage-keys";
 
 function navigateToScreen(screen: AppScreen) {
   if (typeof window === "undefined") return;
@@ -60,8 +61,8 @@ export default function DocSauPage() {
           onSessionActiveChange={setIsDeepSessionActive}
           onSaveReading={(reading) => {
             if (typeof window !== "undefined") {
-              const prev = JSON.parse(localStorage.getItem("ventus_readings") || "[]");
-              localStorage.setItem("ventus_readings", JSON.stringify([reading, ...prev]));
+              const prev = JSON.parse(localStorage.getItem(READINGS_STORAGE_KEY) || "[]");
+              localStorage.setItem(READINGS_STORAGE_KEY, JSON.stringify([reading, ...prev]));
             }
           }}
           onOpenTopUp={() => {

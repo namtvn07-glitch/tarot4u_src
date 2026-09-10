@@ -10,6 +10,7 @@ import { ReadingDetailModal } from "@/components/ReadingDetailModal";
 import type { ReadingHistoryItem, UserProfile } from "@/types/tarot";
 import { createClient } from "@/lib/supabase/client";
 import { findCardById } from "@/lib/cards";
+import { READINGS_STORAGE_KEY } from "@/lib/storage-keys";
 
 export default function TaiKhoanPage() {
   const [isTopUpOpen, setIsTopUpOpen] = useState(false);
@@ -76,7 +77,7 @@ export default function TaiKhoanPage() {
             setReadings(formatted);
           } else {
             // Also check localStorage if recently saved
-            const local = localStorage.getItem("ventus_readings");
+            const local = localStorage.getItem(READINGS_STORAGE_KEY);
             if (local) {
               try {
                 setReadings(JSON.parse(local));

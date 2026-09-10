@@ -1,11 +1,12 @@
 import React from "react";
 import type { Metadata } from "next";
 import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
+import { SUPPORT_EMAIL } from "@/lib/legal-contact";
 
 export const metadata: Metadata = {
   title: "Chính Sách Quyền Riêng Tư",
   description:
-    "Cam kết bảo vệ dữ liệu cá nhân, thông tin tài khoản và lịch sử trải bài tại Ventus Tarot.",
+    "Cam kết bảo vệ dữ liệu cá nhân, thông tin tài khoản và lịch sử trải bài tại Xem Bài Tarot.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -28,7 +29,7 @@ export default function PrivacyPolicyPage() {
       <section className="space-y-2">
         <h2 className="font-display text-xl text-[#d4af37] font-semibold">3. Quyền của người dùng</h2>
         <p>
-          Bạn có toàn quyền yêu cầu xuất hoặc xóa toàn bộ lịch sử trải bài và tài khoản của mình bất kỳ lúc nào bằng cách gửi yêu cầu đến đội ngũ hỗ trợ.
+          Bạn có toàn quyền yêu cầu xuất hoặc xóa toàn bộ lịch sử trải bài và tài khoản của mình bất kỳ lúc nào bằng cách gửi yêu cầu đến <span className="text-[#d4af37]">{SUPPORT_EMAIL}</span>.
         </p>
       </section>
     </LegalPageLayout>

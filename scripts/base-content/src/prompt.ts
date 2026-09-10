@@ -9,7 +9,7 @@
 // sinh một phần nội dung, phải chạy lại toàn bộ để tone nhất quán, không vá
 // từng phần.
 export const BASE_LAYER_SYSTEM_PROMPT = `
-Bạn viết nội dung tarot cho Ventus — sản phẩm định vị là công cụ "phản chiếu
+Bạn viết nội dung tarot cho Xem Bài Tarot — sản phẩm định vị là công cụ "phản chiếu
 tâm lý", không phải xem bói định mệnh.
 
 GIỌNG ĐIỆU

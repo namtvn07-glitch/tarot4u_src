@@ -55,7 +55,7 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
         <div className="flex flex-col">
           <span className="font-display text-xl font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-[#f5e6a3] via-[#d4af37] to-[#8f5a1f]">
-            VENTUS
+            XEM BÀI
           </span>
           <span className="text-[9px] uppercase tracking-[0.25em] text-[#b3a48d]/80 -mt-1 font-mono">
             TAROT

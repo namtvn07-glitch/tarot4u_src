@@ -8,6 +8,7 @@ import { ArrowLeft, Calendar, Sparkles, Layers, Loader2 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { findCardById } from "@/lib/cards";
 import type { ReadingHistoryItem } from "@/types/tarot";
+import { READINGS_STORAGE_KEY } from "@/lib/storage-keys";
 
 export default function ReadingDetailPage({
   params,
@@ -49,7 +50,7 @@ export default function ReadingDetailPage({
           });
         } else {
           // Check local storage fallback
-          const local = localStorage.getItem("ventus_readings");
+          const local = localStorage.getItem(READINGS_STORAGE_KEY);
           if (local) {
             const list: ReadingHistoryItem[] = JSON.parse(local);
             const found = list.find((item) => item.id === id);

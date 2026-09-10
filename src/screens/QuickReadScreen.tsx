@@ -208,9 +208,9 @@ export const QuickReadScreen: React.FC<QuickReadScreenProps> = ({
 
                 <div className="space-y-3 text-[#b3a48d] text-xs sm:text-sm leading-relaxed">
                   <p>{selectedCard.psychologySummary || selectedCard.summary || selectedCard.uprightMeaning}</p>
-                  {(selectedCard.quote || selectedCard.ventusAdvice) && (
+                  {(selectedCard.quote || selectedCard.readingAdvice) && (
                     <p className="pt-3 border-t border-[#3d3123]/70 text-[#f3ece1] italic font-display text-sm sm:text-base">
-                      {selectedCard.quote || selectedCard.ventusAdvice}
+                      {selectedCard.quote || selectedCard.readingAdvice}
                     </p>
                   )}
                 </div>

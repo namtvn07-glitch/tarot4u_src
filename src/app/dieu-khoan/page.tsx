@@ -7,7 +7,7 @@ import { SUPPORT_EMAIL } from "@/lib/legal-contact";
 export const metadata: Metadata = {
   title: "Điều Khoản Sử Dụng",
   description:
-    "Điều khoản và điều kiện sử dụng dịch vụ chiêm nghiệm trực tuyến Ventus Tarot.",
+    "Điều khoản và điều kiện sử dụng dịch vụ chiêm nghiệm trực tuyến Xem Bài Tarot.",
 };
 
 export default function DieuKhoanPage() {
@@ -16,7 +16,7 @@ export default function DieuKhoanPage() {
       <section className="space-y-2">
         <h2 className="font-display text-xl text-[#d4af37] font-semibold">1. Bản chất dịch vụ</h2>
         <p>
-          Ventus Tarot là công cụ hỗ trợ chiêm nghiệm tâm lý cá nhân và khám phá trực giác. Nội dung diễn giải không phải là tư vấn y tế, tâm lý, pháp lý hoặc tài chính chuyên nghiệp và không thay thế cho lời khuyên của chuyên gia.
+          Xem Bài Tarot là công cụ hỗ trợ chiêm nghiệm tâm lý cá nhân và khám phá trực giác. Nội dung diễn giải không phải là tư vấn y tế, tâm lý, pháp lý hoặc tài chính chuyên nghiệp và không thay thế cho lời khuyên của chuyên gia.
         </p>
       </section>
 

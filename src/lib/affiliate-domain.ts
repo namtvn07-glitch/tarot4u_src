@@ -19,11 +19,25 @@ export function normalizeDomain(url: string): string {
 /** Tên miền admin đã tự đặt, hoặc giá trị cấu hình của hệ thống nếu chưa đặt. */
 export function readStoredDomain(fallback: string): string {
   if (typeof window === "undefined") return fallback;
+
+  let stored: string | null = null;
   try {
-    return window.localStorage.getItem(AFFILIATE_DOMAIN_STORAGE_KEY) || fallback;
+    stored = window.localStorage.getItem(AFFILIATE_DOMAIN_STORAGE_KEY);
   } catch {
     return fallback;
   }
+  if (!stored) return fallback;
+
+  // Một địa chỉ thử nghiệm còn sót trong localStorage (từ hồi chạy localhost,
+  // hoặc từ URL .vercel.app trước khi gắn tên miền riêng) KHÔNG được đè lên
+  // tên miền thật đã cấu hình. Trước đây nó thắng vô điều kiện, nên mỗi lần mở
+  // form tạo link là ô tên miền lại tự điền địa chỉ chết, và chỉ có cảnh báo
+  // nhắc — admin phải sửa tay mọi lần, hoặc quên và đem link hỏng đi chạy
+  // quảng cáo. Chiều ngược lại vẫn giữ: đang dev thật thì localhost vẫn dùng
+  // được bình thường.
+  if (isTestDomain(stored) && !isTestDomain(fallback)) return fallback;
+
+  return stored;
 }
 
 export function buildAffiliateUrl(

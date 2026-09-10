@@ -24,6 +24,7 @@ import {
 import { CARD_BACK_IMAGE } from "@/data/tarotCards";
 import { UnsavedDeepSessionModal } from "@/components/reading/UnsavedDeepSessionModal";
 import type { AppScreen, ReadingHistoryItem, Topic } from "@/types/tarot";
+import { DEEP_SESSION_STORAGE_KEY } from "@/lib/storage-keys";
 
 interface DeepReadScreenProps {
   initialInquiry?: string;
@@ -109,7 +110,7 @@ const TOPIC_OPTIONS: TopicOption[] = [
 
 const QUESTION_MAX = 300;
 const FAN_CARDS_COUNT = 19;
-const SESSION_STORAGE_KEY = "ventus_deep_session";
+const SESSION_STORAGE_KEY = DEEP_SESSION_STORAGE_KEY;
 
 // Dùng bởi Header/trang cha khi chặn điều hướng đi khỏi Trải Bài Sâu lúc
 // đang dở phiên — clear thẳng ở đây thay vì lộ SESSION_STORAGE_KEY ra ngoài
@@ -447,7 +448,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
 
       // Notify user via Tab title if they are currently on another browser tab
       if (typeof document !== "undefined" && document.hidden) {
-        document.title = "✦ Bài đã xáo xong — Ventus Tarot";
+        document.title = "✦ Bài đã xáo xong — Xem Bài Tarot";
       }
     } catch (err: any) {
       if (err.name !== "AbortError") {
@@ -620,7 +621,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
                 setStreamedText((prev) => prev.normalize("NFC"));
                 setAnalysisComplete(true);
                 if (typeof document !== "undefined" && document.hidden) {
-                  document.title = "✦ Luận giải đã sẵn sàng — Ventus Tarot";
+                  document.title = "✦ Luận giải đã sẵn sàng — Xem Bài Tarot";
                 }
               } else if (data.type === "error") {
                 hasErrorOccurred = true;
@@ -738,7 +739,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   const handleShare = () => {
     if (typeof navigator !== "undefined" && navigator.clipboard) {
       navigator.clipboard.writeText(
-        `[Ventus Tarot] Trải bài sâu cho chủ đề: ${activeTopicConfig.nameVi}\nCâu hỏi: "${inquiry}"\n\n${streamedText.normalize("NFC")}`
+        `[Xem Bài Tarot] Trải bài sâu cho chủ đề: ${activeTopicConfig.nameVi}\nCâu hỏi: "${inquiry}"\n\n${streamedText.normalize("NFC")}`
       );
       setCopiedSuccess(true);
       setTimeout(() => setCopiedSuccess(false), 2500);

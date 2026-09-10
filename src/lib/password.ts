@@ -42,8 +42,18 @@ export const PASSWORD_RULE_ERRORS: Record<PasswordRuleId, string> = {
   sequence: "Mật khẩu không được là chuỗi lặp hoặc dãy ký tự liên tiếp.",
 };
 
-// Chặn mật khẩu "nói về chính chỗ này".
-const BRAND_TERMS = ["tarot", "ventus", "boitarot", "boibai", "vantay"];
+// Chặn mật khẩu "nói về chính chỗ này". Giữ luôn "ventus" — brand cũ vẫn còn
+// trong đầu người dùng lâu năm và vẫn là chuỗi dễ đoán, đổi thương hiệu không
+// làm nó an toàn hơn.
+const BRAND_TERMS = [
+  "tarot",
+  "ventus",
+  "xembaitarot",
+  "xembai",
+  "boitarot",
+  "boibai",
+  "vantay",
+];
 
 function normalize(value: string): string {
   return value.trim().toLowerCase();

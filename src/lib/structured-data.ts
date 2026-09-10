@@ -6,7 +6,7 @@ export function buildOrganizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Ventus Tarot",
+    name: "Xem Bài Tarot",
     url: siteUrl,
     logo: `${siteUrl}/cards/the-magician.jpg`,
   };
@@ -17,7 +17,7 @@ export function buildWebSiteJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Ventus Tarot",
+    name: "Xem Bài Tarot",
     url: siteUrl,
     description: "Khám Phá Vận Mệnh & Thông Điệp Vũ Trụ qua 78 Lá Bài Tarot",
   };
@@ -43,12 +43,12 @@ export function buildArticleJsonLd(card: TarotCard) {
     },
     author: {
       "@type": "Organization",
-      name: "Ventus Tarot",
+      name: "Xem Bài Tarot",
       url: siteUrl,
     },
     publisher: {
       "@type": "Organization",
-      name: "Ventus Tarot",
+      name: "Xem Bài Tarot",
       logo: {
         "@type": "ImageObject",
         url: `${siteUrl}/cards/the-magician.jpg`,
