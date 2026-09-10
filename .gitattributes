@@ -1,0 +1,7 @@
+# Script chay tren Linux (build image cua Vercel) BAT BUOC LF — dinh \r la
+# bash bao "$'\r': command not found" va ignore build step hong.
+*.sh text eol=lf
+
+# Nguoc lai, .bat/.cmd BAT BUOC CRLF — cmd.exe gap LF thi parse loan tung dong.
+*.bat text eol=crlf
+*.cmd text eol=crlf
