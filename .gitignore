@@ -26,3 +26,6 @@ npm-debug.log*
 
 # Vercel
 .vercel
+
+# File tam khi chay deploy.bat qua wrapper - khong bao gio duoc commit
+_*.cmd
