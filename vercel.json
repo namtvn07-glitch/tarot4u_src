@@ -1,4 +1,5 @@
 {
+  "ignoreCommand": "git fetch --tags --force origin >/dev/null 2>&1 || true; git describe --exact-match --tags HEAD >/dev/null 2>&1 && exit 1 || exit 0",
   "crons": [
     { "path": "/api/cron/expire-orders", "schedule": "0 0 * * *" },
     { "path": "/api/cron/cleanup-rate-limits", "schedule": "0 1 * * *" },
