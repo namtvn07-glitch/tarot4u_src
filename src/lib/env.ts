@@ -35,7 +35,7 @@ const fieldSchemas = {
   OPENAI_API_KEY: z.string().min(1).optional(),
   OPENAI_MODEL: z.string().min(1).default("gpt-4o"),
   GEMINI_API_KEY: z.string().min(1).optional(),
-  GEMINI_MODEL: z.string().min(1).default("gemini-1.5-pro"),
+  GEMINI_MODEL: z.string().min(1).default("gemini-3.6-flash"),
   
   TRIAGE_AI_PROVIDER: z.enum(["anthropic", "openai", "gemini"]).default("gemini"),
   TRIAGE_ANTHROPIC_API_KEY: z.string().min(1).optional(),

@@ -1,5 +1,7 @@
+import * as Sentry from "@sentry/nextjs";
 import { z } from "zod";
 import { getTriageAiProvider } from "@/lib/ai/provider";
+import { withAiRetry } from "@/lib/ai/retry";
 
 // Lớp 1 phòng vệ — phân loại câu hỏi TRƯỚC khi rút bài, qua provider chọn
 // RIÊNG ở TRIAGE_AI_PROVIDER (độc lập với AI_PROVIDER dùng cho Lớp Cá nhân —
@@ -31,13 +33,40 @@ export const TriageSchema = z.object({
 
 export type Triage = z.infer<typeof TriageSchema>;
 
+// Ngân sách phải nằm gọn trong maxDuration của route gọi nó (shuffle/resume
+// đặt 30s) VÀ trong sức chờ của người dùng đang đứng ở màn xáo bài — nên chỉ
+// 3 lần thử chứ không phải "thử tới khi được".
+const TRIAGE_RETRY = {
+  attempts: 3,
+  perAttemptTimeoutMs: 12_000,
+  baseDelayMs: 400,
+  maxTotalMs: 22_000,
+};
+
 export async function triageQuestion(question: string): Promise<Triage> {
-  return getTriageAiProvider().classify({
-    system: TRIAGE_SYSTEM,
-    userTurn: question,
-    schemaName: "triage",
-    schema: TriageSchema,
-    // 1024 token để đảm bảo model có đủ ngân sách thinking + JSON đầu ra
-    maxTokens: 1024,
-  });
+  return withAiRetry(
+    () =>
+      getTriageAiProvider().classify({
+        system: TRIAGE_SYSTEM,
+        userTurn: question,
+        schemaName: "triage",
+        schema: TriageSchema,
+        // 1024 token để đảm bảo model có đủ ngân sách thinking + JSON đầu ra
+        maxTokens: 1024,
+      }),
+    {
+      ...TRIAGE_RETRY,
+      // Lần thử lại thành công không tạo lỗi nào trong Sentry, nên nếu không
+      // ghi lại thì tỉ lệ chập chờn thật của provider là vô hình — chỉ thấy
+      // được phần đã hỏng hẳn sau cả 3 lần.
+      onRetry: (error, attempt, delayMs) => {
+        Sentry.addBreadcrumb({
+          category: "ai.triage",
+          level: "warning",
+          message: `triage thử lại lần ${attempt} sau ${delayMs}ms`,
+          data: { error: error instanceof Error ? error.message : String(error) },
+        });
+      },
+    },
+  );
 }

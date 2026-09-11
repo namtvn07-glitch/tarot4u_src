@@ -2,11 +2,15 @@ import * as Sentry from "@sentry/nextjs";
 import { NextResponse } from "next/server";
 import { requireUser } from "@/lib/auth";
 import { triageQuestion } from "@/lib/moderation";
-import { checkRateLimit } from "@/lib/rate-limit";
+import { checkRateLimit, refundRateLimit } from "@/lib/rate-limit";
 import { ResumeReadingRequestSchema } from "@/lib/reading";
 import { signDrawToken } from "@/lib/reading-token";
 
 export const runtime = "nodejs";
+
+// Cùng lý do với /shuffle: kiểm duyệt AI có ngân sách thử lại, 10s mặc định
+// của Vercel không đủ.
+export const maxDuration = 30;
 
 // Xin cấp lại drawToken cho ĐÚNG bộ 3 lá + câu hỏi đã có (không rút bài
 // mới) — dùng khi phiên trước bị gián đoạn/token cũ đã hết hạn (TTL 2 giờ,
@@ -24,22 +28,21 @@ export async function POST(request: Request) {
   }
   const { topic, question, cards } = parsed.data;
 
-  const triagePromise = triageQuestion(question).catch((err) => {
-    Sentry.captureException(err, { extra: { topic } });
-    return null;
-  });
-
   const user = await requireUser();
   if (!user) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
   // Cùng bucket với /shuffle — đây cũng là 1 lượt kiểm duyệt AI + ký token
-  // mới, không phải lối để lách rate limit của bước rút bài.
+  // mới, không phải lối để lách rate limit của bước rút bài. Và giống
+  // /shuffle, hạn mức phải chặn TRƯỚC khi gọi AI chứ không chạy song song,
+  // nếu không request bị từ chối vẫn tốn tiền call thật.
+  const rateLimitKey = `reading-deep-shuffle:user:${user.id}`;
+  const rateLimitWindow = 3600;
   const rateLimitCount = process.env.NODE_ENV === "development" ? 100 : 30;
   let allowed: boolean;
   try {
-    allowed = await checkRateLimit(`reading-deep-shuffle:user:${user.id}`, 3600, rateLimitCount);
+    allowed = await checkRateLimit(rateLimitKey, rateLimitWindow, rateLimitCount);
   } catch (rateLimitError) {
     Sentry.captureException(rateLimitError, { extra: { userId: user.id } });
     return NextResponse.json({ error: "rate_limit_check_failed" }, { status: 500 });
@@ -48,8 +51,13 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "rate_limited" }, { status: 429 });
   }
 
-  const triage = await triagePromise;
+  const triage = await triageQuestion(question).catch((err) => {
+    Sentry.captureException(err, { extra: { userId: user.id, topic } });
+    return null;
+  });
   if (!triage) {
+    // Lỗi hệ thống — không tính vào hạn mức của người dùng (xem /shuffle).
+    await refundRateLimit(rateLimitKey, rateLimitWindow);
     return NextResponse.json({ error: "moderation_failed" }, { status: 500 });
   }
 

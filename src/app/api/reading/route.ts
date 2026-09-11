@@ -2,7 +2,7 @@ import * as Sentry from "@sentry/nextjs";
 import { NextResponse } from "next/server";
 import { requireUser } from "@/lib/auth";
 import { getCardById } from "@/lib/cards";
-import { checkRateLimit, getClientIp } from "@/lib/rate-limit";
+import { checkRateLimit, getClientIp, refundRateLimit } from "@/lib/rate-limit";
 import { ReadingRequestSchema, drawCard, normalizeDbTopic } from "@/lib/reading";
 import { createClient } from "@/lib/supabase/server";
 
@@ -31,7 +31,10 @@ export async function POST(request: Request) {
   const rateLimitKey = user
     ? `reading-quick:user:${user.id}`
     : `reading-quick:ip:${getClientIp(request)}`;
-  const [rateLimitWindow, rateLimitMax] = user ? [3600, 20] : [86400, 3];
+  // Khách ẩn danh: 20 chứ không phải 3. Route này không gọi AI (chỉ đọc
+  // base_content), nên chi phí một lượt gần bằng 0 — mà "3 lượt/ngày/IP" thì
+  // cả một dải thuê bao 4G nằm sau cùng một IP NAT phải chia nhau 3 lượt.
+  const [rateLimitWindow, rateLimitMax] = user ? [3600, 20] : [86400, 20];
 
   let allowed: boolean;
   try {
@@ -64,6 +67,8 @@ export async function POST(request: Request) {
       error ?? new Error("base_content row missing"),
       { extra: { cardId, orientation, topic } },
     );
+    // Lỗi dữ liệu phía mình — không tính vào hạn mức của người dùng.
+    await refundRateLimit(rateLimitKey, rateLimitWindow);
     return NextResponse.json({ error: "base_content_unavailable" }, { status: 500 });
   }
 

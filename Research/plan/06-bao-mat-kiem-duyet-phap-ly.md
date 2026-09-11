@@ -60,8 +60,8 @@ Giới hạn 300 ký tự cho câu hỏi vừa chống prompt injection quy mô 
 
 | Endpoint | Chưa đăng nhập | Đã đăng nhập |
 |---|---|---|
-| `POST /api/reading` (quick) | 3/ngày/IP | 20/giờ |
-| `POST /api/reading` (deep) | 3/ngày/IP | 30/giờ (credits đã là giới hạn tự nhiên) |
+| `POST /api/reading` (quick) | 20/ngày/IP | 20/giờ |
+| `POST /api/reading` (deep) | 10/ngày/IP | 30/giờ (credits đã là giới hạn tự nhiên) |
 | `POST /api/orders` | — | 10/giờ |
 | Magic link | 5/giờ/email | — |
 
@@ -70,6 +70,24 @@ Giới hạn 300 ký tự cho câu hỏi vừa chống prompt injection quy mô 
 > (`/api/reading/deep/personal`, trừ credits thật) mới bắt buộc đăng nhập.
 > Cùng ngưỡng Rút Nhanh dù route này tốn AI kiểm duyệt thật (không nới lỏng
 > hơn). Xem `.claude/brain/trai-nghiem-an-danh/`.
+>
+> 2026-09-11: nới ngưỡng ẩn danh 3/ngày/IP → 20 (quick) và 10 (deep). Lý do:
+> mạng di động VN NAT rất nhiều thuê bao sau cùng một IP công cộng, nên
+> "3/ngày/IP" trên thực tế là 3 lượt chia cho một nhóm người lạ — người dùng
+> thật bị chặn trước khi kẻ lạm dụng bị chặn. Deep vẫn chặt hơn quick vì tốn
+> một call AI kiểm duyệt mỗi lượt, còn quick chỉ đọc `base_content`.
+>
+> Cùng ngày, thêm hai ràng buộc thi hành đi kèm — thiếu chúng thì con số trong
+> bảng trên không phản ánh hành vi thật:
+>
+> 1. **Hạn mức phải chặn TRƯỚC khi gọi AI.** `/shuffle` và `/resume` từng chạy
+>    kiểm duyệt song song với `checkRateLimit` để giảm độ trễ; hệ quả là
+>    request bị trả 429 vẫn tốn một call AI thật, tức là spam vẫn đốt được
+>    quota/hoá đơn dù đã bị từ chối.
+> 2. **Lỗi hệ thống không được tính vào hạn mức người dùng.** Khi AI kiểm
+>    duyệt hỏng, route gọi `refund_rate_limit` trả lại nhịp đếm vừa trừ. Không
+>    có bước này thì vài lần AI chập chờn là khoá sạch hạn mức ngày của khách
+>    ẩn danh dù họ chưa xem được quẻ nào.
 
 ### 2.3 Phase 1 — Postgres, không thêm dependency
 
@@ -93,11 +111,18 @@ begin
 end $$;
 ```
 
-Cron dọn dẹp mỗi giờ:
+Cron dọn dẹp:
 
 ```sql
-delete from rate_limits where window_start < now() - interval '2 hours';
+delete from rate_limits where window_start < now() - interval '48 hours';
 ```
+
+> Cutoff phải LỚN HƠN cửa sổ dài nhất đang dùng. Bản đầu để `2 hours` — đúng
+> khi mọi cửa sổ đều ≤ 1 giờ, nhưng sai từ lúc hạn mức ẩn danh dùng cửa sổ 24
+> giờ (`window_start` neo ở 00:00 UTC): cron xoá mất dòng đếm ngay giữa cửa
+> sổ, bộ đếm ngày tự reset và hạn mức ẩn danh gần như không còn tác dụng.
+> Lỗi này im lặng — không có log, không có lỗi, chỉ có hạn mức lỏng hơn thiết
+> kế.
 
 ### 2.4 Phase 2 — Upstash Redis
 
