@@ -11,13 +11,15 @@ import { createClient } from "@/lib/supabase/client";
 // Truy vấn này an toàn nhờ policy admin_users_select_own: mỗi người chỉ đọc
 // được đúng dòng của chính mình, không ai liệt kê được danh sách admin.
 export function useIsAdmin(userId?: string): boolean {
-  const [isAdmin, setIsAdmin] = useState(false);
+  // Lưu chính user id đã được xác nhận là admin, không phải một boolean trần.
+  // Nhờ vậy khi userId đổi (đăng xuất, đổi tài khoản) kết quả tự sai NGAY
+  // trong cùng lần render đó — bản cũ phải chạy thêm một effect `setIsAdmin
+  // (false)` để dọn, nên có một nhịp render mà tài khoản mới vẫn thừa hưởng
+  // quyền admin của tài khoản cũ.
+  const [adminUserId, setAdminUserId] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!userId) {
-      setIsAdmin(false);
-      return;
-    }
+    if (!userId) return;
 
     let cancelled = false;
     void (async () => {
@@ -26,7 +28,7 @@ export function useIsAdmin(userId?: string): boolean {
         .select("user_id")
         .eq("user_id", userId)
         .maybeSingle();
-      if (!cancelled) setIsAdmin(Boolean(data));
+      if (!cancelled && data) setAdminUserId(userId);
     })();
 
     return () => {
@@ -34,5 +36,5 @@ export function useIsAdmin(userId?: string): boolean {
     };
   }, [userId]);
 
-  return isAdmin;
+  return userId !== undefined && adminUserId === userId;
 }

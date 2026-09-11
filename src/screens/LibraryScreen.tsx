@@ -142,7 +142,9 @@ export const LibraryScreen: React.FC<LibraryScreenProps> = ({
 
         {filteredCards.length === 0 && (
           <div className="col-span-full py-16 text-center text-[#7a6e5d]">
-            <p className="text-sm">Không tìm thấy lá bài nào khớp với từ khóa "{searchTerm}".</p>
+            <p className="text-sm">
+              Không tìm thấy lá bài nào khớp với từ khóa &quot;{searchTerm}&quot;.
+            </p>
           </div>
         )}
       </section>

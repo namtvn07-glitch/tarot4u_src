@@ -25,13 +25,16 @@ function KetQuaContent() {
   const { user, logout } = useAuthUser();
   const searchParams = useSearchParams();
   const orderId = searchParams.get("orderId");
-  const [status, setStatus] = useState<Status>("checking");
+  // "không có orderId" là hàm thuần của URL, không phải kết quả của việc hỏi
+  // server — nên dẫn xuất thẳng khi render thay vì chạy một effect setState
+  // ("error"). Cách cũ còn khiến trang loé lên "Đang xác nhận thanh toán…"
+  // một nhịp trước khi kịp đổi sang lỗi.
+  const [polledStatus, setPolledStatus] = useState<Status | null>(null);
+  const status: Status = orderId ? (polledStatus ?? "checking") : "error";
+  const setStatus = setPolledStatus;
 
   useEffect(() => {
-    if (!orderId) {
-      setStatus("error");
-      return;
-    }
+    if (!orderId) return;
 
     let cancelled = false;
     let pollCount = 0;

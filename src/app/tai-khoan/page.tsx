@@ -7,7 +7,7 @@ import { AccountScreen } from "@/screens/AccountScreen";
 import { CreditTopUpModal } from "@/components/CreditTopUpModal";
 import { AuthModal } from "@/components/AuthModal";
 import { ReadingDetailModal } from "@/components/ReadingDetailModal";
-import type { ReadingHistoryItem, UserProfile } from "@/types/tarot";
+import type { ReadingHistoryItem, ReadingRow, DrawnCardRow, UserProfile } from "@/types/tarot";
 import { createClient } from "@/lib/supabase/client";
 import { findCardById } from "@/lib/cards";
 import { READINGS_STORAGE_KEY } from "@/lib/storage-keys";
@@ -56,13 +56,13 @@ export default function TaiKhoanPage() {
             .order("created_at", { ascending: false });
 
           if (dbReadings && dbReadings.length > 0) {
-            const formatted = dbReadings.map((r: any) => ({
+            const formatted = dbReadings.map((r: ReadingRow) => ({
               id: r.id,
               date: new Date(r.created_at).toLocaleDateString("vi-VN"),
-              topic: r.topic,
+              topic: r.topic ?? undefined,
               topicVi: r.topic === "love" ? "Tình Yêu" : r.topic === "career" ? "Sự Nghiệp" : r.topic === "finance" ? "Tài Chính" : "Tổng Quan",
-              question: r.question,
-              cards: (r.cards_drawn || []).map((c: any, i: number) => {
+              question: r.question ?? undefined,
+              cards: (r.cards_drawn || []).map((c: DrawnCardRow, i: number) => {
                 const card = findCardById(c.card_id);
                 return {
                   name: card?.name_en ?? c.card_id,
@@ -72,7 +72,7 @@ export default function TaiKhoanPage() {
                   position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
                 };
               }),
-              personalBody: r.personal_body,
+              personalBody: r.personal_body ?? undefined,
             }));
             setReadings(formatted);
           } else {

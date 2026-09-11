@@ -5,9 +5,11 @@ import { Sparkles, Mail, X, CheckCircle, ArrowRight, AlertCircle, Loader2, MailC
 import { PASSWORD_MIN_LENGTH } from "@/lib/password";
 import { PasswordField } from "@/components/auth/PasswordField";
 import { PasswordRequirements, usePasswordCheck } from "@/components/auth/PasswordRequirements";
+import type { User } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
 import { withAffiliateMetadata } from "@/lib/affiliate";
 import { sendPasswordResetEmail } from "@/lib/password-reset";
+import { getErrorMessage } from "@/lib/errors";
 
 interface AuthModalProps {
   isOpen: boolean;
@@ -49,11 +51,19 @@ function callbackUrl(): string {
   return `${window.location.origin}/auth/callback?next=${encodeURIComponent(resolveNextPath())}`;
 }
 
-export const AuthModal: React.FC<AuthModalProps> = ({
-  isOpen,
-  onClose,
-  onLoginSuccess,
-}) => {
+// `isOpen` chỉ điều khiển việc render — cả 7 trang giữ component này mounted
+// cố định, nên state bên trong sống mãi qua các lần đóng/mở. Tách vỏ ngoài ra
+// để phần thân CHỈ tồn tại khi modal đang mở: mỗi lần mở là một instance mới
+// nên tab đang chọn, email/mật khẩu đã gõ, "Đăng ký thành công!"... tự về mặc
+// định. Bản cũ dọn bằng một effect setState hàng loạt — đúng ý đồ nhưng là
+// cách React khuyên tránh, và vì effect chạy SAU lần render đầu nên state cũ
+// kịp loé ra một nhịp trước khi bị xoá.
+export const AuthModal: React.FC<AuthModalProps> = (props) => {
+  if (!props.isOpen) return null;
+  return <AuthModalContent {...props} />;
+};
+
+const AuthModalContent: React.FC<AuthModalProps> = ({ onClose, onLoginSuccess }) => {
   const [mode, setMode] = useState<"login" | "register">("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -61,7 +71,17 @@ export const AuthModal: React.FC<AuthModalProps> = ({
   const [loading, setLoading] = useState(false);
   const [magicLinkSent, setMagicLinkSent] = useState(false);
   const [registerSuccess, setRegisterSuccess] = useState(false);
-  const [errorMsg, setErrorMsg] = useState("");
+  // Link đặt lại mật khẩu hết hạn quay về đây kèm query param (xem
+  // src/app/auth/callback/route.ts) — trường hợp duy nhất state đầu khác rỗng.
+  const [errorMsg, setErrorMsg] = useState(() => {
+    const error =
+      typeof window !== "undefined"
+        ? new URLSearchParams(window.location.search).get("error")
+        : null;
+    return error === "link_expired"
+      ? "Link đặt lại mật khẩu đã hết hạn hoặc đã được dùng rồi. Hãy yêu cầu link mới."
+      : "";
+  });
   const [resetStatus, setResetStatus] = useState<"idle" | "sending" | "sent">("idle");
   const requirementsId = useId();
   const emailId = useId();
@@ -70,39 +90,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
   // nhập, người dùng cũ với mật khẩu ngắn vẫn phải vào được bình thường.
   const passwordCheck = usePasswordCheck(mode === "register" ? password : "", email);
 
-  // Component này KHÔNG unmount khi đóng — cả 7 trang render nó cố định, `isOpen`
-  // chỉ điều khiển việc trả về null (dòng dưới). Không reset ở đây thì mọi state
-  // (tab đang chọn, email/mật khẩu đã gõ, "Đăng ký thành công!"...) sống mãi qua
-  // các lần đóng/mở, lộ ra đúng kiểu "vẫn lưu state cũ" khi mở lại modal. Reset mỗi
-  // lần CHUYỂN sang mở — không phải mỗi lần render — nên gõ dở giữa lúc modal đang
-  // mở không bị xoá.
-  useEffect(() => {
-    if (!isOpen) return;
-    const error =
-      typeof window !== "undefined"
-        ? new URLSearchParams(window.location.search).get("error")
-        : null;
-
-    setMode("login");
-    setEmail("");
-    setPassword("");
-    setMagicEmail("");
-    setLoading(false);
-    setMagicLinkSent(false);
-    setRegisterSuccess(false);
-    setResetStatus("idle");
-    // Link đặt lại mật khẩu hết hạn quay về đây kèm query param (xem
-    // src/app/auth/callback/route.ts) — giữ lại đúng 1 trường hợp reset có ngoại lệ.
-    setErrorMsg(
-      error === "link_expired"
-        ? "Link đặt lại mật khẩu đã hết hạn hoặc đã được dùng rồi. Hãy yêu cầu link mới."
-        : "",
-    );
-  }, [isOpen]);
-
-  if (!isOpen) return null;
-
-  const fetchUserProfile = async (supabase: any, user: any) => {
+  const fetchUserProfile = async (supabase: ReturnType<typeof createClient>, user: User) => {
     try {
       const { data: profile } = await supabase
         .from("profiles")
@@ -142,8 +130,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       if (error) {
         setErrorMsg(error.message || "Không thể kết nối Google OAuth. Vui lòng thử lại.");
       }
-    } catch (err: any) {
-      setErrorMsg(err?.message || "Lỗi kết nối máy chủ xác thực.");
+    } catch (err) {
+      setErrorMsg(getErrorMessage(err, "Lỗi kết nối máy chủ xác thực."));
     } finally {
       setLoading(false);
     }
@@ -169,8 +157,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       } else {
         setMagicLinkSent(true);
       }
-    } catch (err: any) {
-      setErrorMsg(err?.message || "Lỗi kết nối máy chủ xác thực.");
+    } catch (err) {
+      setErrorMsg(getErrorMessage(err, "Lỗi kết nối máy chủ xác thực."));
     } finally {
       setLoading(false);
     }
@@ -260,8 +248,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({
           setRegisterSuccess(true);
         }
       }
-    } catch (err: any) {
-      setErrorMsg(err?.message || "Lỗi xử lý tài khoản.");
+    } catch (err) {
+      setErrorMsg(getErrorMessage(err, "Lỗi xử lý tài khoản."));
     } finally {
       setLoading(false);
     }

@@ -26,12 +26,25 @@ export interface TarotCard {
   suit?: CardSuit;
   image?: string;
   imageUrl?: string;
-  image_filename?: string;
   quote?: string;
   keywords?: string[];
   keywordsReversed?: string[];
   uprightKeywords?: string[];
   reversedKeywords?: string[];
+
+  // Bí danh snake_case. KHÔNG thừa: cùng những component này còn nhận được
+  // thẻ hình dạng DB (`Card` trong src/lib/cards.ts, dùng name_en/name_vi/
+  // image_filename), nên khắp UI có chuỗi `card.nameVi || card.name_vi`.
+  // Trước đây chỗ nào cũng ép `any` nên sự thật đó bị giấu — khai ra ở đây
+  // để TypeScript mô tả đúng cái đang chạy.
+  //
+  // Dọn thật sự là chuẩn hoá thẻ DB về TarotCard ngay tại ranh giới rồi xoá
+  // hẳn khối này, nhưng đó là đổi hành vi nên để thành việc riêng.
+  name_en?: string;
+  name_vi?: string;
+  image_filename?: string;
+  upright_keywords?: string[];
+  reversed_keywords?: string[];
   summary?: string;
   psychologySummary?: string;
   uprightMeaning?: string;
@@ -76,6 +89,35 @@ export interface ReadingHistoryItem {
   personalBody?: string;
   aiInterpretation?: string;
   isFavorite?: boolean;
+}
+
+// Dòng thô từ bảng `readings` của Supabase — đúng các cột mà trang lịch sử
+// và trang chi tiết đang select. Tách ra đây vì cả 3 nơi cùng map một hình
+// dạng này; để ở file types (không import gì) nên client lẫn server đều dùng
+// được.
+export interface DrawnCardRow {
+  card_id: string;
+  orientation?: CardOrientation;
+  position?: number;
+}
+
+export interface ReadingRow {
+  id: string;
+  created_at: string;
+  topic: string | null;
+  tier?: string | null;
+  question: string | null;
+  cards_drawn: DrawnCardRow[] | null;
+  personal_body: string | null;
+}
+
+// Dòng thô từ bảng `credit_ledger`, đúng các cột trang tài khoản select.
+export interface CreditLedgerRow {
+  id: string;
+  delta: number;
+  balance_after: number;
+  reason: string;
+  created_at: string;
 }
 
 export interface UserProfile {

@@ -30,9 +30,11 @@ export const anthropicProvider: AiProvider = {
     }
 
     const final = await aiStream.finalMessage();
+    // map + ternary chứ không filter rồi map: `filter` không thu hẹp được
+    // union ContentBlock của SDK nếu không có type predicate, nên bản cũ phải
+    // ép `any` ở cả hai bước.
     const text = final.content
-      .filter((block: any) => block.type === "text")
-      .map((block: any) => block.text)
+      .map((block) => (block.type === "text" ? block.text : ""))
       .join("");
 
     const event: AiEvent = {

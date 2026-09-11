@@ -12,12 +12,18 @@ interface QuickReadScreenProps {
 
 type QuickReadPhase = "intro" | "picking" | "result";
 
+// Ngoài thân component chủ đích: React Compiler cấm gọi hàm impure trong
+// phạm vi render và không phân biệt được "chỉ chạy từ event handler".
+function pickRandomCard(): TarotCard {
+  return TAROT_CARDS[Math.floor(Math.random() * TAROT_CARDS.length)];
+}
+
 export const QuickReadScreen: React.FC<QuickReadScreenProps> = ({
   onNavigate,
   onStartDeepRead,
 }) => {
   const [phase, setPhase] = useState<QuickReadPhase>("intro");
-  const [selectedCard, setSelectedCard] = useState<any>(TAROT_CARDS[0]);
+  const [selectedCard, setSelectedCard] = useState<TarotCard>(TAROT_CARDS[0]);
   const [isFlipped, setIsFlipped] = useState(false);
   const [showEffects, setShowEffects] = useState(false);
 
@@ -28,7 +34,7 @@ export const QuickReadScreen: React.FC<QuickReadScreenProps> = ({
   };
 
   const handlePickCard = (index: number) => {
-    const randomCard = TAROT_CARDS[Math.floor(Math.random() * TAROT_CARDS.length)];
+    const randomCard = pickRandomCard();
     setSelectedCard(randomCard);
     setPhase("result");
 

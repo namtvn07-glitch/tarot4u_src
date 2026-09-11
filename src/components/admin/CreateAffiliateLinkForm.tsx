@@ -43,8 +43,11 @@ export function CreateAffiliateLinkForm({ siteUrl }: { siteUrl: string }) {
 
   // Nhớ tên miền đã gõ cho lần sau, để không phải sửa lại mỗi lần tạo link.
   // Chỉ là tiện ích của riêng trình duyệt này, mất cũng không sao.
+  // Cùng lý do với AffiliateRowActions: localStorage chỉ có ở trình duyệt nên
+  // phép đọc phải nằm sau khi mount, không thể đưa lên lúc render.
   useEffect(() => {
     try {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setDomain(readStoredDomain(siteUrl));
     } catch {
       // Trình duyệt chặn lưu trữ — bỏ qua, dùng giá trị mặc định.

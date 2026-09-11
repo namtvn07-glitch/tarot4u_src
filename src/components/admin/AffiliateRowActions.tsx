@@ -29,7 +29,11 @@ export function AffiliateRowActions({
 
   // Đọc sau khi mount: cùng tên miền mà form đang dùng, để nút chép ở đây không
   // ra địa chỉ khác với link vừa tạo ở trên.
+  // localStorage chỉ có ở trình duyệt, nên phép đọc này BẮT BUỘC nằm sau khi
+  // mount — đọc lúc render thì HTML server và lần render đầu ở client lệch
+  // nhau (hydration mismatch). Ngoại lệ đúng của quy tắc.
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setDomain(readStoredDomain(siteUrl));
   }, [siteUrl]);
 

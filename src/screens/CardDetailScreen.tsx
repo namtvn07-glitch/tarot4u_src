@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowUp, ArrowDown, Sparkles, Briefcase, Heart, Lightbulb, B
 import type { AppScreen, TarotCard } from "@/types/tarot";
 
 interface CardDetailScreenProps {
-  card: any;
+  card: TarotCard;
   onNavigate: (screen: AppScreen) => void;
   onStartDeepReadWithInquiry: (inquiry: string) => void;
 }
@@ -68,7 +68,7 @@ export const CardDetailScreen: React.FC<CardDetailScreenProps> = ({
 
           {card.quote && (
             <p className="font-display text-base sm:text-lg text-[#f5e6a3] italic mb-4 border-l-2 border-l-[#d4af37] pl-3 py-1">
-              "{card.quote}"
+              &quot;{card.quote}&quot;
             </p>
           )}
 

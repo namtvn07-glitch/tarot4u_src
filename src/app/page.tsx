@@ -17,7 +17,15 @@ import { AccountScreen } from "@/screens/AccountScreen";
 import { UnsavedDeepSessionModal } from "@/components/reading/UnsavedDeepSessionModal";
 
 import { TAROT_CARDS } from "@/data/tarotCards";
-import type { AppScreen, TarotCard, UserProfile, ReadingHistoryItem, Topic } from "@/types/tarot";
+import type {
+  AppScreen,
+  TarotCard,
+  UserProfile,
+  ReadingHistoryItem,
+  ReadingRow,
+  DrawnCardRow,
+  Topic,
+} from "@/types/tarot";
 import { useAuthUser } from "@/lib/useAuthUser";
 import { createClient } from "@/lib/supabase/client";
 import { findCardById } from "@/lib/cards";
@@ -25,10 +33,17 @@ import { findCardById } from "@/lib/cards";
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<AppScreen>("home");
   const { user, setUser, logout, addCredits, deductCredit } = useAuthUser();
-  const [readings, setReadings] = useState<ReadingHistoryItem[]>([]);
+  // Gắn nhãn user id đi kèm danh sách thay vì chỉ giữ mảng trần. Nhờ vậy
+  // "đăng xuất thì không còn thấy quẻ cũ" là một phép dẫn xuất lúc render,
+  // không phải một effect chạy `setReadings([])` — cách cũ để lọt một nhịp
+  // render mà tài khoản mới vẫn nhìn thấy lịch sử của tài khoản trước.
+  const [loadedReadings, setLoadedReadings] = useState<ReadingHistoryItem[]>([]);
+  const [readingsOwnerId, setReadingsOwnerId] = useState<string | undefined>(undefined);
+  const readings = readingsOwnerId === user.id ? loadedReadings : [];
+  const setReadings = setLoadedReadings;
 
   // Navigation states
-  const [selectedCardDetail, setSelectedCardDetail] = useState<any>(
+  const [selectedCardDetail, setSelectedCardDetail] = useState<TarotCard>(
     TAROT_CARDS.find((c) => c.id === "the-magician") || TAROT_CARDS[1] || TAROT_CARDS[0]
   );
   const [deepReadInquiry, setDeepReadInquiry] = useState<string>("");
@@ -37,7 +52,7 @@ export default function App() {
   // Modals
   const [isTopUpOpen, setIsTopUpOpen] = useState(false);
   const [isAuthOpen, setIsAuthOpen] = useState(false);
-  const [modalCard, setModalCard] = useState<any | null>(null);
+  const [modalCard, setModalCard] = useState<TarotCard | null>(null);
   const [selectedReadingModal, setSelectedReadingModal] = useState<ReadingHistoryItem | null>(null);
 
   // Load readings for logged in user
@@ -53,13 +68,13 @@ export default function App() {
             .order("created_at", { ascending: false });
 
           if (data && data.length > 0) {
-            const formatted = data.map((r: any) => ({
+            const formatted = data.map((r: ReadingRow) => ({
               id: r.id,
               date: new Date(r.created_at).toLocaleDateString("vi-VN"),
-              topic: r.topic,
+              topic: r.topic ?? undefined,
               topicVi: r.topic === "love" ? "Tình Yêu" : r.topic === "career" ? "Sự Nghiệp" : r.topic === "finance" ? "Tài Chính" : r.topic === "spiritual" ? "Tâm Linh" : "Tổng Quan",
-              question: r.question,
-              cards: (r.cards_drawn || []).map((c: any, i: number) => {
+              question: r.question ?? undefined,
+              cards: (r.cards_drawn || []).map((c: DrawnCardRow, i: number) => {
                 const card = findCardById(c.card_id);
                 return {
                   name: card?.name_en ?? c.card_id,
@@ -69,9 +84,10 @@ export default function App() {
                   position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
                 };
               }),
-              personalBody: r.personal_body,
+              personalBody: r.personal_body ?? undefined,
             }));
-            setReadings(formatted);
+            setLoadedReadings(formatted);
+            setReadingsOwnerId(user.id);
           }
         } catch (e) {
           console.error("Error fetching readings", e);
@@ -79,8 +95,6 @@ export default function App() {
       };
 
       fetchReadings();
-    } else {
-      setReadings([]);
     }
   }, [user.id]);
 
@@ -114,7 +128,7 @@ export default function App() {
     handleNavigate("deep-read");
   };
 
-  const handleNavigateToCardDetail = (card: any) => {
+  const handleNavigateToCardDetail = (card: TarotCard) => {
     setSelectedCardDetail(card);
     handleNavigate("card-detail");
   };

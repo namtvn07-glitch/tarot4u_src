@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { User, Coins, Calendar, History, CreditCard, Settings, PlusCircle, ArrowRight, Layers, Sparkles, Trash2 } from "lucide-react";
-import type { AppScreen, ReadingHistoryItem, UserProfile } from "@/types/tarot";
+import type { AppScreen, CreditLedgerRow, ReadingHistoryItem, UserProfile } from "@/types/tarot";
 import { createClient } from "@/lib/supabase/client";
 import { ChangePasswordSection } from "@/components/account/ChangePasswordSection";
 import { DeleteAccountButton } from "@/components/account/DeleteAccountButton";
@@ -27,7 +27,7 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
   onDeleteReading,
 }) => {
   const [activeTab, setActiveTab] = useState<"history" | "transactions">("history");
-  const [ledgerRows, setLedgerRows] = useState<any[]>([]);
+  const [ledgerRows, setLedgerRows] = useState<CreditLedgerRow[]>([]);
   const [loadingLedger, setLoadingLedger] = useState(false);
   const [deleteRow, setDeleteRow] = useState<DeleteRowState | null>(null);
 
@@ -230,7 +230,7 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
                   </div>
 
                   <h3 className="font-display text-base text-white font-semibold mb-2 group-hover:text-[#d4af37] transition-colors line-clamp-2">
-                    "{reading.question || "Trải bài 3 lá chuyên sâu"}"
+                    &quot;{reading.question || "Trải bài 3 lá chuyên sâu"}&quot;
                   </h3>
 
                   <div className="flex gap-2 mb-3">
@@ -246,7 +246,7 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
 
                   {reading.personalBody && (
                     <p className="text-xs text-[#7a6e5d] line-clamp-2 italic">
-                      "{reading.personalBody.normalize("NFC")}"
+                      &quot;{reading.personalBody.normalize("NFC")}&quot;
                     </p>
                   )}
                 </div>

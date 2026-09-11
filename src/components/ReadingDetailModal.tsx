@@ -52,7 +52,7 @@ export const ReadingDetailModal: React.FC<ReadingDetailModalProps> = ({
               <HelpCircle className="w-4 h-4" />
               <span>Câu hỏi của bạn:</span>
             </div>
-            <p className="text-sm text-[#f3ece1] italic">"{reading.question}"</p>
+            <p className="text-sm text-[#f3ece1] italic">&quot;{reading.question}&quot;</p>
           </div>
         )}
 

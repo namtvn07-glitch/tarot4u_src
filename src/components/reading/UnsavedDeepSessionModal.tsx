@@ -44,8 +44,9 @@ export const UnsavedDeepSessionModal: React.FC<UnsavedDeepSessionModalProps> = (
           Lưu Tạm Phiên Trải Bài?
         </h3>
         <p className="text-xs sm:text-sm text-[#b3a48d] leading-relaxed mb-6 font-body">
-          Bạn đang rời khỏi phiên trải bài sâu dở dang. Chọn "Lưu tạm" để giữ nguyên 3 lá và câu
-          hỏi cho lần sau, hoặc "Không lưu" để bắt đầu lại từ đầu khi quay lại Trải Bài Sâu.
+          Bạn đang rời khỏi phiên trải bài sâu dở dang. Chọn &quot;Lưu tạm&quot; để giữ nguyên 3 lá
+          và câu hỏi cho lần sau, hoặc &quot;Không lưu&quot; để bắt đầu lại từ đầu khi quay lại
+          Trải Bài Sâu.
         </p>
         <div className="flex flex-col gap-3 w-full">
           <button

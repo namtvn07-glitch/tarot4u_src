@@ -4,7 +4,7 @@ import { getAiProvider, type AiEvent } from "@/lib/ai/provider";
 import { requireUser } from "@/lib/auth";
 import { buildUserTurn, PERSONAL_LAYER_SYSTEM } from "@/lib/ai/deep-reading-prompt";
 import { getCardById } from "@/lib/cards";
-import { normalizeDbTopic } from "@/lib/reading";
+import { isTopic, normalizeDbTopic } from "@/lib/reading";
 import { verifyDrawToken } from "@/lib/reading-token";
 import { getSupabaseAdmin } from "@/lib/supabase/admin";
 import { env } from "@/lib/env";
@@ -116,7 +116,11 @@ export async function POST(request: Request) {
         let finalEvent: Extract<AiEvent, { type: "final" }> | undefined;
         for await (const event of getAiProvider().streamCompletion({
           system: PERSONAL_LAYER_SYSTEM,
-          userTurn: buildUserTurn(payload.topic as any, cardsForPrompt, payload.question),
+          userTurn: buildUserTurn(
+            isTopic(payload.topic) ? payload.topic : "general",
+            cardsForPrompt,
+            payload.question,
+          ),
           // 4000, không phải ~1500 — Gemini 3.6 mặc định bật "thinking", tiêu
           // hao chung ngân sách với phần text trả về (không tắt được, xem
           // src/lib/ai/providers/gemini.ts), nên 350-450 từ yêu cầu (~700

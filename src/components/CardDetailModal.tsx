@@ -2,13 +2,14 @@
 
 import React from "react";
 import { X, BookOpen, Sparkles, Brain, Tag } from "lucide-react";
+import type { TarotCard } from "@/types/tarot";
 
 interface CardDetailModalProps {
-  card: any | null;
+  card: TarotCard | null;
   isOpen: boolean;
   onClose: () => void;
-  onNavigateToFullDetail: (card: any) => void;
-  onStartDeepReadWithCard?: (card: any) => void;
+  onNavigateToFullDetail: (card: TarotCard) => void;
+  onStartDeepReadWithCard?: (card: TarotCard) => void;
 }
 
 export const CardDetailModal: React.FC<CardDetailModalProps> = ({

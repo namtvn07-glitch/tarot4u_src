@@ -5,6 +5,13 @@ import { CARD_IDS } from "@/lib/cards";
 export const TOPICS = ["love", "career", "finance", "spiritual", "general"] as const;
 export type Topic = (typeof TOPICS)[number];
 
+// `topic` trong draw token là chuỗi đã qua Zod lúc /shuffle ký, nhưng sau khi
+// đi qua JSON nó chỉ còn là `string` — nên chỗ dùng phải tự thu hẹp lại thay
+// vì ép kiểu. Không bao giờ nên false với token do chính mình ký.
+export function isTopic(value: string): value is Topic {
+  return (TOPICS as readonly string[]).includes(value);
+}
+
 export const DB_TOPICS = ["love", "career", "money", "mind", "general"] as const;
 export type DbTopic = (typeof DB_TOPICS)[number];
 

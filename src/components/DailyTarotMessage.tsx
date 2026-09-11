@@ -3,9 +3,10 @@
 import React, { useState, useEffect } from "react";
 import { Sparkles, RefreshCw, Eye, Lightbulb, Compass } from "lucide-react";
 import { TAROT_CARDS } from "@/data/tarotCards";
+import type { TarotCard } from "@/types/tarot";
 
 interface DailyTarotMessageProps {
-  onViewCardDetail?: (card: any) => void;
+  onViewCardDetail?: (card: TarotCard) => void;
   onStartDeepReadWithInquiry?: (inquiry: string) => void;
 }
 
@@ -13,7 +14,7 @@ export const DailyTarotMessage: React.FC<DailyTarotMessageProps> = ({
   onViewCardDetail,
   onStartDeepReadWithInquiry,
 }) => {
-  const [dailyCard, setDailyCard] = useState<any>(() => {
+  const [dailyCard, setDailyCard] = useState<TarotCard>(() => {
     // Generate deterministic card for the day or random
     const daySeed = new Date().getDate();
     return TAROT_CARDS[daySeed % TAROT_CARDS.length] || TAROT_CARDS[0];
@@ -21,9 +22,14 @@ export const DailyTarotMessage: React.FC<DailyTarotMessageProps> = ({
   const [todayFormatted, setTodayFormatted] = useState<string>("");
   const [isRefreshing, setIsRefreshing] = useState(false);
 
+  // Định dạng ngày BẮT BUỘC làm sau khi mount: server và trình duyệt của
+  // người dùng khác múi giờ và khác bản ICU, nên format lúc render sẽ cho hai
+  // chuỗi khác nhau giữa HTML server và lần render đầu ở client (hydration
+  // mismatch). Ngoại lệ đúng của quy tắc, không phải chỗ cần sửa.
   useEffect(() => {
     const today = new Date();
     try {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setTodayFormatted(
         new Intl.DateTimeFormat("vi-VN", {
           weekday: "long",

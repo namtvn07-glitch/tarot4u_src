@@ -7,7 +7,7 @@ import { Footer } from "@/components/Footer";
 import { ArrowLeft, Calendar, Sparkles, Layers, Loader2 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { findCardById } from "@/lib/cards";
-import type { ReadingHistoryItem } from "@/types/tarot";
+import type { ReadingHistoryItem, DrawnCardRow } from "@/types/tarot";
 import { READINGS_STORAGE_KEY } from "@/lib/storage-keys";
 
 export default function ReadingDetailPage({
@@ -36,7 +36,7 @@ export default function ReadingDetailPage({
             topic: data.topic,
             topicVi: data.topic === "love" ? "Tình Yêu" : data.topic === "career" ? "Sự Nghiệp" : data.topic === "finance" ? "Tài Chính" : "Tổng Quan",
             question: data.question,
-            cards: (data.cards_drawn || []).map((c: any, i: number) => {
+            cards: (data.cards_drawn || []).map((c: DrawnCardRow, i: number) => {
               const card = findCardById(c.card_id);
               return {
                 name: card?.name_en ?? c.card_id,

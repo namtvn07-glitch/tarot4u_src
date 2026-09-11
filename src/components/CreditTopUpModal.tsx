@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { X, Coins, Check, QrCode, ShieldCheck, AlertCircle, Loader2, ExternalLink, CheckCircle2 } from "lucide-react";
 import { PACKS } from "@/lib/orders";
 import { useEscapeAndTabTrap, useFocusTrap } from "@/lib/useModalA11y";
+import { getErrorMessage } from "@/lib/errors";
 
 const vndFormatter = new Intl.NumberFormat("vi-VN");
 const RING_RADIUS = 26;
@@ -204,8 +205,8 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
       } else {
         setErrorMsg("Phản hồi từ PayOS không hợp lệ.");
       }
-    } catch (err: any) {
-      setErrorMsg(err?.message || "Lỗi kết nối máy chủ PayOS.");
+    } catch (err) {
+      setErrorMsg(getErrorMessage(err, "Lỗi kết nối máy chủ PayOS."));
     } finally {
       setIsProcessing(false);
     }

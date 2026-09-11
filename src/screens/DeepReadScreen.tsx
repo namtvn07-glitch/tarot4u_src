@@ -25,6 +25,7 @@ import { CARD_BACK_IMAGE } from "@/data/tarotCards";
 import { UnsavedDeepSessionModal } from "@/components/reading/UnsavedDeepSessionModal";
 import type { AppScreen, ReadingHistoryItem, Topic } from "@/types/tarot";
 import { DEEP_SESSION_STORAGE_KEY } from "@/lib/storage-keys";
+import { getErrorMessage, isAbortError } from "@/lib/errors";
 
 interface DeepReadScreenProps {
   initialInquiry?: string;
@@ -175,6 +176,14 @@ interface CardDrawResult {
   psychologySummary?: string;
 }
 
+// Ở ngoài thân component trên chủ đích: React Compiler cấm gọi hàm impure
+// trong phạm vi render, và nó không phân biệt được "chỉ chạy từ event
+// handler". Đây là id cục bộ cho bản lưu tạm trong trình duyệt, không phải
+// id của bản ghi trong DB (cái đó do server sinh).
+function createLocalReadingId(): string {
+  return `reading-${Date.now()}`;
+}
+
 export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   initialInquiry = "",
   initialTopic = "general",
@@ -283,6 +292,12 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               // hoặc bắt đầu phiên mới — không tự ý gọi lại AI (tránh trừ
               // credits ngoài ý muốn nếu user không còn muốn tiếp tục).
               const wasInterrupted = data.phase === "analysis" && !data.analysisComplete;
+              // Khôi phục phiên từ sessionStorage BẮT BUỘC nằm trong effect:
+              // server không có sessionStorage, nên đọc lúc render sẽ khiến
+              // HTML của server và lần render đầu ở client lệch nhau
+              // (hydration mismatch). Đây là ngoại lệ đúng của quy tắc, không
+              // phải chỗ cần sửa.
+              // eslint-disable-next-line react-hooks/set-state-in-effect
               setPhase(wasInterrupted ? "revealed" : data.phase);
               if (data.selectedTopic) setSelectedTopic(data.selectedTopic);
               if (data.inquiry) setInquiry(data.inquiry);
@@ -365,17 +380,22 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
     };
   }, []);
 
-  useEffect(() => {
-    if (initialInquiry) {
-      setInquiry(initialInquiry);
-    }
-  }, [initialInquiry]);
+  // Đồng bộ prop → state (người dùng chọn chủ đề ở trang chủ rồi nhảy sang
+  // đây, sau đó vẫn sửa được) theo đúng cách React khuyến nghị cho "điều
+  // chỉnh state khi prop đổi": so với giá trị prop của lần render trước, ngay
+  // trong lúc render. Bản cũ dùng effect nên state cũ loé ra một nhịp trước
+  // khi bị ghi đè.
+  const [lastInitialInquiry, setLastInitialInquiry] = useState(initialInquiry);
+  if (initialInquiry !== lastInitialInquiry) {
+    setLastInitialInquiry(initialInquiry);
+    if (initialInquiry) setInquiry(initialInquiry);
+  }
 
-  useEffect(() => {
-    if (initialTopic) {
-      setSelectedTopic(initialTopic);
-    }
-  }, [initialTopic]);
+  const [lastInitialTopic, setLastInitialTopic] = useState(initialTopic);
+  if (initialTopic !== lastInitialTopic) {
+    setLastInitialTopic(initialTopic);
+    if (initialTopic) setSelectedTopic(initialTopic);
+  }
 
   const activeTopicConfig =
     TOPIC_OPTIONS.find((t) => t.id === selectedTopic) || TOPIC_OPTIONS[0];
@@ -450,9 +470,9 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       if (typeof document !== "undefined" && document.hidden) {
         document.title = "✦ Bài đã xáo xong — Xem Bài Tarot";
       }
-    } catch (err: any) {
-      if (err.name !== "AbortError") {
-        setErrorMessage(err?.message || "Lỗi kết nối máy chủ khi xáo bài. Vui lòng thử lại.");
+    } catch (err) {
+      if (!isAbortError(err)) {
+        setErrorMessage(getErrorMessage(err, "Lỗi kết nối máy chủ khi xáo bài. Vui lòng thử lại."));
       }
     } finally {
       setIsShuffling(false);
@@ -647,9 +667,9 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           onDeductCredit(2);
         }
       }
-    } catch (err: any) {
+    } catch (err) {
       setIsTyping(false);
-      setErrorMessage(err?.message || "Lỗi kết nối luồng phân tích chuyên sâu.");
+      setErrorMessage(getErrorMessage(err, "Lỗi kết nối luồng phân tích chuyên sâu."));
       setRefundNotice("Nếu credits đã bị trừ, hệ thống sẽ tự động hoàn lại.");
       setPhase("revealed");
       setSessionRecoveryNotice(true);
@@ -716,7 +736,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
     if (isSaved) return;
     const topicVi = activeTopicConfig.nameVi;
     const newReading: ReadingHistoryItem = {
-      id: "reading-" + Date.now(),
+      id: createLocalReadingId(),
       date: new Date().toLocaleDateString("vi-VN"),
       topic: selectedTopic,
       topicVi,
@@ -1111,7 +1131,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
                         : "bg-[#1c1611] hover:bg-[#251d16] border border-[#3d3123] hover:border-[#d4af37]/60 text-[#b3a48d] hover:text-[#f3ece1] cursor-pointer"
                     }`}
                   >
-                    <span>"{s}"</span>
+                    <span>&quot;{s}&quot;</span>
                     <ArrowRight className={`w-3.5 h-3.5 shrink-0 ml-2 transition-opacity ${
                       isShuffling ? "opacity-0" : "opacity-0 group-hover:opacity-100 text-[#d4af37]"
                     }`} />
@@ -1162,7 +1182,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               Chạm vào 3 lá bài bạn cảm nhận rõ ràng nhất
             </h2>
             <p className="text-xs sm:text-sm text-[#b3a48d] mt-1.5 italic max-w-xl mx-auto font-body">
-              "{inquiry}"
+              &quot;{inquiry}&quot;
             </p>
           </div>
 
@@ -1311,7 +1331,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               3 Trụ Cột Năng Lượng Đã Hiện Diện
             </h2>
             <p className="text-xs sm:text-sm text-[#b3a48d] mt-1.5 italic max-w-2xl mx-auto font-body">
-              "{inquiry}"
+              &quot;{inquiry}&quot;
             </p>
           </div>
 
@@ -1330,7 +1350,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               </p>
               {recoveredTokenExpired && (
                 <p className="text-[#d4af37]">
-                  Token phiên trước đã hết hạn — bấm "Trải lại luận giải" sẽ tự xin cấp lại cho
+                  Token phiên trước đã hết hạn — bấm &quot;Trải lại luận giải&quot; sẽ tự xin cấp lại cho
                   đúng câu hỏi và 3 lá này (kiểm duyệt lại câu hỏi, không tính thêm Credits ở bước
                   này).
                 </p>
@@ -1471,7 +1491,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               Luận Giải Chuyên Sâu
             </h2>
             <p className="text-xs sm:text-sm text-[#b3a48d] mt-1.5 italic max-w-xl mx-auto font-body">
-              "{inquiry}"
+              &quot;{inquiry}&quot;
             </p>
           </div>
 
