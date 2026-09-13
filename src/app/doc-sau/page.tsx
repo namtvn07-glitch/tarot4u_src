@@ -9,7 +9,7 @@ import { CreditTopUpModal } from "@/components/CreditTopUpModal";
 import { AuthModal } from "@/components/AuthModal";
 import { useAuthUser } from "@/lib/useAuthUser";
 import type { AppScreen } from "@/types/tarot";
-import { READINGS_STORAGE_KEY } from "@/lib/storage-keys";
+import { saveLocalReading } from "@/lib/user-scoped-storage";
 
 function navigateToScreen(screen: AppScreen) {
   if (typeof window === "undefined") return;
@@ -25,7 +25,7 @@ export default function DocSauPage() {
   const [isBusy, setIsBusy] = useState(false);
   const [isDeepSessionActive, setIsDeepSessionActive] = useState(false);
   const [pendingNavTarget, setPendingNavTarget] = useState<AppScreen | null>(null);
-  const { user, setUser, logout, addCredits, deductCredit } = useAuthUser();
+  const { user, loading: isAuthLoading, setUser, logout, addCredits, deductCredit } = useAuthUser();
 
   const handleHeaderNavigate = (screen: AppScreen) => {
     if (isDeepSessionActive && screen !== "deep-read") {
@@ -55,16 +55,13 @@ export default function DocSauPage() {
 
       <main className="flex-grow flex flex-col relative z-10">
         <DeepReadScreen
+          userId={user.id ?? null}
+          isAuthReady={!isAuthLoading}
           credits={user.credits}
           onDeductCredit={deductCredit}
           onBusyChange={setIsBusy}
           onSessionActiveChange={setIsDeepSessionActive}
-          onSaveReading={(reading) => {
-            if (typeof window !== "undefined") {
-              const prev = JSON.parse(localStorage.getItem(READINGS_STORAGE_KEY) || "[]");
-              localStorage.setItem(READINGS_STORAGE_KEY, JSON.stringify([reading, ...prev]));
-            }
-          }}
+          onSaveReading={(reading) => saveLocalReading(reading, user.id ?? null)}
           onOpenTopUp={() => {
             if (!user.isLoggedIn) {
               setIsAuthOpen(true);

@@ -32,7 +32,7 @@ import { findCardById } from "@/lib/cards";
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<AppScreen>("home");
-  const { user, setUser, logout, addCredits, deductCredit } = useAuthUser();
+  const { user, loading: isAuthLoading, setUser, logout, addCredits, deductCredit } = useAuthUser();
   // Gắn nhãn user id đi kèm danh sách thay vì chỉ giữ mảng trần. Nhờ vậy
   // "đăng xuất thì không còn thấy quẻ cũ" là một phép dẫn xuất lúc render,
   // không phải một effect chạy `setReadings([])` — cách cũ để lọt một nhịp
@@ -192,6 +192,8 @@ export default function App() {
             key={`${deepReadTopic}-${deepReadInquiry}`}
             initialInquiry={deepReadInquiry}
             initialTopic={deepReadTopic}
+            userId={user.id ?? null}
+            isAuthReady={!isAuthLoading}
             onNavigate={handleNavigate}
             credits={user.credits}
             onDeductCredit={deductCredit}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { AmbientSoundPlayer } from "@/components/AmbientSoundPlayer";
+import { UserScopedStorageGuard } from "@/components/UserScopedStorageGuard";
 import { env } from "@/lib/env";
 import { buildOrganizationJsonLd, buildWebSiteJsonLd } from "@/lib/structured-data";
 
@@ -77,6 +78,9 @@ export default function RootLayout({
 
         {/* Global Ambient Audio Synthesizer */}
         <AmbientSoundPlayer />
+
+        {/* Dọn dữ liệu trình duyệt của tài khoản trước khi danh tính đổi */}
+        <UserScopedStorageGuard />
       </body>
     </html>
   );

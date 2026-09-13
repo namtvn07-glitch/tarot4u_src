@@ -8,7 +8,7 @@ import { ArrowLeft, Calendar, Sparkles, Layers, Loader2 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { findCardById } from "@/lib/cards";
 import type { ReadingHistoryItem, DrawnCardRow } from "@/types/tarot";
-import { READINGS_STORAGE_KEY } from "@/lib/storage-keys";
+import { readLocalReadings } from "@/lib/user-scoped-storage";
 
 export default function ReadingDetailPage({
   params,
@@ -49,13 +49,17 @@ export default function ReadingDetailPage({
             personalBody: data.personal_body,
           });
         } else {
-          // Check local storage fallback
-          const local = localStorage.getItem(READINGS_STORAGE_KEY);
-          if (local) {
-            const list: ReadingHistoryItem[] = JSON.parse(local);
-            const found = list.find((item) => item.id === id);
-            if (found) setReading(found);
-          }
+          // Bộ đệm cục bộ dự phòng — chỉ của chính người đang đăng nhập, xem
+          // readLocalReadings(). Quẻ không thuộc về họ thì trang này để trống
+          // đúng như khi id không tồn tại.
+          //
+          // getSession() (đọc cookie) chứ không getUser() (gọi mạng): ở đây
+          // chỉ cần khớp tem chủ sở hữu của một bản sao cục bộ, không phải
+          // xác thực quyền — quyền đã do RLS của bảng `readings` giữ ở nhánh
+          // trên rồi.
+          const { data: { session } } = await supabase.auth.getSession();
+          const found = readLocalReadings(session?.user?.id ?? null).find((item) => item.id === id);
+          if (found) setReading(found);
         }
       } catch {
         // ignore

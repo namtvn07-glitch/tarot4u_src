@@ -10,7 +10,7 @@ import { ReadingDetailModal } from "@/components/ReadingDetailModal";
 import type { ReadingHistoryItem, ReadingRow, DrawnCardRow, UserProfile } from "@/types/tarot";
 import { createClient } from "@/lib/supabase/client";
 import { findCardById } from "@/lib/cards";
-import { READINGS_STORAGE_KEY } from "@/lib/storage-keys";
+import { readLocalReadings } from "@/lib/user-scoped-storage";
 
 export default function TaiKhoanPage() {
   const [isTopUpOpen, setIsTopUpOpen] = useState(false);
@@ -76,15 +76,11 @@ export default function TaiKhoanPage() {
             }));
             setReadings(formatted);
           } else {
-            // Also check localStorage if recently saved
-            const local = localStorage.getItem(READINGS_STORAGE_KEY);
-            if (local) {
-              try {
-                setReadings(JSON.parse(local));
-              } catch {
-                // ignore
-              }
-            }
+            // Bộ đệm cục bộ chỉ để lấp khoảng trễ ngay sau khi lưu, và chỉ
+            // đọc được phần mang tem của CHÍNH tài khoản này — trước đây đọc
+            // thẳng mảng trần nên tài khoản mới (chưa có quẻ nào trong DB)
+            // lại thấy lịch sử của tài khoản đăng nhập trước đó trên cùng máy.
+            setReadings(readLocalReadings(authUser.id));
           }
         }
       } catch {
