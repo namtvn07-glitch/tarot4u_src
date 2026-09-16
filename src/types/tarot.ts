@@ -127,6 +127,11 @@ export interface UserProfile {
   credits: number;
   avatarUrl?: string;
   isLoggedIn: boolean;
+  // Phiên ẩn danh: isLoggedIn true (có id thật, mua được, đọc được readings
+  // của mình) nhưng KHÔNG có tài khoản. UI phải phân biệt được hai trạng thái
+  // này — nếu không, khách ẩn danh hiện ra là "Thành Viên" với đủ nút "Xoá tài
+  // khoản"/"Thoát", mà cả hai đều phá huỷ vĩnh viễn credits họ vừa trả tiền.
+  isAnonymous: boolean;
 }
 
 export interface CreditPackage {

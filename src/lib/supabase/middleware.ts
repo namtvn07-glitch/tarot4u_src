@@ -13,13 +13,26 @@ import { getClientIp } from "@/lib/rate-limit";
 // không phải sửa logic redirect bên dưới. Cố ý KHÔNG gồm /doc-sau — route
 // đó đã có in-page soft-gate riêng từ Giai đoạn 4c (`.claude/brain/phase-4c-doc-sau/`),
 // không đụng vào việc của task khác.
-// /nap-credits (Giai đoạn 6): mua credits bắt buộc phải có tài khoản để gắn
-// đúng user, không có luồng khách vãng lai.
+// /nap-credits (Giai đoạn 6): cần một danh tính để gắn đơn hàng. Phiên ẩn danh
+// LÀ một danh tính hợp lệ cho việc đó — và trang /nap-credits/ket-qua nằm dưới
+// cùng prefix này, nên chặn ẩn danh ở đây nghĩa là khách vừa chuyển khoản xong
+// không xem được kết quả thanh toán của chính mình.
 // /admin: chỉ để đá người CHƯA ĐĂNG NHẬP về trang login sớm. Việc kiểm tra có
 // phải admin hay không cố ý KHÔNG làm ở đây — middleware này fail-open khi lỗi
 // mạng (đúng cho "có session không"), mà quyền admin thì phải fail-closed.
 // Quyết định đó nằm ở src/app/admin/layout.tsx.
 const PROTECTED_PREFIXES = ["/tai-khoan", "/nap-credits", "/admin"];
+
+// Prefix mà một PHIÊN ẨN DANH cũng bị chặn, dù nó có session hợp lệ.
+//
+// /tai-khoan: toàn bộ trang được viết cho "tài khoản của bạn" — đổi mật khẩu,
+// xoá tài khoản, hồ sơ. Với phiên ẩn danh thì không có tài khoản nào để quản
+// lý, và hai nút đầu tiên phá huỷ vĩnh viễn credits họ vừa trả tiền.
+// /admin: ẩn danh không bao giờ có hàng trong admin_users, nhưng chặn sớm ở
+// đây rẻ hơn là để layout tự phát hiện sau một round-trip DB.
+//
+// /nap-credits CỐ Ý không nằm trong danh sách này — xem trên.
+const ANONYMOUS_BLOCKED_PREFIXES = ["/tai-khoan", "/admin"];
 
 // sha256 rút gọn: 16 ký tự hex đủ để dedupe/rate-limit theo IP, không cần chống
 // va chạm mật mã. Không bao giờ lưu IP thô.
@@ -152,11 +165,19 @@ export async function updateSession(
   const isProtected = PROTECTED_PREFIXES.some((prefix) =>
     request.nextUrl.pathname.startsWith(prefix),
   );
+  const isAnonymousBlocked = ANONYMOUS_BLOCKED_PREFIXES.some((prefix) =>
+    request.nextUrl.pathname.startsWith(prefix),
+  );
   try {
     const {
       data: { user },
     } = await supabase.auth.getUser();
-    if (!user && isProtected) {
+    // Phiên ẩn danh có `user` nên nó đi lọt qua test `!user` — phải hỏi riêng.
+    // Thiếu nhánh thứ hai thì bật anonymous auth lên là mở toang /tai-khoan và
+    // /admin cho mọi khách vãng lai.
+    const mustSignIn =
+      (!user && isProtected) || (user?.is_anonymous === true && isAnonymousBlocked);
+    if (mustSignIn) {
       const url = request.nextUrl.clone();
       url.pathname = "/dang-nhap";
       url.searchParams.delete("ref");

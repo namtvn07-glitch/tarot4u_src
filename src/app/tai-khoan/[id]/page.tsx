@@ -9,6 +9,7 @@ import { createClient } from "@/lib/supabase/client";
 import { findCardById } from "@/lib/cards";
 import type { ReadingHistoryItem, DrawnCardRow } from "@/types/tarot";
 import { readLocalReadings } from "@/lib/user-scoped-storage";
+import { useAuthUser } from "@/lib/useAuthUser";
 
 export default function ReadingDetailPage({
   params,
@@ -17,6 +18,10 @@ export default function ReadingDetailPage({
 }) {
   const { id } = use(params);
   const [reading, setReading] = useState<ReadingHistoryItem | null>(null);
+  // Trước đây Header ở trang này nhận một danh tính bịa ("Thành Viên", luôn
+  // isLoggedIn) kèm onLogout rỗng, nên nó hiện sai với mọi người xem — và với
+  // phiên ẩn danh thì hiện đủ các lối đi phá huỷ tài khoản đã trả tiền.
+  const { user, logout } = useAuthUser();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -75,15 +80,10 @@ export default function ReadingDetailPage({
     <div className="flex flex-col min-h-screen">
       <Header
         currentScreen="account"
-        user={{
-          name: "Thành Viên",
-          email: "",
-          credits: 0,
-          isLoggedIn: true,
-        }}
+        user={user}
         onOpenTopUp={() => {}}
         onOpenAuth={() => {}}
-        onLogout={() => {}}
+        onLogout={logout}
       />
 
       <main className="flex-grow max-w-4xl mx-auto px-4 sm:px-8 py-10 w-full relative z-10">

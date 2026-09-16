@@ -2,7 +2,12 @@ import * as Sentry from "@sentry/nextjs";
 import { NextResponse } from "next/server";
 import { requireUser } from "@/lib/auth";
 import { triageQuestion } from "@/lib/moderation";
-import { checkRateLimit, getClientIp, refundRateLimit } from "@/lib/rate-limit";
+import {
+  checkRateLimit,
+  refundRateLimit,
+  relaxInDev,
+  resolveRateLimitIdentity,
+} from "@/lib/rate-limit";
 import { DeepReadingRequestSchema, drawCards } from "@/lib/reading";
 import { signDrawToken } from "@/lib/reading-token";
 import { env } from "@/lib/env";
@@ -33,19 +38,21 @@ export async function POST(request: Request) {
   //
   // Đọc sâu tới hết Lớp Nền miễn phí không cần đăng nhập nữa — chỉ bước mở
   // khóa luận giải chuyên sâu (trừ credits, personal/route.ts) mới bắt buộc.
-  // Ẩn danh giới hạn theo IP (06-bao-mat-kiem-duyet-phap-ly.md §2.2), vẫn
-  // chặt hơn Rút Nhanh vì bước này gọi AI kiểm duyệt thật trên mọi lần thử.
+  //
+  // "Chưa đăng nhập" ở đây gồm CẢ phiên ẩn danh, không chỉ người không có
+  // session. Một phiên ẩn danh có user.id thật nhưng đúc lại được vô hạn bằng
+  // signInAnonymously() — đếm theo id của nó thì route này không còn hạn mức
+  // nào cả, mà mỗi lượt lại là một call Gemini có tiền (triageQuestion bên
+  // dưới). resolveRateLimitIdentity giữ đúng một quy tắc đó cho mọi route.
   const user = await requireUser();
-  const rateLimitKey = user
-    ? `reading-deep-shuffle:user:${user.id}`
-    : `reading-deep-shuffle:ip:${getClientIp(request)}`;
+  const identity = resolveRateLimitIdentity(user, request);
+  const rateLimitKey = `reading-deep-shuffle:${identity.scope}:${identity.token}`;
   // 10 chứ không phải 3: mạng di động VN (Viettel/VNPT) NAT rất nhiều thuê
   // bao sau cùng một IP công cộng, nên hạn mức "3 lượt/ngày/IP" trên thực tế
   // là 3 lượt chia cho cả một nhóm người lạ. Một lượt xáo bài chỉ tốn một
   // call flash rẻ, nên 10 vẫn an toàn về chi phí.
-  const [rateLimitWindow, rateLimitMax] = user
-    ? [3600, process.env.NODE_ENV === "development" ? 100 : 30]
-    : [86400, 10];
+  const [rateLimitWindow, rateLimitMax] =
+    identity.scope === "user" ? [3600, relaxInDev(30)] : [86400, relaxInDev(10)];
 
   let allowed: boolean;
   try {

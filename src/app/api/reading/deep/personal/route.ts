@@ -8,6 +8,7 @@ import { isTopic, normalizeDbTopic } from "@/lib/reading";
 import { verifyDrawToken } from "@/lib/reading-token";
 import { getSupabaseAdmin } from "@/lib/supabase/admin";
 import { env } from "@/lib/env";
+import { DEEP_READING_CREDIT_COST } from "@/lib/orders";
 
 export const runtime = "nodejs";
 // Stream Sonnet/Gemini có thể mất 20–45s (02-tech-stack.md §3.2) — mặc định
@@ -66,7 +67,7 @@ export async function POST(request: Request) {
   const { data: debited, error: debitError } = await supabaseAdmin.rpc("debit_reading", {
     p_user_id: user.id,
     p_reading_id: readingId,
-    p_cost: env.DEEP_READING_COST,
+    p_cost: DEEP_READING_CREDIT_COST,
   });
   if (debitError) {
     if (debitError.message?.includes("insufficient_credits")) {

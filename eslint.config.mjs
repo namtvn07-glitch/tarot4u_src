@@ -20,5 +20,9 @@ export default defineConfig([
     // Artifact build, không phải nguồn.
     "public/**",
     "scripts/**",
+    // `supabase start` ghi bundle edge-runtime đã minify vào đây. Nó đã được
+    // gitignore, nhưng ESLint vẫn quét — nên bất kỳ ai chạy Supabase local sẽ
+    // thấy gate lint đỏ vì ~99 lỗi trong code máy sinh mà họ không sửa được.
+    "supabase/.temp/**",
   ]),
 ]);

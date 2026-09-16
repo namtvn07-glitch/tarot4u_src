@@ -10,11 +10,12 @@ import { PasswordField } from "@/components/auth/PasswordField";
 import { PasswordRequirements, usePasswordCheck } from "@/components/auth/PasswordRequirements";
 import { createClient } from "@/lib/supabase/client";
 import { sendPasswordResetEmail } from "@/lib/password-reset";
+import { GUEST_PROFILE } from "@/lib/user-profile";
 
 type SessionState = "checking" | "ready" | "expired";
 type Status = "idle" | "submitting" | "success" | "error";
 
-const GUEST_USER = { name: "Khách", email: "", credits: 0, isLoggedIn: false } as const;
+const GUEST_USER = GUEST_PROFILE;
 
 // Đích đến của link "Quên mật khẩu?" trong email. Người dùng tới đây đã có session
 // recovery do /auth/callback đổi code — trang chỉ cần một session hợp lệ là làm việc

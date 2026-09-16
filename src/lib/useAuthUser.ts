@@ -2,14 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { createClient } from "@/lib/supabase/client";
+import { GUEST_PROFILE, toUserProfile } from "@/lib/user-profile";
 import type { UserProfile } from "@/types/tarot";
-
-const GUEST_PROFILE: UserProfile = {
-  name: "Khách",
-  email: "",
-  credits: 0,
-  isLoggedIn: false,
-};
 
 export function useAuthUser() {
   const [user, setUser] = useState<UserProfile>(GUEST_PROFILE);
@@ -51,19 +45,7 @@ export function useAuthUser() {
           .eq("id", authUser.id)
           .single();
 
-        setUser({
-          id: authUser.id,
-          name:
-            profile?.display_name ||
-            authUser.user_metadata?.full_name ||
-            authUser.user_metadata?.name ||
-            authUser.email?.split("@")[0] ||
-            "Thành Viên",
-          email: authUser.email || "",
-          credits: typeof profile?.credits === "number" ? profile.credits : 0,
-          avatarUrl: profile?.avatar_url || authUser.user_metadata?.avatar_url,
-          isLoggedIn: true,
-        });
+        setUser(toUserProfile(authUser, profile));
       } finally {
         // Mọi nhánh — kể cả lỗi đọc `profiles` — đều phải chốt "đã biết đang
         // là ai". DeepReadScreen chờ đúng cờ này mới dám đọc/ghi

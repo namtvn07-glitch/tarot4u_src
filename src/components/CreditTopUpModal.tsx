@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { X, Coins, Check, QrCode, ShieldCheck, AlertCircle, Loader2, ExternalLink, CheckCircle2 } from "lucide-react";
-import { PACKS } from "@/lib/orders";
+import { X, Coins, Check, QrCode, ShieldCheck, AlertCircle, Loader2, ExternalLink, CheckCircle2, Sparkles } from "lucide-react";
+import { DEEP_READING_CREDIT_COST, PACKS, TOP_UP_PACK_IDS, type PackId } from "@/lib/orders";
+import { createClient } from "@/lib/supabase/client";
 import { useEscapeAndTabTrap, useFocusTrap } from "@/lib/useModalA11y";
 import { getErrorMessage } from "@/lib/errors";
 
@@ -22,12 +23,26 @@ interface CreditTopUpModalProps {
   onClose: () => void;
   onSuccess: (creditsToAdd: number) => void;
   currentCredits: number;
+  /**
+   * `"packs"` (mặc định) — bảng 3 gói nạp credits như cũ.
+   * `"single"` — bán đúng MỘT lượt Đọc sâu cho khách chưa có tài khoản, ngay
+   * tại cú bấm "Mở khoá". Là một variant chứ không phải component song song
+   * (design-system.md: *variants over forks*): toàn bộ đường tiền bên dưới —
+   * tạo đơn, QR, đếm ngược, poll trạng thái, hết hạn — phải giữ đúng một bản.
+   * Nhân đôi nó là nhân đôi bề mặt nơi bug làm mất tiền thật.
+   *
+   * Gói lẻ CỐ Ý không xuất hiện ở chế độ "packs": nó là sản phẩm một lần cho
+   * người chưa có tài khoản, và tính trên mỗi lượt thì đắt hơn mọi gói — chỗ
+   * của nó là sheet mở khoá, cạnh lời mời đăng nhập để mua rẻ hơn.
+   */
+  mode?: "packs" | "single";
 }
 
 interface Pack {
-  id: "small" | "popular" | "large";
+  id: PackId;
   name: string;
-  credits: number;
+  /** null với gói lẻ — số credits do server quyết (xem src/lib/orders.ts). */
+  credits: number | null;
   priceFormatted: string;
   priceNumber: number;
   isPopular?: boolean;
@@ -38,41 +53,59 @@ interface Pack {
 // — cùng một nguồn với giá server thật sự tính khi tạo đơn, để không lệch
 // giữa số hiển thị và số tiền charge thật (từng lệch khi component này tự
 // hardcode giá riêng).
-const PACKAGES: Pack[] = [
-  {
-    id: "small",
+const PACK_COPY: Record<(typeof TOP_UP_PACK_IDS)[number], { name: string; description: string; isPopular?: boolean }> = {
+  small: {
     name: "Gói Nhỏ (Trải Nghiệm)",
-    credits: PACKS.small.credits,
-    priceFormatted: `${vndFormatter.format(PACKS.small.amountVnd)} đ`,
-    priceNumber: PACKS.small.amountVnd,
     description: "Phù hợp để làm quen với các trải bài 3 lá chuyên sâu.",
   },
-  {
-    id: "popular",
+  popular: {
     name: "Gói Phổ Biến (Khai Phá)",
-    credits: PACKS.popular.credits,
-    priceFormatted: `${vndFormatter.format(PACKS.popular.amountVnd)} đ`,
-    priceNumber: PACKS.popular.amountVnd,
-    isPopular: true,
     description: "Tiết kiệm chi phí — Lựa chọn lý tưởng cho các câu hỏi chi tiết.",
+    isPopular: true,
   },
-  {
-    id: "large",
+  large: {
     name: "Gói Lớn (Minh Triết)",
-    credits: PACKS.large.credits,
-    priceFormatted: `${vndFormatter.format(PACKS.large.amountVnd)} đ`,
-    priceNumber: PACKS.large.amountVnd,
     description: "Tặng thêm nhiều Credits — Thấu suốt mọi ngã rẽ cuộc sống.",
   },
-];
+};
+
+// Danh sách gói dựng từ TOP_UP_PACK_IDS, không liệt kê tay — thêm `single` vào
+// PACKS mà quên nó ở đây sẽ khiến gói lẻ lọt vào bảng giá nạp credits, nơi nó
+// không thuộc về.
+const PACKAGES: Pack[] = TOP_UP_PACK_IDS.map((id) => ({
+  id,
+  name: PACK_COPY[id].name,
+  credits: PACKS[id].credits,
+  priceFormatted: `${vndFormatter.format(PACKS[id].amountVnd)} đ`,
+  priceNumber: PACKS[id].amountVnd,
+  isPopular: PACK_COPY[id].isPopular,
+  description: PACK_COPY[id].description,
+}));
+
+const SINGLE_PACK: Pack = {
+  id: "single",
+  name: PACKS.single.label,
+  credits: PACKS.single.credits,
+  priceFormatted: `${vndFormatter.format(PACKS.single.amountVnd)} đ`,
+  priceNumber: PACKS.single.amountVnd,
+  description: "Mở khoá đúng luận giải chuyên sâu bạn đang xem. Không cần tài khoản.",
+};
 
 export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
   isOpen,
   onClose,
   onSuccess,
   currentCredits,
+  mode = "packs",
 }) => {
-  const [selectedPack, setSelectedPack] = useState<Pack>(PACKAGES[1]);
+  const isSingleMode = mode === "single";
+  const [selectedPack, setSelectedPack] = useState<Pack>(
+    isSingleMode ? SINGLE_PACK : PACKAGES[1],
+  );
+  // Số credits THẬT server đã cộng, đọc từ phản hồi đơn hàng. Với gói lẻ,
+  // `selectedPack.credits` là null có chủ đích (server mới biết con số đúng),
+  // nên màn hình thành công phải lấy từ đây chứ không từ hằng số phía client.
+  const [paidCredits, setPaidCredits] = useState<number | null>(null);
   const [agreedTerms, setAgreedTerms] = useState(true);
   const [isProcessing, setIsProcessing] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
@@ -127,8 +160,11 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
         if (res.ok) {
           const data = await res.json();
           if (data.status === "paid") {
+            const credited =
+              typeof data.credits === "number" ? data.credits : (selectedPack.credits ?? 0);
+            setPaidCredits(credited);
             setPaymentDone(true);
-            onSuccess(data.credits || selectedPack.credits);
+            onSuccess(credited);
             setTimeout(() => {
               setShowQrModal(false);
               onClose();
@@ -172,6 +208,32 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
     setQrExpired(false);
 
     try {
+      // Khách mua lẻ: đúc danh tính ẩn danh NGAY TRƯỚC khi tạo đơn, không sớm
+      // hơn. Đây là lần đầu tiên có một hàng auth.users cho họ — gắn nó vào
+      // đúng khoảnh khắc họ quyết định trả tiền nghĩa là ta không tạo rác danh
+      // tính cho mỗi người chỉ ghé xem giá.
+      //
+      // KHÔNG truyền metadata affiliate ở đây. Trigger handle_new_user() sẽ
+      // chạy cho hàng này; nếu nó nhận ref_click thì cùng một người bị tính
+      // công affiliate hai lần (một lần ẩn danh, một lần nữa lúc nâng cấp) và
+      // tỉ lệ chuyển đổi vượt 100%. Attribution gắn đúng một lần lúc nâng cấp,
+      // qua /api/account/claim-affiliate.
+      if (isSingleMode) {
+        const supabase = createClient();
+        const {
+          data: { session },
+        } = await supabase.auth.getSession();
+        if (!session) {
+          const { error: anonError } = await supabase.auth.signInAnonymously();
+          if (anonError) {
+            setErrorMsg(
+              "Không khởi tạo được phiên thanh toán. Vui lòng tải lại trang và thử lại.",
+            );
+            return;
+          }
+        }
+      }
+
       const res = await fetch("/api/orders", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -182,7 +244,17 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
 
       if (!res.ok) {
         if (res.status === 401) {
-          setErrorMsg("Vui lòng đăng nhập tài khoản trước khi tạo đơn nạp Credits.");
+          // Ở chế độ gói lẻ nhánh này gần như không xảy ra nữa — phiên ẩn danh
+          // vừa được tạo ngay phía trên. Nó còn lại cho đúng trường hợp việc
+          // tạo phiên đó thất bại im lặng, nên câu chữ không được bảo khách
+          // "hãy đăng nhập" khi cả luồng này sinh ra để họ không phải đăng nhập.
+          setErrorMsg(
+            isSingleMode
+              ? "Phiên thanh toán đã hết hiệu lực. Vui lòng tải lại trang và thử lại."
+              : "Vui lòng đăng nhập tài khoản trước khi tạo đơn nạp Credits.",
+          );
+        } else if (res.status === 403 && data.error === "account_required_for_pack") {
+          setErrorMsg("Gói này cần một tài khoản thật. Hãy lưu tài khoản trước khi mua.");
         } else if (res.status === 429) {
           setErrorMsg("Bạn đã tạo quá nhiều đơn trong 1 giờ. Vui lòng chờ ít phút.");
         } else {
@@ -234,16 +306,25 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#8f5a1f]/20 border border-[#d4af37]/40 text-[#d4af37] text-xs font-semibold uppercase tracking-wider mb-2">
             <Coins className="w-3.5 h-3.5" />
-            <span>Nạp Credits Chuyên Sâu</span>
+            <span>{isSingleMode ? "Mở Khoá Luận Giải" : "Nạp Credits Chuyên Sâu"}</span>
           </div>
           <h2
             id="credit-topup-title"
             className="font-display text-3xl sm:text-4xl font-bold text-[#f3ece1] tracking-tight"
           >
-            Chọn Gói Credits Của Bạn
+            {isSingleMode ? "Mở khoá luận giải này" : "Chọn Gói Credits Của Bạn"}
           </h2>
+          {/* Copy của gói lẻ hướng về ĐÚNG lượt đọc đang mở dở, không phải về
+              số dư credits — khách chưa có tài khoản không có khái niệm "số dư",
+              và nói với họ về nó là bắt họ học một mô hình họ không cần. */}
           <p className="text-xs sm:text-sm text-[#b3a48d] mt-1">
-            Số dư hiện tại: <strong className="text-[#d4af37]">{currentCredits} Credits</strong> (Mỗi lần trải bài sâu tiêu hao 2 Credits).
+            {isSingleMode ? (
+              "Trả đúng một lần cho luận giải chuyên sâu bạn vừa rút. Không cần đăng ký tài khoản."
+            ) : (
+              <>
+                Số dư hiện tại: <strong className="text-[#d4af37]">{currentCredits} Credits</strong> (Mỗi lần trải bài sâu tiêu hao {DEEP_READING_CREDIT_COST} Credits).
+              </>
+            )}
           </p>
         </div>
 
@@ -254,53 +335,94 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
           </div>
         )}
 
-        {/* Package Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          {PACKAGES.map((pkg) => {
-            const isSelected = selectedPack.id === pkg.id;
-            return (
-              <div
-                key={pkg.id}
-                onClick={() => setSelectedPack(pkg)}
-                className={`relative rounded-2xl p-5 border transition-all duration-300 cursor-pointer flex flex-col items-center text-center ${
-                  isSelected
-                    ? "bg-[#251d16] border-[#d4af37] shadow-[0_0_25px_rgba(212,175,55,0.3)] scale-[1.02]"
-                    : "bg-[#1c1611]/70 border-[#3d3123] hover:border-[#d4af37]/50 hover:bg-[#251d16]/70"
-                }`}
-              >
-                {pkg.isPopular && (
-                  <div className="absolute -top-3 px-3 py-0.5 rounded-full bg-[#d4af37] text-[#050505] text-[10px] font-extrabold uppercase tracking-wider shadow-md">
-                    Phổ Biến Nhất
-                  </div>
-                )}
+        {isSingleMode ? (
+          /* Gói lẻ: không có gì để chọn, nên không dựng bộ chọn. Một thẻ tóm
+             tắt đúng thứ đang mua — và CỐ Ý không in số credits: khách mua
+             "một lượt Đọc sâu", credits là đơn vị nội bộ của hệ thống, nói ra
+             chỉ bắt họ quy đổi trong đầu. */
+          <div className="max-w-md mx-auto mb-8 rounded-2xl border border-[#d4af37] bg-[#251d16] p-5 text-center shadow-[0_0_25px_rgba(212,175,55,0.25)]">
+            <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-xl border border-[#d4af37]/30 bg-[#050505] text-[#d4af37]">
+              <Sparkles className="h-5 w-5" aria-hidden="true" />
+            </div>
+            <h3 className="font-display mb-1 text-lg font-bold text-[#f3ece1]">
+              {SINGLE_PACK.name}
+            </h3>
+            <div className="font-display mb-1 text-3xl font-bold text-[#d4af37]">
+              {SINGLE_PACK.priceFormatted}
+            </div>
+            <p className="mt-3 w-full border-t border-[#3d3123]/60 pt-3 text-[11px] leading-relaxed text-[#b3a48d]">
+              {SINGLE_PACK.description}
+            </p>
+          </div>
+        ) : (
+          /* Bộ chọn gói là radio THẬT, không phải div có onClick: div không tới
+             được bằng Tab, không báo trạng thái đã chọn cho trình đọc màn hình,
+             và không có điều hướng bằng phím mũi tên. Input ẩn về mặt thị giác
+             nhưng vẫn nằm trong cây a11y và vẫn nhận focus — vòng focus hiện
+             trên chính thẻ nhờ peer-focus-visible. */
+          <fieldset className="mb-8 border-0 p-0">
+            <legend className="sr-only">Chọn gói Credits</legend>
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+              {PACKAGES.map((pkg) => {
+                const isSelected = selectedPack.id === pkg.id;
+                return (
+                  <label
+                    key={pkg.id}
+                    className="relative flex cursor-pointer flex-col items-center text-center"
+                  >
+                    <input
+                      type="radio"
+                      name="credit-pack"
+                      value={pkg.id}
+                      checked={isSelected}
+                      onChange={() => setSelectedPack(pkg)}
+                      className="peer sr-only"
+                    />
+                    <div
+                      className={`relative flex w-full flex-1 flex-col items-center rounded-2xl border p-5 text-center transition-all duration-300 peer-focus-visible:ring-2 peer-focus-visible:ring-[#d4af37] peer-focus-visible:ring-offset-2 peer-focus-visible:ring-offset-[#15100b] ${
+                        isSelected
+                          ? "scale-[1.02] border-[#d4af37] bg-[#251d16] shadow-[0_0_25px_rgba(212,175,55,0.3)]"
+                          : "border-[#3d3123] bg-[#1c1611]/70 hover:border-[#d4af37]/50 hover:bg-[#251d16]/70"
+                      }`}
+                    >
+                      {pkg.isPopular && (
+                        <div className="absolute -top-3 rounded-full bg-[#d4af37] px-3 py-0.5 text-[10px] font-extrabold uppercase tracking-wider text-[#050505] shadow-md">
+                          Phổ Biến Nhất
+                        </div>
+                      )}
 
-                <div className="w-10 h-10 rounded-xl bg-[#050505] border border-[#d4af37]/30 flex items-center justify-center text-[#d4af37] mt-2 mb-3">
-                  <Coins className="w-5 h-5" />
-                </div>
+                      <div className="mb-3 mt-2 flex h-10 w-10 items-center justify-center rounded-xl border border-[#d4af37]/30 bg-[#050505] text-[#d4af37]">
+                        <Coins className="h-5 w-5" aria-hidden="true" />
+                      </div>
 
-                <h3 className="font-display text-lg font-bold text-[#f3ece1] mb-1">
-                  {pkg.name}
-                </h3>
-                <div className="font-display text-2xl font-bold text-[#d4af37] mb-1">
-                  +{pkg.credits} Credits
-                </div>
-                <div className="text-xs font-semibold text-[#b3a48d] mb-3">
-                  {pkg.priceFormatted}
-                </div>
+                      <h3 className="font-display mb-1 text-lg font-bold text-[#f3ece1]">
+                        {pkg.name}
+                      </h3>
+                      <div className="font-display mb-1 text-2xl font-bold text-[#d4af37]">
+                        +{pkg.credits} Credits
+                      </div>
+                      <div className="mb-3 text-xs font-semibold text-[#b3a48d]">
+                        {pkg.priceFormatted}
+                      </div>
 
-                <p className="text-[11px] text-[#7a6e5d] mt-auto pt-3 border-t border-[#3d3123]/60 w-full leading-relaxed">
-                  {pkg.description}
-                </p>
+                      <p className="mt-auto w-full border-t border-[#3d3123]/60 pt-3 text-[11px] leading-relaxed text-[#7a6e5d]">
+                        {pkg.description}
+                      </p>
 
-                {isSelected && (
-                  <div className="absolute top-3 right-3 w-5 h-5 rounded-full bg-[#d4af37] text-[#050505] flex items-center justify-center text-xs">
-                    <Check className="w-3.5 h-3.5" />
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
+                      {/* Dấu tích là tín hiệu THỨ HAI cạnh viền vàng — trạng
+                          thái "đang chọn" không được chỉ dựa vào màu. */}
+                      {isSelected && (
+                        <div className="absolute right-3 top-3 flex h-5 w-5 items-center justify-center rounded-full bg-[#d4af37] text-xs text-[#050505]">
+                          <Check className="h-3.5 w-3.5" aria-hidden="true" />
+                        </div>
+                      )}
+                    </div>
+                  </label>
+                );
+              })}
+            </div>
+          </fieldset>
+        )}
 
         {/* Action Panel */}
         <div className="max-w-md mx-auto bg-[#1c1611] border border-[#3d3123] p-5 rounded-2xl flex flex-col items-center">
@@ -335,8 +457,11 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
               </span>
             ) : (
               <>
-                <QrCode className="w-4 h-4" />
-                <span>Thanh toán VietQR PayOS ({selectedPack.priceFormatted})</span>
+                <QrCode className="w-4 h-4" aria-hidden="true" />
+                <span>
+                  {isSingleMode ? "Mở khoá ngay" : "Thanh toán VietQR PayOS"} (
+                  {selectedPack.priceFormatted})
+                </span>
               </>
             )}
           </button>
@@ -388,7 +513,9 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
                   Thanh Toán Thành Công!
                 </h3>
                 <p className="text-xs text-[#5fbf8c]">
-                  Đã cộng +{selectedPack.credits} Credits vào tài khoản của bạn.
+                  {isSingleMode
+                    ? "Luận giải chuyên sâu của bạn đang được mở khoá…"
+                    : `Đã cộng +${paidCredits ?? selectedPack.credits ?? 0} Credits vào tài khoản của bạn.`}
                 </p>
               </div>
             ) : qrExpired ? (

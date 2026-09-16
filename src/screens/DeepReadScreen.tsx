@@ -23,10 +23,12 @@ import {
 } from "lucide-react";
 import { CARD_BACK_IMAGE } from "@/data/tarotCards";
 import { UnsavedDeepSessionModal } from "@/components/reading/UnsavedDeepSessionModal";
+import { UpgradeAnonymousAccount } from "@/components/account/UpgradeAnonymousAccount";
 import type { AppScreen, ReadingHistoryItem, Topic } from "@/types/tarot";
 import { DEEP_SESSION_STORAGE_KEY } from "@/lib/storage-keys";
 import { isDrawTokenExpired } from "@/lib/draw-token-client";
 import { isDeepSessionOwnedBy } from "@/lib/user-scoped-storage";
+import { DEEP_READING_CREDIT_COST } from "@/lib/orders";
 import { getErrorMessage, isAbortError } from "@/lib/errors";
 
 interface DeepReadScreenProps {
@@ -46,6 +48,11 @@ interface DeepReadScreenProps {
   // false khi còn đang hỏi Supabase xem đang là ai. Trong lúc đó tuyệt đối
   // không đọc/ghi sessionStorage: "chưa biết" khác "khách".
   isAuthReady: boolean;
+  // Phiên khách: có userId thật (mua được, lưu readings được) nhưng chưa phải
+  // tài khoản. Màn hình này cần phân biệt để (a) nói đúng chuyện khi thiếu
+  // credits — "trả 15.000đ" chứ không phải "nạp credits", và (b) mời họ giữ
+  // lại thứ vừa mua SAU khi đã đọc xong, không phải trước.
+  isAnonymous: boolean;
 }
 
 type DeepReadPhase = "inquiry" | "shuffling" | "revealed" | "analysis";
@@ -184,6 +191,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   onSessionActiveChange,
   userId,
   isAuthReady,
+  isAnonymous,
 }) => {
   const [phase, setPhase] = useState<DeepReadPhase>("inquiry");
   const [selectedTopic, setSelectedTopic] = useState<Topic>(initialTopic);
@@ -206,6 +214,13 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   // lỗi y hệt, nên hiện thẳng lối thoát "bắt đầu phiên mới" thay vì để user
   // bấm lại một hành động chắc chắn thất bại lần nữa.
   const [sessionDead, setSessionDead] = useState(false);
+  // Có tài khoản THẬT — khác với "có phiên". Phiên khách cũng có userId, nên
+  // `userId !== null` một mình không phân biệt được hai thứ.
+  const hasAccount = userId !== null && !isAnonymous;
+  // Có phiên bất kỳ (kể cả phiên khách đã trả tiền). Khách chưa có phiên thì
+  // mọi thứ nói bằng đơn vị "Credits" đều vô nghĩa với họ — xem chú thích ở
+  // khối nút mở khoá bên dưới.
+  const hasSession = userId !== null;
   const [blockedData, setBlockedData] = useState<{ category: BlockedCategory } | null>(null);
   const [isRevealing, setIsRevealing] = useState(false);
   const [isShuffling, setIsShuffling] = useState(false);
@@ -627,8 +642,16 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
     try {
     const activeToken = tokenOverride ?? drawToken;
 
-    if (credits < 2) {
-      setErrorMessage("Bạn cần ít nhất 2 Credits để mở khóa luận giải chuyên sâu.");
+    if (credits < DEEP_READING_CREDIT_COST) {
+      // Khách chưa có tài khoản luôn rơi vào nhánh này (credits = 0), và với
+      // họ "bạn cần 2 Credits" là một câu vô nghĩa: họ chưa từng nghe tới
+      // credits và cũng không định học. Trang cha quyết định mở sheet nào —
+      // mua lẻ cho khách, bảng gói cho tài khoản thật.
+      setErrorMessage(
+        hasAccount
+          ? `Bạn cần ít nhất ${DEEP_READING_CREDIT_COST} Credits để mở khóa luận giải chuyên sâu.`
+          : "Mở khoá luận giải chuyên sâu cho 3 lá bạn vừa rút — thanh toán một lần, không cần đăng ký.",
+      );
       onOpenTopUp();
       return;
     }
@@ -670,14 +693,13 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           );
           onOpenTopUp();
         } else if (res.status === 401) {
-          // Phần lớn rơi vào nhánh credits < 2 phía trên trước khi tới được
-          // đây (ẩn danh luôn có credits = 0) — nhánh này chỉ còn là phòng vệ
-          // cho trường hợp hiếm (state credits hiển thị cũ/sai). Chủ động mở
-          // modal đăng nhập luôn thay vì chỉ hiện chữ chờ user tự bấm Header.
+          // Từ khi có luồng mua lẻ, khách đi tới bước này đã luôn có phiên
+          // (ẩn danh được tạo ngay lúc trả tiền), nên 401 ở đây nghĩa là phiên
+          // đã mất/hết hiệu lực giữa chừng — KHÔNG phải "chưa đăng nhập".
+          // Câu chữ cũ bảo họ đi đăng nhập là chỉ sai đường.
           setErrorMessage(
-            "Bạn cần đăng nhập để mở khóa luận giải chuyên sâu. 3 lá bạn đã rút vẫn còn nguyên.",
+            "Phiên của bạn đã hết hiệu lực. Hãy tải lại trang — 3 lá bạn đã rút vẫn còn nguyên.",
           );
-          onOpenTopUp();
         } else {
           setErrorMessage(
             translateReadingError(
@@ -717,7 +739,9 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               } else if (data.type === "error") {
                 hasErrorOccurred = true;
                 setErrorMessage(data.message || "Lỗi trong quá trình tạo văn bản.");
-                setRefundNotice("2 Credits đã được hoàn trả lại tài khoản của bạn.");
+                setRefundNotice(
+                  `${DEEP_READING_CREDIT_COST} Credits đã được hoàn trả lại tài khoản của bạn.`,
+                );
                 // Lùi về "revealed" + hiện banner ngay trong cùng tab, không
                 // đợi user reload mới thấy — trước đây chỉ effect khôi phục
                 // lúc mount xử lý việc này, nên lỗi xảy ra mà user không rời
@@ -1506,15 +1530,23 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               className="w-full py-4 px-8 rounded-2xl bg-gradient-to-r from-[#8f5a1f] to-[#764a19] hover:from-[#d4af37] hover:to-[#8f5a1f] text-white hover:text-[#050505] font-bold text-xs sm:text-sm tracking-widest uppercase transition-all duration-300 shadow-[0_0_30px_rgba(143,90,31,0.6)] hover:shadow-[0_0_40px_rgba(212,175,55,0.7)] border border-[#d4af37]/60 flex items-center justify-center gap-3 cursor-pointer active:scale-98 disabled:opacity-60 disabled:cursor-not-allowed"
             >
               <span>MỞ KHÓA LUẬN GIẢI CHUYÊN SÂU</span>
-              <div className="flex items-center gap-1 bg-black/40 px-2.5 py-1 rounded-lg text-xs font-bold text-[#d4af37] border border-[#d4af37]/30">
-                <Coins className="w-3.5 h-3.5" />
-                <span>2 Credits</span>
-              </div>
+              {/* Giá bằng Credits chỉ có nghĩa với người đã có phiên. Với khách
+                  lần đầu, "2 Credits" là một đơn vị họ chưa từng nghe tới và
+                  không quy đổi được — giá thật (và lựa chọn mua gói rẻ hơn)
+                  được nói rõ trong sheet mở khoá ngay sau cú bấm này. */}
+              {hasSession && (
+                <div className="flex items-center gap-1 bg-black/40 px-2.5 py-1 rounded-lg text-xs font-bold text-[#d4af37] border border-[#d4af37]/30">
+                  <Coins className="w-3.5 h-3.5" aria-hidden="true" />
+                  <span>{DEEP_READING_CREDIT_COST} Credits</span>
+                </div>
+              )}
             </button>
 
-            <p className="mt-3 text-xs text-[#7a6e5d] flex items-center gap-1 font-body">
-              <span>Số dư tài khoản: <strong className="text-[#d4af37]">{credits} Credits</strong></span>
-            </p>
+            {hasSession && (
+              <p className="mt-3 text-xs text-[#b3a48d] flex items-center gap-1 font-body">
+                <span>Số dư tài khoản: <strong className="text-[#d4af37]">{credits} Credits</strong></span>
+              </p>
+            )}
           </div>
         </div>
       )}
@@ -1584,6 +1616,28 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               </div>
             )}
           </div>
+
+          {/* Lời mời giữ lại tài khoản — CHỈ sau khi đã đọc xong.
+              Đặt trước đó là dựng lại đúng cái tường đăng ký mà cả tính năng
+              này sinh ra để dỡ bỏ: khách chưa thấy giá trị thì mọi form đăng ký
+              đều là một cái giá phải trả trước.
+              Điều kiện `analysisComplete` chứ không phải `phase === "analysis"`:
+              lúc đang stream dở, chen một form vào giữa là cắt ngang thứ họ vừa
+              trả tiền để đọc. */}
+          {isAnonymous && analysisComplete && (
+            <section
+              aria-labelledby="upgrade-cta-heading"
+              className="mb-8 w-full max-w-md"
+            >
+              <h3
+                id="upgrade-cta-heading"
+                className="font-display mb-3 text-center text-sm font-semibold uppercase tracking-wider text-[#d4af37]"
+              >
+                Giữ lại luận giải này
+              </h3>
+              <UpgradeAnonymousAccount />
+            </section>
+          )}
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 w-full max-w-md justify-center mb-8">

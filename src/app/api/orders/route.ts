@@ -4,14 +4,61 @@ import { NextResponse } from "next/server";
 import QRCode from "qrcode";
 import { env } from "@/lib/env";
 import { requireUser } from "@/lib/auth";
-import { CreateOrderRequestSchema, PACKS } from "@/lib/orders";
+import {
+  CreateOrderRequestSchema,
+  DEEP_READING_CREDIT_COST,
+  PACKS,
+  type PackId,
+} from "@/lib/orders";
 import { getPayOS } from "@/lib/payos";
-import { checkRateLimit } from "@/lib/rate-limit";
+import { checkRateLimit, relaxInDev, resolveRateLimitIdentity } from "@/lib/rate-limit";
 import { getSupabaseAdmin } from "@/lib/supabase/admin";
 
 export const runtime = "nodejs";
 
 const EXPIRES_IN_MS = 15 * 60 * 1000;
+
+/**
+ * Số credits một gói cộng vào. SERVER-ONLY — cố ý sống ở đây chứ không ở
+ * `src/lib/orders.ts`, vì file kia được import vào bundle browser và
+ * `DEEP_READING_COST` không phải biến `NEXT_PUBLIC_*`: đọc nó phía client thì
+ * luôn ra default, lệch với server trong im lặng.
+ *
+ * Gói lẻ bán "một lượt Đọc sâu", nên số credits của nó phải bằng đúng chi phí
+ * một lượt — nếu hai số này rời nhau thì khách trả tiền xong vẫn không đủ mở
+ * khoá chính lượt vừa mua.
+ */
+function resolvePackCredits(packId: PackId): number {
+  // Cảnh báo cấu hình cũ còn sót: DEEP_READING_COST đã được thay bằng
+  // NEXT_PUBLIC_DEEP_READING_COST. Nếu deployment vẫn set biến cũ với giá trị
+  // khác, người vận hành đang tin vào một con số mà hệ thống không còn dùng.
+  const legacy = env.DEEP_READING_COST;
+  if (legacy !== undefined && legacy !== DEEP_READING_CREDIT_COST) {
+    Sentry.captureMessage(
+      "DEEP_READING_COST (đã bỏ) còn được set và lệch với NEXT_PUBLIC_DEEP_READING_COST",
+      { level: "error", extra: { legacy, inUse: DEEP_READING_CREDIT_COST } },
+    );
+  }
+  return PACKS[packId].credits ?? DEEP_READING_CREDIT_COST;
+}
+
+// Nội dung chuyển khoản in trên VietQR. Không dấu — đây là thứ hiện trong app
+// ngân hàng và trên sao kê, nơi tiếng Việt có dấu hay bị bóp méo.
+function payosDescription(packId: PackId, credits: number): string {
+  return packId === "single" ? "1 luot Doc sau" : `Nap ${credits} credits`;
+}
+
+// Nơi PayOS trả người dùng về sau khi thanh toán trên trang của họ (nhánh
+// checkoutUrl, không phải nhánh quét QR tại chỗ).
+//
+// Khách mua gói lẻ đang đứng giữa một lượt Đọc sâu dở dang — đá họ sang trang
+// kết quả nạp credits là bỏ rơi đúng thứ họ vừa trả tiền để xem. Trả về
+// /doc-sau, nơi phiên trong sessionStorage được khôi phục.
+function resolveReturnUrl(packId: PackId, orderId: string): string {
+  return packId === "single"
+    ? `${env.NEXT_PUBLIC_SITE_URL}/doc-sau?orderId=${orderId}`
+    : `${env.NEXT_PUBLIC_SITE_URL}/nap-credits/ket-qua?orderId=${orderId}`;
+}
 
 export async function GET(request: Request) {
   const user = await requireUser();
@@ -51,10 +98,17 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
-  // 10 đơn/giờ — chống spam tạo đơn rác
+  // 10 đơn/giờ — chống spam tạo đơn rác. Ẩn danh đếm theo IP: id của nó đúc
+  // lại được bằng một lời gọi signInAnonymously(), nên "10 đơn/giờ/user" với
+  // phiên ẩn danh nghĩa là không có hạn mức nào.
+  const identity = resolveRateLimitIdentity(user, request);
   let allowed: boolean;
   try {
-    allowed = await checkRateLimit(`orders-create:user:${user.id}`, 3600, 10);
+    allowed = await checkRateLimit(
+      `orders-create:${identity.scope}:${identity.token}`,
+      3600,
+      relaxInDev(10),
+    );
   } catch (rateLimitError) {
     Sentry.captureException(rateLimitError, { extra: { userId: user.id } });
     return NextResponse.json({ error: "rate_limit_check_failed" }, { status: 500 });
@@ -71,7 +125,18 @@ export async function POST(request: Request) {
       { status: 400 },
     );
   }
+
+  // Phiên ẩn danh chỉ mua được gói lẻ. Đó là toàn bộ lý do nó tồn tại: trả
+  // tiền cho ĐÚNG lượt đọc đang mở dở. Một phiên sống trong đúng một cookie,
+  // không email, không mật khẩu, không đường phục hồi — bán cho nó gói 100
+  // credits là bán một thứ nó gần như chắc chắn mất, và đó là vấn đề chính
+  // sách hoàn tiền chứ không chỉ là UX.
+  if (user.isAnonymous && parsed.data.packId !== "single") {
+    return NextResponse.json({ error: "account_required_for_pack" }, { status: 403 });
+  }
+
   const pack = PACKS[parsed.data.packId];
+  const packCredits = resolvePackCredits(parsed.data.packId);
 
   // PayOS orderCode unique integer
   const orderCode = Date.now() * 1000 + randomInt(1000);
@@ -83,7 +148,7 @@ export async function POST(request: Request) {
     .insert({
       user_id: user.id,
       amount_vnd: pack.amountVnd,
-      credits_purchased: pack.credits,
+      credits_purchased: packCredits,
       payos_order_code: orderCode,
       expires_at: expiresAt.toISOString(),
     })
@@ -101,9 +166,9 @@ export async function POST(request: Request) {
     const payment = await getPayOS().paymentRequests.create({
       orderCode,
       amount: pack.amountVnd,
-      description: `Nap ${pack.credits} credits`,
-      returnUrl: `${env.NEXT_PUBLIC_SITE_URL}/nap-credits/ket-qua?orderId=${order.id}`,
-      cancelUrl: `${env.NEXT_PUBLIC_SITE_URL}/nap-credits`,
+      description: payosDescription(parsed.data.packId, packCredits),
+      returnUrl: resolveReturnUrl(parsed.data.packId, order.id),
+      cancelUrl: `${env.NEXT_PUBLIC_SITE_URL}${parsed.data.packId === "single" ? "/doc-sau" : "/nap-credits"}`,
       expiredAt: Math.floor(expiresAt.getTime() / 1000),
     });
 
@@ -127,7 +192,7 @@ export async function POST(request: Request) {
       rawQrCode: payment.qrCode,
       checkoutUrl: payment.checkoutUrl,
       amount: pack.amountVnd,
-      credits: pack.credits,
+      credits: packCredits,
       expiresAt: expiresAt.toISOString(),
     });
   } catch (e) {

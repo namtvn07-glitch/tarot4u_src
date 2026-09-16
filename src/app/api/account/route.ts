@@ -26,6 +26,17 @@ export async function DELETE() {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
+  // Phiên ẩn danh: chặn thẳng, không phải vì thiếu quyền mà vì route này sẽ
+  // huỷ hoại chính họ. Với user ẩn danh `email` vốn NULL, nên nhánh "gỡ PII"
+  // bên dưới sẽ GHI một email vào hàng chưa từng có email rồi ban vĩnh viễn.
+  // orders/credit_ledger sống sót nhờ `on delete restrict`, nhưng tài khoản bị
+  // ban là không còn danh tính nào đăng nhập lại được — credits vừa mua bằng
+  // tiền thật bị tiêu diệt, và họ không có email/mật khẩu nào để khiếu nại.
+  // Muốn xoá thì nâng cấp thành tài khoản thật trước đã.
+  if (user.is_anonymous) {
+    return NextResponse.json({ error: "anonymous_cannot_delete" }, { status: 403 });
+  }
+
   const admin = getSupabaseAdmin();
 
   const { error: readingsError } = await admin.from("readings").delete().eq("user_id", user.id);
