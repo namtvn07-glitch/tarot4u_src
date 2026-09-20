@@ -379,21 +379,48 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
     }
   }, [isAuthReady, userId]);
 
-  // Đổi tài khoản ngay trên tab này (đăng xuất rồi đăng nhập tài khoản khác)
-  // phải xoá phiên đang hiển thị. UserScopedStorageGuard đã dọn phần nằm
-  // trong sessionStorage, nhưng state trong bộ nhớ của màn hình này thì không
-  // ai chạm tới — thiếu bước này, câu hỏi và toàn văn luận giải của tài khoản
-  // cũ vẫn nằm nguyên trước mắt tài khoản mới.
+  // drawToken hiện hành, đọc được mà KHÔNG phải đưa nó vào deps của effect bên
+  // dưới. Đưa vào deps thì `resetSession()` (có gọi setDrawToken(null)) làm
+  // chính effect đó chạy lại — một nhịp render thừa, và React Compiler chặn ở
+  // gate lint. Effect này khai báo TRƯỚC nên trong cùng một lần commit nó luôn
+  // chạy trước, ref vì vậy không bao giờ cũ hơn màn hình.
+  const drawTokenRef = useRef<string | null>(null);
+  useEffect(() => {
+    drawTokenRef.current = drawToken;
+  }, [drawToken]);
+
+  // Đổi sang một người KHÁC ngay trên tab này phải xoá phiên đang hiển thị.
+  // UserScopedStorageGuard đã dọn phần nằm trong sessionStorage, nhưng state
+  // trong bộ nhớ của màn hình này thì không ai chạm tới — thiếu bước này, câu
+  // hỏi và toàn văn luận giải của tài khoản cũ vẫn nằm nguyên trước mắt tài
+  // khoản mới.
   useEffect(() => {
     if (!isAuthReady) return;
     const previousUserId = observedUserIdRef.current;
     observedUserIdRef.current = userId;
     // Lần đầu biết danh tính — việc khôi phục do effect bên trên lo.
     if (previousUserId === undefined || previousUserId === userId) return;
-    // null → userId là luồng "rút bài lúc chưa đăng nhập rồi đăng nhập để mở
-    // khoá luận giải" mà personal/route.ts cố ý cho phép, không phải đổi tài
-    // khoản. Giữ nguyên phiên, để người dùng nhận chính bộ bài họ vừa rút.
-    if (previousUserId === null) return;
+
+    // Quyết định theo CHỦ SỞ HỮU CỦA BỘ BÀI, không theo chiều đổi danh tính.
+    //
+    // Trước đây điều kiện giữ phiên là `previousUserId === null`, tức chỉ đúng
+    // một chiều "khách → đăng nhập". Nó bỏ sót chiều
+    // "phiên khách (ẩn danh) → đăng nhập tài khoản thật": khách bấm trả tiền
+    // (sinh phiên ẩn danh), đổi ý, quay ra chọn "Đăng nhập" — lúc đó
+    // previousUserId là uuid ẩn danh chứ không phải null, nên phiên bị xoá và
+    // 3 lá họ vừa rút biến mất, dù drawToken vẫn ký với userId null và server
+    // vẫn sẵn sàng cho tài khoản mới nhận chính bộ bài đó.
+    //
+    // isDeepSessionOwnedBy là đúng một luật mà personal/route.ts dùng
+    // ("payload.userId null thì ai nhận cũng được, có userId thì chỉ chính
+    // chủ") và cũng là luật purgeForeignUserStorage dùng cho sessionStorage.
+    // Dùng chung nó ở đây để state trong bộ nhớ và state trong storage không
+    // còn quyết định ngược nhau: trước đó storage GIỮ phiên (token vô chủ)
+    // trong khi màn hình lại XOÁ nó.
+    //
+    // Không nới lỏng gì về riêng tư: token đã gắn userId của tài khoản khác
+    // vẫn bị xoá, và không đọc được token thì cũng coi như không phải của mình.
+    if (isDeepSessionOwnedBy({ drawToken: drawTokenRef.current }, userId)) return;
     resetSession();
   }, [isAuthReady, userId, resetSession]);
 

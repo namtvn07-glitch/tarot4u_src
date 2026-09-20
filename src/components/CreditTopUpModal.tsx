@@ -120,6 +120,14 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
   const [totalMs, setTotalMs] = useState(1);
   const [qrExpired, setQrExpired] = useState(false);
 
+  // Chốt ĐỒNG BỘ chống double-submit. `isProcessing` là state nên chỉ có hiệu
+  // lực sau lần render kế tiếp — hai cú bấm trong cùng một tick vẫn lọt qua
+  // `disabled={isProcessing}`. Ở chế độ gói lẻ hậu quả là mất tiền thật: mỗi
+  // lần lọt gọi thêm một signInAnonymously(), tạo ra danh tính THỨ HAI, và đơn
+  // hàng tạo dưới danh tính đầu trở thành mồ côi — khách quét QR trả tiền xong
+  // thì credits vào một tài khoản mà phiên hiện tại không còn là nó nữa.
+  const isStartingPaymentRef = useRef(false);
+  const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const mainModalRef = useRef<HTMLDivElement>(null);
   const qrModalRef = useRef<HTMLDivElement>(null);
   const expiredHeadingRef = useRef<HTMLHeadingElement>(null);
@@ -165,7 +173,11 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
             setPaidCredits(credited);
             setPaymentDone(true);
             onSuccess(credited);
-            setTimeout(() => {
+            // Giữ id để cleanup huỷ được. Không giữ thì timer nay song song với
+            // vòng đời component: người dùng tự đóng modal trong 2,5s đó xong
+            // mở thứ khác, timer vẫn nổ và gọi onClose() của parent — đóng
+            // nhầm thứ đang mở.
+            closeTimerRef.current = setTimeout(() => {
               setShowQrModal(false);
               onClose();
             }, 2500);
@@ -191,6 +203,10 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
     return () => {
       clearInterval(interval);
       document.removeEventListener("visibilitychange", onVisibilityChange);
+      if (closeTimerRef.current) {
+        clearTimeout(closeTimerRef.current);
+        closeTimerRef.current = null;
+      }
     };
   }, [showQrModal, currentOrderId, paymentDone, qrExpired, selectedPack.credits, onSuccess, onClose]);
 
@@ -201,6 +217,8 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
       setErrorMsg("Vui lòng đồng ý với Điều khoản và Chính sách hoàn tiền trước khi thanh toán.");
       return;
     }
+    if (isStartingPaymentRef.current) return;
+    isStartingPaymentRef.current = true;
 
     setIsProcessing(true);
     setErrorMsg("");
@@ -280,6 +298,7 @@ export const CreditTopUpModal: React.FC<CreditTopUpModalProps> = ({
     } catch (err) {
       setErrorMsg(getErrorMessage(err, "Lỗi kết nối máy chủ PayOS."));
     } finally {
+      isStartingPaymentRef.current = false;
       setIsProcessing(false);
     }
   };

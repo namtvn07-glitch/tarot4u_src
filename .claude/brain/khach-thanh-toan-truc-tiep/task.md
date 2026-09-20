@@ -323,6 +323,80 @@ sửa code + deploy.
 **Lưu ý vận hành**: `NEXT_PUBLIC_*` được bake lúc BUILD. Đổi trên Vercel xong
 phải **Redeploy**, restart không đủ.
 
+## Rà soát bất đồng bộ + đường tiền (2026-09-20)
+
+User yêu cầu soi toàn bộ race condition và guard cho case đặc biệt. Tìm được 6
+lỗ, vá cả 6.
+
+### Race mất tiền — do chính hướng của task này tạo ra
+`CreditTopUpModal` chặn double-submit bằng STATE (`isProcessing`), mà state chỉ
+có hiệu lực từ lần render sau. Trước đây hậu quả là một đơn thừa (cùng user, tự
+hết hạn). Sau khi thêm `signInAnonymously()` vào cùng handler thì nặng hơn: mỗi
+lần lọt đúc thêm một danh tính ẩn danh, đơn tạo dưới danh tính đầu thành mồ côi,
+khách trả tiền xong credits vào tài khoản mà phiên hiện tại không còn là nó.
+Vá bằng ref đồng bộ, đúng pattern `isUnlockingRef` mà DeepReadScreen đã dùng.
+
+### Webhook giấu hai đường mất tiền
+`not_pending` và `not_found` bị gom chung với `already_paid` và gọi là "no-op an
+toàn". Với `already_paid` thì đúng; hai cái kia thì sai — tới được đó nghĩa là
+PayOS đã xác nhận `code="00"`, tức khách ĐÃ chuyển tiền.
+
+| Kết quả | Kịch bản | Cũ |
+|---|---|---|
+| `not_pending` | trả tiền sát hạn, webhook trễ (site đang deploy → PayOS retry), cron `expire-orders` chen vào | mất tiền, im lặng |
+| `not_found` | nhánh rollback `POST /api/orders` đã `delete` dòng đơn sau lỗi PayOS, nhưng link đã kịp tồn tại | mất tiền + mất luôn bằng chứng đối soát |
+
+**Giải pháp** — nguyên tắc: *xác nhận của PayOS là sự thật về tiền; `status` chỉ
+là sổ sách nội bộ*. Chỉ hai lý do chính đáng để từ chối: đã cộng rồi
+(`already_paid`) và số tiền lệch (`amount_mismatch`).
+- Migration `20260920000100`: `credit_order` cộng cho mọi đơn chưa `paid`, trả
+  thêm `credited_late` để phân biệt.
+- `POST /api/orders`: lỗi PayOS → đánh `failed` thay vì `delete`, giữ bằng chứng
+  (chính sách hoàn tiền hứa đối soát qua `payos_order_code`).
+- Webhook: `credited_late` → Sentry warning. Migration chỉ chặn hậu quả; GỐC là
+  webhook bị trễ, và con số này để nhìn thấy nó.
+
+Kiểm chứng 6 kịch bản qua PostgREST trên DB local: pending→`credited`,
+expired→`credited_late`, failed→`credited_late`, sai tiền→`amount_mismatch`
+(đơn vẫn pending), gọi lại→`already_paid`, mã lạ→`not_found`. Credits +6 đúng
+bằng 3 đơn hợp lệ × 2, đúng 3 dòng ledger.
+
+### Mất 3 lá khi ẩn danh → đăng nhập tài khoản thật khác
+Effect reset phiên dùng luật `previousUserId === null`, chỉ đúng chiều
+"khách → đăng nhập". Bỏ sót chiều "phiên khách → đăng nhập": khách bấm trả tiền
+(sinh phiên ẩn danh), đổi ý, chọn "Đăng nhập" → phiên bị xoá dù `drawToken` vẫn
+ký `userId: null` và server vẫn cho tài khoản mới nhận bộ bài đó.
+
+Đổi sang `isDeepSessionOwnedBy` — hàm ĐÃ CÓ SẴN và đã là luật đúng, khớp y hệt
+`personal/route.ts` và `purgeForeignUserStorage`. Đây là sửa một chỗ đang quyết
+định NGƯỢC với hai chỗ kia (storage giữ phiên, màn hình lại xoá), không phải
+nới lỏng. 9 ca kiểm chứng bằng chính hàm production, 4 ca `XOÁ` bảo vệ riêng tư
+vẫn nguyên.
+
+Bẫy gặp phải: đưa `drawToken` vào deps làm `resetSession()` (có
+`setDrawToken(null)`) kích hoạt lại chính effect đó — React Compiler chặn ở gate
+lint. Không suppress; dùng ref đồng bộ khai báo TRƯỚC effect danh tính.
+
+### Hai lỗ nhỏ hơn
+- `UpgradeAnonymousAccount`: cùng lỗi state-guard. Hai submit → hai
+  `updateUser()`; lần hai báo lỗi và UI lật sang thất bại DÙ lần đầu đã xong.
+- `CreditTopUpModal`: `setTimeout(…, 2500)` tự đóng modal không lưu id nên
+  cleanup không huỷ được — người dùng đóng modal trong 2,5s đó rồi mở thứ khác,
+  timer vẫn nổ và gọi `onClose()` của parent.
+
+### Đã đúng sẵn, không phải sửa
+`credit_order` (`for update` + `already_paid` + `amount_mismatch`) · `/personal`
+double-debit (2 lớp) · `claim-affiliate` (`.is(null)` trong UPDATE) · polling +
+`visibilitychange` cleanup · `SignOutButton` cờ `cancelled` · cron
+`cleanup-anonymous` chạy chồng.
+
+### Còn mở — cần người quyết
+- `expire-orders/route.ts` ghi comment "cron mỗi 10 phút" nhưng `vercel.json` là
+  `0 0 * * *` (mỗi ngày). Ai đó "sửa cho khớp comment" sẽ tăng tần suất cửa sổ
+  rủi ro 144 lần. Nên sửa một trong hai cho khớp sự thật.
+- `personal/route.ts:187` `insertError` chỉ log, không hoàn credits. Khách vẫn
+  đọc được nội dung đã stream nên không hẳn mất trắng. Ghi lại từ plan gốc.
+
 ## Còn lại — không tự verify được
 - **Không có công cụ trình duyệt trong phiên** → gate visual 375/768/1280 và
   đi bàn phím thủ công vẫn CHƯA làm. Contrast thì đã tính thật bằng số (mọi

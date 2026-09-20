@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useId, useState, type FormEvent } from "react";
+import React, { useId, useRef, useState, type FormEvent } from "react";
 import { AlertCircle, CheckCircle2, Loader2, MailCheck, ShieldCheck } from "lucide-react";
 import { PasswordField } from "@/components/auth/PasswordField";
 import { PasswordRequirements, usePasswordCheck } from "@/components/auth/PasswordRequirements";
@@ -32,12 +32,20 @@ export function UpgradeAnonymousAccount({ onUpgraded }: UpgradeAnonymousAccountP
   const requirementsId = useId();
   const passwordCheck = usePasswordCheck(password, email);
 
+  // Chốt ĐỒNG BỘ: `status` là state nên `disabled`/`canSubmit` chỉ có hiệu lực
+  // từ lần render sau. Hai lần submit trong cùng một tick (bấm nhanh, hoặc
+  // Enter trùng với cú click) sẽ gọi updateUser() hai lần; lần thứ hai báo lỗi
+  // và UI lật sang trạng thái thất bại DÙ lần đầu đã nâng cấp xong — người
+  // dùng tưởng hỏng rồi đi thử email khác.
+  const isUpgradingRef = useRef(false);
   const isSubmitting = status === "submitting";
   const canSubmit = email.trim().length > 0 && passwordCheck.isValid && !isSubmitting;
 
   async function handleSubmit(event: FormEvent) {
     event.preventDefault();
     if (!canSubmit) return;
+    if (isUpgradingRef.current) return;
+    isUpgradingRef.current = true;
 
     setStatus("submitting");
     setErrorMsg("");
@@ -60,6 +68,8 @@ export function UpgradeAnonymousAccount({ onUpgraded }: UpgradeAnonymousAccountP
     } catch (err) {
       setErrorMsg(getErrorMessage(err, "Không kết nối được máy chủ. Vui lòng thử lại."));
       setStatus("error");
+    } finally {
+      isUpgradingRef.current = false;
     }
   }
 

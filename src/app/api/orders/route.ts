@@ -196,7 +196,24 @@ export async function POST(request: Request) {
       expiresAt: expiresAt.toISOString(),
     });
   } catch (e) {
-    await supabaseAdmin.from("orders").delete().eq("id", order.id);
+    // KHÔNG xoá dòng đơn. `paymentRequests.create()` ném lỗi không chứng minh
+    // PayOS chưa tạo link: timeout lúc đọc response, tiến trình bị kill giữa
+    // chừng, hay SDK parse lỗi một phản hồi 200 đều ném ở đây trong khi link
+    // đã tồn tại thật với đúng orderCode này. Nếu khách chạm tới link đó và
+    // trả tiền, webhook về mà không còn dòng đơn nào mang mã đó thì:
+    //   - credit_order trả 'not_found', khách mất tiền;
+    //   - và tệ hơn, không còn gì để đối soát thủ công, đúng thứ
+    //     /chinh-sach-hoan-tien hứa với khách là sẽ tra theo payos_order_code.
+    // Đánh 'failed' thay vì xoá: giữ bằng chứng, và credit_order (bản
+    // 20260920000100) vẫn cộng đúng nếu tiền thật sự vào.
+    const { error: markFailedError } = await supabaseAdmin
+      .from("orders")
+      .update({ status: "failed" })
+      .eq("id", order.id)
+      .eq("status", "pending");
+    if (markFailedError) {
+      Sentry.captureException(markFailedError, { extra: { orderId: order.id, orderCode } });
+    }
     Sentry.captureException(e, { extra: { userId: user.id, orderCode } });
     return NextResponse.json({ error: "payos_create_failed" }, { status: 500 });
   }
