@@ -124,6 +124,11 @@ verify something calls it instead of hardcoding `npm run build`.
   user tự thêm Bash permission rule nếu muốn Claude làm được việc này sau
   này. Gặp ở Giai đoạn 6 (Thanh toán) khi thay `credit_order(uuid)` →
   `credit_order(bigint, int)`.
+  **Đính chính 2026-09-20:** lần này `apply_migration` thay nguyên
+  `credit_order(bigint,int)` trên production **KHÔNG bị chặn** — chạy thẳng,
+  `{"success":true}`. Nên đừng coi việc bị chặn là chắc chắn: cứ thử một lần,
+  chặn thì mới đi đường Dashboard. Phần còn lại của bài học vẫn đúng — bị chặn
+  thì báo user một lần, không thử lại nhiều lần.
 
 - **2026-08-19 — Khi user tự chạy migration thủ công (vì `apply_migration` bị
   chặn), "Success" trên Supabase Dashboard KHÔNG chứng minh mọi câu lệnh
@@ -145,3 +150,39 @@ verify something calls it instead of hardcoding `npm run build`.
   `reading-deep-shuffle:user:<id>` để tránh đụng
   `orders-create:user:<id>`/`reading-quick:user:<id>` mới thêm. Helper dùng
   chung ở `src/lib/rate-limit.ts`.
+
+- **2026-09-20 — `supabase.migrations` trên production KHÔNG phải nguồn sự thật;
+  phải soi object thật.** Timestamp trong bảng đó lệch hẳn với tên file trong
+  `supabase/migrations/` (prod `20260816073657 initial_schema` vs repo
+  `20260809000001_initial_schema.sql`), và `refund_rate_limit` TỒN TẠI trên
+  production dù không hề nằm trong danh sách `list_migrations`. Muốn biết một
+  migration đã áp chưa thì hỏi `pg_proc`/`information_schema`, đừng hỏi bảng
+  lịch sử.
+
+- **2026-09-20 — Đường trừ credits của production đang sống nhờ một mặc định
+  ngầm của Supabase hosted, không nhờ thứ gì viết trong repo.**
+  `20260908000001` dùng `drop function` rồi tạo lại `debit_reading`/
+  `refund_reading` mà không `grant execute ... to service_role` lại — DROP xoá
+  sạch grant. Production vẫn chạy vì hosted đặt `alter default privileges ...
+  grant all on functions to ... service_role`; chính mặc định đó là lý do
+  `20260908000002` phải tồn tại để revoke khỏi anon/authenticated. Chỗ nào
+  không có mặc định đó thì gãy — `supabase start` ở máy dev CHÍNH LÀ chỗ đó,
+  triệu chứng là mọi lượt Đọc sâu trả `debit_failed`. **Sau bất kỳ
+  `drop function` nào trên hàm tiền, phải `grant` lại tường minh trong cùng
+  migration.** Đã vá bằng `20260920000000_regrant_debit_refund_to_service_role`.
+
+- **2026-09-20 — Chốt chống double-submit phải là `useRef`, không phải state.**
+  `disabled={isProcessing}` chỉ có hiệu lực từ lần render SAU, nên hai cú bấm
+  trong cùng một tick đều lọt. Ở `CreditTopUpModal` điều đó từng chỉ tạo một đơn
+  thừa; từ khi handler gọi thêm `signInAnonymously()` thì nó đúc ra danh tính
+  ẩn danh THỨ HAI và đơn hàng tạo dưới danh tính đầu thành mồ côi — khách trả
+  tiền xong credits vào tài khoản mà phiên hiện tại không còn là nó. Mẫu đúng
+  đã có sẵn trong repo: `isUnlockingRef` ở `DeepReadScreen`.
+
+- **2026-09-20 — `supabase start` KHÔNG seed `base_content`.** Stack local dựng
+  từ migrations, mà migrations chỉ tạo cấu trúc. Bảng rỗng → `/reveal` trả
+  `base_content_unavailable` → UI hiện "Có lỗi dữ liệu lá bài". Nạp bằng
+  `NEXT_PUBLIC_SUPABASE_URL=http://127.0.0.1:54321 SUPABASE_SERVICE_ROLE_KEY=<key
+  từ supabase status> node scripts/seedBaseContent.js` (780 tổ hợp từ
+  `scripts/base-content/output/base-content.json`). `admin_users` và
+  `affiliate_links` cũng rỗng — `/admin` trả 404 cho tới khi tự insert.

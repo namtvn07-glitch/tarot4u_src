@@ -397,6 +397,42 @@ double-debit (2 lớp) · `claim-affiliate` (`.is(null)` trong UPDATE) · pollin
 - `personal/route.ts:187` `insertError` chỉ log, không hoàn credits. Khách vẫn
   đọc được nội dung đã stream nên không hẳn mất trắng. Ghi lại từ plan gốc.
 
+## ĐÃ ÁP LÊN PRODUCTION (2026-09-20) — bước 1 của runbook
+
+Qua Supabase MCP, project `zlnrflevvavlhxqvtthj` (Tarot4U). Cả 4 migration áp
+thành công, `credit_order` KHÔNG bị permission classifier chặn (xem đính chính
+trong `.claude/rules/project.md`).
+
+**Chẩn đoán trước khi áp** — trả lời câu hỏi treo từ đầu: production **không**
+mất grant `debit_reading` (`postgres, service_role` đủ cả). Giả thuyết đúng:
+hosted có default privileges cấp lại sau `drop function`, local `supabase start`
+thì không. Nên migration `20260920000000` không phải bản vá khẩn mà là làm
+tường minh một quyền đang sống nhờ mặc định ngầm của nền tảng.
+
+**Tự kiểm sau khi áp: 9/9 PASS.** Số liệu admin không suy suyển —
+`total_users 12→12`, `paying_users 2→2`, doanh thu `46.000đ→46.000đ`,
+`readings 11→11` (đúng như dự đoán, chưa có user ẩn danh nào).
+
+**Dữ liệu nguyên vẹn**: 12 users · 19 orders (2 paid) · 47 ledger · 128 credits
+· 11 readings · 0 user ẩn danh.
+
+**Hàm chạy được, không chỉ tồn tại**: `list_abandoned_anonymous_users`→0,
+`admin_list_users(50,0,null)`→12, tìm `'gmail'`→10, `admin_daily_series(7)`→7
+dòng, `admin_countable_profiles`→12.
+
+**Advisors**: giống hệt trước khi áp, không sinh cảnh báo mới. Ba cái đang có
+đều là quyết định cũ (RLS-no-policy là tư thế khoá chặt có chủ đích;
+`current_user_has_password` cố ý mở cho `authenticated`; leaked-password
+protection đã bỏ theo yêu cầu 2026-09-09).
+
+**Trạng thái**: database đã sẵn sàng, tính năng CHƯA sống (code chưa deploy,
+toggle chưa bật). Cả 4 migration tương thích ngược với v1.0.4 đang chạy, nên
+dừng ở đây an toàn vô thời hạn.
+
+**Còn lại là việc của người**: env Vercel → push/merge/tag v1.0.5 → verify →
+bật Anonymous Sign-ins + hạ rate limit xuống 10. Xem runbook đầy đủ trong
+lịch sử hội thoại hoặc `docs/deploy-v1.0.5-migrations.sql`.
+
 ## Còn lại — không tự verify được
 - **Không có công cụ trình duyệt trong phiên** → gate visual 375/768/1280 và
   đi bàn phím thủ công vẫn CHƯA làm. Contrast thì đã tính thật bằng số (mọi
