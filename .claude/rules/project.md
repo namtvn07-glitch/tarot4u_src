@@ -186,3 +186,13 @@ verify something calls it instead of hardcoding `npm run build`.
   từ supabase status> node scripts/seedBaseContent.js` (780 tổ hợp từ
   `scripts/base-content/output/base-content.json`). `admin_users` và
   `affiliate_links` cũng rỗng — `/admin` trả 404 cho tới khi tự insert.
+
+- **2026-09-20 — Push TAG trước, push NHÁNH sau. Ngược lại là build bị huỷ và
+  không bao giờ chạy lại.** Vercel chỉ tạo deployment khi push **nhánh**; push
+  **tag** không kích hoạt gì. Mà `scripts/vercel-ignore-build.sh` lại hỏi
+  GitHub API *"commit này có tag chưa"* ngay tại thời điểm deployment được tạo.
+  Nên `push main` rồi mới `push tag` = lúc script chạy thì tag chưa có → huỷ
+  build → và cú push tag sau đó không tạo deployment nào để chạy lại. Đúng thứ
+  tự: `git push origin <tag>` trước, `git push origin main` sau. Lỡ làm ngược
+  rồi thì vào Vercel → Deployments → commit đó → ⋯ → Redeploy, **bỏ tick** "Use
+  existing Build Cache" để `ignoreCommand` chạy lại.
