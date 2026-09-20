@@ -2,7 +2,12 @@ import * as Sentry from "@sentry/nextjs";
 import { NextResponse } from "next/server";
 import { requireUser } from "@/lib/auth";
 import { getCardById } from "@/lib/cards";
-import { checkRateLimit, getClientIp, refundRateLimit } from "@/lib/rate-limit";
+import {
+  checkRateLimit,
+  refundRateLimit,
+  relaxInDev,
+  resolveRateLimitIdentity,
+} from "@/lib/rate-limit";
 import { ReadingRequestSchema, drawCard, normalizeDbTopic } from "@/lib/reading";
 import { createClient } from "@/lib/supabase/server";
 
@@ -25,16 +30,17 @@ export async function POST(request: Request) {
   const dbTopic = normalizeDbTopic(topic);
 
   // Đọc nhanh không yêu cầu đăng nhập (08-timeline.md Giai đoạn 8 "Trải bài
-  // có/không đăng nhập") — giới hạn theo user nếu có, theo IP nếu chưa đăng
-  // nhập (06-bao-mat-kiem-duyet-phap-ly.md §2.2).
+  // có/không đăng nhập") — giới hạn theo tài khoản thật nếu có, theo IP nếu
+  // không (06-bao-mat-kiem-duyet-phap-ly.md §2.2). Phiên ẩn danh thuộc nhóm
+  // sau: id của nó đúc lại được vô hạn nên không đếm được gì.
   const user = await requireUser();
-  const rateLimitKey = user
-    ? `reading-quick:user:${user.id}`
-    : `reading-quick:ip:${getClientIp(request)}`;
+  const identity = resolveRateLimitIdentity(user, request);
+  const rateLimitKey = `reading-quick:${identity.scope}:${identity.token}`;
   // Khách ẩn danh: 20 chứ không phải 3. Route này không gọi AI (chỉ đọc
   // base_content), nên chi phí một lượt gần bằng 0 — mà "3 lượt/ngày/IP" thì
   // cả một dải thuê bao 4G nằm sau cùng một IP NAT phải chia nhau 3 lượt.
-  const [rateLimitWindow, rateLimitMax] = user ? [3600, 20] : [86400, 20];
+  const [rateLimitWindow, rateLimitMax] =
+    identity.scope === "user" ? [3600, relaxInDev(20)] : [86400, relaxInDev(20)];
 
   let allowed: boolean;
   try {

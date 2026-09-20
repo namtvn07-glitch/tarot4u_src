@@ -24,6 +24,11 @@ export async function GET() {
   if (!user) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
+  // Phiên ẩn danh không có mật khẩu nào để đổi. Trả lời thẳng thay vì chạy RPC
+  // — UI dùng cờ này để quyết định có mount form đổi mật khẩu hay không.
+  if (user.is_anonymous) {
+    return NextResponse.json({ canChangePassword: false });
+  }
 
   const { data, error } = await supabase.rpc("current_user_has_password");
   if (error) {
@@ -41,6 +46,14 @@ export async function POST(request: Request) {
   } = await supabase.auth.getUser();
   if (!user) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  }
+
+  // Chặn ẩn danh TRƯỚC hạn mức. Phiên ẩn danh không có mật khẩu, nên request
+  // này chắc chắn hỏng — để nó chạy tiếp thì nó vừa đốt một suất trong 5
+  // lượt/giờ vừa fail ở dưới với mã "no_password_set", nghe như một trục trặc
+  // cấu hình chứ không phải "tài khoản này chưa tồn tại".
+  if (user.is_anonymous) {
+    return NextResponse.json({ error: "anonymous_has_no_password" }, { status: 403 });
   }
 
   // 5 lần/giờ — đây cũng là đường đoán mật khẩu hiện tại, không chỉ là form tiện ích.

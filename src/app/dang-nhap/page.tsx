@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { AuthModal } from "@/components/AuthModal";
+import { GUEST_PROFILE } from "@/lib/user-profile";
 import { Sparkles, ArrowLeft } from "lucide-react";
 
 export default function DangNhapPage() {
@@ -13,12 +14,7 @@ export default function DangNhapPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header
-        user={{
-          name: "Khách",
-          email: "",
-          credits: 0,
-          isLoggedIn: false,
-        }}
+        user={GUEST_PROFILE}
         onOpenTopUp={() => {}}
         onOpenAuth={() => setIsOpen(true)}
         onLogout={() => {}}

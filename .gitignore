@@ -29,3 +29,5 @@ npm-debug.log*
 
 # File tam khi chay deploy.bat qua wrapper - khong bao gio duoc commit
 _*.cmd
+google_credentials.json
+figma_credentials.json

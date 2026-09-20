@@ -28,6 +28,14 @@ export const Header: React.FC<HeaderProps> = ({
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const isAdmin = useIsAdmin(user.id);
 
+  // Ba trạng thái, không phải hai. `isLoggedIn` một mình gộp phiên ẩn danh vào
+  // chung với tài khoản thật, và mỗi chỗ dùng nó ở đây lại sai theo một kiểu
+  // riêng: "Tài Khoản" dẫn tới trang middleware sẽ chặn, "Thoát" xoá vĩnh viễn
+  // credits đã trả tiền, còn nút "Đăng Nhập" — affordance quan trọng nhất với
+  // khách ẩn danh — thì biến mất đúng lúc họ cần nó nhất.
+  const hasAccount = user.isLoggedIn && !user.isAnonymous;
+  const isGuestSession = user.isLoggedIn && user.isAnonymous;
+
   const handleNavClick = (screen: AppScreen) => {
     if (isBusy) return;
     if (onNavigate) {
@@ -109,7 +117,7 @@ export const Header: React.FC<HeaderProps> = ({
           Thư Viện 78 Lá
         </button>
 
-        {user.isLoggedIn && (
+        {hasAccount && (
           <button
             onClick={() => handleNavClick("account")}
             className={`text-sm tracking-wide transition-all px-3 py-1.5 rounded cursor-pointer ${
@@ -125,18 +133,39 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Trailing Actions */}
       <div className="flex items-center gap-3">
-        {/* Credits Badge with Click-to-Top-Up */}
-        <button
-          onClick={onOpenTopUp}
-          title="Bấm để Nạp thêm Credits"
-          className="hidden sm:inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-[#d4af37]/20 to-[#8f5a1f]/20 border border-[#d4af37]/45 text-[#d4af37] text-xs font-semibold hover:border-[#d4af37] hover:shadow-[0_0_18px_rgba(212,175,55,0.35)] transition-all cursor-pointer active:scale-95"
-        >
-          <Coins className="w-3.5 h-3.5 text-[#d4af37]" />
-          <span>{user.credits} Credits</span>
-          <PlusCircle className="w-3.5 h-3.5 text-[#d4af37]/80 ml-0.5" />
-        </button>
+        {/* Số dư Credits — CHỈ hiện khi đã có phiên.
+            Với người chưa đăng nhập, "0 Credits +" là một con số vô nghĩa (họ
+            chưa có khái niệm credits) và là một lối vào thanh toán lạc chỗ:
+            việc mở khoá chỉ có nghĩa sau khi đã lật đủ 3 lá, nên lời mời trả
+            tiền phải xuất hiện ở đúng đó, không phải trên thanh điều hướng. */}
+        {user.isLoggedIn && (
+          <button
+            onClick={onOpenTopUp}
+            title="Bấm để Nạp thêm Credits"
+            className="hidden sm:inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-[#d4af37]/20 to-[#8f5a1f]/20 border border-[#d4af37]/45 text-[#d4af37] text-xs font-semibold hover:border-[#d4af37] hover:shadow-[0_0_18px_rgba(212,175,55,0.35)] transition-all cursor-pointer active:scale-95"
+          >
+            <Coins className="w-3.5 h-3.5 text-[#d4af37]" aria-hidden="true" />
+            <span>{user.credits} Credits</span>
+            <PlusCircle className="w-3.5 h-3.5 text-[#d4af37]/80 ml-0.5" aria-hidden="true" />
+          </button>
+        )}
 
-        {user.isLoggedIn ? (
+        {isGuestSession ? (
+          // Phiên khách: KHÔNG có nút "Thoát" ở đây. Với phiên ẩn danh, đăng
+          // xuất là xoá vĩnh viễn credits đã mua và luận giải đã trả tiền — nó
+          // không thuộc về một thanh điều hướng, nơi người ta bấm nhầm. Đường
+          // thoát có cảnh báo nằm trong /luu-tai-khoan.
+          //
+          // Và không có nút "Tài Khoản": middleware chặn ẩn danh ở /tai-khoan,
+          // nên nút đó chỉ dẫn tới một cú redirect về trang đăng nhập.
+          <Link
+            href="/luu-tai-khoan"
+            className="px-4 py-1.5 rounded-full bg-gradient-to-r from-[#8f5a1f] to-[#764a19] hover:from-[#d4af37] hover:to-[#8f5a1f] text-white hover:text-[#050505] text-xs font-semibold tracking-wide border border-[#d4af37]/45 transition-all duration-300 shadow-[0_0_15px_rgba(143,90,31,0.4)] active:scale-95 no-underline inline-flex items-center gap-1.5"
+          >
+            <User className="w-3.5 h-3.5" aria-hidden="true" />
+            <span>Lưu Tài Khoản</span>
+          </Link>
+        ) : hasAccount ? (
           <div className="flex items-center gap-3">
             {/* Lối vào khu quản trị. Chỉ hiện với admin — nhưng đây thuần tuý
                 là chuyện hiển thị: cổng thật nằm ở src/app/admin/layout.tsx,
@@ -236,7 +265,7 @@ export const Header: React.FC<HeaderProps> = ({
           >
             Thư Viện 78 Lá Bài
           </button>
-          {user.isLoggedIn && (
+          {hasAccount && (
             <button
               onClick={() => handleNavClick("account")}
               className={`text-left text-base py-2 ${
@@ -258,18 +287,33 @@ export const Header: React.FC<HeaderProps> = ({
           )}
 
           <div className="pt-4 border-t border-[#3d3123] flex justify-between items-center">
-            <button
-              onClick={() => {
-                onOpenTopUp();
-                setMobileMenuOpen(false);
-              }}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#8f5a1f]/20 border border-[#d4af37]/45 text-[#d4af37] text-xs font-semibold"
-            >
-              <Coins className="w-3.5 h-3.5" />
-              <span>{user.credits} Credits +</span>
-            </button>
+            {/* Cùng lý do với bản desktop — xem chú thích ở khối Trailing Actions. */}
+            {user.isLoggedIn ? (
+              <button
+                onClick={() => {
+                  onOpenTopUp();
+                  setMobileMenuOpen(false);
+                }}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#8f5a1f]/20 border border-[#d4af37]/45 text-[#d4af37] text-xs font-semibold"
+              >
+                <Coins className="w-3.5 h-3.5" aria-hidden="true" />
+                <span>{user.credits} Credits +</span>
+              </button>
+            ) : (
+              <span />
+            )}
 
-            {!user.isLoggedIn ? (
+            {isGuestSession ? (
+              // Cùng lý do với bản desktop: phiên khách không được có lối đăng
+              // xuất một-chạm ở đây.
+              <Link
+                href="/luu-tai-khoan"
+                onClick={() => setMobileMenuOpen(false)}
+                className="px-4 py-1.5 rounded-full bg-[#8f5a1f] text-white text-xs font-semibold no-underline"
+              >
+                Lưu Tài Khoản
+              </Link>
+            ) : !user.isLoggedIn ? (
               <button
                 onClick={() => {
                   onOpenAuth();

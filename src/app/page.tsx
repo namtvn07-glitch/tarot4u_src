@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CreditTopUpModal } from "@/components/CreditTopUpModal";
+import { GuestUnlockChoice } from "@/components/reading/GuestUnlockChoice";
 import { AuthModal } from "@/components/AuthModal";
 import { CardDetailModal } from "@/components/CardDetailModal";
 import { ReadingDetailModal } from "@/components/ReadingDetailModal";
@@ -27,12 +28,13 @@ import type {
   Topic,
 } from "@/types/tarot";
 import { useAuthUser } from "@/lib/useAuthUser";
+import { fromAuthModalLogin } from "@/lib/user-profile";
 import { createClient } from "@/lib/supabase/client";
 import { findCardById } from "@/lib/cards";
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<AppScreen>("home");
-  const { user, setUser, logout, addCredits, deductCredit } = useAuthUser();
+  const { user, loading: isAuthLoading, setUser, logout, addCredits, deductCredit } = useAuthUser();
   // Gắn nhãn user id đi kèm danh sách thay vì chỉ giữ mảng trần. Nhờ vậy
   // "đăng xuất thì không còn thấy quẻ cũ" là một phép dẫn xuất lúc render,
   // không phải một effect chạy `setReadings([])` — cách cũ để lọt một nhịp
@@ -51,6 +53,8 @@ export default function App() {
 
   // Modals
   const [isTopUpOpen, setIsTopUpOpen] = useState(false);
+  const [isGuestPurchaseOpen, setIsGuestPurchaseOpen] = useState(false);
+  const [isUnlockChoiceOpen, setIsUnlockChoiceOpen] = useState(false);
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [modalCard, setModalCard] = useState<TarotCard | null>(null);
   const [selectedReadingModal, setSelectedReadingModal] = useState<ReadingHistoryItem | null>(null);
@@ -150,6 +154,19 @@ export default function App() {
     handleNavigate(screen);
   };
 
+  const hasAccount = user.isLoggedIn && !user.isAnonymous;
+
+  // Ba nhánh — xem chú thích đầy đủ ở src/app/doc-sau/page.tsx. Khách thấy ngã
+  // ba "xem trực tiếp / đăng nhập mua gói" trước, không bị đẩy thẳng vào trang
+  // thanh toán và cũng không còn bị đẩy vào AuthModal.
+  const handleOpenPurchase = () => {
+    if (hasAccount) {
+      setIsTopUpOpen(true);
+    } else {
+      setIsUnlockChoiceOpen(true);
+    }
+  };
+
   return (
     <div className="flex flex-col min-h-screen">
       {/* Top Header */}
@@ -158,13 +175,7 @@ export default function App() {
         onNavigate={handleHeaderNavigate}
         user={user}
         isBusy={isBusy}
-        onOpenTopUp={() => {
-          if (!user.isLoggedIn) {
-            setIsAuthOpen(true);
-          } else {
-            setIsTopUpOpen(true);
-          }
-        }}
+        onOpenTopUp={handleOpenPurchase}
         onOpenAuth={() => setIsAuthOpen(true)}
         onLogout={logout}
       />
@@ -192,19 +203,16 @@ export default function App() {
             key={`${deepReadTopic}-${deepReadInquiry}`}
             initialInquiry={deepReadInquiry}
             initialTopic={deepReadTopic}
+            userId={user.id ?? null}
+            isAuthReady={!isAuthLoading}
+            isAnonymous={user.isAnonymous}
             onNavigate={handleNavigate}
             credits={user.credits}
             onDeductCredit={deductCredit}
             onSaveReading={handleSaveReading}
             onBusyChange={setIsBusy}
             onSessionActiveChange={setIsDeepSessionActive}
-            onOpenTopUp={() => {
-              if (!user.isLoggedIn) {
-                setIsAuthOpen(true);
-              } else {
-                setIsTopUpOpen(true);
-              }
-            }}
+            onOpenTopUp={handleOpenPurchase}
           />
         )}
 
@@ -267,15 +275,33 @@ export default function App() {
         currentCredits={user.credits}
       />
 
+      <GuestUnlockChoice
+        isOpen={isUnlockChoiceOpen}
+        onClose={() => setIsUnlockChoiceOpen(false)}
+        onChooseDirect={() => {
+          setIsUnlockChoiceOpen(false);
+          setIsGuestPurchaseOpen(true);
+        }}
+        onChooseLogin={() => {
+          setIsUnlockChoiceOpen(false);
+          setIsAuthOpen(true);
+        }}
+      />
+
+      {/* Cùng component, khác variant — đường tiền bên dưới chỉ có một bản. */}
+      <CreditTopUpModal
+        mode="single"
+        isOpen={isGuestPurchaseOpen}
+        onClose={() => setIsGuestPurchaseOpen(false)}
+        onSuccess={addCredits}
+        currentCredits={user.credits}
+      />
+
       <AuthModal
         isOpen={isAuthOpen}
         onClose={() => setIsAuthOpen(false)}
         onLoginSuccess={(userData) => {
-          setUser({
-            ...userData,
-            isLoggedIn: true,
-            credits: userData.credits ?? 0,
-          });
+          setUser(fromAuthModalLogin(userData));
         }}
       />
 

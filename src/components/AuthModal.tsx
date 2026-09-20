@@ -8,6 +8,7 @@ import { PasswordRequirements, usePasswordCheck } from "@/components/auth/Passwo
 import type { User } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
 import { withAffiliateMetadata } from "@/lib/affiliate";
+import { upgradeAnonymousToAccount } from "@/lib/upgrade-anonymous";
 import { sendPasswordResetEmail } from "@/lib/password-reset";
 import { getErrorMessage } from "@/lib/errors";
 
@@ -215,6 +216,38 @@ const AuthModalContent: React.FC<AuthModalProps> = ({ onClose, onLoginSuccess })
         }
       } else {
         // Mode: Register
+        //
+        // CHẶN: `signUp()` phát ra từ trong một phiên ẩn danh tạo một hàng
+        // `auth.users` THỨ HAI và bỏ rơi hàng cũ — cùng với credits khách vừa
+        // trả tiền mua, luận giải đã mở khoá và mọi `readings` gắn với uuid cũ.
+        // Không có lỗi nào hiện ra; tiền chỉ đơn giản là biến mất vào một tài
+        // khoản không còn ai đăng nhập lại được.
+        //
+        // Từ phiên ẩn danh, "đăng ký" phải là nâng cấp TẠI CHỖ bằng
+        // `updateUser()`, giữ nguyên uuid. Cùng một form, đúng một thao tác
+        // khác bên dưới — người dùng không cần biết sự khác biệt này.
+        const {
+          data: { user: sessionUser },
+        } = await supabase.auth.getUser();
+
+        if (sessionUser?.is_anonymous) {
+          const result = await upgradeAnonymousToAccount(email, password);
+          if (result.status === "error") {
+            setErrorMsg(result.message);
+            return;
+          }
+          if (result.status === "confirm-email") {
+            setRegisterSuccess(true);
+            return;
+          }
+          const upgraded = await supabase.auth.getUser();
+          if (upgraded.data.user) {
+            onLoginSuccess(await fetchUserProfile(supabase, upgraded.data.user));
+          }
+          onClose();
+          return;
+        }
+
         const { data, error } = await supabase.auth.signUp({
           email,
           password,

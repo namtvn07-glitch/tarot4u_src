@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useId, useRef } from "react";
+import React, { useState, useEffect, useCallback, useId, useRef } from "react";
 import {
   Sparkles,
   RefreshCw,
@@ -23,8 +23,12 @@ import {
 } from "lucide-react";
 import { CARD_BACK_IMAGE } from "@/data/tarotCards";
 import { UnsavedDeepSessionModal } from "@/components/reading/UnsavedDeepSessionModal";
+import { UpgradeAnonymousAccount } from "@/components/account/UpgradeAnonymousAccount";
 import type { AppScreen, ReadingHistoryItem, Topic } from "@/types/tarot";
 import { DEEP_SESSION_STORAGE_KEY } from "@/lib/storage-keys";
+import { isDrawTokenExpired } from "@/lib/draw-token-client";
+import { isDeepSessionOwnedBy } from "@/lib/user-scoped-storage";
+import { DEEP_READING_CREDIT_COST } from "@/lib/orders";
 import { getErrorMessage, isAbortError } from "@/lib/errors";
 
 interface DeepReadScreenProps {
@@ -37,6 +41,18 @@ interface DeepReadScreenProps {
   onOpenTopUp: () => void;
   onBusyChange?: (busy: boolean) => void;
   onSessionActiveChange?: (active: boolean) => void;
+  // Danh tính đang đăng nhập, null = khách. Bắt buộc (không có mặc định) để
+  // không trang nào quên truyền — thiếu nó thì phiên trải bài sâu lại trở về
+  // trạng thái "ai mở tab này cũng thấy phiên của người trước".
+  userId: string | null;
+  // false khi còn đang hỏi Supabase xem đang là ai. Trong lúc đó tuyệt đối
+  // không đọc/ghi sessionStorage: "chưa biết" khác "khách".
+  isAuthReady: boolean;
+  // Phiên khách: có userId thật (mua được, lưu readings được) nhưng chưa phải
+  // tài khoản. Màn hình này cần phân biệt để (a) nói đúng chuyện khi thiếu
+  // credits — "trả 15.000đ" chứ không phải "nạp credits", và (b) mời họ giữ
+  // lại thứ vừa mua SAU khi đã đọc xong, không phải trước.
+  isAnonymous: boolean;
 }
 
 type DeepReadPhase = "inquiry" | "shuffling" | "revealed" | "analysis";
@@ -141,27 +157,6 @@ function translateReadingError(code: string | undefined, fallback: string): stri
   return fallback;
 }
 
-// drawToken chỉ ký (HMAC), không mã hoá — phần payload (chứa "exp") đọc được
-// trực tiếp không cần secret. Dùng để biết TRƯỚC khi user bấm "trải lại" xem
-// token còn hiệu lực hay đã chắc chắn hết hạn, thay vì để họ bấm rồi mới lỗi
-// (server vẫn là nơi verify chữ ký thật — decode này chỉ để hiển thị UI).
-function isDrawTokenExpired(token: string): boolean {
-  try {
-    const [body] = token.split(".");
-    const base64 = body.replace(/-/g, "+").replace(/_/g, "/");
-    const json = decodeURIComponent(
-      atob(base64)
-        .split("")
-        .map((c) => "%" + c.charCodeAt(0).toString(16).padStart(2, "0"))
-        .join(""),
-    );
-    const payload = JSON.parse(json);
-    return typeof payload.exp !== "number" || Date.now() > payload.exp;
-  } catch {
-    return true;
-  }
-}
-
 interface CardDrawResult {
   cardId: string;
   name: string;
@@ -194,6 +189,9 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   onOpenTopUp,
   onBusyChange,
   onSessionActiveChange,
+  userId,
+  isAuthReady,
+  isAnonymous,
 }) => {
   const [phase, setPhase] = useState<DeepReadPhase>("inquiry");
   const [selectedTopic, setSelectedTopic] = useState<Topic>(initialTopic);
@@ -216,6 +214,13 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   // lỗi y hệt, nên hiện thẳng lối thoát "bắt đầu phiên mới" thay vì để user
   // bấm lại một hành động chắc chắn thất bại lần nữa.
   const [sessionDead, setSessionDead] = useState(false);
+  // Có tài khoản THẬT — khác với "có phiên". Phiên khách cũng có userId, nên
+  // `userId !== null` một mình không phân biệt được hai thứ.
+  const hasAccount = userId !== null && !isAnonymous;
+  // Có phiên bất kỳ (kể cả phiên khách đã trả tiền). Khách chưa có phiên thì
+  // mọi thứ nói bằng đơn vị "Credits" đều vô nghĩa với họ — xem chú thích ở
+  // khối nút mở khoá bên dưới.
+  const hasSession = userId !== null;
   const [blockedData, setBlockedData] = useState<{ category: BlockedCategory } | null>(null);
   const [isRevealing, setIsRevealing] = useState(false);
   const [isShuffling, setIsShuffling] = useState(false);
@@ -245,6 +250,49 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   // Guard tương tự cho handlePickCard — cùng lý do (isRevealing là state,
   // đọc qua closure có thể "cũ" nếu 2 lần gọi xảy ra trong cùng 1 tick JS).
   const isRevealingRef = useRef(false);
+  // Khôi phục sessionStorage chỉ được xảy ra ĐÚNG 1 LẦN, ở lần đầu biết danh
+  // tính — không phải mỗi lần `userId` đổi, nếu không đổi tài khoản xong lại
+  // dựng lại chính cái phiên vừa bị dọn.
+  const hasRestoredRef = useRef(false);
+  // undefined = chưa từng biết danh tính (khác hẳn null = biết chắc là khách).
+  const observedUserIdRef = useRef<string | null | undefined>(undefined);
+
+  // Đưa màn hình về đúng trạng thái của một phiên hoàn toàn mới — không chừa
+  // lại mảnh nào của phiên trước (câu hỏi, 3 lá, toàn văn luận giải, token,
+  // thông báo lỗi). Dùng chung cho các nút "trải bài khác" và cho lúc đổi tài
+  // khoản; định nghĩa ở đây, trước mọi effect, vì effect đổi danh tính bên
+  // dưới tham chiếu tới nó.
+  const resetSession = useCallback(() => {
+    // Luận giải đang stream dở thuộc về phiên vừa bị bỏ — để nó chạy tiếp sẽ
+    // ghi chữ của phiên cũ vào màn hình vừa được dọn sạch.
+    abortControllerRef.current?.abort();
+    abortControllerRef.current = null;
+    isUnlockingRef.current = false;
+    isRevealingRef.current = false;
+    if (typeof window !== "undefined") {
+      sessionStorage.removeItem(SESSION_STORAGE_KEY);
+    }
+    setPhase("inquiry");
+    setSelectedTopic(initialTopic);
+    setInquiry("");
+    setPickedSlotIndices([]);
+    setSelectedCards([]);
+    setPendingSlotIndex(null);
+    setStreamedText("");
+    setIsTyping(false);
+    setIsRevealing(false);
+    setIsShuffling(false);
+    setShowEffects(false);
+    setDrawToken(null);
+    setAnalysisComplete(false);
+    setSessionRecoveryNotice(false);
+    setSessionDead(false);
+    setRecoveredTokenExpired(false);
+    setErrorMessage("");
+    setRefundNotice(null);
+    setBlockedData(null);
+    setIsSaved(false);
+  }, [initialTopic]);
 
   // Chuyển sang "revealed" khi đã lật đủ 3 lá — theo dõi selectedCards đã
   // commit thay vì đọc biến gán trong functional updater của setSelectedCards
@@ -275,11 +323,23 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
 
   // Restore Session Storage if user previously navigated away
   useEffect(() => {
+    // "Chưa biết đang là ai" không phải là "khách": khôi phục trước khi
+    // Supabase trả lời sẽ dựng lại phiên của tài khoản vừa đăng xuất trên
+    // chính tab này.
+    if (!isAuthReady || hasRestoredRef.current) return;
+    hasRestoredRef.current = true;
     try {
       if (typeof window !== "undefined") {
         const saved = sessionStorage.getItem(SESSION_STORAGE_KEY);
         if (saved) {
           const data = JSON.parse(saved);
+          // Phiên của tài khoản khác (hoặc phiên do bản build cũ ghi, không
+          // có tem chủ sở hữu nên không chứng minh được của ai) — xoá hẳn chứ
+          // không chỉ bỏ qua, nếu không nó nằm đó chờ lần tải trang sau.
+          if (!isDeepSessionOwnedBy(data, userId)) {
+            sessionStorage.removeItem(SESSION_STORAGE_KEY);
+            return;
+          }
           // Check if session is recent (< 2 hours)
           if (data && Date.now() - (data.timestamp || 0) < 7200000) {
             if (data.phase && data.phase !== "inquiry" && data.drawToken) {
@@ -317,16 +377,68 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
     } catch {
       // Ignore session read error
     }
-  }, []);
+  }, [isAuthReady, userId]);
+
+  // drawToken hiện hành, đọc được mà KHÔNG phải đưa nó vào deps của effect bên
+  // dưới. Đưa vào deps thì `resetSession()` (có gọi setDrawToken(null)) làm
+  // chính effect đó chạy lại — một nhịp render thừa, và React Compiler chặn ở
+  // gate lint. Effect này khai báo TRƯỚC nên trong cùng một lần commit nó luôn
+  // chạy trước, ref vì vậy không bao giờ cũ hơn màn hình.
+  const drawTokenRef = useRef<string | null>(null);
+  useEffect(() => {
+    drawTokenRef.current = drawToken;
+  }, [drawToken]);
+
+  // Đổi sang một người KHÁC ngay trên tab này phải xoá phiên đang hiển thị.
+  // UserScopedStorageGuard đã dọn phần nằm trong sessionStorage, nhưng state
+  // trong bộ nhớ của màn hình này thì không ai chạm tới — thiếu bước này, câu
+  // hỏi và toàn văn luận giải của tài khoản cũ vẫn nằm nguyên trước mắt tài
+  // khoản mới.
+  useEffect(() => {
+    if (!isAuthReady) return;
+    const previousUserId = observedUserIdRef.current;
+    observedUserIdRef.current = userId;
+    // Lần đầu biết danh tính — việc khôi phục do effect bên trên lo.
+    if (previousUserId === undefined || previousUserId === userId) return;
+
+    // Quyết định theo CHỦ SỞ HỮU CỦA BỘ BÀI, không theo chiều đổi danh tính.
+    //
+    // Trước đây điều kiện giữ phiên là `previousUserId === null`, tức chỉ đúng
+    // một chiều "khách → đăng nhập". Nó bỏ sót chiều
+    // "phiên khách (ẩn danh) → đăng nhập tài khoản thật": khách bấm trả tiền
+    // (sinh phiên ẩn danh), đổi ý, quay ra chọn "Đăng nhập" — lúc đó
+    // previousUserId là uuid ẩn danh chứ không phải null, nên phiên bị xoá và
+    // 3 lá họ vừa rút biến mất, dù drawToken vẫn ký với userId null và server
+    // vẫn sẵn sàng cho tài khoản mới nhận chính bộ bài đó.
+    //
+    // isDeepSessionOwnedBy là đúng một luật mà personal/route.ts dùng
+    // ("payload.userId null thì ai nhận cũng được, có userId thì chỉ chính
+    // chủ") và cũng là luật purgeForeignUserStorage dùng cho sessionStorage.
+    // Dùng chung nó ở đây để state trong bộ nhớ và state trong storage không
+    // còn quyết định ngược nhau: trước đó storage GIỮ phiên (token vô chủ)
+    // trong khi màn hình lại XOÁ nó.
+    //
+    // Không nới lỏng gì về riêng tư: token đã gắn userId của tài khoản khác
+    // vẫn bị xoá, và không đọc được token thì cũng coi như không phải của mình.
+    if (isDeepSessionOwnedBy({ drawToken: drawTokenRef.current }, userId)) return;
+    resetSession();
+  }, [isAuthReady, userId, resetSession]);
 
   // Sync state to Session Storage automatically
   useEffect(() => {
+    // Cùng lý do với effect khôi phục: chưa biết chủ sở hữu thì chưa được ghi
+    // (tem `ownerId` sẽ sai), và cũng chưa được xoá theo nhánh "inquiry" —
+    // xoá lúc này là xoá mất phiên hợp lệ trước khi kịp khôi phục nó.
+    if (!isAuthReady) return;
     try {
       if (typeof window !== "undefined") {
         if (phase !== "inquiry" && drawToken) {
           sessionStorage.setItem(
             SESSION_STORAGE_KEY,
             JSON.stringify({
+              // Không ghi kèm "chủ sở hữu": danh tính của phiên đã nằm sẵn
+              // trong drawToken bên dưới, và đó mới là thứ server chấp nhận.
+              // Xem isDeepSessionOwnedBy().
               phase,
               selectedTopic,
               inquiry,
@@ -346,6 +458,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       // Ignore session write error
     }
   }, [
+    isAuthReady,
     phase,
     selectedTopic,
     inquiry,
@@ -556,8 +669,16 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
     try {
     const activeToken = tokenOverride ?? drawToken;
 
-    if (credits < 2) {
-      setErrorMessage("Bạn cần ít nhất 2 Credits để mở khóa luận giải chuyên sâu.");
+    if (credits < DEEP_READING_CREDIT_COST) {
+      // Khách chưa có tài khoản luôn rơi vào nhánh này (credits = 0), và với
+      // họ "bạn cần 2 Credits" là một câu vô nghĩa: họ chưa từng nghe tới
+      // credits và cũng không định học. Trang cha quyết định mở sheet nào —
+      // mua lẻ cho khách, bảng gói cho tài khoản thật.
+      setErrorMessage(
+        hasAccount
+          ? `Bạn cần ít nhất ${DEEP_READING_CREDIT_COST} Credits để mở khóa luận giải chuyên sâu.`
+          : "Mở khoá luận giải chuyên sâu cho 3 lá bạn vừa rút — thanh toán một lần, không cần đăng ký.",
+      );
       onOpenTopUp();
       return;
     }
@@ -599,14 +720,13 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           );
           onOpenTopUp();
         } else if (res.status === 401) {
-          // Phần lớn rơi vào nhánh credits < 2 phía trên trước khi tới được
-          // đây (ẩn danh luôn có credits = 0) — nhánh này chỉ còn là phòng vệ
-          // cho trường hợp hiếm (state credits hiển thị cũ/sai). Chủ động mở
-          // modal đăng nhập luôn thay vì chỉ hiện chữ chờ user tự bấm Header.
+          // Từ khi có luồng mua lẻ, khách đi tới bước này đã luôn có phiên
+          // (ẩn danh được tạo ngay lúc trả tiền), nên 401 ở đây nghĩa là phiên
+          // đã mất/hết hiệu lực giữa chừng — KHÔNG phải "chưa đăng nhập".
+          // Câu chữ cũ bảo họ đi đăng nhập là chỉ sai đường.
           setErrorMessage(
-            "Bạn cần đăng nhập để mở khóa luận giải chuyên sâu. 3 lá bạn đã rút vẫn còn nguyên.",
+            "Phiên của bạn đã hết hiệu lực. Hãy tải lại trang — 3 lá bạn đã rút vẫn còn nguyên.",
           );
-          onOpenTopUp();
         } else {
           setErrorMessage(
             translateReadingError(
@@ -646,7 +766,9 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               } else if (data.type === "error") {
                 hasErrorOccurred = true;
                 setErrorMessage(data.message || "Lỗi trong quá trình tạo văn bản.");
-                setRefundNotice("2 Credits đã được hoàn trả lại tài khoản của bạn.");
+                setRefundNotice(
+                  `${DEEP_READING_CREDIT_COST} Credits đã được hoàn trả lại tài khoản của bạn.`,
+                );
                 // Lùi về "revealed" + hiện banner ngay trong cùng tab, không
                 // đợi user reload mới thấy — trước đây chỉ effect khôi phục
                 // lúc mount xử lý việc này, nên lỗi xảy ra mà user không rời
@@ -1000,23 +1122,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           {sessionDead && (
             <button
               type="button"
-              onClick={() => {
-                if (typeof window !== "undefined") {
-                  sessionStorage.removeItem(SESSION_STORAGE_KEY);
-                }
-                setPhase("inquiry");
-                setInquiry("");
-                setSelectedCards([]);
-                setPickedSlotIndices([]);
-                setStreamedText("");
-                setDrawToken(null);
-                setAnalysisComplete(false);
-                setSessionRecoveryNotice(false);
-                setSessionDead(false);
-                setRecoveredTokenExpired(false);
-                setErrorMessage("");
-                setIsSaved(false);
-              }}
+              onClick={resetSession}
               className="self-start mt-1 px-3 py-1.5 rounded-lg bg-[#8f5a1f] hover:bg-[#d4af37] hover:text-[#050505] text-white text-[11px] font-semibold uppercase tracking-wider transition-colors cursor-pointer"
             >
               Bắt đầu phiên mới
@@ -1367,21 +1473,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
                 <button
                   type="button"
                   disabled={isResuming}
-                  onClick={() => {
-                    if (typeof window !== "undefined") {
-                      sessionStorage.removeItem(SESSION_STORAGE_KEY);
-                    }
-                    setPhase("inquiry");
-                    setInquiry("");
-                    setSelectedCards([]);
-                    setStreamedText("");
-                    setDrawToken(null);
-                    setAnalysisComplete(false);
-                    setSessionRecoveryNotice(false);
-                    setSessionDead(false);
-                    setRecoveredTokenExpired(false);
-                    setIsSaved(false);
-                  }}
+                  onClick={resetSession}
                   className="text-[#b3a48d] hover:text-white underline cursor-pointer disabled:opacity-60"
                 >
                   Bỏ qua, trải bài khác
@@ -1465,15 +1557,23 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
               className="w-full py-4 px-8 rounded-2xl bg-gradient-to-r from-[#8f5a1f] to-[#764a19] hover:from-[#d4af37] hover:to-[#8f5a1f] text-white hover:text-[#050505] font-bold text-xs sm:text-sm tracking-widest uppercase transition-all duration-300 shadow-[0_0_30px_rgba(143,90,31,0.6)] hover:shadow-[0_0_40px_rgba(212,175,55,0.7)] border border-[#d4af37]/60 flex items-center justify-center gap-3 cursor-pointer active:scale-98 disabled:opacity-60 disabled:cursor-not-allowed"
             >
               <span>MỞ KHÓA LUẬN GIẢI CHUYÊN SÂU</span>
-              <div className="flex items-center gap-1 bg-black/40 px-2.5 py-1 rounded-lg text-xs font-bold text-[#d4af37] border border-[#d4af37]/30">
-                <Coins className="w-3.5 h-3.5" />
-                <span>2 Credits</span>
-              </div>
+              {/* Giá bằng Credits chỉ có nghĩa với người đã có phiên. Với khách
+                  lần đầu, "2 Credits" là một đơn vị họ chưa từng nghe tới và
+                  không quy đổi được — giá thật (và lựa chọn mua gói rẻ hơn)
+                  được nói rõ trong sheet mở khoá ngay sau cú bấm này. */}
+              {hasSession && (
+                <div className="flex items-center gap-1 bg-black/40 px-2.5 py-1 rounded-lg text-xs font-bold text-[#d4af37] border border-[#d4af37]/30">
+                  <Coins className="w-3.5 h-3.5" aria-hidden="true" />
+                  <span>{DEEP_READING_CREDIT_COST} Credits</span>
+                </div>
+              )}
             </button>
 
-            <p className="mt-3 text-xs text-[#7a6e5d] flex items-center gap-1 font-body">
-              <span>Số dư tài khoản: <strong className="text-[#d4af37]">{credits} Credits</strong></span>
-            </p>
+            {hasSession && (
+              <p className="mt-3 text-xs text-[#b3a48d] flex items-center gap-1 font-body">
+                <span>Số dư tài khoản: <strong className="text-[#d4af37]">{credits} Credits</strong></span>
+              </p>
+            )}
           </div>
         </div>
       )}
@@ -1544,6 +1644,28 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
             )}
           </div>
 
+          {/* Lời mời giữ lại tài khoản — CHỈ sau khi đã đọc xong.
+              Đặt trước đó là dựng lại đúng cái tường đăng ký mà cả tính năng
+              này sinh ra để dỡ bỏ: khách chưa thấy giá trị thì mọi form đăng ký
+              đều là một cái giá phải trả trước.
+              Điều kiện `analysisComplete` chứ không phải `phase === "analysis"`:
+              lúc đang stream dở, chen một form vào giữa là cắt ngang thứ họ vừa
+              trả tiền để đọc. */}
+          {isAnonymous && analysisComplete && (
+            <section
+              aria-labelledby="upgrade-cta-heading"
+              className="mb-8 w-full max-w-md"
+            >
+              <h3
+                id="upgrade-cta-heading"
+                className="font-display mb-3 text-center text-sm font-semibold uppercase tracking-wider text-[#d4af37]"
+              >
+                Giữ lại luận giải này
+              </h3>
+              <UpgradeAnonymousAccount />
+            </section>
+          )}
+
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 w-full max-w-md justify-center mb-8">
             <button
@@ -1565,21 +1687,7 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           </div>
 
           <button
-            onClick={() => {
-              if (typeof window !== "undefined") {
-                sessionStorage.removeItem(SESSION_STORAGE_KEY);
-              }
-              setPhase("inquiry");
-              setInquiry("");
-              setSelectedCards([]);
-              setStreamedText("");
-              setDrawToken(null);
-              setAnalysisComplete(false);
-              setSessionRecoveryNotice(false);
-              setSessionDead(false);
-              setRecoveredTokenExpired(false);
-              setIsSaved(false);
-            }}
+            onClick={resetSession}
             className="text-xs text-[#d4af37] hover:underline flex items-center gap-1.5 cursor-pointer pb-8 font-body"
           >
             <RefreshCw className="w-3.5 h-3.5" />

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import { User, Coins, Calendar, History, CreditCard, Settings, PlusCircle, ArrowRight, Layers, Sparkles, Trash2 } from "lucide-react";
 import type { AppScreen, CreditLedgerRow, ReadingHistoryItem, UserProfile } from "@/types/tarot";
 import { createClient } from "@/lib/supabase/client";
@@ -26,6 +27,10 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
   onViewReadingDetail,
   onDeleteReading,
 }) => {
+  // "Đã đăng nhập" gộp phiên khách chung với tài khoản thật — ở màn hình này
+  // mỗi chỗ dùng nó lại sai theo một kiểu riêng, xem từng chú thích bên dưới.
+  const hasAccount = user.isLoggedIn && !user.isAnonymous;
+  const isGuestSession = user.isLoggedIn && user.isAnonymous;
   const [activeTab, setActiveTab] = useState<"history" | "transactions">("history");
   const [ledgerRows, setLedgerRows] = useState<CreditLedgerRow[]>([]);
   const [loadingLedger, setLoadingLedger] = useState(false);
@@ -101,13 +106,33 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
               <h1 className="font-display text-2xl sm:text-3xl text-white font-bold">
                 {user.name}
               </h1>
-              {user.isLoggedIn && (
+              {/* Phiên khách KHÔNG phải "Thành Viên". Gắn nhãn đó cho nó vừa
+                  sai, vừa làm dòng email ngay dưới tự mâu thuẫn: badge nói đã
+                  là thành viên trong khi email trống hiện ra "Chưa đăng nhập". */}
+              {hasAccount && (
                 <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wider bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/40">
                   Thành Viên
                 </span>
               )}
+              {isGuestSession && (
+                <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wider bg-[#b3a48d]/15 text-[#b3a48d] border border-[#b3a48d]/60">
+                  Khách
+                </span>
+              )}
             </div>
-            <p className="text-xs text-[#7a6e5d]">{user.email || "Chưa đăng nhập"}</p>
+            <p className="text-xs text-[#7a6e5d]">
+              {isGuestSession
+                ? "Phiên khách — chưa có tài khoản"
+                : user.email || "Chưa đăng nhập"}
+            </p>
+            {isGuestSession && (
+              <Link
+                href="/luu-tai-khoan"
+                className="mt-2 inline-flex items-center gap-1.5 rounded-lg border border-[#d4af37]/45 bg-[#1c1611] px-3 py-1.5 text-[11px] font-semibold text-[#d4af37] no-underline transition-colors hover:border-[#d4af37]"
+              >
+                Lưu lại thành tài khoản
+              </Link>
+            )}
           </div>
         </div>
 
@@ -319,7 +344,13 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
         )}
       </section>
 
-      {user.isLoggedIn && (
+      {/* Cả hai khối dưới đây dùng hasAccount chứ không phải isLoggedIn.
+          Phiên khách không có mật khẩu để đổi (form sẽ mount rồi fetch vô ích
+          mỗi lần tải trang, luôn trả về "không khả dụng"), và "xoá tài khoản"
+          với nó là ban vĩnh viễn chính danh tính đang giữ credits đã trả tiền —
+          không còn đường nào phục hồi. Middleware đã chặn ẩn danh ở /tai-khoan,
+          nhưng nó fail-open khi lỗi mạng, nên chốt này không thừa. */}
+      {hasAccount && (
         <section className="pt-6 border-t border-[#3d3123]/60">
           <h2 className="font-display text-sm text-[#7a6e5d] font-semibold uppercase tracking-wider mb-3">
             Bảo mật
@@ -329,7 +360,7 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
         </section>
       )}
 
-      {user.isLoggedIn && (
+      {hasAccount && (
         <section className="pt-6 border-t border-[#3d3123]/60">
           <h2 className="font-display text-sm text-[#7a6e5d] font-semibold uppercase tracking-wider mb-3">
             Vùng nguy hiểm

@@ -48,7 +48,16 @@ const fieldSchemas = {
   READING_TOKEN_SECRET: isProd
     ? z.string().min(16)
     : z.string().min(16).default("dev-reading-secret-key-32-chars-minimum-safe"),
-  DEEP_READING_COST: z.coerce.number().int().positive().default(2),
+  // Chi phí một lượt Đọc sâu. NEXT_PUBLIC_ vì đây KHÔNG phải bí mật — nó được
+  // in thẳng ra cho người dùng ("tiêu hao N Credits") và là cơ sở để tính bảng
+  // so sánh giá mỗi lượt giữa các gói. Trước đây nó là biến server-only, nên
+  // client phải hardcode con số 2: đổi giá trên server thì mọi số hiển thị cho
+  // khách vẫn là số cũ, sai trong im lặng.
+  NEXT_PUBLIC_DEEP_READING_COST: z.coerce.number().int().positive().default(2),
+  // ĐÃ THAY THẾ bởi NEXT_PUBLIC_DEEP_READING_COST. Giữ lại trong schema chỉ để
+  // phát hiện cấu hình cũ còn sót: nếu nó được set và lệch với biến mới, server
+  // báo động thay vì âm thầm dùng một trong hai.
+  DEEP_READING_COST: z.coerce.number().int().positive().optional(),
   DEEP_SPREAD_SLOTS: z.coerce.number().int().positive().default(24),
 
   PAYOS_CLIENT_ID: z.string().min(1).optional(),
@@ -63,6 +72,11 @@ const fieldSchemas = {
   NEXT_PUBLIC_PACK_SMALL_AMOUNT_VND: z.coerce.number().int().positive().default(49_000),
   NEXT_PUBLIC_PACK_POPULAR_AMOUNT_VND: z.coerce.number().int().positive().default(129_000),
   NEXT_PUBLIC_PACK_LARGE_AMOUNT_VND: z.coerce.number().int().positive().default(359_000),
+  // Gói lẻ: đúng 1 lượt Đọc sâu, bán cho khách chưa có tài khoản ngay tại cú
+  // bấm "Mở khoá". Số credits KHÔNG nằm ở đây — nó bám theo DEEP_READING_COST
+  // (xem PACKS trong src/lib/orders.ts), vì trả tiền một lượt mà không đủ mở
+  // khoá đúng lượt đó là lỗi mất tiền của khách.
+  NEXT_PUBLIC_PACK_SINGLE_AMOUNT_VND: z.coerce.number().int().positive().default(15_000),
   CRON_SECRET: isProd
     ? z.string().min(16)
     : z.string().min(16).default("dev-cron-secret-key-16-chars-min"),
@@ -95,6 +109,7 @@ const RAW_ENV: Record<keyof Env, string | undefined> = {
   TRIAGE_GEMINI_API_KEY: process.env.TRIAGE_GEMINI_API_KEY,
   TRIAGE_GEMINI_MODEL: process.env.TRIAGE_GEMINI_MODEL,
   READING_TOKEN_SECRET: process.env.READING_TOKEN_SECRET,
+  NEXT_PUBLIC_DEEP_READING_COST: process.env.NEXT_PUBLIC_DEEP_READING_COST,
   DEEP_READING_COST: process.env.DEEP_READING_COST,
   DEEP_SPREAD_SLOTS: process.env.DEEP_SPREAD_SLOTS,
   PAYOS_CLIENT_ID: process.env.PAYOS_CLIENT_ID,
@@ -103,6 +118,7 @@ const RAW_ENV: Record<keyof Env, string | undefined> = {
   NEXT_PUBLIC_PACK_SMALL_AMOUNT_VND: process.env.NEXT_PUBLIC_PACK_SMALL_AMOUNT_VND,
   NEXT_PUBLIC_PACK_POPULAR_AMOUNT_VND: process.env.NEXT_PUBLIC_PACK_POPULAR_AMOUNT_VND,
   NEXT_PUBLIC_PACK_LARGE_AMOUNT_VND: process.env.NEXT_PUBLIC_PACK_LARGE_AMOUNT_VND,
+  NEXT_PUBLIC_PACK_SINGLE_AMOUNT_VND: process.env.NEXT_PUBLIC_PACK_SINGLE_AMOUNT_VND,
   CRON_SECRET: process.env.CRON_SECRET,
 };
 

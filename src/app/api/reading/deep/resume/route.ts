@@ -2,7 +2,12 @@ import * as Sentry from "@sentry/nextjs";
 import { NextResponse } from "next/server";
 import { requireUser } from "@/lib/auth";
 import { triageQuestion } from "@/lib/moderation";
-import { checkRateLimit, refundRateLimit } from "@/lib/rate-limit";
+import {
+  checkRateLimit,
+  refundRateLimit,
+  relaxInDev,
+  resolveRateLimitIdentity,
+} from "@/lib/rate-limit";
 import { ResumeReadingRequestSchema } from "@/lib/reading";
 import { signDrawToken } from "@/lib/reading-token";
 
@@ -37,9 +42,16 @@ export async function POST(request: Request) {
   // mới, không phải lối để lách rate limit của bước rút bài. Và giống
   // /shuffle, hạn mức phải chặn TRƯỚC khi gọi AI chứ không chạy song song,
   // nếu không request bị từ chối vẫn tốn tiền call thật.
-  const rateLimitKey = `reading-deep-shuffle:user:${user.id}`;
-  const rateLimitWindow = 3600;
-  const rateLimitCount = process.env.NODE_ENV === "development" ? 100 : 30;
+  //
+  // Trước đây route này chỉ có biến thể theo user vì khách không tới được đây
+  // (401 ở trên). Phiên ẩn danh thì tới được — và nếu đếm theo id của nó thì
+  // đây thành cửa sau đi vòng qua hạn mức IP của /shuffle, cùng một call
+  // triageQuestion có tiền. Dùng chung bucket + chung quy tắc scope với
+  // /shuffle để không có đường nào rẻ hơn đường nào.
+  const identity = resolveRateLimitIdentity(user, request);
+  const rateLimitKey = `reading-deep-shuffle:${identity.scope}:${identity.token}`;
+  const [rateLimitWindow, rateLimitCount] =
+    identity.scope === "user" ? [3600, relaxInDev(30)] : [86400, relaxInDev(10)];
   let allowed: boolean;
   try {
     allowed = await checkRateLimit(rateLimitKey, rateLimitWindow, rateLimitCount);

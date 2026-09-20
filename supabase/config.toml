@@ -175,7 +175,11 @@ refresh_token_reuse_interval = 10
 # Allow/disallow new user signups to your project.
 enable_signup = true
 # Allow/disallow anonymous sign-ins to your project.
-enable_anonymous_sign_ins = false
+# Bật cho luồng "khách trả tiền trực tiếp": cú bấm "Mở khoá" gọi
+# signInAnonymously() để khách có một danh tính thật mang được đơn hàng/credits/
+# readings, mà không phải thấy form đăng ký nào. Xem
+# .claude/brain/khach-thanh-toan-truc-tiep/.
+enable_anonymous_sign_ins = true
 # Allow/disallow testing manual linking of accounts
 enable_manual_linking = false
 # Passwords shorter than this value will be rejected as weak. Minimum 6, recommended 8 or more.
@@ -200,7 +204,11 @@ email_sent = 2
 # Number of SMS messages that can be sent per hour. Requires auth.sms to be enabled.
 sms_sent = 30
 # Number of anonymous sign-ins that can be made per hour per IP address. Requires enable_anonymous_sign_ins = true.
-anonymous_users = 30
+# 10 chứ không phải mặc định 30: đây là chốt CUỐI chống việc đúc danh tính mới
+# để reset hạn mức của các route tốn tiền AI. Hạn mức theo IP trong app
+# (reading/shuffle/resume/orders) là chốt đầu và đã coi phiên ẩn danh như
+# khách vãng lai; con số này chỉ giới hạn tốc độ đúc danh tính.
+anonymous_users = 10
 # Number of sessions that can be refreshed in a 5 minute interval per IP address.
 token_refresh = 150
 # Number of sign up and sign-in requests that can be made in a 5 minute interval per IP address (excludes anonymous users).

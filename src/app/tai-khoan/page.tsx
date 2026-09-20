@@ -9,20 +9,16 @@ import { AuthModal } from "@/components/AuthModal";
 import { ReadingDetailModal } from "@/components/ReadingDetailModal";
 import type { ReadingHistoryItem, ReadingRow, DrawnCardRow, UserProfile } from "@/types/tarot";
 import { createClient } from "@/lib/supabase/client";
+import { fromAuthModalLogin, GUEST_PROFILE, toUserProfile } from "@/lib/user-profile";
 import { findCardById } from "@/lib/cards";
-import { READINGS_STORAGE_KEY } from "@/lib/storage-keys";
+import { readLocalReadings } from "@/lib/user-scoped-storage";
 
 export default function TaiKhoanPage() {
   const [isTopUpOpen, setIsTopUpOpen] = useState(false);
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [selectedReading, setSelectedReading] = useState<ReadingHistoryItem | null>(null);
   
-  const [user, setUser] = useState<UserProfile>({
-    name: "Khách",
-    email: "",
-    credits: 0,
-    isLoggedIn: false,
-  });
+  const [user, setUser] = useState<UserProfile>(GUEST_PROFILE);
 
   const [readings, setReadings] = useState<ReadingHistoryItem[]>([]);
 
@@ -39,14 +35,7 @@ export default function TaiKhoanPage() {
             .eq("id", authUser.id)
             .single();
 
-          setUser({
-            id: authUser.id,
-            name: profile?.display_name || authUser.user_metadata?.full_name || authUser.user_metadata?.name || authUser.email?.split("@")[0] || "Thành Viên",
-            email: authUser.email || "",
-            credits: typeof profile?.credits === "number" ? profile.credits : 0,
-            avatarUrl: profile?.avatar_url || authUser.user_metadata?.avatar_url,
-            isLoggedIn: true,
-          });
+          setUser(toUserProfile(authUser, profile));
 
           // Fetch user's real readings from Supabase readings table
           const { data: dbReadings } = await supabase
@@ -76,15 +65,11 @@ export default function TaiKhoanPage() {
             }));
             setReadings(formatted);
           } else {
-            // Also check localStorage if recently saved
-            const local = localStorage.getItem(READINGS_STORAGE_KEY);
-            if (local) {
-              try {
-                setReadings(JSON.parse(local));
-              } catch {
-                // ignore
-              }
-            }
+            // Bộ đệm cục bộ chỉ để lấp khoảng trễ ngay sau khi lưu, và chỉ
+            // đọc được phần mang tem của CHÍNH tài khoản này — trước đây đọc
+            // thẳng mảng trần nên tài khoản mới (chưa có quẻ nào trong DB)
+            // lại thấy lịch sử của tài khoản đăng nhập trước đó trên cùng máy.
+            setReadings(readLocalReadings(authUser.id));
           }
         }
       } catch {
@@ -173,7 +158,7 @@ export default function TaiKhoanPage() {
       <AuthModal
         isOpen={isAuthOpen}
         onClose={() => setIsAuthOpen(false)}
-        onLoginSuccess={(u) => setUser({ ...u, isLoggedIn: true, credits: u.credits ?? 0 })}
+        onLoginSuccess={(u) => setUser(fromAuthModalLogin(u))}
       />
 
       <ReadingDetailModal

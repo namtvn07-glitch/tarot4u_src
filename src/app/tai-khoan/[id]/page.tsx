@@ -8,7 +8,8 @@ import { ArrowLeft, Calendar, Sparkles, Layers, Loader2 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { findCardById } from "@/lib/cards";
 import type { ReadingHistoryItem, DrawnCardRow } from "@/types/tarot";
-import { READINGS_STORAGE_KEY } from "@/lib/storage-keys";
+import { readLocalReadings } from "@/lib/user-scoped-storage";
+import { useAuthUser } from "@/lib/useAuthUser";
 
 export default function ReadingDetailPage({
   params,
@@ -17,6 +18,10 @@ export default function ReadingDetailPage({
 }) {
   const { id } = use(params);
   const [reading, setReading] = useState<ReadingHistoryItem | null>(null);
+  // Trước đây Header ở trang này nhận một danh tính bịa ("Thành Viên", luôn
+  // isLoggedIn) kèm onLogout rỗng, nên nó hiện sai với mọi người xem — và với
+  // phiên ẩn danh thì hiện đủ các lối đi phá huỷ tài khoản đã trả tiền.
+  const { user, logout } = useAuthUser();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -49,13 +54,17 @@ export default function ReadingDetailPage({
             personalBody: data.personal_body,
           });
         } else {
-          // Check local storage fallback
-          const local = localStorage.getItem(READINGS_STORAGE_KEY);
-          if (local) {
-            const list: ReadingHistoryItem[] = JSON.parse(local);
-            const found = list.find((item) => item.id === id);
-            if (found) setReading(found);
-          }
+          // Bộ đệm cục bộ dự phòng — chỉ của chính người đang đăng nhập, xem
+          // readLocalReadings(). Quẻ không thuộc về họ thì trang này để trống
+          // đúng như khi id không tồn tại.
+          //
+          // getSession() (đọc cookie) chứ không getUser() (gọi mạng): ở đây
+          // chỉ cần khớp tem chủ sở hữu của một bản sao cục bộ, không phải
+          // xác thực quyền — quyền đã do RLS của bảng `readings` giữ ở nhánh
+          // trên rồi.
+          const { data: { session } } = await supabase.auth.getSession();
+          const found = readLocalReadings(session?.user?.id ?? null).find((item) => item.id === id);
+          if (found) setReading(found);
         }
       } catch {
         // ignore
@@ -71,15 +80,10 @@ export default function ReadingDetailPage({
     <div className="flex flex-col min-h-screen">
       <Header
         currentScreen="account"
-        user={{
-          name: "Thành Viên",
-          email: "",
-          credits: 0,
-          isLoggedIn: true,
-        }}
+        user={user}
         onOpenTopUp={() => {}}
         onOpenAuth={() => {}}
-        onLogout={() => {}}
+        onLogout={logout}
       />
 
       <main className="flex-grow max-w-4xl mx-auto px-4 sm:px-8 py-10 w-full relative z-10">
