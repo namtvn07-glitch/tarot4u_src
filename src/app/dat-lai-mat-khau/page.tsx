@@ -107,7 +107,7 @@ export default function DatLaiMatKhauPage() {
         onLogout={() => router.push("/")}
         onNavigate={(screen) => {
           if (screen === "home") router.push("/");
-          if (screen === "quick-read") router.push("/trai-bai");
+          if (screen === "daily") router.push("/hom-nay");
           if (screen === "deep-read") router.push("/doc-sau");
           if (screen === "library") router.push("/thu-vien");
         }}

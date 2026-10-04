@@ -121,7 +121,7 @@ export default async function AdminOverviewPage() {
           <StatTile
             label="Lượt đọc 30 ngày"
             value={formatNumber(stats.readings_deep_30d + stats.readings_quick_30d)}
-            hint={`${formatNumber(stats.readings_deep_30d)} sâu · ${formatNumber(stats.readings_quick_30d)} nhanh`}
+            hint={`${formatNumber(stats.readings_deep_30d)} sâu · ${formatNumber(stats.readings_quick_30d)} hôm nay`}
           />
         </div>
       </section>

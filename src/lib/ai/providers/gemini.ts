@@ -2,6 +2,7 @@ import { GoogleGenAI, FinishReason } from "@google/genai";
 import { z } from "zod";
 import { env } from "@/lib/env";
 import type { AiEvent, AiProvider, AiStopReason } from "@/lib/ai/provider";
+import { parseJsonObject } from "@/lib/ai/json";
 
 let cached: GoogleGenAI | undefined;
 
@@ -109,5 +110,36 @@ export const geminiProvider: AiProvider = {
       throw new Error("ai_classify_parse_failed");
     }
     return schema.parse(JSON.parse(jsonMatch[0]));
+  },
+
+  async generateJson({ system, userTurn, schema, maxTokens }) {
+    const response = await getGeminiClient().models.generateContent({
+      model: env.GEMINI_MODEL,
+      contents: userTurn,
+      config: {
+        systemInstruction: system,
+        // Cùng lý do với classify(): thinking không tắt được nên maxTokens phải
+        // đủ cho cả phần suy luận ẩn lẫn JSON.
+        maxOutputTokens: maxTokens,
+        responseMimeType: "application/json",
+        responseJsonSchema: z.toJSONSchema(schema),
+      },
+    });
+
+    const stopReason = mapFinishReason(response.candidates?.[0]?.finishReason);
+    const usage = {
+      inputTokens: response.usageMetadata?.promptTokenCount ?? 0,
+      outputTokens: response.usageMetadata?.candidatesTokenCount ?? 0,
+    };
+    // Bị chặn an toàn thì không có JSON để parse — báo riêng để route hoàn
+    // credits kèm thông báo đúng, thay vì coi là lỗi tạm thời rồi thử lại.
+    if (stopReason === "refusal") throw new Error("ai_refusal");
+
+    return {
+      data: parseJsonObject(response.text ?? "", schema),
+      stopReason,
+      model: env.GEMINI_MODEL,
+      usage,
+    };
   },
 };

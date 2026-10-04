@@ -85,14 +85,14 @@ export const Header: React.FC<HeaderProps> = ({
         </button>
 
         <button
-          onClick={() => handleNavClick("quick-read")}
+          onClick={() => handleNavClick("daily")}
           className={`text-sm tracking-wide transition-all px-3 py-1.5 rounded cursor-pointer ${
-            currentScreen === "quick-read"
+            currentScreen === "daily"
               ? "text-[#d4af37] border-b-2 border-[#d4af37] font-semibold"
               : "text-[#b3a48d] hover:text-[#d4af37] hover:bg-white/5"
           }`}
         >
-          Rút Nhanh
+          Hôm Nay
         </button>
 
         <button
@@ -242,12 +242,12 @@ export const Header: React.FC<HeaderProps> = ({
             Trang Chủ
           </button>
           <button
-            onClick={() => handleNavClick("quick-read")}
+            onClick={() => handleNavClick("daily")}
             className={`text-left text-base py-2 ${
-              currentScreen === "quick-read" ? "text-[#d4af37] font-bold" : "text-[#f3ece1]"
+              currentScreen === "daily" ? "text-[#d4af37] font-bold" : "text-[#f3ece1]"
             }`}
           >
-            Rút Nhanh (1 Lá)
+            Thông Điệp Hôm Nay (1 Lá)
           </button>
           <button
             onClick={() => handleNavClick("deep-read")}

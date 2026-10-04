@@ -1,8 +1,18 @@
 "use client";
 
-import React from "react";
-import { X, Calendar, Sparkles, HelpCircle, Layers } from "lucide-react";
+import React, { useEffect, useState } from "react";
+import { X, Calendar, HelpCircle, Layers } from "lucide-react";
+import { ReadingResultSection } from "@/components/reading/ReadingResultSection";
+import { createClient } from "@/lib/supabase/client";
 import type { ReadingHistoryItem } from "@/types/tarot";
+
+// Phần nặng của một lượt đọc (kết quả có cấu trúc / bản chữ) không nằm trong danh sách
+// lịch sử — chỉ tải khi người dùng mở đúng lượt đó.
+interface FetchedDetail {
+  id: string;
+  result?: ReadingHistoryItem["result"];
+  personalBody?: string;
+}
 
 interface ReadingDetailModalProps {
   reading: ReadingHistoryItem | null;
@@ -15,7 +25,46 @@ export const ReadingDetailModal: React.FC<ReadingDetailModalProps> = ({
   isOpen,
   onClose,
 }) => {
+  const [fetched, setFetched] = useState<FetchedDetail | null>(null);
+  const [failedId, setFailedId] = useState<string | null>(null);
+
+  const readingId = reading?.id ?? null;
+  const needsDetail = isOpen && reading?.detailLoaded === false;
+  // `fetched` gắn với id nên đổi sang lượt khác không cần reset state.
+  const hasDetail = fetched !== null && fetched.id === readingId;
+
+  useEffect(() => {
+    if (!needsDetail || !readingId || hasDetail) return;
+    let cancelled = false;
+    createClient()
+      .from("readings")
+      .select("personal_body, result")
+      .eq("id", readingId)
+      .single()
+      .then(({ data, error }) => {
+        if (cancelled) return;
+        if (error || !data) {
+          setFailedId(readingId);
+          return;
+        }
+        setFetched({
+          id: readingId,
+          result: (data.result as ReadingHistoryItem["result"]) ?? undefined,
+          personalBody: (data.personal_body as string | null) ?? undefined,
+        });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [needsDetail, readingId, hasDetail]);
+
   if (!isOpen || !reading) return null;
+
+  const isLoadingDetail = needsDetail && !hasDetail && failedId !== reading.id;
+  const hasDetailError = needsDetail && !hasDetail && failedId === reading.id;
+  const fullReading: ReadingHistoryItem = hasDetail
+    ? { ...reading, result: fetched.result, personalBody: fetched.personalBody ?? reading.personalBody }
+    : reading;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8 animate-in fade-in duration-200">
@@ -60,10 +109,12 @@ export const ReadingDetailModal: React.FC<ReadingDetailModalProps> = ({
         <div className="mb-8">
           <h4 className="text-xs font-semibold uppercase tracking-widest text-[#7a6e5d] mb-4 flex items-center gap-2">
             <Layers className="w-4 h-4 text-[#d4af37]" />
-            <span>3 Lá bài xuất hiện trong trải bài</span>
+            <span>{reading.cards.length === 1 ? "Lá bài của ngày" : `${reading.cards.length} Lá bài xuất hiện trong trải bài`}</span>
           </h4>
 
-          <div className="grid grid-cols-3 gap-3 sm:gap-4">
+          <div
+            className={`grid gap-3 sm:gap-4 ${reading.cards.length === 1 ? "grid-cols-1 mx-auto max-w-[9rem]" : "grid-cols-3"}`}
+          >
             {reading.cards.map((c, i) => (
               <div
                 key={i}
@@ -94,18 +145,17 @@ export const ReadingDetailModal: React.FC<ReadingDetailModalProps> = ({
           </div>
         </div>
 
-        {/* Personal Body AI Stream Output */}
-        {reading.personalBody && (
-          <div className="pt-6 border-t border-[#3d3123]">
-            <div className="flex items-center gap-2 text-sm font-semibold text-[#d4af37] mb-3">
-              <Sparkles className="w-4 h-4" />
-              <span>Luận giải chuyên sâu:</span>
-            </div>
-            <div className="prose prose-invert max-w-none text-xs sm:text-sm text-[#f3ece1]/90 leading-relaxed whitespace-pre-line bg-[#1c1611] p-5 rounded-xl border border-[#3d3123]/70 font-display">
-              {reading.personalBody.normalize("NFC")}
-            </div>
+        {isLoadingDetail && (
+          <div role="status" className="pt-6 border-t border-[#3d3123] text-center text-xs text-[#7a6e5d]">
+            Đang tải luận giải…
           </div>
         )}
+        {hasDetailError && (
+          <div role="alert" className="pt-6 border-t border-[#3d3123] text-center text-xs text-[#f0605f]">
+            Không tải được luận giải. Hãy đóng và mở lại.
+          </div>
+        )}
+        {!isLoadingDetail && !hasDetailError && <ReadingResultSection reading={fullReading} />}
       </div>
     </div>
   );

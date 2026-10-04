@@ -1,0 +1,380 @@
+[
+  {
+    "card_id": "two-of-swords",
+    "orientation": "upright",
+    "variant": 1,
+    "summary": "Có một quyết định bạn đã biết đáp án từ lâu, chỉ chưa dám nói thành lời.",
+    "card": { "name": "Hai Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Nhắm mắt lâu không làm lựa chọn biến mất.",
+    "forecast": [
+      "Bạn có xu hướng mở rồi lại đóng cùng một cuộc trò chuyện trong đầu, lần này với những lý lẽ y hệt hôm qua.",
+      "Một câu hỏi tưởng vu vơ từ người khác có thể chạm đúng điều bạn đang né.",
+      "Khả năng cao bạn nhẹ người hơn một chút khi chịu thừa nhận mình đang nghiêng về bên nào."
+    ],
+    "love": "Có thể có một điều trong mối quan hệ mà bạn cứ để lửng, vì sợ trả lời xong thì mọi thứ đổi khác. Người độc thân dễ dây dưa với một người chưa rõ là muốn hay không muốn. Hãy hỏi lòng mình trước khi hỏi người kia.",
+    "career": "Hai hướng đi hoặc hai lời đề nghị có thể đang nằm ngang nhau trên bàn, và bạn muốn xin thêm thông tin cho đến khi hết hạn. Sinh viên có thể đang lưỡng lự giữa hai lựa chọn học tập. Viết ra điều bạn sợ mất ở mỗi bên, danh sách đó thường nói thật hơn lý trí.",
+    "finance": "Dòng tiền đứng yên, không xấu nhưng cũng không nhúc nhích vì một khoản cần quyết còn treo đó. Hôm nay hợp để đặt thời hạn cho chính quyết định đó thay vì chờ cảm hứng. Chưa cần chốt ngay, chỉ cần có ngày chốt.",
+    "insight": "Có thể bạn không bế tắc vì thiếu dữ kiện, mà vì mỗi lựa chọn đều đòi bạn từ bỏ một phiên bản của mình. Khi cả hai bên đều có giá, chần chừ chỉ là cách để chưa phải thanh toán.",
+    "memorable_message": "Bịt mắt đủ lâu thì bóng tối cũng thành thói quen.",
+    "advice": "Hỏi mình một câu: nếu phải trả lời trước tối nay, mình sẽ chọn gì? Câu trả lời đó chưa cần thành hành động, nhưng đáng được nghe. Quyền chọn vẫn hoàn toàn thuộc về bạn.",
+    "keywords": ["quyết định khó", "do dự", "thế giằng co"]
+  },
+  {
+    "card_id": "two-of-swords",
+    "orientation": "upright",
+    "variant": 2,
+    "summary": "Bạn đang giữ thăng bằng giữa hai phía, và cánh tay bắt đầu mỏi hơn bạn tưởng.",
+    "card": { "name": "Hai Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Làm trọng tài mãi thì ai cũng quên bạn cũng có phần.",
+    "forecast": [
+      "Bạn có xu hướng bị kẹt giữa hai ý kiến, hai người hoặc hai lịch hẹn cùng đòi một câu trả lời.",
+      "Một câu nước đôi kiểu để xem sao có thể bật ra khỏi miệng bạn trước khi kịp nghĩ.",
+      "Có thể một người nhận ra bạn im lặng khá lâu và hỏi thẳng ý bạn."
+    ],
+    "love": "Có thể bạn đang giữ hòa khí bằng cách không nói điều mình thật sự muốn. Nếu đang yêu, một cuộc trò chuyện thẳng nhưng nhẹ giúp cả hai bớt đoán nhau. Người đang tìm hiểu ai đó nên tránh trả lời kiểu sao cũng được.",
+    "career": "Một xung đột nhỏ trong nhóm có thể kéo bạn vào vai người hòa giải dù bạn không đăng ký. Giữ trung lập là tốt, nhưng hãy nói ra quan điểm của mình ở ít nhất một điểm. Sinh viên làm bài nhóm dễ nhận hết phần việc chỉ vì ngại chia lại.",
+    "finance": "Có thể một khoản chi chung hoặc một lời nhờ cho mượn đang khiến bạn khó xử. Tiền ổn ở mức bình thường, thứ căng là cảm giác ngại từ chối. Hôm nay hợp để nói rõ giới hạn bằng một con số cụ thể.",
+    "insight": "Có thể sự hòa nhã của bạn đã âm thầm biến thành nỗi sợ làm mất lòng. Người giữ cân bằng cho tất cả thường là người ít được hỏi mình muốn gì.",
+    "memorable_message": "Giơ hai tay ngang vai quá lâu thì cơn mỏi sẽ quyết định thay bạn.",
+    "advice": "Chọn một chuyện hôm nay để nói rõ ý mình bằng đúng một câu, không kèm lời xin lỗi. Giọng bạn vẫn có thể mềm, chỉ là nội dung đừng mờ.",
+    "keywords": ["kẹt giữa hai phía", "giữ hòa khí", "cân bằng căng"]
+  },
+  {
+    "card_id": "two-of-swords",
+    "orientation": "upright",
+    "variant": 3,
+    "summary": "Không có lựa chọn hoàn hảo hôm nay, chỉ có lựa chọn đủ tốt để bạn bước tiếp và tự chịu trách nhiệm được.",
+    "card": { "name": "Hai Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 5, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Chọn đủ tốt rồi sửa, còn hơn đứng mãi chờ chọn đúng.",
+    "forecast": [
+      "Đầu bạn có xu hướng chạy hai kịch bản song song, kịch bản nào cũng có cái giá đi kèm.",
+      "Có thể bạn tìm đọc thêm ý kiến, thêm bài, thêm review, nhưng cảm giác rõ ràng không đến nhiều hơn.",
+      "Một bước thử nhỏ, có thể rút lại, dễ làm bạn thấy nhẹ hơn một quyết định lớn."
+    ],
+    "love": "Lý trí và cảm xúc có thể kéo về hai phía khác nhau, và bạn muốn bên nào cũng được thỏa. Với người đang tìm hiểu ai đó, hôm nay hợp để thử một buổi gặp thấp áp lực thay vì phân tích tiếp. Đang yêu thì đừng nhờ người kia chọn thay phần của bạn.",
+    "career": "Bạn dễ rơi vào chế độ nghiên cứu mãi mà chưa làm, nhất là với việc chưa ai bắt buộc. Thử đặt một bản thử nghiệm nhỏ trong vài ngày để dữ liệu thật thay cho phỏng đoán. Sinh viên có thể chọn một hướng cho học kỳ này rồi xem lại sau.",
+    "finance": "Có thể bạn đang so hai phương án chi tiêu hoặc tiết kiệm đến mức mệt. Chênh lệch giữa chúng thường nhỏ hơn cái mệt của việc so mãi. Đặt một mốc giới hạn rồi chọn trong mốc đó.",
+    "insight": "Có thể bạn đang chờ cảm giác yên tâm tuyệt đối như một tấm vé cho phép mình hành động, mà tấm vé ấy gần như không bao giờ được phát. Người ta thường chỉ thấy yên tâm sau khi đã đi.",
+    "memorable_message": "Bạn đâu cần lựa chọn hoàn hảo, bạn cần lựa chọn mà ngày mai vẫn dám nhìn mặt.",
+    "advice": "Chọn phương án mà bạn ít tiếc nhất khi tưởng tượng mình đã nói không với nó. Rồi làm một bước nhỏ theo hướng đó và xem lại vào cuối ngày.",
+    "keywords": ["đủ tốt", "bước thử nhỏ", "đầu và tim"]
+  },
+  {
+    "card_id": "two-of-swords",
+    "orientation": "reversed",
+    "variant": 1,
+    "summary": "Quá nhiều lựa chọn đang làm bạn kiệt sức, và thêm thông tin lúc này chỉ thêm nhiễu.",
+    "card": { "name": "Hai Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Dữ kiện đã đủ rồi, thứ bạn thiếu là một tiêu chí.",
+    "forecast": [
+      "Bạn có xu hướng mở thêm tab, hỏi thêm người, rồi tắt máy mà vẫn chưa chọn được gì.",
+      "Một lời khuyên mới có thể làm bạn đổi ý lần nữa, đúng lúc vừa nghiêng về một hướng.",
+      "Có thể bạn bỗng thấy mệt vì đã nghĩ nhiều hơn sức mình cho phép, và đó là tín hiệu nên dừng."
+    ],
+    "love": "Bạn dễ phân vân giữa quá nhiều khả năng: nhắn hay đợi, thích hay chưa, ở lại hay đi. Càng soi từng tín hiệu nhỏ, bạn càng thấy mù mờ. Hãy bớt phân tích và hỏi một câu đơn giản với người trong cuộc.",
+    "career": "Danh sách việc hoặc hướng đi quá dài khiến bạn khó chọn bắt đầu từ đâu. Hôm nay hợp để gạch đi ba thứ ít quan trọng nhất thay vì xếp hạng cả mười. Sinh viên nên chọn một môn hay một bài để làm xong, đừng ôm đồm.",
+    "finance": "Nhiều phương án chi tiêu, nhiều ưu đãi, nhiều khoản cần cân nhắc cùng lúc dễ khiến bạn lờ đi tất cả. Hãy chọn một khoản duy nhất cần xử lý hôm nay. Phần còn lại có thể để sang tuần.",
+    "insight": "Có thể bạn không thiếu thông tin, mà thiếu một tiêu chí để biết thế nào là đủ. Khi chưa biết mình đặt điều gì lên trên, mọi lựa chọn nhìn đều ngang nhau.",
+    "memorable_message": "Danh sách ưu nhược điểm thứ mười không thông minh hơn danh sách thứ ba.",
+    "advice": "Viết ra một tiêu chí quan trọng nhất của quyết định này, chỉ một thôi, rồi dùng nó để loại bớt. Bạn vẫn có thể đổi tiêu chí vào ngày mai.",
+    "keywords": ["quá tải lựa chọn", "nhiễu thông tin", "mất tiêu chí"]
+  },
+  {
+    "card_id": "two-of-swords",
+    "orientation": "reversed",
+    "variant": 2,
+    "summary": "Có một mảnh thông tin còn thiếu hoặc bị né tránh, và quyết định nào dựa vào nó hôm nay cũng dễ lệch.",
+    "card": { "name": "Hai Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 5, "finance": 4, "energy": 4 },
+    "headline": "Điều chưa ai nói thường chính là điều cần hỏi.",
+    "forecast": [
+      "Một câu trả lời lấp lửng hoặc một lần đổi chủ đề đúng lúc có thể xuất hiện, và bạn có xu hướng cảm nhận được dù chưa rõ vì sao.",
+      "Có thể bạn phát hiện mình đã tự lấp chỗ trống bằng những giả định của chính mình.",
+      "Một chi tiết nhỏ trong giấy tờ, tin nhắn hay lịch trình có khả năng cao đáng đọc lại lần hai."
+    ],
+    "love": "Có thể có điều chưa được nói giữa hai người, hoặc bạn đang tự bịa phần còn thiếu theo hướng lo nhất. Người đang tìm hiểu ai đó nên hỏi trực tiếp thay vì suy luận từ độ dài của tin trả lời. Người độc thân cẩn thận với hình ảnh quá đẹp về người chưa biết rõ.",
+    "career": "Một thông tin quan trọng trong công việc có thể được chia sẻ thiếu hoặc đến muộn. Hôm nay hợp để hỏi lại yêu cầu bằng văn bản thay vì dựa vào trí nhớ. Sinh viên nên xác nhận lại hạn nộp và tiêu chí chấm.",
+    "finance": "Hãy đọc kỹ điều khoản nhỏ, phí ẩn hoặc dòng ghi chú trước khi đồng ý với bất cứ khoản nào. Nếu số liệu chưa đủ rõ, đừng quyết bằng cảm giác. Chờ thêm một thông tin còn hơn trả thêm một khoản bất ngờ.",
+    "insight": "Có thể bạn đang không muốn biết sự thật vì biết xong thì phải hành động. Mơ hồ cũng có một kiểu dễ chịu riêng, nhưng nó tính phí bằng thời gian của bạn.",
+    "memorable_message": "Bạn không cần đọc được suy nghĩ của ai, chỉ cần dám đặt một câu hỏi.",
+    "advice": "Chọn đúng một điều còn mơ hồ và hỏi thẳng người liên quan bằng một câu ngắn. Nếu chưa hỏi được, hãy ghi rõ đâu là sự kiện, đâu chỉ là điều bạn đoán.",
+    "keywords": ["thông tin ẩn", "điều chưa nói", "hỏi cho rõ"]
+  },
+  {
+    "card_id": "two-of-swords",
+    "orientation": "reversed",
+    "variant": 3,
+    "summary": "Chần chừ kéo dài đang tự biến thành một quyết định, và hôm nay là lúc nhận ra điều đó.",
+    "card": { "name": "Hai Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 5, "energy": 4 },
+    "headline": "Không chọn nữa cũng là một lựa chọn, chỉ là chẳng ai hỏi ý bạn.",
+    "forecast": [
+      "Bạn có xu hướng nhận ra một việc đã trễ hạn mà không ai nhắc, và nó khiến bạn hơi chột dạ.",
+      "Một cơ hội vẫn còn mở nhưng khung thời gian của nó bắt đầu hẹp lại.",
+      "Có thể bạn thử lấy lại phương hướng bằng cách dọn dẹp, sắp xếp lại hoặc liệt kê lại mục tiêu."
+    ],
+    "love": "Một mối quan hệ lửng lơ lâu ngày có thể đến lúc cần một câu rõ ràng, từ bạn hoặc từ người kia. Không trả lời cũng là một câu trả lời, và người đối diện thường đọc ra điều đó. Người độc thân thử xem mình còn đang đợi một người đã không đến hay chưa.",
+    "career": "Dự án, lời mời hoặc quyết định chuyển hướng bị hoãn có thể đang lấy năng lượng của bạn một cách âm thầm. Hôm nay hợp để đặt một hạn chót thật cho nó. Bạn cũng có quyền chốt là không làm, miễn là nói ra.",
+    "finance": "Một việc tài chính nhỏ cứ để đó, như gói đăng ký không dùng hay khoản chưa sắp xếp, có thể đang âm thầm tốn tiền. Rà soát đúng một thứ hôm nay là đủ. Chưa cần dọn hết một lượt.",
+    "insight": "Có thể bạn sợ chọn sai hơn là sợ không chọn, nên chọn cách không chọn. Nhưng sự chờ đợi không hề trung lập: nó nghiêng dần về phía điều mà bạn chưa kịp đồng ý.",
+    "memorable_message": "Nếu bạn không chọn, thời gian sẽ chọn, và nó không có thói quen hỏi ý kiến.",
+    "advice": "Đặt một hạn chót thật, có ngày giờ, cho quyết định đang treo, rồi nói với một người để có người nhắc. Nếu đến hạn bạn vẫn muốn dời, ít nhất hãy biết vì sao.",
+    "keywords": ["chần chừ kéo dài", "mất phương hướng", "hạn chót thật"]
+  },
+  {
+    "card_id": "three-of-swords",
+    "orientation": "upright",
+    "variant": 1,
+    "summary": "Hôm nay có thể có một cơn đau thật, và điều tử tế nhất là cho nó chỗ ngồi thay vì bắt nó im.",
+    "card": { "name": "Ba Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 3, "love": 2, "career": 4, "finance": 4, "energy": 3 },
+    "headline": "Vết thương cần được gọi tên trước khi được băng lại.",
+    "forecast": [
+      "Có xu hướng một câu nói, một tấm ảnh hoặc một bài hát chạm đúng chỗ còn mềm.",
+      "Cảm xúc dễ trào lên bất ngờ giữa lúc bạn đang làm một việc rất bình thường.",
+      "Một chuyện cũ có thể quay lại trong đầu và đòi được nhìn thẳng một lần."
+    ],
+    "love": "Chuyện tình cảm hôm nay dễ nhạy hơn thường ngày, nhất là với người cũ, một lần chia xa hoặc một lời chưa nói. Người đang yêu nên thận trọng với những câu thốt ra lúc tổn thương. Người độc thân đừng ép mình tỏ ra ổn nếu chưa ổn.",
+    "career": "Công việc có thể là nơi bạn cố chôn cảm xúc, nên hiệu suất dao động và dễ bị phân tâm. Chọn việc nhỏ, rõ để giữ nhịp thay vì ôm việc lớn. Một lời góp ý khó nghe có thể làm bạn đau hơn mức nó đáng, hãy đọc lại khi đã bình tĩnh.",
+    "finance": "Dòng tiền không có gì lớn, chỉ có nguy cơ chi tiêu để xoa dịu cảm xúc. Một khoản nhỏ cho bản thân là ổn, nhưng hãy phân biệt giữa chăm sóc và trốn tránh. Tránh quyết định tiền bạc lớn khi lòng còn nặng.",
+    "insight": "Có thể điều làm bạn mệt không phải nỗi đau, mà là công sức giả vờ không đau. Cảm xúc bị nén lại thường to dần chứ không nhỏ đi.",
+    "memorable_message": "Chưa ai lành nhanh hơn bằng cách nói mình ổn to hơn.",
+    "advice": "Cho mình mười lăm phút không làm gì ngoài việc để cảm giác này tồn tại, rồi uống nước và ăn gì đó ấm. Nếu nỗi nặng kéo dài hoặc vượt quá sức chịu, hãy nói chuyện với một người thật mà bạn tin.",
+    "keywords": ["tổn thương", "đau lòng", "gọi tên cảm xúc"]
+  },
+  {
+    "card_id": "three-of-swords",
+    "orientation": "upright",
+    "variant": 2,
+    "summary": "Một chút đau hôm nay dễ biến thành lời nói sắc, nên hãy để cảm xúc lên tiếng trước và hành động đi sau.",
+    "card": { "name": "Ba Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 3, "love": 3, "career": 4, "finance": 4, "energy": 3 },
+    "headline": "Đau thì cứ đau, đừng để cơn đau cầm bút.",
+    "forecast": [
+      "Bạn có xu hướng muốn nhắn một tin thật thẳng, thật gắt, ngay lúc còn nóng.",
+      "Một câu nói vô tình của ai đó có thể làm bạn đau hơn ý định của họ.",
+      "Có thể bạn cần một người chỉ ngồi nghe, không khuyên, và dễ nhận ra bạn bè nào làm được việc đó."
+    ],
+    "love": "Một hiểu lầm hoặc một khoảng lặng có thể khiến bạn muốn nói điều làm người kia đau lại. Soạn tin ra rồi giữ ở bản nháp qua đêm, nó thường mềm đi. Người độc thân dễ chạnh lòng khi thấy cặp đôi khác, đó chỉ là cảm xúc đi ngang.",
+    "career": "Bạn có thể bị phê bình, hoặc thấy mình bị bỏ ngoài một cuộc trao đổi, và vết xước tự trọng dễ phình to hơn thực tế. Đừng trả lời email hay tin nhắn công việc khi tay còn run. Chờ thêm một giờ thì lời của bạn chuyên nghiệp hơn nhiều.",
+    "finance": "Tiền không phải trọng tâm, nhưng bực bội có thể đẩy bạn chi cho cảm giác hả hê, như mua sắm bốc đồng. Tạm treo giỏ hàng đến mai. Nếu có tranh cãi về tiền với ai, hãy bàn khi cả hai đã nguội hơn.",
+    "insight": "Có thể bạn không giận như bạn tưởng, mà đang đau và dùng giận để đỡ đau. Giận trông có vẻ mạnh, còn đau trông như đang thua.",
+    "memorable_message": "Lời nói lúc đau thường đúng cảm xúc nhưng sai người nhận.",
+    "advice": "Viết hết những điều muốn nói vào một ghi chú riêng, không gửi cho ai. Sau đó mới quyết định phần nào thật sự cần nói, phần nào chỉ là hơi nóng.",
+    "keywords": ["lời sắc", "chạnh lòng", "chậm một nhịp"]
+  },
+  {
+    "card_id": "three-of-swords",
+    "orientation": "upright",
+    "variant": 3,
+    "summary": "Một sự thật khó nghe có thể lộ ra hôm nay, đau thật nhưng cũng mở chỗ cho điều thật hơn.",
+    "card": { "name": "Ba Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 4, "love": 3, "career": 4, "finance": 4, "energy": 3 },
+    "headline": "Sự thật đau một lần, ảo tưởng đau từng ngày.",
+    "forecast": [
+      "Một tín hiệu bạn từng gạt đi có khả năng quay lại, rõ hơn lần trước.",
+      "Bạn có xu hướng nhận ra mình đã cố thuyết phục bản thân về một điều trái với cảm giác của mình.",
+      "Có thể một cuộc chia xa, một lời từ chối hoặc một câu chốt lại xuất hiện, gọn hơn bạn lo."
+    ],
+    "love": "Có thể hôm nay bạn thấy rõ một mối quan hệ không cho bạn điều bạn cần, dù bạn đã cố nhiều cách. Rõ ràng dù đau vẫn nhẹ hơn mập mờ kéo dài. Người đang tìm hiểu ai đó nên tin vào hành động của họ hơn là lời hứa.",
+    "career": "Một thực tế về công việc có thể trở nên khó chối: dự án không đi tới, vị trí không phát triển, hoặc cách đối xử chưa đúng. Đau, nhưng đây là thông tin để bạn quyết định bước tiếp. Sinh viên nhìn lại kết quả thật thay vì kỳ vọng.",
+    "finance": "Có thể có một con số bạn né nhìn, như tổng nợ, tổng chi hay khoản hụt. Mở nó ra một lần cho rõ thường đỡ nặng hơn để nó lơ lửng. Chỉ cần nhìn, chưa phải giải quyết hết trong hôm nay.",
+    "insight": "Có thể bạn đã biết từ lâu, và nỗi đau hôm nay là cảm giác khi cuối cùng không còn giả vờ nữa. Người ta thường đau nhất ở lúc ngừng tự dối, chứ không phải lúc sự việc xảy ra.",
+    "memorable_message": "Nhìn rõ không làm bạn mất điều gì thật, chỉ mất một câu chuyện đẹp.",
+    "advice": "Viết điều bạn vừa nhìn rõ thành một câu đơn giản, không tô vẽ. Rồi cho mình một ngày để nó lắng xuống trước khi quyết gì. Nếu thấy quá nặng, hãy kể với một người thật mà bạn tin.",
+    "keywords": ["sự thật khó nghe", "ngừng tự dối", "chia xa"]
+  },
+  {
+    "card_id": "three-of-swords",
+    "orientation": "reversed",
+    "variant": 1,
+    "summary": "Vết thương đang đóng vảy: hôm nay có thể hơi ngứa ngáy, nhưng đó là dấu hiệu bạn đang lành.",
+    "card": { "name": "Ba Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 6, "finance": 6, "energy": 6 },
+    "headline": "Bạn đã đi xa hơn bạn nghĩ so với lúc đau nhất.",
+    "forecast": [
+      "Bạn có xu hướng nghĩ đến chuyện cũ mà không còn nhói như trước.",
+      "Một ngày bỗng nhẹ hơn bạn dự đoán, hoặc một tiếng cười tự nhiên đến mà bạn không thấy tội lỗi.",
+      "Có thể có một phút chạm lại cảm xúc cũ, và lần này nó đi qua nhanh hơn."
+    ],
+    "love": "Trái tim có khả năng mở ra dần, với người mới hoặc với chính mình. Đừng so tốc độ lành của bạn với ai khác. Người đang yêu có thể kể một điều từng giấu để gần nhau hơn.",
+    "career": "Sự tập trung quay lại từng chút, và bạn làm việc đỡ bị kéo lại bởi chuyện trong lòng. Đây là lúc nhận lại những việc bạn đã tạm buông. Sinh viên có thể thấy bài học vào đầu hơn mấy hôm trước.",
+    "finance": "Bạn ít chi tiền để xoa dịu cảm xúc hơn, và việc quản lý tiền thấy bình tĩnh hơn. Hôm nay hợp để dọn lại các khoản đã bỏ bê trong lúc buồn. Tiến độ nhỏ cũng có giá trị.",
+    "insight": "Có thể bạn đang chấm điểm tốc độ hồi phục của mình, trong khi nó đã diễn ra rồi. Lành không phải là quên, mà là nhớ mà vẫn thở đều.",
+    "memorable_message": "Lành lại không báo trước, bạn chỉ chợt nhận ra hôm nay mình nhớ mà không nhói.",
+    "advice": "Ghi lại một điều bạn làm được hôm nay mà tháng trước chưa làm nổi. Đừng ép mình phải hết hẳn, vừa đủ lành là được.",
+    "keywords": ["hồi phục", "vết thương đóng vảy", "nhẹ dần"]
+  },
+  {
+    "card_id": "three-of-swords",
+    "orientation": "reversed",
+    "variant": 2,
+    "summary": "Hôm nay hợp để cân nhắc tha thứ, không phải vì người kia xứng đáng mà vì bạn xứng đáng được nhẹ tay hơn.",
+    "card": { "name": "Ba Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 7, "finance": 6, "energy": 6 },
+    "headline": "Buông một mối giận không cần sự cho phép của ai.",
+    "forecast": [
+      "Bạn có xu hướng nghĩ về một người từng làm mình tổn thương và bất ngờ thấy mình bớt gắt.",
+      "Một lời xin lỗi, một tin nhắn hoặc một cử chỉ hòa giải có thể xuất hiện.",
+      "Có thể bạn nhận ra mình cũng từng làm ai đó đau, và muốn nói với họ một lời."
+    ],
+    "love": "Chuyện cũ với người cũ có thể được nhìn lại mà không còn kịch tính. Tha thứ không có nghĩa là quay lại hay xóa ranh giới. Người đang yêu thử nói ra điều đã nén sau một lần cãi vã cũ.",
+    "career": "Một mâu thuẫn với đồng nghiệp hoặc cấp trên có xu hướng dịu xuống nếu bạn mở một cánh cửa nhỏ. Bắt đầu bằng một câu bình thường về công việc. Bạn không cần thành bạn thân, chỉ cần bớt gánh nặng.",
+    "finance": "Có thể một khoản tiền hoặc một chuyện chia chác từng làm bạn cay vẫn còn nằm đó. Hôm nay hợp để quyết định bỏ qua hay đòi lại một cách bình tĩnh. Dù chọn gì, đừng dùng nó làm cớ trả đũa.",
+    "insight": "Có thể bạn đang mang mối giận như một lớp bảo vệ, vì buông ra thấy như để mặc người kia thắng. Nhưng người giữ thù thường là người bị giam, còn người kia ra ngoài từ lâu rồi.",
+    "memorable_message": "Tha thứ là thôi vác hóa đơn của người khác.",
+    "advice": "Viết một lá thư không gửi cho người đó, nói hết rồi kết bằng một câu buông. Việc tha thứ có thể cần nhiều lần, và thời điểm do bạn quyết định.",
+    "keywords": ["tha thứ", "buông giận", "hòa giải"]
+  },
+  {
+    "card_id": "three-of-swords",
+    "orientation": "reversed",
+    "variant": 3,
+    "summary": "Có thể bạn đang giữ một nỗi đau đã cũ, không phải vì nó còn đau mà vì buông ra thì tay trống.",
+    "card": { "name": "Ba Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 6, "finance": 5, "energy": 5 },
+    "headline": "Có những vết thương bạn giữ vì quen, không phải vì còn đau.",
+    "forecast": [
+      "Bạn có xu hướng mở lại một đoạn tin nhắn, tấm ảnh hay bài hát cũ chỉ để kiểm tra mình còn đau không.",
+      "Một lời an ủi có thể khiến bạn muốn kể lại câu chuyện quen thuộc lần thứ một trăm.",
+      "Có thể bạn nhận ra mình đang kể chuyện cũ bằng cùng một nhịp điệu, và nó dần nhạt đi."
+    ],
+    "love": "Quá khứ tình cảm có thể vẫn chiếm một chỗ trong cách bạn nhìn người mới. Cẩn thận với việc đo mọi người bằng thước của người cũ. Người đang yêu nên tách điều của hôm nay khỏi điều của lần trước.",
+    "career": "Một thất bại hay lời chê cũ có thể vẫn đang kìm bạn nhận cơ hội mới. Hôm nay có xu hướng bạn ngại đề xuất vì còn nhớ lần bị từ chối. Thử coi lần này là một việc khác.",
+    "finance": "Nỗi sợ từ một lần mất tiền hay mất công sức có thể khiến bạn phòng thủ quá mức. Rà lại xem quy tắc nào bạn đặt ra vì lý do thật, quy tắc nào chỉ vì vết đau cũ. Điều chỉnh nhỏ thôi, không cần cách mạng.",
+    "insight": "Có thể nỗi đau đã trở thành một phần danh tính, nên buông ra thấy như mất đi chính mình. Bạn có thể nhớ chuyện cũ mà không cần mang nó theo như một thẻ căn cước.",
+    "memorable_message": "Có cái đau bạn giữ như giữ chiếc áo cũ: không còn vừa, nhưng mặc quen rồi.",
+    "advice": "Hôm nay thử bỏ việc kiểm tra: không mở lại, không đọc lại, không hỏi thăm người cũ. Nếu thấy khó, đó là dấu hiệu để nhờ một người thân hoặc chuyên gia đồng hành.",
+    "keywords": ["buông quá khứ", "bám nỗi đau", "danh tính cũ"]
+  },
+  {
+    "card_id": "four-of-swords",
+    "orientation": "upright",
+    "variant": 1,
+    "summary": "Hôm nay hợp để lùi một bước và nạp lại pin; dừng đúng lúc cũng là một phần của việc đi xa.",
+    "card": { "name": "Bốn Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 4, "finance": 6, "energy": 7 },
+    "headline": "Cất dao vào bao thì lần sau mới còn sắc.",
+    "forecast": [
+      "Bạn có xu hướng thấy đầu óc chậm lại, và đó là tín hiệu cần nghỉ chứ không phải lười.",
+      "Một việc không gấp có thể tự nhiên dời sang ngày khác mà chẳng gây hậu quả gì.",
+      "Khả năng cao bạn nghĩ ra lời giải cho một việc khó đúng lúc đang không nghĩ gì."
+    ],
+    "love": "Hôm nay hợp để ở bên người mình thương mà không cần làm gì lớn: một bữa cơm yên, một buổi tối ít nói. Người độc thân có thể thấy thoải mái ở một mình hơn là đi tìm kiếm. Tránh những cuộc nói chuyện nặng khi cả hai đều đang cạn pin.",
+    "career": "Tốc độ chậm lại, và đó là một lựa chọn hợp lý chứ không phải tụt lại. Hãy lùi một chút khỏi việc đang kẹt để nhìn toàn cảnh. Sinh viên hợp để ôn nhẹ và ngủ đủ trước kỳ thi hoặc deadline.",
+    "finance": "Dòng tiền ổn ở mức quan sát, không cần động chạm gì lớn. Hôm nay hợp để giữ nguyên thay vì đưa ra quyết định mới. Khi nghỉ ngơi, ví cũng là nơi ít phải tốn nhất.",
+    "insight": "Có thể bạn vẫn nghĩ mình chỉ được nghỉ khi xong hết việc, trong khi việc thì chưa bao giờ xong hết. Quyền nghỉ không phải phần thưởng cuối chặng, nó là một phần của chặng.",
+    "memorable_message": "Con ngựa đi xa nhất là con biết dừng lại uống nước.",
+    "advice": "Chọn một khoảng bốn mươi phút không màn hình, không việc, và coi nó như một cuộc hẹn. Quay lại guồng sau đó vẫn còn đủ thời gian.",
+    "keywords": ["nghỉ ngơi", "nạp lại pin", "lùi một bước"]
+  },
+  {
+    "card_id": "four-of-swords",
+    "orientation": "upright",
+    "variant": 2,
+    "summary": "Đầu bạn cần yên tĩnh hơn là cần thêm ý tưởng, và hôm nay là ngày để cho nó yên.",
+    "card": { "name": "Bốn Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 5, "finance": 6, "energy": 7 },
+    "headline": "Ý nghĩ cũng cần giờ nghỉ.",
+    "forecast": [
+      "Bạn có xu hướng thấy xung quanh ồn ào hơn thường lệ, từ thông báo, tin nhắn đến tiếng người.",
+      "Một khoảng im lặng ngắn có khả năng sắp xếp lại điều mà cả buổi suy nghĩ không giải được.",
+      "Có thể bạn muốn tìm một nơi thật vắng, như một quán yên hoặc một góc ban công."
+    ],
+    "love": "Bạn cần ít lời hơn: ở cạnh nhau trong im lặng thoải mái đã đủ gần. Nếu người kia cũng ít nói, đừng đọc thành lạnh nhạt. Người độc thân hợp để có thời gian một mình nghe lòng mình.",
+    "career": "Thay vì họp thêm hay brainstorm thêm, hôm nay hợp để làm một việc cần tập trung và tắt thông báo. Một khoảng trống trong lịch có thể là món quà. Sinh viên thử học theo từng khối ngắn có giờ nghỉ rõ ràng.",
+    "finance": "Không có nhiều biến động, nên đây là ngày tốt để nhìn lại bảng chi tiêu một cách nhẹ nhàng. Bạn không cần mua gì để tự thưởng cho việc nghỉ ngơi. Yên tĩnh cũng là thứ miễn phí.",
+    "insight": "Có thể bạn tưởng mình đang bế tắc, trong khi đầu chỉ đang quá tải. Nhiều câu trả lời xuất hiện khi bạn ngừng đào.",
+    "memorable_message": "Nước chỉ trong khi bạn thôi khuấy.",
+    "advice": "Tắt thông báo ba mươi phút, ngồi ở nơi không ai cần gì từ bạn. Nếu ý nghĩ cứ chạy, ghi ra giấy rồi để đó.",
+    "keywords": ["yên tĩnh", "đầu óc nghỉ", "im lặng"]
+  },
+  {
+    "card_id": "four-of-swords",
+    "orientation": "upright",
+    "variant": 3,
+    "summary": "Tạm dừng một việc không có nghĩa là bỏ nó, miễn là bạn biết mình quay lại lúc nào.",
+    "card": { "name": "Bốn Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 5, "career": 5, "finance": 6, "energy": 7 },
+    "headline": "Dừng có hẹn giờ quay lại là chiến lược, không phải bỏ cuộc.",
+    "forecast": [
+      "Một việc đang dang dở có xu hướng cần được đóng băng tạm thời để bạn khỏi cháy.",
+      "Bạn dễ nhận được một lý do hợp lý để hoãn một cuộc hẹn hoặc một deadline mềm.",
+      "Có thể bạn thấy tội lỗi khi nghỉ, rồi nhận ra không ai thật sự đang đếm."
+    ],
+    "love": "Một mối quan hệ có thể cần khoảng thở, và nói rõ đó là nghỉ một chút chứ không phải rời đi. Cả hai thường dễ chịu hơn khi biết ý định thật. Người độc thân tạm gác việc tìm kiếm cũng không có nghĩa là bị bỏ lại.",
+    "career": "Nếu dự án kẹt, hôm nay hợp để dừng và ghi lại điểm sẽ tiếp tục, thay vì cố tiếp trong mệt mỏi. Một ghi chú rõ ràng giúp lần quay lại nhanh hơn. Sinh viên có thể nghỉ có kế hoạch giữa hai phần học.",
+    "finance": "Hôm nay hợp để tạm hoãn một khoản chi chưa cần thiết hoặc một quyết định chưa gấp. Hoãn không phải bỏ, nên hãy ghi ngày xem lại. Có chốt thời gian thì hoãn mới thấy yên tâm.",
+    "insight": "Có thể bạn sợ rằng nếu dừng thì sẽ không đi tiếp được nữa. Nghỉ có hẹn là cách cho thấy bạn tin mình sẽ quay lại.",
+    "memorable_message": "Đặt dấu lặng đúng chỗ không làm hỏng bản nhạc.",
+    "advice": "Chọn một việc đang kẹt, ghi một dòng cho biết sẽ tiếp tục từ đâu và vào lúc nào rồi đóng nó lại. Sau đó hãy thật sự nghỉ.",
+    "keywords": ["tạm dừng", "nghỉ có hẹn", "hồi phục"]
+  },
+  {
+    "card_id": "four-of-swords",
+    "orientation": "reversed",
+    "variant": 1,
+    "summary": "Pin đã báo đỏ từ lâu, và hôm nay cơ thể lẫn đầu óc có xu hướng đòi lại những lần bạn hoãn nghỉ.",
+    "card": { "name": "Bốn Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 3, "finance": 4, "energy": 2 },
+    "headline": "Pin báo đỏ không phải để bạn cố thêm một vòng.",
+    "forecast": [
+      "Bạn có xu hướng thấy một việc quen thuộc bỗng nặng gấp đôi.",
+      "Dễ có những lỗi nhỏ không giống bạn, như quên, nhầm hay gõ sai.",
+      "Có thể một người thân hoặc đồng nghiệp nhận ra vẻ mệt của bạn trước khi bạn thừa nhận."
+    ],
+    "love": "Mệt dễ khiến bạn cộc hơn với người thân thiết và nhạy cảm hơn với lời người khác. Hãy nói thật với họ rằng bạn đang cạn năng lượng, thay vì để họ tự đoán. Người độc thân hôm nay không cần gồng đi gặp ai.",
+    "career": "Có thể bạn vẫn đang chạy bằng quán tính, và hiệu quả mỗi giờ làm giảm dần. Chọn ba việc thật cần, còn lại dời hoặc nhờ giúp. Sinh viên thức khuya ôn thêm thường nhớ kém hơn là ngủ đủ.",
+    "finance": "Mệt có thể khiến bạn chi tiền cho sự tiện lợi, như đặt đồ ăn, gọi xe hoặc mua gì đó để dỗ mình. Không sao nếu có kiểm soát, nhưng hãy để ý tổng cuối ngày. Hạn chế quyết định tiền lớn khi đầu đang đục.",
+    "insight": "Có thể bạn quen coi chịu đựng là một năng lực, nên thấy nghỉ như thua. Nhưng chịu đựng không phải kỹ năng khi nó kéo dài quá lâu.",
+    "memorable_message": "Cơ thể không nhận giấy hẹn, nó chỉ thu nợ.",
+    "advice": "Cắt một việc khỏi danh sách hôm nay và đi ngủ sớm hơn thường lệ ít nhất ba mươi phút. Nếu sự mệt kéo dài nhiều tuần, hãy cân nhắc trò chuyện với bác sĩ hoặc một người bạn tin cậy.",
+    "keywords": ["kiệt sức", "hoãn nghỉ", "cạn pin"]
+  },
+  {
+    "card_id": "four-of-swords",
+    "orientation": "reversed",
+    "variant": 2,
+    "summary": "Bạn có nghỉ nhưng chưa thật sự được nghỉ, và hôm nay cần một kiểu dừng khác.",
+    "card": { "name": "Bốn Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 3 },
+    "headline": "Nằm im chưa chắc đã là nghỉ.",
+    "forecast": [
+      "Bạn có xu hướng cầm điện thoại lướt hàng giờ mà đứng dậy vẫn thấy mệt.",
+      "Đầu óc dễ chạy việc dù người đang nằm, nhất là với những chuyện chưa có lời giải.",
+      "Có thể bạn bực vì không biết mình muốn gì: ngủ cũng không hẳn, làm cũng không nổi."
+    ],
+    "love": "Bạn có thể ngồi cạnh người thương nhưng tâm trí ở chỗ khác, và họ nhận ra. Đặt điện thoại xuống mười phút để nghe họ nói sẽ tạo khác biệt lớn. Người độc thân đừng dùng việc lướt app hẹn hò để trốn cảm giác trống mỏi.",
+    "career": "Bạn dễ làm việc kiểu hai chân hai thuyền: file thì mở mà đầu đã ở nơi khác. Hôm nay hợp để chia rạch ròi giờ làm và giờ nghỉ, nghỉ ra nghỉ, làm ra làm. Sinh viên học theo các khối ngắn và rời màn hình giữa các khối.",
+    "finance": "Sự mệt dễ khiến bạn chi tiền cho giải trí thụ động, như đăng ký thêm, mua thêm, xem thêm. Hãy xem lại một khoản đăng ký bạn không dùng. Nghỉ thật thường rẻ hơn nghỉ giả.",
+    "insight": "Có thể thứ bạn thiếu không phải thêm giờ rảnh, mà là một giờ rảnh không bị chia mảnh. Nghỉ nửa vời giống uống nước từng giọt giữa trưa nắng.",
+    "memorable_message": "Lướt điện thoại không phải nghỉ ngơi, chỉ là mệt theo một cách khác.",
+    "advice": "Thử một kiểu nghỉ không màn hình trong hai mươi phút: đi bộ chậm, nằm nhìn trần nhà hoặc tắm lâu hơn thường lệ. Nếu đầu cứ chạy, cứ để nó chạy và đừng bắt nó phải im.",
+    "keywords": ["nghỉ giả", "mệt kéo dài", "tách khỏi màn hình"]
+  },
+  {
+    "card_id": "four-of-swords",
+    "orientation": "reversed",
+    "variant": 3,
+    "summary": "Bạn mệt nhưng cứ xin phép mình nghỉ mãi chưa được, và đó chính là phần cần chăm sóc hôm nay.",
+    "card": { "name": "Bốn Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 3 },
+    "headline": "Người cho phép mình nghỉ thường làm việc tốt hơn người cứ xin phép.",
+    "forecast": [
+      "Bạn có xu hướng thấy có lỗi khi ngồi không, dù đã làm việc cả ngày.",
+      "Tối đến, đầu dễ chạy lại danh sách việc, nhất là những việc chưa xong.",
+      "Có thể bạn cáu với một chuyện rất nhỏ, rồi nhận ra gốc là thiếu ngủ chứ không phải chuyện đó."
+    ],
+    "love": "Bạn có thể ít kiên nhẫn hơn với người kia, rồi lại thấy có lỗi vì điều đó. Một câu như hôm nay mình hơi quá tải, không phải do bạn sẽ giúp giải tỏa. Người độc thân không cần ép mình xã giao nếu chưa muốn.",
+    "career": "Nghĩ về công việc ngoài giờ và kiểm tra tin nhắn lúc nghỉ khiến bạn chưa bao giờ rời chỗ làm hẳn. Hôm nay hợp để đặt một giờ dừng và giữ đúng nó. Sinh viên không cần học sát giờ ngủ, cái đầu lúc đó chưa chắc còn nhớ.",
+    "finance": "Có xu hướng mua thứ gì đó để thưởng cho cái mệt, như một ly đắt hay một món đồ nhỏ. Một món nhỏ có kiểm soát là ổn. Điều đáng để ý là thói quen tự thưởng thay cho việc nghỉ.",
+    "insight": "Có thể bạn dùng sự bận rộn để chứng minh giá trị, nên nghỉ giống như tụt giá. Giá trị của bạn không giảm khi bạn ngủ.",
+    "memorable_message": "Đừng chờ được cho phép, tờ giấy phép nghỉ đó bạn tự ký được.",
+    "advice": "Đặt giờ dừng cho hôm nay, đúng giờ đó cất điện thoại việc và máy tính. Nếu cảm giác tội lỗi xuất hiện, để nó đứng đó và vẫn nghỉ.",
+    "keywords": ["tội lỗi khi nghỉ", "quá tải", "cho phép mình dừng"]
+  }
+]

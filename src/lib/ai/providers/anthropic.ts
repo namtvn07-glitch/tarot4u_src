@@ -64,4 +64,31 @@ export const anthropicProvider: AiProvider = {
     }
     return response.parsed_output;
   },
+
+  async generateJson({ system, userTurn, schema, maxTokens }) {
+    const response = await getAnthropicClient().messages.parse({
+      model: env.ANTHROPIC_MODEL,
+      max_tokens: maxTokens,
+      // Cùng cấu hình với streamCompletion: Sonnet 5 mặc định bật adaptive
+      // thinking nếu không tắt tường minh.
+      thinking: { type: "disabled" },
+      output_config: { effort: "low", format: zodOutputFormat(schema) },
+      system,
+      messages: [{ role: "user", content: userTurn }],
+    });
+
+    const stopReason = mapStopReason(response.stop_reason);
+    if (stopReason === "refusal") throw new Error("ai_refusal");
+    if (!response.parsed_output) throw new Error("ai_json_parse_failed");
+
+    return {
+      data: response.parsed_output,
+      stopReason,
+      model: response.model,
+      usage: {
+        inputTokens: response.usage.input_tokens,
+        outputTokens: response.usage.output_tokens,
+      },
+    };
+  },
 };

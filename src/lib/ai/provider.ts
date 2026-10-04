@@ -26,6 +26,21 @@ export interface AiClassifyArgs<T> {
   maxTokens: number;
 }
 
+export interface AiGenerateJsonArgs<T> {
+  system: string;
+  userTurn: string;
+  schemaName: string;
+  schema: z.ZodType<T>;
+  maxTokens: number;
+}
+
+export interface AiGenerateJsonResult<T> {
+  data: T;
+  stopReason: AiStopReason;
+  model: string;
+  usage: { inputTokens: number; outputTokens: number };
+}
+
 export interface AiProvider {
   streamCompletion(args: {
     system: string;
@@ -36,6 +51,12 @@ export interface AiProvider {
   // cho bước kiểm duyệt/triage câu hỏi (src/lib/moderation.ts), không phải
   // cho Lớp Cá nhân (đó là streamCompletion).
   classify<T>(args: AiClassifyArgs<T>): Promise<T>;
+  // Sinh JSON đầy đủ bằng model CHÍNH (không phải model triage), không stream.
+  // Khác classify() ở chỗ: dùng AI_PROVIDER, trả thêm usage/model/stopReason để
+  // route ghi vào `readings`, và chịu được đầu ra dài (nghìn token).
+  // Ném "ai_json_parse_failed" khi JSON không hợp lệ theo schema — withAiRetry
+  // coi đó là lỗi tạm thời.
+  generateJson<T>(args: AiGenerateJsonArgs<T>): Promise<AiGenerateJsonResult<T>>;
 }
 
 const providers: Record<typeof env.AI_PROVIDER, AiProvider> = {

@@ -255,7 +255,7 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
                   </div>
 
                   <h3 className="font-display text-base text-white font-semibold mb-2 group-hover:text-[#d4af37] transition-colors line-clamp-2">
-                    &quot;{reading.question || "Trải bài 3 lá chuyên sâu"}&quot;
+                    {reading.question ? `"${reading.question}"` : reading.title || "Trải bài 3 lá chuyên sâu"}
                   </h3>
 
                   <div className="flex gap-2 mb-3">
@@ -269,9 +269,9 @@ export const AccountScreen: React.FC<AccountScreenProps> = ({
                     ))}
                   </div>
 
-                  {reading.personalBody && (
+                  {(reading.summary || reading.personalBody) && (
                     <p className="text-xs text-[#7a6e5d] line-clamp-2 italic">
-                      &quot;{reading.personalBody.normalize("NFC")}&quot;
+                      &quot;{(reading.summary || reading.personalBody || "").normalize("NFC")}&quot;
                     </p>
                   )}
                 </div>

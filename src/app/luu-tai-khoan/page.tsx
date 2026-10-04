@@ -14,7 +14,7 @@ import type { AppScreen } from "@/types/tarot";
 
 const SCREEN_PATHS: Partial<Record<AppScreen, string>> = {
   home: "/",
-  "quick-read": "/trai-bai",
+  daily: "/hom-nay",
   "deep-read": "/doc-sau",
   library: "/thu-vien",
   account: "/tai-khoan",

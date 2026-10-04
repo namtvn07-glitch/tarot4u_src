@@ -1,0 +1,380 @@
+[
+  {
+    "card_id": "the-moon",
+    "orientation": "upright",
+    "variant": 1,
+    "summary": "Hôm nay mọi thứ nhìn qua một lớp sương: cảm giác bất an có thể lớn hơn sự thật, nên đừng vội kết luận.",
+    "card": { "name": "Mặt Trăng", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 5, "finance": 5, "energy": 4 },
+    "headline": "Ánh trăng làm bóng cây trông như người lạ.",
+    "forecast": [
+      "Bạn có xu hướng đọc một tin nhắn ngắn rồi tự dựng cả một kịch bản trong đầu.",
+      "Một nỗi lo mơ hồ có thể xuất hiện không rõ lý do, nhất là vào buổi tối khi mọi thứ yên xuống.",
+      "Có thể bạn mơ thấy hoặc nhớ lại một chuyện cũ, và nó khiến cả ngày mang một màu hơi xám."
+    ],
+    "love": "Cảm xúc nhạy hơn thường lệ nên một câu trả lời cụt lủn dễ bị hiểu thành điều gì đó nặng nề. Nếu đang tìm hiểu ai, đừng đoán ý đối phương khi chỉ có nửa thông tin. Người độc thân dễ bị cuốn vào hình dung về một người hơn là con người thật của họ.",
+    "career": "Việc dễ trôi trong trạng thái lưng chừng: yêu cầu chưa rõ, người phụ trách chưa chốt, còn bạn thì cứ phỏng đoán. Hỏi lại một câu cho rõ sẽ tiết kiệm cả buổi lo xa. Sinh viên nên tránh học những phần mình đang sợ vào đúng lúc đầu óc rối.",
+    "finance": "Dòng tiền không có biến động lớn, nhưng nỗi lo hụt hẫng có thể làm bạn nhìn con số thấy tệ hơn thực tế. Mở bảng chi tiêu ra nhìn một lần thật cụ thể thì tốt hơn lo suông. Hoãn những quyết định tiền bạc lớn đến khi đầu óc yên hơn.",
+    "insight": "Có thể bạn không đang gặp nguy hiểm thật, mà đang gặp một nỗi sợ chưa có tên nên cứ phình ra trong bóng tối. Thứ chưa nhìn rõ luôn trông to hơn thứ đã được đặt lên bàn.",
+    "memorable_message": "Bóng tối trong phòng không đáng sợ bằng việc không dám bật đèn lên xem.",
+    "advice": "Khi thấy lo, viết ra giấy đâu là sự kiện đã xảy ra và đâu chỉ là điều bạn đang tưởng tượng. Quyết định quan trọng thì để sang lúc trời sáng, bạn vẫn có toàn quyền chọn.",
+    "keywords": ["mơ hồ", "bất an", "sương mù"]
+  },
+  {
+    "card_id": "the-moon",
+    "orientation": "upright",
+    "variant": 2,
+    "summary": "Trực giác đang lên tiếng nhưng lẫn với tạp âm: hôm nay hợp để lắng nghe cơ thể, chưa hợp để chốt hạ.",
+    "card": { "name": "Mặt Trăng", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 5, "love": 6, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Linh cảm có thật, nhưng nó nói thì thầm chứ không hét.",
+    "forecast": [
+      "Bạn có xu hướng cảm nhận ra điều gì đó lệch lạc ở một người hoặc một tình huống trước khi có bằng chứng.",
+      "Một giấc ngủ chập chờn hoặc cảm giác nặng nặng ở bụng, ở vai có thể là cách cơ thể nhắc bạn đang gồng.",
+      "Có thể bạn bắt gặp một biểu tượng, một bài hát hay một câu nói cứ lặp đi lặp lại như muốn nhắn gì đó."
+    ],
+    "love": "Bạn đọc được cảm xúc của người khác khá tốt hôm nay, nhưng cũng dễ gán cảm xúc của mình lên họ. Nếu thấy có điều gì chưa ổn trong một mối quan hệ, hãy hỏi nhẹ thay vì ngầm giận. Người độc thân thử để ý ai khiến mình thấy yên chứ không chỉ khiến mình hồi hộp.",
+    "career": "Chi tiết nhỏ bạn thấy lạ trong một bản báo cáo hay một cuộc họp rất đáng ghi lại. Đừng bỏ qua cảm giác đó, nhưng chưa nên tuyên bố là ai sai. Học tập thì hợp với việc ôn nhẹ hơn là kiến thức mới nặng đầu.",
+    "finance": "Linh cảm về một khoản chi hay một lời mời hợp tác có thể có lý, song hãy đối chiếu bằng giấy tờ và con số. Cảm giác nhẹ nhõm hay tức ngực khi nghĩ đến tiền là thông tin, chưa phải kết luận.",
+    "insight": "Có thể bạn quen nghe lý trí đến mức xem nhẹ tín hiệu từ cơ thể. Phân biệt trực giác với lo lắng là bài tập hôm nay: trực giác thường bình thản, lo lắng thì gấp gáp.",
+    "memorable_message": "Trực giác thì nhẹ giọng, nỗi sợ thì to tiếng, nghe kỹ sẽ biết ai đang nói.",
+    "advice": "Dành mười phút yên tĩnh không điện thoại, hỏi bản thân đang thật sự cảm thấy gì rồi ghi một dòng. Đừng hành động ngay theo cảm giác, hãy kiểm chứng một lớp nữa.",
+    "keywords": ["trực giác", "tín hiệu mờ", "lắng nghe"]
+  },
+  {
+    "card_id": "the-moon",
+    "orientation": "upright",
+    "variant": 3,
+    "summary": "Thông tin hôm nay thiếu một mảnh: dễ hiểu lầm, dễ tự lấp chỗ trống bằng điều tệ nhất.",
+    "card": { "name": "Mặt Trăng", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 4, "finance": 5, "energy": 5 },
+    "headline": "Chỗ trống trong câu chuyện đừng vội lấp bằng nỗi sợ.",
+    "forecast": [
+      "Một cuộc trao đổi có thể kết thúc mà bạn vẫn không biết chắc đối phương nghĩ gì.",
+      "Bạn dễ nghe một lời đồn hoặc một thông tin nửa vời rồi cảm thấy bứt rứt.",
+      "Có khả năng một việc trông rắc rối hôm nay hóa ra đơn giản hơn nhiều khi bạn hỏi thẳng người trong cuộc."
+    ],
+    "love": "Khoảng im lặng giữa hai tin nhắn dễ bị bạn đọc như một lời từ chối. Thực tế người kia có thể chỉ bận, mệt hoặc đang cân nhắc cách nói. Nếu cần biết, hãy hỏi một câu rõ ràng thay vì dò từng dấu hiệu nhỏ.",
+    "career": "Có thể xuất hiện một thông báo mập mờ, một yêu cầu chưa rõ hoặc một đồng nghiệp nói nửa chừng. Năng lượng nghiêng về hiểu sai hơn là hiểu đúng, nên hãy xác nhận lại bằng văn bản. Cẩn thận với những lời cam kết khi chưa nắm đủ bối cảnh.",
+    "finance": "Chưa nên ký, chuyển khoản hay cam kết gì khi điều khoản còn chỗ khó hiểu. Một chữ nhỏ bị bỏ sót hôm nay có thể thành phiền phức sau này. Hỏi lại cho rõ không làm bạn ngớ ngẩn, mà làm ví bạn an toàn hơn.",
+    "insight": "Có thể điều bạn mệt không phải sự thật khó nghe, mà là việc phải sống với dấu hỏi quá lâu. Khi không có đáp án, đầu óc thường tự viết một đáp án, và thường là bản đáng sợ nhất.",
+    "memorable_message": "Đầu óc ghét khoảng trống, nên hay nhét vào đó mấy thứ bạn không hề đặt hàng.",
+    "advice": "Trước khi phản ứng với điều gì, tự hỏi: mình đang có bằng chứng, hay đang có tưởng tượng? Nếu chỉ là tưởng tượng, hãy hỏi người thật một câu ngắn gọn.",
+    "keywords": ["thiếu thông tin", "hiểu lầm", "hỏi cho rõ"]
+  },
+  {
+    "card_id": "the-moon",
+    "orientation": "reversed",
+    "variant": 1,
+    "summary": "Màn sương đang mỏng dần: nỗi sợ bạn mang mấy hôm nay có thể nhẹ đi khi nhìn thẳng vào nó.",
+    "card": { "name": "Mặt Trăng", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 7, "love": 7, "career": 6, "finance": 6, "energy": 6 },
+    "headline": "Nhìn thẳng vào bóng, bạn sẽ thấy nó chỉ là cái áo treo trên móc.",
+    "forecast": [
+      "Một nỗi lo bám bạn nhiều ngày có xu hướng nhẹ bớt, có khi chỉ vì một câu trả lời đơn giản.",
+      "Bạn dễ nhận ra mình đã lo cho một chuyện mà thực ra chưa bao giờ xảy ra.",
+      "Có thể buổi tối hôm nay bạn ngủ ngon hơn mấy hôm trước."
+    ],
+    "love": "Sự nghi ngờ trong lòng có khả năng dịu xuống khi bạn thôi tự đoán. Nếu từng thấy khó hiểu về một người, hôm nay có thể bạn nhận ra họ chưa bao giờ phức tạp như bạn nghĩ. Người độc thân cảm thấy nhẹ nhõm hơn khi bước vào những cuộc gặp mới.",
+    "career": "Công việc từng khiến bạn ngại mở ra vì không biết bắt đầu từ đâu hôm nay dễ lộ ra lối vào. Bạn bớt rối và nhìn rõ phần nào cần làm trước. Sinh viên có thể thấy kiến thức mà mình tưởng khó hóa ra không đến nỗi vậy.",
+    "finance": "Cảm giác lo về tiền có xu hướng dịu đi khi bạn cầm lên các con số thật. Có thể bạn tính ra tình hình ổn hơn mình tưởng. Vẫn nên giữ thói quen ghi chép để nỗi lo sau này không có chỗ mà phình ra nữa.",
+    "insight": "Có thể bạn đã tiêu rất nhiều sức lực cho việc né một điều chưa từng đáng sợ như hình dung. Nhẹ nhõm hôm nay đến không phải do hoàn cảnh đổi mà do bạn dám nhìn nó rõ hơn.",
+    "memorable_message": "Phần lớn quái vật dưới gầm giường biến mất ngay khi bạn cúi xuống nhìn.",
+    "advice": "Chọn một nỗi lo cũ, đặt tên nó ra thành một câu cụ thể, rồi làm một việc nhỏ để kiểm chứng. Nếu vẫn còn đáng lo, ít nhất bạn đã biết nó to đến đâu.",
+    "keywords": ["nhẹ lòng", "bớt sợ", "nhìn rõ"]
+  },
+  {
+    "card_id": "the-moon",
+    "orientation": "reversed",
+    "variant": 2,
+    "summary": "Một điều từng bị che nay có thể lộ ra: hôm nay hợp để đối diện sự thật dù nó không hoàn toàn dễ chịu.",
+    "card": { "name": "Mặt Trăng", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 7, "love": 6, "career": 7, "finance": 6, "energy": 6 },
+    "headline": "Sự thật ra mặt hơi vụng về, nhưng vẫn tốt hơn một lời nói dối khéo.",
+    "forecast": [
+      "Có thể bạn nghe được một thông tin làm nhiều mảnh ghép trước đó bỗng khớp với nhau.",
+      "Một chuyện từng mập mờ có xu hướng được nói rõ, bởi chính bạn hoặc bởi người khác.",
+      "Bạn dễ nhận ra một dấu hiệu mình đã thấy từ lâu nhưng cố làm lơ."
+    ],
+    "love": "Một cuộc nói chuyện thẳng thắn có khả năng làm không khí sáng ra, dù lúc đầu hơi ngượng. Nếu có điều bạn giấu hoặc nghi ngờ điều người kia giấu, hôm nay là lúc mở lời bằng giọng bình tĩnh. Người độc thân thì nên thành thật về điều mình thật sự muốn.",
+    "career": "Một sai sót hoặc hiểu lầm chưa được nhắc tới có thể lộ diện, và việc xử lý sớm sẽ rẻ hơn xử lý muộn. Bạn dễ nhìn rõ ai đang thật sự ủng hộ mình và ai chỉ nói cho vui. Hãy giữ giọng điệu chuyên nghiệp khi mọi thứ sáng tỏ.",
+    "finance": "Có thể xuất hiện một khoản bạn đã quên hoặc chưa muốn nhìn tới. Kiểm tra sao kê hay các khoản định kỳ hôm nay cho cảm giác đỡ mệt hơn là để nó chìm tiếp. Không cần tự trách, chỉ cần biết rõ để kiểm soát.",
+    "insight": "Có thể bạn đã biết câu trả lời từ trước và chỉ đang chờ ai đó đồng ý rằng bạn được phép biết. Việc nhìn thấy sự thật thường đau ít hơn thời gian mình dành ra để tránh nó.",
+    "memorable_message": "Sự thật chậm mấy cũng không muộn bằng việc tự dối mình thêm một ngày.",
+    "advice": "Chọn một điều bạn đang giả vờ không thấy và gọi tên nó, ít nhất là với chính mình. Muốn nói với ai, hãy nói bằng sự rõ ràng chứ không bằng cơn giận.",
+    "keywords": ["sự thật lộ diện", "sáng tỏ", "đối diện"]
+  },
+  {
+    "card_id": "the-moon",
+    "orientation": "reversed",
+    "variant": 3,
+    "summary": "Đầu óc đang rõ dần sau một giai đoạn lẫn lộn, nhưng nhẹ nhõm chưa có nghĩa là xong việc.",
+    "card": { "name": "Mặt Trăng", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 7, "finance": 6, "energy": 6 },
+    "headline": "Hết rối chưa phải là xong, đó mới là lúc bắt đầu dọn.",
+    "forecast": [
+      "Bạn có xu hướng thấy các việc từng chồng chéo bỗng xếp được thành thứ tự ưu tiên.",
+      "Một quyết định bị trì hoãn vì mơ hồ có thể bắt đầu có hướng đi rõ hơn.",
+      "Cũng có khả năng bạn nhẹ nhõm đến mức chủ quan, bỏ qua một chi tiết nhỏ cần xem lại."
+    ],
+    "love": "Cảm xúc đang bớt hỗn loạn, giúp bạn nói được điều mình thật sự cảm thấy thay vì vòng vo. Đừng vội xem mọi hiểu lầm cũ đã được dọn sạch, vì có thể vẫn còn vài điều cần nói tiếp. Người độc thân nhìn nhận rõ hơn mình muốn và không muốn điều gì.",
+    "career": "Đây là ngày tốt để lập danh sách, sắp lại deadline và chốt những điều trước đó cứ lửng lơ. Sau một giai đoạn rối, bạn có sự tỉnh táo đáng giá. Dùng nó để làm phần việc cần đầu óc rõ ràng nhất trước giờ trưa.",
+    "finance": "Tâm lý tiền bạc ổn định hơn, nên là lúc hợp lý để rà các khoản mình đã quá lo mà chưa đụng tới. Làm từng bước nhỏ, không cần giải quyết hết trong một lần. Tránh vì nhẹ lòng mà thả lỏng chi tiêu.",
+    "insight": "Có thể bạn đang thấy bình yên đến mức quên rằng chính sự rối vừa qua đã dạy bạn điều gì. Sáng tỏ có giá trị nhất khi bạn đem nó ra làm một việc cụ thể, thay vì chỉ nằm đó tận hưởng.",
+    "memorable_message": "Sương tan rồi thì đường vẫn phải tự mình đi.",
+    "advice": "Viết ra ba việc mình thấy rõ hơn hôm nay và làm ngay việc đơn giản nhất trong đó. Còn chỗ nào lòng vẫn lấn cấn thì kiểm tra thêm, đừng bỏ qua.",
+    "keywords": ["sáng tỏ dần", "dọn lại", "tỉnh táo"]
+  },
+  {
+    "card_id": "the-sun",
+    "orientation": "upright",
+    "variant": 1,
+    "summary": "Năng lượng hôm nay ấm và dễ thở: niềm vui giản dị đang có mặt, bạn chỉ cần để ý nó.",
+    "card": { "name": "Mặt Trời", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 9, "love": 9, "career": 8, "finance": 7, "energy": 9 },
+    "headline": "Hôm nay niềm vui không cần lý do để được phép có mặt.",
+    "forecast": [
+      "Bạn có xu hướng bật cười vì một chuyện rất nhỏ và tiếng cười ấy kéo tâm trạng cả buổi lên.",
+      "Một người xung quanh dễ bị lây năng lượng tích cực từ bạn, kể cả khi bạn không cố gắng.",
+      "Có thể một việc bạn lo lắng hóa ra diễn ra suôn sẻ hơn mình tưởng."
+    ],
+    "love": "Sự cởi mở của bạn là điểm hút lớn nhất hôm nay: ở bên ai cũng dễ thoải mái là chính mình. Đang yêu thì một buổi đi chơi giản dị ngoài trời, một bữa ăn vui, đã đủ để gần nhau hơn. Người độc thân dễ có những cuộc trò chuyện nhẹ nhàng và tự nhiên.",
+    "career": "Tâm thế sáng sủa giúp bạn xử lý việc nhanh hơn và ít bị chi phối bởi những lo xa. Giao tiếp thuận lợi, nên đây là lúc nói ra ý tưởng của mình. Sinh viên dễ hiểu bài và nhớ lâu hơn khi học trong trạng thái vui.",
+    "finance": "Dòng tiền khá yên ổn và tâm lý thoải mái giúp bạn nhìn tài chính không bị nặng nề. Có thể bạn chi cho một niềm vui nhỏ, như mời ai đó một ly nước, và thấy xứng đáng. Chỉ cần nhớ giữ mức vui vừa túi tiền.",
+    "insight": "Có thể bạn đã quen coi niềm vui là phần thưởng sau khi xong việc, nên khi nó đến sớm lại thấy hơi áy náy. Bạn không cần phải xứng đáng với một ngày tốt, bạn chỉ cần cho phép mình sống nó.",
+    "memorable_message": "Ánh nắng không hỏi bạn đã làm gì để xứng đáng rồi mới chiếu vào.",
+    "advice": "Làm một việc nhỏ chỉ vì nó vui: đi ra ngoài trời mười phút, gọi cho người bạn thương. Đừng để tâm trạng tốt trôi qua mà không kịp nhận ra.",
+    "keywords": ["niềm vui", "sưởi ấm", "dễ chịu"]
+  },
+  {
+    "card_id": "the-sun",
+    "orientation": "upright",
+    "variant": 2,
+    "summary": "Năng lượng thành công và được ghi nhận đang nghiêng về phía bạn: hôm nay dễ thấy kết quả từ nỗ lực trước đó.",
+    "card": { "name": "Mặt Trời", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 9, "love": 8, "career": 9, "finance": 8, "energy": 8 },
+    "headline": "Thứ bạn gieo âm thầm đang bắt đầu có bóng nắng.",
+    "forecast": [
+      "Có khả năng cao bạn nhận được lời khen, phản hồi tốt hoặc sự công nhận cho một việc đã làm từ trước.",
+      "Một việc từng khiến bạn mơ hồ về hướng đi có thể bỗng trở nên rõ ràng.",
+      "Bạn dễ được người khác chủ động nhờ giúp hoặc rủ cùng làm vì họ thấy bạn đáng tin."
+    ],
+    "love": "Sự tự tin ổn định của bạn khiến người đối diện thấy an toàn và muốn lại gần. Nếu đang tìm hiểu ai, có thể bạn thấy tiến triển tự nhiên mà không cần ép. Đang yêu thì hãy nói thẳng điều mình trân trọng ở nhau, vì hôm nay nói gì cũng dễ lọt tai.",
+    "career": "Đây là một trong những ngày hợp nhất để trình bày, thuyết phục hoặc xin một cơ hội. Sự rõ ràng trong đầu giúp bạn nói điều cần nói mà không rườm rà. Sinh viên có thể thấy kết quả học tập khớp với công sức bỏ ra.",
+    "finance": "Tình hình tài chính có xu hướng khả quan, nhất là những khoản liên quan đến công sức bạn đã đổ vào. Có thể có tin tốt về thu nhập hoặc một khoản được chốt. Tận hưởng vừa phải và vẫn dành một phần cho ngày mai.",
+    "insight": "Có thể bạn thấy mình chưa làm đủ nhiều để được công nhận, trong khi người khác đã thấy rõ cả quá trình. Việc nhận lời khen một cách thoải mái cũng là một kỹ năng, và hôm nay hợp để luyện.",
+    "memorable_message": "Khi ai đó nói bạn làm tốt, chỉ cần nói cảm ơn, đừng giải thích vì sao đó là may.",
+    "advice": "Ghi lại một thành quả nhỏ bạn đã đạt trong tháng này và kể nó cho ai đó nghe. Chia sẻ sự vui đừng quên cảm ơn những người đã cùng đi đường với mình.",
+    "keywords": ["thành quả", "được công nhận", "rõ ràng"]
+  },
+  {
+    "card_id": "the-sun",
+    "orientation": "upright",
+    "variant": 3,
+    "summary": "Hôm nay hợp để sống thật, nhẹ và sáng: sức sống trở lại khi bạn thôi gồng lên cho ra dáng.",
+    "card": { "name": "Mặt Trời", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 8, "career": 8, "finance": 7, "energy": 10 },
+    "headline": "Bạn sáng nhất khi thôi cố tỏ ra là ai đó.",
+    "forecast": [
+      "Cơ thể và tinh thần có xu hướng tràn đầy hơn, bạn muốn vận động, ra ngoài, làm gì đó bằng tay.",
+      "Một người bạn hoặc người thân dễ khiến bạn thấy được yêu vì chính con người vốn có của mình.",
+      "Có thể bạn bất ngờ nhớ lại cảm giác vui đơn thuần của thời nhỏ, khi chơi mà không cần mục đích."
+    ],
+    "love": "Sự chân thành không trau chuốt lại là thứ hút nhất hôm nay: cười thật, nói thật, im lặng thật. Đang yêu thì hãy làm một việc cùng nhau như nấu ăn hay đi dạo, thay vì chỉ ngồi nói chuyện. Người độc thân có thể thu hút bằng sự thoải mái hơn là vẻ ngoài chỉn chu.",
+    "career": "Năng lượng dồi dào cho phép bạn xử lý nhiều việc mà không thấy kiệt sức, nhất là những việc đòi hỏi sự sáng tạo và tương tác. Hợp để làm việc nhóm và để dạy hoặc chỉ cho người khác điều mình biết. Chỉ cần nhớ nghỉ giữa chừng để không cháy sạch trước chiều.",
+    "finance": "Tâm lý tiền bạc thoải mái, ít lo hơn thường lệ. Bạn dễ chi cho thứ làm mình vui và khỏe, như bữa ăn ngon hoặc một chuyến đi ngắn. Dòng tiền vẫn nên được nhìn một lượt trước khi chi theo hứng.",
+    "insight": "Có thể bạn đã gồng quá lâu để được xem là người chững chạc mà quên mất sức sống của mình đến từ sự tự nhiên. Một phần mệt mỏi chỉ là kết quả của việc diễn cả ngày.",
+    "memorable_message": "Cây không cố tỏ ra xanh, nó chỉ cần được đứng ngoài nắng.",
+    "advice": "Hôm nay hãy cho cơ thể ra ngoài trời ít nhất mười lăm phút và làm một việc mình thích mà không cần ai thấy. Giữ nhịp nghỉ, vì năng lượng cao dễ khiến bạn quên uống nước và quên ăn.",
+    "keywords": ["sức sống", "tự nhiên", "hồn nhiên"]
+  },
+  {
+    "card_id": "the-sun",
+    "orientation": "reversed",
+    "variant": 1,
+    "summary": "Mây che mặt trời hôm nay: tâm trạng thấp hơn thường lệ, nhưng đó là thời tiết chứ không phải khí hậu.",
+    "card": { "name": "Mặt Trời", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 5, "finance": 5, "energy": 4 },
+    "headline": "Một ngày xám không xóa được mùa nắng của bạn.",
+    "forecast": [
+      "Bạn có xu hướng nhìn mọi việc với đôi mắt hơi bi quan, nhất là những việc đang chờ kết quả.",
+      "Một lời nhận xét trung tính có thể bị bạn nghe thành chê bai.",
+      "Có khả năng niềm vui đến nhưng bạn không cảm nhận được nó trọn vẹn như mong đợi."
+    ],
+    "love": "Tâm trạng trầm khiến bạn dễ nghĩ mình kém hấp dẫn hoặc không được quan tâm đủ. Hãy nhớ đây là cảm giác của hôm nay, chưa chắc là sự thật về mối quan hệ. Người độc thân nên cho mình một ngày ở nhà dễ chịu thay vì ép đi gặp ai.",
+    "career": "Nhiệt huyết hơi hụt nên bạn làm việc chậm và dễ tự chê. Chia nhỏ việc ra từng đoạn mười lăm phút sẽ dễ vào guồng hơn là chờ có hứng. Sinh viên hãy học phần dễ trước để lấy lại đà.",
+    "finance": "Nỗi lo về tiền dễ bị khuếch đại khi tâm trạng thấp. Đừng chốt chuyện lớn trong một ngày chán nản, nhất là những quyết định dựa trên cảm giác đang không ổn. Chỉ cần giữ nhịp chi tiêu quen thuộc là đủ.",
+    "insight": "Có thể bạn không thực sự thất bại, mà đang mệt và lấy cái mệt đó để chấm điểm cả cuộc sống. Khi tâm trạng thấp, mọi thành quả cũ bỗng như nhỏ đi, trong khi chúng vẫn nguyên đó.",
+    "memorable_message": "Đừng ký quyết định về cuộc đời bằng cây bút của một buổi chiều xám.",
+    "advice": "Làm một việc nhỏ giúp cơ thể dễ chịu hơn: tắm nước ấm, ăn một bữa tử tế, đi bộ ngắn. Nếu cảm giác nặng nề kéo dài nhiều ngày, hãy nói với một người mình tin.",
+    "keywords": ["tạm thời bi quan", "mây che", "nghỉ lấy sức"]
+  },
+  {
+    "card_id": "the-sun",
+    "orientation": "reversed",
+    "variant": 2,
+    "summary": "Thành công chưa tới đúng hẹn chứ chưa vắng mặt: hôm nay dễ sốt ruột và so sánh, nên giữ nhịp riêng.",
+    "card": { "name": "Mặt Trời", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 6, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Ánh nắng đến muộn không có nghĩa là nó đi nhầm nhà.",
+    "forecast": [
+      "Một kết quả bạn mong có xu hướng chậm hơn dự kiến, hoặc xuất hiện nhưng chưa trọn vẹn.",
+      "Bạn dễ lướt thấy thành tích của người khác và thấy mình đang chậm một nhịp.",
+      "Có thể có một phản hồi kiểu được nhưng chưa tốt hẳn, khiến bạn lưng chừng giữa vui và tiếc."
+    ],
+    "love": "Bạn có thể kỳ vọng mối quan hệ phải sáng sủa hơn hiện tại, và cảm thấy hụt khi thực tế bình thường. Thay vì so với hình mẫu trong đầu, hãy nhìn xem người kia đang cố gắng gì. Người độc thân đừng so tình trạng của mình với những bài đăng tưởng như hoàn hảo.",
+    "career": "Một dự án hoặc kế hoạch có thể chưa đạt độ sáng bạn mong, và điều đó dễ làm bạn nản. Hãy xem lại đó là chậm tiến độ hay chỉ chậm so với tưởng tượng. Giữ chất lượng đều tay giúp bạn bền hơn việc chạy theo hào quang.",
+    "finance": "Một khoản thu hoặc kết quả tài chính mong chờ có thể đến chậm hơn dự tính. Tránh tiêu trước vào niềm vui chưa tới tay. Giữ nguyên kế hoạch và chờ có số liệu thật rồi hãy điều chỉnh.",
+    "insight": "Có thể bạn không mất động lực mà chỉ đang mệt vì đồng hồ trong đầu chạy nhanh hơn đồng hồ của cuộc sống. Việc so sánh thời gian của mình với người khác là cách nhanh nhất để biến một ngày bình thường thành một ngày thất bại.",
+    "memorable_message": "Mặt trời mọc muộn vẫn là mặt trời, chỉ có người đứng chờ mới thấy lâu.",
+    "advice": "Hôm nay hạn chế mở mạng xã hội vào lúc đang thấy chán, và viết ra ba điều đã tiến lên dù chỉ nhỏ. Hãy cho phép mình đi chậm mà không phải đi lùi.",
+    "keywords": ["thành công chậm lại", "so sánh", "kiên nhẫn"]
+  },
+  {
+    "card_id": "the-sun",
+    "orientation": "reversed",
+    "variant": 3,
+    "summary": "Ánh sáng vẫn còn nhưng bạn đang không muốn bật nó lên: hôm nay hợp để chăm lại nguồn năng lượng từ bên trong.",
+    "card": { "name": "Mặt Trời", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 6, "finance": 6, "energy": 4 },
+    "headline": "Pin cạn thì sạc, đừng kết luận rằng mình hỏng.",
+    "forecast": [
+      "Bạn có xu hướng thấy mọi thứ đều vừa vừa, kể cả những việc trước đây từng làm mình hào hứng.",
+      "Một lời rủ đi chơi có thể làm bạn muốn từ chối vì cảm giác không còn năng lượng để vui.",
+      "Có khả năng bạn thấy nhẹ nhõm hơn sau khi làm một việc rất nhỏ và quen thuộc."
+    ],
+    "love": "Bạn dễ thu mình lại và ít chủ động, không phải vì hết thương mà vì hết pin. Nói thẳng với người thân rằng hôm nay bạn cần yên tĩnh sẽ tốt hơn là im lặng khiến họ đoán. Người độc thân đừng ép mình vào những buổi gặp gỡ chỉ để chứng tỏ mình ổn.",
+    "career": "Sự hào hứng thấp nên hôm nay hợp với việc đều đặn, lặp lại, ít đòi hỏi sáng tạo. Làm cho xong phần cơ bản đã là đủ tốt. Tránh nhận thêm việc chỉ vì ngại nói không.",
+    "finance": "Tài chính không có biến động lớn nhưng hứng thú quản lý tiền có thể giảm. Hãy tự động hóa một việc nhỏ như nhắc lịch thanh toán để không phải gánh bằng ý chí. Tránh mua đồ để tự dỗ lòng.",
+    "insight": "Có thể bạn đang cho rằng mình phải luôn là người vui và tích cực, nên khi hết sức lại thấy có lỗi. Sự u ám bên trong đôi khi chỉ là cơ thể đòi nghỉ bằng cách duy nhất mà nó biết.",
+    "memorable_message": "Không phải ngày nào mặt trời cũng phải rực, có ngày nó chỉ cần còn đó.",
+    "advice": "Cắt bớt một việc không thiết yếu khỏi ngày hôm nay và đi ngủ sớm hơn thường lệ. Nếu cảm giác trống rỗng kéo dài, đừng ngại tìm người thật để trò chuyện.",
+    "keywords": ["u ám nội tâm", "cạn pin", "nghỉ ngơi"]
+  },
+  {
+    "card_id": "judgement",
+    "orientation": "upright",
+    "variant": 1,
+    "summary": "Có một tiếng gọi bên trong đủ to để bạn không thể giả vờ không nghe: hôm nay hợp để nhìn lại.",
+    "card": { "name": "Phán Xét", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 7, "career": 7, "finance": 6, "energy": 7 },
+    "headline": "Có điều bạn đã biết từ lâu, và hôm nay nó đòi được nghe.",
+    "forecast": [
+      "Bạn có xu hướng nhận ra một thói quen hay một mối quan hệ không còn hợp với con người mình bây giờ.",
+      "Một ý nghĩ lặp đi lặp lại có thể trở thành lời nhắc không thể lờ đi nữa.",
+      "Có khả năng một cuộc trò chuyện hoặc một đoạn tin cũ khiến bạn tự hỏi mình đã thay đổi đến đâu."
+    ],
+    "love": "Bạn nhìn mối quan hệ của mình với mắt rõ hơn: điều gì còn nuôi dưỡng, điều gì chỉ là quán tính. Đang yêu thì hôm nay hợp để nói một điều quan trọng bạn đã giữ bấy lâu. Người độc thân dễ nhận ra mình thật sự cần gì, thay vì chỉ cần có ai.",
+    "career": "Bạn có xu hướng tự đánh giá lại hướng đi: mình đang làm gì, vì sao, và có còn muốn tiếp không. Đây không phải lúc bỏ ngang, mà là lúc ghi lại câu trả lời thật. Sinh viên có thể nhận ra điều mình muốn học khác với điều mình đang học.",
+    "finance": "Hợp để nhìn lại thói quen tiền bạc từ đầu: khoản nào bạn chi vì cần, khoản nào chỉ vì quen. Một cuộc rà soát nghiêm túc sẽ có lợi hơn một cuộc tự trách. Chưa cần quyết định lớn, chỉ cần nhìn rõ.",
+    "insight": "Có thể bạn đã nghe tiếng gọi ấy nhiều lần nhưng cứ trả lời bằng câu để sau. Điều khiến bạn mệt có lẽ không phải việc phải làm mà là việc cứ phải hoãn mãi trong đầu.",
+    "memorable_message": "Chuông báo thức vẫn reo dù bạn nhấn hoãn lần thứ chín.",
+    "advice": "Viết ra một câu bắt đầu bằng: điều mình đã biết nhưng chưa dám thừa nhận là... rồi chọn bước nhỏ nhất để làm theo. Bạn có quyền quyết định tốc độ, chỉ đừng giả vờ như không nghe.",
+    "keywords": ["tiếng gọi", "thức tỉnh", "đánh giá lại"]
+  },
+  {
+    "card_id": "judgement",
+    "orientation": "upright",
+    "variant": 2,
+    "summary": "Chuyện cũ có thể quay lại gõ cửa để được tha thứ, và hôm nay hợp để khép nó nhẹ nhàng.",
+    "card": { "name": "Phán Xét", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 8, "career": 6, "finance": 6, "energy": 7 },
+    "headline": "Tha thứ không phải cho ai, mà để bạn đi tiếp nhẹ hơn.",
+    "forecast": [
+      "Một ký ức hoặc một người từ quá khứ có xu hướng xuất hiện lại trong suy nghĩ hoặc trong tin nhắn.",
+      "Bạn dễ nhận ra mình đã đủ lớn để nhìn một chuyện cũ bằng con mắt bớt nặng nề.",
+      "Có thể một lời xin lỗi, của bạn hoặc dành cho bạn, được nói ra và làm không khí nhẹ đi."
+    ],
+    "love": "Chuyện chưa nói hết với người cũ hoặc với người hiện tại có khả năng được nhắc lại. Nếu có điều muốn xin lỗi, hôm nay lời nói dễ chạm hơn bình thường. Người độc thân sẽ thấy lòng mở ra hơn khi thôi so mọi người với một ai đó trong quá khứ.",
+    "career": "Một mâu thuẫn cũ với đồng nghiệp hoặc một sai sót từng làm bạn day dứt có thể được nhìn lại trưởng thành hơn. Hợp để làm hòa, nhưng không cần thân lại như xưa. Sinh viên đừng để một lần thi trượt định nghĩa khả năng của mình.",
+    "finance": "Có thể bạn nhìn lại một quyết định tiền bạc sai trong quá khứ và còn thấy tiếc. Hãy rút ra bài học cụ thể rồi để nó đi, thay vì dùng nó để trừng phạt bản thân.",
+    "insight": "Có thể bạn không thiếu khả năng quên, mà đang giữ lại một bản án cũ vì sợ bỏ nó đồng nghĩa với việc điều đó chưa từng đau. Tha thứ không xóa quá khứ, nó chỉ bỏ bản án khỏi tay bạn.",
+    "memorable_message": "Nắm một cục than nóng để ném người khác thì người bỏng trước là mình.",
+    "advice": "Chọn một chuyện cũ và viết ra một câu: điều mình học được từ chuyện này là... Còn muốn gửi lời xin lỗi hay không là quyền của bạn, nhưng viết ra giấy cũng đã là một bước.",
+    "keywords": ["tha thứ", "khép chuyện cũ", "buông bản án"]
+  },
+  {
+    "card_id": "judgement",
+    "orientation": "upright",
+    "variant": 3,
+    "summary": "Một chương đang khép lại để chương mới mở ra: hôm nay hợp để tổng kết thật thà và bắt đầu lại.",
+    "card": { "name": "Phán Xét", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 7, "career": 8, "finance": 7, "energy": 7 },
+    "headline": "Bạn không cần làm lại từ số không, bạn chỉ cần làm lại từ sự thật.",
+    "forecast": [
+      "Bạn có xu hướng muốn dọn dẹp, sắp xếp hoặc vứt bớt thứ không còn dùng, cả đồ vật lẫn việc.",
+      "Một quyết định chờ lâu có khả năng chín lại, kèm cảm giác đã đến lúc.",
+      "Có thể bạn nhận được tín hiệu từ bên ngoài như một lời mời hay một thông báo, xác nhận bước chuyển của mình."
+    ],
+    "love": "Hôm nay hợp để đặt lại nền cho mối quan hệ: nói rõ mình muốn gì, ranh giới ở đâu. Với người đang yêu, một cuộc trò chuyện về hướng đi chung sẽ đem lại sự nhẹ nhõm. Người độc thân dễ thấy mình sẵn sàng hơn sau một giai đoạn dài tự nhìn lại.",
+    "career": "Rất hợp để tổng kết một giai đoạn công việc hoặc học tập, liệt kê điều đã làm được và điều muốn đổi. Nếu đang cân nhắc chuyển hướng, hãy ghi rõ lý do thay vì chỉ cảm giác. Cơ hội nhận vai trò mới có thể xuất hiện.",
+    "finance": "Thích hợp để làm một bản tổng kết tài chính nhỏ: khoản nào cần cắt, khoản nào cần giữ. Có thể bạn quyết định thay đổi một thói quen chi tiêu lâu năm, và chỉ cần thay từng bước.",
+    "insight": "Có thể bạn vẫn đang xem mình qua phiên bản của vài năm trước, trong khi bạn đã lớn hơn nhiều so với hình ảnh đó. Điều bạn cần không phải thêm động lực mà là cập nhật lại hồ sơ về chính mình.",
+    "memorable_message": "Bạn của hôm nay xứng đáng một bản lý lịch mới, đừng nộp bản của năm cũ.",
+    "advice": "Viết ba dòng về con người mình hiện tại, thay vì con người mình từng là. Rồi chọn một việc hoặc thói quen cần khép lại và khép nó bằng một hành động nhỏ, cụ thể.",
+    "keywords": ["tái sinh", "khép chương", "tổng kết"]
+  },
+  {
+    "card_id": "judgement",
+    "orientation": "reversed",
+    "variant": 1,
+    "summary": "Người chấm điểm khắt khe nhất hôm nay là chính bạn: nghi ngờ bản thân đang to hơn thực lực của bạn.",
+    "card": { "name": "Phán Xét", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 5, "career": 4, "finance": 5, "energy": 4 },
+    "headline": "Quan tòa trong đầu bạn đang xử án khi chưa đủ bằng chứng.",
+    "forecast": [
+      "Bạn có xu hướng soi lại những điều mình làm chưa tốt, và bỏ qua những điều đã làm được.",
+      "Một lời góp ý nhỏ dễ bị bạn nghe thành bản án về năng lực của mình.",
+      "Có thể bạn muốn nhận một cơ hội nhưng giọng nói nội tâm bảo rằng mình chưa đủ giỏi."
+    ],
+    "love": "Sự nghi ngờ bản thân khiến bạn dễ nghĩ mình không đủ tốt cho ai đó, rồi rút lui trước khi được thử. Nếu đang tìm hiểu, đừng để một nhận xét tự dành cho mình quyết định thay đối phương. Người đang yêu nên nói ra nỗi bất an thay vì tự xử án trong đầu.",
+    "career": "Bạn có năng lực nhưng dễ trì hoãn vì sợ kết quả không đạt chuẩn mà chính mình đặt ra. Thử giao cho mình một phiên bản làm tạm được thay vì hoàn hảo. Sinh viên đừng để một điểm thấp quyết định cả cách nhìn về bản thân.",
+    "finance": "Cảm giác tội lỗi về những khoản chi cũ dễ khiến bạn hoặc né sổ sách hoặc cắt giảm quá tay. Tiền không phải bài kiểm tra nhân cách. Nhìn con số bằng sự tò mò thay vì sự trách móc sẽ giúp bạn kiểm soát tốt hơn.",
+    "insight": "Có thể bạn không thực sự nghĩ mình kém, mà đang sợ bị người khác nhận ra điều đó trước. Đôi khi sự khắt khe với bản thân là cách để mình chê trước khi bị ai chê.",
+    "memorable_message": "Nếu bạn nói với bạn thân những lời bạn nói với chính mình, họ đã bỏ đi từ lâu.",
+    "advice": "Viết ra một lời tự chê rồi viết bên dưới câu mà bạn sẽ nói nếu đó là lời của bạn mình. Đừng kết luận gì về bản thân khi mới nghe một phía của chính mình.",
+    "keywords": ["nghi ngờ bản thân", "tự phán xét", "khắt khe"]
+  },
+  {
+    "card_id": "judgement",
+    "orientation": "reversed",
+    "variant": 2,
+    "summary": "Có một việc bạn đã biết cần xem lại nhưng đang né: hôm nay dễ viện cớ bận để không phải nhìn.",
+    "card": { "name": "Phán Xét", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 5, "finance": 4, "energy": 5 },
+    "headline": "Nhấn hoãn thêm lần nữa cũng không làm vấn đề ngủ say.",
+    "forecast": [
+      "Bạn có xu hướng tự lấp đầy lịch bằng những việc nhỏ để khỏi chạm vào việc quan trọng.",
+      "Một câu hỏi lặp lại trong đầu có khả năng bị bạn đẩy xuống bằng cách lướt điện thoại hoặc làm việc khác.",
+      "Có thể một người thân hoặc đồng nghiệp vô tình nhắc đến đúng điều bạn đang tránh."
+    ],
+    "love": "Có một cuộc trò chuyện cần có trong mối quan hệ nhưng bạn tìm đủ lý do để chưa mở lời. Né tránh có thể dễ chịu hôm nay nhưng sẽ nặng hơn khi dồn lại. Người độc thân thử nhìn lại kiểu người mà mình cứ lặp lại chọn.",
+    "career": "Một việc cần đánh giá lại, như hướng đi hoặc cách làm không còn hiệu quả, vẫn bị bạn để đó. Bận rộn không đồng nghĩa với tiến triển. Dành đúng ba mươi phút nhìn thẳng vào nó thay vì lo lắng cả tuần.",
+    "finance": "Một khoản tiền hoặc một khoản nợ nhỏ đang bị bạn tránh nhìn tới. Không cần giải quyết hết, chỉ cần mở ra xem con số thật. Cảm giác sau khi biết chắc thường nhẹ hơn cảm giác khi chưa dám biết.",
+    "insight": "Có thể điều bạn tránh không phải vì không quan trọng, mà vì bạn sợ câu trả lời buộc mình phải thay đổi. Hoãn lại cho cảm giác an toàn, nhưng cái giá là mỗi ngày phải mang nó thêm một lần.",
+    "memorable_message": "Việc bạn né hôm nay sẽ ngồi chờ bạn ở cửa vào ngày mai, và không bớt kiên nhẫn.",
+    "advice": "Chọn một việc đang né và hứa với mình chỉ làm mười phút đầu tiên của nó, không cần xong. Bạn có quyền chọn thời điểm, chỉ đừng chọn mãi không.",
+    "keywords": ["trốn tránh", "trì hoãn thức tỉnh", "né câu hỏi"]
+  },
+  {
+    "card_id": "judgement",
+    "orientation": "reversed",
+    "variant": 3,
+    "summary": "Bạn đang giữ một bản án cũ quá lâu: hôm nay dễ nhai lại lỗi lầm, của mình hoặc của người khác.",
+    "card": { "name": "Phán Xét", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Bản án đọc đi đọc lại không làm quá khứ sửa được.",
+    "forecast": [
+      "Bạn có xu hướng nhớ lại một lần ai đó làm mình tổn thương và thấy lòng chùng xuống.",
+      "Một chuyện nhỏ hôm nay có thể bị gắn thêm trọng lượng của những chuyện cũ chưa được tha.",
+      "Có khả năng bạn bắt gặp chính mình đang tập một câu nói mà người kia sẽ không bao giờ nghe."
+    ],
+    "love": "Sự khó tha thứ, với người cũ, với đối phương hoặc với chính mình, dễ chen vào những cuộc trò chuyện hiện tại. Có thể một lỗi nhỏ hôm nay bị bạn tính cả phần nợ từ trước. Nếu chưa sẵn sàng tha, hãy ít nhất tách chuyện cũ khỏi chuyện mới.",
+    "career": "Một mâu thuẫn hoặc một lần bị đối xử chưa công bằng có thể vẫn ảnh hưởng đến cách bạn hợp tác hôm nay. Giữ ranh giới là hợp lý, nhưng giữ thù thì tốn sức. Sinh viên nên thôi lấy một lần thất bại làm cớ để ngờ mình mãi.",
+    "finance": "Có thể bạn vẫn day dứt về một lần cho vay, một lần mất tiền hoặc một quyết định sai. Nhắc lại không đòi được khoản đó, nhưng rút ra quy tắc cho lần sau thì có ích. Hãy chuyển sự tiếc nuối thành một nguyên tắc cụ thể.",
+    "insight": "Có thể bạn giữ lại sự giận vì nó là bằng chứng rằng điều đó từng quan trọng và từng bất công. Nhưng bạn có thể thừa nhận điều đó không công bằng mà vẫn đặt gánh nặng xuống.",
+    "memorable_message": "Buông không có nghĩa là họ đúng, mà là bạn không phải sống trong phòng xử án mãi.",
+    "advice": "Viết một lá thư không gửi cho người hoặc việc bạn chưa tha, nói hết rồi gấp lại. Tha hay chưa, và khi nào, vẫn là quyết định của bạn.",
+    "keywords": ["khó tha thứ", "giữ bản án", "nhai lại"]
+  }
+]

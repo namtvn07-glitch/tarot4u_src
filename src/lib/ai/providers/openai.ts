@@ -81,4 +81,31 @@ export const openaiProvider: AiProvider = {
     }
     return parsed;
   },
+
+  async generateJson({ system, userTurn, schemaName, schema, maxTokens }) {
+    const completion = await getOpenaiClient().chat.completions.parse({
+      model: env.OPENAI_MODEL,
+      max_completion_tokens: maxTokens,
+      messages: [
+        { role: "system", content: system },
+        { role: "user", content: userTurn },
+      ],
+      response_format: zodResponseFormat(schema, schemaName),
+    });
+
+    const choice = completion.choices[0];
+    const stopReason = mapFinishReason(choice?.finish_reason ?? null);
+    if (stopReason === "refusal" || choice?.message.refusal) throw new Error("ai_refusal");
+    if (!choice?.message.parsed) throw new Error("ai_json_parse_failed");
+
+    return {
+      data: choice.message.parsed,
+      stopReason,
+      model: completion.model,
+      usage: {
+        inputTokens: completion.usage?.prompt_tokens ?? 0,
+        outputTokens: completion.usage?.completion_tokens ?? 0,
+      },
+    };
+  },
 };

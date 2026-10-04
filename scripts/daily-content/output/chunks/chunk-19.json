@@ -1,0 +1,344 @@
+[
+  {
+    "card_id": "five-of-swords", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay dễ có một cuộc cãi mà bạn thắng về lý nhưng thua về không khí, nên hãy chọn trận nào đáng đánh.",
+    "card": { "name": "Năm Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 5, "finance": 5, "energy": 6 },
+    "headline": "Thắng được câu chuyện mà mất người nghe thì có lời gì.",
+    "forecast": [
+      "Có xu hướng xuất hiện một tranh luận nhỏ về chuyện không đáng, và nó dễ lớn hơn kích cỡ thật.",
+      "Bạn dễ bắt gặp mình đang soạn sẵn câu đáp trả trong đầu trước khi người kia nói xong.",
+      "Một người có thể im lặng bỏ đi sau câu nói hơi sắc của bạn, và khoảng trống đó mới là thứ nặng."
+    ],
+    "love": "Người đang yêu dễ biến một chuyện vặt như ai quên gì, ai nói giọng gì thành một phiên tòa. Hãy để người kia nói hết ý rồi hẵng phản biện. Người độc thân nên tránh dùng sự sắc sảo để thắng một người mình đang có thiện cảm.",
+    "career": "Dễ có bất đồng về cách làm hoặc về chuyện ai đúng trong một cuộc họp, và điểm số cá nhân có thể át mất mục tiêu chung. Hãy hỏi mình muốn thắng cuộc tranh luận hay muốn dự án chạy được. Sinh viên làm việc nhóm cũng nên nhường một nước nhỏ.",
+    "finance": "Dòng tiền khá bình thường, nhưng tâm lý hơn thua dễ khiến bạn chi để chứng tỏ hoặc cãi nhau chuyện chia tiền. Với khoản chung, nói rõ con số từ đầu sẽ tiết kiệm được cả tiền lẫn sự khó chịu.",
+    "insight": "Có thể bạn không thật sự muốn thắng, mà muốn được công nhận rằng mình đã bị đối xử chưa công bằng. Nếu gọi đúng tên điều đó, bạn đỡ phải tranh luận để đòi nó.",
+    "memorable_message": "Đừng thắng một ván cờ mà sau đó chẳng còn ai ngồi đối diện.",
+    "advice": "Trước khi đáp trả, hít một hơi và hỏi: chuyện này còn quan trọng sau ba ngày nữa không? Nếu không, bạn được phép để nó trôi.",
+    "keywords": ["xung đột", "thắng thua", "giữ người"]
+  },
+  {
+    "card_id": "five-of-swords", "orientation": "upright", "variant": 2,
+    "summary": "Không khí hơi cạnh tranh: có người muốn ghi điểm, và bạn dễ bị kéo vào cuộc đua mà không ai thật sự thắng.",
+    "card": { "name": "Năm Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 5, "finance": 5, "energy": 6 },
+    "headline": "Không phải trận nào mời bạn cũng cần tới dự.",
+    "forecast": [
+      "Một lời bóng gió hoặc một câu so sánh có thể chạm vào lòng tự trọng của bạn.",
+      "Có xu hướng xuất hiện kiểu cạnh tranh ngầm, như giành công hay giành lời nói cuối cùng.",
+      "Bạn có thể thấy mình nhẹ người khi chọn rút khỏi một cuộc tranh cãi vô bổ."
+    ],
+    "love": "Chuyện tình cảm hôm nay dễ dính vào so sánh: bạn bè ai yêu hơn ai, người cũ giờ ra sao. Đừng lấy điều đó làm thước đo cho mối quan hệ của mình. Người đang tìm hiểu nên tránh thử lòng đối phương bằng mấy câu thách đố.",
+    "career": "Có thể có đồng nghiệp muốn nhận công về mình, hoặc chính bạn thấy mình đang muốn làm vậy. Ghi lại phần việc của mình bằng email hay tài liệu rõ ràng sẽ hiệu quả hơn đấu khẩu. Sinh viên nên cẩn thận với kiểu khoe điểm làm bạn học khó chịu.",
+    "finance": "Tiền bạc không biến động mạnh, nhưng cảm giác thua kém dễ khiến bạn mua sắm cho bằng bạn bằng bè. Hãy hỏi mình món này mua cho bản thân hay cho cái nhìn của người khác.",
+    "insight": "Có thể bạn đang mệt vì lúc nào cũng phải chứng minh, dù chẳng ai đòi. Cuộc đua lớn nhất hôm nay có khi nằm trong đầu bạn chứ không ở ngoài kia.",
+    "memorable_message": "Người rút khỏi cuộc cãi đúng lúc thường là người còn nhiều sức nhất.",
+    "advice": "Nếu bị khiêu khích, trả lời bằng một câu ngắn và trung tính rồi chuyển chủ đề. Dành sức cho việc có thể sinh ra kết quả.",
+    "keywords": ["cạnh tranh", "giữ sức", "chọn trận"]
+  },
+  {
+    "card_id": "five-of-swords", "orientation": "upright", "variant": 3,
+    "summary": "Cái tôi đang nói to hơn bình thường, và sẽ có người thiệt nếu bạn chỉ lo phần của mình.",
+    "card": { "name": "Năm Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 4, "love": 5, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Ai cũng muốn phần lớn hơn, kể cả khi bánh đã nhỏ.",
+    "forecast": [
+      "Có thể xuất hiện một tình huống chia phần: chia việc, chia thời gian hoặc chia công trạng.",
+      "Bạn dễ chú ý đến phần mình bị thiệt hơn là phần người khác đang gánh.",
+      "Một người có thể lặng lẽ rút lui, và bạn nhận ra điều đó muộn hơn mong đợi."
+    ],
+    "love": "Năng lượng nghiêng về chuyện ai nhường ai nhiều hơn, nên một mối quan hệ dễ rơi vào cảnh đếm công. Thử hỏi người kia đang mệt chỗ nào trước khi kể mình mệt chỗ nào. Người độc thân nên cẩn thận với kiểu tán tỉnh chỉ để thấy mình có giá.",
+    "career": "Có xu hướng giành nguồn lực, giành người giỏi hoặc giành khung giờ đẹp. Nếu cần gì thì nói luôn điều mình cần, đừng chờ người ta đoán rồi tự bực. Việc nhóm sẽ trơn hơn nếu bạn nhận phần lỗi của mình trước.",
+    "finance": "Chuyện tiền có thể liên quan đến chia chi phí hoặc một khoản nợ nhỏ chưa nói rõ. Hôm nay hợp để minh bạch con số, bớt tính toán thầm trong lòng.",
+    "insight": "Có thể sự ích kỷ hôm nay không đến từ chỗ bạn xấu, mà từ chỗ bạn đã nhường quá lâu nên bắt đầu giữ chặt. Cần phân biệt giữa bảo vệ mình và giành phần của người khác.",
+    "memorable_message": "Bánh càng giành càng vụn, chia ra thì ai cũng còn một miếng.",
+    "advice": "Nêu rõ một điều bạn cần, bằng giọng bình thường, trước khi nó biến thành một lời trách. Rồi hỏi người kia họ cần gì.",
+    "keywords": ["cái tôi", "chia phần", "nói rõ nhu cầu"]
+  },
+  {
+    "card_id": "five-of-swords", "orientation": "reversed", "variant": 1,
+    "summary": "Cơn giận đang hạ nhiệt, và hôm nay có một cơ hội mở lối cho một mối bất hòa cũ.",
+    "card": { "name": "Năm Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 6, "finance": 5, "energy": 5 },
+    "headline": "Cửa hòa giải thường mở ra từ phía người bước tới trước.",
+    "forecast": [
+      "Có xu hướng một người từng cãi nhau với bạn nhắn tin hoặc xuất hiện lại bằng giọng mềm hơn.",
+      "Bạn dễ nhận ra mình đã mang một chuyện nhỏ quá lâu trong lòng.",
+      "Một lời xin lỗi ngắn, nếu bạn nói, có khả năng được đón nhận tốt hơn điều bạn lo."
+    ],
+    "love": "Một khúc mắc cũ trong tình cảm có thể được nhắc đến nhẹ nhàng hơn trước. Nếu đang giận ai, thử mở đầu bằng câu mình cũng có phần chưa khéo. Người độc thân nên mở lòng lại sau một lần tổn thương.",
+    "career": "Căng thẳng với đồng nghiệp hoặc nhóm học có dấu hiệu dịu đi, nhất là khi ai đó chịu nhượng một bước. Hãy nhắn một câu thân thiện hoặc rủ đi uống cà phê thay vì chờ họ xin lỗi trước. Làm việc chung sẽ nhẹ hơn khi không khí được dọn.",
+    "finance": "Tài chính khá yên, nhưng một chuyện tiền bạc từng gây khó chịu, như tiền chung hay khoản vay giữa người quen, có thể được nói lại bình tĩnh. Chọn lúc cả hai đều ổn rồi hẵng trao đổi.",
+    "insight": "Có thể bạn đã mệt vì phải giữ thái độ phòng thủ lâu như vậy. Buông ra không có nghĩa là người kia đúng, mà là bạn không muốn trả thêm lãi cho chuyện cũ.",
+    "memorable_message": "Vũ khí nặng hơn bạn nghĩ, đặt xuống rồi mới thấy tay mình mỏi đến mức nào.",
+    "advice": "Chọn một người bạn còn giận hoặc còn ngại và nhắn một câu không kèm điều kiện. Không cần giải thích dài, bạn chỉ cần mở cánh cửa.",
+    "keywords": ["hòa giải", "hạ nhiệt", "bước trước"]
+  },
+  {
+    "card_id": "five-of-swords", "orientation": "reversed", "variant": 2,
+    "summary": "Hôm nay bạn nhìn rõ cái giá của một cuộc đối đầu cũ, và chấp nhận thua đúng chỗ là một bước tiến.",
+    "card": { "name": "Năm Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 6, "finance": 5, "energy": 5 },
+    "headline": "Thua một lần đúng lúc đôi khi là thắng cả tuần.",
+    "forecast": [
+      "Có thể một hệ quả từ lời nói gần đây của bạn hiện ra rõ hơn, nhất là ở người mình từng làm tổn thương.",
+      "Bạn dễ muốn kiểm kê xem cuộc cãi cọ ấy đã lấy của mình những gì.",
+      "Một việc bạn cố bảo vệ đến cùng có thể bắt đầu thấy không còn đáng."
+    ],
+    "love": "Bạn có xu hướng nhìn lại một cuộc tranh cãi và thấy rõ phần mình đã đi quá xa. Người đang yêu nên nói thẳng rằng mình đã nhìn lại, thay vì giả vờ chưa có gì. Người độc thân dễ nhận ra mẫu người hay biến mình thành chiến binh.",
+    "career": "Một quyết định hoặc một lần phản bác ở nơi làm việc có thể để lại dư âm, và bạn cần dọn nó. Thừa nhận phần sai bằng một câu gọn, không rào đón, thường khiến người ta nể hơn. Sinh viên có thể sửa lại một bài nhóm bị lỡ vì giận dỗi.",
+    "finance": "Một khoản chi hoặc khoản mất do cãi vã hay quyết định nóng nảy trước đó có thể được tính lại. Hãy ghi rõ con số để rút ra bài học, chứ không để tự trách mãi.",
+    "insight": "Có thể bạn đang sợ rằng thừa nhận thua đồng nghĩa với yếu. Thật ra người dám nhìn thẳng hậu quả lại là người lấy lại quyền kiểm soát nhanh nhất.",
+    "memorable_message": "Nhận thua đúng chỗ không làm bạn nhỏ đi, chỉ làm gánh nhẹ đi.",
+    "advice": "Viết ra giấy ba điều cuộc xung đột đó đã lấy của bạn, rồi chọn một điều để lấy lại hôm nay. Điều đó có thể là một lời xin lỗi, hoặc một giấc ngủ trọn vẹn.",
+    "keywords": ["nhìn lại", "nhận thua", "dọn hậu quả"]
+  },
+  {
+    "card_id": "five-of-swords", "orientation": "reversed", "variant": 3,
+    "summary": "Trận cuối cùng hôm nay có thể là với chính mình: ngừng tự đánh vào những lỗi đã qua.",
+    "card": { "name": "Năm Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 6, "love": 5, "career": 6, "finance": 5, "energy": 5 },
+    "headline": "Có những người bạn cần tha thứ nằm ngay trong gương.",
+    "forecast": [
+      "Có xu hướng một ký ức cũ về cuộc cãi cọ hoặc một câu nói làm bạn đau lại hiện về, nhưng lần này nhẹ hơn.",
+      "Bạn dễ thôi không kể lại chuyện đó cho mọi người nghe nữa vì thấy mình đã chán kể.",
+      "Một khoảng lặng giữa hai người có thể trở thành khoảng thở thay vì khoảng cách."
+    ],
+    "love": "Bạn có thể không cần thắng người cũ trong ký ức nữa, và điều đó mở chỗ cho cảm xúc mới. Với người đang yêu, hãy để một lần giận hờn qua đi mà không tính điểm. Người độc thân dễ bớt đề phòng hơn.",
+    "career": "Một mâu thuẫn tưởng đã dừng nhưng vẫn làm bạn bực ngầm có thể dịu xuống. Dành năng lượng đã dùng để giận cho việc có thể hoàn thành hôm nay. Bạn sẽ tập trung được lâu hơn thường lệ.",
+    "finance": "Tài chính ở mức ổn định, nhưng cảm xúc bực bội có thể kéo bạn vào mua sắm để tự thưởng. Hãy thưởng bằng một thứ rẻ và tử tế như bữa ăn ngon, thay vì giải tỏa bằng món lớn.",
+    "insight": "Có thể thứ bạn mang lâu nhất không phải sự hận người khác, mà là giận chính mình vì đã im lặng hoặc đã nói quá lời. Khi tha cho phiên bản đó, bạn bớt phải bảo vệ nó.",
+    "memorable_message": "Bạn không cần thắng thêm lần nào nữa trong một trận mà người kia đã rời sân từ lâu.",
+    "advice": "Hôm nay thử nói với mình bằng giọng của một người bạn thân về chuyện cũ ấy. Rồi làm một việc nhỏ, như dọn một góc phòng, để cơ thể hiểu rằng chuyện đã khép.",
+    "keywords": ["buông hận", "tha thứ", "hết chiến"]
+  },
+  {
+    "card_id": "six-of-swords", "orientation": "upright", "variant": 1,
+    "summary": "Một giai đoạn nặng nề đang được bạn bỏ lại phía sau, và cảm giác nhẹ hơn hôm nay là có cơ sở.",
+    "card": { "name": "Sáu Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 6, "career": 7, "finance": 6, "energy": 6 },
+    "headline": "Mặt nước chưa hoàn toàn phẳng, nhưng thuyền đã rời bến.",
+    "forecast": [
+      "Có xu hướng bạn thấy một chuyện từng đè nặng bắt đầu bớt chiếm chỗ trong đầu.",
+      "Một tin hoặc một lời gợi ý cho thấy hướng đi mới có thể xuất hiện.",
+      "Bạn dễ muốn yên tĩnh và ít trò chuyện hơn so với thường ngày."
+    ],
+    "love": "Tình cảm hôm nay nghiêng về sự êm dịu hơn là kịch tính. Nếu đang tìm hiểu ai, một cuộc trò chuyện thong thả có khả năng đưa hai người gần nhau. Người đang yêu nên dành cho nhau một khoảng yên.",
+    "career": "Có thể một dự án khó đang được đẩy sang giai đoạn sau, hoặc bạn đang tìm cách rời một môi trường căng thẳng. Hãy xếp việc theo thứ tự và làm từng việc một. Sinh viên có thể thấy bài khó bớt rối khi chia nhỏ.",
+    "finance": "Dòng tiền có xu hướng ổn dần nếu bạn đã chịu cắt bớt phần chi không cần thiết. Hôm nay hợp để rà lại kế hoạch chi tiêu cho giai đoạn mới. Chưa cần quyết định lớn.",
+    "insight": "Có thể bạn vẫn nghĩ mình chưa có quyền thấy nhẹ vì chuyện chưa xong hẳn. Nhưng rời đi từng chút cũng đã là đang rời đi.",
+    "memorable_message": "Không ai chèo thuyền rời bờ mà vẫn cố mang cả bến theo.",
+    "advice": "Chọn một vật, một cuộc trò chuyện hoặc một thói quen thuộc giai đoạn cũ và nhẹ tay đặt nó xuống. Giữ lại điều học được, bỏ phần đau.",
+    "keywords": ["rời đi", "nhẹ dần", "bình yên"]
+  },
+  {
+    "card_id": "six-of-swords", "orientation": "upright", "variant": 2,
+    "summary": "Bạn không cần tự chèo một mình: hôm nay có người hoặc lời khuyên giúp bạn qua đoạn nước khó.",
+    "card": { "name": "Sáu Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 6, "career": 7, "finance": 6, "energy": 7 },
+    "headline": "Chuyển đi không có nghĩa là bỏ chạy.",
+    "forecast": [
+      "Có thể một người đáng tin đưa ra lời chỉ dẫn đúng lúc bạn đang lưỡng lự.",
+      "Có xu hướng liên quan đến di chuyển, đổi chỗ, đổi lịch hoặc đổi cách làm.",
+      "Bạn dễ thấy rõ trong hành lý của mình thứ nào đáng giữ, thứ nào không."
+    ],
+    "love": "Nếu có khoảng cách hoặc căng thẳng, hôm nay là lúc đổi không gian để nói chuyện, như đi dạo thay vì ngồi đối diện. Người đang yêu sẽ thấy dễ chịu khi có một chuyến đi nhỏ cùng nhau. Người độc thân có thể gặp ai đó qua một môi trường mới.",
+    "career": "Một thay đổi về vị trí, nhóm, lớp học hoặc cách làm có khả năng đang đến gần. Hỏi người đi trước, họ có thể chỉ cho bạn con đường ngắn hơn. Đừng ngại nhờ giúp, đó cũng là một kỹ năng.",
+    "finance": "Chi phí liên quan đến di chuyển hoặc đổi chỗ ở, đổi việc có thể xuất hiện. Hãy liệt kê trước các khoản đó để không bị bất ngờ. Dòng tiền nhìn chung vẫn trong tầm kiểm soát.",
+    "insight": "Có thể bạn quen làm người chèo thuyền cho mọi người và quên rằng mình cũng được ngồi làm hành khách. Nhận giúp đỡ không làm bạn kém độc lập.",
+    "memorable_message": "Thuyền nào cũng cần người lái, nhưng không thuyền nào cấm bạn ngồi nghỉ.",
+    "advice": "Nhờ đúng một người làm đúng một việc nhỏ mà bạn vẫn gồng làm một mình. Nói ngắn gọn, rõ ràng, rồi nhận lời giúp mà không giải thích quá nhiều.",
+    "keywords": ["nhận giúp đỡ", "đổi chỗ", "đi tiếp"]
+  },
+  {
+    "card_id": "six-of-swords", "orientation": "upright", "variant": 3,
+    "summary": "Đầu óc bạn bắt đầu lắng sau một giai đoạn nghĩ nhiều, và sự bình tĩnh này đáng được bảo vệ.",
+    "card": { "name": "Sáu Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 7, "career": 7, "finance": 6, "energy": 6 },
+    "headline": "Có những bình yên chỉ tới khi bạn thôi phân tích.",
+    "forecast": [
+      "Có xu hướng bạn bớt quay lại một câu hỏi cứ lặp đi lặp lại những ngày trước.",
+      "Một cuộc trò chuyện nhẹ với người hiểu chuyện có thể giúp bạn gọi tên điều đã qua.",
+      "Buổi tối dễ là lúc cảm giác nhẹ nhõm rõ nhất."
+    ],
+    "love": "Cảm xúc dịu và ít phản ứng, thích hợp để nói chuyện nghiêm túc mà không cần to tiếng. Nếu còn nhớ người cũ, hôm nay bạn có thể nhớ mà không đau. Người đang yêu nên giữ cho buổi tối yên tĩnh bên nhau.",
+    "career": "Tâm trí bớt rối giúp bạn quyết nhanh những việc tồn đọng. Tắt thông báo một lúc và làm việc cần tập trung trước. Học sinh sinh viên có thể thấy bài vào đầu dễ hơn.",
+    "finance": "Không có biến động lớn, nhưng khi đầu óc bớt ồn, bạn dễ thấy chỗ tiền đang rò rỉ. Một lần rà sao kê ngắn là đủ cho hôm nay.",
+    "insight": "Có thể bạn đang chờ cho đến khi hết đau hẳn rồi mới cho phép mình đi tiếp. Thực tế, bình yên thường đến khi bạn đã đi được một đoạn.",
+    "memorable_message": "Mặt hồ chỉ trong khi bạn thôi khuấy nó.",
+    "advice": "Dành mười phút không màn hình, ngồi yên hoặc đi chậm, để đầu óc tự lắng. Việc gì cần nghĩ thêm thì mai nghĩ tiếp.",
+    "keywords": ["lắng lại", "bình tĩnh", "đi tiếp"]
+  },
+  {
+    "card_id": "six-of-swords", "orientation": "reversed", "variant": 1,
+    "summary": "Có một điều cũ bạn chưa buông, và nó đang kéo chậm nhịp bước của ngày hôm nay.",
+    "card": { "name": "Sáu Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 5, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Con thuyền đã sẵn, chỉ có chiếc neo là bạn chưa chịu cắt.",
+    "forecast": [
+      "Có xu hướng một ký ức hoặc một người cũ xuất hiện trong đầu đúng lúc bạn cần tập trung.",
+      "Bạn dễ kể lại một chuyện cũ lần nữa và thấy nó vẫn nóng như hôm qua.",
+      "Một lời mời đổi hướng có thể đến, nhưng bạn dễ viện lý do để lùi lại."
+    ],
+    "love": "Có thể bạn đang so sánh người hiện tại với một người đã qua, và người hiện tại luôn thua trong cuộc so sánh không công bằng đó. Nếu thấy mình làm vậy, hãy dừng một nhịp. Người độc thân nên nhìn lại xem mình đang chờ ai hay đang ngại ai.",
+    "career": "Công việc có xu hướng chậm vì bạn bám vào cách làm cũ. Thử đổi một bước nhỏ trong quy trình thay vì đợi một cuộc đổi lớn. Sinh viên có thể thấy khó vào bài khi đầu còn đầy chuyện khác.",
+    "finance": "Có thể còn thói quen chi tiêu từ giai đoạn cũ không còn hợp với hoàn cảnh hiện tại. Xem lại một khoản đăng ký hoặc chi định kỳ mà bạn đã không dùng nữa. Hạn chế quyết định lớn hôm nay.",
+    "insight": "Có thể bạn không sợ thay đổi, mà sợ phải thừa nhận rằng chương cũ thật sự đã khép. Giữ lại cơn đau cũng là một cách để chưa phải chia tay.",
+    "memorable_message": "Chiếc neo giữ thuyền an toàn ở bến, nhưng cũng giữ nó không bao giờ ra khơi.",
+    "advice": "Tìm xem điều gì bạn đang giữ chỉ vì đã quen, rồi cắt giảm một phần nhỏ. Hôm nay không cần buông hết, chỉ cần nới tay một chút.",
+    "keywords": ["neo cũ", "chưa buông", "nới tay"]
+  },
+  {
+    "card_id": "six-of-swords", "orientation": "reversed", "variant": 2,
+    "summary": "Bạn đang đứng trước một thay đổi và chọn ở yên cho an toàn, dù chỗ này đã bớt thoải mái.",
+    "card": { "name": "Sáu Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 5, "career": 4, "finance": 5, "energy": 4 },
+    "headline": "Ở yên cũng là một lựa chọn, và nó cũng có giá.",
+    "forecast": [
+      "Có xu hướng bạn tìm thêm một lý do để hoãn một quyết định đã nằm đó vài tuần.",
+      "Một người xung quanh có thể thúc bạn, và bạn dễ thấy khó chịu.",
+      "Cảm giác ì ạch dễ xuất hiện vào buổi chiều, khi danh sách việc vẫn còn nguyên."
+    ],
+    "love": "Một mối quan hệ có thể đang đứng yên vì cả hai đều ngại nói điều cần nói. Hãy chọn một câu thật nhỏ nhưng thật, thay vì chờ thời điểm hoàn hảo. Người độc thân dễ từ chối cơ hội vì đã quen sự một mình.",
+    "career": "Bạn dễ ngại nhận một vị trí hoặc dự án mới vì chưa tin mình làm được. Hỏi rõ yêu cầu và thời hạn sẽ giúp giảm mơ hồ. Việc đã hoãn nhiều lần nên được làm trong ba mươi phút đầu.",
+    "finance": "Sự trì trệ có thể thể hiện qua việc chưa lên kế hoạch hoặc chưa kiểm tra các khoản cần xử lý. Chọn một việc giấy tờ hoặc sổ sách nhỏ và làm xong ngay. Cảm giác nhẹ sau đó đáng giá hơn bạn nghĩ.",
+    "insight": "Có thể thứ bạn gọi là thận trọng thực ra là một nỗi sợ chưa được gọi tên. Khi viết ra điều tệ nhất có thể xảy ra, bạn thường thấy nó không to bằng trong đầu.",
+    "memorable_message": "Đứng yên giữa dòng nước cũng mỏi chân như đi.",
+    "advice": "Viết một dòng cho điều tệ nhất có thể xảy ra nếu bạn bước đi, rồi viết một dòng cho điều sẽ xảy ra nếu bạn không. So hai dòng đó rồi quyết.",
+    "keywords": ["sợ thay đổi", "trì hoãn", "bước nhỏ"]
+  },
+  {
+    "card_id": "six-of-swords", "orientation": "reversed", "variant": 3,
+    "summary": "Bạn đang mang quá nhiều thứ không phải của mình, nên con thuyền nhích đi rất chậm.",
+    "card": { "name": "Sáu Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Không phải thuyền chậm, mà là hành lý quá nặng.",
+    "forecast": [
+      "Có xu hướng bạn nhận thêm việc hoặc nhận thêm tâm sự của người khác dù mình đã đầy.",
+      "Một khoảnh khắc mệt đột ngột có thể đến, dù chưa có chuyện gì lớn xảy ra.",
+      "Bạn dễ nghĩ đến chuyện rời một nơi hoặc một vai trò nhưng chưa dám nói."
+    ],
+    "love": "Bạn có thể đang gánh cảm xúc cho cả hai người và giữ im lặng để giữ hòa khí. Thử nói một điều bạn cần, kể cả khi nghe không dễ thương. Người độc thân nên tránh cứu giúp một ai đó chỉ vì thương hại.",
+    "career": "Khối lượng việc hoặc vai trò đang kéo bạn chậm lại, và bạn dễ ôm luôn việc của người khác. Học cách nói không với một việc hôm nay là bài tập tốt. Sinh viên nên ưu tiên việc thật sự của mình trước bài nhóm của người khác.",
+    "finance": "Có thể bạn đang chi hoặc cho mượn nhiều hơn khả năng vì ngại từ chối. Đặt một mức giới hạn rõ ràng cho các khoản giúp người khác, và nhớ phần của mình vẫn cần được lo.",
+    "insight": "Có thể bạn quen xem việc chịu đựng là phẩm chất, nên khó nhận ra khi nào nó thành tự bỏ rơi mình. Mệt không có nghĩa là bạn yếu, chỉ là hành lý đã quá tải.",
+    "memorable_message": "Nhẹ đi không phải là bỏ rơi ai, mà là để khỏi chìm cùng tất cả.",
+    "advice": "Hôm nay thử đặt xuống một thứ không phải của bạn, bằng một câu lịch sự như hôm nay mình chưa nhận thêm được. Bạn vẫn giữ được sự tử tế với người khác và với mình.",
+    "keywords": ["quá tải", "nói không", "giảm gánh"]
+  },
+  {
+    "card_id": "seven-of-swords", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay sự khôn khéo có chỗ dùng: bạn có thể đạt điều mình cần bằng đường vòng, miễn là không vòng qua sự thật.",
+    "card": { "name": "Bảy Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 6, "finance": 5, "energy": 6 },
+    "headline": "Chiến lược tốt không cần giấu ai điều gì.",
+    "forecast": [
+      "Có xu hướng bạn cân nhắc cách đi khéo hơn là đối đầu thẳng với một việc.",
+      "Có thể bạn nhận ra một đường tắt hợp lý trong công việc mà người khác chưa để ý.",
+      "Một chi tiết bạn đang giữ cho riêng mình sẽ quyết định ngày hôm nay dễ hay khó."
+    ],
+    "love": "Bạn có thể giữ kín cảm xúc hoặc vài suy nghĩ vì sợ bị đánh giá. Giữ riêng một chút thì ổn, nhưng nếu nó thành tránh nói điều quan trọng thì khoảng cách sẽ lớn hơn bạn nghĩ. Người độc thân dễ tán tỉnh khéo, miễn là thật.",
+    "career": "Năng lượng hợp để lập kế hoạch, tính trước các bước và chuẩn bị phương án hai. Dùng sự khôn ngoan để tiết kiệm công sức, không dùng để qua mặt ai. Sinh viên có thể tìm cách học thông minh hơn là học nhiều hơn.",
+    "finance": "Hôm nay hợp để tính toán chi tiêu một cách tỉnh táo và tìm cách cắt các khoản thừa. Tránh các lời hứa có vẻ được lợi quá nhanh mà thiếu giải thích rõ ràng.",
+    "insight": "Có thể bạn quen tự xoay xở một mình nên quên rằng nói ra kế hoạch đôi khi lại tạo được đồng minh. Khôn ngoan mà thiếu minh bạch thường khiến bạn cô độc.",
+    "memorable_message": "Đường vòng đẹp nhất là đường vòng mà bạn dám kể lại cho người khác nghe.",
+    "advice": "Lập một kế hoạch khéo cho một việc khó hôm nay, rồi tự hỏi bạn có thoải mái kể kế hoạch đó với người liên quan không. Nếu không, chỉnh lại một chút.",
+    "keywords": ["chiến lược", "khéo léo", "minh bạch"]
+  },
+  {
+    "card_id": "seven-of-swords", "orientation": "upright", "variant": 2,
+    "summary": "Có xu hướng thông tin hôm nay thiếu một mảnh, nên hãy kiểm chứng trước khi tin hoặc kết luận.",
+    "card": { "name": "Bảy Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 5, "finance": 5, "energy": 6 },
+    "headline": "Nghe một nửa câu chuyện là cách nhanh nhất để hiểu sai.",
+    "forecast": [
+      "Một lời hứa hoặc một tin đồn có thể nghe hợp lý nhưng thiếu chi tiết quan trọng.",
+      "Có thể có người nói giảm một phần sự thật để mình trông ổn hơn.",
+      "Bạn dễ bắt gặp một mâu thuẫn nhỏ giữa điều ai đó nói và điều họ làm."
+    ],
+    "love": "Nếu có điều gì không khớp giữa cách đối phương nói và làm, hãy hỏi thẳng thay vì tự diễn trong đầu. Đừng vội kết luận ai đang giấu, chỉ cần quan sát. Người độc thân nên chậm lại với người nói quá nhiều lời đẹp.",
+    "career": "Cần cẩn thận với cam kết miệng, hãy xác nhận lại bằng tin nhắn hoặc email. Một báo cáo hoặc con số có thể thiếu sót, nên kiểm lần hai. Sinh viên nên kiểm lại nguồn trước khi dùng cho bài làm.",
+    "finance": "Cẩn thận với ưu đãi quảng cáo hoặc lời mời hợp tác nghe quá hấp dẫn mà thiếu giấy tờ rõ ràng. Đọc điều khoản và hỏi lại điều mơ hồ. Giữ tiền của mình ở chỗ mình hiểu rõ.",
+    "insight": "Có thể bạn đang bỏ qua một cảm giác lấn cấn nhỏ vì không muốn nghi ngờ người khác. Cảm giác lấn cấn không phải lời buộc tội, nó chỉ là một lời nhắc kiểm tra.",
+    "memorable_message": "Niềm tin tốt nhất là niềm tin có biên lai.",
+    "advice": "Với mỗi thông tin quan trọng hôm nay, hỏi thêm một câu cho rõ hoặc xác nhận lại bằng văn bản. Lịch sự, nhẹ nhàng, nhưng đủ để bạn yên tâm.",
+    "keywords": ["kiểm chứng", "cảnh giác", "nửa sự thật"]
+  },
+  {
+    "card_id": "seven-of-swords", "orientation": "upright", "variant": 3,
+    "summary": "Người dễ bị bạn qua mặt nhất hôm nay có thể là chính bạn: một đường tắt nghe hợp lý nhưng trả giá sau.",
+    "card": { "name": "Bảy Kiếm", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 5, "finance": 5, "energy": 6 },
+    "headline": "Né việc khó hôm nay, nó sẽ đứng chờ bạn vào ngày mai.",
+    "forecast": [
+      "Có xu hướng bạn tìm ra một lý do rất hợp lý để làm việc dễ trước và để việc khó sau.",
+      "Một đường tắt xuất hiện, hấp dẫn nhưng bỏ qua một bước quan trọng.",
+      "Có thể bạn kể một phiên bản đã chỉnh sửa của một câu chuyện để mình đỡ khó xử."
+    ],
+    "love": "Bạn có thể nói giảm đi một chuyện nhỏ như hôm nay đi đâu hoặc với ai để tránh cãi. Chuyện nhỏ tích lại sẽ thành một khoảng im lặng lớn. Người độc thân nên trung thực về điều mình muốn thay vì nói theo kiểu dễ nghe.",
+    "career": "Dễ có cám dỗ làm cho xong để qua vòng kiểm tra, hoặc đẩy trách nhiệm sang người khác. Hãy giữ chất lượng ở phần cốt lõi và nhờ giúp ở phần còn lại. Sinh viên nên tránh làm ẩu rồi hy vọng không bị hỏi.",
+    "finance": "Có thể có một khoản bạn tránh nhìn vì sợ con số. Nhìn nó hôm nay, dù chỉ năm phút, nhẹ hơn là tiếp tục né. Đừng giấu một khoản chi với người cùng chia tài chính.",
+    "insight": "Có thể bạn không lười, bạn chỉ đang né cảm giác khó chịu khi bắt đầu. Sự khó chịu đó thường chỉ kéo dài mười phút đầu.",
+    "memorable_message": "Đường tắt luôn có người thu phí, chỉ là họ gửi hóa đơn muộn.",
+    "advice": "Chọn việc bạn đang né nhất và làm đúng mười phút đầu. Nếu thấy cần giấu hay chỉnh một chi tiết, đó là dấu hiệu bạn nên nói thật.",
+    "keywords": ["né tránh", "đường tắt", "thật với mình"]
+  },
+  {
+    "card_id": "seven-of-swords", "orientation": "reversed", "variant": 1,
+    "summary": "Điều bạn giữ kín đã đến lúc nhẹ đi: nói ra sớm thường rẻ hơn để người khác tự phát hiện.",
+    "card": { "name": "Bảy Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 6, "love": 5, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Sự thật nói sớm luôn rẻ hơn sự thật bị lộ.",
+    "forecast": [
+      "Có xu hướng bạn muốn thú nhận một sai sót nhỏ trước khi nó lớn lên.",
+      "Cảm giác nhẹ người có thể xuất hiện ngay sau khi nói thật, dù trước đó khá run.",
+      "Một người có thể phản ứng dịu hơn bạn tưởng."
+    ],
+    "love": "Có thể có một điều bạn chưa nói với người mình thương, như một cảm xúc, một sai lầm nhỏ hay một chuyện cũ. Hôm nay là thời điểm tốt để nói, ngắn và thật. Người độc thân nên rõ ràng về điều mình đang tìm.",
+    "career": "Nếu có lỗi hoặc trễ hạn, hãy báo sớm cho người liên quan kèm một phương án sửa. Người ta thường bớt giận khi thấy bạn chủ động. Sinh viên có thể xin gia hạn bằng cách giải thích thật.",
+    "finance": "Một khoản nợ, một chi tiêu bạn chưa nói hoặc con số bạn còn né có thể cần được đưa ra ánh sáng. Ngồi lại tính một lượt, rồi lập kế hoạch trả hoặc điều chỉnh. Nhẹ đầu hơn nhiều so với tiếp tục giấu.",
+    "insight": "Có thể gánh nặng bạn mang không phải là sai lầm, mà là công sức giấu nó mỗi ngày. Khi thôi giấu, bạn lấy lại một phần năng lượng đã bị chiếm.",
+    "memorable_message": "Chiếc túi giấu kín nặng nhất khi bạn là người duy nhất biết bên trong có gì.",
+    "advice": "Chọn điều đang làm bạn lấn cấn và chuẩn bị ba câu: chuyện gì đã xảy ra, bạn nhận phần nào, bạn sẽ sửa thế nào. Nói đúng ba câu đó, không biện hộ.",
+    "keywords": ["thú nhận", "nhẹ lòng", "nói sớm"]
+  },
+  {
+    "card_id": "seven-of-swords", "orientation": "reversed", "variant": 2,
+    "summary": "Chuyện trước đó còn mờ có xu hướng lộ rõ hơn hôm nay, và cách bạn phản ứng quan trọng hơn chi tiết.",
+    "card": { "name": "Bảy Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Khi sự thật lộ ra, hãy làm người đứng vững chứ đừng làm người phán xét.",
+    "forecast": [
+      "Một thông tin hoặc một mâu thuẫn cũ có thể được làm sáng tỏ qua một lời nói tình cờ.",
+      "Có xu hướng bạn phát hiện một điều không như người ta kể.",
+      "Một tình huống bị che đậy có thể khiến vài người lúng túng trong chốc lát."
+    ],
+    "love": "Bạn có thể biết thêm một điều về đối phương hoặc về chính mình mà trước đó chưa rõ. Đừng phản ứng ngay lúc nóng, hãy hỏi để hiểu bối cảnh. Người độc thân dễ nhận ra dấu hiệu đỏ mà trước giờ mình lờ đi.",
+    "career": "Một sai sót, một quy trình hoặc một thỏa thuận ngầm có thể bị đưa ra bàn. Giữ thái độ bình tĩnh và chỉ nói điều mình thấy, không suy đoán thêm. Việc bạn làm đúng và rõ ràng sẽ bảo vệ bạn.",
+    "finance": "Một khoản chi hoặc điều khoản bị bỏ sót có khả năng lộ ra khi bạn rà lại. Kiểm tra sao kê hoặc hợp đồng đơn giản hôm nay có thể giúp bạn sửa sớm. Không cần hoảng, xử lý từng khoản một.",
+    "insight": "Có thể bạn sợ sự thật không phải vì nó tệ, mà vì nó buộc bạn đổi cách sống chung với nó. Nhưng biết rõ luôn dễ chọn hơn đoán mò.",
+    "memorable_message": "Bật đèn không làm căn phòng bừa thêm, nó chỉ cho bạn biết chỗ cần dọn.",
+    "advice": "Khi nhận một thông tin gây sốc, đợi một tiếng rồi hẵng phản hồi. Ghi ra điều bạn đã biết rõ và điều còn là suy đoán.",
+    "keywords": ["lộ ra", "bình tĩnh", "làm rõ"]
+  },
+  {
+    "card_id": "seven-of-swords", "orientation": "reversed", "variant": 3,
+    "summary": "Niềm tin có thể được vá lại, nhưng bằng hành động nhất quán chứ không bằng một lời xin lỗi đẹp.",
+    "card": { "name": "Bảy Kiếm", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 6, "love": 5, "career": 6, "finance": 5, "energy": 5 },
+    "headline": "Một lời xin lỗi chỉ thật khi nó đi cùng một thay đổi.",
+    "forecast": [
+      "Có thể một người bày tỏ sự hối lỗi, hoặc chính bạn là người muốn làm vậy.",
+      "Bạn dễ nhận thấy khác biệt giữa lời xin lỗi để mình dễ chịu hơn và lời xin lỗi để sửa.",
+      "Một cuộc nói chuyện có thể mở lại những điều từng bị tránh."
+    ],
+    "love": "Nếu có một vết nứt về niềm tin, hôm nay là lúc có thể nói chuyện nghiêm túc hơn. Người xin lỗi nên rõ ràng về điều sẽ làm khác đi. Người nghe có quyền cần thời gian, không cần tha thứ ngay.",
+    "career": "Có thể bạn phải sửa lại mối quan hệ với một đồng nghiệp hoặc khách hàng sau một sai sót. Hành động nhỏ như giao việc đúng hạn trong tuần này nói nhiều hơn lời giải thích. Sinh viên cũng vậy, một bài nộp đúng giờ là cách xin lỗi tốt.",
+    "finance": "Nếu có chuyện tiền bạc làm mất lòng tin, như vay mượn hoặc chia tiền chưa rõ, hãy đặt lại thỏa thuận bằng văn bản. Minh bạch từng khoản sẽ giúp hai bên bớt nghi ngờ.",
+    "insight": "Có thể bạn đang mong người kia hiểu ý mình mà không cần nói, hoặc mong được tha mà không cần sửa. Cả hai đều cần một câu nói rõ ràng.",
+    "memorable_message": "Niềm tin là tấm kính vỡ: dán lại được, nhưng phải dán từng mảnh, mỗi ngày một mảnh.",
+    "advice": "Nếu bạn là người cần xin lỗi, hãy nói ba điều: mình đã làm gì, ảnh hưởng ra sao, mình sẽ làm khác thế nào. Nếu bạn là người nghe, bạn được phép nói mình cần thêm thời gian.",
+    "keywords": ["hối lỗi", "xây lại tin", "hành động"]
+  }
+]

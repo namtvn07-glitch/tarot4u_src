@@ -1,24 +1,16 @@
 "use client";
 
 import React from "react";
-import { Sparkles, ArrowRight, Zap, BookOpen, Compass, Heart, Briefcase, Coins, Flower2, Layers } from "lucide-react";
-import { TOPICS, TAROT_CARDS, CARD_BACK_IMAGE } from "@/data/tarotCards";
-import type { AppScreen, TarotCard } from "@/types/tarot";
-import { DailyTarotMessage } from "@/components/DailyTarotMessage";
+import { Sparkles, ArrowRight, Zap, Compass, Heart, Briefcase, Coins, Flower2 } from "lucide-react";
+import { TOPICS, CARD_BACK_IMAGE } from "@/data/tarotCards";
+import type { AppScreen } from "@/types/tarot";
 
 interface HomeScreenProps {
   onNavigate: (screen: AppScreen) => void;
   onSelectTopic: (topicId: string) => void;
-  onViewCardDetail?: (card: TarotCard) => void;
-  onStartDeepReadWithInquiry?: (inquiry: string) => void;
 }
 
-export const HomeScreen: React.FC<HomeScreenProps> = ({
-  onNavigate,
-  onSelectTopic,
-  onViewCardDetail,
-  onStartDeepReadWithInquiry,
-}) => {
+export const HomeScreen: React.FC<HomeScreenProps> = ({ onNavigate, onSelectTopic }) => {
   const getTopicIcon = (id: string) => {
     switch (id) {
       case "love": return <Heart className="w-5 h-5 text-[#d4af37]" />;
@@ -87,20 +79,45 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </button>
 
           <button
-            onClick={() => onNavigate("quick-read")}
+            onClick={() => onNavigate("daily")}
             className="px-6 py-3.5 rounded-full bg-[#15100b] hover:bg-white/10 text-[#b3a48d] hover:text-[#d4af37] border border-[#3d3123] hover:border-[#d4af37] text-sm font-semibold tracking-wider transition-all duration-300 flex items-center gap-2 cursor-pointer"
           >
             <Zap className="w-4 h-4 text-[#d4af37]" />
-            <span>Rút Nhanh 1 Lá (Miễn Phí)</span>
+            <span>Thông Điệp Hôm Nay (Miễn Phí)</span>
           </button>
         </div>
       </section>
 
-      {/* Daily Tarot Message Feature */}
-      <DailyTarotMessage
-        onViewCardDetail={onViewCardDetail}
-        onStartDeepReadWithInquiry={onStartDeepReadWithInquiry}
-      />
+      {/* Daily Tarot: cửa vào nhẹ nhất của cả hệ thống — không câu hỏi, không chọn chủ đề */}
+      <section
+        aria-labelledby="home-daily-heading"
+        className="w-full max-w-5xl mx-auto px-4 sm:px-8 my-6"
+      >
+        <div className="relative overflow-hidden rounded-3xl border border-[#d4af37]/40 bg-gradient-to-br from-[#15100b]/95 via-[#0e0a08]/98 to-[#1c1611]/95 p-6 sm:p-8 shadow-[0_10px_40px_rgba(0,0,0,0.7)] flex flex-col sm:flex-row items-center gap-6">
+          <div className="absolute top-0 right-1/4 w-72 h-72 bg-[#d4af37]/10 rounded-full blur-[80px] pointer-events-none" />
+          <div className="relative z-10 w-24 sm:w-28 aspect-[2/3] shrink-0 rounded-xl border-2 border-[#d4af37]/60 overflow-hidden shadow-[0_0_30px_rgba(212,175,55,0.35)] animate-levitate-1 motion-reduce:animate-none">
+            <img src={CARD_BACK_IMAGE} alt="" className="w-full h-full object-cover" />
+          </div>
+          <div className="relative z-10 text-center sm:text-left flex-1">
+            <span className="text-[10px] font-bold uppercase tracking-widest text-[#d4af37]">
+              Mỗi ngày một lá
+            </span>
+            <h2 id="home-daily-heading" className="font-display text-2xl sm:text-3xl text-white font-bold mt-1 mb-2">
+              Hôm nay Tarot muốn nói gì với bạn?
+            </h2>
+            <p className="text-sm text-[#b3a48d] leading-relaxed max-w-xl">
+              Không cần câu hỏi. Rút một lá để nhận năng lượng trong ngày, tình yêu, công việc, tài chính và một lời nhắn riêng cho hôm nay. Lượt đầu mỗi ngày miễn phí.
+            </p>
+          </div>
+          <button
+            onClick={() => onNavigate("daily")}
+            className="relative z-10 shrink-0 px-6 py-3 rounded-full bg-gradient-to-r from-[#8f5a1f] to-[#764a19] hover:from-[#d4af37] hover:to-[#8f5a1f] text-white hover:text-[#050505] text-xs font-semibold uppercase tracking-wider transition-all duration-300 flex items-center gap-2 cursor-pointer active:scale-95 motion-reduce:transition-none"
+          >
+            <Sparkles className="w-4 h-4" aria-hidden="true" />
+            <span>Rút lá hôm nay</span>
+          </button>
+        </div>
+      </section>
 
       {/* Topic Selection */}
       <section className="w-full max-w-6xl px-4 sm:px-8 py-10">
@@ -140,27 +157,27 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           <div className="absolute top-0 right-0 w-64 h-64 bg-[#d4af37]/5 rounded-full blur-3xl -mr-32 -mt-32 pointer-events-none" />
 
           <h2 className="font-display text-2xl sm:text-3xl text-[#d4af37] font-bold mb-6">
-            Kiến Trúc Luận Giải 2 Lớp Độc Đáo
+            Hai Cách Đọc Bài
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="space-y-2 bg-[#1c1611]/80 p-5 rounded-2xl border border-[#3d3123]">
               <h4 className="text-sm font-bold text-white flex items-center gap-2">
-                <Sparkles className="w-4 h-4 text-[#d4af37]" />
-                Lớp Cá Nhân (Trải 3 Lá Chuyên Sâu)
+                <Zap className="w-4 h-4 text-[#d4af37]" />
+                Thông Điệp Hôm Nay (1 Lá)
               </h4>
               <p className="text-xs sm:text-sm text-[#b3a48d] leading-relaxed">
-                Phân tích realtime sự liên kết giữa 3 lá bài theo cấu trúc Quá khứ - Hiện tại - Tương lai. Mang đến lời luận giải sâu sắc, cá nhân hóa cho từng câu hỏi cụ thể của bạn.
+                Mỗi ngày một lá miễn phí: năng lượng trong ngày, tình yêu, công việc, tài chính và một lời nhắn cho hôm nay. Muốn rút thêm trong ngày chỉ tốn 1 credit.
               </p>
             </div>
 
             <div className="space-y-2 bg-[#1c1611]/80 p-5 rounded-2xl border border-[#3d3123]">
               <h4 className="text-sm font-bold text-white flex items-center gap-2">
-                <Zap className="w-4 h-4 text-[#d4af37]" />
-                Lớp Nền (Rút Nhanh 1 Lá Tức Thì)
+                <Sparkles className="w-4 h-4 text-[#d4af37]" />
+                Trải Bài Sâu (3 Lá Chuyên Sâu)
               </h4>
               <p className="text-xs sm:text-sm text-[#b3a48d] leading-relaxed">
-                Nhận thông điệp tức thời từ kho tri thức 780 tổ hợp giải nghĩa chuẩn mực. Hoàn toàn miễn phí, trực quan và định tâm trước khi bắt đầu công việc.
+                Phân tích sự liên kết giữa 3 lá bài theo cấu trúc Quá khứ - Hiện tại - Tương lai. Mang đến lời luận giải sâu sắc, cá nhân hóa cho từng câu hỏi cụ thể của bạn.
               </p>
             </div>
           </div>

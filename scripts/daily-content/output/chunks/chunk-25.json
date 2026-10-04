@@ -1,0 +1,344 @@
+[
+  {
+    "card_id": "nine-of-pentacles", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay bạn được phép ngồi xuống hưởng một phần thành quả, thay vì lập tức nhìn sang mục tiêu kế tiếp.",
+    "card": { "name": "Chín Tiền", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 6, "career": 7, "finance": 8, "energy": 7 },
+    "headline": "Nghỉ tay một chút không làm thành quả của bạn nhỏ đi.",
+    "forecast": [
+      "Bạn có xu hướng thấy một việc mình làm từ lâu bắt đầu cho kết quả nhìn thấy được, dù chỉ là một con số nhỏ hay một lời khen gọn.",
+      "Năng lượng nghiêng về việc tự thưởng cho mình, như một bữa ăn ngon hay một buổi tối không phải trả lời ai.",
+      "Có thể xuất hiện cảm giác hơi áy náy vì đang thấy ổn, trong khi thói quen cũ bảo bạn phải làm thêm."
+    ],
+    "love": "Người độc thân hôm nay toát ra vẻ thoải mái của người không cần ai cứu, kiểu sức hút dễ khiến người khác tò mò. Nếu đang tìm hiểu ai đó, bạn không cần vội chứng minh mình đủ tốt. Đang yêu thì một buổi tối yên tĩnh bên nhau đáng giá hơn một kế hoạch cầu kỳ.",
+    "career": "Công sức tích lũy có xu hướng được ghi nhận, dưới dạng phản hồi tốt hoặc một đầu việc trơn tru hơn mọi khi. Sinh viên có thể thấy kiến thức bắt đầu khớp vào nhau. Đừng vì đang thuận lợi mà bỏ nhịp đều.",
+    "finance": "Dòng tiền khá vững, và bạn có quyền chi một khoản nhỏ cho chính mình mà không cần giải trình. Hãy để khoản đó nằm trong mức đã tính trước. Nên nhìn số dư một lần cho yên tâm.",
+    "insight": "Có thể bạn quen ăn mừng chậm đến mức mỗi thành tựu vừa tới đã bị đẩy ra sau lưng để nhường chỗ cho mục tiêu mới. Khi không bao giờ dừng lại nhìn, bạn khó cảm thấy mình đã đi được bao xa.",
+    "memorable_message": "Vườn nho đẹp nhất là vườn có người chịu ngồi xuống ngắm.",
+    "advice": "Chọn một thành quả nhỏ của tuần này và dành mười phút nhìn lại nó, không phải để chấm điểm mà để ghi nhận. Sau đó quay lại việc của mình với đầu óc nhẹ hơn.",
+    "keywords": ["sung túc", "tận hưởng thành quả", "tự thưởng"]
+  },
+  {
+    "card_id": "nine-of-pentacles", "orientation": "upright", "variant": 2,
+    "summary": "Năng lượng hôm nay nghiêng về tự chủ: bạn làm tốt nhất khi được tự quyết nhịp độ và cách làm của mình.",
+    "card": { "name": "Chín Tiền", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 6, "career": 8, "finance": 8, "energy": 7 },
+    "headline": "Có không gian riêng cũng là một dạng giàu có.",
+    "forecast": [
+      "Bạn có xu hướng muốn xử lý một việc một mình, và lần này cách đó khá hiệu quả.",
+      "Một lời đề nghị giúp đỡ hoặc góp ý có thể đến đúng lúc bạn đã có sẵn đáp án, nên dễ khiến bạn từ chối nhẹ nhàng.",
+      "Khoảng thời gian một mình trong ngày dễ trở thành phần bạn thấy nạp lại năng lượng nhất."
+    ],
+    "love": "Bạn đang ở trạng thái không cần ai lấp chỗ trống, nên người độc thân dễ chọn lọc hơn và ít bắt chuyện cho có. Nếu đang tìm hiểu ai đó, nói rõ nhịp độ của mình tốt hơn là chiều theo cho êm. Đang yêu thì xin một khoảng riêng không phải lạnh nhạt, hãy nói thẳng như vậy.",
+    "career": "Làm việc độc lập hôm nay cho chất lượng cao: tự lên kế hoạch, tự chốt, tự giao nộp. Bạn có thể được trao thêm quyền tự quyết ở một mảng nhỏ. Nhớ báo tiến độ để sự tự chủ không bị hiểu thành biệt lập.",
+    "finance": "Cảm giác chủ động về tiền khá rõ, nhất là khi bạn biết tiền mình đang đi đâu. Hợp để rà một khoản chi định kỳ và cắt bớt thứ không còn dùng. Quyết định nhỏ do bạn tự cân nhắc đáng tin hơn quyết định theo đám đông.",
+    "insight": "Có thể điều bạn tự hào nhất không phải là có nhiều, mà là không phải xin phép ai để sống theo cách mình chọn. Chỉ có điều, đôi khi bạn tự lo quen đến mức quên rằng nhờ vả cũng là một kỹ năng.",
+    "memorable_message": "Tự đứng vững và tự cô lập là hai chuyện khác nhau, hôm nay bạn đang ở chuyện thứ nhất.",
+    "advice": "Giữ cho mình một khoảng một mình có chủ đích, tắt thông báo, làm việc bạn thích. Rồi nhắn cho một người thân, chỉ để họ biết bạn vẫn ổn.",
+    "keywords": ["tự chủ", "độc lập", "không gian riêng"]
+  },
+  {
+    "card_id": "nine-of-pentacles", "orientation": "upright", "variant": 3,
+    "summary": "Sự ổn định hôm nay đến từ những thói quen nhỏ bạn giữ đều, giờ chúng bắt đầu cho quả.",
+    "card": { "name": "Chín Tiền", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 7, "career": 7, "finance": 9, "energy": 7 },
+    "headline": "Khu vườn đẹp là kết quả của những buổi sáng nhàm chán.",
+    "forecast": [
+      "Bạn có xu hướng nhận ra một thói quen tốt, như dậy sớm hay ghi chép chi tiêu, đang giúp mình nhẹ hơn mức tưởng.",
+      "Một người nhìn từ ngoài vào có thể khen bạn gọn gàng hoặc có hệ thống, điều mà chính bạn thường không để ý.",
+      "Năng lượng nghiêng về chất lượng hơn số lượng, nên làm ít hơn nhưng kỹ hơn sẽ hợp."
+    ],
+    "love": "Sự chỉn chu và biết chăm sóc bản thân làm bạn có sức hút lặng lẽ, kiểu người ta nhìn một lần rồi nhớ. Người đang tìm hiểu ai đó nên chọn nơi gặp mà cả hai thấy dễ chịu thay vì nơi gây ấn tượng. Đang yêu thì thử chăm một thói quen nhỏ chung của hai người.",
+    "career": "Việc đòi hỏi tỉ mỉ có khả năng chạy trơn hơn nhờ nền tảng bạn đã dựng từ trước. Bạn dễ thấy một quy trình tự soạn đang tiết kiệm thời gian cho mình. Nếu có ai nhờ chỉ cách làm, đây là lúc đáng chia sẻ.",
+    "finance": "Sự đều đặn là điểm mạnh hôm nay: khoản để dành, khoản trả đúng hạn, ghi chép gọn. Bạn có thể nâng chất lượng một món dùng hằng ngày thay vì mua thêm nhiều món. Kiểm soát vừa đủ thôi, đừng biến việc này thành nỗi ám ảnh.",
+    "insight": "Có thể bạn đang xem nhẹ chính sự đều đặn của mình vì nó không ồn ào như những bước ngoặt. Nhưng phần lớn thứ bạn có hôm nay được xây từ những ngày chẳng ai quay phim.",
+    "memorable_message": "Thói quen tốt giống lãi suất: ngày nào cũng nhỏ, nhưng cuối năm thì không còn nhỏ.",
+    "advice": "Chọn một thói quen đang giúp bạn và nói với chính mình một câu cảm ơn rõ ràng. Sau đó thêm đúng một cải tiến nhỏ, không hơn.",
+    "keywords": ["thói quen đều", "chỉn chu", "thành quả bền"]
+  },
+  {
+    "card_id": "nine-of-pentacles", "orientation": "reversed", "variant": 1,
+    "summary": "Hôm nay dễ có khoảng chênh giữa vẻ ngoài bạn muốn cho người khác thấy và thứ bạn đang thật sự cảm thấy.",
+    "card": { "name": "Chín Tiền", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 5, "finance": 3, "energy": 5 },
+    "headline": "Đừng mua thêm ánh nhìn của người khác bằng tiền của mình.",
+    "forecast": [
+      "Bạn có xu hướng muốn khoe một thành tích hoặc món đồ mới, nhất là khi vừa thấy ai đó có vẻ hơn mình.",
+      "Một lời mời đi chơi hay ăn uống ở nơi đắt hơn túi tiền có thể xuất hiện, và việc từ chối nghe khó hơn thực tế.",
+      "Có thể bạn lướt mạng xã hội rồi thấy cuộc sống mình nhạt đi trong vài phút."
+    ],
+    "love": "Dễ xuất hiện kiểu thể hiện để gây ấn tượng, bạn kể phiên bản bóng bẩy của mình thay vì bản thật. Nếu đang tìm hiểu ai đó, một câu nói thật về việc mình đang bận hay mệt sẽ kéo gần hơn mọi màn trình diễn. Đang yêu thì đừng đem quan hệ của mình so với ảnh của người khác.",
+    "career": "Bạn có thể bị cuốn vào việc làm cho công việc trông ấn tượng hơn là làm cho nó chạy tốt. Báo cáo bóng đẹp mà thiếu dữ liệu sẽ dễ bị hỏi lại. Dành nửa thời gian cho phần ruột sẽ giúp bạn tự tin hơn khi trình bày.",
+    "finance": "Chi tiêu để giữ hình ảnh là điểm cần để ý: quần áo, quán cà phê, món quà vượt tầm. Hãy hỏi mình món này mua cho mình hay cho người sẽ nhìn thấy nó. Đặt một mức trần chi tiêu cho hôm nay sẽ đỡ phải nghĩ lại.",
+    "insight": "Có thể phía sau nhu cầu khoe là một nỗi lo âm thầm rằng bản thân chưa đủ. Cảm giác bất an đó rất người, và nó không biến mất bằng thêm một món đồ.",
+    "memorable_message": "Ví tiền không biết đọc ánh mắt người khác, nên đừng bắt nó chiều theo.",
+    "advice": "Trước khi chi hoặc đăng thứ gì, tự hỏi một câu: nếu không ai thấy, mình có còn muốn không? Câu trả lời thành thật sẽ lọc đi một nửa cám dỗ.",
+    "keywords": ["thể hiện quá mức", "chi tiêu bề ngoài", "bản thật"]
+  },
+  {
+    "card_id": "nine-of-pentacles", "orientation": "reversed", "variant": 2,
+    "summary": "Cảm giác thiếu an toàn về tiền bạc đang lên tiếng, và hôm nay hợp để nhìn thẳng vào nó thay vì né.",
+    "card": { "name": "Chín Tiền", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 3, "energy": 4 },
+    "headline": "Bất an về tiền thường nhỏ đi khi bạn chịu đếm nó.",
+    "forecast": [
+      "Bạn có xu hướng nghĩ tới một khoản phải trả hoặc chuyện mình đang phụ thuộc vào ai đó về tiền, và nó cứ quay lại trong đầu.",
+      "Một lời nói vô tình về thu nhập, giá cả hay chuyện tiết kiệm có thể chạm đúng chỗ nhạy.",
+      "Bạn dễ muốn ngả vào người khác để được quyết thay, dù ở một việc nhỏ."
+    ],
+    "love": "Nếu trong mối quan hệ có chuyện ai lo tiền, hôm nay dễ có cảm giác thấp hơn hoặc mang ơn ai đó. Người độc thân có thể tự hỏi mình đã đủ ổn định để được yêu chưa, câu hỏi này thường bị thổi phồng hơn thực tế. Hãy nói điều đó với một người tin cậy thay vì giữ một mình.",
+    "career": "Bạn có thể thấy mình phụ thuộc vào một người, một dự án hay một nguồn thu duy nhất, và điều đó làm bạn dè dặt. Hôm nay hợp để viết ra những kỹ năng bạn có thể mang sang nơi khác.",
+    "finance": "Bạn có thể đang nhìn khoản thiếu hụt rộng hơn con số thật. Hãy mở bảng chi tiêu và ghi ra ba con số: thu, chi cố định và số dư đang có. Biết con số, dù chưa đẹp, vẫn nhẹ hơn là tưởng tượng nó.",
+    "insight": "Có thể điều bạn muốn không phải là nhiều tiền hơn, mà là cảm giác được tự quyết khi cần. Độc lập là thứ dựng dần, không phải bài kiểm tra mà bạn đã trượt.",
+    "memorable_message": "Con số bạn dám nhìn thẳng luôn bớt đáng sợ hơn con số bạn chỉ đoán.",
+    "advice": "Dành mười phút ghi ra tình hình tiền thật của mình, không phán xét. Rồi chọn một việc nhỏ nhất có thể giúp bạn bớt phụ thuộc, như học thêm một kỹ năng hay lập một quỹ dự phòng bé.",
+    "keywords": ["bất an vật chất", "phụ thuộc tài chính", "nhìn thẳng con số"]
+  },
+  {
+    "card_id": "nine-of-pentacles", "orientation": "reversed", "variant": 3,
+    "summary": "Mọi thứ nhìn từ ngoài có vẻ ổn, nhưng hôm nay bạn dễ nhận ra mình đang thiếu một người để chia sẻ nó.",
+    "card": { "name": "Chín Tiền", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 5, "finance": 4, "energy": 4 },
+    "headline": "Căn nhà đẹp mà vắng tiếng nói thì vẫn là căn nhà trống.",
+    "forecast": [
+      "Bạn có xu hướng thấy trống trải giữa lúc công việc đang suôn sẻ, như thể thành công không có khán giả.",
+      "Một tin nhắn từ người lâu không liên lạc có thể xuất hiện, hoặc bạn thấy mình muốn là người nhắn trước.",
+      "Năng lượng dễ nghiêng về ở nhà, làm việc một mình, và hơi chìm vào chế độ tự lo."
+    ],
+    "love": "Bạn có thể đã xây một nếp sống quá kín, đến mức người khác khó chen vào dù bạn muốn. Người độc thân hôm nay nên thử mở một cánh cửa nhỏ, như nhận lời một buổi gặp vốn định từ chối. Đang yêu thì kể cho người ấy nghe điều bạn thường tự giải quyết một mình.",
+    "career": "Làm việc một mình có thể đang khiến bạn mất phản hồi, và công việc trơn tru vẫn có thể thiếu hướng. Hãy hỏi ý kiến một đồng nghiệp hay bạn học về thứ bạn đang làm. Một góc nhìn thứ hai thường tiết kiệm cả buổi chiều.",
+    "finance": "Tài chính cá nhân có vẻ ổn định, nhưng có thể bạn đang chi cho sự thoải mái để bù cho cảm giác thiếu kết nối. Chú ý những khoản mua mang tính an ủi, vì chúng dễ lặp lại. Một khoản chi cho buổi gặp bạn bè thường khiến bạn thấy đáng hơn.",
+    "insight": "Có thể bạn tự lập đến mức không còn nhớ lần cuối để ai đó chăm sóc mình là khi nào. Độc lập là sức mạnh, nhưng khi không còn chỗ cho ai, nó thành một hàng rào.",
+    "memorable_message": "Thành quả không có ai cùng ăn mừng sẽ nguội nhanh hơn bữa cơm.",
+    "advice": "Hôm nay hãy mời một người vào đời sống của bạn, bằng một cuộc gọi, một bữa cơm hoặc chỉ một câu hỏi thăm thật. Bạn không cần lý do hay chủ đề cao siêu.",
+    "keywords": ["cô đơn", "tự cô lập", "cần kết nối"]
+  },
+  {
+    "card_id": "ten-of-pentacles", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay nghiêng về sự vững chãi đến từ những người thân quen, và bạn dễ cảm thấy mình có chỗ dựa.",
+    "card": { "name": "Mười Tiền", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 8, "career": 7, "finance": 8, "energy": 7 },
+    "headline": "Bàn ăn đông người là một kiểu tài sản.",
+    "forecast": [
+      "Bạn có xu hướng có một cuộc trò chuyện với người nhà khiến mình thấy thuộc về một điều lớn hơn bản thân.",
+      "Một câu chuyện cũ của gia đình hoặc một món đồ có kỷ niệm có thể xuất hiện lại trong ngày.",
+      "Có thể một quyết định liên quan đến chỗ ở, cuộc sống chung hay kế hoạch cho cả nhà tiến thêm một bước."
+    ],
+    "love": "Kết nối hôm nay đi theo hướng bền hơn là rực rỡ: ăn cùng nhau, lo cùng nhau, nhắc nhau mặc thêm áo. Nếu đang tìm hiểu ai đó, bạn dễ để ý cách họ đối xử với gia đình mình. Người độc thân có thể thấy ấm hơn chỉ nhờ ở gần người thân.",
+    "career": "Công việc có xu hướng đi vào nền nếp, và bạn có thể nhận ra giá trị của một nơi làm có người tin cậy. Hợp để nói chuyện dài hạn: lộ trình, vai trò, mục tiêu vài năm. Nhớ ghi nhận những người đã giúp bạn đứng ở vị trí hiện tại.",
+    "finance": "Sự ổn định tài chính trong gia đình hoặc trong kế hoạch dài hạn là chủ đề của hôm nay. Rà lại các khoản chung như tiền nhà, bảo hiểm, quỹ dự phòng sẽ cho bạn cảm giác yên tâm. Không cần quyết gì lớn, chỉ cần nắm rõ.",
+    "insight": "Có thể bạn quen nghĩ mọi thứ mình có là do tự tay làm nên ít khi nhớ tới những người đã âm thầm làm nền. Nhớ ra điều đó không làm bạn kém đi, mà làm thành quả của bạn dày thêm.",
+    "memorable_message": "Người giàu nhất không phải người có nhiều nhất, mà là người có nhiều người cùng ngồi ăn.",
+    "advice": "Nhắn hoặc gọi cho một người trong nhà, hỏi một câu không liên quan đến việc cần làm. Nếu không ở gần, hãy cảm ơn họ vì một điều cụ thể.",
+    "keywords": ["gia đình", "chỗ dựa", "vững chãi"]
+  },
+  {
+    "card_id": "ten-of-pentacles", "orientation": "upright", "variant": 2,
+    "summary": "Hôm nay hợp để nghĩ xa hơn thường lệ, vì bạn đang xây thứ đứng vững lâu hơn tâm trạng của một ngày.",
+    "card": { "name": "Mười Tiền", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 7, "career": 8, "finance": 8, "energy": 7 },
+    "headline": "Hãy biến hôm nay thành viên gạch đầu tiên của năm năm sau.",
+    "forecast": [
+      "Bạn có xu hướng thấy một việc nhỏ, như ghi chép, học thêm hoặc để dành đều, có ý nghĩa lớn hơn vẻ ngoài của nó.",
+      "Một người lớn tuổi hoặc nhiều kinh nghiệm có thể chia sẻ điều khiến bạn nhìn kế hoạch của mình khác đi.",
+      "Năng lượng nghiêng về hoàn thiện nền tảng hơn là chạy theo cái mới."
+    ],
+    "love": "Bạn dễ để ý đến câu hỏi mình muốn gì ở một mối quan hệ trong nhiều năm, không chỉ trong vài tuần. Nếu đang tìm hiểu ai đó, hãy nghe kỹ cách họ nói về tương lai. Đang yêu thì một cuộc trò chuyện về kế hoạch chung sẽ gắn kết hơn một lời nói ngọt.",
+    "career": "Hôm nay hợp cho việc cần tính bền: viết tài liệu, chuẩn hóa quy trình, củng cố mối quan hệ nghề nghiệp. Sinh viên nên xây nền kiến thức hơn là học tủ. Những gì bạn làm hôm nay có xu hướng còn dùng được rất lâu.",
+    "finance": "Tư duy dài hạn là điểm mạnh: quỹ dự phòng, bảo hiểm, thói quen để dành đều. Bạn không cần làm điều táo bạo, chỉ cần giữ mọi thứ chạy theo nhịp. Một khoản nhỏ nhưng đều thường mạnh hơn một khoản lớn làm đúng một lần.",
+    "insight": "Có thể bạn đang sốt ruột muốn thấy kết quả ngay, trong khi thứ bạn xây thuộc loại cần nhiều mùa. Việc chậm nhưng đúng hướng không phải là thất bại.",
+    "memorable_message": "Có những việc bạn làm hôm nay là để người bạn của mười năm sau đỡ phải xin lỗi.",
+    "advice": "Chọn một việc bạn có thể làm đều đặn trong sáu tháng tới và làm lần đầu tiên hôm nay. Quan trọng là bắt đầu đủ nhỏ để không bỏ giữa chừng.",
+    "keywords": ["tầm nhìn dài hạn", "nền tảng", "di sản"]
+  },
+  {
+    "card_id": "ten-of-pentacles", "orientation": "upright", "variant": 3,
+    "summary": "Thành công hôm nay mang hình dạng của một tập thể: bạn mạnh nhất khi biết mình đang đứng trong một vòng tròn.",
+    "card": { "name": "Mười Tiền", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 7, "career": 8, "finance": 7, "energy": 8 },
+    "headline": "Không ai dựng nổi cơ ngơi chỉ bằng đôi tay của mình.",
+    "forecast": [
+      "Bạn có xu hướng nhận được sự giúp đỡ hoặc lời cảm ơn từ một nhóm mà bạn đã âm thầm góp sức.",
+      "Một buổi họp mặt, cuộc họp nhóm hay tin nhắn nhóm chung có thể mang đến cảm giác thuộc về rõ rệt.",
+      "Có thể bạn nhận ra một truyền thống nhỏ, như thói quen của nhà, của lớp hay của đội, đang giữ mọi người lại với nhau."
+    ],
+    "love": "Bạn nhìn quan hệ qua lăng kính thuộc về: người này có hợp với vòng tròn của mình không, và mình có hợp với vòng tròn của họ không. Người độc thân dễ gặp ai đó qua bạn bè hoặc một nhóm quen. Đang yêu thì thử đưa nhau vào một dịp có đông người thân.",
+    "career": "Làm việc nhóm hôm nay có kết quả tốt hơn làm một mình, nhất là khi mọi người cùng hiểu mục tiêu. Bạn dễ được trao thêm trách nhiệm vì người khác thấy bạn đáng tin. Đừng quên chia công khi nhận lời khen.",
+    "finance": "Tiền bạc có xu hướng gắn với cộng đồng quanh bạn: góp quỹ chung, chia tiền công bằng, hoặc giúp ai đó một khoản nhỏ. Ranh giới rõ ràng giúp mọi người vui lâu hơn. Ghi lại khoản chung để sau này không phải nhớ bằng cảm giác.",
+    "insight": "Có thể bạn đang tưởng mình lạc lõng, trong khi nhiều người đã dựa vào sự hiện diện của bạn mà bạn chưa nhận ra. Giá trị của bạn đôi khi hiện rõ nhất qua những người khẽ cười khi thấy bạn đến.",
+    "memorable_message": "Một nơi có người nhớ tên bạn đã là một loại tài sản.",
+    "advice": "Cảm ơn thẳng một người cụ thể đã giúp bạn gần đây, nói rõ họ giúp việc gì. Đôi khi một câu cảm ơn đúng chỗ giữ một mối quan hệ được vài năm.",
+    "keywords": ["thuộc về", "cộng đồng", "biết ơn"]
+  },
+  {
+    "card_id": "ten-of-pentacles", "orientation": "reversed", "variant": 1,
+    "summary": "Chuyện tiền bạc có xu hướng chạm vào quan hệ gia đình hôm nay, và cách bạn mở lời quan trọng hơn con số.",
+    "card": { "name": "Mười Tiền", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 3, "career": 5, "finance": 3, "energy": 4 },
+    "headline": "Chuyện tiền nên nói bằng giọng người thân, không phải giọng chủ nợ.",
+    "forecast": [
+      "Bạn có xu hướng gặp một câu hỏi về tiền với người nhà, như ai góp bao nhiêu hay ai lo khoản nào, nghe nhạy hơn mức cần.",
+      "Một câu nói tưởng đùa về tiền hoặc về cách sống có thể làm không khí chùng xuống.",
+      "Có thể bạn muốn né chủ đề này thêm một ngày, nhưng né lâu thường làm nó phình ra."
+    ],
+    "love": "Quan niệm khác nhau về tiền có thể lộ ra giữa hai người, nhất là chuyện chi tiêu chung hay hỗ trợ gia đình hai bên. Nếu đang yêu, thử nói bằng điều mình thấy thay vì câu bạn lúc nào cũng thế. Người độc thân có thể thấy chuyện nhà đang cản mình mở lòng với ai.",
+    "career": "Việc nhà có thể kéo sự tập trung khỏi công việc, hoặc ngược lại công việc đang lấy hết thời gian dành cho nhà. Hãy chọn một khung giờ rõ ràng cho từng bên.",
+    "finance": "Bất đồng về tiền trong nhà cần nhẹ tay: chia khoản rõ ràng, ghi ra giấy, nói cùng nhau thay vì nói sau lưng. Nếu có khoản vay mượn trong gia đình, hãy thống nhất cách trả và thời hạn. Đừng chốt chuyện lớn khi ai đó đang nóng.",
+    "insight": "Có thể thứ làm bạn mệt không phải số tiền, mà là cảm giác công sức hay sự hy sinh của mình chưa được nhìn thấy. Tiền thường chỉ là ngôn ngữ người ta chọn để nói những điều khó nói hơn.",
+    "memorable_message": "Trong nhà, hiếm ai cãi nhau vì tiền, họ cãi nhau vì ai được thấu hiểu.",
+    "advice": "Nếu cần bàn chuyện tiền, hẹn một giờ riêng và bắt đầu bằng câu mình muốn gì, chứ không phải bạn đã sai gì. Còn nếu hôm nay chưa phải lúc, hẹn một giờ cụ thể cũng là cách tôn trọng nhau.",
+    "keywords": ["bất hòa vì tiền", "chuyện nhà", "nói cho rõ"]
+  },
+  {
+    "card_id": "ten-of-pentacles", "orientation": "reversed", "variant": 2,
+    "summary": "Một kế hoạch dài hạn có thể lộ chỗ hở hôm nay, và đó là thông tin cần có chứ chưa phải dấu chấm hết.",
+    "card": { "name": "Mười Tiền", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 3, "energy": 5 },
+    "headline": "Kế hoạch có lỗ thủng vẫn sửa được nếu bạn chịu nhìn.",
+    "forecast": [
+      "Bạn có xu hướng phát hiện một con số hoặc giả định trong kế hoạch không còn khớp với thực tế.",
+      "Một việc từng ổn định có thể xuất hiện dấu hiệu lung lay nhỏ, như lịch bị đổi hay khoản thu về chậm.",
+      "Có thể bạn bực vì phải làm lại, nhưng phiên bản sau thường chắc hơn bản đầu."
+    ],
+    "love": "Mối quan hệ có thể rung nhẹ vì kế hoạch chung chưa rõ, như chuyện ở đâu, khi nào hay ai lo gì. Người đang tìm hiểu ai đó nên tránh đặt kỳ vọng quá xa khi chưa biết đủ về nhau. Đang yêu thì cùng ngồi lại sửa kế hoạch sẽ gần nhau hơn là trách ai lập sai.",
+    "career": "Một dự án hoặc lộ trình có thể bị trượt tiến độ hay đổi hướng. Việc cần làm là liệt kê giả định nào đã sai, thay vì tìm xem ai sai. Nếu có phương án dự phòng, hôm nay là ngày dùng đến nó.",
+    "finance": "Cảm giác bất ổn về tài chính là lời nhắc xem lại quỹ dự phòng và các khoản chi cố định. Hãy tính thử một kịch bản tệ hơn dự kiến một chút để biết mình còn dư địa bao nhiêu. Tránh những cam kết dài hạn mới khi chưa kiểm lại nền hiện tại.",
+    "insight": "Có thể bạn đã dựng kế hoạch dựa trên một thế giới đẹp hơn thực tế, và giờ thực tế đang gõ cửa. Điều đó khó chịu một lúc, nhưng nó cho bạn bản vẽ sát hơn.",
+    "memorable_message": "Bản kế hoạch đáng tin nhất là bản đã từng bị sửa vài lần.",
+    "advice": "Viết ra ba điều trong kế hoạch đang phụ thuộc vào may mắn và tìm cách giảm bớt một trong ba. Sửa từng chỗ nhỏ, đừng xé cả bản vẽ.",
+    "keywords": ["kế hoạch đổ vỡ", "bất ổn", "sửa lại nền"]
+  },
+  {
+    "card_id": "ten-of-pentacles", "orientation": "reversed", "variant": 3,
+    "summary": "Hôm nay dễ lộ ra những niềm tin cũ về tiền và gia đình mà bạn thừa hưởng, có thể không còn hợp với mình.",
+    "card": { "name": "Mười Tiền", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 5, "finance": 4, "energy": 5 },
+    "headline": "Không phải thứ gì được truyền lại cũng phải mang theo.",
+    "forecast": [
+      "Bạn có xu hướng nghe lại một câu quen thuộc từ người lớn về tiền hay chuyện nên làm, và thấy nó nặng hơn trước.",
+      "Một kỳ vọng của gia đình về học hành, công việc hay chuyện chung thân có thể được nhắc khéo.",
+      "Có thể bạn bắt gặp mình đang làm đúng một thói quen từng hứa sẽ không lặp lại."
+    ],
+    "love": "Khuôn mẫu quan hệ từ nhà có thể ảnh hưởng cách bạn phản ứng với người mình thích, như né xung đột hay ôm hết về mình. Nhận ra điều này đã là một bước lớn. Người độc thân hãy để ý xem tiêu chuẩn của mình là của mình hay của người nhà.",
+    "career": "Có thể có khoảng cách giữa con đường gia đình mong và con đường bạn muốn. Hãy tách lời mong của họ khỏi giá trị của bạn: nghe, cảm ơn, rồi quyết theo nhu cầu của mình. Nếu cần nói chuyện, chọn lúc bình tĩnh thay vì lúc đang áp lực.",
+    "finance": "Cách bạn nghĩ về tiền có thể mang dấu của nhà, như sợ nợ, sợ nghèo hoặc ngại nói chuyện tiền. Hãy xem những niềm tin này còn giúp bạn không. Chỉ cần chỉnh một thói quen nhỏ cho hợp với hoàn cảnh hiện tại.",
+    "insight": "Có thể bạn vừa muốn giữ sự gắn bó với gia đình vừa muốn sống khác đi, và hai điều đó đang kéo nhau. Bạn có thể trân trọng nguồn gốc mà vẫn chọn lại cách sống.",
+    "memorable_message": "Hành lý của gia đình là để bạn chọn mang gì, không phải để vác hết.",
+    "advice": "Viết ra một niềm tin về tiền hoặc gia đình mà bạn nghe từ nhỏ, rồi hỏi nó còn đúng với cuộc sống của mình không. Giữ phần đúng, nhẹ nhàng đặt xuống phần còn lại.",
+    "keywords": ["niềm tin thừa hưởng", "kỳ vọng gia đình", "chọn lại"]
+  },
+  {
+    "card_id": "page-of-pentacles", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay hợp để học một điều nhỏ cho thật kỹ, vì tiến bộ đến từ sự kiên nhẫn của người mới.",
+    "card": { "name": "Thị Đồng Tiền", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 6, "career": 8, "finance": 7, "energy": 7 },
+    "headline": "Học chậm mà học thật còn hơn nhớ nhanh rồi quên.",
+    "forecast": [
+      "Bạn có xu hướng thấy dễ tập trung hơn khi chia việc thành những bước thật nhỏ.",
+      "Một người có kinh nghiệm có thể sẵn lòng chỉ cho bạn một mẹo nếu bạn hỏi đúng câu.",
+      "Có thể bạn bắt đầu thấy một kỹ năng mới, trước đây tưởng xa vời, đang dần quen tay."
+    ],
+    "love": "Bạn tiếp cận quan hệ như người đang học: tò mò, lắng nghe và không vội kết luận. Người độc thân hợp với việc làm quen qua một hoạt động chung như lớp học hay câu lạc bộ. Đang yêu thì thử tìm hiểu thêm một điều về người ấy mà bạn chưa biết.",
+    "career": "Hôm nay thuận cho việc học và thực hành: một khóa ngắn, một tài liệu, một đầu việc mới nhưng vừa sức. Sinh viên dễ thấy kiến thức vào đầu hơn khi tự làm bài thay vì chỉ đọc. Hỏi nhiều, ghi chép gọn, đó là cách nhanh nhất.",
+    "finance": "Tài chính ở mức ổn định nhẹ, hợp để học thêm về quản lý tiền cá nhân như cách lập ngân sách đơn giản. Đừng vội làm điều phức tạp khi chưa hiểu rõ. Một khoản nhỏ cho sách, khóa học hay dụng cụ làm việc thường xứng đáng.",
+    "insight": "Có thể bạn đang ngại làm người mới vì sợ trông kém hơn người khác. Nhưng người học chân thành thường được giúp nhiều hơn người giả vờ đã biết.",
+    "memorable_message": "Mỗi kỹ năng giỏi đều từng là một buổi chiều vụng về.",
+    "advice": "Chọn một kỹ năng và dành đúng 25 phút hôm nay, hẹn giờ rồi dừng. Ghi lại một điều bạn vừa hiểu ra.",
+    "keywords": ["học hỏi", "kiên nhẫn", "từng bước nhỏ"]
+  },
+  {
+    "card_id": "page-of-pentacles", "orientation": "upright", "variant": 2,
+    "summary": "Có khả năng một tin tức hoặc lời gợi ý thực tế xuất hiện hôm nay, hãy đọc kỹ rồi hãy đáp lại.",
+    "card": { "name": "Thị Đồng Tiền", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 7, "career": 8, "finance": 7, "energy": 7 },
+    "headline": "Cơ hội tốt thường đến bằng một email bình thường.",
+    "forecast": [
+      "Bạn có xu hướng nhận một thông tin về học hành, việc làm hoặc khoản thu nhỏ mà thoạt nhìn không nổi bật.",
+      "Một người quen có thể giới thiệu cho bạn một khóa học, một nơi hoặc một người đáng gặp.",
+      "Có thể bạn thấy một lời mời cần phản hồi sớm, và phản hồi nhanh sẽ có lợi cho bạn."
+    ],
+    "love": "Tín hiệu trong chuyện tình cảm hôm nay đến từ hành động nhỏ: một lần nhắc đến bạn, một lời hỏi thăm đúng chuyện bạn từng kể. Người đang tìm hiểu ai đó nên để ý sự nhất quán thay vì lời hoa mỹ. Người độc thân có thể gặp ai đó qua công việc hoặc học tập.",
+    "career": "Tin tức nghề nghiệp có xu hướng đến dưới dạng một cơ hội học thêm, một đầu việc mới hoặc lời nhắn từ người liên quan. Hãy đọc kỹ điều kiện và hỏi lại phần chưa rõ. Chuẩn bị sẵn một bản giới thiệu ngắn về mình sẽ giúp bạn kịp phản ứng.",
+    "finance": "Một thông tin về thu nhập, học bổng, ưu đãi hoặc khoản thanh toán có thể xuất hiện. Hãy đọc kỹ điều khoản, kiểm tra nguồn và tính thử số liệu trước khi đồng ý. Vui thì vui, nhưng chữ nhỏ vẫn cần đọc.",
+    "insight": "Có thể bạn quen chờ một cơ hội thật lớn mà bỏ lỡ những cánh cửa mới hé. Cơ hội thực tế thường nhỏ, và cần bạn bước đến một chút.",
+    "memorable_message": "Cánh cửa tốt hiếm khi gõ to, nó chỉ hé ra và đợi bạn để ý.",
+    "advice": "Mở những tin nhắn, email hay thông báo bạn đang để chưa đọc và xử lý ngay thứ liên quan đến học hoặc việc. Trả lời cụ thể, ngắn gọn, lịch sự.",
+    "keywords": ["tin tức tốt", "cơ hội thực tế", "đọc kỹ"]
+  },
+  {
+    "card_id": "page-of-pentacles", "orientation": "upright", "variant": 3,
+    "summary": "Tham vọng hôm nay có chân: bạn biết mình muốn gì và sẵn sàng biến nó thành từng bước cụ thể.",
+    "card": { "name": "Thị Đồng Tiền", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 7, "career": 8, "finance": 7, "energy": 8 },
+    "headline": "Giấc mơ có địa chỉ thì mới có đường đi.",
+    "forecast": [
+      "Bạn có xu hướng muốn chuyển một ý định mơ hồ thành một danh sách có hạn chót rõ ràng.",
+      "Một con số cụ thể, như giá một khóa học hoặc chi phí một dự định, có thể khiến mục tiêu thấy gần hơn là xa hơn.",
+      "Có thể bạn nhận ra mình đã đi được một đoạn mà trước giờ chưa tính."
+    ],
+    "love": "Bạn thích sự rõ ràng hơn mập mờ, nên người đang tìm hiểu ai đó có thể hỏi thẳng về mong muốn của họ một cách nhẹ nhàng. Người độc thân dễ ấn tượng với người có mục tiêu và làm việc đều. Đang yêu thì thử đặt một mục tiêu nhỏ chung, như cùng để dành cho một chuyến đi.",
+    "career": "Một mục tiêu nghề nghiệp có thể được cắt thành các mốc cụ thể trong tuần này. Sinh viên nên chia đề cương thành các phần nhỏ với ngày hoàn thành. Hôm nay là ngày tiến một bước chắc hơn là nghĩ thêm một ý to.",
+    "finance": "Hợp để lập hoặc chỉnh một ngân sách thực tế cho mục tiêu đo được, như quỹ học, quỹ du lịch hay khoản để dành đều. Đặt số nhỏ nhưng giữ đủ lâu. Tránh vẽ kế hoạch quá lý tưởng rồi bỏ cuộc sau ba tuần.",
+    "insight": "Có thể bạn không thiếu tham vọng mà thiếu một điểm khởi đầu đủ nhỏ để không thấy sợ. Khi mục tiêu quá to, bạn dễ tự thuyết phục mình để sau.",
+    "memorable_message": "Giấc mơ không cần thêm lửa, nó cần một cuốn lịch.",
+    "advice": "Lấy một mục tiêu bạn đang giữ trong đầu và viết ra bước đầu tiên có thể làm trong 30 phút, kèm một ngày làm. Hôm nay chỉ cần hoàn thành bước đó.",
+    "keywords": ["tham vọng thực tế", "mốc cụ thể", "bước đầu"]
+  },
+  {
+    "card_id": "page-of-pentacles", "orientation": "reversed", "variant": 1,
+    "summary": "Hôm nay nhiều ý định nhưng ít đường đi, một kế hoạch ngắn sẽ cứu bạn khỏi cảm giác bận mà không tiến.",
+    "card": { "name": "Thị Đồng Tiền", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 5, "career": 4, "finance": 4, "energy": 5 },
+    "headline": "Mười tab mở không bằng một việc xong.",
+    "forecast": [
+      "Bạn có xu hướng bắt đầu nhiều việc cùng lúc rồi thấy chẳng việc nào chạm đích.",
+      "Một đầu việc quen thuộc có thể phải làm lại vì thiếu bước chuẩn bị.",
+      "Có thể đến giữa ngày bạn mới nhận ra mình chưa viết ra việc nào là ưu tiên nhất."
+    ],
+    "love": "Quan hệ có thể bị bỏ lửng vì không có kế hoạch gặp hay hồi đáp cụ thể, chỉ có chữ để xem sao. Người đang tìm hiểu ai đó nên đưa ra một đề xuất rõ ràng thay vì chờ thời điểm hoàn hảo. Đang yêu thì hãy chốt một việc nhỏ cùng nhau trong tuần.",
+    "career": "Dễ có cảm giác bận rộn mà không tiến triển do thiếu thứ tự ưu tiên. Hãy dành năm phút đầu ngày viết ba việc quan trọng nhất và dời phần còn lại sang mai. Sinh viên nên lập lịch ôn nhỏ thay vì dồn cả chương một lúc.",
+    "finance": "Thiếu kế hoạch chi tiêu có thể khiến tiền ra từng chút mà bạn không nhớ đã đi đâu. Hãy ghi lại các khoản trong ngày, dù chỉ trên ghi chú điện thoại. Chỉ cần nhìn thấy dòng tiền là đã giảm được phần lớn lãng phí.",
+    "insight": "Có thể bạn không lười, mà chỉ chưa biết bắt đầu từ đâu nên cứ nhảy từ việc này sang việc khác. Cảm giác đó dễ bị nhầm với thiếu năng lực, trong khi thật ra nó chỉ thiếu một tấm bản đồ.",
+    "memorable_message": "Bận rộn là chuyển động, còn tiến bộ là chuyển động có hướng.",
+    "advice": "Viết một danh sách tối đa ba việc, đánh số thứ tự, bắt đầu việc số một trước khi mở bất cứ thứ gì khác. Làm xong rồi hãy nhìn điện thoại.",
+    "keywords": ["thiếu kế hoạch", "phân tán", "chọn ưu tiên"]
+  },
+  {
+    "card_id": "page-of-pentacles", "orientation": "reversed", "variant": 2,
+    "summary": "Điều bạn định tìm hiểu để mai đang có nguy cơ thành điều bỏ lỡ, và hôm nay là ngày dễ cứu vãn nhất.",
+    "card": { "name": "Thị Đồng Tiền", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 5, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Ngày mai là nơi nhiều ý định tốt đi nghỉ hưu.",
+    "forecast": [
+      "Bạn có xu hướng thấy một hạn chót, đợt đăng ký hoặc lời nhắn đã gần hết thời gian mà mình chưa động tới.",
+      "Một cơ hội học hỏi có thể lướt qua nếu bạn chỉ lưu lại mà không mở ra.",
+      "Có thể bạn nhận ra mình đã nói sẽ học việc này từ rất lâu rồi."
+    ],
+    "love": "Việc trì hoãn trả lời hoặc hẹn gặp có thể khiến người kia hiểu thành thiếu quan tâm. Nếu đang tìm hiểu ai đó, đừng để một lời hồi đáp ngắn thành bốn ngày im lặng. Đang yêu thì thực hiện một lời hứa nhỏ mà bạn đã nói.",
+    "career": "Một khóa học, chứng chỉ hay đầu việc trì hoãn có thể đang gần hạn. Chia nhỏ ra và làm ngay phần mười phút đầu sẽ phá được lực cản. Nếu đã lỡ một mốc, hỏi lại vẫn có thể có cách bù.",
+    "finance": "Hạn thanh toán, gia hạn hay chương trình ưu đãi liên quan đến tiền có thể sát giờ. Rà nhanh danh sách việc tiền bạc còn treo như hóa đơn, thuế, đăng ký. Phí trễ hạn là khoản đắt nhất mà không ai cố ý trả.",
+    "insight": "Có thể bạn trì hoãn không vì lười mà vì sợ làm chưa tốt, nên không làm để đỡ bị đánh giá. Nhưng chọn không làm cũng là một dạng kết quả.",
+    "memorable_message": "Việc để mai thường không nhẹ đi, nó chỉ mặc áo dày hơn.",
+    "advice": "Chọn việc bạn trì hoãn lâu nhất và làm đúng mười phút đầu, kể cả khi còn vụng. Hết mười phút, bạn được quyền dừng.",
+    "keywords": ["trì hoãn", "cơ hội bỏ lỡ", "hạn chót"]
+  },
+  {
+    "card_id": "page-of-pentacles", "orientation": "reversed", "variant": 3,
+    "summary": "Sự tập trung hôm nay dễ bị bẻ nhỏ, bạn cần bảo vệ một khoảng yên tĩnh để việc thật sự được làm.",
+    "card": { "name": "Thị Đồng Tiền", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Sự chú ý của bạn là tài sản, đừng để nó chảy vào mọi khe.",
+    "forecast": [
+      "Bạn có xu hướng mở điện thoại giữa chừng một việc mà không có lý do rõ ràng.",
+      "Một đoạn nội dung hay video có thể kéo bạn đi xa hơn dự tính, rồi buổi chiều thấy thiếu thời gian.",
+      "Có thể bạn đọc cùng một đoạn tài liệu hai lần mà vẫn chưa vào đầu."
+    ],
+    "love": "Sự hiện diện hôm nay dễ bị chia đôi: người ngồi cạnh nói chuyện, bạn nhìn màn hình. Nếu đang yêu, cất điện thoại trong lúc ăn cùng nhau là một cử chỉ nhỏ nhưng được cảm nhận rất rõ. Người độc thân đừng lướt ứng dụng hẹn hò như một cách giết thời gian.",
+    "career": "Làm một việc thường mất gấp đôi thời gian do bị ngắt quãng. Hãy chia ngày thành các khoảng ngắn 25 phút không thông báo, rồi nghỉ năm phút. Sinh viên có thể để điện thoại ở phòng khác khi học.",
+    "finance": "Sự phân tâm dễ dẫn đến mua nhầm, bấm nhầm hoặc quên một khoản thanh toán. Trước khi bấm mua thứ gì, hãy chờ hết một lần hít thở và đọc lại số tiền. Gỡ bớt một ứng dụng mua sắm khỏi màn hình chính cũng là cách đơn giản.",
+    "insight": "Có thể bạn lướt không phải vì thích, mà vì đó là cách nhanh nhất để thoát cảm giác khó chịu khi bắt đầu một việc. Sự phân tán thường là cách cơ thể né cảm giác bí.",
+    "memorable_message": "Chuông thông báo không biết việc nào của bạn quan trọng, chỉ bạn biết.",
+    "advice": "Chọn một khung 25 phút, để điện thoại úp xuống hoặc ra xa tầm tay, và làm đúng một việc. Xong rồi hãy cho phép mình lướt.",
+    "keywords": ["thiếu tập trung", "phân tâm", "bảo vệ sự chú ý"]
+  }
+]
