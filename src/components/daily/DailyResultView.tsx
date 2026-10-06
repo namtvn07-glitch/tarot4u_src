@@ -67,6 +67,18 @@ export const DailyResultView: React.FC<DailyResultViewProps> = ({ content }) => 
         </ul>
       </section>
 
+      {content.card_meaning && (
+        <section aria-labelledby="daily-meaning-heading">
+          <h3
+            id="daily-meaning-heading"
+            className="mb-2 text-xs font-bold uppercase tracking-widest text-[#d4af37]"
+          >
+            Lá bài này nói gì
+          </h3>
+          <p className="text-sm sm:text-base leading-relaxed">{content.card_meaning}</p>
+        </section>
+      )}
+
       <section aria-labelledby="daily-forecast-heading">
         <h3
           id="daily-forecast-heading"
@@ -86,7 +98,7 @@ export const DailyResultView: React.FC<DailyResultViewProps> = ({ content }) => 
         </ul>
       </section>
 
-      <div className="grid gap-3 sm:grid-cols-3">
+      <div className="flex flex-col gap-3">
         {DOMAIN_SECTIONS.map(({ key, label }) => (
           <section
             key={key}
@@ -99,7 +111,7 @@ export const DailyResultView: React.FC<DailyResultViewProps> = ({ content }) => 
             >
               {label}
             </h3>
-            <p className="text-sm leading-relaxed text-[#f3ece1]">{content[key]}</p>
+            <p className="text-sm sm:text-base leading-relaxed text-[#f3ece1]">{content[key]}</p>
           </section>
         ))}
       </div>

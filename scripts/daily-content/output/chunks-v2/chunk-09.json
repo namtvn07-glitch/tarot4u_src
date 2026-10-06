@@ -1,0 +1,650 @@
+[
+ {
+  "card_id": "three-of-wands",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Thứ bạn đã gửi đi đang trên đường trở về, hôm nay hợp để đứng vững và nhìn xa thay vì giục nó.",
+  "card": {
+   "name": "Ba Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 8,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Con tàu đã rời bến, giờ việc của bạn là nhìn ra đường chân trời.",
+  "card_meaning": "Ba Gậy cho thấy một người đứng trên mỏm đá, lưng quay về phía ta, ba cây gậy cắm chắc xuống đất và mắt dõi theo những con tàu đang rời cảng ngoài biển. Con số 3 trong Tarot là lúc ý tưởng đã thành hình và bắt đầu chạm vào thế giới bên ngoài. Người trong tranh đã làm phần khó nhất là khởi hành, nên giờ anh có thể đứng thẳng lưng mà nhìn xa. Ở chiều xuôi, lá bài nói về tầm nhìn rộng, sự mở rộng có tính toán và quãng chờ đợi có chủ đích. Hôm nay nó đáng chú ý vì nó nhắc rằng chờ cũng là một phần của tiến lên.",
+  "forecast": [
+   "Một việc bạn đã nộp, đã gửi hoặc đã đề xuất có xu hướng nhận được tín hiệu phản hồi đầu tiên, có thể chỉ là một lượt đã xem hoặc một câu hỏi thêm. Đó chưa phải đáp án cuối, nhưng đủ để biết việc ấy đang di chuyển.",
+   "Bạn dễ bắt gặp mình cầm điện thoại để xem đã có tin chưa, nhất là khoảng giữa buổi sáng và đầu giờ chiều. Thử đặt máy xa tầm tay một lúc.",
+   "Một người đứng ngoài cuộc, như bạn cùng lớp hay đồng nghiệp ở phòng khác, có thể nói một câu khiến bạn nhận ra kế hoạch của mình đi được xa hơn bạn tưởng."
+  ],
+  "love": "Người độc thân có xu hướng nhận được sự quan tâm đến từ xa hoặc từ một vòng bạn bè mới, như người quen qua mạng hay bạn của bạn, nên đừng vội gạt đi chỉ vì nó khác kiểu quen thuộc. Đang tìm hiểu ai đó thì tin nhắn trả lời có thể đến chậm nhưng chưa chắc là lạnh, hãy cho nó thêm một khoảng thở. Đang yêu thì bàn một dự định chung như chuyến đi cuối năm sẽ khiến hai người gắn bó hơn.",
+  "career": "Công sức bạn gieo từ trước đang chuyển sang giai đoạn chờ kết quả, nên năng lượng nghiêng về theo dõi và chuẩn bị bước kế tiếp thay vì lao vào việc mới. Có thể có lời hỏi thăm từ đối tác hoặc khách hàng, hãy trả lời gọn và chủ động. Sinh viên có thể thấy rõ hơn mình đang đi về đâu sau một học kỳ nhiều cố gắng. Thử dùng quãng chờ để dọn tài liệu hoặc học thêm một kỹ năng liên quan.",
+  "finance": "Dòng tiền có xu hướng ổn và hướng về phía trước, nhưng khoản bạn đang mong như tiền thưởng, tiền thanh toán hay hoàn ứng có thể chưa về ngay. Đừng chi trước cho niềm vui chưa kịp tới tay, nhất là những khoản trả góp nghe có vẻ nhẹ. Hôm nay hợp để xem lại ngân sách tháng này và chừa một khoảng đệm cho trường hợp tiền về chậm vài ngày.",
+  "insight": "Có thể bạn không sốt ruột vì việc chậm, mà vì chờ đợi là lúc bạn không còn gì để làm cho thấy mình có ích. Với người quen luôn tay luôn chân, im lặng giữa hai việc nghe như lãng phí. Nhưng đứng yên nhìn xa cũng là một dạng làm việc, chỉ là nó không có tiếng động và không ai vỗ tay. Hôm nay có khả năng bạn nhận ra mình chịu được khoảng lặng ấy tốt hơn mình nghĩ.",
+  "memorable_message": "Tàu đã ra khơi rồi thì việc của bạn là sửa bến, không phải chạy theo sóng.",
+  "advice": "Dành mười phút vào đầu buổi chiều, ngồi với một tờ giấy, viết ra bước kế tiếp cho hai tình huống: kết quả đến tốt và kết quả đến chậm. Mỗi tình huống chỉ cần một hai gạch đầu dòng, đủ để bạn biết mình sẽ làm gì mà không phải đoán. Xong thì cất tờ giấy đi và quay về việc đang làm. Quyền chọn vẫn là của bạn.",
+  "keywords": [
+   "chờ kết quả",
+   "tầm nhìn xa",
+   "tin tưởng"
+  ]
+ },
+ {
+  "card_id": "three-of-wands",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Thế giới của bạn có xu hướng rộng ra hôm nay, nhờ một người, một nơi hoặc một ý tưởng nằm ngoài vòng quen.",
+  "card": {
+   "name": "Ba Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 8,
+   "finance": 7,
+   "energy": 8
+  },
+  "headline": "Việc lớn thường bắt đầu từ một cuộc trò chuyện với người ngoài vòng quen.",
+  "card_meaning": "Trong lá Ba Gậy, người đàn ông mặc áo choàng đứng nhìn ra biển, nơi những chiếc thuyền buôn đang đi tới các vùng đất xa. Biển là biểu tượng của thế giới ngoài tầm tay, còn thuyền buôn gợi ý về trao đổi, hợp tác và những mối quan hệ vượt khỏi vòng quen. Ở chiều xuôi, lá bài nói rằng việc của bạn không còn gói gọn trong bốn bức tường: nó có thể chạm tới người, nơi và cơ hội mới. Đây là sự mở rộng dựa trên kết nối, không phải tham vọng một mình. Hôm nay nó đáng chú ý vì cánh cửa tiếp theo có thể nằm ở phía người ngoài vòng quen.",
+  "forecast": [
+   "Bạn dễ nhận được lời mời hợp tác hoặc một góc nhìn từ người không thuộc nhóm thường ngày, có thể qua email, nhóm chat chung hay một buổi gặp tình cờ.",
+   "Một kế hoạch nhỏ bạn tưởng chỉ làm cho mình có khả năng áp dụng được cho nhiều người hơn, và chính một người ngoài nhóm sẽ chỉ ra điều đó.",
+   "Năng lượng nghiêng về những việc có yếu tố từ xa, như họp online, đối tác ở thành phố khác hoặc một điều học được từ nước ngoài. Buổi chiều là lúc chúng dễ xuất hiện nhất."
+  ],
+  "love": "Tình cảm hôm nay có sức hút từ sự mở rộng: đi chơi xa một chút, làm quen ở một nơi mới hoặc nhắn cho ai đó đang ở xa. Người đang yêu có thể bàn một dự định chung như chuyến đi hay chuyện chuyển chỗ ở, và cuộc nói chuyện sẽ nhẹ hơn nếu bắt đầu bằng mong muốn thay vì lo ngại. Người độc thân đừng chỉ nhìn trong tầm tay, thử sang một nhóm sở thích bạn chưa từng tham gia.",
+  "career": "Hợp tác là từ khoá: một người ngoài phòng ban, một đối tác hay một người đi trước có thể mở ra cánh cửa mới. Hãy chia sẻ ý tưởng sớm, ở dạng nháp, thay vì giữ cho thật hoàn hảo mới dám đưa ra. Sinh viên hợp lập nhóm học liên ngành hoặc hỏi thẳng người đã đi qua con đường mình đang chọn. Một buổi cà phê hỏi chuyện nghề có thể đáng giá hơn mười bài viết đọc một mình.",
+  "finance": "Cơ hội tăng thu nhập có xu hướng đến từ kết nối hơn là từ nỗ lực riêng lẻ, như một việc nhận thêm qua người quen hay một lời giới thiệu. Hãy lắng nghe, nhưng đọc kỹ điều kiện, thời hạn và người chịu trách nhiệm trước khi đồng ý bất kỳ cam kết nào. Nếu chưa rõ, xin thêm thời gian suy nghĩ là điều hoàn toàn bình thường.",
+  "insight": "Có thể bạn đang tự giới hạn tầm nhìn bằng câu hỏi người như mình thì làm được đến đâu. Câu hỏi đó nghe khiêm tốn nhưng thật ra lấy mất của bạn rất nhiều lựa chọn. Câu hữu ích hơn là ai đã ở nơi mình muốn đến, và họ có thể chỉ mình đường nào. Hôm nay có thể bạn nhận ra thế giới gần hơn bạn nghĩ, chỉ cách một tin nhắn.",
+  "memorable_message": "Bản đồ của bạn chỉ rộng bằng số người bạn dám hỏi đường.",
+  "advice": "Chọn một người ngoài vòng quen thuộc, có thể là đàn anh, bạn cũ hay người bạn chỉ biết qua mạng, rồi nhắn cho họ một câu hỏi cụ thể về điều bạn đang muốn làm, trước khi hết giờ làm. Câu hỏi nên ngắn và dễ trả lời, ví dụ như họ đã bắt đầu từ đâu. Bạn vẫn là người quyết định có đi theo lời khuyên đó hay không.",
+  "keywords": [
+   "mở rộng",
+   "hợp tác",
+   "góc nhìn mới"
+  ]
+ },
+ {
+  "card_id": "three-of-wands",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Bạn đã đi xa hơn bạn nghĩ, và hôm nay hợp để ngoái lại chặng đường rồi vạch bước tiếp theo.",
+  "card": {
+   "name": "Ba Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 8,
+   "finance": 7,
+   "energy": 8
+  },
+  "headline": "Đứng trên đồi một lúc, bạn sẽ thấy mình đã leo được bao nhiêu.",
+  "card_meaning": "Ba Gậy vẽ một người đứng trên cao, tay vịn một cây gậy, hai cây còn lại cắm sẵn bên cạnh như những cột mốc đã dựng xong. Điểm đặc biệt là anh đang ở trên đồi, nghĩa là anh đã leo qua một đoạn đường rồi mới có được góc nhìn này. Ở chiều xuôi, lá bài nói về lúc nhìn lại thành quả bước đầu và dùng nó làm đà cho chặng sau. Nó không giục bạn lao nhanh hơn, chỉ mời bạn đứng chỗ cao một chút để đọc địa hình. Hôm nay nó đáng chú ý vì quãng đường đã đi thường khó thấy khi ta còn đang bận đi.",
+  "forecast": [
+   "Bạn có xu hướng nhận ra một tiến triển nhỏ mà trước đó mình bỏ qua, như một việc từng khó nay đã làm dễ dàng hoặc một lời nhắc không còn khiến bạn run.",
+   "Một ý tưởng lớn hơn có thể xuất hiện ngay sau khi bạn khép lại phần việc hiện tại, thường vào lúc nghỉ giữa hai việc hoặc khi đi bộ ra ngoài.",
+   "Dễ có lúc bạn muốn so tốc độ của mình với người khác khi lướt mạng, và cũng dễ nhận ra phép so sánh đó chẳng công bằng vì bạn không biết họ đã bắt đầu từ đâu."
+  ],
+  "love": "Người độc thân có xu hướng hấp dẫn hơn khi nói về điều mình đang theo đuổi, vì đam mê rõ ràng luôn khiến người ta để ý, dù đó là một dự án nhỏ hay một môn thể thao mới. Đang tìm hiểu ai đó thì thử chia sẻ mục tiêu của bạn và nghe mục tiêu của họ, xem hai hướng có gần nhau không. Đang yêu thì một lời ghi nhận cho điều người kia đã cố gắng sẽ đi xa hơn một món quà.",
+  "career": "Năng lượng nghiêng về việc lập kế hoạch cho chặng kế tiếp: bước nào mở rộng, bước nào cần thêm người, bước nào cần chờ. Một phản hồi tích cực từ cấp trên hay khách hàng có thể xuất hiện, hãy chụp lại hoặc ghi lại để dùng những lúc nản. Sinh viên hợp vạch lộ trình ôn tập hoặc cân nhắc hướng đi sau này, chỉ cần phác bằng vài dòng.",
+  "finance": "Nền tài chính có xu hướng vững dần nhờ những việc đều đặn bạn đã làm từ trước, như trả đúng hạn hay để dành đều tay. Hôm nay hợp để ghi ra một mục tiêu tiết kiệm rõ ràng với con số và thời hạn, không cần cầu kỳ. Nếu muốn, bạn có thể nhìn lại ba tháng gần nhất để thấy mình đã tiến bao nhiêu so với lúc bắt đầu.",
+  "insight": "Có thể bạn quen nhìn vào khoảng cách còn lại nên quên đếm quãng đã đi. Cái đầu hay ghi nhớ điều chưa xong rõ hơn điều đã xong, nên cảm giác thiếu hụt thường thắng cảm giác đủ. Tiến triển chậm vẫn là tiến triển, chỉ là nó không hay gây tiếng động. Hôm nay có khả năng bạn thấy mình đáng được công nhận hơn bạn vẫn nghĩ.",
+  "memorable_message": "Quay đầu nhìn con dốc vừa leo cũng là một cách lấy thêm sức.",
+  "advice": "Trước khi bắt đầu việc chính của buổi sáng, lấy một tờ giấy và viết ra ba điều bạn đã làm được gần đây, dù nhỏ như hoàn thành một báo cáo hay giữ đều một thói quen. Sau đó mới viết điều tiếp theo ngay bên dưới. Bạn có quyền chỉnh hướng nếu bước tiếp theo không còn hợp với mình.",
+  "keywords": [
+   "tiến triển",
+   "nhìn lại chặng đường",
+   "lộ trình"
+  ]
+ },
+ {
+  "card_id": "three-of-wands",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Thứ bạn chờ có xu hướng đến muộn hơn dự tính, và hôm nay bạn dễ bực vì điều không nằm trong tay mình.",
+  "card": {
+   "name": "Ba Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 4,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Tàu trễ bến không có nghĩa là tàu đắm.",
+  "card_meaning": "Khi Ba Gậy bị lật ngược, cảnh người đứng trên mỏm đá nhìn ra biển vẫn còn đó nhưng con tàu mong đợi chưa cập bến. Lá bài này nói về trì hoãn, về kế hoạch đang chạy chậm hơn dự tính vì những thứ bạn không điều khiển được như người duyệt, thời tiết hay khâu trung gian. Chiều ngược không có nghĩa là tàu chìm, chỉ là nhịp bị lệch và tầm nhìn tạm thời bị che. Nó thường đi kèm cảm giác bực dọc vì mình đã làm phần của mình mà kết quả vẫn lơ lửng. Hôm nay đáng chú ý vì bạn dễ dồn năng lượng vào chuyện chờ thay vì chuyện làm.",
+  "forecast": [
+   "Một phản hồi, một lần duyệt hay một lịch hẹn có xu hướng bị lùi lại so với điều bạn mong, thường là vì người phía bên kia bận hơn bạn nghĩ.",
+   "Bạn dễ nhắn hỏi thăm lần thứ hai rồi thấy hơi tủi vì chưa có lời đáp. Đây là lúc nên dừng ở một lần nhắc.",
+   "Một chi tiết nhỏ bị bỏ sót, như thiếu một chữ ký hay sai một đường dẫn, có thể khiến một bước bị dừng, nhưng thường sửa được ngay trong ngày."
+  ],
+  "love": "Tin nhắn có thể đến chậm hoặc cuộc hẹn bị dời, và bạn dễ đọc sự chậm đó thành thờ ơ, nhất là khi đang tìm hiểu một người. Người ta bận không đồng nghĩa với người ta hết quan tâm, hãy cho họ thêm một khoảng thời gian hợp lý trước khi kết luận. Nếu đang yêu xa, một cuộc gọi ngắn vẫn đáng hơn cả buổi nhắn tin đoán ý. Nếu độc thân, đừng tạm dừng cuộc sống xã hội chỉ để đợi một người.",
+  "career": "Dự án có thể bị trì lại vì thiếu thông tin, thiếu người ký hoặc thiếu một mảnh ghép nào đó. Thay vì nhắc dồn dập, hãy hỏi thẳng họ cần gì để việc đi tiếp, rồi xem mình có thể cung cấp thứ đó ngay không. Sinh viên có thể thấy kết quả hay phản hồi của thầy cô chưa đến, tranh thủ ôn phần mình còn yếu thay vì kiểm tra cổng thông tin liên tục.",
+  "finance": "Khoản tiền bạn trông chờ, như lương, hoàn tiền hay tiền khách thanh toán, có thể về muộn hơn dự định, nên đừng tiêu trước vào nó. Giữ nhịp chi tiêu hiện tại, hoãn những khoản chưa cần và tính lại mức dự phòng cho vài ngày tới là đủ cho hôm nay. Một tin nhắn lịch sự hỏi lại thời hạn thanh toán cũng không có gì bất tiện.",
+  "insight": "Có thể điều làm bạn mệt không phải là việc chờ, mà là cảm giác mọi thứ phụ thuộc vào người khác. Khi quyền quyết định nằm ngoài tay, đầu óc dễ chạy các kịch bản xấu để tự chuẩn bị, và việc đó tốn sức hơn bất kỳ việc nào bạn đang làm. Vẫn còn một phần bạn điều khiển được, và nó hay bị quên khi ta đang sốt ruột.",
+  "memorable_message": "Điện thoại không reo nhanh hơn dù bạn nhìn nó nhiều hơn.",
+  "advice": "Chọn một việc nằm hoàn toàn trong tay bạn và làm xong nó trong hôm nay, như dọn hộp thư, nộp một hóa đơn hay hoàn tất bản nháp đang dở. Làm vào buổi sáng để cả ngày không bị chuyện chờ tin chiếm hết. Nếu thấy kế hoạch cũ không còn hợp, bạn có quyền đổi hướng.",
+  "keywords": [
+   "trì hoãn",
+   "chờ đợi",
+   "việc nằm trong tay mình"
+  ]
+ },
+ {
+  "card_id": "three-of-wands",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Bạn có nhiều hướng đi nhưng chưa chọn hướng nào, nên hôm nay năng lượng dễ phân tán thay vì tiến lên.",
+  "card": {
+   "name": "Ba Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 4,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Nhìn mọi hướng cùng lúc thì cuối cùng chẳng thấy đường nào.",
+  "card_meaning": "Ở chiều ngược, Ba Gậy giống người đứng trên mỏm đá nhưng ngoái nhìn đủ mọi hướng, chẳng biết nên dõi theo con tàu nào. Lá bài xuôi vốn nói về tầm nhìn xa, nên bản ngược của nó là tầm nhìn bị nhòe: nhiều khả năng mở ra mà chưa có điểm đến, nhiều kế hoạch mà thiếu một trục chính. Đây không phải lá của sự lười, thường là của người có quá nhiều lựa chọn và chưa dám đóng bớt. Năng lượng bị chia nhỏ nên hao nhanh mà tiến chậm. Hôm nay đáng chú ý vì cảm giác bận rộn có thể che đi việc bạn chưa thực sự đi đâu.",
+  "forecast": [
+   "Bạn có xu hướng mở thêm tab, thêm ý tưởng, thêm kế hoạch trong khi cái cũ vẫn còn dở, nhất là vào buổi sáng khi đầu óc còn nhiều năng lượng.",
+   "Một cuộc trò chuyện với bạn bè hay đồng nghiệp có thể khiến bạn nhận ra mình chưa trả lời được câu mình thật sự muốn gì.",
+   "Dễ có lúc bạn lướt xem thành công của người khác rồi thấy mình đi chậm. Cảm giác đó thường qua nhanh nếu bạn quay lại một việc cụ thể."
+  ],
+  "love": "Về cảm xúc, bạn có thể chưa rõ mình muốn một mối quan hệ như thế nào, nên dễ đưa ra tín hiệu lẫn lộn, hôm nay nhắn nhiệt tình, mai lại im. Nếu đang tìm hiểu ai đó, thử tự hỏi điều mình cần ở họ trước khi đoán điều họ muốn. Người đang yêu nên bớt nói về tương lai xa khi chính mình còn chưa rõ, và thành thật rằng mình đang phân vân sẽ tốt hơn giả vờ đã quyết.",
+  "career": "Đầu việc nhiều nhưng thiếu ưu tiên nên dễ có cảm giác bận mà không tiến. Hãy chọn một mục tiêu quan trọng nhất cho hôm nay và dời phần còn lại sang một danh sách khác để khỏi nhìn thấy nó cả ngày. Sinh viên đang phân vân ngành học hay kế hoạch sau tốt nghiệp nên viết ra ba tiêu chí của mình trước khi so sánh các lựa chọn, vì có tiêu chí thì đầu óc mới có thước đo.",
+  "finance": "Thiếu mục tiêu rõ khiến tiền dễ chảy vào những khoản nhỏ rời rạc như đăng ký dịch vụ, mua thử đồ cho một ý tưởng mới hay đặt đồ ăn vì chưa kịp nghĩ. Gọi tên một mục đích cho số tiền mình có, dù chỉ là quỹ dự phòng hay một khoản cho sở thích, sẽ giúp đầu óc nhẹ hơn. Hôm nay hợp để rà lại các khoản tự động trừ tiền.",
+  "insight": "Có thể bạn không thiếu ý tưởng mà đang ngại phải bỏ bớt, vì chọn một thứ nghĩa là đóng cửa những thứ còn lại. Giữ mọi cánh cửa mở nghe như an toàn, nhưng thật ra là đứng giữa hành lang mà không vào phòng nào. Điều đó khó chịu, nhưng là cái giá của mọi bước tiến. Có thể hôm nay bạn nhận ra một lựa chọn mà mình vẫn nghiêng về từ lâu.",
+  "memorable_message": "Tầm nhìn không phải là thấy được nhiều thứ, mà là dám quay lưng với phần lớn chúng.",
+  "advice": "Viết ra ba mục tiêu đang tranh nhau sự chú ý của bạn, gạch hai, giữ một cho tuần này. Làm việc này ngay đầu ngày, bằng bút trên giấy sẽ rõ hơn ghi chú điện thoại. Rồi dành một khung giờ không bị ngắt quãng cho mục tiêu còn lại. Bạn có thể đổi ý sau, nhưng hãy đổi sau khi đã thử.",
+  "keywords": [
+   "thiếu tầm nhìn",
+   "phân tán",
+   "chọn một hướng"
+  ]
+ },
+ {
+  "card_id": "three-of-wands",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Một kế hoạch có xu hướng vấp phải trở ngại thật, và đó có thể là thông tin hữu ích hơn là một thất bại.",
+  "card": {
+   "name": "Ba Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 5,
+   "finance": 4,
+   "energy": 4
+  },
+  "headline": "Kế hoạch trượt chưa chắc là lỗi của bạn, nhưng sửa nó là việc của bạn.",
+  "card_meaning": "Lá Ba Gậy ngược cho thấy cảnh nhìn ra biển bị sóng dội: kế hoạch đã gửi đi gặp gió ngược, tàu phải đổi hướng hoặc quay về cảng sửa. Trong ngôn ngữ Tarot, chiều ngược này thường là lúc thực tế chạm vào bản vẽ, nơi những giả định chưa kiểm chứng lộ ra. Nó không phán xét năng lực của bạn, nó chỉ ra rằng một phần của kế hoạch cần được làm lại. Lá này khá có ích: thà biết lỗ hổng sớm còn hơn phát hiện khi đã đi quá xa. Hôm nay nó đáng chú ý vì có thể xuất hiện một chỉnh sửa nhỏ nhưng cần thiết.",
+  "forecast": [
+   "Một điều kiện bạn từng cho là hiển nhiên, như thời hạn, ngân sách hay sự có mặt của một người, có thể hóa ra không còn đúng và cần chỉnh lại.",
+   "Bạn dễ nhận ra một lỗ hổng trong phương án vào đúng lúc định gửi đi. May là phát hiện lúc này vẫn còn kịp sửa.",
+   "Có thể bạn phải thu nhỏ mục tiêu của hôm nay để vẫn tiến được, ví dụ làm xong nửa danh sách nhưng làm cho thật kỹ."
+  ],
+  "love": "Một kế hoạch chung như buổi hẹn, chuyến đi hay cuộc nói chuyện quan trọng có thể phải điều chỉnh vì lịch hoặc tâm trạng. Thay vì thất vọng, hãy đưa ra phương án thay thế trước khi người kia kịp thấy khó chịu, ví dụ dời sang cuối tuần hoặc đổi địa điểm. Người độc thân đừng lấy một lần lỡ hẹn làm bằng chứng rằng mình kém duyên, đó chỉ là một lần lịch không khớp.",
+  "career": "Hôm nay hợp để soát lại phần việc bạn đã lên kế hoạch kỹ nhưng chưa kiểm chứng với thực tế, ví dụ gửi bản nháp cho một người ít liên quan nhất để họ đọc thử. Một phản hồi thẳng thắn có thể hơi đau nhưng tiết kiệm cho bạn rất nhiều công sau này. Sinh viên có thể thấy cách học cũ không còn hiệu quả và cần thử cách khác, như làm đề thật thay vì đọc lại ghi chú.",
+  "finance": "Ngân sách dự tính có thể lệch vì một khoản phát sinh như sửa đồ, phí dịch vụ hay một lần đi chơi vượt dự kiến. Đừng hoảng, chỉ cần tính lại bằng số liệu thật từ sao kê chứ không phải ước chừng trong đầu, rồi cắt phần chưa gấp. Làm xong, bạn sẽ thấy khoản lệch thường nhỏ hơn cảm giác lúc đầu.",
+  "insight": "Có thể bạn đang đồng nhất kế hoạch với giá trị của chính mình, nên mỗi lần nó lệch là một lần thấy mình kém. Hai thứ đó ít liên quan hơn ta tưởng. Kế hoạch chỉ là bản đồ nháp, còn người đi đường là bạn, và người đi đường giỏi là người biết khi nào vẽ lại. Hôm nay có thể bạn thấy nhẹ hơn khi tách hai thứ này ra.",
+  "memorable_message": "Bản đồ sai chỉ là bản đồ cần vẽ lại, không phải lý do để ngồi lại chân đồi.",
+  "advice": "Tìm điểm yếu nhất trong kế hoạch hiện tại và viết nó thành một câu, rồi nhắn cho một người đáng tin, hỏi họ nhìn thấy gì ở chỗ đó. Làm việc này vào buổi chiều khi bạn đã bình tĩnh hơn. Nghe xong, hãy chọn sửa, giữ hay bỏ theo ý bạn, vì người hiểu rõ kế hoạch nhất vẫn là bạn.",
+  "keywords": [
+   "trở ngại",
+   "điều chỉnh kế hoạch",
+   "kiểm chứng thực tế"
+  ]
+ },
+ {
+  "card_id": "four-of-wands",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay hợp để ăn mừng một cột mốc, kể cả cột mốc nhỏ mà bạn vẫn chưa kịp công nhận.",
+  "card": {
+   "name": "Bốn Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 7,
+   "finance": 7,
+   "energy": 8
+  },
+  "headline": "Cột mốc nào cũng xứng đáng một chiếc bánh nhỏ.",
+  "card_meaning": "Bốn Gậy mô tả một cổng vòm kết bằng hoa lá, bốn cây gậy dựng làm cột, và phía xa là đám đông đang ăn mừng. Số 4 trong Tarot là con số của nền móng: vững, đủ, đáng để dừng chân. Ở chiều xuôi, lá bài nói về cột mốc đã đạt, sự nhẹ nhõm sau cố gắng và niềm vui được chia với người khác. Nó không đòi hỏi thành tựu phải lớn, chỉ cần nó là thật. Hôm nay lá bài đáng chú ý vì nó nhắc bạn dừng lại một nhịp, thay vì nhảy ngay vào việc kế tiếp.",
+  "forecast": [
+   "Có xu hướng xuất hiện một tin vui, một lời khen hoặc một việc vừa xong để bạn được thở ra, thường vào khoảng giữa hoặc cuối ngày.",
+   "Bạn dễ nhận được lời rủ đi ăn, gặp mặt hay tụ tập nhỏ vào cuối ngày. Nhận lời có thể giúp bạn nhẹ đầu hơn là ở nhà làm việc tiếp.",
+   "Một người thân hoặc đồng nghiệp có thể nhắc rằng bạn đã giúp họ nhiều hơn bạn nghĩ, và lời đó đến từ một chuyện bạn tưởng nhỏ."
+  ],
+  "love": "Người đang yêu có xu hướng thấy gần nhau hơn qua một khoảnh khắc đời thường như bữa cơm hay lời nhắc về một kỷ niệm cũ. Đang tìm hiểu thì một buổi gặp có thêm nhóm bạn có thể thoải mái hơn gặp riêng, vì áp lực được chia đều. Người độc thân có khả năng gặp người thú vị ở một buổi tụ họp, đám cưới hay sinh nhật. Hãy để ý xem ai khiến bạn thấy thoải mái khi ngồi cạnh.",
+  "career": "Một phần dự án hoàn tất hoặc được ghi nhận đang tạo cảm giác nhẹ nhõm trong nhóm. Hãy dừng lại ghi nhận đồng đội bằng một lời cảm ơn cụ thể, vì lời cảm ơn đúng lúc làm nhóm bền hơn. Nếu có thể, đề xuất một bữa trà chiều ngắn. Sinh viên vừa qua một chặng, như nộp bài hay thi xong, thì cho mình nghỉ đúng nghĩa trước khi sang chặng tiếp.",
+  "finance": "Dòng tiền khá ổn và có chỗ cho một khoản chi nhỏ để ăn mừng, như một bữa ngon hay món quà nhỏ cho chính mình hoặc người đã giúp bạn. Cứ vui, chỉ cần quyết số tiền trước khi ra khỏi nhà để niềm vui không kéo theo cảm giác tiếc sau. Những khoản lớn vẫn nên giữ đúng kế hoạch đã có.",
+  "insight": "Có thể bạn quen hoàn thành xong là đi tiếp ngay, như thể niềm vui là thứ phải xin phép. Khi cứ lướt qua cột mốc, bạn không có cơ hội cảm nhận rằng mình đã làm được gì, và lần sau rất khó lấy lại động lực từ chính thành quả. Không dừng lại thì thành tựu trôi qua mà chưa kịp đọng vào lòng. Hôm nay là cơ hội để nó đọng lại.",
+  "memorable_message": "Thành tựu không được ăn mừng sẽ dễ bị nhớ thành một việc đã làm xong.",
+  "advice": "Làm một nghi thức nhỏ để đánh dấu điều bạn vừa hoàn thành, như pha ly cà phê ngon và ngồi uống không nhìn màn hình, rồi nhắn khoe với một người bạn tin cậy. Làm ngay sau khi xong việc chính của ngày, đừng để dành đến cuối tuần. Cách ăn mừng là quyền của bạn, miễn là bạn thật sự dừng lại một chút.",
+  "keywords": [
+   "cột mốc",
+   "ăn mừng",
+   "nhẹ nhõm"
+  ]
+ },
+ {
+  "card_id": "four-of-wands",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Năng lượng hôm nay nghiêng về mái nhà và cảm giác thuộc về, nơi bạn được là chính mình.",
+  "card": {
+   "name": "Bốn Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 7,
+   "finance": 8,
+   "energy": 7
+  },
+  "headline": "Ai cũng cần một chỗ để hạ cánh trước khi bay tiếp.",
+  "card_meaning": "Trong Bốn Gậy, hoa và dải ruy băng treo trên bốn cột gậy tạo nên một mái vòm, và đằng sau là một tòa nhà ấm áp. Biểu tượng này không nói về chiến thắng ồn ào mà về một nơi chốn: chỗ để hạ cánh, nơi bạn được là mình. Ở chiều xuôi, lá bài gắn với gia đình, nhà cửa, cộng đồng thân thuộc và cảm giác ổn định mà ta chỉ nhận ra khi thiếu nó. Đây là sự an cư được xây bằng sức lực chứ không tự rơi xuống. Hôm nay nó đáng chú ý vì bạn có thể đang cần một chỗ đứng hơn là một đích đến.",
+  "forecast": [
+   "Bạn có xu hướng muốn về nhà sớm hơn thường lệ, dọn lại một góc hoặc nấu một bữa cơm tử tế thay vì ăn qua loa.",
+   "Một cuộc gọi hay tin nhắn từ gia đình hoặc nhóm bạn thân có thể làm bạn thấy nhẹ người, đặc biệt khi bạn đang mệt giữa buổi chiều.",
+   "Không gian làm việc hay chỗ ở có khả năng được sắp xếp lại và mang cảm giác dễ chịu hơn, chỉ nhờ dọn một ngăn kéo hoặc đổi vị trí chiếc bàn."
+  ],
+  "love": "Sự ổn định là điều ngọt nhất lúc này: có người ở bên để im lặng cùng nhau cũng đã quý. Người đang yêu có thể bàn chuyện sống chung, sắp xếp nhà cửa hoặc gặp gia đình, và một bữa cơm nấu cùng nhau thường mở đầu câu chuyện tốt hơn một buổi nói nghiêm túc. Người độc thân đừng vội, tình cảm đến từ sự thoải mái nhiều hơn từ sự cố gắng.",
+  "career": "Môi trường làm việc có xu hướng gắn kết, nhóm hòa hợp nên tiến độ trôi khá tốt. Hợp để xây thói quen, quy trình hoặc quy ước chung cho cả đội, như giờ họp cố định hay cách đặt tên tệp. Nếu làm việc tại nhà, thiết lập lại bàn làm việc, ánh sáng và chỗ ngồi sẽ giúp bạn tập trung hơn. Sinh viên có thể thử học ở một chỗ cố định để não quen vào nhịp.",
+  "finance": "Tài chính có xu hướng ổn định, nhất là các khoản liên quan đến nhà cửa và gia đình. Hôm nay hợp để rà lại các khoản cố định như tiền thuê, hóa đơn và phần để dành, rồi ghi chúng vào một chỗ để nhìn thấy toàn cảnh. Nếu muốn chi cho góc nhà, hãy ưu tiên món dùng hằng ngày hơn là món chỉ để trưng.",
+  "insight": "Có thể bạn đã chạy rất lâu để chứng minh điều gì đó, mà quên rằng cảm giác an toàn là thứ cần được xây chứ không chỉ chờ nhận. Nhiều người tưởng nghỉ ngơi là lùi bước, trong khi chính chỗ đứng vững mới cho ta sức đi xa. Thuộc về một nơi không làm bạn kém tham vọng đi, mà đôi khi là điều kiện để tham vọng bền.",
+  "memorable_message": "Ánh đèn trong nhà không giữ chân bạn, nó chỉ giúp bạn đi xa mà không lạc mất mình.",
+  "advice": "Dành một giờ yên tĩnh cho chỗ bạn ở hoặc người bạn thương, không điện thoại, tốt nhất là buổi tối khi công việc đã xong. Có thể là dọn một góc nhỏ, nấu một món đơn giản hoặc ngồi nói chuyện với người cùng nhà. Nếu hôm nay bạn cần ở một mình thì đó cũng là một cách về nhà.",
+  "keywords": [
+   "mái ấm",
+   "thuộc về",
+   "ổn định"
+  ]
+ },
+ {
+  "card_id": "four-of-wands",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Thành quả hôm nay có xu hướng không thuộc về riêng bạn, và cảm ơn đúng người sẽ mở thêm cánh cửa.",
+  "card": {
+   "name": "Bốn Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 8,
+   "finance": 7,
+   "energy": 8
+  },
+  "headline": "Mâm cơm nào cũng có người dọn trước khi có người khen.",
+  "card_meaning": "Bốn Gậy thường được vẽ với những con người nâng ly, nhảy múa dưới cổng hoa, cho thấy niềm vui ở đây mang tính tập thể. Cổng vòm cần bốn cây gậy cùng đứng, thiếu một cây là nghiêng, và đó là hình ảnh đẹp của sự nương tựa lẫn nhau. Ở chiều xuôi, lá bài gợi lên thành quả có sự góp mặt của nhiều người, cộng đồng nâng đỡ nhau và việc ghi nhận lẫn nhau. Nó nhắc rằng ít thành tựu nào thực sự của một mình. Hôm nay nó đáng chú ý vì bạn có thể được nhắc về những người đã đứng cạnh mình mà chưa từng được cảm ơn.",
+  "forecast": [
+   "Bạn dễ nhận ra một người âm thầm hỗ trợ mình bấy lâu, như người trực nhà hay đồng nghiệp làm phần việc không ai thấy, mà mình chưa từng nói lời cảm ơn.",
+   "Có khả năng một nhóm, một lớp học hay một cộng đồng bạn thuộc về mang lại điều tích cực bất ngờ, như một lời động viên trong nhóm chat.",
+   "Một việc cần nhiều người cùng làm có xu hướng trơn tru hơn dự đoán, nhất là khi mỗi người nhận một phần nhỏ và rõ."
+  ],
+  "love": "Tình cảm có xu hướng nở ra trong không khí đông vui và tự nhiên, như một bữa ăn chung hay một chuyến đi nhóm. Người đang yêu có thể giới thiệu nhau với một vòng bạn mới, và cách người yêu bạn hòa vào đó sẽ cho bạn thấy nhiều điều. Người độc thân dễ gặp người hợp ý thông qua bạn bè hơn là qua tìm kiếm chủ động, nên thử nhận một lời mời mà bạn thường từ chối.",
+  "career": "Sự phối hợp là điểm sáng: bạn có thể được đề cao cùng cả nhóm, hoặc chính bạn là người kết nối mọi người. Nói rõ phần đóng góp của đồng đội trước khi nhận lời khen cho mình, vì điều đó khiến uy tín của bạn tăng chứ không giảm. Sinh viên hợp học nhóm, trao đổi bài và cùng ăn mừng khi xong việc. Một buổi tổng kết ngắn sau khi xong cũng rất đáng.",
+  "finance": "Một khoản thu nhỏ, hoàn tiền hoặc chia sẻ chi phí có xu hướng giúp bạn nhẹ gánh, như được chia tiền ăn hay nhận lại tiền cọc. Nếu có khoản chi chung, hãy thống nhất từ đầu ai trả phần nào, bằng tin nhắn nếu cần, để niềm vui không bị vướng vào chuyện tiền. Ghi lại ai đã ứng trước cũng giúp mọi người khỏi ngại hỏi.",
+  "insight": "Có thể bạn quen nghĩ mình phải tự xoay xở, nên khó nhìn ra mình đã được nâng đỡ nhiều thế nào, từ một bữa cơm người khác nấu cho đến một lời khuyên đúng lúc. Nhận ra điều đó không làm thành tựu của bạn kém đi, nó chỉ làm thành tựu ấy bền hơn. Có thể hôm nay bạn thấy ấm vì biết mình không đi một mình.",
+  "memorable_message": "Lời cảm ơn nói đúng lúc là loại tiền tệ không bao giờ mất giá.",
+  "advice": "Gửi một lời cảm ơn cụ thể đến một người, nói rõ họ đã giúp bạn việc gì và việc đó đã thay đổi điều gì cho bạn. Làm trước giữa trưa để khỏi trôi qua. Nếu bạn thấy ngại, một dòng ngắn cũng đủ, miễn là có tên việc cụ thể. Bạn không cần đáp lễ ngay, chỉ cần nói ra.",
+  "keywords": [
+   "cộng đồng",
+   "biết ơn",
+   "thành quả chung"
+  ]
+ },
+ {
+  "card_id": "four-of-wands",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Có điều cần giải quyết trước khi vui được, nên bữa tiệc trong lòng hôm nay có xu hướng bị lùi lại.",
+  "card": {
+   "name": "Bốn Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Không khí nhà chưa hợp để nâng ly, nhưng có thể hợp để nói thật.",
+  "card_meaning": "Khi Bốn Gậy bị đảo ngược, cổng hoa vẫn dựng đó nhưng tiếng nhạc nhỏ đi và vài vị khách đứng ngoài, chưa dám bước vào. Lá bài xuôi vốn nói về hòa hợp và lễ mừng, nên bản ngược của nó đề cập đến những điều đứng giữa ta và niềm vui: căng thẳng chưa nói ra, buổi họp mặt hoãn lại, nền chung chưa thật vững. Không có nghĩa là mọi thứ hỏng, thường chỉ là một điều cần được nhìn thẳng trước khi cả nhóm thực sự vui được. Hôm nay đáng chú ý vì sự gượng gạo, nếu có, là tín hiệu chứ không phải kết luận.",
+  "forecast": [
+   "Một buổi gặp mặt gia đình hoặc nhóm có xu hướng bị hoãn, hoặc diễn ra với không khí hơi gượng, nhất là vào bữa tối.",
+   "Một câu nói bâng quơ dễ chạm vào chỗ vốn đã nhạy. Bạn có thể chọn không đáp ngay.",
+   "Có chuyện cũ chưa nói rõ lặp lại dưới một hình dạng khác, như một tranh luận nhỏ về việc nhà hay lịch trình."
+  ],
+  "love": "Người đang yêu có thể thấy hai người cùng ở một chỗ nhưng mỗi người ở một nhịp, và điều chưa nói đang làm không khí nặng hơn. Hãy chọn một lúc yên, như sau bữa cơm, để nói một chuyện thay vì nhắc tất cả cùng lúc. Người độc thân dễ cảm thấy lạc lõng khi quanh mình ai cũng có đôi, nhưng cảm giác đó đến từ so sánh chứ không phải sự thật về bạn.",
+  "career": "Nhóm có thể đang có căng thẳng ngầm như chuyện phân công, ghi nhận công sức hoặc cách giao tiếp. Hôm nay chưa hợp cho một buổi liên hoan hay họp gắn kết hời hợt vì mọi người sẽ cảm thấy gượng. Thử hỏi thẳng một người trong nhóm, trong cuộc trò chuyện riêng, xem điều gì đang làm họ khó chịu. Sinh viên làm bài nhóm cũng nên nói rõ ai làm phần nào.",
+  "finance": "Một khoản chi liên quan đến gia đình hay nhà cửa, như tiền điện nước, quà biếu hay sửa chữa, có thể phát sinh và gây tranh luận nhỏ. Bàn rõ số tiền, ai lo phần nào và khi nào, thì căng thẳng sẽ bớt đi nhiều. Tránh quyết định chi lớn khi không khí đang nặng, vì lúc ấy ta dễ chi để xoa dịu thay vì vì nhu cầu.",
+  "insight": "Có thể bạn đang cố giữ hòa khí bằng cách im lặng, nhưng hòa khí nào dựng trên điều chưa nói thì dễ nứt nhất. Giữ hòa khí cho người khác đôi khi là một công việc không lương và không ai nhìn thấy. Mệt mỏi bạn đang có có thể là của việc giữ một thứ quá lâu. Có thể hôm nay là lúc đặt nó xuống một chút, nhẹ nhàng thôi.",
+  "memorable_message": "Căn nhà yên ắng chưa chắc là căn nhà bình yên.",
+  "advice": "Chọn một điều muốn nói và viết nó thành một câu đơn giản, không đổ lỗi, bắt đầu bằng điều bạn cảm thấy hoặc cần. Đọc lại một lần rồi chọn lúc yên, ví dụ cuối buổi tối, để nói với đúng người. Nói hay chưa nói là quyền của bạn, nhưng đừng để nó thành cục đá ở trong ngực.",
+  "keywords": [
+   "căng thẳng nội bộ",
+   "hoãn kỷ niệm",
+   "nói điều chưa nói"
+  ]
+ },
+ {
+  "card_id": "four-of-wands",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Nền chân bạn đang đứng có xu hướng hơi chao đảo, nên hôm nay cảm giác chưa thật sự thuộc về chỗ nào.",
+  "card": {
+   "name": "Bốn Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Có những lúc ở nhà mà vẫn thấy mình chưa về tới nơi.",
+  "card_meaning": "Chiều ngược của Bốn Gậy giống cổng hoa bị gió làm lệch, những cây gậy còn đó nhưng không còn đứng thẳng. Lá bài xuôi nói về một mái ấm vững chãi, nên bản ngược chạm vào nền móng: chuyển nhà, đổi nhóm, đổi vai trò hay một mối quan hệ chưa tìm được chỗ đứng. Đây không hẳn là mất mát, mà là giai đoạn nền cũ đã dỡ, nền mới chưa xây xong. Cảm giác không thuộc về thường mạnh nhất ở khoảng giữa này. Hôm nay lá bài đáng chú ý vì nó đặt tên cho sự chao đảo mà bạn có thể đang cảm thấy mà chưa gọi được tên.",
+  "forecast": [
+   "Bạn có xu hướng cảm thấy một thay đổi về chỗ ở, nhóm hay vai trò đang làm mình mất điểm tựa, nhất là vào những lúc rảnh.",
+   "Một kế hoạch ổn định mà bạn tin tưởng có thể bị xáo trộn do một chi tiết nhỏ như đổi lịch hay thiếu một món cần thiết.",
+   "Dễ có lúc bạn muốn rút vào im lặng thay vì tham gia cuộc vui chung, và đó là nhu cầu bình thường chứ không phải lỗi."
+  ],
+  "love": "Cảm giác chưa vững trong mối quan hệ có thể khiến bạn đòi hỏi một lời bảo đảm mà đối phương chưa thể đưa ngay. Thay vì thử lòng, hãy hỏi một câu rõ ràng về điều bạn cần, ví dụ mình đang ở đâu trong kế hoạch của bạn. Người độc thân có thể thấy việc đi gặp gỡ hôm nay hơi tốn sức, nên chọn một nơi quen thuộc nếu có đi.",
+  "career": "Môi trường làm việc có thể đang đổi cách vận hành, đổi người hoặc đổi quy tắc, khiến bạn bất an. Hãy tìm điều gì đó vẫn ổn định để bám vào, như một thói quen làm việc hay một đồng nghiệp tin cậy. Hỏi thẳng cấp trên một câu về điều chưa rõ cũng giúp bạn bớt phải đoán. Sinh viên có thể cảm thấy lớp, nhóm hoặc môi trường mới chưa hợp, và cần thêm thời gian.",
+  "finance": "Sự bất ổn có thể thể hiện ở những khoản liên quan đến chỗ ở, di chuyển hoặc đồ gia dụng, như tiền cọc, tiền sửa hay vé đi lại. Hôm nay nên hoãn các quyết định lớn về nhà cửa nếu chưa thật cần, và ghi lại các khoản sắp đến hạn để không bị bất ngờ. Một khoản nhỏ để dành cho tuần này là đủ.",
+  "insight": "Có thể cảm giác thiếu điểm tựa không đến từ việc có gì sai, mà từ việc bạn đang chuyển giai đoạn và nền cũ chưa kịp thành nền mới. Ta thường đánh giá mình bằng nơi mình đang đứng, nên khi chỗ đứng đổi, cảm giác về chính mình cũng rung. Chỗ đứng đôi khi phải được xây lại từ bên trong, từng viên nhỏ một.",
+  "memorable_message": "Nhà không phải là nơi có địa chỉ, mà là nơi bạn không phải đeo mặt nạ.",
+  "advice": "Tạo một thói quen nhỏ ổn định cho hôm nay, như bữa sáng đúng giờ, dọn bàn trước khi ngủ hay đi bộ mười phút cùng một con đường. Chọn một thôi, làm đúng giờ và đừng tự đòi hỏi nhiều. Những điều nhỏ lặp lại đủ để giữ bạn khi mọi thứ rộng hơn đang lung lay.",
+  "keywords": [
+   "thiếu ổn định",
+   "mất điểm tựa",
+   "xây lại nền"
+  ]
+ },
+ {
+  "card_id": "four-of-wands",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Bạn có xu hướng cảm thấy phải tỏ ra vui vẻ và hòa thuận, trong khi lòng chưa thật sự như vậy.",
+  "card": {
+   "name": "Bốn Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Đừng ép mình vui cho vừa mắt người khác.",
+  "card_meaning": "Ở chiều ngược, Bốn Gậy trông như một bữa tiệc được dựng sẵn mà không ai thật sự muốn nhảy. Cổng hoa, tiệc tùng, nụ cười đều có đủ, nhưng thiếu cái cảm giác bên trong cho nó có hồn. Lá bài xuôi nói về niềm vui thật, nên bản ngược là bóng của nó: niềm vui diễn ra vì kỳ vọng, hòa thuận trên bề mặt, ăn mừng khi việc chưa xong. Đây là một góc nhìn thú vị vì nó cho phép bạn hỏi mình thật sự cảm thấy gì thay vì cảm thấy nên cảm thấy gì. Hôm nay nó đáng chú ý vì áp lực phải vui có thể đang nặng hơn bạn nghĩ.",
+  "forecast": [
+   "Bạn có xu hướng gượng cười trong một buổi họp mặt mà thực ra chỉ muốn về sớm, nhất là khi có đông người quen.",
+   "Một kỳ vọng từ gia đình hoặc nhóm dễ làm bạn thấy mình phải diễn một vai, như người ổn nhất hoặc người vui nhất.",
+   "Một việc chưa hoàn thành đang cản bạn thấy mình có quyền ăn mừng, và buổi tối bạn có thể thấy nó lặp lại trong đầu."
+  ],
+  "love": "Có thể bạn đang cố giữ hình ảnh một cặp đôi hay một gia đình hòa thuận trước mặt người khác, dù bên trong còn điều lấn cấn. Thành thật với người thân thiết nhất về điều đó quan trọng hơn bức ảnh đẹp. Người độc thân đừng vì áp lực xung quanh mà nhận một mối quan hệ chưa thật sự thấy hợp, vì câu hỏi bao giờ có người yêu thường nói nhiều về người hỏi hơn về bạn.",
+  "career": "Có thể có không khí đoàn kết bề ngoài nhưng bên trong nhóm còn vài vấn đề chưa ai muốn nhắc. Đừng vội ăn mừng sớm khi sản phẩm hay kết quả chưa thật sự xong, vì bữa tiệc sớm dễ làm cả nhóm chùng nhịp. Sinh viên có thể thấy áp lực phải đạt thành tích vì ai đó chứ không vì chính mình. Thử hỏi bản thân điều mình thật sự muốn đạt từ chặng này.",
+  "finance": "Dễ có khoản chi vì thể diện, như quà cáp, đãi đằng hay mua sắm cho đẹp mặt. Hãy tự hỏi khoản đó có làm bạn vui thật hay chỉ làm bạn khỏi áy náy, rồi đặt một mức trần trước khi đến buổi tụ họp. Từ chối một khoản không cần thiết thường dễ hơn bạn tưởng, và ít ai nhớ lâu.",
+  "insight": "Có thể bạn quen làm người giữ không khí cho mọi người, đến mức không biết mình đang thấy gì. Vai trò đó mang lại sự yêu mến, nhưng cũng dần khiến bạn khó chịu khi ở một mình với cảm xúc thật. Mệt vì phải vui cũng là một loại mệt rất thật. Hôm nay có thể là lúc bạn nhận ra mình được phép chỉ là mình.",
+  "memorable_message": "Bữa tiệc không cần bạn cười to, chỉ cần bạn đừng biến mất khỏi chính mình.",
+  "advice": "Cho mình một quãng nghỉ ngắn khỏi vai diễn, như ra ngoài hít thở năm phút giữa buổi tụ tập hoặc xin phép rời bàn đi rửa tay. Trong lúc đó, hỏi nhẹ mình đang thấy gì thật. Bạn có thể từ chối một lời mời mà không cần lý do đẹp, chỉ cần lịch sự.",
+  "keywords": [
+   "áp lực hòa hợp",
+   "kỳ vọng gia đình",
+   "thành thật với mình"
+  ]
+ },
+ {
+  "card_id": "five-of-wands",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay có xu hướng có chút cạnh tranh, và nếu biết dùng, nó sẽ làm bạn sắc hơn là mệt hơn.",
+  "card": {
+   "name": "Năm Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 7,
+   "finance": 5,
+   "energy": 8
+  },
+  "headline": "Có đối thủ tốt cũng là một món quà, miễn đừng biến nó thành thù.",
+  "card_meaning": "Năm Gậy cho thấy năm người trẻ mỗi người cầm một cây gậy, vung lên theo hướng riêng, như đang tập đấu hay tranh cãi mà không ai thật sự đánh ai. Số 5 trong Tarot là con số của xáo trộn: sau sự ổn định của số 4 là lúc va chạm để định hình lại. Ở chiều xuôi, lá bài mô tả cạnh tranh, bất đồng và thử thách, thường ồn ào hơn là nguy hiểm. Mặt tích cực của nó là cuộc va chạm mài sắc mọi người, ai cũng thấy mình giỏi hơn sau đó. Hôm nay đáng chú ý vì bạn có thể gặp ai đó khiến bạn muốn thử sức.",
+  "forecast": [
+   "Bạn có xu hướng thấy ai đó làm tốt hơn mình ở một việc, và phản ứng đầu tiên là muốn thử sức thay vì né.",
+   "Một cuộc thi, một lần so sánh số liệu hay một lời thách nhẹ dễ xuất hiện trong ngày, trong công việc hoặc cả trong nhóm bạn.",
+   "Năng lượng của bạn nghiêng về hành động nhanh, nói to và muốn có kết quả ngay, nhất là vào buổi sáng."
+  ],
+  "love": "Trong tình cảm, bạn dễ thấy hứng thú với người có cá tính mạnh và dám đối đáp, vì cuộc trò chuyện có chút lửa lại thú vị. Nếu đang yêu, một cuộc cãi đùa là ổn nhưng đừng lôi chuyện cũ ra làm vũ khí. Người đang tìm hiểu ai đó cần cẩn thận để không biến sự tán tỉnh thành cuộc đua thắng thua, vì đôi khi người thắng cuộc trò chuyện lại thua cơ hội.",
+  "career": "Môi trường cạnh tranh có thể đẩy năng suất của bạn lên nếu bạn xem nó như phép thử chứ không phải mối đe dọa. Hãy ganh đua với chính tiêu chuẩn của mình thay vì đồng nghiệp, ví dụ làm xong sớm hơn lần trước hoặc kỹ hơn lần trước. Sinh viên có thể thấy điểm số hoặc xếp hạng khiến mình hăng lên, nhớ giữ nghỉ ngơi để không cháy sớm.",
+  "finance": "Có xu hướng chi tiền để theo kịp người khác, như đồ đạc, công cụ hay trải nghiệm mà người xung quanh đang có. Hãy hỏi mình xem đó là nhu cầu hay là sức ép so sánh, và thử chờ hai mươi bốn giờ trước khi bấm mua. Nếu sau một ngày bạn vẫn thấy cần, đó là tín hiệu đáng tin hơn.",
+  "insight": "Có thể bạn không thích cạnh tranh, mà thích cảm giác được thấy giới hạn của mình. Khi chạy một mình, mọi tốc độ đều có vẻ ổn. Khi có người chạy bên cạnh, mình mới biết mình còn chạy nhanh hơn được. Cái hay là người đó không nhất thiết phải là kẻ thù, họ chỉ cần là tấm gương.",
+  "memorable_message": "Chạy cạnh người giỏi hơn là cách rẻ nhất để học chạy nhanh hơn.",
+  "advice": "Chọn một đối thủ lành mạnh, có thể là người thật hoặc thành tích cũ của chính mình, rồi đặt một mục tiêu cụ thể cho hôm nay, ví dụ làm xong một việc trong bốn mươi lăm phút. Bắt đầu vào buổi sáng khi năng lượng cao, bấm giờ và ghi kết quả. Thắng hay không, bạn vẫn là người quyết định cách chơi.",
+  "keywords": [
+   "cạnh tranh lành mạnh",
+   "thử thách",
+   "năng lượng cao"
+  ]
+ },
+ {
+  "card_id": "five-of-wands",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Nhiều ý kiến cùng lúc có xu hướng làm không khí ồn ào, và bạn dễ lạc mất điều mình thật sự muốn nói.",
+  "card": {
+   "name": "Năm Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 6,
+   "finance": 5,
+   "energy": 7
+  },
+  "headline": "Trong phòng đầy tiếng nói, người thắng là người nghe đủ lâu để tìm ra phần đúng của người khác.",
+  "card_meaning": "Trong Năm Gậy, năm người cầm năm cây gậy khác nhau và không ai theo cùng một nhịp. Không có kẻ thù thật ở đây, chỉ có nhiều ý kiến cùng muốn được nghe, và vì thế cảnh tượng nhìn như hỗn loạn. Ở chiều xuôi, lá bài nói về bất đồng quan điểm, nhiều giọng cùng lúc, những cuộc thảo luận chưa có người chốt. Nó là năng lượng của va chạm ý tưởng, có thể sinh ra điều mới nếu có người biết lắng nghe. Hôm nay đáng chú ý vì bạn có thể ở giữa một cuộc đối thoại mà mọi người cùng nói, ít người cùng nghe.",
+  "forecast": [
+   "Một cuộc họp, nhóm chat hay bàn ăn có thể có nhiều quan điểm chồi lên cùng lúc, và bạn là người phải nghe hết.",
+   "Bạn có xu hướng thấy mình phải bảo vệ ý kiến dù chưa chắc đó là điều mình quan tâm nhất, chỉ vì đã lỡ nói ra.",
+   "Một bất đồng nhỏ có thể to lên chỉ vì cả hai bên cùng muốn nói trước. Ai dừng lại trước thường là người giữ được bình tĩnh."
+  ],
+  "love": "Hai người có thể bất đồng về một chuyện nhỏ như lịch, cách làm hay lời nói, và mỗi bên đều cảm thấy mình có lý. Thử hỏi người kia điều họ thật sự cần thay vì tranh xem ai đúng. Người độc thân dễ gặp người khác quan điểm, và sự khác nhau ấy có thể thú vị nếu bạn không cố thuyết phục, chỉ tò mò về lý do họ nghĩ vậy.",
+  "career": "Nhóm có nhiều ý tưởng nhưng thiếu người chốt, nên cuộc thảo luận dễ lòng vòng. Bạn có thể là người tóm lại ba điểm chung rồi đề xuất bước tiếp theo, không cần là trưởng nhóm mới làm được việc này. Sinh viên làm bài nhóm nên chia việc rõ ràng ngay từ đầu, kèm hạn nộp từng phần, để tránh cãi sau.",
+  "finance": "Có thể có bất đồng nhỏ về chuyện tiền bạc chung, như chia tiền ăn, ai trả hay ai quyết. Nói rõ quy tắc chung một lần, ví dụ chia đều hay chia theo phần dùng, sẽ đỡ phải cãi lại nhiều lần. Nếu số tiền nhỏ, nhường một lần cho êm cũng là lựa chọn hợp lý, miễn bạn thật sự thấy ổn.",
+  "insight": "Có thể bạn không muốn thắng cuộc tranh luận, mà muốn được lắng nghe. Khi hai bên cùng đang cố được nghe, thì chẳng ai nghe ai, và âm lượng tăng lên thay cho sự hiểu. Có thể hôm nay bạn nhận ra người đối diện cũng đang muốn điều tương tự, chỉ là họ nói bằng giọng to hơn.",
+  "memorable_message": "Tiếng ồn lớn nhất trong phòng thường là tiếng của những người sợ không ai nghe.",
+  "advice": "Trước khi phản bác, hãy nhắc lại ý của người kia bằng lời của bạn và hỏi xem mình hiểu đúng chưa. Thử làm điều này ít nhất một lần trong cuộc họp hoặc cuộc nói chuyện đầu tiên của hôm nay. Sau đó nói ý của bạn, nếu bạn vẫn muốn. Mức căng thẳng nhiều khả năng sẽ giảm đi.",
+  "keywords": [
+   "bất đồng",
+   "nhiều ý kiến",
+   "lắng nghe"
+  ]
+ },
+ {
+  "card_id": "five-of-wands",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Năng lượng cao nhưng hơi gắt, nên những va chạm nhỏ hôm nay dễ làm bạn nổi nóng hơn thường lệ.",
+  "card": {
+   "name": "Năm Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 7,
+   "finance": 5,
+   "energy": 8
+  },
+  "headline": "Không phải trận nào cũng cần bạn có mặt.",
+  "card_meaning": "Năm Gậy vẽ năm cây gậy chạm nhau giữa không trung, và nếu nhìn kỹ, người cầm chúng trông hăng hơn là giận. Lá bài này gắn với năng lượng chưa có chỗ xả: dư sức, dư nhiệt, nhưng chưa có việc đáng để dồn vào. Ở chiều xuôi, nó nói về va chạm, tranh cãi và tính nóng, đặc biệt trong những chuyện nhỏ nhặt. Điều thú vị là nó không bảo bạn phải tránh xung đột, mà hỏi bạn muốn đánh trận nào. Hôm nay đáng chú ý vì sự nhạy cảm tăng lên có thể làm một việc nhỏ trông lớn.",
+  "forecast": [
+   "Bạn có xu hướng thấy khó chịu với những chuyện nhỏ như tin nhắn trả lời cụt, kẹt xe hay một nhận xét nhẹ.",
+   "Một lời khiêu khích vô tình dễ khiến bạn muốn đáp lại ngay, nhất là vào lúc vừa mệt vừa đói.",
+   "Có thể bạn phải chọn giữa việc thắng một cuộc cãi và giữ một mối quan hệ, và lựa chọn thứ hai thường đáng hơn."
+  ],
+  "love": "Sự nhạy cảm cao hơn bình thường khiến một câu nói vô tư của người kia có thể bị bạn nghe thành chỉ trích. Thở một nhịp rồi hỏi lại ý họ là gì trước khi phản ứng, nhiều khi đó chỉ là cách nói. Người độc thân dễ bực với những cuộc trò chuyện hời hợt, và có thể bạn chỉ đang cần một người dám nói thật.",
+  "career": "Hôm nay bạn có động lực mạnh nhưng ít kiên nhẫn với quy trình chậm hay người làm việc khác nhịp. Hãy dồn năng lượng vào việc cần đẩy nhanh thay vì tranh luận, ví dụ xử lý đống email tồn trước khi vào họp. Sinh viên có thể thấy bực vì bài nhóm không đều tay, hãy trao đổi sớm và cụ thể, đừng để đến phút cuối.",
+  "finance": "Cẩn thận với việc chi tiền khi đang cáu, như mua sắm xả stress, đặt đồ ăn nhiều hơn cần hay chi để thể hiện mình. Nếu thấy tức giận, đợi một lúc rồi hẵng thanh toán, ít nhất đủ để uống xong một ly nước. Quyết định tiền bạc nên để dành cho lúc đầu óc đã nguội, khi bạn nhìn con số mà không bị cảm xúc đẩy.",
+  "insight": "Có thể cơn bực hôm nay không thật sự nhắm vào người trước mặt, mà là dồn từ những điều bạn chưa kịp nói. Một ngày chồng nhiều việc nhỏ chưa xử lý sẽ làm ngưỡng chịu đựng thấp xuống. Sự khó chịu thường là tín hiệu có việc cần được chú ý, và khi tìm ra việc đó, cơn nóng thường tự dịu.",
+  "memorable_message": "Bạn không nợ mọi cuộc cãi nhau một câu trả lời.",
+  "advice": "Khi thấy cơn nóng lên, hãy đếm tới mười hoặc đứng dậy đi lấy ly nước trước khi trả lời. Nếu có thể, tập thói quen này ngay trong lần đầu bạn thấy bực hôm nay, để cơ thể quen với nhịp chậm. Việc đáp lại hay bỏ qua vẫn là lựa chọn của bạn, chỉ là chọn khi đã bình tĩnh.",
+  "keywords": [
+   "va chạm",
+   "nóng nảy",
+   "chọn trận để đánh"
+  ]
+ },
+ {
+  "card_id": "five-of-wands",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Bạn có xu hướng né một cuộc đối thoại khó, và hôm nay yên ắng nhưng chưa thật sự yên.",
+  "card": {
+   "name": "Năm Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Né một cuộc cãi nhỏ hôm nay thường là mua trước một cuộc cãi lớn về sau.",
+  "card_meaning": "Khi Năm Gậy lật ngược, năm người cầm gậy dường như đã hạ tay xuống hoặc quay mặt đi, cuộc đấu ồn ào tạm yên. Nhưng yên không đồng nghĩa với xong: chiều ngược của lá này thường mô tả việc né tránh đối đầu, nuốt lời, giữ hòa khí bằng cách im lặng. Đôi khi đó là sự khôn ngoan, chọn không đánh trận không đáng. Đôi khi đó là nỗi ngại, và vấn đề vẫn nằm đó chờ. Hôm nay lá bài đáng chú ý vì nó mời bạn phân biệt hai điều ấy, thay vì mặc định im lặng là tốt.",
+  "forecast": [
+   "Bạn có xu hướng nuốt lại một câu muốn nói vì thấy không đáng để tranh cãi, nhất là với người bạn nể hoặc người lớn hơn.",
+   "Một vấn đề trong nhóm bị gác lại để giữ không khí êm, nhưng nó vẫn ở đó và có thể trở lại vào lần sau.",
+   "Có thể bạn thấy nhẹ nhõm lúc đầu rồi lại thấy lấn cấn vào buổi chiều, khi chuyện chưa nói chạy lại trong đầu."
+  ],
+  "love": "Có điều bạn muốn nói với người kia nhưng ngại làm căng, nên chọn cách im lặng và cười cho qua. Đôi khi nói sớm một việc nhỏ, giọng nhẹ nhàng, còn dễ hơn nói muộn một việc to khi đã dồn lại nhiều lần. Người độc thân có thể ngại thể hiện sự quan tâm vì sợ bị từ chối, nên chỉ gửi những tín hiệu mơ hồ mà đối phương khó đọc.",
+  "career": "Có thể bạn tránh góp ý với đồng nghiệp hoặc không phản đối một phân công chưa hợp lý, chỉ vì không muốn khó xử. Chọn một việc nhỏ để nói thẳng, kèm một đề xuất thay thế thay vì chỉ phàn nàn. Sinh viên có thể ngại hỏi lại thầy cô hay bạn cùng nhóm vì sợ làm phiền, trong khi một câu hỏi sớm có thể tránh được cả tuần làm sai.",
+  "finance": "Có khả năng bạn né nhắc đến một khoản nợ nhỏ, một khoản chia chưa rõ hoặc chuyện lương thưởng. Nói rõ cũng là cách giữ quan hệ lâu bền, không phải làm tình cảm sứt mẻ. Hãy thử một câu nhẹ nhàng như mình thống nhất lại khoản này nhé. Khoản nhỏ để lâu thường làm cả hai cùng ngại hơn.",
+  "insight": "Có thể bạn tưởng mình đang giữ hòa bình, nhưng thật ra đang giữ mình khỏi cảm giác khó chịu của việc bất đồng. Hai điều đó nhìn giống nhau mà khác nhau rất nhiều: một cái bảo vệ mối quan hệ, cái kia bảo vệ sự thoải mái của bạn. Có thể hôm nay bạn nhận ra mình chịu được sự khó chịu đó tốt hơn mình tưởng.",
+  "memorable_message": "Im lặng để tránh một lời cãi vã thường tốn lãi hơn nói thẳng một lần.",
+  "advice": "Chọn một điều đang chặn trong lòng và nói nó theo hình thức một câu bắt đầu bằng tôi cảm thấy, nói với đúng người trong buổi sáng khi cả hai còn tỉnh táo. Giữ câu ngắn, không thêm bài giải thích dài. Bạn có thể chọn lúc và cách nói, miễn là đừng để nó mãi chưa được nói.",
+  "keywords": [
+   "tránh xung đột",
+   "nuốt lời",
+   "nói sớm một chút"
+  ]
+ },
+ {
+  "card_id": "five-of-wands",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Căng thẳng có xu hướng dịu đi, và hôm nay ai đó có thể chìa tay ra trước, có khi chính là bạn.",
+  "card": {
+   "name": "Năm Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 6,
+   "career": 6,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Nhường nửa bước không làm bạn nhỏ đi, chỉ làm cái bàn gần nhau hơn.",
+  "card_meaning": "Ở chiều ngược, Năm Gậy gợi nên cảnh những người từng vung gậy vào nhau bắt đầu hạ xuống, có người thậm chí cắm gậy xuống đất cạnh nhau. Lá bài xuôi vốn nói về tranh chấp, nên bản ngược của nó thường là phần sau cuộc tranh chấp: giảm căng thẳng, thương lượng, thỏa hiệp. Đây là chiều ngược mang tính giải phóng, nơi năng lượng không còn bị dùng để chống nhau mà có thể quay lại để làm việc chung. Nó đòi hỏi một chút khiêm tốn, và đổi lại cho một cái bàn rộng hơn. Hôm nay đáng chú ý vì chỗ cứng nhất có thể là chỗ dễ mềm đi nhất.",
+  "forecast": [
+   "Một tranh cãi kéo dài có xu hướng tìm được điểm giữa mà cả hai bên chấp nhận được, thường nhờ ai đó chịu nhượng một phần nhỏ trước.",
+   "Bạn dễ nhận ra người từng đối đầu với mình thật ra muốn điều gần giống bạn, chỉ là họ chọn con đường khác.",
+   "Một cuộc họp căng có thể kết thúc nhẹ hơn dự đoán nhờ một câu hòa giải đúng lúc, và người nói câu đó có thể là bạn."
+  ],
+  "love": "Một chuyện từng gây giận nhau có xu hướng được nói lại bằng giọng mềm hơn, có khi chỉ sau một bữa ăn hay một buổi đi dạo. Nếu đang có khoảng cách, một câu xin lỗi ngắn hoặc một lời nhận phần mình sai sẽ đi xa. Người độc thân có thể thấy dễ nói chuyện với những người từng khiến mình cảnh giác, và đó có thể là khởi đầu thú vị.",
+  "career": "Hợp tác tốt hơn cạnh tranh trong ngày này: tìm cách để cả hai bên đều có phần. Một đồng nghiệp từng là đối thủ có thể trở thành đồng minh hữu ích nếu bạn mở lời trước bằng một câu hỏi thay vì một yêu cầu. Sinh viên có thể giải được mâu thuẫn trong nhóm bằng một cuộc trao đổi thẳng nhưng nhẹ nhàng, tốt nhất khi mọi người đều đã bình tĩnh.",
+  "finance": "Thương lượng về giá, chia chi phí hay điều khoản có xu hướng thuận lợi nếu bạn chịu nhún một chút. Đừng tính chuyện thắng tuyệt đối, hãy tính chuyện cả hai cùng ổn. Nếu có một con số bạn không muốn vượt qua, hãy xác định nó trước khi vào cuộc nói chuyện để khỏi nhượng bộ quá mức vì ngại.",
+  "insight": "Có thể bạn đã giữ lập trường lâu đến mức quên mất mình giữ vì lý do gì. Khi lý do cũ đã nhạt mà tư thế vẫn còn, ta tiếp tục đấu vì quán tính chứ không vì điều quan trọng. Thỏa hiệp đúng chỗ không phải thua, mà là chọn điều quan trọng hơn cái tôi. Hôm nay có thể bạn thấy nhẹ vai khi cho phép mình làm vậy.",
+  "memorable_message": "Bên thắng thường mệt hơn bên chịu ngồi xuống nói chuyện.",
+  "advice": "Trong cuộc bất đồng hiện tại, hãy viết ra điều gì mình có thể nhường mà không mất giá trị cốt lõi, và điều gì mình cần giữ. Làm việc này trước khi gặp người kia, trong mười phút yên tĩnh. Nhường hay giữ vẫn là quyền của bạn, nhưng khi đã phân loại rõ, bạn sẽ nói chuyện thoải mái hơn.",
+  "keywords": [
+   "hòa giải",
+   "thỏa hiệp",
+   "dịu lại"
+  ]
+ },
+ {
+  "card_id": "five-of-wands",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Cuộc đấu hôm nay có xu hướng diễn ra bên trong bạn, giữa điều mình muốn và điều mình tự đặt ra.",
+  "card": {
+   "name": "Năm Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Người mệt nhất là người đang thi đấu một cuộc thi không ai chấm điểm.",
+  "card_meaning": "Chiều ngược của Năm Gậy dời cảnh đấu từ ngoài sân vào trong đầu. Năm cây gậy vẫn đó, nhưng bây giờ chúng đại diện cho năm giọng nói trong bạn: giọng đòi hoàn hảo, giọng sợ thua, giọng muốn nghỉ. Đây là xung đột nội tâm, nơi tiêu chuẩn tự đặt va chạm với điều mình thật sự muốn. Khác với lá xuôi ồn ào, lá ngược này im lặng và tốn sức, thường khiến người ta mệt mà không biết mệt vì gì. Hôm nay đáng chú ý vì bạn có thể đang là đối thủ khó nhằn nhất của chính mình.",
+  "forecast": [
+   "Bạn có xu hướng tự phê bình mình nhiều hơn người khác phê bình bạn, thường vào lúc rảnh hoặc trước khi ngủ.",
+   "Có thể bạn nhận ra mình đã ngừng cạnh tranh từ lâu mà vẫn chưa cho phép mình nghỉ, như vẫn gồng khi không còn ai nhìn.",
+   "Một quyết định đang giằng co trong đầu cần một cái kết hơn là thêm một lập luận, và hôm nay có thể là lúc bạn chọn."
+  ],
+  "love": "Có thể bạn đang đối đáp với một phiên bản tưởng tượng của người kia, nghĩ ra câu họ sẽ nói và câu mình sẽ đáp. Hãy hỏi người thật thay vì tranh luận với bản trong đầu. Người độc thân có thể thấy mình đang tự giằng co giữa muốn có người bên cạnh và ngại bị ràng buộc, và cả hai mong muốn đều hợp lệ. Việc của bạn là nghe từng giọng trước khi chọn.",
+  "career": "Đồng nghiệp ít cạnh tranh hơn bạn nghĩ, thứ đang gây áp lực là tiêu chuẩn bạn tự đặt cho mình. Hãy xác định lại thế nào là đủ tốt cho phần việc này, bằng một tiêu chí cụ thể như đúng hạn và không sai số. Sinh viên có thể mệt vì so sánh điểm và tiến độ, thử đo tiến bộ bằng mốc riêng của mình, chẳng hạn so với tháng trước.",
+  "finance": "Áp lực phải ngang bằng bạn bè có thể ngấm vào cách bạn nhìn thu nhập hay chi tiêu, khiến một mức vốn ổn lại trông thiếu. Viết ra mục tiêu tài chính cho riêng mình thay vì dựa vào những gì người khác đang có, kèm lý do vì sao nó quan trọng với bạn. Thứ gì không có lý do rõ thường là thứ vay mượn từ người khác.",
+  "insight": "Có thể mệt mỏi của bạn không phải do làm quá nhiều, mà do vừa làm vừa chiến đấu với chính mình. Một cuộc đấu không có trọng tài thì không bao giờ kết thúc, vì ta vừa là người đánh vừa là người chấm. Khi dừng đấu, năng lượng thường quay lại rất nhanh, như lúc ta đặt xuống một chiếc vali vừa xách mãi.",
+  "memorable_message": "Bạn có thể đặt vũ khí xuống mà không phải nhận thua ai cả.",
+  "advice": "Viết ra một tiêu chuẩn bạn đang áp lên mình, rồi hỏi xem ai đã đặt nó ra và nó còn hợp với cuộc sống hiện tại không. Làm việc này vào buổi tối, khi công việc đã tạm dừng. Giữ, nới hay đổi nó đều là quyền của bạn, và bạn có thể bắt đầu bằng việc nới nó đi một chút.",
+  "keywords": [
+   "xung đột nội tâm",
+   "tự phê bình",
+   "buông vũ khí"
+  ]
+ }
+]

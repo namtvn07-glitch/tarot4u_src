@@ -38,6 +38,10 @@ export interface ReadingContext {
   majorCount: number;
   minorCount: number;
   dominantSuit: DominantSuit;
+  suitCounts: Record<Suit, number>;
+  // Con số Ace–10 xuất hiện ở từ 2 lá Minor trở lên (Court Card và Major không tính).
+  repeatedNumber: number | null;
+  courtCount: number;
   reversedCount: number;
 }
 
@@ -56,6 +60,26 @@ function pickDominantSuit(cards: Card[]): DominantSuit {
   if (!top || top[1] < 2) return "none";
   if (runnerUp && runnerUp[1] === top[1]) return "none";
   return top[0];
+}
+
+function countSuits(cards: Card[]): Record<Suit, number> {
+  const counts: Record<Suit, number> = { wands: 0, cups: 0, swords: 0, pentacles: 0 };
+  for (const card of cards) {
+    if (card.arcana === "minor" && isSuit(card.suit)) counts[card.suit] += 1;
+  }
+  return counts;
+}
+
+// Chỉ Ace–10: số 11–14 của dữ liệu là Page/Knight/Queen/King, đã có `courtCount`.
+function pickRepeatedNumber(cards: Card[]): number | null {
+  const counts = new Map<number, number>();
+  for (const card of cards) {
+    if (card.arcana === "minor" && card.number >= 1 && card.number <= 10) {
+      counts.set(card.number, (counts.get(card.number) ?? 0) + 1);
+    }
+  }
+  const repeated = [...counts.entries()].filter(([, n]) => n >= 2).sort((a, b) => b[1] - a[1]);
+  return repeated.length > 0 ? repeated[0][0] : null;
 }
 
 export function buildReadingContext(args: {
@@ -93,6 +117,9 @@ export function buildReadingContext(args: {
     majorCount,
     minorCount: rawCards.length - majorCount,
     dominantSuit: pickDominantSuit(rawCards),
+    suitCounts: countSuits(rawCards),
+    repeatedNumber: pickRepeatedNumber(rawCards),
+    courtCount: rawCards.filter((c) => c.arcana === "minor" && c.number >= 11).length,
     reversedCount: cards.filter((c) => c.orientation === "reversed").length,
   };
 }

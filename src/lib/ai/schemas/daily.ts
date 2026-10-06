@@ -21,6 +21,8 @@ export const DailyContentSchema = z.object({
   }),
   daily_scores: DailyScoresSchema,
   headline: z.string(),
+  // "Lá này nói gì" — thêm sau bản đầu tiên: bản ghi cũ không có.
+  card_meaning: z.string().optional(),
   forecast: z.array(z.string()),
   love: z.string(),
   career: z.string(),

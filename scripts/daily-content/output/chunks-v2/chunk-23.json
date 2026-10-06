@@ -1,0 +1,650 @@
+[
+ {
+  "card_id": "three-of-pentacles",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay công việc đi nhanh và đẹp hơn khi bạn chịu để người khác góp tay vào phần của mình.",
+  "card": {
+   "name": "Ba Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 6,
+   "career": 9,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Một mình giỏi, cùng nhau mới thành công trình.",
+  "card_meaning": "Ba Tiền vẽ một người thợ đá đứng trên bục, đang chạm khắc vòm cổng của một ngôi thánh đường, còn hai người đứng dưới cầm bản vẽ và góp ý. Ba người, ba vai trò, cùng nhìn về một công trình. Ý nghĩa cốt lõi là tay nghề chỉ trở thành thứ bền vững khi nó gặp được con mắt của người khác. Ở chiều xuôi, lá bài thưởng cho sự phối hợp: bạn có phần của mình, họ có phần của họ, và chỗ giao nhau mới ra tác phẩm. Hôm nay nó đáng chú ý vì nó nhắc rằng giỏi một mình chưa phải điểm dừng.",
+  "forecast": [
+   "Bạn có xu hướng nhận được một góp ý đúng chỗ, có thể là dòng bình luận bên lề file hoặc một câu nói vu vơ trong giờ nghỉ, và nó làm bản làm dở sáng lên hẳn.",
+   "Một cuộc trao đổi nhóm vào quãng giữa ngày có thể giải được vấn đề bạn đã ngồi gỡ một mình cả tuần, vì người ngồi cạnh thấy được cái bạn đã nhìn quá nhiều nên không còn thấy.",
+   "Có thể ai đó nhờ bạn xem giúp một phần việc của họ, và bạn bất ngờ nhận ra mình giỏi hơn mình nghĩ."
+  ],
+  "love": "Hôm nay tình cảm nghiêng về kiểu cùng làm một việc gì đó, như nấu một bữa tối, dọn lại góc phòng hay lên lịch cho chuyến đi sắp tới. Người đang tìm hiểu có thể thấy nhau rõ hơn qua cách phối hợp, chứ không phải qua lời hay. Người đang yêu thử để người kia chỉnh một chi tiết trong kế hoạch của bạn mà không tự ái. Người độc thân dễ gặp người hợp vía ở nơi làm việc hoặc lớp học.",
+  "career": "Đây là lá của người thợ lành nghề trong một đội: bạn có xu hướng được ghi nhận vì tay nghề, miễn là chịu cho người khác xem bản nháp trước khi nó thành bản chính. Thử gửi một đoạn việc dang dở cho đồng nghiệp bạn tin, kèm một câu hỏi rõ như chỗ này đọc có thuận không. Sinh viên nên học nhóm hoặc hỏi một người hơn mình vài bước. Việc nên tránh là ôm hết về mình rồi tự mệt.",
+  "finance": "Tiền bạc khá ổn và có xu hướng đi lên theo công sức thật chứ không theo may rủi. Một lời mời hợp tác nhỏ, hoặc việc thêm đúng chuyên môn của bạn, có thể xuất hiện qua một người quen. Trước khi gật đầu, hãy hỏi rõ phần việc, thời hạn và thù lao, rồi nhắn lại bằng chữ để cả hai cùng giữ một bản. Chi cho thứ giúp mình làm việc tốt hơn thì đáng cân nhắc, nhưng nên so sánh vài lựa chọn trước.",
+  "insight": "Có thể bạn không ngại làm nhiều, bạn ngại bị người khác nhìn thấy bản chưa hoàn chỉnh. Cảm giác đó thường đến từ mong muốn được xem là giỏi ngay từ lần đầu. Nhưng phần lớn thứ đẹp đều từng bị ai đó góp ý vài lần trước khi thành hình, và người chịu cho xem bản nháp thường đi nhanh hơn người giấu nó đến phút chót.",
+  "memorable_message": "Bản vẽ chỉ thành nhà khi có người đứng cạnh chỉ cho bạn chỗ lệch.",
+  "advice": "Chọn một việc đang làm dở và đưa cho một người bạn tin xem vào đầu buổi chiều, kèm đúng một câu hỏi cụ thể như chỗ nào đọc còn rối. Hẹn họ trả lời trong ngày để việc không bị treo. Nghe xong cứ lấy phần dùng được, phần còn lại bạn vẫn là người quyết. Làm vậy bạn bớt phải đoán và thật sự có người cùng nhìn.",
+  "keywords": [
+   "hợp tác",
+   "tay nghề",
+   "góp ý đúng chỗ"
+  ]
+ },
+ {
+  "card_id": "three-of-pentacles",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Năng lượng hôm nay thưởng cho sự chăm chút: làm kỹ một việc nhỏ có giá trị hơn lướt qua nhiều việc.",
+  "card": {
+   "name": "Ba Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 9,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Tay nghề không ồn ào, nhưng người ta nhớ.",
+  "card_meaning": "Trên vòm cổng trong tranh Ba Tiền có ba đồng xu được khắc đều tay, như chữ ký của người thợ. Lá bài nói về sự thành thạo được xây lên từ nhiều lần làm đi làm lại, không phải từ cảm hứng nhất thời. Số ba là lúc ý tưởng và công sức gặp nhau để thành thứ nhìn thấy được. Ở chiều xuôi, nó thưởng cho người chịu làm kỹ và chịu học thêm từ người đi trước. Hôm nay đáng chú ý vì năng lượng nghiêng về chất lượng hơn số lượng, rất hợp với ai đang bị cuốn vào nhịp làm cho kịp.",
+  "forecast": [
+   "Bạn có xu hướng muốn làm một việc đến nơi đến chốn thay vì chạy qua nhiều việc cùng lúc, nhất là vào buổi sáng khi đầu óc còn gọn.",
+   "Có thể một người có kinh nghiệm chỉ cho bạn một mẹo nhỏ, như phím tắt, cách đặt tên file hay thứ tự làm việc, và nó tiết kiệm cả tiếng đồng hồ.",
+   "Một sản phẩm, bài viết hay bản thiết kế của bạn dễ thu hút một ánh nhìn nghiêm túc, và lời nhận xét có thể đến muộn hơn bạn mong nhưng đáng giá."
+  ],
+  "love": "Sự chăm chút hôm nay thể hiện bằng việc nhỏ: nhớ một chi tiết người kia từng kể, sửa giúp một thứ đang hỏng, chuẩn bị sẵn thứ họ hay quên mang. Người đang yêu sẽ thấy gần nhau hơn qua những việc thực tế như vậy hơn là qua lời hứa lớn. Người đang tìm hiểu nên để ý cách đối phương làm việc cùng mình. Người độc thân hãy chú ý ai đó chững chạc, tử tế trong việc nhỏ hơn là ai đó nói hay.",
+  "career": "Bạn đang ở giai đoạn tay nghề lên dần, nên hôm nay hợp để trau chuốt, học thêm một kỹ năng hoặc làm lại cho đẹp phần đã làm. Dành thời gian đọc lại sản phẩm với con mắt của người nhận, không phải người làm. Sinh viên có thể học được nhiều từ một người đi trước, chỉ cần hỏi đúng chỗ mình vướng. Điều cần tránh là so mình với người đã làm nghề mười năm.",
+  "finance": "Dòng tiền có xu hướng ổn định nhờ những khoản làm ra bằng kỹ năng của chính bạn, dù là việc chính hay việc tay trái. Chi cho một khoá học hay một dụng cụ làm việc tốt hơn là kiểu chi có khả năng quay lại với bạn, nhưng nên so sánh kỹ trước khi mua. Thử ghi lại giá trị thực mà kỹ năng của mình tạo ra, vì nó giúp bạn tự tin hơn khi bàn chuyện thù lao.",
+  "insight": "Có thể bạn đang đánh giá bản thân bằng tốc độ, trong khi thứ khiến bạn khác biệt lại là độ kỹ. Chúng ta hay nhớ mình chậm hơn người khác ở đâu mà quên mình cẩn thận hơn ở đâu. Việc chưa giỏi lúc này thường chỉ là chưa đủ số lần làm, và mỗi lần làm kỹ là một lần được tính.",
+  "memorable_message": "Không ai đứng trước một tay nghề tốt mà hỏi nó làm nhanh cỡ nào.",
+  "advice": "Chọn đúng một việc quan trọng và làm nó chậm hơn bình thường mười phút, dành phút cuối để soát lại từng chi tiết trước khi gửi đi. Sau đó hỏi một người giỏi hơn một câu về đúng chỗ bạn còn lấn cấn, chẳng hạn cách họ xử lý tình huống tương tự. Một câu hỏi đúng đáng hơn mười câu hỏi chung chung.",
+  "keywords": [
+   "tay nghề",
+   "học hỏi",
+   "chăm chút"
+  ]
+ },
+ {
+  "card_id": "three-of-pentacles",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Hôm nay hợp để đặt từng viên gạch cho một việc dài hơi, và để mỗi người giữ đúng phần của mình.",
+  "card": {
+   "name": "Ba Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 8,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Nền móng không ai khen, nhưng cả toà nhà đứng trên nó.",
+  "card_meaning": "Bản vẽ trải ra giữa ba người đứng trong thánh đường dở dang là hình ảnh trung tâm của Ba Tiền. Chưa có mái, chưa có tượng, nhưng đã có khung, và ai cũng biết phần mình. Lá bài nói về giai đoạn dựng nền: vai trò rõ ràng, kỹ năng bổ trợ nhau, những viên gạch nhàm nhưng chắc. Ở chiều xuôi, đây là năng lượng của một đội đang chạy đúng nhịp. Hôm nay đáng chú ý vì nó nhắc rằng phần ít được khen nhất thường là phần quyết định toà nhà đứng được bao lâu.",
+  "forecast": [
+   "Một kế hoạch còn mơ hồ có xu hướng được chia thành các phần rõ ràng, ai làm gì, bao giờ xong, nhất là sau một buổi họp ngắn hoặc một cuộc nhắn tin nhóm.",
+   "Bạn dễ gặp một người có kỹ năng bù đúng chỗ bạn còn thiếu, và cuộc nói chuyện đầu tiên với họ thường nhẹ hơn bạn nghĩ.",
+   "Có thể một việc tưởng nhàm chán hôm nay lại là mắt xích khiến cả dự án chạy tiếp, và người phụ trách nó sẽ được nhắc tên."
+  ],
+  "love": "Trong tình cảm, năng lượng nghiêng về xây dựng hơn là rung động: phân chia việc nhà, bàn kế hoạch chung, nói rõ mong đợi của mỗi người. Người đang yêu có thể thấy nhẹ đầu khi chuyện lặt vặt được thống nhất, thay vì mỗi người âm thầm gánh một nửa. Người đang tìm hiểu nên để ý xem hai bên có cùng hướng đi không. Người độc thân nên tìm người cùng hướng, không chỉ cùng sở thích.",
+  "career": "Đây là ngày tốt để họp ngắn, phân vai và chốt mốc công việc. Bạn có xu hướng giữ vai trò kết nối vì nhìn được cả phần của mình lẫn phần của người khác, và điều đó dễ được đánh giá cao. Hãy ghi ra ai giữ việc nào để khỏi nhầm sau này. Sinh viên làm bài nhóm nên chia việc theo thế mạnh thay vì chia đều từng trang.",
+  "finance": "Hôm nay hợp để dựng nền cho dòng tiền: ghi lại các khoản thu chi cố định, hoặc bàn với người chung nhà về chi tiêu chung như điện nước, tiền ăn, tiền thuê. Chưa cần tham vọng lớn, chỉ cần một bảng đơn giản mà cả hai bên cùng hiểu và cùng nhìn được. Đây là kiểu việc ít hào nhoáng nhưng bớt được nhiều va chạm về sau.",
+  "insight": "Có thể bạn đang sốt ruột vì chưa thấy thành quả, trong khi thứ bạn thật sự đang làm là dựng khung. Giai đoạn này nhìn không bắt mắt, ít ai vỗ tay, nhưng đó là phần khó thay thế nhất của bất kỳ công trình nào. Sự kiên nhẫn của bạn lúc này không phải là chờ đợi, mà là một phần của việc xây.",
+  "memorable_message": "Đừng đòi mái nhà khi mới đổ xong cái móng.",
+  "advice": "Lấy một tờ giấy hoặc ghi chú trong điện thoại và viết ra ba đầu việc của dự án đang chạy, mỗi việc kèm tên người phụ trách, kể cả khi người đó là bạn. Làm việc này trước giờ nghỉ trưa. Thấy chỗ nào còn trống thì chủ động hỏi bằng một tin nhắn ngắn, đừng chờ ai đoán.",
+  "keywords": [
+   "xây nền tảng",
+   "phân vai",
+   "kỹ năng bổ trợ"
+  ]
+ },
+ {
+  "card_id": "three-of-pentacles",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Hôm nay nhóm dễ lệch nhịp: ai cũng làm, nhưng không ai biết rõ người kia đang làm gì.",
+  "card": {
+   "name": "Ba Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 3,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Cả nhóm cùng bận chưa có nghĩa là cùng làm một việc.",
+  "card_meaning": "Ở chiều ngược, cảnh thánh đường trong Ba Tiền vẫn còn đó nhưng ba người không còn cùng nhìn một bản vẽ. Người thợ làm theo ý mình, người kiến trúc sư nghĩ một đằng, người đứng cạnh thì không rõ ai cần gì. Bóng của lá này là sự lệch nhịp: ai cũng bận, nhưng bận ở những hướng khác nhau. Nó không nói nhóm của bạn kém, mà cho thấy thiếu một khâu nối là mục tiêu chung. Hôm nay đáng chú ý vì lệch nhịp nhỏ thường chỉ tốn một câu hỏi để sửa, nhưng nếu để lâu sẽ tốn cả một tuần làm lại.",
+  "forecast": [
+   "Bạn có xu hướng gặp một cuộc trao đổi mà mỗi người hiểu yêu cầu theo một kiểu, và chỉ nhận ra sự khác biệt khi đã làm được nửa đường.",
+   "Một phần việc có thể bị làm trùng hoặc bị bỏ sót vì không ai nhận rõ là của mình, thường lộ ra vào buổi chiều khi gần hạn.",
+   "Một câu nói thẳng của đồng nghiệp hoặc bạn học dễ làm bạn thấy bị chê, dù họ có thể không có ý đó."
+  ],
+  "love": "Trong tình cảm, hai người có thể đang kéo về hai hướng mà chưa nói ra, như chuyện chia việc nhà hay kế hoạch cuối tuần. Một câu hỏi thẳng và nhẹ sẽ đỡ tốn sức hơn cả buổi tối ngồi giận ngầm, ví dụ em muốn cuối tuần này mình làm gì. Người đang tìm hiểu nên để ý lúc hai bên hiểu khác nhau về một cuộc hẹn. Người độc thân nên bớt kỳ vọng người mới sẽ tự hiểu ý mình.",
+  "career": "Hôm nay nhóm có xu hướng thiếu khớp: thiếu người chốt, thiếu người cập nhật, thiếu một câu nói rõ mục tiêu. Nếu bạn làm trưởng nhóm, hãy nhắc lại mục tiêu bằng một câu ngắn và hỏi từng người phần của mình là gì. Nếu là thành viên, gửi lại cách mình hiểu yêu cầu bằng văn bản để đỡ lệch. Sinh viên làm bài nhóm nên chốt rõ ai nộp, nộp lúc nào.",
+  "finance": "Chuyện tiền chung có thể gây vướng, nhất là khoản ai trả, ai chịu, ai ứng trước cho nhóm hay cho nhà. Nói rõ con số và phần của mỗi người ngay từ đầu để khỏi dồn thành cục tức. Có thể dùng một dòng ghi chú chung cho mọi người cùng thấy. Chi tiêu riêng của bạn thì tạm ổn, không có biến động đáng kể.",
+  "insight": "Có thể bạn không ghét làm việc nhóm, bạn ghét cảm giác phải gánh phần người khác mà không ai nhìn thấy. Khi chưa nói ra, sự khó chịu ấy dễ biến thành giọng điệu hơi gắt, và người nghe lại không biết gốc rễ nằm ở đâu. Nói điều đó ra sớm, bằng giọng bình thường, thường rẻ hơn âm thầm làm hết.",
+  "memorable_message": "Im lặng trong nhóm không giữ được hoà khí, nó chỉ hoãn cuộc cãi nhau sang tuần sau.",
+  "advice": "Trong buổi sáng, hỏi một câu đơn giản với người liên quan: phần này của ai, bao giờ cần xong. Nếu câu trả lời mơ hồ, bạn có quyền xin một cuộc họp năm phút để chốt, kể cả qua tin nhắn thoại. Ghi kết quả vào một dòng và gửi lại cho cả nhóm để mọi người cùng thấy.",
+  "keywords": [
+   "lệch nhịp",
+   "xung đột nhóm",
+   "nói rõ vai"
+  ]
+ },
+ {
+  "card_id": "three-of-pentacles",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Hôm nay dễ làm cho xong hơn là làm cho tốt, và phần làm ẩu sẽ quay lại tìm bạn.",
+  "card": {
+   "name": "Ba Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 3,
+   "finance": 4,
+   "energy": 4
+  },
+  "headline": "Làm vội một lần, sửa ba lần.",
+  "card_meaning": "Chiều ngược của Ba Tiền soi vào chất lượng. Hãy hình dung người thợ trên bục vội vàng khắc cho xong, đường nét lệch, đá chưa khít, còn người bên dưới thì không còn quan tâm kiểm tra. Lá bài nói về việc làm cho có, cắt bớt các bước cần thiết và bỏ qua phần học hỏi. Đây không hẳn là tính xấu, thường là dấu hiệu của quá tải hoặc áp lực thời gian. Hôm nay nó đáng chú ý vì cái giá của làm ẩu thường không hiện ra ngay, mà quay lại tìm bạn vào lúc kém tiện nhất.",
+  "forecast": [
+   "Bạn có xu hướng bỏ qua bước kiểm tra cuối vì đã thấy mệt hoặc đã sát giờ, nhất là khi việc đó lặp lại nhiều lần và đã thành quen tay.",
+   "Một lỗi nhỏ có thể lọt qua và chỉ bị phát hiện khi người khác đã dùng đến nó, như tin nhắn gửi nhầm số liệu hay file thiếu một trang.",
+   "Có thể bạn bắt gặp thành phẩm của người khác không đạt và dễ cáu, trong khi bản thân cũng đang dễ dãi với việc của mình."
+  ],
+  "love": "Có thể bạn đang đối xử với mối quan hệ theo kiểu cho có: trả lời nhanh, hứa nhanh, quan tâm nhanh. Người kia dễ cảm nhận được điều đó, nên chỉ cần dành một khoảng tập trung thật cho họ, ví dụ mười phút nói chuyện không lướt điện thoại, là đã khác. Người đang tìm hiểu sẽ nhớ cách bạn lắng nghe hơn lời bạn nói. Người độc thân đừng gửi tin nhắn rập khuôn cho nhiều người.",
+  "career": "Chất lượng hôm nay chịu áp lực của thời gian, và bạn dễ chọn đường tắt. Hãy xác định phần nào bắt buộc đạt chuẩn, phần nào tạm chấp nhận được, để sức tập trung đi đúng chỗ. Nếu thấy mình thiếu một kỹ năng cho việc này, hỏi hoặc tra cứu sớm sẽ đỡ hơn giấu đến phút chót. Sinh viên nên đọc lại bài trước khi nộp, dù chỉ lướt qua một lượt.",
+  "finance": "Mua rẻ nhưng chất lượng kém là cái bẫy dễ gặp hôm nay: tiết kiệm trước mắt rồi phải mua lại, tính ra tốn hơn. Cũng nên đọc kỹ điều khoản của một dịch vụ hay gói đăng ký trước khi bấm đồng ý, vì chữ nhỏ hay nằm ở cuối. Với khoản nào dùng lâu, cân nhắc chọn thứ bền hơn thay vì thứ rẻ hơn.",
+  "insight": "Có thể bạn làm ẩu không phải vì lười, mà vì đã quá tải và đang cố giữ cho mọi thứ không dừng lại. Khi đầu óc đầy, đường tắt trông giống một lối thoát hợp lý. Đó là dấu hiệu cần bớt việc hoặc xin thêm thời gian, không phải lý do để tự trách mình thiếu trách nhiệm.",
+  "memorable_message": "Đường tắt luôn có phí, chỉ là thu sau.",
+  "advice": "Chọn đúng một sản phẩm quan trọng nhất hôm nay và dành mười lăm phút soát lại nó, từng dòng, từng con số, trước khi gửi đi. Những việc còn lại cho phép mình ở mức đủ dùng, bạn không cần đẹp hết mọi thứ. Nếu thấy cần, hãy nhắn trước cho người nhận rằng bản này là bản cập nhật chứ chưa phải bản cuối.",
+  "keywords": [
+   "làm ẩu",
+   "quá tải",
+   "soát lại"
+  ]
+ },
+ {
+  "card_id": "three-of-pentacles",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Hôm nay vấn đề không nằm ở thiếu cố gắng, mà ở chỗ chưa chịu học thêm hay nhờ ai đó chỉ giúp.",
+  "card": {
+   "name": "Ba Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 4,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Tự mò mẫm không phải là độc lập, đôi khi chỉ là tốn thời gian.",
+  "card_meaning": "Ở chiều ngược, Ba Tiền đặt câu hỏi về việc học. Hình ảnh người thợ trên bục vẫn đang cố khắc, nhưng bỏ ngoài tai những lời chỉ dẫn từ người đứng dưới. Lá bài nói về một khoảng trống kỹ năng chưa được thừa nhận, hoặc một tinh thần tự mình lo hết nghe có vẻ độc lập nhưng thực ra làm chậm tiến độ. Bóng của lá này là lòng tự trọng đứng chắn trước sự giúp đỡ. Hôm nay nó đáng chú ý vì khoảng cách giữa việc bạn đã làm được và việc bạn cần học thêm thường chỉ cách một câu hỏi.",
+  "forecast": [
+   "Bạn có xu hướng gạt đi một lời góp ý vì nghe hơi đụng chạm, rồi mấy tiếng sau mới thấy trong đó có phần đúng.",
+   "Một việc bạn nghĩ mình làm được có thể lộ ra một khoảng trống kiến thức nhỏ, thường là ở bước mà bạn chưa từng làm bằng tay.",
+   "Có thể bạn muốn tự làm một mình cho nhanh, rồi nhận ra đã mất nhiều thời gian hơn dự tính, nhất là vào quãng đầu giờ chiều."
+  ],
+  "love": "Trong chuyện tình cảm, có thể bạn đang tự xử lý mọi thứ trong đầu thay vì hỏi người kia. Cách một người thể hiện thương yêu đôi khi khác cách bạn mong, như người thì nhắn ít nhưng nhớ rất kỹ, và bạn cần học cách đọc nó. Người đang tìm hiểu nên hỏi thẳng thay vì suy đoán qua cách trả lời tin nhắn. Người độc thân nên tránh mặc định mình đã hiểu rõ kiểu người mình hợp.",
+  "career": "Có thể bạn đang gặp một nhiệm vụ cần kỹ năng mới và chưa muốn nhận mình chưa vững. Thú nhận điều đó với đúng người, như quản lý trực tiếp hay một đồng nghiệp làm lâu hơn, thường mở ra sự giúp đỡ nhanh hơn bạn nghĩ. Một người nhìn qua màn hình của bạn năm phút có thể gỡ được chỗ bạn kẹt hai tiếng. Sinh viên đừng bỏ qua phần cơ bản chỉ vì ngại hỏi lại.",
+  "finance": "Tiền hôm nay có xu hướng hao vì tự làm thứ mình chưa rành, như tự sửa đồ, tự xoay xở giấy tờ hay tự mày mò một công cụ mới rồi mua nhầm. Hỏi người có kinh nghiệm trước khi bắt tay có thể tiết kiệm hơn thử sai. Khoản nào lớn thì xem xét kỹ và đọc thêm nguồn, đừng vội.",
+  "insight": "Có thể lòng tự trọng của bạn đang che cho bạn khỏi cảm giác chưa giỏi. Nhiều người lớn lên với niềm tin rằng hỏi nghĩa là kém, nên tự mò như một cách giữ thể diện. Nhưng cảm giác ngại chỉ kéo dài một lúc, còn việc bị kẹt thì kéo dài lâu hơn, và thường tốn nhiều hơn.",
+  "memorable_message": "Hỏi một câu hôm nay rẻ hơn giả vờ biết cả tuần.",
+  "advice": "Viết ra một kỹ năng bạn đang thiếu cho việc hiện tại, rồi tìm một người, một video hay một tài liệu để lấp nó, tốt nhất là ngay trong buổi chiều hôm nay. Chỉ cần xem mười phút phần liên quan nhất, không cần học hết. Sau đó áp dụng ngay vào việc đang làm. Bạn vẫn giữ quyền quyết định cách làm cuối cùng.",
+  "keywords": [
+   "thiếu kỹ năng",
+   "ngại hỏi",
+   "cần học thêm"
+  ]
+ },
+ {
+  "card_id": "four-of-pentacles",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay tiền bạc vững hơn khi bạn giữ nhịp chi tiêu chặt, miễn là đừng siết đến mức khó thở.",
+  "card": {
+   "name": "Bốn Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 6,
+   "finance": 8,
+   "energy": 6
+  },
+  "headline": "Giữ chặt là một kỹ năng, nhưng nắm quá chặt thì tay cũng mỏi.",
+  "card_meaning": "Bốn Tiền vẽ một người ngồi trên chiếc ghế đá, ôm một đồng xu trước ngực, đội một đồng trên đầu và đặt hai đồng dưới chân, phía sau là bóng thành phố. Anh ta giữ mọi thứ chặt đến mức không còn tay nào rảnh để nhận thêm. Ý nghĩa cốt lõi là sự an toàn vật chất, nền tảng và khả năng kiểm soát những gì mình đã làm ra. Ở chiều xuôi, đó là sức mạnh của người biết giữ nhịp chi tiêu, chưa phải tính toán nhỏ nhen. Hôm nay lá bài đáng chú ý vì nó vừa khen khả năng giữ, vừa hỏi nhẹ giữ để làm gì.",
+  "forecast": [
+   "Bạn có xu hướng rà lại các khoản chi và thấy rõ khoản nào đang rò rỉ, như một gói đăng ký quên huỷ hay một thói quen mua vặt.",
+   "Một món đồ hấp dẫn dễ xuất hiện trên màn hình hoặc trong cửa hàng, và khả năng cao bạn nói không mà không tiếc.",
+   "Có thể bạn muốn ở yên trong vùng quen thuộc hơn là đi đâu đó tốn kém vào buổi tối, và điều đó cũng là một lựa chọn ổn."
+  ],
+  "love": "Tình cảm hôm nay nghiêng về giữ gìn và kín đáo hơn là bộc lộ. Người đang yêu có thể thích những buổi hẹn giản dị ở nhà, một bữa cơm nấu chung hay một bộ phim xem lại, hơn là ra ngoài. Người đang tìm hiểu có xu hướng không muốn đi quá nhanh, nên để mọi thứ tiến theo nhịp của mình. Người độc thân có xu hướng cẩn trọng, cần thời gian quan sát trước khi mở lòng.",
+  "career": "Đây là ngày tốt để củng cố vị trí, giữ quy trình và bảo vệ những gì đã làm được. Bạn dễ chọn phương án an toàn hơn phương án táo bạo, và với hôm nay điều đó hợp lý, nhất là khi dự án đang ở giai đoạn cần ổn định. Rà lại báo cáo cũ hoặc hồ sơ đang giữ là việc đáng làm. Chỉ cần để ý đừng từ chối cơ hội tốt vì thói quen né rủi ro.",
+  "finance": "Đây là phần sáng nhất của ngày. Dòng tiền có xu hướng ổn định, và việc đặt một khoản dự phòng hay cắt bớt chi không cần thiết có khả năng cho bạn cảm giác nhẹ lòng. Có thể chuyển một số tiền nhỏ sang tài khoản riêng để không còn thấy nó mỗi khi mở ví. Giữ ngân sách rõ ràng nhưng chừa một khoản nhỏ cho niềm vui.",
+  "insight": "Có thể sự cẩn thận của bạn không đến từ tính keo kiệt, mà từ một lần cảm thấy mình suýt trắng tay. Ký ức đó có thể đã trở thành một cái chuông báo động chạy ngầm. Biết rõ lý do ấy giúp bạn giữ có chủ đích thay vì giữ theo phản xạ, và giữ có chủ đích thì tay đỡ mỏi hơn nhiều.",
+  "memorable_message": "Két sắt tốt nhất vẫn cần một cánh cửa.",
+  "advice": "Chọn một khoản cố định, dù chỉ vài chục nghìn, để bỏ riêng ngay trong buổi sáng hôm nay, rồi đặt tên cho nó bằng một mục đích cụ thể. Buổi tối, tự thưởng cho mình một thứ nhỏ trong ngân sách, như một ly cà phê ngon. Giữ và hưởng đều là quyền của bạn, miễn là bạn tự cân đối được.",
+  "keywords": [
+   "giữ tiền",
+   "an toàn",
+   "kiểm soát"
+  ]
+ },
+ {
+  "card_id": "four-of-pentacles",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay hợp để bảo vệ thời gian và sức lực của mình, nói không với những gì không thuộc ưu tiên.",
+  "card": {
+   "name": "Bốn Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 6,
+   "finance": 7,
+   "energy": 5
+  },
+  "headline": "Từ chối sớm thì đỡ phải mệt muộn.",
+  "card_meaning": "Nhìn kỹ lá Bốn Tiền sẽ thấy người ngồi như một pháo đài thu nhỏ: ghế đá, áo dày, tay ôm chặt và lưng quay về phía thành phố. Điều lá bài kể là nhu cầu giữ lại cho mình, nhất là thời gian, sức lực và sự riêng tư. Chiều xuôi nhấn vào ranh giới lành mạnh, biết rõ cái gì thuộc về mình và cái gì không. Màu sắc trầm và thế ngồi vững làm lá bài toát lên sự tự chủ hơn là sự lạnh lùng. Hôm nay nó đáng chú ý vì năng lượng nghiêng về nói không đúng lúc để còn đủ sức nói có đúng chỗ.",
+  "forecast": [
+   "Bạn có xu hướng cần một khoảng riêng và dễ thấy phiền khi bị làm gián đoạn, nhất là lúc đang tập trung vào một việc.",
+   "Một lời nhờ vả có thể đến đúng lúc bạn đang bận, và khả năng cao bạn từ chối được một cách nhẹ nhàng.",
+   "Một khoản chi nhỏ có thể khiến bạn ngẫm nghĩ khá lâu trước khi bấm trả, và việc cân nhắc đó không hề vô ích."
+  ],
+  "love": "Bạn có xu hướng giữ khoảng cách vừa đủ, không phải vì lạnh mà vì cần nạp lại pin. Người đang yêu nên nói rõ mình cần một khoảng yên tĩnh, ví dụ một tối ở nhà một mình, để người kia khỏi hiểu lầm là mình bớt thương. Người đang tìm hiểu có thể tạm giãn nhịp nhắn tin mà không cần giải thích dài. Người độc thân dễ cảnh giác với ai tiếp cận quá nhanh.",
+  "career": "Hôm nay hợp để bảo vệ giờ làm sâu của mình: tắt thông báo, từ chối họp không cần thiết, giữ đúng phạm vi việc. Bạn có xu hướng làm việc hiệu quả khi kiểm soát được môi trường quanh mình, như đóng cửa phòng hoặc đeo tai nghe. Hãy đảm bảo vẫn trả lời những tin nhắn thực sự quan trọng. Sinh viên có thể chọn một nơi học yên tĩnh thay vì ngồi chỗ ồn.",
+  "finance": "Tâm lý tiền bạc nghiêng về giữ chặt, và điều này thường hữu ích nếu bạn có khoản cần lo. Rà lại các khoản đăng ký định kỳ hoặc khoản cho vay mượn đang treo có thể làm lòng nhẹ hơn. Với người thân, hãy từ chối rõ ràng khi chưa thấy phù hợp chứ đừng đồng ý trong miễn cưỡng rồi âm thầm khó chịu.",
+  "insight": "Có thể bạn đã cho đi nhiều thời gian và sức lực hơn mức mình dám thừa nhận, nên bây giờ cơ thể và đầu óc tự đòi lại một phần. Giữ lại không làm bạn ích kỷ, nó giúp bạn còn đủ để cho đúng người, vào đúng lúc. Người biết đóng cửa đôi khi mới là người mở cửa thật lòng nhất.",
+  "memorable_message": "Không phải việc gì cũng cần có phần của bạn.",
+  "advice": "Sáng nay, liệt kê ba thứ bạn sẵn sàng bảo vệ, như một buổi tối yên, một giờ làm sâu, một khoản tiền riêng, và một thứ bạn có thể thôi gánh. Khi có người nhờ ngoài danh sách đó, từ chối ngắn gọn, lịch sự, không giải thích dài dòng. Một câu như hôm nay mình chưa sắp xếp được là đủ.",
+  "keywords": [
+   "ranh giới",
+   "tiết kiệm sức",
+   "bảo vệ"
+  ]
+ },
+ {
+  "card_id": "four-of-pentacles",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Năng lượng nghiêng về sự vững tay: có kế hoạch, có mục tiêu, và không để cảm xúc quyết định thay bạn.",
+  "card": {
+   "name": "Bốn Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 5,
+   "career": 6,
+   "finance": 8,
+   "energy": 6
+  },
+  "headline": "Tiết kiệm có mục tiêu khác với tiết kiệm vì sợ.",
+  "card_meaning": "Trong Bốn Tiền, các đồng xu được xếp rất có chủ ý: một trên đầu, một trước ngực, hai dưới chân. Mọi thứ ở đúng chỗ, người ngồi không bị cuốn bởi bất cứ gì xung quanh. Lá bài nói về cấu trúc, kế hoạch và sự kiểm soát có mục tiêu. Chiều xuôi nhấn vào mặt tích cực của nó: một người biết mình đang giữ gì và vì sao, thay vì giữ vì hoảng. Hôm nay lá bài đáng chú ý vì nó mời bạn phân biệt tiết kiệm có đích đến với tiết kiệm chỉ để có cảm giác an toàn.",
+  "forecast": [
+   "Bạn có xu hướng muốn lập hoặc chỉnh lại một kế hoạch cho khoản mình đang nhắm tới, có thể là chuyến đi, món đồ lớn hay quỹ dự phòng.",
+   "Một lời rủ mua chung hay đi chơi chung có thể khiến bạn cân nhắc lại phần mình phải chịu, và bạn nên nói rõ trước khi đồng ý.",
+   "Có thể bạn thấy dễ chịu khi mọi thứ được sắp xếp gọn và đúng chỗ, từ bàn làm việc đến bảng chi tiêu."
+  ],
+  "love": "Tình cảm hôm nay có xu hướng ổn định nhưng hơi khô, vì bạn muốn mọi thứ trong tầm tay. Người đang yêu thử bàn một kế hoạch chung nhỏ, như một chuyến đi cuối tuần, thay vì chỉ lo phần mình. Người đang tìm hiểu nên để ý xem mình đang chờ đối phương đạt đủ tiêu chí hay đang thật sự quan tâm. Người độc thân nên cho một người mới cơ hội dù họ không khớp danh sách tiêu chí.",
+  "career": "Bạn có xu hướng làm việc bài bản, giữ mọi thứ có trật tự, và điều này được người khác tin cậy. Hôm nay hợp để tổng hợp số liệu, lập lịch hoặc soạn quy trình, nhất là những việc cần độ chính xác. Sinh viên có thể lập thời khoá biểu ôn tập cho cả tuần. Để ý đừng soi quá kỹ phần của người khác đến mức họ thấy bị kiểm soát.",
+  "finance": "Hãy gắn khoản tiết kiệm với một mục tiêu cụ thể như quỹ dự phòng hay một món lớn cần mua. Có tên và con số thì bạn có động lực giữ hơn là giữ chung chung. Một dòng ghi chú đơn giản trong điện thoại là đủ, gồm số tiền đích, số đã có và mốc thời gian dự kiến. Đừng quên chừa một ít linh hoạt cho những khoản bất ngờ.",
+  "insight": "Có thể nhu cầu kiểm soát của bạn là cách để đầu óc được nghỉ khỏi sự bất ổn. Khi mọi thứ có tên, có số, có chỗ, bạn bớt phải lo mơ hồ. Chỉ cần nhớ kiểm soát để an tâm, không phải để chứng minh mình không cần ai, vì cả hai có thể trông giống nhau nhưng cảm giác thì rất khác.",
+  "memorable_message": "Số dư đẹp mà không có mục tiêu chỉ là nỗi lo được đánh số.",
+  "advice": "Đặt tên cho một khoản tiền ngay hôm nay, ví dụ cho chuyến đi hay quỹ dự phòng, và ghi số cần đạt cùng một mốc thời gian. Làm trong năm phút, chưa cần hoàn hảo. Rồi chọn một thứ nhỏ để vui trong ngày, vì mục tiêu dài cần một người vẫn còn thấy đời có vị.",
+  "keywords": [
+   "kế hoạch",
+   "kiểm soát",
+   "mục tiêu tiết kiệm"
+  ]
+ },
+ {
+  "card_id": "four-of-pentacles",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Hôm nay nỗi sợ mất đang cầm lái: bạn dễ siết chặt tiền, thời gian hoặc người nhiều hơn mức cần thiết.",
+  "card": {
+   "name": "Bốn Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Nắm càng chặt, càng ít chỗ cho điều mới.",
+  "card_meaning": "Chiều ngược của Bốn Tiền cho thấy người ngồi ôm đồng xu bằng cả hai tay và cả nỗi sợ. Điều lá bài nhấn mạnh không còn là kiểm soát lành mạnh mà là sự bám víu, nỗi lo mất thứ mình đang có. Khi nắm quá chặt, tay không còn rảnh để nhận điều mới, và người xung quanh dễ cảm thấy khoảng cách. Chiều ngược cũng có thể là dấu hiệu cho thấy bạn đang bắt đầu nhận ra mình giữ quá nhiều. Hôm nay đáng chú ý vì cái bạn sợ mất có thể nhỏ hơn cái bạn đang bỏ lỡ.",
+  "forecast": [
+   "Bạn có xu hướng đắn đo quá lâu trước một khoản chi vốn hợp lý, rồi mệt vì chính sự đắn đo đó.",
+   "Một việc cần chia sẻ hoặc nhờ giúp dễ bị bạn giữ lại một mình cho an toàn, dù có người sẵn sàng đỡ một tay.",
+   "Có thể bạn thấy khó chịu khi ai đó lấy đi một chút thời gian hay đồ dùng của mình, dù đó chỉ là chuyện nhỏ."
+  ],
+  "love": "Có thể bạn đang giữ lại cảm xúc, lời quan tâm hoặc sự chủ động vì sợ cho đi mà không được nhận lại. Người kia dễ thấy khoảng cách mà không biết nguyên do, và có thể hiểu thành bạn bớt quan tâm. Người đang yêu hãy thử nói ra một điều tốt về họ mà bạn vẫn để trong lòng. Người độc thân đừng đo người mới bằng thước của một người cũ.",
+  "career": "Bạn có xu hướng giữ thông tin, giữ quyền hay giữ phần việc quen vì sợ mất vị trí. Nhưng chia sẻ đúng chỗ thường khiến bạn trông đáng tin hơn, vì người ta thấy bạn đủ vững để không phải che chắn. Hãy thử chia sẻ một mẹo hoặc một tài liệu cho đồng nghiệp. Chú ý đừng từ chối cơ hội mới chỉ vì nó chưa rõ ràng.",
+  "finance": "Chiều hướng này dễ dẫn đến tiết kiệm tới mức bỏ lỡ những khoản chi cần thiết cho sức khoẻ, công việc hay các mối quan hệ. Hãy phân biệt khoản cần giữ và khoản cần dùng, ví dụ giày tốt cho người đi bộ nhiều hay một bữa ăn đủ chất. Một khoản chi hợp lý cho chất lượng sống không phải là phung phí.",
+  "insight": "Có thể bạn không keo kiệt, bạn đang sợ một cảm giác thiếu hụt mà chưa ai nhìn thấy. Nỗi sợ ấy có thể đã theo bạn từ lâu và trở thành một thói quen đếm tới đếm lui. Nhưng nỗi sợ mất đôi khi làm bạn mất sớm hơn: mất niềm vui, mất cơ hội, mất thiện cảm của người đang muốn gần bạn.",
+  "memorable_message": "Lời tử tế để trong túi lâu quá cũng hết hạn dùng.",
+  "advice": "Chọn một thứ nhỏ để cho đi hoặc chi ra hôm nay mà không tính toán, như mời ai đó một ly nước hoặc nhắn một lời cảm ơn thật lòng. Làm vào quãng giữa ngày, khi bạn còn tỉnh táo. Rồi quan sát xem mình có thật sự thiếu đi không. Câu trả lời thường nhẹ hơn nỗi lo.",
+  "keywords": [
+   "sợ mất",
+   "bám víu",
+   "mở tay"
+  ]
+ },
+ {
+  "card_id": "four-of-pentacles",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Hôm nay có năng lượng buông bớt: dọn đồ, nới tay, thôi giữ những thứ đã hết vai trò. Chỉ cần đừng buông quá tay.",
+  "card": {
+   "name": "Bốn Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 4,
+   "energy": 6
+  },
+  "headline": "Thứ nào đã hết việc thì cho nó nghỉ.",
+  "card_meaning": "Bốn Tiền chiều ngược gợi hình ảnh một người đang từ từ nới tay: những đồng xu rơi khỏi vị trí quen thuộc, chiếc ghế đá không còn là chỗ trú duy nhất. Đây là mặt giải phóng của lá bài, khi những thứ từng cần được giữ đã hết vai trò. Nó cũng có một mặt bóng: nới quá nhanh dễ thành chi tiêu tuỳ hứng hoặc vứt đi thứ còn cần. Bởi vậy lá này vừa là lời mời dọn bớt, vừa là lời nhắc dừng đúng chỗ. Hôm nay đáng chú ý vì năng lượng nghiêng về nhẹ đi, nhưng vẫn cần một cái trần.",
+  "forecast": [
+   "Bạn có xu hướng muốn dọn dẹp, bỏ bớt đồ hay xoá những thứ không còn dùng, như ảnh trùng, file cũ hay quần áo lâu không mặc.",
+   "Một khoản chi hoặc lời mời nhận đồ dễ đến và bạn dễ gật đầu nhanh, nên nên dành vài phút nghĩ trước.",
+   "Có thể bạn nhận ra mình đã giữ một thứ chỉ vì tiếc, không vì cần, và cảm giác nhận ra đó khá nhẹ nhõm."
+  ],
+  "love": "Bạn có xu hướng thoáng hơn trong tình cảm: bớt so đo ai trả nhiều hơn, ai chủ động trước. Người đang yêu có thể vui khi tặng nhau một món quà bất ngờ hoặc một bữa ăn mời không lý do. Người đang tìm hiểu có thể nhận ra mình bớt tính toán và thoải mái hơn. Người độc thân có thể đã sẵn sàng bỏ một kỷ vật hoặc tin nhắn cũ, chỉ cần để ý đừng xoá vội khi còn đang xúc động.",
+  "career": "Hôm nay hợp để bỏ bớt đầu việc không còn đem lại giá trị và giao lại phần người khác làm được. Bạn dễ thấy nhẹ vì không còn phải giữ tất cả trong đầu. Có thể dọn lại hộp thư, danh sách việc hoặc những cuộc họp lặp lại không cần thiết. Chỉ cần xem lại trước khi xoá hẳn thứ gì còn cần cho báo cáo hay đối chiếu.",
+  "finance": "Cảm giác thoáng có thể kéo theo tay chi nhanh, như mua để thưởng mình hay trả hộ người khác. Hãy đặt một mức trần cho hôm nay, vừa đủ rộng để thấy dễ chịu nhưng không làm ví lệch nhịp. Bán hay cho đi đồ không dùng cũng là cách để dòng tiền thở thêm, và đôi khi còn mang về một khoản nhỏ bất ngờ.",
+  "insight": "Có thể lâu nay bạn gắn giá trị bản thân với những gì mình sở hữu, từ đồ dùng, danh sách thành tích đến cả những mối quan hệ cũ. Khi bớt đi một ít, bạn có thể thấy mình vẫn nguyên vẹn, thậm chí rộng chỗ hơn. Đây là kiểu nhẹ nhõm đến từ sự lựa chọn, chưa phải từ sự mất mát.",
+  "memorable_message": "Nhà nhẹ hơn thì đầu cũng nhẹ hơn.",
+  "advice": "Chọn một ngăn kéo, một thư mục hoặc một danh sách đăng ký để dọn trong mười lăm phút, tốt nhất là vào đầu giờ tối khi bạn đã xong việc chính. Cái gì sáu tháng không dùng thì cho đi hoặc bỏ. Cái gì phân vân thì cho vào một hộp riêng và quyết định sau, để không phải tiếc.",
+  "keywords": [
+   "buông bỏ",
+   "dọn dẹp",
+   "nới tay"
+  ]
+ },
+ {
+  "card_id": "four-of-pentacles",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Hôm nay tâm lý thiếu hụt có thể lớn hơn tình hình thật, nên số liệu thật đáng tin hơn cảm giác.",
+  "card": {
+   "name": "Bốn Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Cảm giác không đủ đôi khi to hơn con số thật.",
+  "card_meaning": "Chiều ngược của Bốn Tiền cho thấy một người ôm đồng xu mà tim đập nhanh, dù thành phố phía sau vẫn yên. Lá bài chạm vào tâm lý thiếu hụt: cảm giác không đủ lớn hơn con số thật. Nó là cái bóng của sự an toàn, khi việc kiểm soát biến thành canh chừng và so đo. Ở góc đọc này, vấn đề không nằm ở việc bạn giữ ít hay nhiều, mà ở chỗ nỗi lo đang lái chứ không phải sự thật. Hôm nay đáng chú ý vì khi nhìn vào số liệu thật, nỗi sợ thường nhỏ lại.",
+  "forecast": [
+   "Bạn có xu hướng mở app ngân hàng nhiều lần dù chẳng có gì thay đổi, như một cách tự trấn an.",
+   "Một lời nói về tiền của người khác, như giá nhà, lương hay chuyến đi của bạn bè, dễ làm bạn so sánh và thấy mình thiếu.",
+   "Có thể bạn tính toán từng khoản nhỏ trong khi bỏ qua khoản lớn thực sự cần xem."
+  ],
+  "love": "Cảm giác thiếu hụt có thể len vào cả chuyện yêu: bạn dễ nghĩ mình nhận ít hơn mình cho, rồi âm thầm đếm. Nói ra mong muốn cụ thể, như mình muốn được hỏi thăm vào buổi tối, sẽ tốt hơn đếm trong đầu. Người đang tìm hiểu đừng đo sự quan tâm bằng số tin nhắn. Người độc thân đừng tự nhủ rằng người tử tế đã hết.",
+  "career": "Bạn có xu hướng lo về độ an toàn của công việc hoặc thu nhập, và dễ nhìn mọi đồng nghiệp như đối thủ. Hôm nay hãy tập trung vào những việc làm tăng giá trị của mình, như hoàn thành một đầu việc quan trọng hay học một kỹ năng, thay vì canh chừng người khác. Một cuộc nói chuyện thẳng về vai trò hay lương thưởng có thể hợp nếu bạn chuẩn bị số liệu.",
+  "finance": "Đừng quyết định vì nỗi lo, hãy nhìn bảng thu chi thật của kỳ này. Có thể thực tế ổn hơn cảm giác, hoặc chỉ ra đúng chỗ cần sửa. Hãy chia khoản thành ba nhóm: bắt buộc, linh hoạt, dự phòng. Việc nên tránh là ép mình nhịn mọi thứ chỉ để dịu lo, vì cách đó thường chỉ làm lo tăng lên.",
+  "insight": "Có thể nỗi lo tiền của bạn thật ra là nỗi lo về sự an toàn nói chung, chỉ là tiền dễ đo hơn. Khi cảm giác bất định lan ra, ví tiền thành nơi dễ bấu víu nhất. Khi gọi đúng tên điều mình lo, bạn bớt phải dùng ví để trấn an tâm trạng, và bớt phải mở app kiểm tra liên tục.",
+  "memorable_message": "Tài khoản cho bạn biết bạn có gì, còn cái đầu mới quyết định bạn thấy đủ hay chưa.",
+  "advice": "Dành mười phút ngồi xuống nhìn đúng ba con số: tổng thu, chi cố định và khoản dự phòng. Ghi chúng vào một chỗ để khỏi phải nhớ trong đầu. Nếu vẫn thấy bất an sau đó, hãy nói chuyện với người bạn tin về cảm giác ấy, hoặc với người có hiểu biết về tài chính cá nhân.",
+  "keywords": [
+   "lo thiếu hụt",
+   "so sánh",
+   "nhìn số thật"
+  ]
+ },
+ {
+  "card_id": "five-of-pentacles",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay dễ thấy mình đứng ngoài trời lạnh, trong khi cánh cửa mở được gần hơn bạn nghĩ.",
+  "card": {
+   "name": "Năm Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 3,
+   "love": 4,
+   "career": 4,
+   "finance": 2,
+   "energy": 4
+  },
+  "headline": "Có cánh cửa sáng đèn ngay sau lưng bạn.",
+  "card_meaning": "Năm Tiền vẽ hai người lang thang trong tuyết: một người chống nạng, một người trùm khăn mỏng, đi ngang cửa sổ kính màu của một nhà thờ đang sáng đèn mà không ai ngẩng lên nhìn. Lá bài nói về giai đoạn thiếu thốn, cảm giác bị bỏ ngoài và nỗi bất an về tiền bạc hay sức lực. Chi tiết đáng nhớ nhất là ánh sáng ngay bên cạnh: sự giúp đỡ đôi khi gần hơn ta tưởng, nhưng cái lạnh làm ta nhìn xuống. Hôm nay nó đáng chú ý vì nó chỉ ra khoảng cách giữa cảm giác bị bỏ rơi và việc thật sự còn cửa để gõ.",
+  "forecast": [
+   "Bạn có xu hướng thấy mọi người đều ổn còn mình thì loay hoay, nhất là khi lướt mạng xã hội vào buổi tối.",
+   "Một khoản chi bất ngờ hoặc nỗi lo về tiền có thể làm tinh thần bạn tụt xuống, dù khoản đó không lớn.",
+   "Có thể một lời hỏi han giản dị hôm nay đến từ người bạn không nghĩ tới, như một người bạn cũ, một đồng nghiệp hay một người trong nhà."
+  ],
+  "love": "Cảm giác cô đơn dễ nặng hơn thường lệ, nhất là khi thấy người khác có đôi có cặp. Người đang yêu có thể thấy mình ít được quan tâm, nhưng người kia có thể chưa biết bạn cần gì nếu chưa nghe bạn nói. Người đang tìm hiểu đừng vội kết luận từ một tin nhắn trả lời muộn. Người độc thân nên chọn một cuộc trò chuyện với bạn cũ thay vì lướt mạng.",
+  "career": "Công việc có xu hướng nặng nề, kèm cảm giác thiếu nguồn lực hoặc không ai hỗ trợ. Hôm nay hợp để hỏi trực tiếp về những gì bạn cần, như thêm người, thêm thời gian hay một hướng dẫn rõ hơn, thay vì chờ người ta tự nhận ra. Có thể gửi một tin nhắn ngắn cho quản lý hoặc đồng nghiệp. Sinh viên nên nói với thầy cô hoặc bạn bè về phần mình đang vướng.",
+  "finance": "Tiền bạc là điểm yếu nhất hôm nay, với cảm giác eo hẹp hoặc lo cho giai đoạn sắp tới. Hãy liệt kê khoản bắt buộc trước, rồi xem chỗ nào xin hoãn, xin hỗ trợ hay điều chỉnh được. Một cuộc gọi hỏi về lịch thanh toán thường dễ hơn bạn tưởng. Nhờ giúp đỡ trong chuyện tiền không có gì đáng xấu hổ.",
+  "insight": "Có thể điều đau không chỉ là thiếu thốn mà là cảm giác phải chịu một mình. Khi mệt, người ta hay chọn im lặng vì sợ làm phiền, và sự im lặng đó lại làm nỗi lo to thêm. Nhiều khi bạn đã ngồi ngoài trời lạnh lâu đến mức quên mất mình có quyền gõ cửa. Hôm nay có thể là lúc thử gõ một tiếng thật khẽ.",
+  "memorable_message": "Gõ cửa không làm bạn yếu đi, nó làm đêm ngắn lại.",
+  "advice": "Nhắn cho một người bạn tin, nói thật một câu về điều đang đè nặng, kể cả rất ngắn gọn, ví dụ dạo này mình hơi đuối. Làm ngay khi đọc xong, đừng chờ có thời điểm hoàn hảo. Nếu cảm giác này kéo dài và nặng nề, hãy nói chuyện với người thân hoặc một chuyên gia.",
+  "keywords": [
+   "thiếu thốn",
+   "cô lập",
+   "gõ cửa"
+  ]
+ },
+ {
+  "card_id": "five-of-pentacles",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay mắt bạn dễ chỉ thấy phần còn thiếu, và bỏ sót những gì thật ra vẫn nằm trong tầm với.",
+  "card": {
+   "name": "Năm Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 3,
+   "love": 3,
+   "career": 4,
+   "finance": 3,
+   "energy": 4
+  },
+  "headline": "Khi thiếu thốn lên tiếng, hãy kiểm lại kho.",
+  "card_meaning": "Năm Tiền thường được nhớ qua hình ảnh hai người đi trong bão tuyết, cúi đầu, bước qua khung cửa sổ có năm đồng xu nằm trong ô kính. Lá bài nói về cách thiếu thốn thu hẹp tầm nhìn: khi lạnh, ta chỉ thấy chỗ mình thiếu và quên kiểm kho những gì còn trong tay. Vì thế nó không chỉ nói về nghèo hay mất mát, nó nói về tâm thế khan hiếm. Chiều xuôi nhấn vào nỗi bất an đang hiện diện. Hôm nay lá bài đáng chú ý vì nó mời bạn kiểm lại nguồn lực thật trước khi kết luận.",
+  "forecast": [
+   "Bạn có xu hướng nhìn vào cái mình chưa có nhiều hơn cái mình đã có, nhất là khi vừa nhận một tin không vui.",
+   "Một việc đáng ra đơn giản có thể thành chuyện to vì tâm trạng bất an, nhất là vào quãng sau bữa trưa khi năng lượng tụt.",
+   "Có thể bạn nhớ ra một nguồn hỗ trợ đã quên từ lâu, như người quen, một khoản dự trữ nhỏ hay một dịch vụ còn dùng được."
+  ],
+  "love": "Bất an dễ làm bạn đọc tin nhắn chậm của người kia thành tín hiệu xấu. Hãy hỏi thay vì đoán, bằng một câu nhẹ như hôm nay bạn bận lắm hả. Người đang yêu có thể tự thấy mình thiếu được chú ý trong khi người kia chỉ đang bận. Nếu đang một mình, bạn không kém đi vì thiếu một mối quan hệ, chỉ là hôm nay cảm giác ấy rõ hơn.",
+  "career": "Cảm giác thiếu thời gian, thiếu người, thiếu điều kiện có thể làm bạn kiệt sức sớm. Liệt kê những gì bạn đang có, gồm cả đồng minh, công cụ và kinh nghiệm, rồi chọn một việc khả thi để làm trước. Đừng cố gánh toàn bộ trong một ngày. Sinh viên có thể chọn môn dễ lấy điểm nhất để làm trước, tạo đà cho những môn khó hơn.",
+  "finance": "Khả năng cao bạn thấy ví mình mỏng hơn thực tế khi tâm trạng đi xuống. Hãy mở bảng chi tiêu thật, ghi rõ khoản cần và khoản chờ được, rồi so với số đang có. Tạm dừng các khoản không thiết yếu vài ngày để thở. Việc này không phải là ép mình, mà là dành chỗ cho sự rõ ràng.",
+  "insight": "Có thể bạn quen coi tự lực là điều kiện để được tôn trọng, nên khi khó khăn lại càng thu mình. Cách nghĩ đó từng giúp bạn đứng vững, nhưng lúc này nó có thể che mất những nguồn hỗ trợ sẵn có. Người biết kiểm kê nguồn lực quanh mình, kể cả người, vẫn là người mạnh, và sự mạnh ấy không mất đi khi bạn hỏi một câu.",
+  "memorable_message": "Thiếu thốn thích kể chuyện bằng giọng của sự thật, nên hãy kiểm tra từng câu.",
+  "advice": "Lấy giấy ghi ba thứ bạn đang có và ba người có thể giúp, rồi liên hệ với một người trong số đó trước khi hết buổi chiều. Nếu mọi thứ đang quá nặng, hãy tìm sự hỗ trợ thực tế từ người thật, như người thân, một tổ chức địa phương hay một chuyên gia.",
+  "keywords": [
+   "nhìn lại nguồn lực",
+   "bất an",
+   "tự lực"
+  ]
+ },
+ {
+  "card_id": "five-of-pentacles",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Khó khăn có vẻ riêng của bạn, nhưng rất có thể quanh bạn cũng có người đang lặng lẽ gặp chuyện tương tự.",
+  "card": {
+   "name": "Năm Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 4,
+   "finance": 3,
+   "energy": 4
+  },
+  "headline": "Hai người lạnh ngồi cạnh nhau thì bớt lạnh.",
+  "card_meaning": "Hai nhân vật trong Năm Tiền đi sát nhau giữa trời tuyết, một người dựa vào người kia để bước tiếp. Dù cả hai đều lạnh, họ không đi một mình, và cánh cửa nhà thờ phía sau lưng vẫn ánh đèn ấm. Lá bài nói về giai đoạn khó khăn, nhưng cũng về tình đồng cảnh, thứ mà khi ta khó nhìn thấy thì ta cảm thấy cô lập. Chiều xuôi nhấn vào sự thiếu thốn đang chung cuộc sống với bạn và những người quanh bạn. Hôm nay nó đáng chú ý vì khó khăn thường nhẹ đi khi biết mình không đơn độc.",
+  "forecast": [
+   "Bạn có xu hướng gặp một người bạn hay đồng nghiệp bất ngờ thổ lộ rằng họ cũng đang chật vật, thường là trong lúc nói chuyện riêng sau giờ làm.",
+   "Một câu chuyện về tiền hay công việc có thể làm bạn thấy mình không đơn độc như tưởng.",
+   "Có thể bạn dễ thu mình lại để tránh bị hỏi han, dù thật ra bạn cần được hỏi."
+  ],
+  "love": "Hôm nay tình cảm hợp với sự hiện diện hơn lời hứa: ngồi cạnh nhau, ăn một bữa cơm giản dị, không cần nói nhiều. Người đang yêu có thể chia sẻ gánh lo chung với nhau và thấy nhẹ đi chỉ vì nói ra. Người đang tìm hiểu hãy thử hỏi han một người thật lòng thay vì tìm cách gây ấn tượng. Người độc thân nên để ý tới những người bạn đã lâu không gặp.",
+  "career": "Áp lực kiểu thiếu người, thiếu ngân sách hay thiếu thời gian có xu hướng lan trong nhóm. Một buổi nói thật ngắn giữa những người cùng chịu sẽ ra giải pháp tốt hơn việc ai cũng im lặng gồng. Hãy thử mở lời bằng một câu như mình thấy mọi người đang quá tải, mình bàn xem sao. Sinh viên có thể lập nhóm học để chia bớt gánh.",
+  "finance": "Tài chính còn khá căng, nên ưu tiên cái thiết yếu và tránh chi để xoa dịu tâm trạng. Nếu có khoản cần xin hoãn hoặc xin hỗ trợ, hôm nay là ngày hợp để gọi hỏi, và bạn có thể bất ngờ vì cách người ta đáp lại. Một vài người quanh bạn có thể cũng đang gặp cùng một chuyện, nên bàn nhau cách xoay xở. Hỏi thăm hoàn cảnh của nhau thì không tốn đồng nào.",
+  "insight": "Có thể bạn cho rằng chỉ mình đang lo, vì người khác thường chỉ cho thấy phần đã ổn. Mạng xã hội và những câu hỏi thăm xã giao càng làm ảo giác đó rõ hơn. Khi biết ai cũng có một mùa khó, bạn bớt thấy mình thất bại, và có thêm sức để bước tiếp. Đôi khi chỉ cần nghe một người nói tôi cũng vậy là đủ nhẹ.",
+  "memorable_message": "Khó khăn nói ra thì thành chuyện chung, giữ lại thì thành chuyện xấu hổ.",
+  "advice": "Hỏi thăm một người bạn đúng lúc bạn cũng cần được hỏi, bằng một tin nhắn ngắn như dạo này bạn sao rồi, hoặc nhận lời của ai đó muốn giúp. Bạn không cần giải quyết hết trong hôm nay, chỉ cần không đi một mình. Nếu cảm giác nặng nề kéo dài, hãy tìm đến một chuyên gia.",
+  "keywords": [
+   "đồng cảnh",
+   "không đơn độc",
+   "nương tựa"
+  ]
+ },
+ {
+  "card_id": "five-of-pentacles",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Hôm nay có tín hiệu nhẹ lên: một khe sáng hé ra ở chỗ bạn tưởng chỉ còn tối.",
+  "card": {
+   "name": "Năm Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 7,
+   "finance": 7,
+   "energy": 6
+  },
+  "headline": "Dấu hiệu hồi phục thường nhỏ đến mức dễ bị bỏ qua.",
+  "card_meaning": "Chiều ngược của Năm Tiền là lúc hai người trong tuyết ngẩng đầu lên và thấy ánh đèn từ khung cửa sổ. Họ chưa vào được bên trong ngay, nhưng đã nhìn thấy lối. Lá bài mang sắc thái của hồi phục, những dấu hiệu đầu tiên rằng thời gian lạnh nhất đang đi qua. Dấu hiệu thường rất nhỏ: một khoản nhẹ đi, một lời hỏi han, một ý tưởng xoay xở mới. Hôm nay đáng chú ý vì loại tín hiệu này dễ bị bỏ qua nếu bạn đang chờ một thay đổi lớn.",
+  "forecast": [
+   "Bạn có xu hướng nhận ra một khoản lo đã nhẹ hơn so với tuần trước, dù chưa được giải quyết hoàn toàn.",
+   "Một tin nhắn, cuộc gọi hoặc lời đề nghị có thể mở ra một đường xoay xở mới, thường đến vào quãng giữa ngày.",
+   "Có thể bạn bắt đầu thấy vấn đề lớn thật ra chia nhỏ ra là xử lý được, từng phần một."
+  ],
+  "love": "Cảm xúc dịu lại, và bạn có xu hướng cởi mở hơn với người xung quanh. Người đang yêu có thể gỡ một căng thẳng lặt vặt bằng một cuộc nói chuyện thẳng, không cần to tiếng. Người đang tìm hiểu có thể thấy nhẹ hơn khi bớt lo mình không đủ tốt. Người độc thân dễ để ý tới người từng tử tế với mình lúc khó khăn.",
+  "career": "Một việc từng bị đình trệ có thể bắt đầu có tín hiệu chuyển động, như lời hồi âm hoặc cơ hội làm thêm. Hãy đón lấy tín hiệu nhỏ đó thay vì chờ tín hiệu lớn, bằng cách trả lời sớm và nói rõ mình có thể làm gì. Sinh viên có thể thấy môn khó dần quen sau một buổi hỏi bài đúng người. Đà tốt cần được giữ bằng những bước đều đặn.",
+  "finance": "Dòng tiền có xu hướng dần ổn lại, hoặc ít nhất bạn đã thấy rõ mình đang đứng ở đâu. Hôm nay hợp để lập kế hoạch trả dần hoặc cân lại các khoản ưu tiên. Giữ kỷ luật nhỏ vài tuần có khả năng tạo khác biệt rõ rệt. Chưa cần quyết định lớn, chỉ cần một bảng thu chi gọn gàng và một mức dự phòng nhỏ.",
+  "insight": "Có thể bạn quen chờ một cú xoay chuyển lớn nên bỏ qua những bước nhích nhỏ đang diễn ra. Sau giai đoạn khó, đầu óc thường mãi canh chừng tin xấu và quên đếm tin tốt. Hồi phục thường giống bình minh hơn là công tắc: sáng dần, không bật lên, nên bạn cần nhìn kỹ mới thấy, và nên cho phép mình tin vào những tín hiệu nhỏ ấy.",
+  "memorable_message": "Trời không sáng bằng tiếng nổ, trời sáng bằng từng chút một.",
+  "advice": "Ghi lại ba dấu hiệu tốt lên dù nhỏ nhất trong tuần qua, như một cuộc gọi, một khoản đã trả hay một đêm ngủ ngon hơn, rồi dựa vào đó làm tiếp một bước. Làm vào buổi tối khi mọi việc đã xong, kể cả khi danh sách chỉ có vài dòng. Nếu còn đang kiệt sức, cứ đi chậm, vẫn tính là đi.",
+  "keywords": [
+   "hồi phục",
+   "tín hiệu nhỏ",
+   "hy vọng"
+  ]
+ },
+ {
+  "card_id": "five-of-pentacles",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Hôm nay hợp để nhận sự giúp đỡ mà trước giờ bạn ngại nhận, vì lần này nó đến đúng lúc.",
+  "card": {
+   "name": "Năm Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 7,
+   "finance": 6,
+   "energy": 6
+  },
+  "headline": "Được giúp không có nghĩa là nợ ai cả đời.",
+  "card_meaning": "Trong chiều ngược của Năm Tiền, cánh cửa nhà thờ không còn là thứ xa vời mà đã hé mở, có ai đó đang đứng sau ánh đèn. Lá bài nói về việc nhận sự giúp đỡ: đối diện với lòng tự trọng, ngại làm phiền và cảm giác nợ ân tình. Chiều ngược ở đây là một năng lượng đang được giải phóng, khi bạn ngưng gồng và bắt đầu cho phép người khác đồng hành. Nó không phải phép màu, chỉ là một lời mời có thật. Hôm nay đáng chú ý vì sự hỗ trợ có thể đến đúng lúc bạn chịu mở tay đón.",
+  "forecast": [
+   "Một người quen có thể chủ động hỏi bạn cần gì, và bạn có xu hướng thật sự trả lời thay vì nói không sao.",
+   "Một nguồn hỗ trợ, như giảm phí, giãn lịch thanh toán hay một công việc nhỏ, có thể xuất hiện qua người quen.",
+   "Bạn dễ thấy thoải mái khi nói thẳng chuyện mình từng giấu, nhất là với người đã từng ở vị trí tương tự."
+  ],
+  "love": "Sự quan tâm ân cần của ai đó có thể làm bạn xúc động hơn dự kiến, như một tin nhắn hỏi thăm giữa ngày hay một bữa cơm được chuẩn bị sẵn. Hãy để người kia thấy phần mềm yếu của bạn, họ thường trân trọng điều đó. Người đang tìm hiểu có thể nhận ra ai thực sự để ý đến mình. Người độc thân có thể thấy rung động nhẹ với người hay quan tâm một cách lặng lẽ.",
+  "career": "Một đồng nghiệp, người hướng dẫn hay mối quan hệ cũ có thể giúp gỡ một nút thắt trong việc đang làm. Khả năng cao bạn thoát khỏi cảm giác bị bỏ rơi khi chịu hỏi nhờ cụ thể, như xin xem giúp một đoạn hay chỉ cách làm một bước. Đừng quên cảm ơn rõ ràng, vì quan hệ sẽ bền hơn. Sinh viên có thể xin tài liệu hoặc ghi chú từ người học cùng.",
+  "finance": "Có xu hướng xuất hiện một lối đi thực tế để giảm áp lực, như thương lượng lịch thanh toán hoặc nhận thêm việc ngắn hạn. Hãy hỏi rõ điều kiện trước khi nhận để khỏi vướng thêm. Chuyện tiền nên nói bằng con số, không bằng sự ngại ngùng, và một tin nhắn ngắn gọn thường đủ để mở đầu.",
+  "insight": "Có thể bạn không ngại nhận giúp đỡ, mà ngại cảm giác mình là gánh nặng. Nhiều người đã quen đóng vai người giúp, nên khi cần đến lại thấy lạ lẫm. Thực tế nhiều người thấy vui khi được góp tay đúng lúc, và sự trao nhận đó làm quan hệ gần hơn chứ không làm bạn kém đi.",
+  "memorable_message": "Cái ghế người ta kéo ra cho bạn không cần bạn chứng minh mình xứng đáng.",
+  "advice": "Nhận lời một sự hỗ trợ nhỏ hôm nay, thay vì từ chối theo phản xạ, và nói câu cảm ơn rõ ràng ngay khi nhận. Nếu cần giúp mà chưa ai hỏi, hãy là người mở lời trước vào quãng buổi sáng, bằng một câu ngắn như bạn có thể giúp mình việc này không. Bạn vẫn quyết định mức độ nhận.",
+  "keywords": [
+   "nhận giúp đỡ",
+   "nguồn hỗ trợ",
+   "nhẹ gánh"
+  ]
+ },
+ {
+  "card_id": "five-of-pentacles",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Hôm nay hy vọng trở lại dưới dạng việc làm được: một kế hoạch nhỏ, một thói quen mới, một bước vững hơn.",
+  "card": {
+   "name": "Năm Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 6,
+   "career": 7,
+   "finance": 6,
+   "energy": 6
+  },
+  "headline": "Hy vọng bắt đầu có hình dạng khi nó có việc để làm.",
+  "card_meaning": "Chiều ngược của Năm Tiền kể câu chuyện về điều xảy ra sau mùa lạnh: hai người bước qua cửa, ngồi xuống nơi có hơi ấm và bắt đầu tính xem làm sao để không rơi vào cảnh cũ. Hy vọng ở đây không phải cảm giác mơ hồ mà là việc làm được, như sắp xếp lại, học một cách mới, giữ một thói quen. Lá bài mang sắc thái trưởng thành sau khó khăn. Nó cũng nhắc rằng nhẹ nhõm và dè dặt có thể cùng tồn tại. Hôm nay đáng chú ý vì năng lượng nghiêng về việc biến bài học thành hành động.",
+  "forecast": [
+   "Bạn có xu hướng muốn sắp xếp lại mọi thứ sau giai đoạn chật vật vừa qua, từ bàn làm việc đến danh sách việc cần làm.",
+   "Một bài học từ lúc khó khăn có thể quay lại và giúp bạn xử lý vấn đề hiện tại tốt hơn, nhất là khi bạn đang phân vân giữa hai lựa chọn.",
+   "Có thể bạn muốn giúp lại một người đang cần, dù chỉ bằng một lời khuyên hay một tin nhắn hỏi han."
+  ],
+  "love": "Sau thời gian căng thẳng, bạn có thể có thêm sự bình tĩnh để lắng nghe người thương. Nói lời cảm ơn vì những lúc họ ở lại là điều hợp với hôm nay, và nó nặng ký hơn một món quà. Người đang tìm hiểu nên để ý ai kiên nhẫn đi cùng mình qua lúc khó. Người độc thân có xu hướng chọn người tử tế hơn là người nổi bật.",
+  "career": "Hôm nay hợp để dựng lại nhịp làm việc: sắp xếp ưu tiên, đặt một mục tiêu nhỏ cho tuần và tìm kiếm cơ hội mới. Bạn có xu hướng trở nên thực tế và tỉnh táo hơn, biết việc nào đáng đầu tư sức. Nếu từng bị chững lại, đây là lúc viết ra một kế hoạch ngắn với những mốc vừa tầm. Sinh viên có thể lập kế hoạch ôn từng chặng thay vì lo cả núi.",
+  "finance": "Bạn có xu hướng học được từ giai đoạn eo hẹp và làm chủ ngân sách tốt hơn. Hãy giữ thói quen ghi chi tiêu và để dành một khoản nhỏ đều đặn, dù chỉ là chút ít mỗi lần có thu nhập. Đừng thưởng quá tay cho mình ngay khi vừa nhẹ nhõm, vì phần thưởng vừa đủ sẽ bền hơn.",
+  "insight": "Có thể bạn đang vừa nhẹ nhõm vừa sợ lặp lại, nên thở phào cũng thấy dè dặt. Hai cảm xúc cùng tồn tại là bình thường, và chúng làm bạn cẩn thận hơn chứ không làm bạn yếu. Có thể sau những gì đã qua, bạn hiểu rõ hơn đâu là điều thực sự cần giữ và đâu là điều chỉ giữ theo thói quen.",
+  "memorable_message": "Bạn đã học được những điều mà mùa dễ dàng không dạy.",
+  "advice": "Viết một quy tắc nhỏ rút ra từ giai đoạn vừa rồi, ví dụ luôn để lại một khoản dự phòng hoặc hỏi sớm khi gặp khó, và đặt nó ở nơi bạn nhìn thấy mỗi ngày. Làm trong năm phút vào buổi tối. Rồi làm một việc tử tế cho ai đó, hoặc cho chính mình.",
+  "keywords": [
+   "hy vọng trở lại",
+   "bài học",
+   "dựng lại nhịp"
+  ]
+ }
+]

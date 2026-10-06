@@ -60,7 +60,7 @@ mỗi mục trong DANH SÁCH VIỆC là một lượt, đầu vào chính là c�
    nhau (chênh tối đa 1) vì chúng mô tả cùng một lá — hệ thống sẽ chuẩn hoá về trung vị.
 5. Chữ thuần: không markdown, không dùng các ký tự * # _ \` [ ] trong nội dung.
 6. Chỉ dùng các từ khoá được cung cấp làm điểm tựa, không bịa ý nghĩa trái với lá bài.
-7. Mỗi đoạn (love, career, finance, insight, advice) tối đa 3 câu. Tổng nội dung 250–350 từ.
+7. Mỗi đoạn (love, career, finance, insight, advice) tối đa 5 câu. Tổng nội dung 550–700 từ. Có thêm trường "card_meaning" (4–6 câu).
 8. Mỗi lá có 2 chiều: viết chiều ngược như một góc đọc riêng (bóng của lá, năng lượng bị chặn, hướng vào trong…),
    không mặc định là "xấu".
 

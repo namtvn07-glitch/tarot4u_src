@@ -62,6 +62,11 @@ export const ThreeCardResultView: React.FC<ThreeCardResultViewProps> = ({ result
             )}
           </ul>
           <p className="text-sm leading-relaxed sm:text-base">{result.overall_story}</p>
+          {result.pattern_note && (
+            <p className="mt-3 rounded-lg border border-[#3d3123] bg-[#201912] px-3 py-2 text-sm leading-relaxed text-[#b3a48d]">
+              {result.pattern_note}
+            </p>
+          )}
           {result.energy_weight && (
             <p className="mt-2 text-xs italic leading-relaxed text-[#7a6e5d]">{result.energy_weight}</p>
           )}

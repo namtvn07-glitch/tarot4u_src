@@ -37,6 +37,7 @@ export function allText(content: DailyContent): string {
   return [
     content.summary,
     content.headline,
+    content.card_meaning ?? "",
     ...content.forecast,
     content.love,
     content.career,
@@ -68,9 +69,14 @@ export function lintDailyContent(
     errors.push(`card.orientation="${content.card.orientation}" lệch với ${expected.orientation}`);
   }
 
-  if (content.forecast.length < 2 || content.forecast.length > 3) {
-    errors.push(`forecast có ${content.forecast.length} mục (cần 2–3)`);
+  if (content.forecast.length !== 3) {
+    errors.push(`forecast có ${content.forecast.length} mục (cần đúng 3)`);
   }
+  const meaningWords = wordCount(content.card_meaning ?? "");
+  if (meaningWords === 0) errors.push("thiếu card_meaning");
+  else if (meaningWords < 60 || meaningWords > 160) errors.push(`card_meaning ${meaningWords} từ (cần ~90–120, ngưỡng cứng 60–160)`);
+  else if (meaningWords < 85 || meaningWords > 130) warnings.push(`card_meaning ${meaningWords} từ (khuyến nghị 90–120)`);
+  if (sentenceCount(content.card_meaning ?? "") > 6) errors.push("card_meaning quá 6 câu");
   if (content.keywords.length < 3) errors.push(`keywords chỉ có ${content.keywords.length} (cần ≥ 3)`);
 
   const summaryWords = wordCount(content.summary);
@@ -80,12 +86,13 @@ export function lintDailyContent(
   if (!content.headline.trim()) errors.push("headline rỗng");
 
   const words = wordCount(allText(content));
-  if (words < 200 || words > 420) errors.push(`tổng ${words} từ (cần ~250–350, ngưỡng cứng 200–420)`);
-  else if (words < 250 || words > 350) warnings.push(`tổng ${words} từ (khuyến nghị 250–350)`);
+  if (words < 450 || words > 820) errors.push(`tổng ${words} từ (cần ~550–700, ngưỡng cứng 450–820)`);
+  else if (words < 530 || words > 730) warnings.push(`tổng ${words} từ (khuyến nghị 550–700)`);
 
   for (const field of TEXT_FIELDS) {
     const count = sentenceCount(content[field]);
-    if (count > 3) errors.push(`${field} có ${count} câu (tối đa 3 câu mỗi đoạn)`);
+    if (count > 5) errors.push(`${field} có ${count} câu (tối đa 5 câu mỗi đoạn)`);
+    else if (count < 2) warnings.push(`${field} chỉ có ${count} câu (khuyến nghị 3–5)`);
     if (!content[field].trim()) errors.push(`${field} rỗng`);
   }
 

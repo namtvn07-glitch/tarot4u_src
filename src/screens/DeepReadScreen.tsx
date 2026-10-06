@@ -270,6 +270,9 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
   // sẽ tạo thêm 1 dòng lịch sử trùng lặp, nên nút phải giữ nguyên trạng thái
   // "đã lưu" cho tới khi bắt đầu phiên mới.
   const [isSaved, setIsSaved] = useState(false);
+  // Báo "đã lưu" sau khi tự mở bộ bài mới — lúc đó màn kết quả đã biến mất nên
+  // nút "Đã Lưu ✓" không còn để người dùng thấy.
+  const [justSaved, setJustSaved] = useState(false);
   const [copiedSuccess, setCopiedSuccess] = useState(false);
   const [drawToken, setDrawToken] = useState<string | null>(null);
   const [errorMessage, setErrorMessage] = useState<string>("");
@@ -1001,8 +1004,18 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
       result: result ?? undefined,
     };
     onSaveReading(newReading);
-    setIsSaved(true);
+    // Lưu xong thì mở luôn một bộ bài mới: bài vừa rồi đã nằm trong Lịch sử, và
+    // người dùng muốn trải tiếp thay vì nhìn lại màn kết quả cũ.
+    resetSession();
+    setJustSaved(true);
+    if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  useEffect(() => {
+    if (!justSaved) return;
+    const timer = setTimeout(() => setJustSaved(false), 6000);
+    return () => clearTimeout(timer);
+  }, [justSaved]);
 
   const handleShare = () => {
     if (typeof navigator !== "undefined" && navigator.clipboard) {
@@ -1047,6 +1060,15 @@ export const DeepReadScreen: React.FC<DeepReadScreenProps> = ({
           ← Quay lại Trang Chủ
         </button>
       </div>
+
+      {justSaved && (
+        <p
+          role="status"
+          className="w-full max-w-2xl mb-6 rounded-xl border border-[#d4af37]/40 bg-[#1c1611] px-4 py-3 text-center text-sm text-[#f5e6a3]"
+        >
+          Đã lưu phiên trải bài vào Lịch sử. Bộ bài mới đã sẵn sàng.
+        </p>
+      )}
 
       <UnsavedDeepSessionModal
         isOpen={showExitConfirm}

@@ -1,0 +1,650 @@
+[
+ {
+  "card_id": "seven-of-cups",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay lựa chọn nhiều đến mức dễ đứng yên: bạn cần một tiêu chí để chọn, không cần thêm một phương án.",
+  "card": {
+   "name": "Bảy Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 4,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Thực đơn càng dài, bạn càng đói lâu.",
+  "card_meaning": "Bảy Cốc vẽ một bóng người nhìn từ phía sau, đứng trước bảy chiếc cốc lơ lửng trên mây. Mỗi cốc chứa một thứ hấp dẫn riêng như lâu đài, châu báu hay vòng nguyệt quế. Cốc thuộc về cảm xúc, còn số 7 thường là đoạn dừng chân để cân nhắc trước khi đi tiếp. Ở chiều xuôi, lá bài nói về cảnh dư khả năng mà thiếu một lựa chọn cụ thể, nơi tưởng tượng chạy trước hành động. Nó đáng chú ý hôm nay vì khi cửa nào cũng mở, ta rất dễ đứng giữa hành lang mà tưởng mình đang tiến.",
+  "forecast": [
+   "Bạn có xu hướng mở thêm tab, thêm danh sách, thêm ý kiến bạn bè mà vẫn chưa chốt được điều gì, nhất là vào buổi sáng khi đầu óc còn nhiều khoảng trống.",
+   "Một lời đề nghị nghe hấp dẫn dễ xuất hiện, và năng lượng nghiêng về việc muốn giữ cửa mở với cả ba bốn hướng cùng lúc.",
+   "Có thể đến cuối ngày bạn nhận ra mình đã bận suy nghĩ nhiều hơn bận làm, dù cảm giác lúc nào cũng thấy mình rất bận."
+  ],
+  "love": "Người độc thân dễ để mắt tới nhiều người cùng lúc, như hai ba cuộc trò chuyện song song trên điện thoại, nhưng chưa ai được dành đủ thời gian để hiểu thật. Đang tìm hiểu ai đó thì tín hiệu dễ bị đọc theo hướng mình mong thay vì hướng thật, nên hãy ghi nhận hành động hơn là lời nói. Đang yêu thì thử hỏi thẳng một điều bạn vẫn đoán mò bấy lâu, câu trả lời thường nhỏ hơn nỗi lo.",
+  "career": "Bạn có nhiều ý tưởng và đầu việc hấp dẫn cùng lúc, nhưng sức tập trung bị chia nhỏ nên tiến độ chậm hơn mong đợi. Thử chọn một việc quan trọng nhất, làm xong phần đầu của nó rồi mới liếc sang việc khác. Sinh viên dễ học chủ đề này một chút, chủ đề kia một chút rồi cuối buổi chẳng nhớ gì. Một danh sách ba việc có thứ tự sẽ hiệu quả hơn một danh sách mười việc ngang hàng.",
+  "finance": "Dòng tiền ở mức bình thường, nhưng nhiều thứ đáng muốn có thể khiến bạn so sánh mãi không quyết, hoặc mua cả hai cho khỏi tiếc. Với món đang cân nhắc, hãy ghi ra điều bạn thật sự cần ở nó trước khi bấm mua. Nếu sau năm phút vẫn không viết nổi một dòng thì có thể đó chỉ là ham muốn nhất thời.",
+  "insight": "Có thể bạn không thiếu lựa chọn tốt, mà đang ngại rằng chọn một thứ nghĩa là phải chia tay những thứ còn lại. Giữ mọi cửa mở nghe có vẻ an toàn, nhưng nó cũng là cách chậm rãi để chẳng đi đâu. Đôi khi thứ ta thật sự sợ không phải chọn sai, mà là mất đi cái cảm giác mình còn vô vàn khả năng.",
+  "memorable_message": "Cửa nào cũng để ngỏ thì cuối cùng bạn đứng giữa một hành lang gió lùa.",
+  "advice": "Viết ra tối đa ba lựa chọn đang làm bạn phân vân, gạch bỏ hai cái ngay trong buổi sáng và làm thử cái còn lại trong một tuần. Gạch bằng một tiêu chí rõ, ví dụ cái nào bạn sẵn sàng bắt đầu ngay hôm nay. Bạn vẫn có quyền đổi ý, chỉ là đổi sau khi đã thử.",
+  "keywords": [
+   "nhiều lựa chọn",
+   "phân tán",
+   "cần tiêu chí"
+  ]
+ },
+ {
+  "card_id": "seven-of-cups",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Trí tưởng tượng hôm nay chạy nhanh hơn thực tế: cứ tận hưởng giấc mơ, nhưng nhớ đối chiếu với dữ kiện.",
+  "card": {
+   "name": "Bảy Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 4,
+   "finance": 4,
+   "energy": 6
+  },
+  "headline": "Cốc nào cũng lấp lánh cho tới khi bạn cầm lên.",
+  "card_meaning": "Trong Bảy Cốc, những chiếc cốc không đặt trên bàn mà nổi giữa các đám mây, giống như những hình ảnh hiện ra trong một giấc mơ ban ngày. Có cốc chứa con rồng, có cốc chứa ngôi nhà đẹp, có cốc chứa một gương mặt phủ khăn bí ẩn. Điều lá bài muốn nhắc là hình dung và thực tế là hai chuyện khác nhau, dù cả hai đều thật theo cách của chúng. Ở chiều xuôi, trí tưởng tượng đang ở đỉnh sáng tạo, nhưng cũng dễ trượt thành ảo tưởng. Hôm nay đáng chú ý vì bạn có thể vừa có ý tưởng hay vừa có kỳ vọng hơi quá tay.",
+  "forecast": [
+   "Bạn có xu hướng vẽ ra một kịch bản rất đẹp cho một người hoặc một dự định, rồi tin vào nó nhanh hơn thường lệ, nhất là khi rảnh tay giữa các việc.",
+   "Một lời hứa hay lời khen nghe ngọt dễ xuất hiện, và năng lượng nghiêng về việc bỏ qua phần còn thiếu trong câu chuyện.",
+   "Có thể bạn bắt gặp mình ngẩn người nhìn ra cửa sổ giữa lúc đang làm dở một việc, và những ý tưởng hay nhất lại đến đúng lúc đó."
+  ],
+  "love": "Người độc thân dễ gán cho ai đó hình ảnh hoàn hảo chỉ từ vài tin nhắn hoặc một ánh nhìn thoáng qua ở quán quen. Đang tìm hiểu thì hãy để ý hành động nhiều hơn lời nói, chẳng hạn người ta có giữ đúng hẹn nhỏ hay không. Đang yêu thì có thể bạn đang đặt người thật cạnh phiên bản trong đầu mình, và người thật tự nhiên thua trong cuộc so sánh đó.",
+  "career": "Ý tưởng bay bổng rất nhiều, và đó là vốn quý cho các việc sáng tạo hay lên concept, nên đừng vội tự dập chúng. Điều còn thiếu là bước biến ý tưởng thành ba việc cụ thể có hạn chót. Nếu đang chờ một lời xác nhận từ cấp trên hay đối tác, đừng dựng kế hoạch lên nó khi chưa có gì viết ra giấy. Với sinh viên, hôm nay hợp để phác dàn ý hơn là chốt bài hoàn chỉnh.",
+  "finance": "Cảm giác dễ chịu về tiền có thể mới chỉ là cảm giác, chưa phải số dư. Hãy mở ứng dụng ngân hàng và nhìn con số thật trước khi mơ về một khoản chi lớn hay một cách kiếm tiền nghe quá dễ. Khoản nào bạn đang tính dựa trên tiền chưa về thì nên coi như chưa có.",
+  "insight": "Có thể bạn không ngây thơ, bạn chỉ đang rất cần một điều gì đó để mong chờ. Giấc mơ không có lỗi, lỗi chỉ xuất hiện khi ta để nó thay chỗ cho việc nhìn vào thực tế. Khi hình dung mãi mà chưa động tay, đó đôi khi là cách bản thân né nỗi lo rằng hiện thực sẽ kém đẹp hơn tưởng tượng.",
+  "memorable_message": "Bản phác thảo trong đầu luôn đẹp hơn bản vẽ ngoài đời, vì nó chưa phải chịu trọng lực.",
+  "advice": "Với bất kỳ điều gì hấp dẫn xuất hiện hôm nay, hãy dừng lại và hỏi một câu: bằng chứng ngoài cảm giác của mình là gì? Ghi câu trả lời vào ghi chú điện thoại, nếu không có thì ghi chữ chưa có. Mơ vẫn được, chỉ cần một chân chạm đất.",
+  "keywords": [
+   "mơ mộng",
+   "kịch bản đẹp",
+   "đối chiếu thực tế"
+  ]
+ },
+ {
+  "card_id": "seven-of-cups",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Hôm nay bạn dễ yêu tiềm năng hơn là yêu việc thật: hãy chọn một thứ để bắt đầu thay vì thích cả bảy.",
+  "card": {
+   "name": "Bảy Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 4,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Tiềm năng dễ được yêu vì nó chưa bao giờ làm ai thất vọng.",
+  "card_meaning": "Mỗi chiếc cốc trong Bảy Cốc đều chứa một lời hứa chứ chưa phải một thành quả. Người đứng đó mới chỉ ngắm, chưa cầm lên, nên chưa cốc nào có cơ hội làm anh thất vọng. Bộ Cốc nói về cảm xúc và ước muốn, vì vậy lá này gần với cảm giác hào hứng khi mới nghĩ đến một khả năng. Ở chiều xuôi, nó chỉ ra khoảng cách giữa thích điều mình có thể làm và thật sự làm một điều. Hôm nay bạn đáng để ý lá này vì niềm hào hứng dễ bị tiêu hết vào việc nghĩ thay vì vào việc bắt đầu.",
+  "forecast": [
+   "Một ý tưởng mới hấp dẫn có xu hướng chen ngang giữa lúc bạn đang làm dở một việc khác, thường vào buổi chiều khi sức tập trung bắt đầu chùng xuống.",
+   "Bạn dễ hứa với bản thân sẽ bắt đầu từ ngày mai, kể cả chuyện nhỏ như tập thể dục hay dọn bàn làm việc.",
+   "Có thể ai đó hỏi bạn muốn gì thật sự, và bạn thấy khó trả lời gọn hơn mình nghĩ."
+  ],
+  "love": "Bạn có thể thích ý tưởng về một mối quan hệ hơn là bỏ công làm quen thật, vì ý tưởng thì chưa bao giờ nhắn trả lời chậm. Người độc thân hãy thử nhắn một tin cho người mình để ý từ lâu thay vì lướt thêm hồ sơ mới. Người đang yêu nên nói rõ mình muốn gì cho tuần này, dù chỉ là chuyện nhỏ như một buổi tối không điện thoại.",
+  "career": "Danh sách việc dài ra, nhưng phần đã hoàn tất lại ngắn đi vì bạn bị cuốn sang cái mới. Hãy chọn một dự án dang dở và đóng nó lại hôm nay, kể cả khi kết quả chỉ ở mức đủ dùng. Việc xong mà chưa đẹp vẫn đáng giá hơn việc đẹp mà mãi đang làm. Sinh viên thử nộp bản nháp sớm để nhận góp ý thay vì chờ bản hoàn hảo.",
+  "finance": "Dễ có hứng với nhiều khoản chi cho sở thích mới như khóa học, dụng cụ hay gói đăng ký. Trước khi sắm thêm, hãy kiểm tra xem món cũ cùng loại đã dùng hết chưa. Nếu trong nhà đã có hai thứ bỏ dở, món thứ ba khó là câu trả lời, nó chỉ là cảm xúc mới. Chờ đến cuối tuần rồi hãy quyết cũng chẳng thiệt gì.",
+  "insight": "Có thể bạn đang yêu cảm giác mọi thứ vẫn còn khả năng. Chọn một hướng đồng nghĩa với việc chấp nhận mình có thể làm chưa tốt, và đó mới là điều đang làm bạn chùn chân. Tiềm năng thì luôn hoàn hảo, còn việc thật thì luôn có chỗ vụng, và phần vụng ấy chính là nơi ta bắt đầu giỏi lên.",
+  "memorable_message": "Bảy khả năng chưa thử luôn trông đẹp hơn một kết quả đã làm.",
+  "advice": "Chọn một việc, đặt đồng hồ 25 phút và làm nó trước khi mở bất cứ thứ gì mới. Đặt điện thoại úp xuống bàn, chỉ để lại thứ cần dùng cho việc đó. Những ý tưởng kia cứ để trong sổ, chúng không chạy đi đâu cả. Làm xong, hãy tự thưởng bằng một phút nhìn lại điều vừa hoàn thành.",
+  "keywords": [
+   "tiềm năng",
+   "ham cái mới",
+   "chọn một việc"
+  ]
+ },
+ {
+  "card_id": "seven-of-cups",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Sương mù đang tan: hôm nay bạn nhìn rõ lựa chọn nào có thật và đủ sức gạt phần còn lại sang bên.",
+  "card": {
+   "name": "Bảy Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 7,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Bỏ bớt cốc đi, tay bạn mới rảnh.",
+  "card_meaning": "Khi Bảy Cốc xuất hiện ngược, những chiếc cốc trên mây như bị gió thổi tan bớt, để lại ít khả năng hơn nhưng thật hơn. Đây là lá của khoảnh khắc nhìn lại chính mình và nhận ra điều gì đáng giữ, điều gì chỉ đẹp trên giấy. Thay vì bị choáng ngợp, người đọc có thể dám nói không với những phương án mơ hồ. Chiều ngược ở đây không phải thất bại mà là sự dọn dẹp cần thiết trong đầu. Hôm nay đáng chú ý vì năng lượng quyết đoán đang quay lại, và đó là cơ hội hiếm để chốt một việc treo lâu.",
+  "forecast": [
+   "Bạn có xu hướng ra một quyết định mà tuần trước còn lần chần, và thấy nhẹ người hơn dự đoán ngay sau khi bấm nút.",
+   "Một phương án nghe hay nhưng thiếu chi tiết dễ bị bạn gạt đi nhanh, năng lượng nghiêng về việc hỏi thẳng vào số liệu và mốc thời gian.",
+   "Có thể một người bạn nhận xét rằng hôm nay bạn nói chuyện gọn và dứt khoát hơn thường lệ, nhất là trong những cuộc trao đổi buổi chiều."
+  ],
+  "love": "Người độc thân dễ nhận ra mình thật sự không hợp kiểu người nào, và việc loại bớt giúp bạn bớt mệt khi làm quen. Đang tìm hiểu thì có khả năng bạn muốn biết rõ đối phương nghĩ gì thay vì ngồi đoán qua từng dòng tin. Đang yêu thì một cuộc nói chuyện thẳng thắn có thể gỡ điều treo từ lâu, miễn là bạn chọn lúc cả hai đang bình tĩnh.",
+  "career": "Tập trung hồi lại, nên bạn dễ chọn được thứ tự ưu tiên rõ ràng và dám nói không với những việc ngoài lề. Đây là thời điểm hợp để chốt hướng đi cho một dự án hoặc một môn học còn đang lưỡng lự. Sinh viên có thể quyết định đề tài hoặc nhóm học mà mình vẫn cân nhắc. Chỉ cần tránh quyết quá nhanh khi chưa nhìn hết dữ kiện.",
+  "finance": "Cái nhìn tỉnh táo giúp bạn thấy khoản nào cần, khoản nào chỉ là hứng nhất thời. Hôm nay hợp để hủy một gói đăng ký không dùng hoặc dừng một khoản chi vô thức mà bạn đã nhắc mình nhiều lần. Một danh sách ngắn các khoản chi định kỳ sẽ cho bạn bức tranh rõ hơn nhiều so với việc nghĩ trong đầu.",
+  "insight": "Có thể sự mệt dạo này không đến từ việc thiếu đáp án, mà từ việc giữ quá nhiều câu hỏi mở cùng lúc. Mỗi câu hỏi chưa chốt giống một ứng dụng chạy ngầm, lặng lẽ ăn pin. Chốt xong một câu, đầu bạn nhẹ đi bất ngờ. Hôm nay hợp để đóng bớt vài tab trong đầu, kể cả những tab bạn từng rất thích.",
+  "memorable_message": "Quyết định không làm bạn nghèo đi, nó chỉ làm bạn hết mơ hồ.",
+  "advice": "Lấy một chuyện đang treo, viết ra hai lựa chọn thật sự còn lại và chốt trước khi tối. Nếu bí, hãy hỏi mình cái nào mình sẽ ít hối tiếc hơn sau một tháng. Nếu cần đổi ý sau này, bạn vẫn đổi được, nhưng bằng dữ kiện mới chứ không bằng cảm giác lấn cấn.",
+  "keywords": [
+   "rõ ràng",
+   "gạt bớt",
+   "dứt khoát"
+  ]
+ },
+ {
+  "card_id": "seven-of-cups",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Một ảo tưởng nhỏ có thể vỡ hôm nay, và nó vỡ để bạn khỏi tốn thêm thời gian cho thứ không có thật.",
+  "card": {
+   "name": "Bảy Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 6,
+   "career": 7,
+   "finance": 7,
+   "energy": 6
+  },
+  "headline": "Tỉnh mộng cũng là quà tặng, dù giấy gói hơi nhám.",
+  "card_meaning": "Ở chiều ngược, những chiếc cốc ảo ảnh của lá Bảy Cốc bắt đầu lộ rõ chân tướng: con rồng hóa ra chỉ là hình vẽ, kho báu hóa ra chưa có chìa khóa. Lá bài này nói về khoảnh khắc tỉnh mộng, khi lớp sương hy vọng mỏng đi và ta nhìn thấy khoảng cách giữa điều được hứa và điều thật sự có. Nó có thể hơi khó chịu, giống như bật đèn trong phòng đang chiếu phim. Nhưng chính ánh sáng đó mới cho phép ta chọn một thứ có thật. Hôm nay lá bài đáng chú ý vì bạn có thể nhận ra một điều mà trước giờ vẫn lờ đi.",
+  "forecast": [
+   "Một chi tiết bạn lờ đi bấy lâu có xu hướng hiện rõ, như thông tin nghe lệch hoặc một câu trả lời né tránh trong cuộc trò chuyện.",
+   "Bạn dễ thất vọng một lúc ngắn, rồi ngay sau đó là cảm giác nhẹ vì không phải giả vờ tin nữa.",
+   "Một lời mời hấp dẫn có thể bị bạn từ chối chỉ bằng một câu hỏi đơn giản: cụ thể là gì, bao giờ, ai làm?"
+  ],
+  "love": "Có thể bạn nhìn ra khoảng cách giữa điều ai đó nói và điều họ làm, chẳng hạn lời hứa gặp nhau mãi vẫn là lời hứa. Người độc thân dễ dừng hẳn một mối mập mờ chẳng đi đâu và thấy đầu óc thoáng hơn. Đang yêu thì sự rõ ràng này, dù khó nghe, là nền để hai người nói chuyện thật thay vì giữ hình ảnh đẹp cho nhau.",
+  "career": "Một kế hoạch hay lời hứa thăng tiến đang mơ hồ có xu hướng lộ ra phần thiếu. Hãy hỏi lại mốc thời gian, người chịu trách nhiệm và thứ gì đã được ghi ra giấy. Sinh viên có thể nhận ra cách học hiện tại chưa hiệu quả như mình vẫn nghĩ. Biết sớm vẫn rẻ hơn biết muộn.",
+  "finance": "Một khoản thu nhập mình kỳ vọng hoặc một cơ hội kiếm tiền nghe hấp dẫn nên được đặt cạnh con số thật. Thử viết ra nguồn tiền, người chịu trách nhiệm và thời điểm tiền về cho từng khoản. Hôm nay bạn đủ tỉnh để nói chưa với thứ chưa rõ nguồn. Nếu một lời hứa kiếm tiền không trả lời được ba câu đó, hãy để nó chờ thêm.",
+  "insight": "Có thể điều đau nhất không phải sự thật, mà là phần mình đã hy vọng quá nhiều vào nó. Nhưng chính hy vọng đó cũng cho thấy bạn muốn gì, và đó là thông tin quý. Khi biết mình muốn gì, bạn có thể tìm nó ở nơi có thật hơn, thay vì cứ chờ ở nơi chỉ có hình ảnh.",
+  "memorable_message": "Ảo tưởng vỡ không lấy của bạn điều gì, nó chỉ đòi lại phần thời gian bạn cho nó vay.",
+  "advice": "Chọn một điều bạn vẫn tự nhủ rồi sẽ ổn thôi và liệt kê ba bằng chứng thật cho nó, trong khoảng mười phút buổi tối. Nếu chỉ tìm được một, bạn đã có câu trả lời. Nếu cả ba bằng chứng đều có, hãy yên tâm đi tiếp. Quyền quyết định bước tiếp theo vẫn là của bạn.",
+  "keywords": [
+   "tỉnh mộng",
+   "nhìn thẳng sự thật",
+   "buông kỳ vọng"
+  ]
+ },
+ {
+  "card_id": "seven-of-cups",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Năng lượng hôm nay hợp để biến một giấc mơ cũ thành bước đầu tiên, vì bạn đã bớt do dự.",
+  "card": {
+   "name": "Bảy Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 7,
+   "finance": 6,
+   "energy": 8
+  },
+  "headline": "Đến lúc đổi chữ ước thành chữ làm.",
+  "card_meaning": "Bảy Cốc ngược có thể hiểu như khoảnh khắc người đứng trước những chiếc cốc cuối cùng cũng quay mặt lại và đưa tay chọn một chiếc. Sau nhiều lần ngắm nghía, bảy khả năng thu về thành một hướng đi, và năng lượng lâu nay bị chia nhỏ được dồn về một mối. Lá bài này mang sắc thái của người đã chán chờ và sẵn sàng hành động, không còn đợi mọi thứ hoàn hảo. Nó cũng nhắc rằng chọn một thứ đồng nghĩa với việc để những thứ khác lại. Hôm nay đáng chú ý vì năng lượng bắt đầu đang đầy lên và dễ biến một giấc mơ cũ thành việc làm.",
+  "forecast": [
+   "Bạn có xu hướng bất ngờ thấy rõ việc nào xứng đáng với thời gian của mình và việc nào chỉ nghe cho thích.",
+   "Một việc bạn nghĩ mãi mà chưa bắt tay có thể sang giai đoạn đầu tiên chỉ vì bạn đã chán chờ, có thể ngay trong buổi sáng.",
+   "Có thể một người hỏi ý kiến bạn, và bạn trả lời gọn gàng đến mức chính mình cũng ngạc nhiên."
+  ],
+  "love": "Người độc thân có khả năng thôi lướt vòng vòng và chọn nhắn cho một người thật mà bạn thấy hợp, kể cả khi chưa chắc họ sẽ đáp. Đang tìm hiểu thì năng lượng nghiêng về việc rủ một lời hẹn cụ thể, có giờ có địa điểm. Đang yêu thì thử đề xuất một kế hoạch chung có ngày giờ rõ ràng, chẳng hạn một chuyến đi cuối tuần hoặc một buổi hẹn đã bị hoãn nhiều lần.",
+  "career": "Quyết đoán trở lại là điểm mạnh của bạn: nhận hay từ chối, bắt đầu hay dừng đều dễ nói hơn. Đây là ngày hợp để gửi bản đề xuất, nộp đơn hoặc chốt đề tài. Dành năm phút đọc lại các ý chính trước khi gửi là đủ, không cần chỉnh thêm lần thứ mười. Nếu có việc nào bạn nghĩ mãi mà chưa gửi, hôm nay là ngày đẹp để gửi.",
+  "finance": "Bạn nhìn tiền bằng con mắt thực tế hơn, nên dễ lập kế hoạch cho một mục tiêu có số tiền và thời hạn rõ, như quỹ dự phòng hay một khoản mua đã cân nhắc lâu. Chỉ cần tránh biến mục tiêu thành một danh sách quá dài, vì hai mục tiêu rõ thường tốt hơn mười mục tiêu mờ.",
+  "insight": "Có thể bạn đã đủ sẵn sàng từ lâu, chỉ là chưa cho phép mình bỏ những lựa chọn còn lại. Mỗi lựa chọn bị bỏ lại trông như một sự mất mát nhỏ, nhưng tổng của những mất mát đó rẻ hơn nhiều so với cái giá của việc đứng yên. Khi bỏ được, sức lực bắt đầu quay về với bạn.",
+  "memorable_message": "Chọn đúng hướng không cần la bàn hoàn hảo, chỉ cần một bước chân không đổi ý giữa đường.",
+  "advice": "Chọn một giấc mơ cũ và viết bước đầu tiên của nó trong một dòng, rồi làm ngay trước giờ nghỉ trưa. Bước đó nên nhỏ đến mức không cần chuẩn bị gì thêm, như gửi một email hoặc mở một tệp trống. Bạn vẫn có thể chỉnh hướng sau, miễn là đã có hướng.",
+  "keywords": [
+   "chọn hướng",
+   "từ mơ sang làm",
+   "bớt do dự"
+  ]
+ },
+ {
+  "card_id": "eight-of-cups",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay bạn có thể nhận ra một điều đã hết hợp với mình và bắt đầu chuẩn bị rời đi một cách nhẹ nhàng.",
+  "card": {
+   "name": "Tám Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 6,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Có những thứ đầy đặn mà vẫn không còn nuôi bạn.",
+  "card_meaning": "Tám Cốc cho thấy một người khoác áo choàng đỏ, tay cầm gậy, quay lưng bước đi giữa đêm dưới ánh trăng. Sau lưng họ là tám chiếc cốc xếp ngay ngắn, vẫn đầy đặn nhưng có một khoảng hở như thể thiếu một mảnh. Lá bài kể về việc rời khỏi thứ không sai, không tệ, chỉ là không còn đủ cho mình nữa. Ở chiều xuôi, quyết định đi là chủ động và có ý thức, chứ không phải chạy trốn. Hôm nay đáng chú ý vì cảm giác thiêu thiếu mơ hồ có thể thật ra là tín hiệu rõ ràng hơn bạn nghĩ.",
+  "forecast": [
+   "Bạn có xu hướng nhận ra một thói quen, một nhóm người hoặc một công việc đã không còn khiến mình háo hức như trước, thường vào lúc đang làm một việc quen tay.",
+   "Một cảm giác thiêu thiếu, khó gọi tên bằng lý do lớn, có thể quay lại vài lần trong ngày, nhất là lúc bạn rảnh một mình.",
+   "Bạn dễ muốn đi chậm lại, ít nói hơn thường lệ để nghĩ cho ra điều mình thật sự cần."
+  ],
+  "love": "Người độc thân có thể thôi quan tâm tới kiểu mối quan hệ cũ mà mình vẫn lặp đi lặp lại, ví dụ kiểu người mình luôn bị thu hút nhưng luôn kết thúc giống nhau. Đang tìm hiểu thì năng lượng nghiêng về việc tự hỏi mình có thật sự muốn tiếp không, nên đừng ngại dành một buổi tối để nghĩ. Đang yêu thì một sự im lặng ngắn của bạn nên được giải thích, kẻo người kia hiểu thành xa cách.",
+  "career": "Bạn dễ nhìn thấy rõ phần việc đã hết chỗ cho mình phát triển, dù nó vẫn ổn định và quen thuộc. Chưa cần nộp đơn nghỉ ngay, nhưng hôm nay rất hợp để viết ra bạn muốn gì ở bước tiếp theo, như kỹ năng muốn học hay kiểu đồng nghiệp muốn làm cùng. Sinh viên cũng có thể xét lại chuyên ngành hay môn đang học, và hỏi mình điều gì thật sự còn thu hút.",
+  "finance": "Có thể bạn nhận ra mình đang giữ một khoản chi chỉ vì quen, như đăng ký định kỳ, thẻ thành viên hay một thứ không còn dùng đến. Dòng tiền ổn, thứ cần kiểm soát là những thói quen chi cũ. Thử lướt sao kê một lượt và gạch tên một khoản mà bạn không nhớ lần cuối dùng nó là khi nào.",
+  "insight": "Có thể bạn không thiếu lòng biết ơn, chỉ là phần bên trong đang âm thầm nói rằng thế vẫn chưa đủ với mình. Cảm giác đó không phải sự vô ơn, nó giống như chiếc la bàn khẽ nhích kim về hướng khác. Thứ cần làm có thể chỉ là lắng nghe nó vài phút mà chưa vội kết luận gì, vì nghe và làm là hai bước tách biệt.",
+  "memorable_message": "Rời đi không phải vì chỗ cũ tệ, mà vì bạn đã lớn hơn cái áo ấy.",
+  "advice": "Viết ra một điều bạn đang giữ lại chỉ vì sợ mất công bỏ, rồi hỏi mình còn muốn nó sau một năm nữa không. Làm việc này vào buổi tối khi mọi thứ đã yên, kèm một ly nước ấm cho đỡ nghiêm trọng. Bạn không cần quyết hôm nay, chỉ cần thành thật hôm nay.",
+  "keywords": [
+   "rời bỏ",
+   "hết hợp",
+   "nghe tiếng bên trong"
+  ]
+ },
+ {
+  "card_id": "eight-of-cups",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay là ngày của hành trình nội tâm: bạn cần một khoảng riêng để tìm xem điều gì thực sự có ý nghĩa.",
+  "card": {
+   "name": "Tám Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 5,
+   "finance": 6,
+   "energy": 5
+  },
+  "headline": "Câu trả lời hôm nay nằm ở đoạn đường bạn đi một mình.",
+  "card_meaning": "Phía trước người lữ khách trong Tám Cốc là một con sông nhỏ và những ngọn núi tối mờ, hướng đi của người tìm câu trả lời bên trong thay vì bên ngoài. Mặt trăng trên cao, nửa tròn nửa khuyết, gợi nhắc về trực giác và những điều chỉ nhìn rõ khi xung quanh yên tĩnh. Ở chiều xuôi, lá bài nói về một cuộc hành trình nội tâm: rời khỏi ồn ào để tìm điều có ý nghĩa sâu hơn. Đây không phải sự trốn chạy mà là chủ động đi tìm. Hôm nay nó đáng chú ý vì nhu cầu im lặng và suy nghĩ của bạn có thể mạnh hơn nhu cầu giao tiếp.",
+  "forecast": [
+   "Bạn có xu hướng thấy ồn ào xung quanh hơn bình thường và muốn tìm một góc yên tĩnh để nghĩ, có thể là một ban công hay chiếc ghế công viên.",
+   "Một câu hỏi lớn như mình đang sống vì điều gì dễ xuất hiện trong lúc làm một việc rất bình thường như rửa bát hay chờ thang máy.",
+   "Có thể bạn dành thời gian cho một nơi, một bài hát hay một cuốn sách khiến mình thấy gần với bản thân hơn."
+  ],
+  "love": "Năng lượng nghiêng về chiều sâu hơn là sôi nổi, nên người độc thân có thể không hứng thú với những cuộc trò chuyện hời hợt trên ứng dụng. Đang tìm hiểu thì bạn muốn một kết nối có nội dung, như hỏi nhau về điều mình thật sự quan tâm. Đang yêu thì hãy nói với người kia rằng bạn cần một chút khoảng riêng, đừng để họ tự đoán và tự lo.",
+  "career": "Sức làm việc ở mức vừa phải, nhưng trực giác về hướng đi của bạn khá rõ. Nếu có việc cần suy nghĩ chiến lược hay chọn lại mục tiêu, hôm nay là lúc hợp để nghĩ một mình thay vì họp nhóm. Hạn chế cuộc họp đông người, nếu có thể. Sinh viên thử dành một buổi học riêng cho việc xác định mình đang học để làm gì.",
+  "finance": "Bạn có xu hướng muốn chi cho những thứ có ý nghĩa như sách, trải nghiệm hay một chuyến đi, thay vì món đồ hào nhoáng. Thử xem khoản nào khiến bạn thật sự sống tốt hơn và giữ lại khoản đó. Còn khoản chi chỉ để cho đỡ trống thì có thể hoãn sang sau mà không mất gì.",
+  "insight": "Có thể bạn không buồn, chỉ là đang cần một khoảng yên để nghe rõ giọng của chính mình. Giữa ngày bận rộn, giọng đó thường là thứ đầu tiên bị át đi bởi thông báo và nhiệm vụ. Khi có khoảng lặng, có thể bạn sẽ ngạc nhiên vì điều mình nghe được không hề đáng sợ mà chỉ cần được nhận ra.",
+  "memorable_message": "Đôi khi muốn đi xa không phải để trốn, mà để nghe được tiếng mình.",
+  "advice": "Dành 30 phút hôm nay không điện thoại, không âm thanh nào ngoài tiếng của mình, tốt nhất là vào lúc chiều tà hoặc sau bữa tối. Đi bộ hay ngồi yên đều được, rồi ghi lại điều bạn chợt nghĩ đến. Quyết định gì với nó là việc của bạn, kể cả quyết định chưa làm gì cả.",
+  "keywords": [
+   "nội tâm",
+   "tìm ý nghĩa",
+   "khoảng riêng"
+  ]
+ },
+ {
+  "card_id": "eight-of-cups",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Bạn đang cân nhắc buông một thứ đã tốn nhiều công: hôm nay hợp để rời đi tử tế, không cần ồn ào.",
+  "card": {
+   "name": "Tám Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Công sức bạn bỏ ra không bắt bạn phải ở lại mãi.",
+  "card_meaning": "Tám chiếc cốc trong lá bài được xếp rất cẩn thận, mỗi cái đại diện cho một phần công sức, cảm xúc và thời gian đã đổ vào. Vậy mà người trong tranh vẫn quay đi, vì họ nhận ra điều quan trọng không nằm ở số lượng đã đầu tư mà ở việc nó còn nuôi mình hay không. Ở chiều xuôi, lá bài mang năng lượng của một sự rời đi trưởng thành, có chuẩn bị và không cần kịch tính. Sự ra đi ở đây là lựa chọn tỉnh táo chứ không phải bỏ cuộc. Hôm nay đáng chú ý vì nó chạm đúng thắc mắc có nên tiếp tục điều mình đã tốn nhiều công.",
+  "forecast": [
+   "Một dự án, một mối quan hệ hoặc một kế hoạch bạn đã đổ nhiều tâm huyết có xu hướng khiến bạn tự hỏi có nên tiếp tục.",
+   "Bạn dễ nhớ lại những ngày đầu háo hức, và so với bây giờ thì khoảng cách khá rõ.",
+   "Có thể một người nói đúng điều bạn ngại thừa nhận, và bạn không còn muốn cãi lại."
+  ],
+  "love": "Nếu có điều gì đang kéo dài chỉ vì tiếc những gì đã bỏ ra, hôm nay bạn dễ thấy rõ nó hơn, nhất là khi ngồi một mình sau giờ làm. Người độc thân có khả năng thôi nhắn tin cho người cũ cho đỡ trống và bắt đầu thấy thoáng hơn. Đang yêu thì nên nói thật điều mình chưa hài lòng trước khi nó thành khoảng lặng, bằng giọng nhẹ và cụ thể chứ không phải lời trách.",
+  "career": "Có xu hướng bạn muốn chuyển hướng dù đã đi một đoạn khá dài, và điều đó không đồng nghĩa với lãng phí. Kỹ năng bạn có vẫn đi theo bạn sang chỗ mới, như cách làm việc với người hay khả năng giữ tiến độ. Nên chuẩn bị đường rút lui đàng hoàng, như bàn giao tài liệu và nói chuyện thẳng với người liên quan, trước khi rời việc cũ.",
+  "finance": "Có thể bạn nhận ra mình đang rót thêm tiền cho một thứ chỉ vì tiếc phần đã bỏ vào, chẳng hạn một khóa học dang dở hay món đồ sửa mãi chưa xong. Hôm nay hợp để tính xem tiếp tục sẽ tốn thêm gì, và dừng lại sẽ giữ được gì. Khoản đã chi thì không lấy lại, còn khoản sắp chi vẫn là của bạn.",
+  "insight": "Có thể điều ngăn bạn rời đi không phải tình yêu với nó, mà là nỗi tiếc phần thời gian đã trôi. Phần thời gian đó không thu hồi được, nhưng phần sắp tới thì bạn vẫn quyết được. Rời đi cũng không xóa giá trị của những gì đã qua, vì nhiều thứ trong đó sẽ ở lại trong bạn dưới dạng hiểu biết.",
+  "memorable_message": "Bạn không nợ chiếc ghế cũ chỉ vì đã ngồi ở đó lâu.",
+  "advice": "Hỏi mình một câu: nếu hôm nay chưa bắt đầu việc này, mình có bước vào nó không? Viết câu trả lời ra giấy lúc đầu giờ chiều khi đầu óc còn tỉnh, và đừng sửa lại. Dù trả lời gì, hãy rời đi hoặc ở lại bằng một lựa chọn tỉnh táo.",
+  "keywords": [
+   "buông",
+   "rời đi tử tế",
+   "thôi tiếc nuối"
+  ]
+ },
+ {
+  "card_id": "eight-of-cups",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Hôm nay bạn dễ ở lại một chỗ đã chật chỉ vì sợ cảm giác không biết bên ngoài có gì.",
+  "card": {
+   "name": "Tám Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 4,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Chỗ quen thuộc không phải lúc nào cũng là chỗ an toàn.",
+  "card_meaning": "Khi Tám Cốc đảo ngược, người lữ khách như dừng lại hoặc quay đầu, trong khi những chiếc cốc phía sau vẫn đứng đó. Lá bài mô tả cảnh ở lại một nơi đã chật không phải vì nó tốt, mà vì nó quen và vì bên ngoài còn là một khoảng tối. Năng lượng bị chặn lại ở đây không phải sự lười biếng mà thường là nỗi sợ thiếu an toàn khi thay đổi. Chiều ngược không có nghĩa là bạn phải đi, mà là một lời gọi nhẹ để nhìn thật vào lý do ở lại. Hôm nay đáng chú ý vì cảm giác cứ ổn ổn có thể đang che một điều chưa ổn.",
+  "forecast": [
+   "Bạn có xu hướng thấy rõ điều mình không hài lòng, rồi lại tự thuyết phục rằng thế cũng không tệ, nhất là lúc đang bận rộn.",
+   "Một cơ hội thay đổi nhỏ dễ xuất hiện, như lời mời thử một việc mới hay một tin tuyển dụng, và năng lượng nghiêng về việc để dành đó cho lúc khác.",
+   "Có thể bạn nhắc tới một ý định rời đi với ai đó, rồi lập tức chuyển sang chuyện khác."
+  ],
+  "love": "Người độc thân có thể đang giữ một mối quan hệ lửng lơ chỉ vì còn hơn là một mình, dù mỗi lần gặp xong lại thấy hụt. Đang tìm hiểu thì tín hiệu không rõ dễ bị bạn tự bào chữa thay vì hỏi thẳng. Đang yêu thì nếu có điều gì cứ lặp đi lặp lại, hôm nay là lúc đáng gọi tên nó, dù chỉ với bản thân.",
+  "career": "Bạn dễ tiếp tục ở lại một vị trí hay môi trường dù biết mình không còn phát triển ở đó. Lý do ở lại có thể là hợp lý, nhưng hãy phân biệt đâu là sự cân nhắc, đâu là nỗi sợ. Một bước nhỏ như cập nhật CV hay hỏi thăm một cơ hội mới cũng đã là chuyển động. Sinh viên có thể thử nghe một buổi chia sẻ về ngành khác chỉ để mở rộng góc nhìn.",
+  "finance": "Sự ổn định cũ đang giữ bạn lại, và nỗi lo thiếu hụt khi thay đổi dễ lấn át cơ hội. Hãy tính một con số cụ thể: bạn cần bao nhiêu tháng chi phí dự phòng để có đủ yên tâm khi thử bước mới. Khi nỗi lo có con số, nó thường nhỏ đi một chút. Con số cụ thể thường dễ đối diện hơn một nỗi lo mơ hồ.",
+  "insight": "Có thể bạn không ở lại vì hạnh phúc, mà vì cái khó chịu quen thuộc dễ chịu hơn cái bất định chưa biết mặt. Nhận ra điều đó chưa phải là phải đi, chỉ là bắt đầu thành thật hơn. Đôi khi chỉ cần gọi đúng tên nỗi sợ là bạn đã bớt bị nó điều khiển, dù chân vẫn đứng nguyên chỗ cũ.",
+  "memorable_message": "Căn phòng chật vẫn có cảm giác ấm, chỉ vì bạn đã quen cúi đầu.",
+  "advice": "Viết ra một điều bạn đã nói mình ổn dù thực sự không, rồi chọn một hành động rất nhỏ để làm thử trong tuần này, như nhắn hỏi một người đã từng đi đường đó. Đặt việc này vào buổi tối hôm nay khi bạn có ít bị làm phiền nhất. Không cần đi ngay, chỉ cần đừng nói dối bản thân nữa.",
+  "keywords": [
+   "sợ thay đổi",
+   "ở lại dù chật",
+   "thành thật với mình"
+  ]
+ },
+ {
+  "card_id": "eight-of-cups",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Bạn đang đứng nửa đi nửa ở: hôm nay do dự lâu thêm cũng là một lựa chọn, và nó có giá.",
+  "card": {
+   "name": "Tám Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Đứng ở cửa lâu quá thì gió trong lẫn gió ngoài đều lùa vào.",
+  "card_meaning": "Ở chiều ngược của Tám Cốc, người lữ khách chưa thật sự rời đi mà chỉ mới nhấc một chân khỏi ngưỡng cửa. Họ đã nhìn thấy đường, đã gói đồ, nhưng cứ lần khân quay lại kiểm tra thêm một lần nữa, rồi thêm một lần nữa. Lá bài nói về trạng thái nửa đi nửa ở, nơi sự do dự không còn là cân nhắc mà thành một cái giá phải trả hằng ngày. Nó cũng có thể là quay về một nơi cũ để thử lại, nên điều cần hỏi là điều gì thật sự đã khác. Hôm nay đáng chú ý vì bạn có thể cần một mốc thời gian thay vì thêm nhiều suy nghĩ.",
+  "forecast": [
+   "Bạn có xu hướng đã gói ghém sẵn một quyết định trong đầu nhưng mãi chưa bấm nút, thường trì hoãn đến lúc cuối ngày rồi dời sang mai.",
+   "Một điều nhỏ có thể nhắc bạn rằng mình đã nói sẽ rời đi từ rất lâu mà vẫn chưa làm, như một tin nhắn cũ hoặc một ghi chú chưa xóa.",
+   "Có thể bạn quay lại một chỗ cũ, một cuộc trò chuyện cũ, chỉ để thử xem nó có khác không."
+  ],
+  "love": "Nếu đã nhiều lần định chia tay hoặc kết thúc một mối mập mờ, hôm nay bạn dễ nhớ lại những lần đó và cả cảm giác quay lại sau mỗi lần. Người độc thân dễ quay lại với người cũ để thử một lần nữa vì nỗi nhớ lúc buổi tối. Hãy tự hỏi điều gì đã thay đổi, ngoài nỗi nhớ, và thử nhìn câu trả lời mà không tô vẽ.",
+  "career": "Có thể bạn đang đứng giữa hai hướng: tiếp tục một việc không còn nhiều hứng, và bắt đầu một việc chưa chắc thành. Năng lượng nghiêng về chần chừ, nên đừng ép mình quyết ngay trong ngày nếu thông tin chưa đủ. Nhưng đặt cho mình một hạn chót cũng là cách tự bảo vệ, kẻo nửa năm trôi qua mà vẫn đứng chỗ cũ. Sinh viên có thể hỏi một người đi trước để thu thêm dữ kiện.",
+  "finance": "Việc trì hoãn rời đi đang tốn của bạn thêm một chút mỗi tháng, bằng tiền hoặc bằng năng lượng. Thử liệt kê rõ chi phí của việc ở lại để so với chi phí của việc đi, gồm cả những khoản không nhìn thấy như sức khỏe và thời gian. Hai cột số cạnh nhau thường nói nhiều hơn cảm giác.",
+  "insight": "Có thể bạn đang chờ một dấu hiệu rõ ràng đủ để thấy mình được phép đi. Trong khi đó dấu hiệu đã ở đó, chỉ là bạn chưa muốn đọc nó, vì đọc xong thì phải chịu trách nhiệm với điều mình biết. Cho phép mình đi hay ở đều là một quyết định, và quyết định thì không cần sự đồng ý của ai ngoài bạn.",
+  "memorable_message": "Đợi thêm một chút không còn là kiên nhẫn khi bạn đã biết câu trả lời.",
+  "advice": "Đặt một ngày cụ thể để đưa ra quyết định, và ghi vào lịch như một cuộc hẹn quan trọng, kèm một nhắc việc trước đó hai ngày. Hôm nay chỉ cần chọn ngày và viết vào lịch, mất chưa tới năm phút. Đến ngày đó bạn vẫn có thể chọn ở lại, nhưng là chọn thật sự chứ không phải trôi theo.",
+  "keywords": [
+   "do dự",
+   "đứng giữa",
+   "đặt hạn chót"
+  ]
+ },
+ {
+  "card_id": "eight-of-cups",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Hôm nay có một sự thật bạn đang né: điều gọi tên được sớm sẽ đỡ nặng hơn điều bị bỏ lơ.",
+  "card": {
+   "name": "Tám Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Thứ bạn cứ lảng đi thường là thứ cần được nhìn nhất.",
+  "card_meaning": "Hình ảnh của Tám Cốc là người rời đi để tìm điều thật hơn, nên khi lá bài ngược, trọng tâm chuyển sang việc ta đang né điều gì. Các chiếc cốc vẫn xếp ngay ngắn như thể mọi thứ ổn, và người cầm gậy vẫn đứng đó, chưa dám nhìn về hướng cần nhìn. Chiều ngược này là bóng của lá xuôi: thay vì đi tìm, ta tự lấp đầy ngày bằng những thứ khác để khỏi nghe một câu hỏi khó. Nó không nhằm trách mắng mà chỉ ra chỗ năng lượng đang bị tiêu hao oan. Hôm nay đáng chú ý vì điều bạn né có thể nhẹ hơn lúc bạn gọi tên nó.",
+  "forecast": [
+   "Bạn có xu hướng lấp đầy ngày bằng việc vặt, điện thoại hay chuyện của người khác để khỏi nghĩ tới một điều nào đó.",
+   "Một câu hỏi vô tình của ai đó dễ chạm đúng chỗ bạn né, và bạn có thể phản ứng hơi gắt rồi sau đó thấy áy náy.",
+   "Có thể bạn thấy mệt dù chẳng làm gì nhiều, vì né tránh cũng tốn năng lượng."
+  ],
+  "love": "Có thể có một điều trong mối quan hệ mà bạn biết nhưng chưa muốn nói ra, hoặc chưa muốn thừa nhận với chính mình. Người độc thân dễ viện cớ bận để khỏi chạm vào chuyện cũ đang còn dang dở. Đang yêu thì một câu nói thật, nhẹ nhàng, thường tốn ít sức hơn một lần im lặng kéo dài, nhất là khi chọn đúng lúc cả hai đều ở nhà.",
+  "career": "Một vấn đề trong công việc đang bị đẩy xuống cuối danh sách, và nó có xu hướng quay lại lúc không thuận. Hôm nay hợp để xử lý phần khó nhất trong 15 phút đầu, trước khi nó phình ra. Nếu cần nói chuyện với ai đó, hãy chuẩn bị ba ý chính. Sinh viên thử mở bài khó nhất ra trước, dù chỉ đọc đề.",
+  "finance": "Có thể có một khoản chi, khoản nợ hoặc con số bạn chưa muốn nhìn kỹ, như sao kê thẻ hay một hóa đơn tồn. Mở nó ra một lần cho rõ thường đỡ lo hơn là cứ đoán trong đầu. Nếu thấy nặng, chia nhỏ việc kiểm tra thành từng khoản mỗi ngày cũng được. Mục đích là biết rõ, chưa phải xử lý hết trong một buổi.",
+  "insight": "Có thể bạn không yếu đuối, bạn chỉ đang bảo vệ mình khỏi một cảm xúc mà bạn nghĩ mình chưa đủ sức đối diện. Thường thì thật ra bạn đủ, chỉ là chưa thử. Cảm xúc bị né thường không biến mất mà đổi dạng thành mệt mỏi, cáu gắt hay mất hứng, và việc gọi tên nó là cách rẻ nhất để lấy lại năng lượng.",
+  "memorable_message": "Điều bạn không nhìn vẫn nằm đó, chỉ là giờ nó mặc áo tàng hình và đi theo bạn khắp nơi.",
+  "advice": "Gọi tên điều bạn đang né bằng một câu, viết vào ghi chú điện thoại rồi để đó một tiếng và đọc lại. Làm việc này vào lúc nghỉ trưa hoặc sau khi tan làm, khi chưa quá mệt. Bước tiếp theo vẫn là của bạn, và bạn có thể làm nó từng chút một.",
+  "keywords": [
+   "né tránh",
+   "sự thật chưa gọi tên",
+   "đối diện từng chút"
+  ]
+ },
+ {
+  "card_id": "nine-of-cups",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay hợp để nhận ra mình đã có những điều đáng quý, và thấy vừa đủ là một cảm giác rất giàu.",
+  "card": {
+   "name": "Chín Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 9,
+   "love": 8,
+   "career": 7,
+   "finance": 8,
+   "energy": 8
+  },
+  "headline": "Vừa đủ cũng là một kiểu giàu có.",
+  "card_meaning": "Chín Cốc vẽ một người ngồi thoải mái trên chiếc ghế dài, hai tay khoanh trước ngực, sau lưng là chín chiếc cốc xếp thành vòng cung trên tấm khăn xanh. Nét mặt anh ta không căng thẳng cũng không cuống cuồng, mà là kiểu hài lòng của người biết mình đã có đủ. Lá bài còn được gọi là lá điều ước, vì nó thường gắn với cảm giác một mong muốn đã được đáp lại. Ở chiều xuôi, sắc thái là sự mãn nguyện thật sự, không cần phô trương. Hôm nay lá bài đáng chú ý vì nó gợi bạn dừng lại, nhìn những gì đã có và thấy chúng không hề nhỏ.",
+  "forecast": [
+   "Bạn có xu hướng thấy dễ chịu với những điều rất nhỏ như một tách cà phê ngon hay một tin nhắn ấm vào đầu ngày.",
+   "Một điều bạn từng mong cầu có thể xuất hiện ở dạng nhỏ hơn bạn nghĩ, nhưng đúng chất bạn cần.",
+   "Có thể bạn bắt gặp mình mỉm cười vô cớ giữa lúc đang đi trên đường hay chờ đèn đỏ."
+  ],
+  "love": "Người độc thân dễ thấy thoải mái khi ở một mình, và chính sự thoải mái đó khiến bạn trông cuốn hút hơn thường lệ, ai gặp cũng dễ cảm nhận. Đang tìm hiểu thì năng lượng nghiêng về những khoảnh khắc ấm áp tự nhiên, như cùng nhau cười một chuyện vô thưởng vô phạt. Đang yêu thì hôm nay là lúc ngồi bên nhau mà không cần làm gì to tát, chỉ cần có mặt trọn vẹn.",
+  "career": "Bạn làm việc với tâm thế nhẹ và hài lòng nên chất lượng thường tốt hơn lúc căng thẳng. Một lời khen hay sự ghi nhận nhỏ có khả năng xuất hiện, có thể từ đồng nghiệp chứ không nhất thiết từ cấp trên. Sinh viên có thể thấy buổi học hôm nay vào đầu dễ hơn mọi khi. Hãy tận dụng trạng thái này để xử lý một việc cần sự tử tế hơn là sự gấp gáp.",
+  "finance": "Tâm lý tiền bạc khá yên, và bạn có xu hướng thấy mình đủ dùng cho những gì cần. Hôm nay hợp để trích một khoản nhỏ thưởng cho bản thân mà không mang cảm giác tội lỗi, miễn là con số đã nằm trong dự tính. Thử liệt kê những thứ bạn đang có mà từng là điều ước năm trước, bạn sẽ ngạc nhiên về độ dài của danh sách.",
+  "insight": "Có thể bạn quen nhìn vào điều còn thiếu đến mức quên cộng lại điều đã có. Hôm nay phép cộng đó nghiêng về phía bạn. Cảm giác đủ không làm bạn chùng tham vọng, nó chỉ cho phép bạn đi tiếp mà không phải mang theo nỗi thiếu hụt nặng như một chiếc ba lô. Đó cũng là cách nhìn công bằng hơn với những người đã cùng bạn đi tới đây.",
+  "memorable_message": "Biết chữ đủ không làm bạn bớt tham vọng, nó giúp bạn có sức để đi xa.",
+  "advice": "Viết ra ba điều đang ổn trong đời bạn lúc này, thật cụ thể, không chung chung, vào lúc sáng sớm hoặc trước khi ngủ. Ví dụ một người luôn trả lời tin nhắn của bạn, hay một món ăn bạn thích. Rồi hãy hưởng thụ chúng một cách nghiêm túc, đừng vội lo cho chuyện kế tiếp.",
+  "keywords": [
+   "mãn nguyện",
+   "biết đủ",
+   "niềm vui nhỏ"
+  ]
+ },
+ {
+  "card_id": "nine-of-cups",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Một điều bạn từng ước có thể đang thành hình: hôm nay hãy dành chỗ để đón nhận nó mà không nghi ngờ.",
+  "card": {
+   "name": "Chín Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 8,
+   "finance": 8,
+   "energy": 8
+  },
+  "headline": "Ước nguyện đến, và bạn được phép nhận mà không kèm lời xin lỗi.",
+  "card_meaning": "Lá Chín Cốc thường được coi là lá của điều ước thành hiện thực. Nhưng điều ước ở đây hiếm khi hiện ra như phép màu, mà thường là kết quả của những việc nhỏ bạn đã làm đều đặn và nay được đáp lại. Chín chiếc cốc phía sau người ngồi ghế như một bàn tiệc đã sẵn sàng, nhưng anh ta không vội, vì anh biết nó thuộc về mình. Ở chiều xuôi, lá bài khuyến khích bạn nhận thay vì chối từ, tận hưởng thay vì hoài nghi. Hôm nay đáng chú ý vì chướng ngại lớn nhất có thể không phải là hoàn cảnh mà là thói quen không dám nhận.",
+  "forecast": [
+   "Bạn có xu hướng nhận được một tin tốt hoặc một dấu hiệu tiến triển ở việc bạn đã chờ từ lâu, có thể qua tin nhắn hoặc email.",
+   "Một người có thể khen bạn thẳng thắn, và năng lượng nghiêng về việc để bạn nhận lời khen đó thật sự.",
+   "Có thể bạn thấy mình đang ở đúng chỗ mình từng mong được đứng, dù trước đây chưa kịp nhận ra."
+  ],
+  "love": "Người độc thân dễ được ai đó để ý hoặc nhắn hỏi thăm, và hôm nay bạn có xu hướng đáp lại thoải mái, không cần suy tính quá nhiều. Đang tìm hiểu thì có thể có một bước tiến nhỏ như lời mời gặp hoặc một câu hỏi thân mật hơn thường lệ. Đang yêu thì hãy nói thẳng rằng bạn trân trọng điều gì ở người kia, cụ thể và có ví dụ.",
+  "career": "Công sức bạn đổ ra có khả năng được ghi nhận bằng một phản hồi tốt, một cơ hội hoặc một lời đề nghị. Hãy nhận lời khen mà đừng gạt đi bằng câu may thôi. Sinh viên dễ nhận kết quả hoặc nhận xét khiến mình yên tâm, hãy lưu lại để nhớ những lúc nản. Nếu bạn đang chờ một câu trả lời từ công ty hay trường học, hôm nay có thể là ngày có tín hiệu.",
+  "finance": "Dòng tiền có khả năng khá dễ chịu, có thể là một khoản chờ lâu về hoặc một khoản tiết kiệm thấy rõ hơn. Hôm nay hợp để sắp xếp lại các khoản đã có cho gọn gàng, ví dụ gom các tài khoản nhỏ lẻ hoặc đặt tên cho từng khoản tiết kiệm theo mục đích. Đặt tên rõ cho từng khoản cũng giúp bạn thấy mình đang có gì.",
+  "insight": "Có thể bạn quen chờ điều tốt kèm một điều xấu theo sau, nên khi nó đến thật lại ngần ngại. Bạn không cần trả giá cho niềm vui bằng cách lo trước. Niềm vui đến sớm không bị tính phí bằng nỗi sợ, và việc nhận nó trọn vẹn không làm bạn kém cảnh giác, chỉ làm bạn nhớ rằng mình cũng có lúc được thuận lợi.",
+  "memorable_message": "Có thể bạn đã quá quen với việc xin, nên quên mất cách cầm chiếc cốc khi nó được đưa tới.",
+  "advice": "Hôm nay khi nhận một lời khen hay một điều tốt, chỉ nói cảm ơn rồi dừng ở đó, không giải thích hay hạ thấp. Hãy thử ngay trong lần đầu tiên bạn nghe lời khen, kể cả khi nó đến từ một người xa lạ. Bạn vẫn giữ được khiêm tốn mà không cần tự cắt bớt phần của mình.",
+  "keywords": [
+   "ước nguyện",
+   "được đón nhận",
+   "ghi nhận"
+  ]
+ },
+ {
+  "card_id": "nine-of-cups",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Năng lượng hôm nay thiên về hưởng thụ tinh tế: một bữa ăn ngon, một giấc nghỉ, một cuộc trò chuyện vui là đủ.",
+  "card": {
+   "name": "Chín Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 7,
+   "finance": 8,
+   "energy": 9
+  },
+  "headline": "Niềm vui hôm nay nằm ở chuyện rất đời thường.",
+  "card_meaning": "Nhìn kỹ Chín Cốc, bạn sẽ thấy điều hấp dẫn: người ngồi trên ghế không đang ở nơi nào đặc biệt, chỉ là một chiếc ghế dài với tấm màn xanh phía sau. Hạnh phúc ở đây không cần sân khấu, nó nằm trong khả năng thưởng thức những gì đang có. Bộ Cốc liên quan tới cảm xúc, và lá chín là đỉnh của sự đủ đầy về cảm giác, trước khi sang lá mười của gia đình và sự viên mãn. Ở chiều xuôi, đây là năng lượng của hưởng thụ tinh tế, khỏe và vui. Hôm nay lá bài đáng chú ý vì nó nhắc bạn rằng niềm vui không cần phải xứng đáng bằng thành tích.",
+  "forecast": [
+   "Bạn có xu hướng muốn chăm chút một việc nhỏ như nấu một bữa tử tế, mua một bó hoa hay dọn góc làm việc.",
+   "Một cuộc gặp gỡ bạn bè hoặc người thân có khả năng diễn ra vui hơn dự kiến, nhất là nếu bạn không cố làm cho nó hoàn hảo.",
+   "Có thể bạn ngủ ngon hoặc thấy cơ thể thoải mái hơn mọi ngày, một dấu hiệu nên tận dụng."
+  ],
+  "love": "Người độc thân dễ gặp người hợp tính trong một khung cảnh thoải mái như quán ăn, buổi tụ tập hay nơi quen thuộc, chứ không phải ở nơi bạn cố tình đi tìm. Đang tìm hiểu thì một buổi hẹn giản dị thường hiệu quả hơn một buổi hẹn cầu kỳ. Đang yêu thì cùng nhau ăn một món ngon đã là một cách yêu rất tốt, kể cả khi chỉ là món nấu vội ở nhà.",
+  "career": "Bạn làm việc trơn tru, ít cọ xát và dễ phối hợp với người khác. Hôm nay hợp để họp nhóm hoặc làm việc cùng ai đó, vì bầu không khí quanh bạn dễ chịu và khiến người khác muốn hợp tác. Hãy nhớ nghỉ giữa giờ, vì trạng thái tốt không có nghĩa là nên làm quá sức. Sinh viên thử học nhóm một buổi, hiệu quả có thể bất ngờ.",
+  "finance": "Bạn có xu hướng chi một chút cho niềm vui nhỏ, và nó hợp lý nếu nằm trong ngân sách đã định. Chọn một khoản thưởng cho mình và chốt trước số tiền để niềm vui không kèm cảm giác hối hận. Một bữa ăn ngon với người mình quý thường cho nhiều dư vị hơn một món đồ để trong tủ.",
+  "insight": "Có thể bạn thường xếp hạnh phúc ở một đích xa nào đó, trong khi nó vẫn đang hiện diện ở những buổi chiều bình thường. Hôm nay bạn có dịp nhận ra điều đó. Không ai bắt bạn phải đạt xong mọi thứ rồi mới được vui, và việc vui ngay trong lúc đang đi cũng là một cách đi nhanh hơn.",
+  "memorable_message": "Hạnh phúc thường không đến bằng pháo hoa, mà bằng một bữa cơm ấm đúng lúc.",
+  "advice": "Chọn một niềm vui nhỏ và dành đủ thời gian cho nó, không vừa làm vừa lướt điện thoại. Có thể là một bữa tối nấu chậm, một ly trà uống ngoài ban công, hay nửa tiếng nghe nhạc yêu thích. Nếu có ai đó cùng chia sẻ, niềm vui sẽ dày thêm.",
+  "keywords": [
+   "hưởng thụ",
+   "niềm vui đời thường",
+   "thoải mái"
+  ]
+ },
+ {
+  "card_id": "nine-of-cups",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Bạn có thể đang có khá nhiều thứ mà vẫn thấy trống: hôm nay hãy hỏi mình thật sự thiếu điều gì.",
+  "card": {
+   "name": "Chín Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Có cả bàn tiệc mà vẫn đói, thì món thiếu không nằm trên bàn.",
+  "card_meaning": "Khi Chín Cốc bị đảo ngược, hình ảnh người ngồi hài lòng vẫn còn đó, nhưng nụ cười có vẻ như nằm hơi lệch so với đôi mắt. Chín chiếc cốc đầy vẫn đứng đó mà niềm vui lại mỏng, giống một bữa tiệc ngon đến mức ăn xong vẫn thấy chưa no. Lá bài chỉ về sự thỏa mãn bề mặt: có đủ thứ để khoe nhưng thiếu điều chạm vào bên trong. Chiều ngược không bảo bạn phải bỏ hết những gì đang có, mà mời bạn hỏi xem điều mình thật sự khao khát là gì. Hôm nay nó đáng chú ý vì cảm giác trống lặng lẽ có thể nói thật hơn cảm giác thành công.",
+  "forecast": [
+   "Bạn có xu hướng đạt hoặc có được một điều mình muốn, rồi sau vài phút lại thấy nó nhạt hơn mong đợi.",
+   "Một khoảng trống nhỏ, khó gọi tên, dễ xuất hiện vào buổi tối, ngay cả khi mọi việc trong ngày đều ổn.",
+   "Có thể bạn lướt mạng nhiều hơn bình thường để lấp cảm giác đó, và càng lướt càng thấy rỗng."
+  ],
+  "love": "Người độc thân dễ thấy chuyện trò vui vẻ nhưng chưa chạm tới chỗ sâu, và bạn thấy hơi hụt sau mỗi cuộc gặp. Đang tìm hiểu thì hãy tự hỏi mình có đang chạy theo vẻ ngoài hay sự kết nối thật. Đang yêu thì có thể mọi thứ đủ đầy mà thiếu một cuộc nói chuyện thật, kiểu hỏi nhau gần đây thấy thế nào mà không cần câu trả lời mẫu.",
+  "career": "Bạn đạt được mục tiêu nhưng cảm giác phần thưởng không như tưởng tượng. Đây là dấu hiệu nên xem lại điều mình thật sự muốn, thay vì chỉ thêm một mục tiêu nữa lên danh sách. Sinh viên có thể đạt điểm tốt mà vẫn thấy mơ hồ về việc mình đang học để làm gì. Thử hỏi một người làm đúng nghề đó xem một ngày của họ thật ra ra sao.",
+  "finance": "Dòng tiền không có vấn đề lớn, nhưng niềm vui khi mua sắm có xu hướng ngắn hơn bình thường. Trước khi chi, hỏi mình món này giải quyết nhu cầu gì, rồi chọn thứ trả lời được câu hỏi đó. Nếu câu trả lời là để cho bớt chán thì có lẽ món đó chưa phải thứ bạn cần.",
+  "insight": "Có thể điều bạn thiếu không phải là thêm một thứ gì, mà là một cảm giác được thật lòng gặp gỡ, với người khác hoặc với chính mình. Vì vậy chỉ cần thêm đồ vật sẽ không lấp đầy được nó. Khoảng trống này cũng không phải bằng chứng bạn kém biết ơn, mà có thể là tín hiệu rằng cuộc sống đang thiếu một điều gì đó sâu hơn, gần gũi hơn.",
+  "memorable_message": "Chiếc cốc đầy đến đâu cũng không thấm vào chỗ mà nó không chạm tới.",
+  "advice": "Thay vì thêm một thứ gì đó, hãy làm một việc khiến bạn cảm thấy thật, như gọi cho người bạn tin hoặc ngồi viết vài dòng thật lòng vào cuối ngày. Chọn cách nào là quyền của bạn, miễn đó là cách bạn không tự lừa mình. Cuộc gọi mười phút vẫn tốt hơn ba tiếng lướt điện thoại.",
+  "keywords": [
+   "trống rỗng",
+   "thỏa mãn hời hợt",
+   "tìm điều thật"
+  ]
+ },
+ {
+  "card_id": "nine-of-cups",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Tham muốn đang chạy trước sự hài lòng: hôm nay đích đến cứ lùi xa mỗi khi bạn tới gần.",
+  "card": {
+   "name": "Chín Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 5,
+   "finance": 3,
+   "energy": 5
+  },
+  "headline": "Càng cầm nhiều, bạn càng khó thấy mình đã có đủ.",
+  "card_meaning": "Chín Cốc ngược cho thấy điều nghịch lý: càng nhiều cốc thì người ta càng khó thấy mình đã đủ. Bàn tiệc phía sau vẫn đầy, nhưng ánh mắt người ngồi đã quay sang bàn bên cạnh để xem họ có gì. Lá bài này mang sắc thái của tham muốn và so sánh, nơi sự thỏa mãn bị đẩy lùi mỗi khi ta chạm gần nó. Nó không kết tội ham muốn, vì muốn nhiều hơn là chuyện bình thường, mà chỉ cảnh báo khi ta chưa từng định nghĩa thế nào là đủ. Hôm nay đáng chú ý vì thước đo của người khác có thể dễ lấn át thước đo của bạn.",
+  "forecast": [
+   "Bạn có xu hướng so sánh mình với một người khác, thường qua một bài đăng hay một câu chuyện nghe được, và so xong thường thấy mình thiếu.",
+   "Một món đồ, một lời mời hay một thành tựu của người khác dễ khơi lên cảm giác muốn thêm nữa.",
+   "Có thể bạn mua hoặc nhận về một thứ rồi nhanh chóng nghĩ đến thứ kế tiếp."
+  ],
+  "love": "Người độc thân dễ để mắt tới người có vẻ ngoài hay hồ sơ hấp dẫn hơn là người thật sự hợp, và dễ lướt tiếp vì luôn nghĩ có ai đó tốt hơn. Đang tìm hiểu thì tránh so sánh đối phương với một chuẩn không có thật. Đang yêu thì cảm giác phải có thêm nữa dễ làm bạn bỏ qua những điều người kia đang làm tốt, hãy thử kể ra ba điều.",
+  "career": "Cạnh tranh ngầm và cảm giác bị bỏ lại phía sau có thể làm bạn kém tập trung, nhất là khi nghe tin đồng nghiệp hay bạn cùng lớp có bước tiến mới. Đừng đo mình bằng thang điểm của người khác, vì mỗi người đang ở một mặt trận khác nhau. Kéo mục tiêu về những gì bạn thực sự cần cho giai đoạn này.",
+  "finance": "Đây là điểm dễ trượt nhất hôm nay: chi tiêu để lấp cảm giác thèm, đặc biệt những món mang tính hình ảnh như đồ hiệu hay gói trải nghiệm để đăng lên mạng. Đặt quy tắc chờ 24 giờ cho mọi khoản không thiết yếu và xem điều gì còn muốn sau đó. Món nào qua được 24 giờ mà bạn vẫn thấy cần, mua cũng không muộn.",
+  "insight": "Có thể bạn không tham, bạn chỉ đang tìm một mức đủ mà bản thân chưa bao giờ được tự xác định. Khi chưa có mức đủ, đích nào cũng sẽ lùi ra xa, giống như đuổi theo đường chân trời. Biết mình đủ ở đâu chính là một dạng tự do, vì nó cho bạn quyền đứng lại mà không thấy mình thua.",
+  "memorable_message": "Nếu chưa định nghĩa thế nào là đủ, bạn sẽ chạy theo một vạch đích biết đi.",
+  "advice": "Viết ra con số hoặc hình ảnh cụ thể của từ đủ trong một lĩnh vực bạn hay so sánh nhất, như thu nhập, ngoại hình hay thành tích. Làm việc này vào buổi tối, khi ít bị kích thích bởi mạng xã hội. Rồi mỗi lần thấy thèm, đối chiếu nó với định nghĩa của riêng bạn thay vì của người khác.",
+  "keywords": [
+   "tham muốn",
+   "so sánh",
+   "định nghĩa chữ đủ"
+  ]
+ },
+ {
+  "card_id": "nine-of-cups",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Sự tự mãn có thể làm bạn chậm thấy điều chưa ổn: hôm nay hãy nghe thêm một ý kiến trước khi tự khen mình.",
+  "card": {
+   "name": "Chín Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Tự hào là đủ, tự mãn là khóa cửa nhìn thêm.",
+  "card_meaning": "Người ngồi trong Chín Cốc có tư thế khoanh tay của người thấy mình đã làm tốt, và ở chiều ngược, tư thế đó dễ trượt thành tự mãn. Chín chiếc cốc sau lưng che gần hết tầm nhìn của anh ta. Lá bài chỉ ra mặt tối của sự hài lòng: khi ta quá chắc về bản thân thì dễ bỏ sót phản hồi, chi tiết nhỏ hay cảm xúc của người khác. Tự hào là chính đáng, vấn đề chỉ nảy sinh khi niềm tự hào đóng cửa với điều mới. Hôm nay đáng chú ý vì thuận lợi có thể làm bạn chậm nhận ra điều cần chỉnh.",
+  "forecast": [
+   "Bạn có xu hướng thấy mình đã làm tốt và bỏ qua một lời góp ý nhỏ nhưng có giá trị.",
+   "Một cuộc nói chuyện dễ chuyển sang kể thành tích, và người nghe có thể phản ứng hơi lạnh hơn bạn kỳ vọng.",
+   "Có thể bạn bỏ lỡ một dấu hiệu nhỏ trong công việc hoặc cảm xúc của ai đó vì đang tin rằng mọi thứ ổn."
+  ],
+  "love": "Người độc thân dễ đánh giá nhanh về người khác theo tiêu chuẩn cao của mình mà quên rằng mình cũng đang được đánh giá. Đang tìm hiểu thì hãy hỏi nhiều hơn là kể, vì sự tò mò thường dễ thương hơn một bảng thành tích. Đang yêu thì lắng nghe một điều người kia ngại nói, thay vì mặc định rằng mọi thứ đang tốt.",
+  "career": "Một thành quả gần đây khiến bạn dễ lơi tay, và chi tiết nhỏ có xu hướng bị bỏ sót, như một con số sai hay một email chưa trả lời. Hãy nhờ một đồng nghiệp tin cậy xem qua trước khi bạn chốt, đừng chỉ dựa vào cảm giác mình ổn. Chấp nhận phản hồi là cách giữ phong độ lâu dài.",
+  "finance": "Lòng tin dễ vượt quá thực tế, nên bạn có thể chi hoặc hứa hẹn hơi quá tay vì cảm giác đang thuận lợi, ví dụ mời cả nhóm hoặc nhận chi thay một khoản chung. Đối chiếu với số liệu thật trước khi chốt các khoản chi lớn. Nếu có ai đó nói con số làm bạn chưng hửng, hãy xem lại nó thay vì cãi.",
+  "insight": "Có thể niềm tự hào của bạn là có thật và xứng đáng, chỉ là nó đang che mất phần bạn còn cần học. Người giỏi thật thường đủ vững để nghe điều chưa vừa ý, vì họ biết nghe không làm họ nhỏ đi. Một lời góp ý đến vào đúng lúc bạn thấy mình ổn nhất cũng thường là lời có ích nhất.",
+  "memorable_message": "Cái cốc đầy rồi thì không rót thêm được, dù nước mới có ngon đến đâu.",
+  "advice": "Hôm nay chủ động hỏi một người bạn tin vào buổi sáng: có điều gì mình đang bỏ sót không? Có thể hỏi về công việc, cách nói chuyện hay bất cứ thứ gì bạn vừa làm tốt. Nghe xong, bạn muốn nhận hay bỏ là quyền của bạn, nhưng hãy nghe trọn câu trước đã.",
+  "keywords": [
+   "tự mãn",
+   "kiêu ngạo",
+   "chịu lắng nghe"
+  ]
+ }
+]

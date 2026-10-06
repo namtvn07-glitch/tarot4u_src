@@ -1,0 +1,650 @@
+[
+ {
+  "card_id": "the-hanged-man",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay có một khoảng chờ không thể rút ngắn, và dùng nó đúng cách sẽ có ích hơn là cố đẩy nó đi.",
+  "card": {
+   "name": "Kẻ Treo Ngược",
+   "arcana": "Major",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 6,
+   "career": 5,
+   "finance": 6,
+   "energy": 5
+  },
+  "headline": "Có những ngày tiến bộ nhất là ngày chịu đứng yên.",
+  "card_meaning": "Kẻ Treo Ngược là lá số 12: một người đàn ông bị treo ngược bằng một chân vào cành cây, hai tay thả lỏng sau lưng, và quanh đầu anh có một vầng sáng nhẹ. Điều lạ là gương mặt anh bình thản, vì anh không bị trói buộc mà tự chọn đứng yên. Lá bài nói về một khoảng dừng có chủ đích, nơi bạn chịu thôi hành động để nhìn mọi thứ từ tầm khác. Ở chiều xuôi, sự chờ đợi này mang tính chuẩn bị chứ không phải bất lực. Hôm nay nó đáng chú ý vì khoảng chờ là thứ nhiều người dễ coi là kẻ thù.",
+  "forecast": [
+   "Một việc bạn đang mong có phản hồi, như email, kết quả hay lời xác nhận, có xu hướng chưa có tin, và nhắc thêm một lần nữa chưa chắc giúp được gì.",
+   "Bạn dễ gặp một khoảng trống giữa hai việc vào quãng giữa ngày, kiểu cuộc họp bị dời hoặc người hẹn đến muộn mười lăm phút.",
+   "Trong lúc chờ, một ý nghĩ rõ ràng hơn về chuyện đang lấn cấn có thể tự nổi lên mà bạn không cần ép, thường là lúc đang rửa tay hay đi bộ."
+  ],
+  "love": "Với người đang tìm hiểu, nhịp của đối phương có thể chậm hơn bạn mong, và dồn thêm câu hỏi chỉ làm cả hai nặng nề. Nếu một tin nhắn chưa được trả lời, hãy để nó yên thêm vài giờ rồi hẵng đọc lại tình hình. Đang yêu thì có một chuyện nên để qua một đêm trước khi bàn, vì sáng hôm sau cả hai thường nói nhẹ hơn. Người độc thân chưa cần ép mình đi gặp ai, hôm nay hợp để quan sát hơn là chào hàng.",
+  "career": "Tiến độ có thể chậm lại vì phụ thuộc vào người khác duyệt hoặc phản hồi, và việc đó nằm ngoài tầm tay bạn. Thay vì ngồi canh hộp thư, hãy dùng quãng rảnh để dọn lại tài liệu, đặt tên lại các file hoặc đọc kỹ phần bạn vẫn lướt qua. Đó là loại việc không ai giục nhưng lúc cần lại cứu bạn. Sinh viên có thể nhờ khoảng chờ mà hiểu bài sâu hơn thay vì vội học thêm bài mới.",
+  "finance": "Tiền đang ở trạng thái đứng im, chưa có biến động lớn nào. Hôm nay hợp để xem lại những khoản đang chờ, như khoản cần thanh toán, khoản đang đợi hoàn hoặc đợi nhận, hơn là đưa ra quyết định mới. Mở bảng chi tiêu ra đọc một lượt mà chưa cần sửa gì cũng là việc đáng làm. Nếu thấy mình muốn mua gì đó chỉ để có cảm giác chuyển động, hãy để món đó trong giỏ qua đêm.",
+  "insight": "Có thể bạn coi mọi khoảng chờ là thời gian bị lãng phí, nên cứ phải làm gì đó cho đỡ cảm giác bất lực. Nhưng đôi khi đứng im là lúc duy nhất bạn nhìn thấy rõ cả bức tranh, vì tay chân thôi bận thì mắt mới có chỗ. Hình ảnh người treo ngược nhắc rằng thế giới vẫn y nguyên, chỉ có chỗ nhìn của bạn là khác. Hôm nay thử xem điều gì hiện ra khi bạn không tìm cách lấp khoảng trống.",
+  "memorable_message": "Có những câu trả lời chỉ đến với người chịu ngồi yên đủ lâu để nghe.",
+  "advice": "Chọn một việc đang chờ và cho phép mình không đụng vào nó đến hết ngày, kể cả không mở ra xem. Có thể dán một mẩu giấy nhắc lên màn hình để khỏi lỡ tay kiểm tra. Dùng khoảng thời gian đó cho một việc nhỏ trong tầm tay như xếp lại bàn làm việc hoặc đi bộ mười phút. Nếu cuối ngày vẫn chưa có tin, bạn có thể nhắc, và lúc đó đầu óc sẽ nhẹ hơn.",
+  "keywords": [
+   "tạm dừng",
+   "chờ đợi",
+   "nhìn rõ hơn"
+  ]
+ },
+ {
+  "card_id": "the-hanged-man",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay bạn có thể nhường một thứ nhỏ để đổi lấy một thứ lớn hơn, nếu chính bạn chọn chứ không bị bắt buộc.",
+  "card": {
+   "name": "Kẻ Treo Ngược",
+   "arcana": "Major",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 7,
+   "career": 5,
+   "finance": 6,
+   "energy": 5
+  },
+  "headline": "Nhường một bước không phải là thua, nếu chính bạn chọn nó.",
+  "card_meaning": "Trên lá Kẻ Treo Ngược, người đàn ông buộc một chân vào cành cây hình chữ T, đầu quay xuống nhưng quanh đầu lại tỏa một vầng sáng. Hình ảnh ấy cho thấy một sự đánh đổi: anh chịu mất thế đứng thông thường để lấy một hiểu biết mà người đứng thẳng không có. Ở chiều xuôi, sự hy sinh mang tính tự nguyện, nghĩa là bạn biết mình bỏ gì và vì sao. Đó là khác biệt giữa nhường nhịn có chủ đích và bị ép chịu thiệt. Hôm nay lá bài đáng chú ý vì nó hỏi một câu rất đời thường: bạn đang sẵn lòng trả giá cho điều gì.",
+  "forecast": [
+   "Có xu hướng xuất hiện một tình huống mà bạn chọn để người khác nói trước hoặc quyết trước, chẳng hạn chuyện chọn quán, chọn giờ họp hay chọn phương án.",
+   "Một thứ bạn định giữ chặt, như ý kiến, lịch cá nhân hay một thói quen, dễ lộ ra là nhẹ hơn khi thả tay.",
+   "Bạn có thể nhận ra một khoản đánh đổi mà mình đã trả từ lâu mà chưa gọi tên, ví dụ thời gian dành cho một việc hay một mối quan hệ."
+  ],
+  "love": "Nhường nhịn đúng lúc dễ làm không khí giữa hai người mềm đi, miễn là bạn nhường vì muốn chứ không vì sợ. Nếu đang tìm hiểu ai đó, để họ chọn quán hoặc giờ hẹn là một cử chỉ đáng điểm, và bạn nên để ý xem họ có đáp lại sự nhường ấy không. Đang yêu thì thử nhận phần trách nhiệm cho một chuyện nhỏ mà không đòi đối phương nhận lại. Người độc thân nên cẩn thận đừng hạ chuẩn của mình chỉ để được yên.",
+  "career": "Có thể bạn nhận thêm một phần việc không ai nhớ giao, hoặc nhường công cho đồng đội trong một buổi báo cáo. Hãy ghi lại để tự biết mình đã đóng góp gì, và chỉ nhận khi nó đổi lại điều thật cho bạn, như kinh nghiệm, kỹ năng mới hay một mối quan hệ đáng giá. Nếu không thấy món đổi lại nào, đó là tín hiệu để thương lượng. Sinh viên có thể bỏ một buổi chơi để dọn xong việc tồn đọng, miễn là chính bạn chọn vậy.",
+  "finance": "Hôm nay nghiêng về chuyện đánh đổi: bỏ một khoản vui để dành cho một khoản cần, hoặc ngược lại. Cắt giảm có chủ đích sẽ nhẹ đầu hơn là đến lúc túng mới phải cắt. Bạn có thể chọn một khoản chi quen thuộc như trà sữa hay đặt đồ ăn, và tạm bỏ nó trong hôm nay để xem mình có thật sự thiếu nó không. Điều đáng nhìn là cảm giác sau khi chọn, không phải con số tiết kiệm được.",
+  "insight": "Có thể bạn đang phân vân giữa thứ mình muốn giữ và cái giá phải trả cho nó, và chưa dám tính cho rõ vì sợ con số hơi khó chịu. Hy sinh chỉ có nghĩa khi bạn biết rõ mình đổi cái gì lấy cái gì. Người treo trên cành cây còn có vầng sáng quanh đầu vì anh hiểu mình đang làm gì. Hôm nay thử gọi tên cả hai vế của phép đổi chác ấy.",
+  "memorable_message": "Cái giá chỉ đau khi bạn không nhớ mình đã chọn trả nó vì điều gì.",
+  "advice": "Trước khi nhường hay nhận thêm bất cứ điều gì, hãy tự hỏi một câu: mình đổi cái này lấy gì. Làm điều này ngay lúc người kia đề nghị, bằng cách xin vài giây im lặng hoặc nói để mình xem lại lịch. Nếu có câu trả lời rõ thì cứ nhường. Nếu chưa, bạn có quyền nói để mình nghĩ thêm rồi mới trả lời vào cuối ngày.",
+  "keywords": [
+   "hy sinh có chủ đích",
+   "đánh đổi",
+   "buông nhẹ"
+  ]
+ },
+ {
+  "card_id": "the-hanged-man",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Một vấn đề cũ có thể trở nên khác khi bạn thử nhìn từ phía đối diện, mà chưa cần làm thêm gì.",
+  "card": {
+   "name": "Kẻ Treo Ngược",
+   "arcana": "Major",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 6,
+   "career": 6,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Đổi chỗ đứng đôi khi rẻ hơn đổi cả kế hoạch.",
+  "card_meaning": "Điều làm Kẻ Treo Ngược khác mọi lá khác là tư thế đảo ngược: người đàn ông nhìn thế giới lộn đầu, và chính điều đó cho anh một góc nhìn mà người đi đường không có. Lá số 12 này thường nói về khoảnh khắc ta chịu đổi chỗ đứng, thay vì cố đổi cả thế giới. Ở chiều xuôi, góc nhìn mới đến một cách nhẹ nhàng, không cần đấu tranh, chỉ cần bạn sẵn lòng xoay lại. Lá bài cũng ngầm cho biết lối nghĩ quen thuộc chưa chắc là lối nghĩ duy nhất. Hôm nay nó đáng chú ý vì có một vấn đề cũ đang chờ bạn nhìn khác đi.",
+  "forecast": [
+   "Một lời của người khác, vốn nghe khó chịu, có xu hướng nghe hợp lý hơn khi bạn thử đặt mình vào vị trí họ, nhất là nếu bạn nghĩ lại vào buổi tối.",
+   "Bạn dễ nhận ra một cách giải quyết mà trước giờ bị che khuất vì cứ nhìn theo thói quen.",
+   "Có thể một tình huống tưởng là rắc rối lại lộ ra một mặt có lợi, thường là khi bạn kể lại cho một người ngoài cuộc."
+  ],
+  "love": "Có một chuyện làm bạn tự ái, và hôm nay hợp để thử nghĩ xem người kia đang thấy gì từ phía họ. Điều này không có nghĩa họ đúng, chỉ là bạn hiểu rõ hơn họ đang phản ứng vì điều gì. Nếu đang yêu, thử hỏi một câu như 'chuyện hôm đó với bạn trông thế nào' và chỉ nghe, không cãi lại. Người độc thân có thể đổi cách nhìn về kiểu người mà mình vẫn nghĩ là mình thích.",
+  "career": "Một bài toán đang bí có thể mở ra nếu bạn hỏi lại từ đầu: nếu làm ngược lại thì sao. Hãy nghe ý kiến của người ít liên quan nhất tới việc đó, vì họ nhìn không bị lệch theo thói quen của nhóm. Thử đảo thứ tự các bước hoặc bắt đầu từ kết quả mong muốn rồi lùi về. Sinh viên thử giải thích bài cho người khác nghe để tìm ra chỗ hổng.",
+  "finance": "Cách nhìn về tiền hôm nay có thể đổi một chút: thứ bạn coi là tốn kém hóa ra là khoản đáng bỏ cho sự thoải mái, hoặc ngược lại, thứ bạn coi là tiết kiệm lại đang lấy của bạn nhiều thời gian. Đừng vội quyết gì, chỉ cần ghi lại phát hiện đó. Thử tính một khoản chi quen theo giá mỗi lần dùng thay vì giá lúc mua, đôi khi con số hiện ra rất khác.",
+  "insight": "Có thể bạn không bị kẹt vì thiếu giải pháp, mà vì đã nhìn một chuyện bằng cùng một góc quá lâu. Khi góc nhìn đổi, nhiều điều tưởng nặng bỗng nhẹ đi, hoặc ít nhất lộ rõ phần nào thật sự nặng. Chuyện đó không đòi bạn hành động ngay, vì thấy khác đi đã là một bước. Hôm nay có lẽ hợp để tò mò về một điều mình vẫn nghĩ là mình hiểu hết.",
+  "memorable_message": "Bài toán vẫn là bài toán đó, chỉ là hôm nay bạn đổi chỗ ngồi.",
+  "advice": "Chọn một chuyện đang vướng và viết ra cách người kia, hoặc một người ngoài cuộc, sẽ mô tả nó. Chỉ cần ba câu, ghi vào điện thoại lúc nghỉ trưa hoặc trước khi ngủ. Rồi đọc lại và xem bạn có thấy điều gì mới không. Nếu không thấy gì thì cũng không sao, bạn vừa thử một cách nhìn và có thể thử lại vào lúc khác.",
+  "keywords": [
+   "góc nhìn mới",
+   "đảo chiều",
+   "thấu hiểu"
+  ]
+ },
+ {
+  "card_id": "the-hanged-man",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Bạn đang chờ một tín hiệu mà thật ra chỉ bạn mới có thể phát, và khoảng chờ này đã hết tác dụng.",
+  "card": {
+   "name": "Kẻ Treo Ngược",
+   "arcana": "Major",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 4,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Chờ thêm không còn là kiên nhẫn, nó là một cách trì hoãn.",
+  "card_meaning": "Khi Kẻ Treo Ngược xuất hiện ngược, hình ảnh người treo mình bình thản trên cành cây đổi nghĩa: sự tạm dừng không còn là lựa chọn sáng suốt mà đã thành thói quen trì hoãn. Lá số 12 vốn là lá của chờ đợi có mục đích, nhưng chiều ngược cho thấy cái mục đích ấy đã hết hạn từ lâu mà người treo chỉ chưa chịu xuống. Nó cũng có thể nói về sự chống cự, khi bạn giữ nguyên tư thế vì quen chứ không vì nó còn đem lại điều gì. Hôm nay lá bài đáng chú ý vì nó gọi đúng tên cảm giác đứng yên mà không còn thấy bình yên.",
+  "forecast": [
+   "Bạn có xu hướng mở lại cùng một danh sách, một cuộc trò chuyện hoặc một tab trình duyệt mà vẫn chưa bấm quyết định.",
+   "Một lý do mới để chờ thêm dễ xuất hiện vào lúc giữa ngày, nghe rất hợp lý nhưng lại giống mấy lý do trước.",
+   "Có thể một người quanh bạn hỏi thẳng là tới đâu rồi, và câu trả lời của bạn làm chính bạn khựng lại."
+  ],
+  "love": "Có thể bạn đang chờ đối phương nói hoặc làm điều gì đó trước, trong khi bản thân cũng chưa nói điều mình muốn. Nếu chuyện cứ treo đã lâu, hãy hỏi một câu rõ ràng thay vì đọc ý qua tin nhắn, ví dụ bạn nghĩ sao nếu cuối tuần này tụi mình gặp nhau. Người đang yêu thử nhắc lại một chuyện đã hoãn bàn nhiều lần. Người độc thân dễ viện cớ chưa sẵn sàng để khỏi phải thử.",
+  "career": "Một quyết định, một lần nộp hồ sơ hay một cuộc nói chuyện với sếp đang bị hoãn hết lần này sang lần khác. Sự chuẩn bị hôm nay chỉ còn thêm được rất ít, phần còn lại là bấm nút. Hãy đặt cho nó một mốc giờ cụ thể trong ngày, và báo cho một đồng nghiệp tin cậy để có người nhắc. Sinh viên có thể gửi email hỏi thầy cô hoặc đăng ký môn mà mình cứ để đó.",
+  "finance": "Một việc tiền bạc bạn cứ để đó, như kiểm tra sao kê, hủy một khoản định kỳ hoặc nhắc người quen trả tiền, đang cần được xử lý. Trì hoãn không làm nó nhỏ đi, chỉ làm cảm giác lấn cấn lớn thêm. Chọn đúng một việc trong số đó và làm nó trong mười phút, không cần làm cả ba. Chỉ cần một khoản được đóng lại là đủ để đầu óc nhẹ bớt.",
+  "insight": "Có thể sự chờ đợi lúc này đang bảo vệ bạn khỏi một câu trả lời mà mình đã đoán được. Chưa có kết quả thì còn hy vọng, và đó là điều làm việc dừng lại trở nên dễ chịu. Khi hy vọng được giữ bằng cách không hỏi, nó ngày càng mỏng đi. Đây không phải lỗi của bạn, nhưng hôm nay lá bài gợi ý rằng biết câu trả lời có thể nhẹ hơn cảm giác lơ lửng.",
+  "memorable_message": "Chờ để biết thêm là kiên nhẫn, chờ để khỏi phải chọn là né tránh.",
+  "advice": "Đặt hẹn giờ 15 phút và làm bước đầu tiên của việc bị hoãn lâu nhất, dù chỉ là soạn một dòng. Làm ngay khi có khoảng trống đầu tiên trong buổi sáng, trước khi lý do mới kịp xuất hiện. Không cần gửi nếu chưa muốn, chỉ cần chữ đã nằm trên màn hình. Sau đó bạn vẫn có thể dừng nếu thấy cần.",
+  "keywords": [
+   "trì hoãn",
+   "mắc kẹt",
+   "né tránh"
+  ]
+ },
+ {
+  "card_id": "the-hanged-man",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Có một điều bạn đang gánh thay người khác mà chẳng ai yêu cầu, và hôm nay hợp để hỏi vì sao.",
+  "card": {
+   "name": "Kẻ Treo Ngược",
+   "arcana": "Major",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 4,
+   "energy": 4
+  },
+  "headline": "Hy sinh mà không ai nhận thì chỉ là tự bỏ đói mình.",
+  "card_meaning": "Kẻ Treo Ngược ở chiều ngược nhấn vào bóng tối của sự hy sinh: người đàn ông vẫn treo mình đó, nhưng vầng sáng quanh đầu đã mờ đi vì chẳng ai nhận ra anh đang trả giá điều gì. Lá số 12 vốn nói về nhượng bộ để đổi lấy một điều lớn hơn, nên khi đảo chiều, câu hỏi chuyển thành: món đổi lại đâu rồi. Đây là kiểu hy sinh vô nghĩa, tức cho đi liên tục mà không rõ vì điều gì, thường do ngại va chạm hơn là do tình nguyện. Hôm nay nó đáng chú ý vì có thể bạn đang gánh một thứ đã quá hạn mức.",
+  "forecast": [
+   "Bạn có xu hướng nhận thêm việc hoặc nhận lỗi thay người khác chỉ vì ngại mất lòng, thường trong một nhóm chat hoặc buổi họp.",
+   "Một chút bực bội ngầm có thể nổi lên khi thấy mình cho đi nhiều hơn nhận lại, nhất là về cuối ngày.",
+   "Có thể bạn nhận ra một thói quen nhường nhịn lặp đi lặp lại với cùng một người."
+  ],
+  "love": "Có thể bạn là người luôn giữ hòa khí, và điều đó bắt đầu thành cảm giác bị thiệt. Nếu cứ im lặng chịu đựng, đối phương thường không biết bạn đang mệt, vì người ta ít khi nhận ra điều không được nói ra. Thử nói một câu về nhu cầu của mình mà không kèm lời xin lỗi. Người độc thân cẩn thận với việc cố làm hài lòng người mới quen, nhất là khi bạn thấy mình bắt đầu đổi sở thích cho hợp họ.",
+  "career": "Một phần việc không thuộc về bạn có thể rơi lên bàn bạn, kèm câu nhờ nghe rất nhẹ nhàng. Bạn có quyền nói rõ phần nào là của mình và phần nào cần thương lượng lại, chẳng hạn bằng câu 'phần này mình làm được nếu bạn gửi trước số liệu cho mình'. Sinh viên đừng làm hết bài nhóm chỉ vì sợ cả nhóm bị điểm thấp, hãy chia lại cho rõ ràng.",
+  "finance": "Dễ có chuyện bạn trả hộ, cho mượn hoặc chịu thiệt một khoản vì ngại nhắc. Hôm nay nên nhìn lại những khoản đã cho đi mà chưa có hẹn lại, thử liệt kê ra giấy xem có bao nhiêu khoản và với ai. Chưa cần đòi, chỉ cần biết rõ. Nếu lại có người ngỏ lời nhờ, bạn có thể hẹn trả lời sau thay vì gật ngay.",
+  "insight": "Có thể bạn tin rằng chịu thiệt là cách để giữ người ở lại. Nhưng người ở lại vì bạn luôn nhường thì chưa chắc ở lại vì bạn, họ có thể chỉ ở lại vì sự tiện lợi. Lá bài không bảo bạn thôi tốt bụng, nó hỏi liệu sự tốt bụng ấy có còn do bạn chọn hay đã thành phản xạ. Hôm nay thử để ý khoảnh khắc mình gật đầu trước khi kịp nghĩ.",
+  "memorable_message": "Chịu thiệt có hạn mức, và hạn mức của bạn không phải vô tận.",
+  "advice": "Hôm nay thử nói không với một việc nhỏ, bằng một câu lịch sự và không giải thích dài dòng, như 'hôm nay mình không giúp được nhé'. Chọn một yêu cầu ít rủi ro nhất để thử, tốt nhất là vào buổi sáng khi bạn còn đủ sức. Nếu muốn giúp thì giúp có thời hạn và nói rõ trước. Cảm giác của bạn sau khi từ chối là thứ đáng quan sát.",
+  "keywords": [
+   "hy sinh vô nghĩa",
+   "ranh giới",
+   "tự nhường"
+  ]
+ },
+ {
+  "card_id": "the-hanged-man",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Bạn đang chống lại một nhịp dừng mà cơ thể và đầu óc đã xin từ lâu, và càng gồng càng mệt.",
+  "card": {
+   "name": "Kẻ Treo Ngược",
+   "arcana": "Major",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 4,
+   "finance": 4,
+   "energy": 3
+  },
+  "headline": "Bạn không kẹt vì thiếu cố gắng, bạn kẹt vì cố sai hướng.",
+  "card_meaning": "Kẻ Treo Ngược mang số 12, hình ảnh một người treo lơ lửng mà vẫn yên tâm. Khi lá bài đảo chiều, sự yên tâm ấy bị thay bằng giằng co: bạn như đang cố đứng thẳng dậy trong lúc cành cây không chịu nhả. Ở góc đọc này, năng lượng của lá không phải là trì hoãn mà là chống cự một nhịp dừng mà đời sống đang đưa tới. Nhiều khi cơ thể và đầu óc xin nghỉ sớm hơn lý trí cho phép. Hôm nay lá bài đáng chú ý vì nó nhắc rằng gồng thêm không đồng nghĩa với tiến thêm.",
+  "forecast": [
+   "Có xu hướng làm việc nhiều hơn nhưng cảm giác hiệu quả lại ít hơn, nhất là vào buổi chiều.",
+   "Một kế hoạch bạn đang ép chạy có thể gặp một chỗ chặn lặp lại, vừa giải quyết xong chỗ này lại có chỗ khác.",
+   "Bạn dễ cáu với những việc nhỏ, như mạng chậm hay một câu nói vốn không có ý xấu."
+  ],
+  "love": "Khi bạn cố kiểm soát cách mối quan hệ diễn ra, đối phương dễ cảm thấy áp lực mà không biết gọi tên. Hôm nay hợp để bớt sắp xếp và chờ xem họ tự nhiên ra sao, ví dụ không lên sẵn lịch cho cả buổi hẹn. Người đang yêu thử nhận ra mình đang mong chuyện đi theo kịch bản nào. Người độc thân đừng ép mình vào một cuộc hẹn chỉ để đỡ cảm giác lẻ loi.",
+  "career": "Làm thêm giờ hôm nay có thể không đổi lại tiến độ tương xứng, vì vấn đề nằm ở hướng chứ không ở sức. Dừng 10 phút để xem điều gì đang lặp lại mà không hiệu quả, như một bước bị làm đi làm lại hay một người đang chờ phản hồi từ bạn. Sau đó đổi cách làm thay vì tăng thêm giờ. Sinh viên có thể thử đổi cách học, chẳng hạn từ đọc sang làm đề.",
+  "finance": "Muốn giải quyết nhanh một áp lực tiền bạc có thể kéo bạn vào những quyết định gồng gánh, như nhận thêm một việc trái ngành chỉ vì cần tiền gấp. Thay vào đó, hãy kiểm tra xem có khoản rò rỉ nhỏ nào mà bạn đang bù bằng sự căng thẳng, ví dụ gói đăng ký bỏ quên hay phí phát sinh. Chỉ cần tìm ra một khoản, hôm nay đã là đủ.",
+  "insight": "Có thể bạn sợ rằng nếu dừng thì mọi thứ sẽ sụp, hoặc sợ nhận ra mình đang đi sai hướng. Sức chống cự thường mạnh nhất ở đúng chỗ cần mềm đi. Lá bài ngầm hỏi liệu có phải bạn đang dùng sự bận rộn để khỏi phải nhìn lại. Điều đó không có gì đáng xấu hổ, nhưng nếu bạn cho phép mình dừng một nhịp, có thể thế giới vẫn đứng nguyên đó chờ.",
+  "memorable_message": "Kéo mạnh hơn không giúp sợi dây hết rối.",
+  "advice": "Chọn một việc bạn đang gồng và nới lỏng một điều kiện của nó, như hạ mốc hôm nay xuống một nửa hoặc nhờ ai đó chia bớt một phần. Làm việc này ngay lúc bạn thấy mình bắt đầu cáu, đó là tín hiệu rõ nhất. Rồi nghỉ năm phút, đứng dậy uống nước, không nhìn điện thoại. Quyết định cuối vẫn là của bạn.",
+  "keywords": [
+   "chống cự",
+   "mắc kẹt",
+   "nới lỏng"
+  ]
+ },
+ {
+  "card_id": "death",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Một thứ đã hết hạn sử dụng đang chuẩn bị khép lại, và việc để nó đi sẽ mở chỗ cho điều khác.",
+  "card": {
+   "name": "Tử Thần",
+   "arcana": "Major",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 6,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Có những kết thúc chỉ là đóng một cuốn sổ đã viết hết trang.",
+  "card_meaning": "Tử Thần là lá số 13, và trái với tên gọi, hiếm khi nói về cái chết thật. Hình ảnh trên lá là một bộ xương cưỡi ngựa trắng, mang lá cờ có bông hồng trắng, đi qua mọi tầng lớp từ vua chúa tới trẻ nhỏ mà không nhượng bộ ai. Ý nghĩa cốt lõi là sự kết thúc tự nhiên của một chu kỳ để chỗ cho chu kỳ kế tiếp. Ở chiều xuôi, nó nói về một sự khép lại cần thiết, rõ ràng và có phần nhẹ nhõm. Hôm nay lá bài đáng chú ý vì một thứ đã hết hạn dùng đang ở rất gần bạn.",
+  "forecast": [
+   "Một thói quen, một cuộc nói chuyện hay một việc kéo dài đã lâu có xu hướng đi tới điểm dừng tự nhiên, không cần ai tuyên bố.",
+   "Bạn dễ nhận ra mình không còn hứng thú với một thứ từng rất quan trọng, như một nhóm chat, một sở thích hay một mục tiêu cũ.",
+   "Có thể xuất hiện một khoảng trống nhỏ sau khi một việc xong, và khoảng trống đó chưa cần lấp ngay."
+  ],
+  "love": "Một kiểu tương tác, một thói quen giữa hai người hoặc một sự ngóng đợi lâu năm có thể đến lúc khép lại. Điều đó không có nghĩa tình cảm biến mất, chỉ là cách cũ không còn vừa, như chuyện nhắn tin báo cáo mỗi tối hay chuyện cứ chờ đối phương đổi. Người độc thân có thể thấy mình sẵn sàng bỏ một tiêu chuẩn cũ hoặc một người cũ trong ký ức. Hãy quan sát cảm giác nhẹ hay nặng khi nghĩ tới điều đó.",
+  "career": "Một dự án, một cách làm hoặc một vai trò có thể đã hoàn thành nhiệm vụ. Hôm nay hợp để tổng kết, dọn file và đóng những đầu việc tồn từ lâu, kể cả những việc bạn biết sẽ không bao giờ làm. Gạch bỏ chúng khỏi danh sách đôi khi mang lại nhiều năng lượng hơn làm xong một việc mới. Sinh viên có thể quyết định bỏ một môn phụ hay một câu lạc bộ không còn phù hợp.",
+  "finance": "Hôm nay hợp để cắt một khoản chi đã mất ý nghĩa, như gói đăng ký không còn dùng hay thói quen mua sắm cũ. Đóng nó lại có thể nhẹ nhõm hơn bạn nghĩ, vì mỗi khoản nhỏ kéo theo một chút lấn cấn khi nhìn sao kê. Lướt qua tin nhắn từ ngân hàng hoặc ví điện tử, chọn đúng một khoản để dừng. Một khoản là đủ cho hôm nay.",
+  "insight": "Có thể bạn đã biết từ lâu một thứ nên kết thúc, nhưng chưa ai cho phép bạn dừng. Hôm nay bạn có thể tự cho phép mình. Lá bài gợi ý rằng việc đóng lại không đồng nghĩa với phủ nhận điều đã có, một cuốn sổ khép lại vẫn là cuốn sổ đã được viết. Điều bạn có thể thử là xem mình còn giữ thứ đó vì còn cần, hay chỉ vì chưa ai bảo là được thôi.",
+  "memorable_message": "Kết thúc đúng lúc không phải thất bại, đó là dọn bàn trước khi bày bữa mới.",
+  "advice": "Chọn một thứ nhỏ đã hết vai trò và đóng nó lại hôm nay, như xóa một ứng dụng, hủy một đăng ký hoặc nói một lời kết với ai đó. Làm vào lúc bạn thấy đầu óc yên nhất, có thể là sau bữa trưa. Dành năm phút, không hơn. Bạn không cần đóng hết mọi thứ trong một ngày, chỉ một thứ thôi.",
+  "keywords": [
+   "kết thúc",
+   "đóng chương",
+   "dọn chỗ"
+  ]
+ },
+ {
+  "card_id": "death",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Một phiên bản cũ của bạn đang dần không còn vừa, và hôm nay cho thấy rõ chỗ chật nhất.",
+  "card": {
+   "name": "Tử Thần",
+   "arcana": "Major",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 6,
+   "finance": 5,
+   "energy": 7
+  },
+  "headline": "Bạn không mất đi, bạn đang lột bớt lớp áo đã chật.",
+  "card_meaning": "Lá Tử Thần thường làm người ta giật mình, nhưng trong Tarot nó là lá của chuyển hóa nhiều hơn của mất mát. Phía xa sau con ngựa trắng, mặt trời mọc giữa hai tòa tháp, gợi ý rằng sau phần kết là một buổi sáng mới. Ở chiều xuôi, lá bài nhấn vào việc một phiên bản cũ của bạn đang lùi lại để phiên bản khác lộ ra, giống rắn lột da hơn là một cuộc chia ly. Quá trình đó có thể hơi lạ lẫm nhưng không phải là tổn thất. Hôm nay lá bài đáng chú ý vì nó tới đúng lúc bạn thấy chính mình hơi khác.",
+  "forecast": [
+   "Bạn có xu hướng phản ứng khác thường lệ trước một tình huống quen, và ngạc nhiên về chính mình.",
+   "Một câu nhận xét kiểu 'dạo này bạn khác quá' có thể xuất hiện, từ đồng nghiệp hoặc một người bạn lâu năm.",
+   "Một mục tiêu cũ nghe không còn đúng như trước, và bạn dễ muốn viết lại nó vào lúc rảnh buổi tối."
+  ],
+  "love": "Cách bạn yêu hoặc cách bạn muốn được yêu có thể đang thay đổi, và người bên cạnh cần thời gian để theo kịp. Hãy nói cho họ biết điều gì đang khác, thay vì để họ đoán và hiểu lầm là bạn lạnh đi. Đang tìm hiểu ai đó thì thử nói rõ điều mình cần bây giờ, không phải điều mình từng cần. Người độc thân có thể thấy mình bớt hứng thú với kiểu người trước đây.",
+  "career": "Điều từng làm bạn hào hứng có thể không còn kích thích, và đó là tín hiệu để xem hướng nào đang thực sự vừa với mình. Chưa cần quyết gì lớn, chỉ cần ghi lại ba điều bạn muốn nhiều hơn so với một năm trước. Có thể một nhiệm vụ mới lạ lại làm bạn sáng mắt. Sinh viên có thể thấy hứng thú dịch sang một lĩnh vực khác, đừng vội coi đó là sự chán nản.",
+  "finance": "Cách bạn coi trọng tiền đang dịch chuyển, bớt chi cho hình ảnh và nhiều hơn cho thứ mình thật sự dùng. Hôm nay hợp để viết lại một mục tiêu tài chính theo con người hiện tại của bạn, chẳng hạn một khoản để dành cho việc mình thật sự muốn thay vì việc người khác kỳ vọng. Con số có thể chưa đổi, nhưng lý do đứng sau nó thì có.",
+  "insight": "Có thể bạn đang trách mình vì không còn giống trước, trong khi đó là dấu hiệu bạn vừa đi qua một điều gì đó. Cảm giác lạ lẫm với chính mình thường đi kèm với việc lớn lên, giống lúc nhìn lại ảnh cũ và thấy người trong ảnh hơi xa lạ. Người trong ảnh không sai, chỉ là bạn đã đi tiếp. Bạn không cần biết ngay mình trở thành ai, chỉ cần cho phép mình ngạc nhiên.",
+  "memorable_message": "Bạn không phải xin lỗi vì cái vỏ cũ đã không còn vừa.",
+  "advice": "Viết ra ba điều bạn từng nghĩ là mình mà nay không còn thấy đúng, như 'mình là người thích tiệc tùng' hay 'mình không giỏi nói trước đám đông'. Làm vào buổi tối, trong vài phút, trên giấy hoặc ghi chú điện thoại. Sau đó chọn một điều để sống khác đi trong hôm nay, dù chỉ bằng một hành động nhỏ.",
+  "keywords": [
+   "chuyển hóa",
+   "lột xác",
+   "thay đổi bản thân"
+  ]
+ },
+ {
+  "card_id": "death",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Hôm nay bạn dễ chạm vào một mảnh quá khứ và nhận ra mình có thể đặt nó xuống mà không mất gì.",
+  "card": {
+   "name": "Tử Thần",
+   "arcana": "Major",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 6,
+   "career": 6,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Có những thứ bạn giữ không phải vì cần, mà vì sợ trống.",
+  "card_meaning": "Tử Thần là lá số 13 của bộ Ẩn Chính, nơi người ta bước qua ngưỡng cửa từ giai đoạn này sang giai đoạn khác. Trong tranh, người già, trẻ em và cả vua chúa đều phải cúi trước bộ xương cưỡi ngựa, ngầm nói rằng thay đổi không chọn người. Ở chiều xuôi, lá bài hướng về phần quá khứ, những gì đã đi qua và bạn có thể đặt xuống. Nó không xóa ký ức, nó chỉ cho phép ký ức nằm yên ở chỗ của nó. Hôm nay lá bài đáng chú ý vì nó mở ra một khoảng trống mà sau này có thể có điều khác đến lấp.",
+  "forecast": [
+   "Một kỷ niệm, một món đồ hay một tin nhắn cũ có thể bất ngờ hiện ra trước mắt bạn khi đang tìm thứ khác.",
+   "Bạn có xu hướng muốn dọn dẹp, từ tủ đồ tới danh bạ hoặc thư mục trong điện thoại.",
+   "Có thể bạn nhận ra mình đã mấy ngày không nghĩ tới một nỗi buồn cũ, và điều đó hoàn toàn ổn."
+  ],
+  "love": "Người cũ hoặc ký ức về một mối quan hệ có thể trở lại trong đầu bạn, nhưng lần này nó mang cảm giác đã qua nhiều hơn là còn dang dở. Không cần liên lạc để kiểm chứng điều đó, cảm giác của bạn đã đủ làm bằng chứng. Người đang yêu nên để chuyện cũ nằm yên thay vì lôi ra so sánh. Người độc thân có thể thấy mình sẵn lòng làm quen với ai đó mà không mang theo hình bóng cũ.",
+  "career": "Hôm nay hợp để bỏ lại một cách làm cũ, một nỗi tiếc vì cơ hội đã qua, hoặc một sự so sánh với đồng nghiệp cũ. Dọn hộp thư hoặc danh sách việc giúp đầu óc nhẹ đáng kể, nhất là những email bạn giữ lại chỉ vì sợ cần dùng. Sinh viên thử gác lại lần thi không như ý để tập trung cho bài tiếp theo.",
+  "finance": "Bạn có thể nhìn lại một quyết định tiền bạc trong quá khứ mà không còn tự trách nặng nề, như một lần mua hớ hay một khoản cho vay không đòi được. Hôm nay hợp để bán hoặc cho đi một món đồ nằm lâu không dùng, vì nó vừa tạo thêm chỗ vừa đỡ nhắc bạn về lần mua đó. Chỉ cần chọn một món.",
+  "insight": "Có thể thứ nặng nhất bạn đang mang không phải là chuyện đã xảy ra, mà là việc cứ kể lại nó trong đầu. Khi chịu ngừng kể, chỗ trống đó dần có chỗ cho điều mới. Lá bài không bảo bạn phải quên, nó chỉ gợi ý rằng ký ức có thể được xếp vào một ngăn thay vì trải ra khắp nhà. Hôm nay có lẽ bạn đã sẵn sàng cho việc xếp đó hơn bạn tưởng.",
+  "memorable_message": "Bạn có thể nhớ một điều mà không cần mang nó đi khắp nơi.",
+  "advice": "Chọn một thứ cũ trong tầm tay như một tấm ảnh, một cuộc trò chuyện hay một món đồ, rồi cho nó một nơi mới hoặc nói lời tạm biệt. Có thể là cất vào hộp, lưu trữ thay vì xóa, hoặc cho người khác. Làm vào lúc bạn ở một mình và không vội. Làm ở mức bạn thấy thoải mái, không cần thêm.",
+  "keywords": [
+   "buông quá khứ",
+   "dọn dẹp",
+   "chỗ trống"
+  ]
+ },
+ {
+  "card_id": "death",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Bạn đang níu một thứ đã hết hạn vì thay đổi nghe đáng sợ hơn cái cũ đang làm bạn mệt.",
+  "card": {
+   "name": "Tử Thần",
+   "arcana": "Major",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 4,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Cái quen không an toàn hơn, nó chỉ ít bất ngờ hơn.",
+  "card_meaning": "Tử Thần là lá của kết thúc và chuyển hóa, nhưng khi nó ngược, bộ xương trên ngựa trắng như bị chặn lại giữa đường: cuộc chuyển dịch vẫn muốn xảy ra mà có thứ gì đó giữ nó đứng yên. Chiều ngược của lá số 13 thường nói về nỗi sợ thay đổi, kiểu bám vào cái đã quen dù nó không còn nuôi mình. Điều này không hẳn là yếu đuối, vì cái quen thuộc mang lại cảm giác an toàn thật. Hôm nay nó đáng chú ý vì cái giá của việc níu giữ đang dần cao hơn cái giá của việc đổi.",
+  "forecast": [
+   "Bạn có xu hướng tìm thêm lý do để giữ nguyên hiện trạng dù biết nó không còn tốt, và lý do nghe rất có lý.",
+   "Một dấu hiệu nhẹ của sự thay đổi, như một lời mời hay lời gợi ý, dễ bị bạn gạt đi trước khi kịp cân nhắc.",
+   "Có thể bạn thấy bực khi ai đó đề xuất làm khác đi, dù ý của họ không tệ."
+  ],
+  "love": "Có thể một mối quan hệ hoặc một kiểu tương tác đã cạn nhưng vẫn được giữ vì sợ cảm giác trống. Hôm nay hợp để thành thật hỏi mình: ở lại vì còn muốn, hay vì ngại phải bắt đầu lại. Câu trả lời không cần nói với ai, chỉ cần bạn nghe được nó. Người độc thân dễ ôm mãi một kỳ vọng với người đã không còn đáp lại.",
+  "career": "Việc đổi quy trình, đổi nhóm hay đổi hướng có thể làm bạn khó chịu. Thay vì phản đối ngay, thử liệt kê một điều có thể có lợi từ sự thay đổi đó, kể cả khi bạn chưa tin nó. Nghe đủ ý của người đề xuất trước khi trả lời cũng là cách giữ thể diện cho cả hai. Sinh viên đừng bám mãi một cách học đã rõ là không hiệu quả.",
+  "finance": "Bạn nghiêng về giữ cách tiêu và cách quản lý tiền cũ dù nó đang rò rỉ, chỉ vì quen tay. Một thay đổi nhỏ như đổi ngày trả, chuyển một khoản sang chỗ khác hay đặt nhắc nhở có thể giúp ích nhiều hơn bạn tưởng. Chọn một thói quen tiền bạc bạn biết là không ổn và thử cách khác trong đúng một tuần tới.",
+  "insight": "Có thể thứ bạn sợ không phải là cái mới, mà là khoảng giữa, lúc cái cũ đã đi và cái mới chưa tới. Khoảng đó khó chịu thật, nhưng nó không kéo dài mãi. Lá bài không ép bạn nhảy, nó chỉ chỉ ra rằng sự an toàn của cái quen có giá, và bạn đang trả giá ấy mỗi ngày bằng cảm giác mệt. Hôm nay thử hình dung ngày đầu tiên sau khi đổi, nó có thật sự đáng sợ như tưởng không.",
+  "memorable_message": "Cái ghế quen êm thật, nhưng không ai ngồi nó cả đời mà không đau lưng.",
+  "advice": "Chọn một thứ đang níu và thử xa nó trong một ngày, như tạm không kiểm tra một trang, không làm theo một thói quen hay không trả lời một tin ngay lập tức. Bắt đầu từ sáng và để ý lúc nào bạn thấy khó chịu nhất. Ghi lại một dòng về cảm giác đó. Chỉ là thử, bạn vẫn có thể quay lại.",
+  "keywords": [
+   "sợ thay đổi",
+   "níu giữ",
+   "khoảng giữa"
+  ]
+ },
+ {
+  "card_id": "death",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Một việc đã kết thúc một nửa vẫn nằm lơ lửng, và nó đang ngốn năng lượng nhiều hơn một lần kết thúc dứt khoát.",
+  "card": {
+   "name": "Tử Thần",
+   "arcana": "Major",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 4,
+   "energy": 4
+  },
+  "headline": "Dở dang tốn sức hơn là kết thúc.",
+  "card_meaning": "Tử Thần ngược là hình ảnh của một kết thúc chưa trọn: cánh cổng đã hé mở nhưng chưa ai bước qua, và bộ xương trên ngựa trắng cứ đứng chờ ở ngưỡng. Lá số 13 vốn nói về sự khép lại cần thiết, nên khi đảo chiều, trọng tâm chuyển sang trì trệ và những thứ nằm giữa chừng. Đó là vùng xám của việc chưa dứt, chưa bắt đầu, vừa tốn sức vừa không cho kết quả gì. Hôm nay lá bài đáng chú ý vì nó chỉ ra rằng không quyết định cũng là một quyết định, và là loại đắt nhất.",
+  "forecast": [
+   "Một việc bạn bảo là sắp xong có xu hướng vẫn sắp xong như cách đây cả tuần.",
+   "Bạn dễ lướt đi lướt lại một thứ đã nguội, như một cuộc trò chuyện hay một kế hoạch, mà không thêm được gì.",
+   "Có thể một người nhắc bạn về việc chưa được đóng và bạn thấy khó chịu hơn bình thường."
+  ],
+  "love": "Một mối quan hệ hoặc cuộc nói chuyện đang ở trạng thái chưa là gì mà cũng chưa hết có thể làm bạn mệt. Một câu hỏi rõ ràng, dù nghe khó, thường nhẹ hơn sự mơ hồ kéo dài. Đang tìm hiểu ai đó thì thử hỏi thẳng hai bên đang ở đâu. Người đang yêu nên để ý những chuyện đã lâu chưa bàn xong, như kế hoạch chung hay một lần giận chưa nói hết.",
+  "career": "Công việc có cảm giác chạy tại chỗ vì nhiều đầu việc cứ mở mà chưa đóng. Hôm nay hãy đóng hẳn một việc, dù chỉ ở mức đủ tốt, rồi báo cho người liên quan biết là xong. Thử đếm xem có bao nhiêu tab hay file đang mở và đóng bớt một nửa. Sinh viên thử hoàn thành một bài tồn đọng thay vì mở thêm bài mới.",
+  "finance": "Một khoản chưa đối soát, chưa trả dứt hay chưa quyết định đang nằm chờ. Dứt điểm một khoản, dù nhỏ, giúp đầu óc nhẹ đi rõ ràng, vì phần lấn cấn thường lớn hơn bản thân khoản tiền. Hãy chọn khoản nhỏ nhất để làm trước, ví dụ gửi lại một hóa đơn hay xác nhận một giao dịch đang treo. Làm một việc rồi dừng cũng được.",
+  "insight": "Có thể bạn tránh kết thúc vì chưa muốn chấp nhận rằng nó không đi như mong. Nhưng chưa kết thúc cũng là một cách chọn, và là kiểu chọn tốn nhiều sức nhất vì nó chạy ngầm cả ngày. Lá bài không đòi bạn phải dứt khoát, nó chỉ chỉ ra rằng sự lưng chừng có thật và có giá. Hôm nay thử hỏi: nếu việc này đóng lại ngay bây giờ, mình mất gì và nhẹ đi gì.",
+  "memorable_message": "Cánh cửa khép hờ làm gió lùa nhiều hơn cánh cửa đóng hẳn.",
+  "advice": "Chọn một việc dở dang và viết rõ điều kiện để coi nó là xong, chẳng hạn gửi bản nháp cuối hay gọi đúng một cuộc điện thoại. Dành khoảng ba mươi phút vào buổi chiều để làm tới đó thôi, không thêm. Khi đạt điều kiện, đóng lại và đánh dấu hoàn thành thật rõ ràng, ngay cả bằng một dấu tích trên giấy.",
+  "keywords": [
+   "trì trệ",
+   "dở dang",
+   "đóng việc"
+  ]
+ },
+ {
+  "card_id": "death",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Ký ức đang kéo bạn lùi về, nhưng bên dưới có một sự chuyển hóa chậm mà bạn chưa kịp nhận ra.",
+  "card": {
+   "name": "Tử Thần",
+   "arcana": "Major",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 4,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Bạn đang sống hôm nay bằng đôi mắt của hôm qua.",
+  "card_meaning": "Tử Thần ngược mang hơi hướng của quá khứ không chịu lùi: bông hồng trắng trên lá cờ, biểu tượng của sự thuần khiết và khởi đầu mới, như bị che mờ bởi những gì đã qua. Lá số 13 chiều xuôi nói về sự khép lại, còn chiều ngược nói về việc mắc kẹt trong ký ức và so sánh. Tuy vậy, đây cũng có thể là một sự chuyển hóa diễn ra âm thầm bên dưới, chậm tới mức chính bạn chưa nhận ra. Hôm nay lá bài đáng chú ý vì nó đặt hiện tại và quá khứ cạnh nhau để bạn thấy cả hai bên.",
+  "forecast": [
+   "Bạn có xu hướng so sánh hiện tại với một thời điểm đẹp hơn trong ký ức, nhất là khi đang rảnh tay.",
+   "Một bài hát, một nơi chốn hoặc một cái tên có thể kéo bạn về quá khứ chỉ trong vài giây.",
+   "Có thể bạn kể lại một chuyện cũ lần thứ không biết bao nhiêu và nhận ra nó không còn đau như trước."
+  ],
+  "love": "Chuyện cũ hoặc người cũ có thể len vào các phép so sánh, khiến người hiện tại luôn phải đứng cạnh một bóng hình. Hôm nay hãy để ý khi nào bạn mở lời bằng chữ ngày xưa. Nếu đang yêu, thử khen điều gì đó đang có thay vì nhắc điều từng có. Người độc thân dễ ngắm một mối tình cũ đã được tô thêm màu, còn hiện thực thì đâu đẹp đến thế.",
+  "career": "Bạn có thể nhớ lại thời làm tốt hơn hoặc công ty cũ vui hơn, và vì thế khó hào hứng với việc đang làm. Hãy tìm một điều ở hiện tại mà thời đó chưa có, như một kỹ năng mới hay một đồng nghiệp hợp gu. Sinh viên đừng so mình với phong độ cũ, cứ bắt đầu từ chỗ đang đứng và học từ bài hôm nay.",
+  "finance": "Thói quen tiền bạc cũ, như cách tiêu từ một thời khác hoặc nỗi tiếc một khoản đã mất, đang ảnh hưởng quyết định bây giờ. Hôm nay hợp để nhìn con số hiện tại thay vì con số trong ký ức, hãy mở số dư và các khoản định kỳ ra xem tình hình thật là gì. Một lần cập nhật cách nhìn thường đủ để bớt vài khoản chi theo quán tính.",
+  "insight": "Có thể bạn đã tiến xa hơn điều bạn tin, nhưng ký ức vẫn giữ nguyên tấm bản đồ cũ. Tình cảm cũ nhạt dần không phải là bạn phản bội nó, đó là bạn đang đi tiếp. Lá bài ngụ ý rằng phía dưới lớp hoài niệm có một sự thay đổi chậm đang diễn ra mà bạn chưa kịp đặt tên. Hôm nay thử để ý một điều bạn làm tốt hơn trước, dù chưa ai khen.",
+  "memorable_message": "Gương chiếu hậu để liếc, không phải để lái.",
+  "advice": "Mỗi lần bắt gặp mình mở câu bằng ngày xưa, thử nói thêm một câu bắt đầu bằng bây giờ. Chỉ cần một câu là đủ cho hôm nay, có thể nói thầm trong đầu hoặc ghi ở điện thoại. Vào cuối ngày, nhìn lại xem câu bây giờ của mình nghe thế nào, rồi lấy đó làm điểm bắt đầu cho ngày mai.",
+  "keywords": [
+   "hoài niệm",
+   "quá khứ",
+   "đi tiếp"
+  ]
+ },
+ {
+  "card_id": "temperance",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay thuận lợi nhất khi bạn trộn đúng liều: làm vừa đủ, nghỉ vừa đủ, nói vừa đủ.",
+  "card": {
+   "name": "Tiết Chế",
+   "arcana": "Major",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 7,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Ngày tốt không phải ngày nhiều nhất, mà là ngày đúng liều.",
+  "card_meaning": "Tiết Chế là lá số 14: một thiên thần có đôi cánh lớn, một chân đặt trên mặt nước, một chân đặt trên đất liền, tay rót nước qua lại giữa hai chiếc cốc mà không rơi giọt nào. Hình ảnh ấy nói về sự pha trộn đúng liều, nơi hai thứ khác nhau gặp nhau và thành một thứ cân bằng. Lá bài không đòi hỏi điều gì kịch tính, nó khen sự điều độ, kiên nhẫn và nhịp đều. Ở chiều xuôi, năng lượng này khá thuận. Hôm nay lá bài đáng chú ý vì nó nói về liều lượng, thứ mà ngày bận rộn nào cũng dễ làm lệch.",
+  "forecast": [
+   "Bạn có xu hướng tìm được nhịp ổn giữa việc và nghỉ, nếu không ép mình theo một kế hoạch quá dày.",
+   "Một việc từng làm bạn căng thẳng có thể trôi qua nhẹ nhàng khi bạn chia nhỏ thời gian, ví dụ làm từng khoảng ba mươi phút.",
+   "Có thể bạn nhận được một lời nhận xét ôn hòa, vừa đủ để điều chỉnh mà không bị tổn thương."
+  ],
+  "love": "Chuyện tình cảm hôm nay hợp nhịp vừa phải, không cần cao trào, chỉ cần đều và dễ chịu. Người đang yêu nên có một khoảng thời gian rất bình thường bên nhau, như nấu ăn hoặc đi dạo, và để ý xem cả hai thả lỏng ra sao. Đang tìm hiểu ai đó thì giữ tần suất nhắn tin vừa phải, đừng dồn dập. Người độc thân dễ bắt chuyện tốt với người cùng nhịp sống.",
+  "career": "Hôm nay bạn dễ tìm được cách phối hợp giữa chất lượng và tốc độ, nên ít phải chọn bỏ một giữ một. Hãy đặt việc nặng vào buổi tinh thần tốt nhất và việc nhẹ vào lúc mệt, thay vì cứ làm theo thứ tự trong danh sách. Sinh viên học đều từng đoạn ngắn sẽ nhớ lâu hơn học dồn. Nếu bị giao thêm việc, hãy nói rõ bạn nhận được bao nhiêu.",
+  "finance": "Dòng tiền khá cân bằng, thích hợp để chia các khoản theo tỉ lệ vừa phải giữa chi cần, chi vui và để dành. Đừng quá khắt khe, cũng đừng quá phóng tay. Bạn có thể chọn một tỉ lệ dễ nhớ và áp thử vào số tiền còn lại trong tuần, rồi xem nó có hợp thói quen của mình không. Khoản nào cũng nên có chỗ, kể cả khoản cho niềm vui.",
+  "insight": "Có thể bạn quen nghĩ phải chọn một trong hai: hoặc hết mình hoặc bỏ cuộc. Hôm nay lá bài cho thấy đường giữa không phải là nhạt, đó là chỗ bạn đi được lâu nhất. Người ta thường nhớ những khoảnh khắc cực đoan, nhưng một cuộc sống bền lại được xây từ những ngày vừa đủ. Có thể bạn sẽ thấy khoảng ngày bình thường này lại là phần dễ chịu nhất của cả tuần.",
+  "memorable_message": "Công thức tốt nhất là loại bạn còn pha được vào ngày mai.",
+  "advice": "Chia ngày thành ba khoảng và gán mỗi khoảng một loại việc: làm sâu, làm nhẹ, nghỉ. Vẽ nhanh ba ô này trên giấy ngay từ sáng, rồi giữ nhịp đó mà không cần hoàn hảo. Nếu một khoảng bị lấn, hãy cắt bớt khoảng làm nhẹ chứ đừng cắt khoảng nghỉ. Cuối ngày xem thử nhịp nào hợp với mình nhất.",
+  "keywords": [
+   "cân bằng",
+   "đúng liều",
+   "nhịp đều"
+  ]
+ },
+ {
+  "card_id": "temperance",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay hợp để nối hai phía đang lệch nhau, bằng sự mềm mỏng chứ không cần ai phải thua.",
+  "card": {
+   "name": "Tiết Chế",
+   "arcana": "Major",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 8,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Hai bên không cần giống nhau để cùng chạy một nhịp.",
+  "card_meaning": "Tiết Chế vẽ một thiên thần đứng giữa nước và đất, rót dòng nước từ cốc này sang cốc kia theo một đường cong gần như không đứt. Đó là hình ảnh của sự kết nối: hai phía khác nhau không cần thắng thua mà chỉ cần tìm được cách chảy chung. Lá số 14 ở chiều xuôi mang năng lượng của người trung gian, người biết nghe, biết nhường vừa đủ và biết giữ phần mình. Nó cũng gợi tới sự pha chế, nơi hai ý đối lập tạo ra thứ thứ ba hay hơn. Hôm nay lá bài đáng chú ý vì xung quanh bạn có những thứ đang lệch nhau chờ được nối lại.",
+  "forecast": [
+   "Một bất đồng nhỏ có xu hướng được giải bằng cách mỗi bên nhường một chút, thường diễn ra trong một cuộc trò chuyện ngắn.",
+   "Bạn dễ trở thành người trung gian giúp hai người hiểu nhau hơn, kiểu dịch lại lời của người này cho người kia.",
+   "Có thể bạn tìm ra cách kết hợp hai ý tưởng tưởng như đối lập thành một thứ dùng được."
+  ],
+  "love": "Hôm nay chuyện tình cảm hợp với việc lắng nghe nhiều hơn phản bác. Nếu đang có chuyện chưa vui, nói bằng giọng thấp hơn nửa tông sẽ hiệu quả hơn nói cho đúng. Thử bắt đầu bằng câu 'mình hiểu là bạn đang thấy thế nào' trước khi nêu ý riêng. Người độc thân có thể gặp một người dễ trò chuyện, không cần gây ấn tượng.",
+  "career": "Làm việc nhóm thuận lợi hơn bình thường, nhất là khi cần dung hòa những ý kiến khác nhau. Bạn có thể chắp nối nhiều ý và tìm ra điểm chung giữa hai bên, rồi đề xuất bản tóm tắt để cả nhóm gật đầu. Nếu có xung đột giữa hai đồng nghiệp, một câu hỏi trung lập thường mở lối hơn một lời phán xét. Sinh viên làm bài nhóm dễ phân công công bằng và êm.",
+  "finance": "Hôm nay hợp để bàn chuyện tiền với người thân hoặc bạn đời một cách cởi mở, như chia chi phí hoặc lập quỹ chung. Một thỏa thuận vừa phải với cả hai bên bền hơn một thỏa thuận có bên thiệt. Nếu sống chung với bạn bè, đây là lúc hợp để chốt cách chia tiền điện nước cho rõ ràng. Nói trong lúc cả hai đều thoải mái, đừng chờ tới khi có chuyện.",
+  "insight": "Có thể bạn nghĩ hòa giải là chịu thiệt, nhưng điều lá bài nhắc là pha trộn chứ không phải nhường hết. Bạn giữ nguyên bản chất của mình mà vẫn đủ chỗ cho người khác. Nghe thì giống chuyện nhỏ, nhưng nhiều mâu thuẫn kéo dài chỉ vì cả hai tưởng mình phải chọn một trong hai. Hôm nay thử hỏi: có phương án nào cho phép cả hai giữ được điều quan trọng nhất không.",
+  "memorable_message": "Hai dòng sông gặp nhau không cần ai tan vào ai, chỉ cần chịu chảy chung một đoạn.",
+  "advice": "Trước khi phản bác một ý, hãy nói lại phần mình đồng ý trong đó. Chỉ riêng câu mở đầu ấy cũng làm cuộc trò chuyện mềm hơn nhiều. Thử làm điều này trong cuộc nói chuyện khó nhất của hôm nay, dù với đồng nghiệp, người thân hay bạn bè. Nếu chưa thấy phần nào để đồng ý, hãy hỏi thêm một câu cho đến khi tìm ra.",
+  "keywords": [
+   "hòa hợp",
+   "trung gian",
+   "kết nối"
+  ]
+ },
+ {
+  "card_id": "temperance",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Một sự hồi phục chậm mà vững đang diễn ra, và hôm nay chỉ cần một bước nhỏ, đều, đúng việc.",
+  "card": {
+   "name": "Tiết Chế",
+   "arcana": "Major",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 7,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Tiến bộ nhỏ mà đều thường thắng một lần bứt phá rồi nghỉ dài.",
+  "card_meaning": "Tiết Chế mang số 14, đứng ngay sau lá Tử Thần: nếu Tử Thần là sự khép lại thì Tiết Chế là giai đoạn dưỡng sức sau đó. Trên lá, thiên thần đặt một chân trong nước, một chân trên bờ, phía sau là con đường dẫn tới ngọn núi có ánh sáng ở xa. Con đường ấy không dốc, nó chỉ đều và dài. Ở chiều xuôi, lá bài nói về sự hồi phục chậm mà vững, tiến bộ nhờ lặp lại chứ không nhờ bứt phá. Hôm nay lá bài đáng chú ý vì nó khuyến khích bạn tin vào những bước nhỏ khi mọi thứ chưa kịp hiện rõ.",
+  "forecast": [
+   "Bạn có xu hướng cảm nhận được một chút khá hơn so với tuần trước, dù chưa thật rõ ràng.",
+   "Một thói quen nhỏ đã duy trì lâu, như ngủ sớm hay đi bộ, bắt đầu cho thấy tác dụng.",
+   "Có thể bạn thấy dễ chịu hơn khi không so mình với tốc độ của người khác, nhất là lúc lướt mạng xã hội."
+  ],
+  "love": "Một vết lòng cũ có thể dịu hơn hôm nay, và bạn bớt cần giải thích nó cho ai. Nếu đang yêu, những cử chỉ nhỏ đều đặn như một câu hỏi thăm mỗi tối có tác dụng hơn một bất ngờ lớn. Đang tìm hiểu ai đó thì cứ giữ nhịp thong thả. Người độc thân chưa cần vội, sự ổn định bên trong mới là phần chuẩn bị tốt nhất.",
+  "career": "Tiến độ hôm nay mang tính tích lũy: một chút việc đều đặn có thể làm bạn bất ngờ khi nhìn lại. Hợp để duy trì một kỹ năng đang học dở hoặc một quy trình mới, chỉ cần làm đúng phần của hôm nay. Nếu chưa thấy kết quả, hãy đo bằng số buổi đã làm thay vì bằng thành tích. Sinh viên ôn đều mỗi ngày một ít, tránh dồn vào phút chót.",
+  "finance": "Tài chính hợp với cách làm chậm mà chắc, như để dành một khoản nhỏ đều đặn hay trả dần một khoản nợ nhỏ. Không cần một bước nhảy, chỉ cần không bỏ giữa chừng. Nếu đang có thói quen ghi chi tiêu, hôm nay chỉ cần ghi đủ, chưa cần phân tích. Sự đều đặn tạo ra dữ liệu, và dữ liệu mới là thứ giúp bạn quyết định sau này.",
+  "insight": "Có thể bạn đang sốt ruột vì cảm giác mình chưa khá lên đủ nhanh. Sự hồi phục thật thường không ồn ào, nó chỉ là một ngày bạn nhận ra mình ít để ý tới chuyện đó hơn. Giống nước rót giữa hai chiếc cốc, bạn khó thấy mực nước đổi trong từng giây, nhưng lát sau cốc đã đầy. Thử tin vào những ngày bình thường, nơi mọi thay đổi thật sự diễn ra.",
+  "memorable_message": "Hồi phục thường trông giống những ngày không có gì xảy ra.",
+  "advice": "Chọn một việc chăm sóc nhỏ mà bạn có thể lặp lại mỗi ngày, như ngủ đúng giờ hoặc đi bộ 15 phút, và làm nó hôm nay vào một mốc giờ cố định. Gắn nó với một việc đã quen, ví dụ đi bộ ngay sau bữa tối. Đừng thêm gì nữa, và đừng đặt mục tiêu cho tuần sau. Chỉ cần hôm nay làm đủ.",
+  "keywords": [
+   "hồi phục",
+   "kiên nhẫn",
+   "tích lũy"
+  ]
+ },
+ {
+  "card_id": "temperance",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Liều lượng hôm nay dễ bị quá tay, từ làm việc, chi tiêu tới cảm xúc, và điều cần là bớt đi một chút.",
+  "card": {
+   "name": "Tiết Chế",
+   "arcana": "Major",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 4,
+   "finance": 3,
+   "energy": 4
+  },
+  "headline": "Không có gì sai với thứ bạn thích, chỉ sai ở lượng.",
+  "card_meaning": "Tiết Chế ngược là bóng của sự điều độ: hình ảnh người rót nước giữa hai chiếc cốc bắt đầu đổ ra ngoài, dòng chảy mất nhịp và tràn đi. Lá số 14 vốn nói về liều lượng đúng, nên khi đảo chiều, vấn đề thường nằm ở lượng, quá nhiều hoặc quá ít, chứ không nằm ở thứ bạn làm. Nó không chê bạn là người thái quá, chỉ nhắc rằng một điều tốt dùng không đúng liều cũng thành gánh. Hôm nay lá bài đáng chú ý vì nó cảnh báo nhẹ về cảm giác muốn thêm, thêm nữa khi bạn đang mệt.",
+  "forecast": [
+   "Bạn có xu hướng làm hơn kế hoạch, ăn hơn nhu cầu hoặc thức muộn hơn dự định.",
+   "Một cảm xúc nhỏ có thể bị thổi lớn thành một câu chuyện lớn, nhất là khi đang mệt.",
+   "Có thể cuối ngày bạn cảm thấy hụt hơi, như đã dùng hết pin cho những việc không quan trọng."
+  ],
+  "love": "Cảm xúc dễ lên nhanh và xuống nhanh, có thể bạn gửi quá nhiều tin hoặc nghĩ quá nhiều về một tín hiệu. Hôm nay bớt phân tích một tin nhắn là cách tử tế với chính mình. Thử viết rồi để bản nháp đó mười phút trước khi gửi. Người đang yêu nên tránh biến một bất đồng nhỏ thành tổng kết cả mối quan hệ.",
+  "career": "Bạn dễ nhận quá nhiều việc cùng lúc hoặc cầu toàn một việc nhỏ đến mức bỏ lỡ việc lớn. Chọn đúng hai việc quan trọng nhất và để phần còn lại xuống sau, kể cả những việc nghe có vẻ gấp nhưng không thật sự ảnh hưởng. Đặt giờ dừng cho từng việc để khỏi chỉnh sửa vô tận. Sinh viên tránh dồn một đêm cho nhiều môn.",
+  "finance": "Chi tiêu có xu hướng vượt một chút, thường là kiểu thêm một món cho đủ bộ hay thưởng cho mình vì mệt. Hãy đặt trần cho hôm nay trước khi bắt đầu mua, ví dụ một con số bạn viết ra giấy. Nếu thấy mình bấm thanh toán nhanh hơn bình thường, dừng lại một nhịp và hỏi lại món đó có nằm trong trần chưa.",
+  "insight": "Có thể bạn dùng sự thái quá để lấp một cảm giác thiếu, như thiếu nghỉ, thiếu được ghi nhận hoặc thiếu kết nối. Lượng nhiều chưa bao giờ trả lời được câu hỏi về chất. Lá bài không bảo bạn kiềm chế cho có, nó hỏi bạn đang thật sự cần gì khi muốn thêm nữa. Có khi câu trả lời đơn giản hơn mình nghĩ, chẳng hạn một giấc ngủ hoặc một lời hỏi han.",
+  "memorable_message": "Thứ bạn thiếu hiếm khi nằm ở phần bạn đang thêm vào.",
+  "advice": "Đặt một giới hạn cụ thể cho thứ bạn dễ quá tay hôm nay, như giờ ngừng làm việc, ngân sách mua sắm hoặc số tin nhắn gửi đi. Viết con số hoặc mốc giờ đó ra từ sáng và để nó ở chỗ dễ thấy. Giới hạn do bạn đặt, nên bạn cũng có thể điều chỉnh. Chỉ cần cuối ngày xem nó có giúp bạn thấy nhẹ hơn không.",
+  "keywords": [
+   "thái quá",
+   "quá liều",
+   "giới hạn"
+  ]
+ },
+ {
+  "card_id": "temperance",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Bạn muốn kết quả nhanh hơn tốc độ mà việc đó thực sự cần, và sự sốt ruột đang làm hỏng điều đang chín.",
+  "card": {
+   "name": "Tiết Chế",
+   "arcana": "Major",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 4,
+   "finance": 4,
+   "energy": 4
+  },
+  "headline": "Nóng lòng là cách nhanh nhất để làm chậm mọi thứ.",
+  "card_meaning": "Ở chiều ngược, Tiết Chế là câu chuyện về sự thiếu kiên nhẫn: thiên thần vẫn rót nước giữa hai chiếc cốc, nhưng bạn muốn dòng chảy nhanh gấp đôi và vì thế nước bắn tung. Lá số 14 gắn với thời gian pha trộn, thứ cần được để yên cho các thành phần hòa vào nhau. Khi đảo chiều, nó chỉ ra rằng bạn đang cố rút ngắn một quá trình vốn có tốc độ riêng. Điều đó không xấu, nó thường xuất phát từ mong muốn tốt, nhưng cách làm có thể phản tác dụng. Hôm nay lá bài đáng chú ý vì sự nóng lòng đang rất dễ thấy.",
+  "forecast": [
+   "Bạn có xu hướng kiểm tra kết quả hoặc tin nhắn liên tục, nhiều hơn mức cần thiết.",
+   "Một việc cần ba bước dễ bị bạn rút còn hai, và bước bị bỏ sẽ quay lại làm phiền sau đó.",
+   "Có thể bạn bực với người làm chậm hơn mình, dù họ không làm gì sai."
+  ],
+  "love": "Bạn có thể muốn đối phương cho câu trả lời hoặc xác định mối quan hệ nhanh hơn nhịp của họ. Nếu ép, bạn nhận được một đáp án vội, chưa chắc là đáp án thật. Người đang yêu có thể thử hỏi họ cần bao lâu thay vì đặt hạn. Người độc thân dễ mất kiên nhẫn với việc chưa gặp được ai, và dễ gật đầu với người đầu tiên tỏ ra hợp.",
+  "career": "Kết quả chưa tới, và bạn muốn bỏ qua giai đoạn chín. Nhưng cắt bước hôm nay dễ tạo ra việc phải làm lại, tốn nhiều thời gian hơn khoảng bạn tiết kiệm. Thử viết ra các bước cần có của việc đang làm và đánh dấu bước nào bạn đang muốn lướt qua. Sinh viên đừng bỏ phần luyện nền để đi thẳng tới bài khó.",
+  "finance": "Sự nóng lòng về tiền, như muốn tăng thu nhập nhanh hay muốn thấy số dư đầy ngay, dễ dẫn tới quyết định thiếu kỹ lưỡng. Hãy dè chừng những lời hứa nhanh giàu, dù nghe thuyết phục đến đâu. Điều đáng làm hôm nay là hỏi lại một thông tin còn mơ hồ và để nó qua đêm trước khi đồng ý với bất kỳ ai.",
+  "insight": "Có thể bạn không thiếu nỗ lực, mà đang thiếu niềm tin rằng đường chậm vẫn đi tới. Sốt ruột thường là cách lo lắng đòi bằng chứng. Lá bài ngầm cho thấy có những thứ chỉ chín khi được để yên, và việc cứ mở nắp ra xem làm thời gian nấu kéo dài thêm. Hôm nay thử nhận ra điều gì đã thật sự tiến, dù chậm.",
+  "memorable_message": "Bấm giục thang máy thêm lần nữa cũng không làm nó đến nhanh hơn.",
+  "advice": "Chọn một việc đang chờ kết quả và đặt một mốc kiểm tra duy nhất trong ngày, ví dụ năm giờ chiều, rồi không nhìn lại trước giờ đó. Mỗi lần muốn kiểm tra, thử hít vài hơi sâu trước và làm một việc khác trong tầm tay. Nếu đến mốc mà chưa có gì, bạn cho mình thêm một mốc nữa của ngày mai.",
+  "keywords": [
+   "thiếu kiên nhẫn",
+   "vội vàng",
+   "nóng lòng"
+  ]
+ },
+ {
+  "card_id": "temperance",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Hai nửa trong bạn đang kéo về hai hướng, và mệt không nằm ở việc chọn mà ở việc chưa chịu chọn.",
+  "card": {
+   "name": "Tiết Chế",
+   "arcana": "Major",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 4,
+   "finance": 4,
+   "energy": 4
+  },
+  "headline": "Bạn đang tranh luận với chính mình, và cả hai phía đều có lý.",
+  "card_meaning": "Tiết Chế ngược thường nói về xung đột nội tâm: hai chiếc cốc trên tay thiên thần như đang đại diện cho hai phần trong bạn, và dòng nước giữa chúng bị vướng lại. Lá số 14 chiều xuôi là sự hòa hợp giữa các mặt đối lập, nên chiều ngược nghiêng về lúc các mặt ấy chưa nói chuyện được với nhau. Đó không phải dấu hiệu bạn sai, chỉ là bạn có hai nhu cầu thật đang kéo về hai phía. Hôm nay lá bài đáng chú ý vì cảm giác lưỡng lự lặp đi lặp lại có thể không đến từ việc thiếu thông tin mà từ việc thiếu hòa giải bên trong.",
+  "forecast": [
+   "Bạn có xu hướng đổi ý nhiều lần về cùng một việc trong ngày.",
+   "Một câu hỏi đơn giản như ăn gì hay đi đâu có thể làm bạn mất năng lượng bất thường.",
+   "Có thể bạn muốn hai thứ trái nhau cùng lúc, như vừa muốn ở yên vừa muốn đi."
+  ],
+  "love": "Có thể bạn vừa muốn gần vừa muốn giữ khoảng cách, và đối phương khó đọc được tín hiệu của bạn. Hôm nay nói thật về sự lưỡng lự đó còn hơn đưa ra tín hiệu lẫn lộn, kiểu bạn có thể nói mình đang cần chút thời gian mà vẫn thích gặp họ. Người độc thân có thể thích một người nhưng lại lo về những điều đi kèm.",
+  "career": "Bạn có thể bị giằng giữa an toàn và tham vọng, hoặc giữa làm theo ý mình và làm theo kỳ vọng. Viết ra hai cột ưu nhược rồi xếp hạng điều bạn thật sự quan tâm, mỗi cột tối đa ba dòng. Có thể bạn sẽ thấy một cột nặng hơn hẳn. Sinh viên có thể lưỡng lự giữa hai hướng, chưa cần chốt ngay hôm nay.",
+  "finance": "Một nửa muốn tiết kiệm, một nửa muốn thưởng cho mình, và hai nửa đó dễ thay phiên nhau quyết định. Đặt trước một phần cho mỗi bên để chúng khỏi cãi nhau lúc thanh toán, chẳng hạn phần để dành cố định và phần được tiêu tự do trong tuần. Khi phần tự do hết, đó là lúc dừng, không cần tranh cãi thêm.",
+  "insight": "Có thể hai giọng nói trong bạn không phải kẻ thù, mỗi giọng đang giữ một nhu cầu thật. Khi cả hai được nghe, cuộc cãi mới chịu dịu xuống. Giọng muốn an toàn thường nói về nỗi sợ mất, giọng muốn khám phá thường nói về nỗi sợ hối tiếc. Cả hai đều đang bảo vệ bạn theo cách của mình, và bạn không cần ép bên nào im.",
+  "memorable_message": "Hai giọng trong đầu cãi nhau thường vì chưa ai hỏi giọng nào đang sợ điều gì.",
+  "advice": "Viết một câu cho mỗi giọng nói trong bạn, bắt đầu bằng mình muốn và mình sợ. Làm vào lúc bạn ngồi yên một mình, khoảng năm phút. Sau đó chọn một việc nhỏ làm hài lòng cả hai, chẳng hạn đi thử mà chưa cam kết, hoặc ở lại nhưng có hẹn ngày xem lại. Không cần đúng, chỉ cần cả hai phía đều có chỗ.",
+  "keywords": [
+   "xung đột nội tâm",
+   "lưỡng lự",
+   "hai phía"
+  ]
+ }
+]

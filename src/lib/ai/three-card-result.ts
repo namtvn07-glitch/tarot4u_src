@@ -1,4 +1,5 @@
 import type { ThreeCardAiOutput, ThreeCardResult } from "@/lib/ai/schemas/three-card";
+import { positionLabel } from "@/lib/spreads";
 import { SUIT_LABEL_VI, type ReadingContext } from "@/lib/reading-context";
 
 // Chuẩn hoá JSON model trả về thành bản lưu. Những gì server BIẾT CHẮC thì ghi
@@ -22,6 +23,11 @@ export function finalizeThreeCardResult(
     major_count: context.majorCount,
     minor_count: context.minorCount,
     dominant_suit: context.dominantSuit,
+    // Không có pattern thì không có gì để diễn giải — bỏ phần model tự bịa ra.
+    pattern_note:
+      context.dominantSuit === "none" && context.repeatedNumber === null
+        ? ""
+        : ai.pattern_note.trim(),
     cards: ai.cards.map((entry, index) => ({
       ...entry,
       position: context.cards[index].position.key,
@@ -34,31 +40,39 @@ export function suitLabel(value: string): string {
   return value in SUIT_LABEL_VI ? SUIT_LABEL_VI[value as keyof typeof SUIT_LABEL_VI] : "";
 }
 
-// Bản chữ thuần của kết quả: dùng làm `readings.personal_body` dự phòng và làm
-// nội dung nút Chia sẻ. Giữ tiêu đề dạng "## " để những nơi còn hiển thị theo
-// kiểu markdown cũ vẫn đọc được.
+// Bản chữ thuần của kết quả: nội dung nút Chia sẻ/Sao chép và `personal_body` dự phòng.
+// Chữ thường, không markdown — dán vào tin nhắn/ghi chú vẫn đọc được.
 export function threeCardResultToText(result: ThreeCardResult): string {
   const lines: string[] = [
-    "## Kết luận",
+    "KẾT LUẬN",
     result.verdict,
     result.summary,
     "",
-    "## Bức tranh lớn",
+    "BỨC TRANH LỚN",
+    `${result.major_count} Ẩn Chính · ${result.minor_count} Ẩn Phụ${
+      suitLabel(result.dominant_suit) ? ` · Bộ ${suitLabel(result.dominant_suit)} chủ đạo` : ""
+    }`,
     result.overall_story,
+    ...(result.pattern_note ? [result.pattern_note] : []),
     "",
-    "## Ba lá đang nói gì",
-    ...result.cards.flatMap((card) => [`### ${card.card}`, card.summary, card.interpretation]),
-    "",
-    "## Điều bạn có thể chưa nhìn thấy",
+    "BA LÁ ĐANG NÓI GÌ",
+    ...result.cards.flatMap((card, index) => [
+      `${index + 1}. ${positionLabel("three_card", index)} — ${card.card}`,
+      card.summary,
+      card.interpretation,
+      "",
+    ]),
+    "ĐIỀU BẠN CÓ THỂ CHƯA NHÌN THẤY",
     result.hidden_insight,
     "",
-    "## Xu hướng phía trước",
+    "XU HƯỚNG PHÍA TRƯỚC",
     ...result.forecast.map((item) => `- ${item}`),
     "",
-    "## Lời nhắn",
+    "LỜI NHẮN",
     result.advice,
     "",
     result.memorable_message,
+    ...(result.keywords.length > 0 ? ["", result.keywords.map((k) => `#${k.replace(/\s+/g, "")}`).join(" ")] : []),
   ];
   return lines.join("\n").normalize("NFC");
 }

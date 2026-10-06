@@ -1,0 +1,650 @@
+[
+ {
+  "card_id": "page-of-swords",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Đầu óc hôm nay nhanh và thích đặt câu hỏi, rất hợp để học thứ mới hoặc tìm hiểu kỹ một chuyện còn mù mờ.",
+  "card": {
+   "name": "Thị Đồng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 8,
+   "finance": 6,
+   "energy": 7
+  },
+  "headline": "Một câu hỏi đúng mở được nhiều cửa hơn một câu trả lời vội.",
+  "card_meaning": "Thị Đồng Kiếm là lá đầu tiên trong nhóm Cung Đình của bộ Kiếm, bộ bài đại diện cho tư duy và lời nói. Hình ảnh thường thấy là một chàng trai trẻ đứng trên đồi gió, nâng thanh kiếm lên cao, mây cuộn phía sau và vài cánh chim bay ngang trời. Cậu còn non kinh nghiệm nhưng đôi mắt luôn mở, sẵn sàng hỏi và học. Ở chiều xuôi, lá bài mang năng lượng tò mò trong sáng: muốn hiểu cho ra lẽ trước khi kết luận. Hôm nay nó đáng chú ý vì đầu óc bạn có thể nhanh hơn thường lệ, và một câu hỏi đúng chỗ đi xa hơn cả đống câu trả lời.",
+  "forecast": [
+   "Bạn có xu hướng sa vào một chủ đề mới vào lúc rảnh buổi trưa hoặc buổi tối, mở thêm vài tab rồi quên mất mình định tìm gì ban đầu.",
+   "Một người trong nhóm có thể vô tình nói ra thông tin giúp bạn hiểu rõ một việc đang lấn cấn từ lâu, nhiều khả năng trong lúc trò chuyện rất bâng quơ.",
+   "Năng lượng nghiêng về những cuộc tranh luận vui với bạn bè hay đồng nghiệp, dễ có một buổi cãi lý thú vị mà không ai giận ai."
+  ],
+  "love": "Người độc thân dễ bị hút bởi người nói chuyện thông minh, hay hỏi ngược lại bạn, kiểu cuộc trò chuyện làm bạn quên nhìn đồng hồ. Nếu đang tìm hiểu ai đó, một câu hỏi thật sự về sở thích hay điều họ bận tâm ghi điểm hơn mười lời khen chung chung. Người đang yêu có thể thử hỏi điều bạn chưa bao giờ hỏi, thay vì tự đoán câu trả lời. Hãy để ý xem người kia sáng mắt lên ở câu hỏi nào.",
+  "career": "Đầu óc hôm nay nhạy với chi tiết, hợp để đọc tài liệu, dò lỗi trong bảng tính hoặc nghiên cứu trước một cuộc họp thay vì vào họp với tay không. Sinh viên học tốt nhất khi tự đặt câu hỏi cho bài, ví dụ đoán trước đề sẽ hỏi gì, thay vì đọc lại lần thứ ba. Bạn cũng có thể được nhờ giải thích một vấn đề vì bạn hiểu nhanh. Chỉ cần đừng ôm quá nhiều đầu việc cùng lúc, kẻo nhanh mà rời rạc.",
+  "finance": "Bạn có xu hướng tra giá, so sánh vài nơi và đọc kỹ điều khoản nhiều hơn thường lệ, đó là điểm cộng thật sự cho ví tiền. Dòng tiền ở mức ổn, chưa có biến động lớn nào đáng lo, nên hôm nay hợp để rà lại các khoản đăng ký hoặc phí định kỳ. Thói quen đọc kỹ ấy cũng giúp bạn tránh những chiêu giảm giá hấp dẫn. Cẩn thận với thông tin nghe rất hay nhưng chưa rõ nguồn, nhất là từ nhóm chat.",
+  "insight": "Có thể bạn không thiếu thông tin, bạn đang thiếu việc chọn ra một câu hỏi để theo đến cùng. Tò mò mà không chọn hướng thì rất dễ biến thành xao nhãng, và cảm giác bận rộn trong đầu lại khiến bạn tưởng mình đang tiến bộ. Lá bài gợi ý rằng sự sắc bén của bạn hôm nay là thật, nhưng nó giống lưỡi kiếm: cần một mục tiêu mới có ích. Một câu hỏi được chọn kỹ thường cho bạn nhiều hơn mười câu hỏi bỏ dở.",
+  "memorable_message": "Biết nhiều chưa bằng hỏi đúng một câu.",
+  "advice": "Viết ra ba câu hỏi bạn đang muốn có đáp án, trong mười phút đầu khi bắt đầu làm việc hoặc học bài. Rồi chọn một câu để tìm hiểu nghiêm túc, dành cho nó một khung giờ riêng và tắt các tab không liên quan. Hai câu còn lại cứ để dành cho những ngày sau, chúng sẽ không bỏ đi đâu. Cuối ngày, ghi một dòng về điều bạn đã biết thêm.",
+  "keywords": [
+   "tò mò",
+   "đặt câu hỏi",
+   "đầu óc nhanh"
+  ]
+ },
+ {
+  "card_id": "page-of-swords",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay có xu hướng nhận tin hoặc tin nhắn mới: nghe nhanh, kiểm lại kỹ rồi hãy phản hồi.",
+  "card": {
+   "name": "Thị Đồng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 7,
+   "finance": 6,
+   "energy": 7
+  },
+  "headline": "Tin đến rất nhanh, nhưng quyền trả lời vẫn là của bạn.",
+  "card_meaning": "Trong bộ bài, các lá Thị Đồng thường đóng vai người đưa tin, và Thị Đồng Kiếm là người đưa tin của thế giới tư duy. Gió thổi mạnh làm tóc và áo cậu bay phần phật, cùng những đám mây dày phía sau, gợi cảm giác thông tin đang chuyển động nhanh. Ở chiều xuôi, năng lượng này thiên về tin mới, lời nhắn, câu hỏi bất ngờ và cả khả năng nghe hiểu nhanh. Điểm cốt lõi là đón tin tỉnh táo chứ không phản ứng ngay. Hôm nay lá bài đáng chú ý vì điện thoại, hộp thư và các cuộc trò chuyện có xu hướng sôi động hơn bình thường.",
+  "forecast": [
+   "Một tin nhắn, email hoặc cuộc gọi bất ngờ có khả năng cao khiến bạn đổi một kế hoạch nhỏ trong ngày, thường vào khoảng giữa buổi.",
+   "Bạn dễ nghe được một thông tin còn nguyên chưa kiểm chứng từ người quen hoặc trên mạng, nên hãy để nó ở mức tham khảo.",
+   "Có thể một người lâu không liên lạc bất chợt nhắn hỏi thăm, kèm một câu hỏi rất cụ thể mà bạn cần suy nghĩ thêm mới trả lời được."
+  ],
+  "love": "Tin nhắn từ người bạn đang để ý có xu hướng đến vào lúc bạn không chuẩn bị, và câu chữ có thể ngắn hơn bạn mong đợi. Đừng đọc quá nhiều vào một dấu chấm hay một biểu tượng cảm xúc, vì người ta nhắn nhanh lúc đang bận cũng rất bình thường. Người độc thân có thể nhận được một lời bắt chuyện từ ứng dụng hoặc mạng xã hội. Người đang yêu nên nói thẳng điều mình cần thay vì để người kia tự đoán.",
+  "career": "Thông báo, thay đổi lịch hoặc yêu cầu mới dễ xuất hiện giữa chừng và cần xử lý nhanh gọn, nhất là qua nhóm chat công việc. Hãy ghi lại ý chính bằng chữ để khỏi nhớ nhầm về sau, và xác nhận lại hạn chót với người giao việc. Người đi học có thể nhận được thông tin về lịch thi, bài tập hoặc tài liệu cần bổ sung. Đọc kỹ cả phần đính kèm, vì chi tiết quan trọng thường nằm ở dòng cuối.",
+  "finance": "Có thể có một thông báo về khoản phải trả, thay đổi giá cước hoặc một ưu đãi cần bạn đọc kỹ từng dòng trước khi quyết định. Hôm nay hợp để kiểm tra lại con số trước khi bấm xác nhận, nhất là khi chuyển khoản cho người khác. Dòng tiền ở mức bình thường, không có gì đáng hoảng. Đừng làm gì theo một tin nhắn chưa rõ người gửi, kể cả khi nó nghe rất khẩn cấp.",
+  "insight": "Có thể bạn đang chờ một tin nào đó đến mức mọi thông báo trên điện thoại đều khiến tim đập nhanh hơn một chút. Chờ đợi cũng là một cách tiêu tốn năng lượng mà ít ai tính vào, nhất là khi bạn cứ mở rồi đóng ứng dụng để kiểm tra. Lá bài gợi ý rằng điều khiến bạn mệt có khi không phải là tin xấu hay tốt, mà là khoảng trống trước khi tin đến. Nhận ra điều đó đã giúp bạn nhẹ đi phần nào.",
+  "memorable_message": "Tin nhắn đến trong một giây, nhưng câu trả lời tốt đáng giá một hơi thở.",
+  "advice": "Với mọi tin quan trọng hôm nay, đọc hai lần trước khi trả lời, và nếu còn chỗ chưa rõ thì hỏi lại bằng một câu ngắn. Hỏi lại không làm bạn kém thông minh, nó chỉ giúp bạn đỡ phải sửa sau. Nếu đang mong một tin cụ thể, hãy chọn hai khung giờ trong ngày để kiểm tra điện thoại thay vì liếc liên tục. Phần thời gian còn lại, tập trung làm việc của mình.",
+  "keywords": [
+   "tin mới",
+   "thông tin",
+   "kiểm chứng"
+  ]
+ },
+ {
+  "card_id": "page-of-swords",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Bạn đang ở chế độ quan sát, thấy được điều người khác bỏ sót, miễn là đừng vội nói ra hết.",
+  "card": {
+   "name": "Thị Đồng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 8,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Quan sát giỏi là biết mình thấy gì và biết khi nào nên im.",
+  "card_meaning": "Nếu để ý kỹ, Thị Đồng Kiếm đứng trên nền đất gập ghềnh với dáng người hơi cảnh giác, thanh kiếm cầm nghiêng chứ chưa vung ra. Chi tiết nhỏ ấy cho thấy cậu đang quan sát và chuẩn bị, không phải đang tấn công. Ở chiều xuôi, lá bài mô tả khả năng nhìn thấy điều người khác bỏ sót: một chi tiết lệch, một lời nói không ăn khớp, một mâu thuẫn nhỏ trong câu chuyện. Đó là sức mạnh của người biết nhìn trước khi nói. Hôm nay lá bài đáng chú ý vì nó nhắc bạn dùng con mắt tinh ấy một cách có chọn lọc.",
+  "forecast": [
+   "Bạn có xu hướng để ý một chi tiết lệch, như giọng điệu khác thường của một người quen hay một con số không khớp trong bảng tổng hợp.",
+   "Một lời nói ra sắc hơn ý định có thể khiến bầu không khí khựng lại vài giây, nhất là khi bạn góp ý giữa nhiều người.",
+   "Khả năng cao bạn nhận ra ai đó đang giấu một điều nhỏ, và phần lớn đó chỉ là chuyện ngại ngùng, hoàn toàn không phải chuyện lớn."
+  ],
+  "love": "Bạn đọc rất nhanh thái độ của người kia, nhưng đọc nhanh cũng dễ thành đọc sai nếu chỉ dựa vào vài tín hiệu. Người độc thân nên quan sát cách người ta đối xử với nhân viên phục vụ hay người lạ trong buổi gặp, đó là thông tin rất quý. Người đang tìm hiểu hãy ghi nhận điều mình thấy nhưng chưa vội kết luận. Đang yêu thì chọn lời mềm hơn một bậc khi nói điều thật, để nó được nghe thay vì bị phản ứng lại.",
+  "career": "Mắt bạn tinh với lỗi sai và chỗ vô lý trong quy trình, nên hôm nay dễ được nhờ soát lại một bản báo cáo hoặc một tệp số liệu. Nhận xét nào cũng nên đi kèm gợi ý sửa để nghe như giúp đỡ chứ không như bắt lỗi. Nếu thấy điều gì khả nghi, hãy ghi lại sự việc cụ thể trước khi nêu với người phụ trách. Sinh viên hợp với việc rà lại bài đã làm và tìm chỗ sai trước khi nộp.",
+  "finance": "Bạn dễ nhìn ra khoản chi vô lý hoặc loại phí ẩn bị bỏ quên từ lâu, như gói đăng ký hết dùng hay phí duy trì nhỏ mỗi tháng. Một lượt rà sao kê ngắn khoảng mười lăm phút có thể giúp bạn bớt hao đáng kể. Ghi lại những gì tìm thấy rồi mới quyết định cắt cái nào. Tránh mua theo quảng cáo nói quá lời, vì hôm nay bạn đủ tỉnh để thấy chỗ phóng đại nhưng vẫn có thể bị cuốn nếu mệt.",
+  "insight": "Có thể bạn cảnh giác không phải vì nghi ngờ ai, mà vì từng có lần bị bất ngờ và không muốn lặp lại cảm giác đó. Cảnh giác vừa đủ thì bảo vệ bạn, quá liều thì chỉ làm bạn mệt và khiến người xung quanh thấy khó gần. Sự tinh ý hôm nay là thật, nhưng điều bạn thấy chưa chắc đã là toàn bộ bức tranh. Thử để một khoảng trống cho khả năng mình nhìn chưa đủ.",
+  "memorable_message": "Thấy rõ không có nghĩa là phải nói hết.",
+  "advice": "Mang theo một cuốn sổ hoặc mở ghi chú trên điện thoại, và ghi những gì bạn quan sát được trong buổi họp hay cuộc gặp quan trọng nhất hôm nay. Chỉ nói ra những điều có ích cho người nghe, phần còn lại giữ cho mình. Nếu phải phản biện, mở đầu bằng điều bạn đồng ý rồi mới đến điều chưa. Cuối ngày, đọc lại ghi chú và gạch những dòng chỉ là phỏng đoán.",
+  "keywords": [
+   "quan sát",
+   "tinh ý",
+   "cảnh giác"
+  ]
+ },
+ {
+  "card_id": "page-of-swords",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Lời đồn và thông tin nửa vời đang chạy nhanh hơn sự thật: hôm nay nghe nhiều, kiểm chứng trước khi tin.",
+  "card": {
+   "name": "Thị Đồng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Chuyện nghe lại thường đã bị kể thêm một lần.",
+  "card_meaning": "Khi Thị Đồng Kiếm bị đảo ngược, thanh kiếm chỉ xuống đất và gió trên đồi trở nên lộn xộn, như thể sự nhanh nhạy bị đổi hướng. Ở chiều ngược, sự tò mò dễ biến thành tin đồn, câu chuyện kể thêm thắt và thông tin chưa kiểm chứng. Lá bài không bảo bạn là người xấu, nó chỉ cảnh báo rằng thông tin đang đi nhanh hơn sự thật, và người nghe thường vô tình thành người truyền. Đây là mặt bóng của một đầu óc quá nhanh mà thiếu kiểm tra. Hôm nay nó đáng chú ý vì nhóm chat, văn phòng hay lớp học có thể thành nơi chuyện bị kể đi kể lại.",
+  "forecast": [
+   "Bạn có xu hướng nghe được một tin đồn về đồng nghiệp, bạn bè hoặc trong một nhóm chat nào đó, thường vào lúc nghỉ giải lao.",
+   "Một câu nói đùa có thể bị hiểu thành nghiêm túc khi đi qua miệng người thứ ba, và bản kể lại thường kịch tính hơn bản gốc.",
+   "Dễ xuất hiện cảm giác muốn kể lại một chuyện chỉ vì nó nghe hấp dẫn, trong khi bạn chưa chắc nó đúng."
+  ],
+  "love": "Chuyện tình cảm của bạn hoặc của người quanh bạn có thể bị bàn tán, và bản kể lại thường kịch tính hơn thực tế. Người độc thân đừng đánh giá ai chỉ qua lời người khác nói, vì một cái tên bị nhắc đến nhiều chưa chắc đã đúng như mô tả. Đang yêu thì hỏi thẳng người kia thay vì tin vào một tấm ảnh chụp màn hình hay một lời kể lại. Một cuộc nói chuyện trực tiếp thường ngắn hơn cả chuỗi suy diễn.",
+  "career": "Văn phòng hoặc lớp học hôm nay có nhiều lời qua tiếng lại, dễ làm bạn phân tâm khỏi việc chính và mất cả buổi sáng vào chuyện không liên quan. Hãy ghi lại việc của mình và giữ khoảng cách với những cuộc bàn tán, nhất là chuyện lương thưởng hay thăng chức. Một thông báo chính thức đáng tin hơn một lời thì thầm ở hành lang. Nếu bạn thấy khó chịu vì một tin đồn về mình, hãy hỏi trực tiếp người có thẩm quyền.",
+  "finance": "Tin về giá cả, cơ hội kiếm tiền hay khoản chi chung trong nhóm có thể bị truyền sai qua vài lượt. Hôm nay hãy chỉ tin vào con số có nguồn rõ ràng, như hóa đơn, bảng giá chính thức hoặc người trực tiếp liên quan. Nếu ai đó rủ bạn góp tiền vào việc gì dựa trên lời đồn, hãy hỏi thật kỹ hoặc từ chối. Tạm hoãn mọi khoản chi chỉ vì sợ bỏ lỡ, vì cảm giác khẩn cấp thường đến từ chính tin đồn.",
+  "insight": "Có thể chuyện bạn thấy hấp dẫn không phải vì nó quan trọng, mà vì nó cho bạn cảm giác mình đang nắm thông tin. Biết trước người khác đôi khi chỉ là cảm giác an toàn mượn tạm, và cái giá của nó là bạn dần quen nhìn người ta như những câu chuyện. Lá bài ngược gợi ý bạn thử hỏi mình một câu: nếu người trong chuyện đang ngồi đây, mình có kể như vậy không? Câu trả lời thường cho bạn biết nên giữ hay bỏ.",
+  "memorable_message": "Lời đồn giống nước đổ ra sàn: đổ thì dễ, gom lại thì khó.",
+  "advice": "Trước khi kể lại bất cứ điều gì hôm nay, tự hỏi mình hai câu: mình đã chính mắt thấy chưa, và kể ra thì ai được lợi. Thử áp dụng ngay lần đầu bạn nghe một chuyện hấp dẫn, trong nhóm chat hay giờ ăn trưa. Nếu chưa trả lời được cả hai, giữ im cũng là một lựa chọn tử tế. Khi cần, chuyển câu chuyện sang chủ đề khác bằng một câu hỏi vô hại.",
+  "keywords": [
+   "tin đồn",
+   "thông tin nửa vời",
+   "kiểm chứng"
+  ]
+ },
+ {
+  "card_id": "page-of-swords",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Miệng đi nhanh hơn đầu: hôm nay dễ nói điều chưa nghĩ kỹ, nên dừng nửa nhịp trước khi bấm gửi.",
+  "card": {
+   "name": "Thị Đồng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Nói xong mới nghĩ là một khoản vay có lãi cao.",
+  "card_meaning": "Thị Đồng Kiếm vốn là lá của đầu óc nhanh, và khi bị đảo ngược, tốc độ ấy chạy trước phần suy xét. Hình ảnh thanh kiếm vung lên không rõ nhắm vào đâu nói thay cho điều đó: lời nói bật ra trước khi ý nghĩ kịp thành hình. Ở chiều ngược, lá bài thiên về sự hấp tấp, thiếu cân nhắc và những phát ngôn mà một lát sau chính ta cũng thấy chưa ổn. Nó không phải bản án, chỉ là lời nhắc dừng nửa nhịp. Hôm nay lá bài này đáng chú ý vì mọi kênh giao tiếp, từ họp hành đến tin nhắn, đều dễ khiến bạn nói nhanh hơn nghĩ.",
+  "forecast": [
+   "Một bình luận hoặc tin nhắn gửi vội trong ngày có thể phải giải thích lại vào buổi tối, khi mọi người đã đọc theo cách khác ý bạn.",
+   "Bạn có xu hướng ngắt lời hoặc trả lời trước khi người kia nói xong, nhất là khi chủ đề bạn đã nắm sẵn.",
+   "Có thể có một quyết định nhỏ làm theo cảm hứng, rồi bạn nhận ra mình đã bỏ qua một bước kiểm tra đơn giản."
+  ],
+  "love": "Câu đùa hơi sắc hoặc lời trách thốt ra lúc mệt có thể để lại vệt khó chịu lâu hơn bạn nghĩ, nhất là khi người kia chưa kịp phản ứng. Nếu đang cãi nhau nhẹ, đợi vài phút rồi hãy nhắn thay vì gõ ngay khi còn nóng. Người độc thân nên tránh nhắn tin lúc cảm xúc đang lên xuống thất thường, như sau một ngày dài hoặc lúc nửa đêm. Với người đang yêu, một câu nói chậm lại thường dễ nghe hơn câu nói đúng.",
+  "career": "Email gửi vội dễ sai tên, thiếu tệp đính kèm hoặc hiểu nhầm yêu cầu, và việc sửa lại thường tốn nhiều thời gian hơn việc viết kỹ từ đầu. Đọc lại một lần trước khi gửi và hỏi lại nếu đề bài còn chưa rõ. Trong họp, chờ người ta nói xong rồi hãy phản biện, và thử tóm tắt lại ý họ trước khi nêu ý mình. Sinh viên có thể trả lời nhanh trong nhóm học nhưng nên kiểm tra lại số liệu.",
+  "finance": "Hôm nay dễ xác nhận một khoản chi hay đồng ý chia tiền khi chưa xem kỹ con số, nhất là lúc thanh toán chung với bạn bè. Dừng ba mươi giây để đọc lại hóa đơn trước khi bấm chuyển. Những khoản nhỏ cộng lại cũng đáng để mắt tới, như phí giao hàng, tiền tip hoặc đơn đặt vội lúc đói. Nếu có ai nhờ bạn ứng tiền, hãy nói rõ khi nào cần được trả lại để khỏi ngại ngùng về sau.",
+  "insight": "Có thể bạn nói nhanh vì sợ mất lượt hoặc sợ khoảng im lặng, như thể mỗi chỗ trống trong cuộc trò chuyện là một lỗi cần lấp. Thật ra người nghe thường nhớ câu bạn nói chậm hơn là câu bạn nói nhiều. Lá bài ngược gợi ý rằng sự nhanh miệng hôm nay có thể là lo âu khoác áo thông minh. Khi bạn cho phép mình im vài giây, câu trả lời tốt hơn thường xuất hiện trong khoảng đó.",
+  "memorable_message": "Nút gửi không đi kèm nút thu hồi cho cảm xúc.",
+  "advice": "Đặt quy tắc đếm đến ba trong đầu trước mỗi câu trả lời có tính tranh luận hoặc trước khi bấm gửi một tin quan trọng. Làm vậy ngay từ cuộc trò chuyện đầu tiên của buổi sáng để thành thói quen cho cả ngày. Nếu vẫn lỡ lời, xin lỗi ngắn gọn ngay lúc đó, đừng giải thích dài dòng. Một câu xin lỗi gọn thường được tiếp nhận tốt hơn cả đoạn biện minh.",
+  "keywords": [
+   "hấp tấp",
+   "lỡ lời",
+   "dừng một nhịp"
+  ]
+ },
+ {
+  "card_id": "page-of-swords",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Bạn dễ muốn dò xét, xem lại, tìm hiểu về ai đó. Hôm nay hãy hỏi thẳng thay vì lén lút đoán.",
+  "card": {
+   "name": "Thị Đồng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Kiểm tra lần thứ năm cũng không cho thêm thông tin nào mới.",
+  "card_meaning": "Đây là phía bóng của Thị Đồng Kiếm: sự tò mò không còn hướng tới việc học mà hướng tới việc dò xét. Ở chiều ngược, lá bài gợi hình ảnh một người nép sau bức màn, mắt dõi theo từng động tĩnh của người khác. Năng lượng này gắn với việc do thám, tìm hiểu lén lút và suy diễn từ những mảnh thông tin rời rạc. Nó thường mọc lên từ bất an hơn là ác ý. Hôm nay lá bài đáng chú ý vì bạn có thể bị kéo vào thói quen kiểm tra, xem lại và đào sâu mà không mang lại thêm điều gì rõ ràng.",
+  "forecast": [
+   "Bạn có xu hướng mở lại trang cá nhân hoặc cuộc trò chuyện cũ của một người để tìm thêm dấu hiệu, thường vào buổi tối khi rảnh.",
+   "Khả năng cao bạn đọc một dòng chữ rồi tự dựng cả câu chuyện phía sau nó, và câu chuyện ấy thường tệ hơn thực tế.",
+   "Có thể xuất hiện một người tò mò quá mức về chuyện riêng của bạn, hỏi han những điều bạn chưa muốn chia sẻ."
+  ],
+  "love": "Việc dò xem người kia online lúc nào, thích ảnh của ai hay theo dõi những ai chỉ khiến bạn thêm lo mà không thêm rõ. Nếu cần biết điều gì, hãy hỏi trực tiếp bằng giọng nhẹ nhàng, như một câu hỏi thật chứ không phải câu bẫy. Người độc thân đừng tìm hiểu người ta như đang điều tra, cứ trò chuyện thật và để thông tin đến tự nhiên. Nếu đang yêu, một câu tôi hơi lo là đủ để mở chuyện.",
+  "career": "Bạn dễ để ý đồng nghiệp được giao gì, ai được khen, ai trả lời sếp nhanh hơn, thay vì việc của chính mình. So sánh lúc này tốn năng lượng mà không ra kết quả cụ thể nào. Hãy giữ kỹ thông tin nội bộ và đừng nhắc việc nhạy cảm qua kênh chung, vì hôm nay có thể có người để ý. Sinh viên thì thử tập trung vào bài của mình thay vì hỏi điểm của cả lớp.",
+  "finance": "Có thể bạn tò mò về thu nhập hay chi tiêu của người khác, như món đồ bạn bè mới mua hay chuyến đi họ vừa đăng, và thấy nao nao trong lòng. Mỗi người có hoàn cảnh riêng nên con số của họ ít giúp được bạn. Hãy nhìn bảng chi tiêu của chính mình: tháng này đã đi đâu, còn lại bao nhiêu. Nếu ai hỏi về tiền lương hay tiết kiệm của bạn, bạn có quyền chỉ trả lời ở mức chung chung.",
+  "insight": "Có thể sự tò mò này đang che một nỗi bất an muốn được trấn an. Bạn không cần thêm dữ liệu, bạn cần một câu trả lời trực tiếp hoặc một ranh giới rõ hơn. Mỗi lần kiểm tra mà không thấy gì mới, cơn bứt rứt thường không giảm mà còn tăng, vì đầu óc sẽ đòi thêm một lần nữa. Lá bài ngược gợi ý rằng điều cần tìm hiểu có thể nằm ở bên trong: mình đang sợ điều gì nếu nghe sự thật?",
+  "memorable_message": "Soi người khác đủ lâu, bạn quên mất con đường của mình đang không có đèn.",
+  "advice": "Khi muốn dò xét ai đó, tự hẹn giờ mười phút rồi làm một việc khác, như đi bộ quanh nhà hoặc dọn bàn làm việc. Nếu chuyện đó vẫn quan trọng sau mười phút, hỏi thẳng một câu ngắn và rõ ràng. Còn nếu không, hãy coi như bạn vừa tiết kiệm được một tiếng. Tắt thông báo của ứng dụng bạn hay dùng để theo dõi người khác trong vài giờ tới.",
+  "keywords": [
+   "do thám",
+   "bất an",
+   "hỏi thẳng"
+  ]
+ },
+ {
+  "card_id": "knight-of-swords",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Một việc đang kẹt có thể chuyển động nhanh nếu bạn bắt đầu ngay, không chờ thêm điều kiện.",
+  "card": {
+   "name": "Kỵ Sĩ Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 8,
+   "finance": 6,
+   "energy": 9
+  },
+  "headline": "Hôm nay đà quan trọng hơn một kế hoạch hoàn hảo.",
+  "card_meaning": "Kỵ Sĩ Kiếm là hiệp sĩ phi nước đại trên con ngựa trắng, kiếm giơ cao, giữa bầu trời đầy mây và hàng cây oằn mình trong gió. Không có chút do dự nào trong hình ảnh này: anh nhìn thẳng vào đích và lao tới. Ở chiều xuôi, lá bài là năng lượng của hành động quyết liệt, của việc dám bắt đầu khi chưa có đủ điều kiện hoàn hảo. Sức mạnh của nó là đà, thứ khiến những việc bị treo bỗng chuyển động. Hôm nay lá bài đáng chú ý vì nó khớp với kiểu ngày mà làm trước, chỉnh sau lại hiệu quả hơn ngồi chờ.",
+  "forecast": [
+   "Một việc bạn trì hoãn có xu hướng được giải quyết gọn trong một buổi, nếu bạn chịu bắt tay vào ngay từ đầu giờ.",
+   "Bạn dễ thấy mọi thứ chậm hơn mong muốn, kể cả những người đang cố hết sức, và có thể thấy mình đang giục người khác.",
+   "Có thể một lời mời hoặc cơ hội cần phản hồi nhanh xuất hiện giữa ngày, khi bạn đang bận việc khác."
+  ],
+  "love": "Nếu thích ai, hôm nay hợp để chủ động nhắn hoặc rủ đi đâu đó, một ly cà phê hay buổi đi dạo ngắn, đừng chờ tín hiệu rõ hơn. Chỉ cần nhớ tốc độ của bạn chưa chắc bằng tốc độ của họ, nên rủ xong hãy để họ có khoảng thở. Người đang yêu nên giải quyết một chuyện còn tồn đọng, như một lời hứa chưa thực hiện hay một cuộc trò chuyện hoãn mãi. Người độc thân có thể thấy mình bớt rụt rè.",
+  "career": "Tốc độ là điểm mạnh của bạn lúc này: hợp để chốt việc, trả lời thư tồn đọng, nộp bài đúng giờ hoặc nhận một đầu việc không ai muốn chạm vào. Bạn có thể được nhìn nhận là người làm được việc, đặc biệt khi nhóm đang bị kẹt. Sinh viên hợp để bắt đầu bài tập lớn thay vì chờ cảm hứng. Chỉ cần dành hai phút soát lại trước khi gửi để nhanh mà không sai.",
+  "finance": "Dòng tiền ở mức ổn, hợp để xử lý một khoản còn treo như thanh toán, hoàn tiền hoặc đối soát hóa đơn mà bạn cứ hoãn. Làm xong một khoản như vậy thường nhẹ đầu hơn bạn tưởng. Hạn chế quyết định chi lớn chỉ vì cảm thấy cần làm ngay, vì đà hôm nay mạnh nhưng chưa chắc đã đúng hướng. Cái gì không gấp thì để sang hôm sau, và cho nó thêm một đêm để nghĩ.",
+  "insight": "Có thể bạn không lười, bạn đang chờ cảm giác sẵn sàng mà thực ra nó chỉ đến khi đã chạy. Nhiều người ngồi chờ động lực như chờ xe buýt, trong khi động lực thường là thứ xuất hiện sau bước đầu tiên. Sự sốt ruột hôm nay, nếu biết dùng, sẽ thành nhiên liệu thay vì thành bực bội. Lá bài gợi ý rằng bạn có thể đã chuẩn bị đủ từ lâu, chỉ còn thiếu cú đạp ga đầu tiên.",
+  "memorable_message": "Chiếc xe đứng yên thì chưa bao giờ cua được.",
+  "advice": "Chọn đúng một việc quan trọng nhất và làm ngay, trước khi trả lời tin nhắn, trước cả ly cà phê thứ hai. Đặt đồng hồ bốn mươi lăm phút và đừng chuyển tab trong khoảng đó. Xong rồi mới được lướt điện thoại. Nếu việc quá lớn, chỉ cần xong bước đầu tiên, vì đà quan trọng hơn khối lượng.",
+  "keywords": [
+   "tốc độ",
+   "bắt tay làm",
+   "quyết liệt"
+  ]
+ },
+ {
+  "card_id": "knight-of-swords",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay hợp nói thẳng điều cần nói, miễn là bạn giữ giọng đủ rõ để người nghe còn nghe được.",
+  "card": {
+   "name": "Kỵ Sĩ Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 8,
+   "finance": 6,
+   "energy": 8
+  },
+  "headline": "Thẳng thắn là món quà, khi nó không kèm theo một cú tát.",
+  "card_meaning": "Trong Kỵ Sĩ Kiếm, thanh kiếm không chỉ là vũ khí mà còn là biểu tượng của lời nói và sự thật, và vị hiệp sĩ cầm nó như một người đã quyết định nói thì nói cho hết. Anh phi nhanh vì tin rằng ý tưởng của mình đáng được nghe ngay. Ở chiều xuôi, lá bài mang năng lượng thẳng thắn, rõ ràng và dứt khoát trong giao tiếp, không vòng vo hay chờ người khác đoán. Nó mạnh nhất khi sự thẳng đi cùng ý tốt. Hôm nay lá bài đáng chú ý vì có điều gì đó trong bạn đã chín và chỉ chờ được nói ra.",
+  "forecast": [
+   "Bạn có xu hướng nói ra điều mà mọi người đang nghĩ nhưng chưa ai dám nói, có thể trong một cuộc họp hoặc buổi học nhóm.",
+   "Một cuộc trao đổi ngắn trực tiếp có thể giải quyết chuyện mà nhắn tin cả tuần chưa xong.",
+   "Có thể có người ngạc nhiên vì bạn bỗng trở nên rất dứt khoát, thậm chí hơi ít nói vòng."
+  ],
+  "love": "Nếu có điều lấn cấn với người kia, nói ngắn và rõ sẽ tốt hơn để họ phải đoán, nhất là khi chuyện đã kéo dài vài ngày. Người độc thân hợp bày tỏ sự quan tâm một cách đơn giản, không vòng vo, ví dụ nói thẳng rằng mình thích nói chuyện với người đó. Người đang yêu thì nói điều mình cần thay vì chờ được hiểu, và chọn lúc cả hai đều rảnh. Một câu thật, dù hơi vụng, thường ấm hơn một câu khéo mà rỗng.",
+  "career": "Bạn dễ phản biện, đề xuất và đặt câu hỏi trực diện trong cuộc họp, và điều đó có khả năng được ghi nhận như sự chủ động. Hãy chuẩn bị một dữ kiện hoặc ví dụ để lời mình có trọng lượng thay vì chỉ có thái độ. Học nhóm thì phân công rõ ràng ngay từ đầu, ai làm gì và đến khi nào. Nếu có việc vượt quá khả năng, nói thẳng ngay hôm nay sẽ đỡ rắc rối hơn là để đến sát hạn.",
+  "finance": "Hợp để nói chuyện tiền bạc thẳng thắn: chia khoản chung, nhắc khoản đã cho mượn hoặc hỏi rõ chi phí trước khi đồng ý. Nói rõ sớm thường nhẹ hơn để lâu, vì chuyện tiền để càng lâu càng dễ thành khó nói. Chỉ cần dùng giọng bình tĩnh và đưa ra con số cụ thể. Nếu bạn thấy một khoản phí không hợp lý, hôm nay là lúc đủ dạn để gọi hỏi hoặc nhắn để yêu cầu giải thích.",
+  "insight": "Có thể bạn đã im lâu quá về một chuyện và khoảng im lặng ấy đang nặng hơn bạn nghĩ. Điều bạn sợ thường là phản ứng của người nghe, ít khi là chính câu nói. Lá bài gợi ý rằng bạn có thể đã diễn tập câu ấy trong đầu hàng chục lần, và bản diễn tập thường dữ dội hơn thực tế. Khi nói ra bằng giọng bình thường, nhiều chuyện hóa ra nhỏ hơn mình tưởng.",
+  "memorable_message": "Nói rõ một lần còn đỡ hơn ngầm hiểu cả năm.",
+  "advice": "Soạn câu cần nói thành một hai câu ngắn, mở đầu bằng tôi cảm thấy hoặc tôi cần, rồi nói đúng lúc người kia đang rảnh, không phải lúc họ vừa về mệt. Nói xong, cho họ chút thời gian để trả lời thay vì bồi thêm. Nếu chưa dám nói trực tiếp, viết ra trước cũng là một bước tốt. Hôm nay chỉ cần nói một điều, không cần giải quyết cả đống.",
+  "keywords": [
+   "thẳng thắn",
+   "dứt khoát",
+   "nói rõ"
+  ]
+ },
+ {
+  "card_id": "knight-of-swords",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Tham vọng đang được tiếp thêm lửa: hôm nay hợp lao vào mục tiêu, miễn đừng bỏ lại người đồng hành.",
+  "card": {
+   "name": "Kỵ Sĩ Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 8,
+   "finance": 6,
+   "energy": 8
+  },
+  "headline": "Muốn đi xa thì đừng chỉ biết phóng.",
+  "card_meaning": "Kỵ Sĩ Kiếm khoác áo giáp, ngồi trên con ngựa đang lao tới, và trang phục của anh điểm những hình chim và bướm, nhắc rằng anh sinh ra từ một ý tưởng muốn bay cao. Điểm đặc biệt của lá bài là sự tập trung dồn hết vào một mục tiêu duy nhất. Ở chiều xuôi, nó tượng trưng cho tham vọng, sự quyết tâm và khát khao vươn lên bằng cách của riêng mình. Nhưng anh cũng là người ít nhìn hai bên đường, và đó là phần cần để ý. Hôm nay lá bài đáng chú ý vì lửa tham vọng của bạn đang được châm thêm.",
+  "forecast": [
+   "Bạn có xu hướng nhìn thấy một mục tiêu lớn hơn thường lệ và muốn lập tức tìm cách tiến tới, thường vào buổi sáng.",
+   "Một đối thủ hoặc người cùng nhóm có thể kích thích bạn làm tốt hơn, theo kiểu ganh đua lành mạnh.",
+   "Khả năng cao bạn nhận ra mình đang đi nhanh hơn sức thể chất cho phép vào cuối ngày, với dấu hiệu như đói, đau vai hoặc khó tập trung."
+  ],
+  "love": "Chuyện tình cảm có thể bị đẩy xuống sau công việc, và người kia dễ cảm thấy điều đó dù họ không nói. Dành một tin nhắn hoặc cuộc gọi ngắn giữa ngày để họ biết bạn vẫn nghĩ tới họ. Người độc thân thì sức hút nằm ở sự tự tin và hướng đi rõ ràng, nên không cần cố tỏ ra hấp dẫn. Nếu hẹn hò bị hoãn vì bận, hãy đề xuất một thời điểm cụ thể thay vì để chung chung.",
+  "career": "Năng lượng hợp để nhận việc khó, ứng tuyển vị trí mới hoặc tạo dấu ấn trước cấp trên bằng một đề xuất có số liệu. Sinh viên hợp đặt một mục tiêu điểm số hoặc dự án cụ thể và bắt đầu ngay. Chia mục tiêu lớn thành các mốc nhỏ để khỏi cháy sớm, vì tham vọng chạy bằng hơi thở ngắn thì sẽ hụt giữa đường. Cũng đừng quên hỏi đồng đội cần gì, vì thành tích có người cùng đi thường bền hơn.",
+  "finance": "Tham vọng tăng thu nhập đang lên, và bạn có thể nghĩ đến việc học thêm kỹ năng hay nhận thêm việc phụ. Hãy giữ chi tiêu ở mức bình thường, đừng thưởng cho mình quá tay vì hứng khởi. Có thể lập danh sách mục tiêu tiền bạc cho vài tháng tới, kèm một con số nhỏ cho từng mục. Chưa cần quyết định lớn ngay hôm nay, chỉ cần có hướng đi rõ.",
+  "insight": "Có thể bạn đang chứng minh điều gì đó với ai đó, dù người ấy chưa chắc đang nhìn. Tham vọng tốt nhất là loại vẫn còn nguyên khi không có khán giả. Lá bài gợi ý rằng sức bật hôm nay là thật, nhưng một phần động lực có thể đến từ việc không muốn bị đánh giá thấp. Biết điều này không làm mất đi tham vọng, nó chỉ giúp bạn chọn đích đến vì mình thay vì vì ánh mắt người khác.",
+  "memorable_message": "Chạy nhanh để về đích, chứ không phải để quên mất vì sao mình xuất phát.",
+  "advice": "Viết ra mục tiêu của tuần và một việc nhỏ có thể làm trong hôm nay để tiến gần nó, rồi làm trong buổi sáng. Ăn uống đủ và nghỉ năm phút giữa các đợt làm việc, ngựa chiến cũng cần uống nước. Đến tối, nhắn cho một người đồng hành, bạn bè hay người thân, để họ biết bạn đang làm gì. Mục tiêu có người chứng kiến thường dễ giữ hơn.",
+  "keywords": [
+   "tham vọng",
+   "mục tiêu",
+   "giữ nhịp"
+  ]
+ },
+ {
+  "card_id": "knight-of-swords",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Sự thiếu kiên nhẫn đang lên tiếng. Hôm nay dễ cáu với những thứ chậm, nên giữ đầu lạnh hơn tay nhanh.",
+  "card": {
+   "name": "Kỵ Sĩ Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 4,
+   "energy": 6
+  },
+  "headline": "Chậm một nhịp hôm nay có thể đỡ hai ngày sửa lỗi.",
+  "card_meaning": "Khi Kỵ Sĩ Kiếm bị đảo ngược, cảm giác của lá bài chuyển từ phi nước đại sang con ngựa bị giật cương: có đà nhưng bị chặn, có gấp nhưng không tới. Ở chiều ngược, năng lượng của anh trở thành sự thiếu kiên nhẫn, nóng vội và bực bội với tất cả những gì không chạy cùng tốc độ. Đây không hẳn là xấu, mà là tốc độ không còn đúng chỗ. Lá bài nhắc rằng nhanh chưa phải lúc nào cũng là tiến, vì đôi khi nó chỉ là lao vào tường sớm hơn. Hôm nay nó đáng chú ý vì sự sốt ruột của bạn có thể nhiều hơn mức mọi việc xứng đáng.",
+  "forecast": [
+   "Bạn có xu hướng bực vì hàng đợi, mạng chậm hoặc người phản hồi trễ, nhất là vào giờ cao điểm.",
+   "Một việc làm ẩu cho nhanh có thể phải làm lại ngay trong ngày, mất nhiều thời gian hơn việc làm kỹ ban đầu.",
+   "Dễ xuất hiện cảm giác muốn bỏ ngang rồi chuyển sang việc khác khi một việc chưa cho kết quả sau vài phút."
+  ],
+  "love": "Bạn dễ mất kiên nhẫn khi người kia trả lời chậm hoặc chưa rõ ràng, rồi nhắn dồn dập hoặc gọi liên tục. Hãy cho họ không gian một nhịp trước khi kết luận, vì người ta có thể đang bận chứ không phải đang né. Người độc thân đừng ép một mối quan hệ chạy nhanh hơn tốc độ tự nhiên của nó. Nếu đang yêu, nói rằng mình đang sốt ruột sẽ hiệu quả hơn là cư xử như đang giận.",
+  "career": "Làm gấp dễ bỏ qua chi tiết, và bạn có thể nhận phản hồi chưa vừa ý ngay lúc tưởng đã xong. Chia việc thành từng bước ngắn, xong bước nào chắc bước đó, và đánh dấu lại để thấy tiến độ. Đừng chuyển sang việc mới khi việc cũ chưa đóng lại, vì bạn sẽ có ba việc dở thay vì một việc xong. Sinh viên hợp học theo từng khối hai mươi lăm phút thay vì cố đọc hết một lần.",
+  "finance": "Chi tiêu vì sốt ruột là điểm cần để ý, như mua nhanh để khỏi phải chờ, trả thêm phí giao hỏa tốc hoặc chốt đơn vì sợ hết hàng. Chờ nửa ngày thường không mất gì mà còn giúp bạn thấy rõ mình có thật sự cần không. Tránh quyết định tiền bạc khi đang bực, vì tâm trạng ấy hay biến thành cú bấm nhanh. Nếu muốn mua gì, bỏ vào giỏ rồi quay lại sau bữa tối.",
+  "insight": "Có thể điều bạn bực không phải là sự chậm, mà là cảm giác mình đang tụt lại so với một hình dung nào đó trong đầu. Tốc độ của người khác không phải cái đồng hồ đo giá trị của bạn. Lá bài ngược gợi ý rằng sự thiếu kiên nhẫn có khi là dấu hiệu bạn muốn một điều gì đó rất nhiều nhưng chưa biết đặt nó ở đâu. Khi gọi tên được điều mình đang chờ, cơn bực thường dịu đi một phần.",
+  "memorable_message": "Đi nhanh mà lạc thì vẫn là đi chậm.",
+  "advice": "Mỗi khi thấy bực vì phải chờ, hít thở ba nhịp rồi hỏi mình việc này thật sự gấp đến đâu, trên thang một đến mười. Nếu dưới sáu, hãy gác nó sang một khung giờ khác. Nếu có thể, giao việc cho người khác hoặc dời sang hôm sau. Dành mười phút cuối buổi chiều để đi bộ hoặc giãn người, cho cơn nóng có chỗ đi.",
+  "keywords": [
+   "thiếu kiên nhẫn",
+   "nóng vội",
+   "chậm một nhịp"
+  ]
+ },
+ {
+  "card_id": "knight-of-swords",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Năng lượng dễ bật lên thành tranh cãi. Hôm nay thắng một cuộc cãi thường là thua một mối quan hệ.",
+  "card": {
+   "name": "Kỵ Sĩ Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 3,
+   "career": 5,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Bạn có thể đúng mà vẫn không cần phải thắng.",
+  "card_meaning": "Nếu bản xuôi là hiệp sĩ cầm kiếm để bảo vệ lẽ phải, thì bản ngược là hiệp sĩ vung kiếm vào bất cứ ai chắn đường. Hình ảnh con ngựa hoảng loạn và lưỡi kiếm không rõ nhắm vào ai gợi ra năng lượng hung hăng, thích tranh thắng hơn tìm hiểu. Ở chiều ngược, lá bài nói về những cuộc cãi vã nổ nhanh, lời nói nặng và nhu cầu phải thắng cho bằng được. Nó thường chỉ ra rằng cơn giận có một nguồn khác phía sau. Hôm nay lá bài đáng chú ý vì chỉ một câu nói lệch giọng cũng có thể biến thành tranh cãi.",
+  "forecast": [
+   "Một cuộc tranh luận nhỏ về chuyện không đáng, như ai quên làm gì hay cách làm nào mới đúng, có xu hướng leo thang rất nhanh.",
+   "Bạn dễ nhận ra giọng mình cao hơn mức định nói, thường là lúc đang mệt hoặc đói.",
+   "Có thể một người thân hoặc đồng nghiệp bấm đúng nút nhạy cảm của bạn, và phản ứng của bạn lớn hơn chuyện xảy ra."
+  ],
+  "love": "Một câu nói nhỏ có thể thành cãi vã nếu cả hai cùng mệt, nhất là vào buổi tối khi mọi thứ đã dồn lại. Nếu thấy nóng quá, hãy xin tạm dừng thay vì nói nặng lời, kiểu tôi cần mười phút rồi mình nói tiếp. Người độc thân dễ bị cuốn vào một cuộc tranh luận trên mạng, mà nó không đáng để bạn mất sức. Người đang tìm hiểu ai đó nên tránh thử lòng bằng cách gây gổ.",
+  "career": "Họp hoặc làm nhóm dễ có va chạm về cách làm, dù ai cũng muốn kết quả tốt. Tách vấn đề ra khỏi con người: nói về việc, đừng nói về tính cách, và dùng từ như phương án thay vì lỗi của ai. Ghi quyết định cuối cùng bằng văn bản để khỏi cãi lại về sau. Nếu thấy mình sắp phản ứng gay gắt trước một góp ý, xin phép trả lời sau mười phút.",
+  "finance": "Tiền bạc dễ thành đề tài cãi cọ nếu bạn chia khoản chung hay đòi lại khoản cũ, vì chuyện tiền thường dính cả lòng tự trọng. Hãy nói bằng con số và thời hạn, bớt dùng những từ như lúc nào cũng hay không bao giờ. Đừng chi tiêu chỉ để cho đối phương thấy hay để thắng một cuộc tranh luận. Nếu chưa bình tĩnh, hoãn việc bàn tiền sang lúc cả hai dễ chịu hơn.",
+  "insight": "Có thể bạn đang cần một nơi để xả cái bực đã tích từ trước, và cuộc cãi chỉ tình cờ là chỗ gần nhất. Cơn giận hiếm khi nằm đúng ở nơi nó nổ ra. Lá bài ngược gợi ý rằng đằng sau chuyện thắng thua có thể là mong muốn được lắng nghe, được công nhận hoặc được nghỉ ngơi. Khi hỏi mình thật sự đang cần gì, cuộc cãi thường mất đi một nửa sức nặng.",
+  "memorable_message": "Cãi cho hết lý thường là cách nhanh nhất để hết người nghe.",
+  "advice": "Khi thấy mình bắt đầu nói to, bước ra uống ly nước hoặc đi một vòng quanh tòa nhà rồi quay lại. Khi quay lại, mở đầu bằng một câu hỏi: mình muốn kết quả gì, thay vì mình muốn thắng gì. Hôm nay hãy chọn một cuộc tranh luận bạn có thể bỏ qua và để nó đi. Bạn vẫn có thể đúng mà không cần chứng minh.",
+  "keywords": [
+   "tranh cãi",
+   "nóng giận",
+   "tạm dừng"
+  ]
+ },
+ {
+  "card_id": "knight-of-swords",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Bạn có xu hướng lao vào nhiều việc cùng lúc, nhanh nhưng thiếu hướng, nên dễ kiệt sức giữa chừng.",
+  "card": {
+   "name": "Kỵ Sĩ Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Phóng hết ga trên con đường chưa vẽ bản đồ.",
+  "card_meaning": "Ở chiều ngược, Kỵ Sĩ Kiếm là người phi hết tốc lực trên con đường chưa có bản đồ, ngựa thở dốc mà đích đến vẫn mờ. Lá bài này nhìn vào mặt tối của sự nhiệt huyết: lao vào quá nhiều thứ, hứa quá nhiều, bắt đầu nhiều mà xong ít. Năng lượng của nó vẫn mạnh, chỉ là mất hướng và đang hao dần. Đây là kiểu liều lĩnh của người sợ dừng lại hơn là sợ đi sai. Hôm nay lá bài đáng chú ý vì bạn có thể đang chạy rất nhanh mà không rõ mình đang chạy về đâu.",
+  "forecast": [
+   "Một quyết định liều lĩnh như nhận thêm việc, hứa quá lời hoặc đồng ý một kế hoạch chưa nghĩ kỹ có khả năng xuất hiện.",
+   "Bạn dễ bắt đầu ba việc mới trong cùng một buổi mà chưa xong việc nào, rồi thấy mệt vì nhiều thứ dang dở.",
+   "Cơ thể có thể nhắc bạn bằng cơn mệt đột ngột vào đầu giờ chiều hoặc một giấc ngủ không sâu."
+  ],
+  "love": "Cảm xúc dễ lên nhanh rồi tụt nhanh, và bạn có thể nói ra điều quá lớn khi đang hứng, như một lời hứa hay một lời tỏ tình vội. Chỉ hứa những gì nằm trong khả năng thật, và nếu muốn bày tỏ thì giữ ở mức vừa. Người độc thân nên chậm lại một chút trước khi coi ai đó là người đặc biệt. Người đang yêu hãy dành thời gian chất lượng thay vì cố bù bằng những kế hoạch thật lớn.",
+  "career": "Bạn nhiều năng lượng nhưng thiếu thứ tự ưu tiên, dễ chạy nhanh mà sai hướng và để lại một đống việc dang dở. Lập danh sách ba việc và làm lần lượt từng việc một, xong việc nào gạch việc đó. Nếu có việc nhiều rủi ro, hỏi ý kiến người có kinh nghiệm trước khi bắt tay. Sinh viên đừng đăng ký quá nhiều thứ cùng lúc, chọn thứ quan trọng nhất của tuần và làm cho chắc.",
+  "finance": "Bạn dễ chi tiền cho một ý tưởng hoặc món đồ khi đang hứng, như một khóa học, thiết bị mới hay dự án tay trái, rồi sau thấy mình không cần. Đặt một mức chi tối đa cho ngày hôm nay và ghi nó ở nơi bạn thấy được. Nếu có khoản lớn, để sang ngày khác bàn lại với người đáng tin. Một ngày chờ rất rẻ so với một khoản chi không rút lại được.",
+  "insight": "Có thể bạn bận rộn để khỏi phải dừng lại và đối mặt với một câu hỏi lớn hơn. Nhanh đôi khi chỉ là cách để khỏi phải cảm nhận. Lá bài ngược gợi ý rằng lịch kín mít có thể đang làm nhiệm vụ của một tấm chắn, che đi một điều bạn chưa muốn nhìn thẳng. Nếu mỗi lần rảnh là bạn thấy bứt rứt, đó là tín hiệu đáng nghe.",
+  "memorable_message": "Chạy hết tốc lực mà không biết đích đến chỉ là cách mệt nhanh hơn.",
+  "advice": "Chọn một việc duy nhất làm cho tới nơi trước giữa trưa, các việc khác để chiều. Dành mười phút sau đó viết ra những thứ bạn đang chạy và khoanh tròn một thứ thật sự quan trọng. Ngủ đủ tối nay, đó là khoản bảo trì rẻ nhất mà bạn có. Nếu thấy mệt giữa ngày, nghỉ ngắn chứ đừng cố tăng tốc.",
+  "keywords": [
+   "liều lĩnh",
+   "mất phương hướng",
+   "kiệt sức"
+  ]
+ },
+ {
+  "card_id": "queen-of-swords",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Đầu óc hôm nay trong và gọn, hợp để cắt bớt thứ rối rắm và chốt một quyết định còn lơ lửng.",
+  "card": {
+   "name": "Nữ Hoàng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 8,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Khi bỏ bớt tiếng ồn, câu trả lời vốn đã nằm sẵn ở đó.",
+  "card_meaning": "Nữ Hoàng Kiếm ngồi trên ngai đá đặt giữa trời cao, nơi mây trôi dưới tầm mắt, một tay cầm thanh kiếm dựng thẳng, tay kia đưa ra như đang mời người đối diện nói thật. Ở độ cao ấy, tiếng ồn bên dưới chỉ còn lại thứ cần thiết. Lá bài tượng trưng cho tư duy sáng, khả năng phân biệt điều quan trọng với điều ồn ào và dũng khí gọi đúng tên sự việc. Ở chiều xuôi, nó thiên về sự rõ ràng đã được nghĩ kỹ, không phải sự lạnh nhạt. Hôm nay lá bài đáng chú ý vì có thể bạn đang ở trạng thái đủ tỉnh để cắt bớt những thứ thừa.",
+  "forecast": [
+   "Một vấn đề rối bấy lâu có xu hướng hiện ra gọn hơn khi bạn viết nó ra giấy hoặc nói thành lời với một người đáng tin.",
+   "Bạn dễ nhìn ra đâu là việc quan trọng và đâu chỉ là việc ồn ào, nhất là khi lịch trình trong ngày dày đặc.",
+   "Có thể bạn rút khỏi một cuộc thảo luận vòng vo mà không thấy áy náy, vì bạn đã nghe đủ để biết nó đi đâu."
+  ],
+  "love": "Bạn rõ hơn về điều mình muốn ở một mối quan hệ, và rõ cả điều mình không chấp nhận. Người độc thân có sức hút đến từ sự điềm tĩnh và không cố làm hài lòng mọi người, kiểu người nói ít nhưng nói trúng. Người đang tìm hiểu ai đó có thể hỏi về hướng đi của hai bên mà không thấy ngại. Đang yêu thì hợp nói một chuyện nghiêm túc nhưng ôn hòa, bắt đầu bằng điều bạn trân trọng.",
+  "career": "Hợp để lập kế hoạch, soạn báo cáo, đánh giá phương án và loại bớt phương án yếu thay vì giữ tất cả cho an toàn. Lời bạn nói có trọng lượng nếu đi kèm dữ kiện, và đồng nghiệp dễ lắng nghe một ý ngắn gọn có căn cứ. Sinh viên học hiệu quả khi tóm tắt bài bằng lời của mình, rồi tự gạch những ý chưa hiểu. Nếu có một quyết định công việc đang treo, hôm nay là lúc đủ tỉnh để chốt.",
+  "finance": "Đầu óc rõ ràng giúp bạn nhìn thẳng vào các con số, kể cả những con số không dễ chịu như dư nợ hay khoản chi vượt dự kiến. Hãy rà lại các khoản định kỳ và cắt khoản không còn dùng, vì cắt đúng chỗ là cách tiết kiệm êm nhất. Dòng tiền ở mức ổn định, không cần lo thêm. Việc nhìn sự thật tài chính hôm nay sẽ khiến bạn nhẹ người hơn việc né nó tuần sau.",
+  "insight": "Có thể bạn không thiếu đáp án, bạn chỉ chưa muốn nhận nó vì nó đòi hỏi hành động. Rõ ràng đôi khi khó chịu hơn mơ hồ, nhưng nhẹ hơn nhiều, vì mơ hồ cứ rỉ năng lượng của bạn từng chút một. Lá bài gợi ý rằng phần việc khó nhất không phải là nghĩ ra câu trả lời mà là chấp nhận hệ quả của nó. Khi đã chấp nhận, bước tiếp theo thường bớt nặng hơn bạn đoán.",
+  "memorable_message": "Sự rõ ràng là loại thoải mái mà bạn phải trả giá trước.",
+  "advice": "Viết ra một quyết định đang lơ lửng, kèm hai lý do ủng hộ và hai lý do phản đối, rồi chọn. Làm vào buổi sáng khi đầu óc còn mới, mất khoảng mười lăm phút là đủ. Sau đó nói với một người để quyết định thành hình, và tự đặt cho mình bước nhỏ đầu tiên. Đừng đọc lại các lý do sau khi đã chọn, trừ khi có thông tin mới.",
+  "keywords": [
+   "rõ ràng",
+   "tỉnh táo",
+   "chốt quyết định"
+  ]
+ },
+ {
+  "card_id": "queen-of-swords",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay bạn đứng vững trên đôi chân mình: nói không đúng lúc sẽ giúp bạn tiết kiệm nhiều sức.",
+  "card": {
+   "name": "Nữ Hoàng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 7,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Ranh giới rõ ràng là một dạng tử tế đi theo hai chiều.",
+  "card_meaning": "Nhìn vào Nữ Hoàng Kiếm, bạn sẽ thấy bà ngồi nghiêng một góc, gương mặt nghiêm nhưng không giận, và chỗ ngồi của bà không có ai ở bên. Hình ảnh ấy nói về sự độc lập: bà biết mình đứng ở đâu và không cần ai xác nhận. Ở chiều xuôi, lá bài mang năng lượng của ranh giới rõ ràng, của người dám nói không mà không cần gay gắt. Thanh kiếm của bà là để phân định, không phải để làm đau. Hôm nay lá bài đáng chú ý vì nó khớp với những lúc bạn gật đầu quá nhanh với điều mình không muốn.",
+  "forecast": [
+   "Bạn có xu hướng từ chối một lời nhờ vả mà thường ngày vẫn gật đầu, và thấy nhẹ hơn dự đoán sau đó.",
+   "Một người có thể thử đẩy phần việc của họ sang cho bạn, bằng giọng rất thân thiện.",
+   "Có thể bạn thấy thích một khoảng thời gian ở một mình hơn là đi cùng đám đông, như bữa trưa lặng lẽ hay buổi tối không kế hoạch."
+  ],
+  "love": "Bạn không còn muốn chấp nhận thứ tình cảm lấp lửng, kiểu nhắn lúc nhớ rồi biến mất. Nếu ai đó cư xử mập mờ, hôm nay bạn có khả năng hỏi thẳng họ đang muốn gì. Người độc thân thích ở một mình cũng hoàn toàn ổn, sức hút đến từ việc bạn không cần gấp. Người đang yêu có thể nói rõ giới hạn của mình, ví dụ cần một buổi tối riêng, mà không phải viện đến cãi nhau mới được nghe.",
+  "career": "Hợp để thỏa thuận lại phạm vi công việc, từ chối thêm việc ngoài khả năng hoặc nhận phần việc xứng đáng với mình. Nói bằng giọng bình thản, kèm một lý do ngắn và một phương án thay thế nếu có. Nếu bạn đang gánh phần của người khác, hôm nay là lúc đặt lại đường ranh một cách lịch sự. Sinh viên hợp học một mình, tắt hết thông báo, thay vì ngồi nhóm chỉ để cho có mặt.",
+  "finance": "Bạn có thể nói không với khoản chi theo áp lực xã hội, như một bữa ăn đắt tiền hay một lời rủ rê mua chung. Đòi lại khoản bạn đã cho mượn cũng là điều hợp lý, miễn là nói rõ ràng và lịch sự. Sự tự chủ về tiền bạc là điều bạn thấy rõ hôm nay, và nó đáng được ghi nhận. Một câu từ chối ngắn sẽ bảo vệ ví tiền của bạn tốt hơn cả một đoạn giải thích.",
+  "insight": "Có thể bạn quen làm người dễ chịu đến mức quên rằng sự có mặt của mình đã là món quà đủ rồi. Từ chối không làm bạn kém tốt, nó làm bạn thật hơn. Lá bài gợi ý rằng mỗi lần đồng ý trái ý mình là một lần bạn vay thời gian của chính mình và thường phải trả bằng sự mệt mỏi. Ranh giới tốt không đẩy người ta ra xa, nó chỉ cho họ biết đường để đến gần.",
+  "memorable_message": "Cánh cửa nào cũng cần một cái chốt, kể cả cửa nhà người tốt.",
+  "advice": "Tập sẵn một câu từ chối ngắn và lịch sự, như hôm nay mình chưa nhận thêm được, cảm ơn bạn đã nghĩ tới mình. Ghi vào ghi chú điện thoại để dùng khi cần. Dùng nó một lần trong ngày với một yêu cầu bạn thấy lấn cấn, và không xin lỗi thêm sau đó. Quan sát cảm giác của mình sau năm phút, thường nhẹ hơn bạn nghĩ.",
+  "keywords": [
+   "độc lập",
+   "ranh giới",
+   "nói không"
+  ]
+ },
+ {
+  "card_id": "queen-of-swords",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Kinh nghiệm bạn tích được đang có giá trị. Hôm nay dùng nó để nói thật với người khác và với chính mình.",
+  "card": {
+   "name": "Nữ Hoàng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 8,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Từng trải không phải là cứng, mà là biết mềm đúng chỗ.",
+  "card_meaning": "Nữ Hoàng Kiếm là người phụ nữ từng trải: theo cách đọc truyền thống, bà đã đi qua mất mát và học được cách nhìn đời không tô vẽ. Trên ngai của bà có hình những cánh bướm và thiên thần nhỏ, như dấu vết của những chương đã qua. Ở chiều xuôi, lá bài đại diện cho kinh nghiệm sống đã được chuyển thành sự thấu hiểu, và cho sự thẳng thắn không còn cần phô trương. Bà nói thật không phải để thắng mà vì bà biết cái giá của sự mập mờ. Hôm nay lá bài đáng chú ý vì bạn có thể đang dùng được những bài học cũ của chính mình.",
+  "forecast": [
+   "Một người có thể tìm bạn xin lời khuyên vì họ thấy bạn bình tĩnh và thực tế, có thể qua một tin nhắn riêng hoặc lúc nghỉ trưa.",
+   "Bạn dễ nhớ lại một bài học cũ phù hợp đúng với tình huống hôm nay, thường vào lúc đang chần chừ.",
+   "Có xu hướng bạn nhìn lại một thất vọng trước đây với cái nhìn nhẹ hơn, thậm chí thấy nó có lý do của nó."
+  ],
+  "love": "Bạn hiểu kiểu người nào hợp với mình hơn trước và ít bị cuốn bởi vẻ ngoài hay những lời ngọt. Người độc thân nên nói thật về mong muốn của mình thay vì giấu đi cho dễ chịu, vì nói sớm sẽ lọc được người không hợp. Người đang tìm hiểu có thể kể một bài học từ mối quan hệ cũ mà không đổ lỗi cho ai. Đang yêu thì nói thật kèm một lời ghi nhận, hai điều đi cùng nhau thì dễ nghe hơn.",
+  "career": "Kinh nghiệm giúp bạn đoán trước rắc rối và đưa ra giải pháp thực tế, thay vì chỉ đưa ra lý thuyết. Đồng nghiệp hoặc bạn cùng lớp có thể nhờ bạn góp ý về một bài làm hay một kế hoạch. Hãy góp ý có chọn lọc, chỉ nói điều họ có thể dùng được, và đừng ôm lấy việc của họ. Nếu bạn mới vào nghề, quan sát một người lâu năm cũng là cách học nhanh.",
+  "finance": "Bạn nhớ lại những lần tiêu tiền rồi hối hận và có xu hướng chi tiêu tỉnh táo hơn, nhất là trước những món đồ nhìn hấp dẫn nhưng ít dùng. Hợp để tổng kết các khoản chi của mấy tháng qua và nhận ra thói quen lặp lại của mình. Dòng tiền khá ổn định. Hãy ghi một nguyên tắc chi tiêu rút ra từ kinh nghiệm cũ, như chờ hai ngày trước khi mua đồ trên một mức nào đó mà bạn tự đặt.",
+  "insight": "Có thể bạn đã trả giá cho những bài học này, nên khó chấp nhận khi người khác lặp lại sai lầm. Nhưng nhiều khi người ta chỉ học được bằng con đường của chính họ. Lá bài gợi ý rằng sự thất vọng của bạn với người khác có thể có một phần là sự xót xa cho phiên bản trước của chính mình. Khi nhận ra điều đó, bạn dễ chia sẻ kinh nghiệm mà không mang giọng của người đã từng đau.",
+  "memorable_message": "Vết sẹo là tấm bản đồ, miễn là bạn đọc nó thay vì chỉ sờ vào.",
+  "advice": "Hôm nay khi cho lời khuyên, hỏi trước xem người kia có muốn nghe không, chẳng hạn bạn muốn mình góp ý hay chỉ cần mình nghe thôi. Kể một kinh nghiệm của mình thay vì ra lệnh nên làm gì. Và hãy để dành một lời khuyên đó cho chính mình: chọn một bài học cũ còn đang bị bạn bỏ quên và viết nó thành một dòng trên giấy dán bàn.",
+  "keywords": [
+   "từng trải",
+   "thực tế",
+   "nói thật"
+  ]
+ },
+ {
+  "card_id": "queen-of-swords",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Lưỡi dễ sắc hơn lòng: hôm nay bạn có xu hướng phán xét nhanh, nên lọc lại trước khi nói.",
+  "card": {
+   "name": "Nữ Hoàng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 3,
+   "career": 5,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Mỉa mai là sự thật đã bị bỏ mất phần tử tế.",
+  "card_meaning": "Khi Nữ Hoàng Kiếm bị đảo ngược, thanh kiếm vốn dùng để phân định đúng sai giờ dễ quay sang cắt người. Ở chiều ngược, sự thẳng thắn của bà có thể nghiêng thành phán xét, sự rõ ràng thành cay nghiệt, tiêu chuẩn cao thành khắt khe với người khác. Lá bài không bảo bạn là người xấu, nó chỉ ra một lưỡi sắc đang mất đi phần ấm. Bà vẫn nhìn rất rõ, chỉ là không còn chừa chỗ cho lòng trắc ẩn. Hôm nay lá bài đáng chú ý vì đầu óc phản biện của bạn có thể chạy nhanh hơn trái tim, và người nghe sẽ cảm nhận được điều đó.",
+  "forecast": [
+   "Bạn có xu hướng buột ra một câu nhận xét chua chát về ai đó, rồi thấy hơi áy náy sau vài phút.",
+   "Một người có thể phản ứng lại giọng điệu của bạn thay vì nội dung bạn nói, dù điều bạn nói có thể đúng.",
+   "Dễ xuất hiện cảm giác không ai làm đúng ý mình, nhất là trong công việc nhóm hoặc việc nhà."
+  ],
+  "love": "Tiêu chuẩn cao mà giọng quá lạnh thì dễ làm người kia thu mình lại, và bạn có thể không nhận ra họ đã ngừng chia sẻ. Hãy ghi nhận một điều tốt trước khi nêu điều chưa ổn. Người độc thân đừng gạch tên ai chỉ vì một chi tiết nhỏ, như cách ăn mặc hay một câu nói vụng. Nếu đang yêu, thử đổi câu bạn sai rồi thành mình cần bạn làm khác đi như thế này.",
+  "career": "Bạn thấy rõ lỗi của người khác, nhưng cách nói có thể làm họ phòng thủ và việc sửa trở nên chậm hơn. Nói về việc, kèm cách sửa, và bỏ phần bình luận về con người. Với người đang đi làm, một email góp ý nên đọc lại một lần để bớt đi chữ nào có vị mỉa. Sinh viên trong nhóm sẽ làm việc trơn tru hơn nếu bạn bớt chê và nói rõ mình muốn kết quả ra sao.",
+  "finance": "Bạn có xu hướng khắt khe với cách chi tiêu của người khác, như món đồ họ mua hay cách họ chia tiền. Ví của họ không phải trách nhiệm của bạn. Hãy chỉ lo ngân sách của chính mình, và nếu muốn góp ý với người thân về chuyện tiền, chờ khi họ hỏi. Hôm nay hợp để nhìn lại thói quen của bản thân với cùng một tiêu chuẩn mà bạn đặt cho người khác.",
+  "insight": "Có thể sự cay nghiệt hôm nay là cách bạn tự bảo vệ trước một thất vọng chưa được nói ra. Kén chọn đôi khi chỉ là nỗi sợ bị tổn thương mặc thêm áo giáp. Lá bài ngược gợi ý rằng mỗi lời chê sắc nhọn có thể che một mong muốn nhỏ hơn: được tôn trọng, được làm đúng hoặc được ai đó hiểu mình. Khi gọi tên điều đó, giọng nói của bạn thường mềm đi mà không cần cố.",
+  "memorable_message": "Lưỡi sắc cắt được mọi thứ, kể cả cây cầu bạn đang đứng.",
+  "advice": "Trước khi nói bất kỳ nhận xét nào hôm nay, thử bỏ đi tính từ nặng nhất. Nếu câu còn lại vẫn đúng và cần thiết thì nói, còn không thì thôi. Áp dụng ngay với cuộc trò chuyện đầu tiên có chút bất đồng. Cuối ngày, nghĩ lại một lần bạn nói nhẹ hơn dự định và xem người kia phản ứng thế nào.",
+  "keywords": [
+   "phán xét",
+   "lời sắc",
+   "mềm lại"
+  ]
+ },
+ {
+  "card_id": "queen-of-swords",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Bạn đang dựng tường để yên thân. Nghỉ ngơi thì tốt, nhưng đừng khóa luôn cả cổng.",
+  "card": {
+   "name": "Nữ Hoàng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Lạnh lùng nhiều khi chỉ là mệt mà chưa dám nói.",
+  "card_meaning": "Chiều ngược của Nữ Hoàng Kiếm là hình ảnh người ngồi trên ngai cao nhưng đã quay lưng với mọi người. Sự độc lập mà lá bài thường biểu trưng bị đẩy thành cô lập: ở một mình không còn là lựa chọn thoải mái mà là một bức tường. Năng lượng của nó là lạnh lùng, kín đáo và đôi khi rút lui để khỏi phải cảm nhận. Nhưng chiều ngược cũng có thể là một nhu cầu nghỉ chính đáng của người đã gánh nhiều. Hôm nay lá bài đáng chú ý vì khoảng cách giữa cần yên tĩnh và cần cô lập có thể rất mỏng.",
+  "forecast": [
+   "Bạn có xu hướng trả lời ngắn gọn, tránh tụ tập và muốn ở một mình, kể cả khi có người rủ.",
+   "Một người thân thiện có thể bị bạn đối xử lạnh hơn ý định thật, rồi lặng lẽ lùi lại.",
+   "Có thể bạn bỏ lỡ một lời mời nhỏ vì mặc định rằng mình không hợp, trong khi nó có thể dễ chịu hơn bạn nghĩ."
+  ],
+  "love": "Bạn dễ rút lui khi cảm xúc trở nên rối, và người kia có thể hiểu thành bạn hết quan tâm. Một câu như hôm nay mình cần yên tĩnh, tối mình nhắn lại sẽ tránh được hiểu lầm. Người độc thân đừng đóng cửa chỉ vì lần thất vọng trước, vì mỗi người mới là một câu chuyện khác. Nếu đang yêu, một cái ôm ngắn hay một câu chúc ngủ ngon cũng đủ để báo rằng cửa vẫn mở.",
+  "career": "Làm một mình thì hiệu quả, nhưng thiếu trao đổi khiến người khác không biết bạn đang cần gì hoặc đang ở bước nào. Cập nhật tiến độ ngắn gọn cho đồng đội, một hai dòng là đủ. Đừng im lặng khi gặp khó chỉ vì tự ái, vì xin giúp sớm thường rẻ hơn tự chịu. Sinh viên có thể thấy lười vào nhóm, nhưng một buổi trao đổi ngắn đôi khi tiết kiệm cả tối cho bạn.",
+  "finance": "Tài chính ổn định, nhưng bạn có xu hướng chi để tự thưởng cho cảm giác cô đơn, như đồ ăn đặt về hay đồ mua online lúc đêm. Lưu ý một khoản nhỏ thôi, và để ý xem nó có thật sự làm bạn dễ chịu hay chỉ lấp khoảng trống. Nếu cần hỏi ý ai đó về một chuyện tiền bạc, đừng ngại, vì một cái nhìn khác thường tiết kiệm hơn tự lo. Hôm nay không cần quyết định gì lớn.",
+  "insight": "Có thể bạn đã từng giúp quá nhiều mà không được đáp lại, nên học cách không cần ai. Độc lập khác cô lập ở chỗ độc lập vẫn để ngỏ cánh cửa. Lá bài ngược gợi ý rằng sự lạnh lùng của bạn có thể là cách tiết kiệm sức khi cạn pin, chứ chưa hẳn là bạn không quan tâm. Khi hiểu điều đó, bạn có thể cho phép mình nghỉ mà không phải đóng sập cửa.",
+  "memorable_message": "Bức tường chặn được gió, nhưng cũng chặn luôn ánh nắng.",
+  "advice": "Chọn một người an toàn và nhắn cho họ một câu thật, như hôm nay mình hơi mệt. Gửi vào buổi trưa hoặc chiều, trước khi bạn kịp nghĩ lại. Không cần nói dài, chỉ để cửa không đóng hẳn. Nếu muốn ở một mình, hãy đặt cho nó một khung giờ rõ, ví dụ một buổi tối, rồi mới quay lại với mọi người.",
+  "keywords": [
+   "khép lại",
+   "cô lập",
+   "để ngỏ cửa"
+  ]
+ },
+ {
+  "card_id": "queen-of-swords",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Giám khảo trong đầu bạn đang chấm điểm gắt. Hôm nay thử dùng một tiêu chuẩn mềm hơn cho chính mình.",
+  "card": {
+   "name": "Nữ Hoàng Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Bạn đang nghiêm khắc với mình hơn với bất kỳ ai khác.",
+  "card_meaning": "Ở chiều ngược, thanh kiếm của Nữ Hoàng không chĩa ra ngoài mà quay vào trong, và người bị đánh giá chính là bà. Lá bài gợi lên hình ảnh giám khảo nghiêm khắc ngồi trong đầu, ghi nhớ từng lỗi nhỏ và hiếm khi cho điểm cộng. Năng lượng này gắn với sự tự phán xét, tiêu chuẩn cao đến mức không ai đạt nổi và cảm giác mình luôn chưa đủ. Nó cũng có thể mở ra điều tích cực: khi nhận ra giọng nói ấy, bạn bắt đầu tách nó khỏi chính mình. Hôm nay lá bài đáng chú ý vì bạn có thể đang nghe giọng ấy to hơn bình thường.",
+  "forecast": [
+   "Bạn có xu hướng nhớ lỗi nhỏ lâu hơn thành tích, kể cả những lỗi người khác đã quên từ lâu.",
+   "Một lời góp ý bình thường có thể nghe như lời chê nặng, đặc biệt khi bạn đang mệt.",
+   "Dễ xuất hiện thói quen so sánh với người khác trên mạng xã hội rồi kết luận mình kém hơn."
+  ],
+  "love": "Bạn dễ nghĩ mình không đủ tốt rồi tự lùi lại trước khi ai kịp lựa chọn. Với người đang yêu, nói ra một nỗi lo thay vì giữ kín, người kia hiểu bạn dễ hơn bạn tưởng. Người độc thân bớt chấm điểm bản thân sau mỗi cuộc trò chuyện, như tôi nói thế có dở không, vì người đối diện thường nhớ cảm giác hơn là câu chữ. Nếu có ai khen bạn, thử chỉ nói cảm ơn thay vì giải thích vì sao họ nhầm.",
+  "career": "Chuẩn mực cao giúp bạn làm kỹ, nhưng hôm nay nó dễ biến thành cầu toàn và trì hoãn, như sửa đi sửa lại một slide mà không dám gửi. Đặt mức đủ tốt cho từng việc, ví dụ tám mươi phần trăm là nộp được. Sinh viên đừng bỏ buổi học chỉ vì cảm thấy mình chưa theo kịp, vì hỏi lại sẽ nhanh hơn trốn. Nếu nhận được góp ý, ghi lại phần dùng được và để phần còn lại sang một bên.",
+  "finance": "Bạn có thể tự trách về một khoản chi cũ, rồi kiềm chế quá mức hoặc ngược lại chi mạnh cho đỡ buồn. Cả hai đều là phản ứng với cảm giác chứ không phải với con số. Nhìn lại số liệu thật thay vì cảm giác, như tổng chi tháng này so với tháng trước. Một ngân sách vừa phải, có chỗ cho một khoản vui nhỏ, sẽ dễ theo hơn một kỷ luật nghiêm đến mức bạn phải phá nó.",
+  "insight": "Có thể giọng phán xét trong đầu bạn được học từ ai đó, chưa hẳn là giọng của bạn. Bạn có quyền hỏi xem nó có đang công bằng không. Lá bài ngược gợi ý rằng tiêu chuẩn khắt khe ấy từng giúp bạn đạt được nhiều thứ, nhưng nó không cần phải làm quản lý cả đời. Khi nghe nó lên tiếng, thử hỏi: nếu là bạn thân mình thì mình nói sao? Câu trả lời thường mềm và công bằng hơn.",
+  "memorable_message": "Nếu bạn không nói câu đó với bạn thân, đừng nói nó với chính mình.",
+  "advice": "Viết ra ba điều bạn đã làm được trong tuần này, dù nhỏ, vào lúc nghỉ trưa hoặc trước khi ngủ. Khi giọng chê vang lên, trả lời nó bằng một dữ kiện chứ không bằng cảm xúc, ví dụ tuần này mình đã nộp đúng hạn hai lần. Nếu bạn muốn sửa một điều, chọn một điều thôi và đặt bước nhỏ cho nó.",
+  "keywords": [
+   "tự phán xét",
+   "khắt khe",
+   "mềm với mình"
+  ]
+ }
+]

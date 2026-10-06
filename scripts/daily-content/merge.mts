@@ -13,7 +13,7 @@ import { VARIANTS_PER_COMBO, buildJobs, cardById, jobKey, ORIENTATIONS, type Job
 import { lintDailyContent } from "./lint.mts";
 
 const OUTPUT_DIR = fileURLToPath(new URL("./output/", import.meta.url));
-const CHUNKS_DIR = join(OUTPUT_DIR, "chunks");
+const CHUNKS_DIR = join(OUTPUT_DIR, "chunks-v2");
 const OUT_PATH = join(OUTPUT_DIR, "daily-content.json");
 
 const RowSchema = DailyContentSchema.extend({

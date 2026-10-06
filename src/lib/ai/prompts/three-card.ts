@@ -1,5 +1,5 @@
 import { TOPIC_LABEL } from "@/lib/reading";
-import { SUIT_LABEL_VI, isSuit, type ReadingContext } from "@/lib/reading-context";
+import { SUITS, SUIT_LABEL_VI, isSuit, type ReadingContext } from "@/lib/reading-context";
 import { SAFETY_PREAMBLE } from "@/lib/ai/prompts/safety";
 import { THREE_CARD_PROMPT_BODY } from "@/lib/ai/prompts/text-three-card";
 
@@ -10,9 +10,9 @@ export interface BuiltPrompt {
 }
 
 // Ngân sách cho cả phần "thinking" ẩn của Gemini (không tắt được, xem
-// providers/gemini.ts) lẫn khoảng 1.200–1.600 token JSON đầu ra. Bug thật đã
+// providers/gemini.ts) lẫn khoảng 3.500–5.000 token JSON đầu ra (bài 1100–1400 từ tiếng Việt). Bug thật đã
 // gặp ở prompt cũ: MAX_TOKENS cắt cụt giữa chừng khi ngân sách chỉ ~1500.
-const THREE_CARD_MAX_TOKENS = 8000;
+const THREE_CARD_MAX_TOKENS = 16000;
 
 function describeSuit(suit: string | null): string {
   return isSuit(suit) ? `${suit} (${SUIT_LABEL_VI[suit]})` : "không có (Major Arcana)";
@@ -39,6 +39,10 @@ export function buildThreeCardPrompt(context: ReadingContext): BuiltPrompt {
     `major_count: ${context.majorCount}`,
     `minor_count: ${context.minorCount}`,
     `dominant_suit: ${context.dominantSuit === "none" ? "none" : describeSuit(context.dominantSuit)}`,
+    `suit_counts: ${SUITS.map((s) => `${s} (${SUIT_LABEL_VI[s]}) ${context.suitCounts[s]}`).join(", ")}`,
+    `repeated_number: ${context.repeatedNumber === null ? "none" : context.repeatedNumber}`,
+    `court_cards: ${context.courtCount}`,
+    `reversed_count: ${context.reversedCount}`,
     ...cardBlocks,
     "Trả về JSON đúng schema, theo đúng các chỉ dẫn trên.",
   ].join("\n\n");

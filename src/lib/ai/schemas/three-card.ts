@@ -13,6 +13,8 @@ export const ThreeCardAiOutputSchema = z.object({
   minor_count: z.number(),
   energy_weight: z.string(),
   dominant_suit: z.string(),
+  // Diễn giải dominant suit / con số lặp; "" khi không có pattern.
+  pattern_note: z.string(),
   overall_story: z.string(),
   cards: z.array(
     z.object({
@@ -33,7 +35,9 @@ export type ThreeCardAiOutput = z.infer<typeof ThreeCardAiOutputSchema>;
 
 // Bản lưu trong `readings.result`. `version` để về sau đổi cấu trúc mà vẫn đọc
 // được bản ghi cũ; `spread` để renderer biết dùng bố cục nào.
-export interface ThreeCardResult extends ThreeCardAiOutput {
+// `pattern_note` tuỳ chọn: bản ghi trước khi có trường này không có nó.
+export type ThreeCardResult = Omit<ThreeCardAiOutput, "pattern_note"> & {
+  pattern_note?: string;
   version: 1;
   spread: "three_card";
-}
+};
