@@ -4,10 +4,11 @@ import React, { use, useState, useEffect } from "react";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { ArrowLeft, Calendar, Sparkles, Layers, Loader2 } from "lucide-react";
+import { ArrowLeft, Calendar, Loader2 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
-import { findCardById } from "@/lib/cards";
-import type { ReadingHistoryItem, DrawnCardRow } from "@/types/tarot";
+import { ReadingResultSection } from "@/components/reading/ReadingResultSection";
+import { HISTORY_DETAIL_SELECT, rowToHistoryItem } from "@/lib/reading-history";
+import type { ReadingHistoryItem, ReadingRow } from "@/types/tarot";
 import { readLocalReadings } from "@/lib/user-scoped-storage";
 import { useAuthUser } from "@/lib/useAuthUser";
 
@@ -30,29 +31,12 @@ export default function ReadingDetailPage({
         const supabase = createClient();
         const { data } = await supabase
           .from("readings")
-          .select("id, created_at, topic, question, cards_drawn, personal_body")
+          .select(HISTORY_DETAIL_SELECT)
           .eq("id", id)
           .single();
 
         if (data) {
-          setReading({
-            id: data.id,
-            date: new Date(data.created_at).toLocaleDateString("vi-VN"),
-            topic: data.topic,
-            topicVi: data.topic === "love" ? "Tình Yêu" : data.topic === "career" ? "Sự Nghiệp" : data.topic === "finance" ? "Tài Chính" : "Tổng Quan",
-            question: data.question,
-            cards: (data.cards_drawn || []).map((c: DrawnCardRow, i: number) => {
-              const card = findCardById(c.card_id);
-              return {
-                name: card?.name_en ?? c.card_id,
-                nameVi: card?.name_vi ?? c.card_id,
-                image: `/cards/${card?.image_filename ?? `${c.card_id}.jpg`}`,
-                orientation: c.orientation || "upright",
-                position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
-              };
-            }),
-            personalBody: data.personal_body,
-          });
+          setReading(rowToHistoryItem(data as ReadingRow));
         } else {
           // Bộ đệm cục bộ dự phòng — chỉ của chính người đang đăng nhập, xem
           // readLocalReadings(). Quẻ không thuộc về họ thì trang này để trống
@@ -136,18 +120,7 @@ export default function ReadingDetailPage({
               ))}
             </div>
 
-            {/* AI text */}
-            {reading.personalBody && (
-              <div className="pt-6 border-t border-[#3d3123]">
-                <div className="flex items-center gap-2 text-sm font-semibold text-[#d4af37] mb-3">
-                  <Sparkles className="w-4 h-4" />
-                  <span>Luận giải chuyên sâu:</span>
-                </div>
-                <div className="text-xs sm:text-sm text-[#f3ece1]/90 leading-relaxed whitespace-pre-line bg-[#1c1611] p-6 rounded-2xl border border-[#3d3123]/70 font-display">
-                  {reading.personalBody.normalize("NFC")}
-                </div>
-              </div>
-            )}
+            <ReadingResultSection reading={reading} legacyClassName="bg-[#1c1611] p-6 rounded-2xl" />
           </div>
         ) : (
           <div className="py-20 text-center text-[#7a6e5d] bg-[#15100b] rounded-3xl border border-[#3d3123] p-8">

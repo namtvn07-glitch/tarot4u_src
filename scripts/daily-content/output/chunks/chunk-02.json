@@ -1,0 +1,380 @@
+[
+  {
+    "card_id": "the-empress",
+    "orientation": "upright",
+    "variant": 1,
+    "summary": "Hôm nay cơ thể và cảm xúc của bạn cần được chăm trước, và khi được chăm đúng, mọi thứ khác tự mềm lại.",
+    "card": { "name": "Nữ Hoàng", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 8, "career": 7, "finance": 8, "energy": 7 },
+    "headline": "Bữa cơm tử tế hôm nay là một chiến lược, không phải sự lười biếng.",
+    "forecast": [
+      "Bạn có xu hướng muốn nấu một món gì đó, dọn góc làm việc hoặc chăm một chậu cây, và việc nhỏ ấy làm đầu óc dịu xuống.",
+      "Một người xung quanh dễ tìm đến bạn để tâm sự, vì hôm nay bạn toát ra cảm giác an toàn.",
+      "Bạn dễ nhận ra mình mệt hơn mình tưởng ngay khi chịu dừng lại."
+    ],
+    "love": "Sự dịu dàng là điểm hút của bạn hôm nay, chẳng cần màn tán tỉnh nào cầu kỳ. Người đang yêu nên để ý những cử chỉ chăm sóc nhỏ như pha một ly nước hay hỏi đã ăn chưa, vì chúng có sức nặng hơn lời hoa mỹ. Người độc thân dễ gây thiện cảm khi cứ tự nhiên là mình.",
+    "career": "Công việc hợp với kiểu làm chậm mà chắc, nuôi dần một dự án thay vì đòi nó ra kết quả ngay. Không khí nhóm có thể ấm hơn nếu bạn là người mở lời khen. Sinh viên nên học từng chặng ngắn có nghỉ giữa chừng.",
+    "finance": "Dòng tiền ở mức dễ chịu, và bạn dễ chi cho những thứ khiến mình thấy được chăm sóc như đồ ăn ngon hay đồ dùng trong nhà. Chỉ cần phân biệt chăm sóc thật với mua cho đỡ trống trải.",
+    "insight": "Có thể bạn quen coi việc chăm mình là phần thưởng sau khi xong việc, trong khi nó mới là điều kiện để làm xong việc. Hôm nay lá bài nhắc rằng nghỉ ngơi không cần xin phép ai.",
+    "memorable_message": "Đất không mọc được gì nếu cứ bị gặt mà chẳng bao giờ được tưới.",
+    "advice": "Dành ít nhất một bữa trong ngày để ăn thật chậm, không cầm điện thoại. Nếu còn dư sức, hãy chia bớt sự ấm áp ấy cho một người, nhưng nhớ chừa phần cho mình.",
+    "keywords": ["chăm sóc", "sung túc", "dịu dàng"]
+  },
+  {
+    "card_id": "the-empress",
+    "orientation": "upright",
+    "variant": 2,
+    "summary": "Một thứ bạn gieo từ lâu đang đến lúc chín, nên hôm nay hợp để tạo ra điều gì đó bằng chính tay mình.",
+    "card": { "name": "Nữ Hoàng", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 7, "career": 8, "finance": 7, "energy": 8 },
+    "headline": "Ý tưởng của bạn không cần thêm lời khuyên, nó cần thêm nắng.",
+    "forecast": [
+      "Một ý tưởng cũ, từng bị gác vì thấy chưa đủ hay, có xu hướng quay lại và lần này nghe thuyết phục hơn.",
+      "Bạn dễ bị cuốn vào việc làm bằng tay như viết, vẽ, nấu, sắp xếp, rồi quên mất thời gian trôi.",
+      "Có thể một lời khen bất ngờ về thứ bạn tạo ra khiến bạn nhìn lại giá trị của nó."
+    ],
+    "love": "Điều bạn tự tay làm cho ai đó, dù là tin nhắn viết kỹ hay một món ăn đơn giản, có khả năng chạm tới họ hơn một món quà đắt tiền. Người độc thân dễ thấy mình cuốn hút nhất lúc đang say mê làm gì đó. Đang yêu thì thử cùng nhau làm một thứ, dù hơi vụng.",
+    "career": "Năng lượng sáng tạo đang mạnh, rất hợp cho bài thuyết trình, nội dung, thiết kế hay bất cứ việc gì cần một dấu ấn riêng. Đừng vội gọt cho hoàn hảo, hãy để bản thô ra đời trước. Sinh viên có thể thấy bài tập dễ chịu hơn nếu gắn nó với một điều mình thật sự tò mò.",
+    "finance": "Thu nhập có xu hướng đến từ thứ bạn làm ra hoặc tích lũy đều đặn, chứ không phải từ một cú nhảy bất ngờ. Chi cho dụng cụ, sách hay khóa học phục vụ việc sáng tạo là khoản dễ thấy xứng đáng, miễn nằm trong mức bạn đặt trước.",
+    "insight": "Có thể bạn tưởng mình bí ý tưởng, trong khi thật ra bạn đang bí sự cho phép được làm dở. Bản đầu tiên của mọi thứ đẹp đều từng xấu.",
+    "memorable_message": "Hạt giống không biết xấu hổ vì chưa ra hoa, chỉ người đứng nhìn mới sốt ruột.",
+    "advice": "Dành 30 phút không bị làm phiền để làm ra một thứ gì đó, không cần ai xem. Giữ nó đến tối rồi hẵng đánh giá.",
+    "keywords": ["sáng tạo", "đơm hoa", "bắt tay làm"]
+  },
+  {
+    "card_id": "the-empress",
+    "orientation": "upright",
+    "variant": 3,
+    "summary": "Hôm nay năng lượng nghiêng về sự đủ đầy, và việc của bạn là chịu nhận thay vì lập tức tìm cách trả ơn.",
+    "card": { "name": "Nữ Hoàng", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 8, "career": 7, "finance": 8, "energy": 8 },
+    "headline": "Đón một điều tốt đẹp mà không áy náy cũng là một kỹ năng.",
+    "forecast": [
+      "Bạn có xu hướng nhận được một lời giúp, một món quà nhỏ hoặc lời mời ăn uống, và phản xạ đầu tiên của bạn là từ chối cho phải phép.",
+      "Giác quan nhạy hơn thường lệ: một mùi thơm, một vệt nắng, một bản nhạc có thể làm bạn khựng lại một giây rất dễ chịu.",
+      "Có thể bạn nhận ra mình đang có nhiều thứ hơn con số mình hay nhẩm đếm trong đầu."
+    ],
+    "love": "Hôm nay hợp để cho ai đó đối tốt với mình mà không soi xét động cơ. Người đang yêu có thể nói thẳng mình muốn được quan tâm kiểu gì, vì đối phương sẵn lòng nghe. Người độc thân nên nhận lời mời nhẹ nhàng, dù chỉ là một ly cà phê.",
+    "career": "Có thể bạn được ghi nhận hoặc được hỗ trợ nhiều hơn dự đoán, từ đồng nghiệp lẫn người hướng dẫn. Hãy nhận lời giúp đỡ thay vì ôm hết, vì việc chia sẻ hôm nay có xu hướng làm kết quả tốt hơn. Sinh viên nên thử học nhóm.",
+    "finance": "Tâm lý dư dả khá rõ, và có thể có một khoản nhỏ đến từ nơi bạn ít để ý như hoàn tiền, tiền ai đó nợ hay một khoản tiết kiệm bị quên. Vui thì cứ vui, nhưng hãy cất trước một phần rồi mới tiêu.",
+    "insight": "Có thể bạn quen làm người cho đi đến mức nhận trở thành điều gây bất an. Nhận không làm bạn mắc nợ, nó chỉ cho người kia một cơ hội được thấy mình có ích.",
+    "memorable_message": "Bàn tay chỉ biết đưa ra thì rồi cũng quên cách cầm lấy.",
+    "advice": "Hôm nay nếu ai đó khen hoặc giúp bạn, chỉ trả lời một câu: cảm ơn nhé. Đừng thêm phần chê ngược lại mình vào sau đó.",
+    "keywords": ["đủ đầy", "biết nhận", "tận hưởng"]
+  },
+  {
+    "card_id": "the-empress",
+    "orientation": "reversed",
+    "variant": 1,
+    "summary": "Bạn đang lo cho người khác nhiều đến mức phần mình hụt đi, và tình thương quá tay dễ thành gánh nặng.",
+    "card": { "name": "Nữ Hoàng", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 5, "finance": 5, "energy": 4 },
+    "headline": "Lo thay cho ai đó mãi thì họ không học được cách tự lo.",
+    "forecast": [
+      "Bạn có xu hướng nhảy vào giải quyết một chuyện không ai nhờ, rồi thấy hơi bực vì không được ghi nhận.",
+      "Một người thân hoặc bạn bè dễ phản ứng khó chịu với sự quan tâm của bạn, dù ý bạn rất tốt.",
+      "Cuối ngày có thể bạn mệt hơn mức công việc thực tế, vì phần lớn sức đã đổ vào chuyện của người khác."
+    ],
+    "love": "Có thể bạn đang chăm đối phương như chăm một đứa trẻ, từ nhắc ăn đến nhắc đi ngủ, và cả hai đều ngầm thấy lệch. Hãy hỏi họ cần gì thay vì đoán. Người độc thân dễ để ý những người cần được cứu hơn người thật sự hợp với mình.",
+    "career": "Bạn dễ nhận thêm phần việc của người khác chỉ vì không nỡ từ chối, rồi việc của chính mình bị đẩy lùi. Cẩn thận với kiểu làm giúp quá nhiều khiến đồng nghiệp ỷ lại. Chọn một việc để nói không, bằng giọng nhẹ nhưng rõ.",
+    "finance": "Chi tiêu có thể nghiêng về lo cho người khác như mua quà, trả giùm hoặc cho vay bạn bè. Hãy xem lại số này so với khoản bạn để dành cho chính mình trong tháng, và đừng để lòng tốt làm lệch ngân sách.",
+    "insight": "Có thể việc bao bọc quá mức là cách bạn tránh đối diện với nhu cầu của chính mình. Khi bận lo cho người khác, bạn không phải hỏi mình đang thiếu gì.",
+    "memorable_message": "Nước tưới quá tay cũng làm úng gốc, dù lòng người tưới rất thương.",
+    "advice": "Trước khi ôm thêm việc hay lo giúp ai, tự hỏi một câu: họ có nhờ không, và mình còn dư sức không. Nếu một trong hai là không thì cứ để họ tự xoay xở.",
+    "keywords": ["bao bọc quá mức", "kiệt sức vì cho đi", "ranh giới"]
+  },
+  {
+    "card_id": "the-empress",
+    "orientation": "reversed",
+    "variant": 2,
+    "summary": "Sức sáng tạo của bạn không mất đi, nó chỉ đang kẹt sau cảm giác chẳng thứ gì mình làm ra là đủ tốt.",
+    "card": { "name": "Nữ Hoàng", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 4, "finance": 5, "energy": 5 },
+    "headline": "Trang giấy trắng không trống rỗng, nó đang bị bạn nhìn quá lâu.",
+    "forecast": [
+      "Bạn có xu hướng ngồi trước một việc cần ý tưởng mà đầu óc cứ trượt sang lướt điện thoại.",
+      "Một ý hay có thể lóe lên rồi bị bạn dập luôn bằng câu người khác làm giỏi hơn rồi.",
+      "Có thể bạn dễ so sánh mình với sản phẩm đã đánh bóng của người khác và thấy nhụt chí."
+    ],
+    "love": "Cảm xúc hơi khô, nên bạn dễ thấy mối quan hệ nhạt đi mà chưa chắc nó nhạt thật. Thử làm một điều mới nhỏ xíu cùng nhau, như quán lạ hay món chưa nấu bao giờ. Người độc thân nên bớt dùng nhiều tiêu chí khắt khe để lọc người ngay từ tin nhắn đầu.",
+    "career": "Đây là ngày dễ bí, đặc biệt với việc cần sáng tạo hoặc viết lách. Thay vì ép ra ý hay, hãy bắt đầu bằng một việc máy móc hơn như dọn dữ liệu, ghi lại ý thô, phác dàn ý xấu. Chuyển động nhỏ thường gỡ cái kẹt tốt hơn việc ngồi chờ cảm hứng.",
+    "finance": "Có xu hướng chững lại: thu nhập không nhúc nhích và bạn cũng ngại thử cách kiếm mới. Một việc nhỏ như ghi lại các khoản chi trong tuần sẽ giúp bạn thấy mình vẫn đang kiểm soát được cục diện.",
+    "insight": "Có thể bạn không bí ý tưởng, mà đang sợ ý tưởng ra đời sẽ bị đánh giá. Giữ nó trong đầu thì nó mãi hoàn hảo, còn đem ra đời thì nó mới có cơ hội lớn.",
+    "memorable_message": "Vườn không ra hoa không phải vì đất chết, nhiều khi chỉ vì chưa ai dám gieo thứ dở dang.",
+    "advice": "Đặt đồng hồ mười lăm phút và làm một thứ cố tình dở, như viết một đoạn tệ hay vẽ một nét xấu. Mục tiêu hôm nay là làm ra, không phải làm hay.",
+    "keywords": ["bí ý tưởng", "tự phê bình", "chuyển động nhỏ"]
+  },
+  {
+    "card_id": "the-empress",
+    "orientation": "reversed",
+    "variant": 3,
+    "summary": "Cán cân cho và nhận đang lệch, và hôm nay bạn dễ ngả về phía chờ người khác lo hộ.",
+    "card": { "name": "Nữ Hoàng", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Dựa vào ai đó khác với việc để họ gánh hộ cuộc đời mình.",
+    "forecast": [
+      "Bạn có xu hướng muốn ai đó quyết định thay mình, từ chuyện ăn gì đến chuyện lớn hơn.",
+      "Một thói quen mang tính xoa dịu như ăn vặt, mua sắm hay lướt đêm có thể mạnh tay hơn thường lệ.",
+      "Có thể bạn nhận ra mình đang trông chờ một người, một công việc hoặc một khoản tiền, để thấy yên tâm."
+    ],
+    "love": "Dễ có lúc bạn cần đối phương trấn an liên tục, hoặc ngược lại thấy mình bị dựa vào quá nhiều. Hãy nói rõ mình cần gì thay vì chờ họ tự hiểu. Người độc thân nên cẩn thận với việc tìm một mối quan hệ chỉ để khỏi phải ở một mình.",
+    "career": "Bạn dễ chờ chỉ đạo cụ thể thay vì tự đề xuất hướng làm, hoặc ngược lại ôm lấy người khác để họ khỏi phải trưởng thành. Một việc nhỏ hôm nay do bạn tự quyết, tự chịu trách nhiệm, sẽ cho bạn cảm giác vững chân hơn.",
+    "finance": "Tâm lý tiền bạc dễ nghiêng về chờ một nguồn nào đó đỡ giùm, từ người thân đến khoản thu chưa chắc. Hãy tự viết ra mức tối thiểu mình cần mỗi tháng để biết nền móng của mình nằm ở đâu.",
+    "insight": "Có thể điều bạn tìm không phải sự giúp đỡ mà là cảm giác được che chở. Cảm giác ấy chính đáng, nhưng bạn cũng có thể học cách tự cho mình một phần của nó.",
+    "memorable_message": "Chiếc ghế êm nhất cũng không biết đi hộ bạn một bước.",
+    "advice": "Chọn một quyết định nhỏ trong ngày, như chọn quán hoặc chọn thứ tự việc, và tự chốt trong 60 giây. Xin ý kiến người khác vẫn được, nhưng người bấm nút là bạn.",
+    "keywords": ["phụ thuộc", "mất cân bằng", "tự đứng vững"]
+  },
+  {
+    "card_id": "the-emperor",
+    "orientation": "upright",
+    "variant": 1,
+    "summary": "Ngày này thưởng cho người có khung rõ ràng: sắp lại thứ tự trước khi lao vào việc, bạn sẽ nhẹ đầu hơn.",
+    "card": { "name": "Hoàng Đế", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 6, "career": 9, "finance": 8, "energy": 8 },
+    "headline": "Một danh sách ba việc rõ ràng thắng mười việc nằm lơ lửng trong đầu.",
+    "forecast": [
+      "Bạn có xu hướng thấy đầu óc gọn hơn ngay khi viết ra thứ tự ưu tiên của ngày.",
+      "Một việc đang rối có thể bắt đầu có hình dạng khi bạn chốt người phụ trách và hạn chót.",
+      "Có thể bạn bị hút vào vai trò người điều phối, dù chẳng ai chính thức giao."
+    ],
+    "love": "Sự rõ ràng là điểm cộng, nên nói thẳng bạn muốn gì và kỳ vọng gì sẽ tốt hơn để đối phương đoán. Với người đang yêu, cùng chốt một kế hoạch cụ thể như lịch gặp hay khoản chung có thể làm cả hai yên tâm. Người độc thân dễ bị thu hút bởi người đáng tin hơn người hào nhoáng.",
+    "career": "Đây là ngày hợp nhất tuần để lập kế hoạch, giao việc, ra quyết định và chốt những thứ đã kéo dài. Quyền ra quyết định có thể nằm trong tay bạn nhiều hơn bạn nghĩ. Sinh viên nên lập lịch ôn theo giờ cụ thể thay vì ghi chung chung.",
+    "finance": "Nền tảng tiền bạc ở mức vững, hợp để rà ngân sách, chốt khoản tiết kiệm hoặc sắp lại các khoản định kỳ. Hãy làm theo hệ thống đã có thay vì phá lệ vì một cảm hứng nhất thời.",
+    "insight": "Có thể bạn tưởng mình cần thêm động lực, nhưng thật ra thứ đang thiếu là cái khung. Khi khung rõ, động lực đỡ phải gồng.",
+    "memorable_message": "Tự do thật không nằm ở chỗ không có luật, mà ở chỗ luật do chính bạn đặt.",
+    "advice": "Viết ra đúng ba việc phải xong hôm nay, đánh số, rồi làm theo thứ tự đó. Phần nào ngoài ba việc ấy cứ coi là phần thưởng.",
+    "keywords": ["cấu trúc", "ưu tiên", "vững vàng"]
+  },
+  {
+    "card_id": "the-emperor",
+    "orientation": "upright",
+    "variant": 2,
+    "summary": "Hôm nay bạn đủ sức nặng để nhận trách nhiệm hoặc đặt một ranh giới, và người khác có xu hướng nể điều đó.",
+    "card": { "name": "Hoàng Đế", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 7, "career": 8, "finance": 7, "energy": 8 },
+    "headline": "Một câu không nói đúng lúc đỡ tốn ba tuần giải thích.",
+    "forecast": [
+      "Bạn có xu hướng được nhờ ý kiến hoặc được giao dẫn dắt, kể cả khi chức danh không nói vậy.",
+      "Một tình huống mà ai cũng ngập ngừng có thể sáng ra khi bạn là người đầu tiên nói thẳng.",
+      "Có thể bạn nhận ra một ranh giới mình bỏ ngỏ lâu nay, như giờ làm hay thói nhờ vả của ai đó."
+    ],
+    "love": "Cảm giác che chở hôm nay khá mạnh, bạn dễ trở thành chỗ dựa mà người kia thấy an tâm. Người đang yêu nên nói rõ giới hạn của mình một cách bình tĩnh thay vì chịu đựng rồi dỗi. Người độc thân dễ gây ấn tượng bằng sự điềm tĩnh và nhất quán.",
+    "career": "Giọng bạn có trọng lượng, nên đây là lúc đề xuất, thương lượng phạm vi công việc hoặc xử lý một người hay trễ hẹn. Làm việc có hệ thống sẽ được ghi nhận hơn làm việc nhiệt tình. Sinh viên nên đứng ra tổ chức nhóm nếu thấy mọi người đang chờ nhau.",
+    "finance": "Cảm giác kiểm soát tiền bạc khá rõ, hợp để đặt giới hạn chi cho một hạng mục hay đòi lại một khoản tồn đọng một cách lịch sự. Hãy tránh việc quyết định vì muốn thể hiện với người khác.",
+    "insight": "Có thể bạn dễ nhầm giữa dịu dàng và nhún nhường vô điều kiện. Sức mạnh của lá bài hôm nay không nằm ở việc lớn tiếng mà ở việc không lùi khỏi điều đã nói.",
+    "memorable_message": "Ranh giới không phải bức tường để đẩy người ta ra, mà là cánh cổng có chốt để người đúng vào.",
+    "advice": "Chọn một điều bạn vẫn chịu đựng chỉ vì ngại mất lòng và nói ra bằng một câu ngắn, rõ, không xin lỗi. Giữ giọng bình thản, đừng cố thắng.",
+    "keywords": ["quyền uy", "ranh giới", "bảo hộ"]
+  },
+  {
+    "card_id": "the-emperor",
+    "orientation": "upright",
+    "variant": 3,
+    "summary": "Thành quả hôm nay đến từ những việc đều đặn và hơi nhàm, và sự bền bỉ ấy có xu hướng được ghi nhận.",
+    "card": { "name": "Hoàng Đế", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 6, "career": 9, "finance": 8, "energy": 7 },
+    "headline": "Kỷ luật là cách yêu tương lai của mình khi hiện tại chưa muốn hợp tác.",
+    "forecast": [
+      "Bạn có xu hướng thấy việc lặp lại mỗi ngày bỗng có ý nghĩa khi nhìn nó như viên gạch của một thứ lớn hơn.",
+      "Một cam kết cũ như tập luyện, học đều hay tiết kiệm có thể cho bạn thấy dấu hiệu tiến bộ đầu tiên.",
+      "Có thể bạn bị cám dỗ bỏ lệ một lần, và năng lượng hôm nay giúp bạn đủ nghiêm để từ chối."
+    ],
+    "love": "Nền tảng của mối quan hệ nằm ở những việc nhỏ lặp lại như đúng hẹn, giữ lời, nhắn lại đúng lúc. Người đang yêu nên để ý điều đó thay vì chờ khoảnh khắc lãng mạn. Người độc thân hợp để nâng tiêu chuẩn về sự đáng tin hơn là sự hấp dẫn bề ngoài.",
+    "career": "Đây là ngày dành cho phần việc cần sức bền như báo cáo, ôn tập, rà soát quy trình. Hiệu quả đến từ việc bạn làm đủ giờ, chứ không từ việc làm thật hứng khởi. Có khả năng cấp trên hoặc người hướng dẫn nhận ra sự đều tay của bạn.",
+    "finance": "Rất hợp để dựng hoặc củng cố một thói quen tiền bạc như trích tiết kiệm đầu tháng hay ghi chi tiêu mỗi tối. Ổn định đến từ những quy tắc nhỏ bạn giữ được, không từ kế hoạch lớn trên giấy.",
+    "insight": "Có thể bạn đang chờ cảm hứng để bắt đầu lại, trong khi người làm được lâu dài hầu như chỉ dựa vào lịch. Kỷ luật không lạnh lùng, nó là sự tin cậy bạn dành cho chính mình.",
+    "memorable_message": "Cảm hứng là khách ghé chơi, còn thói quen mới là người ở lại dọn nhà.",
+    "advice": "Chọn một thói quen đã đứt quãng và làm bản ngắn nhất của nó hôm nay, như năm phút thay vì một tiếng. Điều quan trọng là giữ chuỗi liền mạch.",
+    "keywords": ["kỷ luật", "bền bỉ", "ổn định"]
+  },
+  {
+    "card_id": "the-emperor",
+    "orientation": "reversed",
+    "variant": 1,
+    "summary": "Hôm nay bạn dễ siết người khác quá chặt, và đúng sai hay không, cách bạn nói có thể làm họ đóng cửa trước.",
+    "card": { "name": "Hoàng Đế", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 5, "finance": 5, "energy": 5 },
+    "headline": "Bạn có thể đúng và vẫn thua nếu người nghe đã thôi lắng nghe.",
+    "forecast": [
+      "Bạn có xu hướng muốn mọi việc làm theo đúng cách mình quen, và hơi mất kiên nhẫn khi ai đó làm khác.",
+      "Một cuộc bàn bạc dễ biến thành cuộc giằng co xem ai có tiếng nói cuối.",
+      "Có thể một người nói thẳng rằng giọng bạn hôm nay hơi gắt, dù bạn không cố ý."
+    ],
+    "love": "Nhu cầu kiểm soát có thể len vào chuyện yêu đương, từ hỏi người kia ở đâu với ai đến sửa cách họ nói. Hãy thử đổi mệnh lệnh thành lời đề nghị. Người độc thân nên để ý xem mình có đang tìm người hợp hay chỉ tìm người chịu nghe theo.",
+    "career": "Bạn dễ ôm quyền quyết định và vi mô quản lý đến mức làm cả nhóm nghẹt thở, hoặc ngược lại bị một người quản lý kiểu đó đè lên. Giao một phần việc hẳn cho người khác, kể cả khi họ làm không giống bạn. Chú ý một cuộc xung đột quyền hạn.",
+    "finance": "Dễ có xu hướng siết chặt đến mức hà khắc với bản thân hoặc với người chung quỹ, hay ngược lại chi mạnh tay để khẳng định vị thế. Hãy giữ mọi quyết định tiền bạc ở trạng thái bình tĩnh và có thể giải thích được.",
+    "insight": "Có thể sự kiểm soát hôm nay không đến từ quyền lực, mà từ nỗi sợ mọi thứ sẽ lệch khỏi tầm tay. Khi sợ, người ta hay lớn tiếng để che đi chỗ bất an.",
+    "memorable_message": "Nắm chặt dây diều đến mấy thì diều cũng không bay cao hơn bàn tay.",
+    "advice": "Trước khi sửa hay ra lệnh cho ai, đếm đến năm và hỏi mình: việc này có thật sự quan trọng, hay chỉ là mình muốn theo ý mình. Nếu là vế sau, buông nhẹ một nấc.",
+    "keywords": ["độc đoán", "kiểm soát", "buông nhẹ"]
+  },
+  {
+    "card_id": "the-emperor",
+    "orientation": "reversed",
+    "variant": 2,
+    "summary": "Hôm nay cảm giác nắm cương trong tay hơi lỏng, và có thể bạn là người đang bị ai đó hoặc hoàn cảnh áp lên.",
+    "card": { "name": "Hoàng Đế", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 5, "career": 4, "finance": 5, "energy": 5 },
+    "headline": "Khi mọi thứ trôi khỏi tay, việc đầu tiên là nắm lại một thứ nhỏ.",
+    "forecast": [
+      "Bạn có xu hướng thấy lịch trình lệch vì những việc chen ngang, và cảm giác mình không còn làm chủ ngày hôm nay.",
+      "Một người có vị thế cao hơn, như sếp, người lớn hoặc đối tác, có thể ra yêu cầu khiến bạn thấy bị ép.",
+      "Có thể bạn dễ tự trách vì chưa đủ nề nếp, dù thật ra hoàn cảnh đang cản."
+    ],
+    "love": "Quyền chủ động trong mối quan hệ có thể đang lệch về một phía, và bạn là bên cảm thấy mình theo sau. Đây là lúc nói ra một nhu cầu cụ thể thay vì để dồn. Người độc thân nên tránh những người luôn tự quyết thay cho bạn.",
+    "career": "Có thể xuất hiện áp lực từ cấp trên, quy định cứng nhắc hoặc deadline bị đổi bất ngờ. Đừng cố giành lại toàn bộ quyền kiểm soát, hãy giữ lấy phần mình quyết được như thứ tự làm việc hay cách trình bày. Ghi lại các thỏa thuận quan trọng bằng chữ.",
+    "finance": "Tiền bạc dễ có cảm giác bị cuốn theo hóa đơn và việc phát sinh. Nhìn thẳng vào ba khoản chi lớn nhất của tháng sẽ giúp bạn lấy lại cảm giác cầm lái, dù chưa sửa được gì ngay.",
+    "insight": "Có thể bạn không thiếu năng lực lãnh đạo, mà đang kiệt sức vì phải gồng chống đỡ trong một cấu trúc không do mình chọn. Mệt kiểu này không phải yếu đuối.",
+    "memorable_message": "Không giữ được cả con thuyền thì ít nhất hãy giữ lấy mái chèo.",
+    "advice": "Chọn một thứ trong tầm tay như bàn làm việc, giờ ngủ hay thứ tự ba việc đầu, và làm cho nó thật gọn. Cảm giác làm chủ thường bắt đầu từ chỗ nhỏ nhất.",
+    "keywords": ["mất kiểm soát", "bị áp lực", "giành lại phần mình"]
+  },
+  {
+    "card_id": "the-emperor",
+    "orientation": "reversed",
+    "variant": 3,
+    "summary": "Quy tắc từng giúp bạn đứng vững nay cứng đến mức không còn chỗ cho điều mới, nên hôm nay hãy nới một chút.",
+    "card": { "name": "Hoàng Đế", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 4, "finance": 5, "energy": 5 },
+    "headline": "Một quy tắc không bao giờ ngoại lệ thì sớm muộn cũng thành xiềng.",
+    "forecast": [
+      "Bạn có xu hướng phản ứng gắt khi kế hoạch bị đổi, dù thay đổi đó không lớn.",
+      "Một cách làm quen thuộc có thể đang không còn hiệu quả, và bạn dễ chần chừ thừa nhận.",
+      "Có thể một người linh hoạt hơn bạn nhìn ra giải pháp mà bạn vì quá chắc về cách của mình nên bỏ sót."
+    ],
+    "love": "Nếp sống và kỳ vọng quá cứng có thể khiến đối phương thấy khó thở, như lịch hẹn phải đúng giờ hay phản ứng phải đúng kiểu. Hãy chừa chỗ cho sự tự phát. Người độc thân dễ gạt người ta đi chỉ vì họ không khớp danh sách tiêu chuẩn.",
+    "career": "Cách làm theo quy trình cũ có thể đang cản đường một ý mới, nhất là khi có người trẻ hơn hay đồng nghiệp trái ý bạn. Hãy thử một lần phiên bản linh hoạt hơn rồi so kết quả. Sinh viên nên thử phương pháp học khác nếu cách cũ không còn ngấm.",
+    "finance": "Có thể bạn bám vào một hệ thống tiền bạc đã lỗi thời, như cách chia khoản hay mức tiết kiệm cố định dù thu nhập đã đổi. Xem lại quy tắc một lần là việc thông minh, không phải sự phản bội kỷ luật.",
+    "insight": "Có thể bạn bám vào quy tắc vì nó cho cảm giác an toàn, chứ không vì nó còn đúng. Nới một chút không làm bạn mất nề nếp, chỉ làm nề nếp thở được.",
+    "memorable_message": "Cây cứng nhất thì gãy trước khi gió đổi hướng.",
+    "advice": "Hôm nay cố ý phá một thói quen vô hại, như đi đường khác hoặc đổi thứ tự việc, và quan sát xem trời có sập không. Rất có khả năng là không.",
+    "keywords": ["cứng nhắc", "nới lỏng", "linh hoạt"]
+  },
+  {
+    "card_id": "the-hierophant",
+    "orientation": "upright",
+    "variant": 1,
+    "summary": "Hôm nay hợp để học từ người đã đi trước: một câu hỏi ngắn có thể tiết kiệm cả tuần mò mẫm.",
+    "card": { "name": "Giáo Hoàng", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 6, "career": 8, "finance": 7, "energy": 6 },
+    "headline": "Người đi trước không nắm đáp án, nhưng họ nắm bản đồ các ngõ cụt.",
+    "forecast": [
+      "Bạn có xu hướng gặp hoặc nghĩ tới một người có kinh nghiệm, và lời của họ rơi đúng vào chỗ bạn đang bí.",
+      "Một khóa học, tài liệu hay bài viết đáng tin có thể xuất hiện đúng lúc bạn cần một nền tảng.",
+      "Có thể bạn nhận ra một kiến thức cơ bản mình đã bỏ qua đang là mắt xích còn thiếu."
+    ],
+    "love": "Lời khuyên từ người từng trải hoặc từ chính trải nghiệm của cặp đôi đi trước có thể giúp bạn nhìn mối quan hệ rõ hơn. Người đang yêu nên hỏi nhau về kỳ vọng, như một buổi trò chuyện nghiêm túc nhưng ấm. Người độc thân dễ gặp người qua giới thiệu hoặc môi trường quen biết.",
+    "career": "Rất hợp để tìm người cố vấn, xin phản hồi hoặc học một kỹ năng bài bản. Đừng tự tìm lại từ đầu những thứ có người đã giải sẵn. Sinh viên thuận lợi cho việc hỏi thầy cô, đọc giáo trình chuẩn hay xin đề cương.",
+    "finance": "Bạn dễ nghe được lời khuyên về tiền từ người xung quanh, và việc cần làm là chọn lọc nguồn đáng tin. Đừng quyết định chỉ vì ai đó nói chắc nịch. Học cách quản lý tiền cơ bản hôm nay có xu hướng sinh lợi lâu dài.",
+    "insight": "Có thể bạn ngại hỏi vì sợ bị coi là chưa biết, trong khi người giỏi thường là người hỏi nhiều nhất. Cái sự ngại ấy đang tốn của bạn nhiều hơn một câu hỏi vụng.",
+    "memorable_message": "Hỏi sớm một câu vụng còn rẻ hơn tự sai suốt một mùa.",
+    "advice": "Chọn một người bạn nể về một mảng nào đó và gửi họ một câu hỏi cụ thể, ngắn, dễ trả lời. Đừng hỏi chung chung kiểu anh chị cho em lời khuyên.",
+    "keywords": ["cố vấn", "học hỏi", "nền tảng"]
+  },
+  {
+    "card_id": "the-hierophant",
+    "orientation": "upright",
+    "variant": 2,
+    "summary": "Hôm nay những nếp quen và nghi thức giản dị có sức giữ bạn vững, nên đừng vội coi chúng là cũ kỹ.",
+    "card": { "name": "Giáo Hoàng", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 7, "career": 7, "finance": 7, "energy": 6 },
+    "headline": "Có những điều cũ không phải vì lỗi thời mà vì nó đã qua thử thách.",
+    "forecast": [
+      "Bạn có xu hướng thấy dễ chịu với một nghi thức nhỏ như bữa cơm gia đình, ly cà phê sáng hay buổi họp định kỳ.",
+      "Một người lớn tuổi hoặc một nếp truyền thống có thể cho bạn góc nhìn bất ngờ về chuyện đang rối.",
+      "Có thể bạn nhận ra làm theo quy trình chuẩn hôm nay nhanh và ít lỗi hơn việc sáng tạo lại."
+    ],
+    "love": "Những nghi thức nhỏ, như ăn tối cùng nhau mỗi tuần hay lời chúc ngủ ngon, có khả năng gắn kết hơn bất kỳ bất ngờ nào. Người đang yêu hợp để bàn chuyện nghiêm túc về cam kết hoặc gặp gia đình. Người độc thân có xu hướng hợp với người cùng giá trị sống.",
+    "career": "Làm theo quy trình, hướng dẫn và phép tắc sẽ cho kết quả chắc hơn là phá lệ. Có thể bạn cần tuân theo một thủ tục hay cấp quản lý mà mình không thích lắm. Hãy coi đó như hàng rào cần thiết, rồi làm thật tốt bên trong hàng rào.",
+    "finance": "Cách quản lý tiền truyền thống như tiết kiệm đều, chi có kế hoạch và tránh vay không cần thiết đang là lựa chọn hợp. Đây không phải ngày thử nghiệm kiểu mới mà là ngày củng cố nền cũ.",
+    "insight": "Có thể bạn đang mệt vì phải tự phát minh lại mọi thứ. Đôi khi tin vào một cách làm đã có người kiểm chứng là tiết kiệm sức, không phải thiếu sáng tạo.",
+    "memorable_message": "Con đường mòn tồn tại là vì rất nhiều bàn chân từng không lạc.",
+    "advice": "Hôm nay giữ một nếp quen có ý nghĩa, như gọi cho người nhà hoặc một bữa ăn đúng giờ, và làm nó có chủ ý. Nếu có điều cũ làm bạn nghẹt thở, để dịp khác.",
+    "keywords": ["truyền thống", "nghi thức", "quy trình"]
+  },
+  {
+    "card_id": "the-hierophant",
+    "orientation": "upright",
+    "variant": 3,
+    "summary": "Câu hỏi lớn hôm nay là bạn thật sự tin điều gì, và một cam kết giữ đúng sẽ nói thay mọi lời giải thích.",
+    "card": { "name": "Giáo Hoàng", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 6, "career": 7, "finance": 7, "energy": 7 },
+    "headline": "Niềm tin chỉ có thật khi nó lên tiếng lúc bạn đang bận rộn.",
+    "forecast": [
+      "Bạn có xu hướng gặp một tình huống buộc mình chọn giữa điều thuận tiện và điều mình cho là đúng.",
+      "Một cuộc trò chuyện sâu về giá trị sống, đức tin hoặc điều có ý nghĩa với bạn có thể xuất hiện không báo trước.",
+      "Có thể bạn thấy lòng yên hơn khi nhớ lại lý do nguyên thủy của việc mình đang làm."
+    ],
+    "love": "Điều quan trọng hôm nay là giá trị chung chứ không phải sự rung động nhất thời. Người đang yêu có thể nói về điều mỗi người tin và muốn xây, và nên nghe nhau như nghe điều thiêng. Người độc thân dễ để ý ai sống đúng với điều họ nói.",
+    "career": "Có khả năng bạn nhớ lại vì sao mình chọn nghề hay chọn ngành này, và ký ức đó làm việc bớt nặng hơn. Hợp để làm việc có ý nghĩa như hướng dẫn người mới, viết quy tắc cho nhóm hoặc sắp xếp lại giá trị cốt lõi của dự án.",
+    "finance": "Cách bạn dùng tiền hôm nay dễ phản ánh điều bạn trân trọng. Thử đối chiếu vài khoản chi với giá trị mình tuyên bố, nếu lệch thì chỉnh một chút.",
+    "insight": "Có thể bạn đang sống theo một niềm tin mà mình chưa từng chọn, nó chỉ đến từ gia đình hay môi trường. Kiểm tra nó không có nghĩa là bỏ nó, mà là biến nó thành của mình.",
+    "memorable_message": "Điều bạn tin chỉ thật khi nó làm bạn tốn một thứ gì đó.",
+    "advice": "Viết ra ba điều bạn không chịu thỏa hiệp rồi so với lịch hôm nay xem có điều nào đang bị gạt đi. Nếu có, nhích một việc nhỏ về phía chúng.",
+    "keywords": ["niềm tin", "giá trị cốt lõi", "cam kết"]
+  },
+  {
+    "card_id": "the-hierophant",
+    "orientation": "reversed",
+    "variant": 1,
+    "summary": "Hôm nay bạn muốn bước ra khỏi khuôn, và nếu làm có chủ đích thì cách riêng của bạn có thể hiệu quả bất ngờ.",
+    "card": { "name": "Giáo Hoàng", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 6, "finance": 6, "energy": 7 },
+    "headline": "Phá một quy tắc có chủ đích khác với phá cho đỡ tức.",
+    "forecast": [
+      "Bạn có xu hướng thấy ngứa mắt với một quy định hay thông lệ mà cả nhóm lặng lẽ chấp nhận.",
+      "Một ý tưởng khác thường có thể nảy ra, và nó hợp hơn với bạn so với cách mọi người vẫn làm.",
+      "Có thể bạn bị hút về những người sống theo kiểu riêng, và điều đó gợi cho bạn thử điều gì đó khác."
+    ],
+    "love": "Bạn có thể muốn một mối quan hệ không theo kịch bản xã hội mong đợi, và hôm nay nên nói điều đó ra một cách thẳng thắn, nhẹ nhàng. Người đang yêu nên bớt so với chuẩn của người khác. Người độc thân dễ hợp với người cũng thích sống khác.",
+    "career": "Năng lượng này tốt cho việc đề xuất cách làm mới, hỏi vì sao lại làm vậy, hoặc tìm lối đi ngoài quy trình. Hãy chuẩn bị lý do rõ ràng để không bị coi là phản kháng cho vui. Sinh viên có thể thử học theo cách riêng thay vì theo đúng giáo trình.",
+    "finance": "Bạn có thể muốn thử cách quản lý tiền khác với lời khuyên quen thuộc quanh mình. Điều đó không sai, miễn là có số liệu theo dõi và không bỏ hẳn phần nền tảng như quỹ dự phòng.",
+    "insight": "Có thể thứ làm bạn bứt rứt không phải là luật lệ, mà là cảm giác phải sống theo một bản mẫu không phải của mình. Cần phân biệt nổi loạn vì muốn tự do với nổi loạn vì muốn chống lại ai đó.",
+    "memorable_message": "Rời khỏi khuôn không phải để vỡ ra, mà để tìm ra hình dáng của mình.",
+    "advice": "Chọn một thông lệ mà bạn thấy không hợp và thử làm nó theo cách riêng ở quy mô nhỏ, rồi xem kết quả. Quan sát trước khi tuyên bố cả hệ thống đều sai.",
+    "keywords": ["phá cách", "tự do lựa chọn", "con đường riêng"]
+  },
+  {
+    "card_id": "the-hierophant",
+    "orientation": "reversed",
+    "variant": 2,
+    "summary": "Hôm nay bạn hoặc một người quanh bạn dễ bám vào chữ phải thế này mới đúng, và cuộc nói chuyện dễ bị kẹt.",
+    "card": { "name": "Giáo Hoàng", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 6, "finance": 6, "energy": 6 },
+    "headline": "Câu phải như thế này mới đúng thường là lời của người đã thôi tò mò.",
+    "forecast": [
+      "Bạn có xu hướng gặp một cuộc tranh luận với người lớn tuổi hoặc người có thâm niên, và cả hai bên đều khó nhượng.",
+      "Một lời khuyên nhân danh kinh nghiệm có thể khiến bạn thấy bị áp đặt hơn là được giúp.",
+      "Có thể bạn bắt gặp chính mình nói chuyện y hệt kiểu người bạn từng không thích."
+    ],
+    "love": "Có thể có va chạm về quan điểm sống, như chuyện gia đình, cưới hỏi hay cách chi tiêu chung, và mỗi người cứ giữ đúng tiêu chuẩn của mình. Thay vì tranh đúng sai, hỏi nhau điều này quan trọng với bạn vì sao. Người độc thân nên để ý xem mình có đang loại người quá nhanh vì một điểm khác.",
+    "career": "Dễ xuất hiện xung đột giữa cách làm cũ và ý mới, hoặc một quy định bạn thấy vô lý nhưng chưa thể thay. Đừng chỉ phản đối, hãy mang theo dữ liệu hoặc một thử nghiệm nhỏ. Cẩn thận với việc tự cho mình là bên đúng ngay từ đầu.",
+    "finance": "Có thể nghe nhiều ý kiến trái chiều về tiền từ người xung quanh. Hãy lọc theo hoàn cảnh của mình thay vì chạy theo công thức nhân danh ai đó, và đặt lại câu hỏi vì sao mình làm như vậy.",
+    "insight": "Có thể sự cứng đầu hôm nay là cách bảo vệ một điều bạn sợ mất, như sự tôn trọng hay vị trí của mình. Nghe người khác không có nghĩa là thua họ.",
+    "memorable_message": "Hỏi vì sao thêm một lần thường tốt hơn nói luôn thế mới đúng.",
+    "advice": "Trong cuộc tranh luận nào đó hôm nay, thử hỏi người kia một câu mở như điều gì khiến bạn nghĩ vậy. Bạn vẫn giữ được quan điểm, chỉ là nghe xong rồi mới giữ.",
+    "keywords": ["giáo điều", "áp đặt", "lắng nghe"]
+  },
+  {
+    "card_id": "the-hierophant",
+    "orientation": "reversed",
+    "variant": 3,
+    "summary": "Bạn có thể đang sống theo kỳ vọng của đám đông nhiều hơn của mình, nên hôm nay hãy hỏi lại điều mình tin.",
+    "card": { "name": "Giáo Hoàng", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 5, "finance": 6, "energy": 6 },
+    "headline": "Đông người tin không làm một điều thành đúng, chỉ làm nó thành quen.",
+    "forecast": [
+      "Bạn có xu hướng lướt thấy một chuẩn mực nào đó về thành công, tình yêu hay ngoại hình và bất chợt thấy mình bé đi.",
+      "Một cuộc nói chuyện có thể khiến bạn nhận ra quan điểm của mình có nhiều chỗ chỉ là nghe lại.",
+      "Có thể bạn nhìn lại một niềm tin đã gắn với mình lâu, và thấy nó không còn khít."
+    ],
+    "love": "Kỳ vọng xã hội về tuổi, về cột mốc hay về hình mẫu có thể đang đè lên cách bạn nhìn tình cảm. Hãy tự hỏi mình muốn gì, không phải nên muốn gì. Người đang yêu nên bớt so mối quan hệ của mình với ảnh đẹp của người khác.",
+    "career": "Có thể bạn thấy hướng đi mình theo là do hoàn cảnh hay sự an toàn dẫn đường chứ không hẳn mình chọn. Chưa cần quyết định lớn hôm nay, chỉ cần để câu hỏi đó có chỗ. Tránh đưa kết luận cuối cùng về sự nghiệp trong một ngày.",
+    "finance": "Cẩn thận với chi tiêu để chứng tỏ hay để cho phải phép, như mua theo xu hướng hay theo chuẩn của nhóm. Một câu hỏi hữu ích là nếu không ai thấy, mình có còn muốn mua nó không.",
+    "insight": "Có thể bạn đang mệt vì phải sống thành bản đã được duyệt của mình. Nghi ngờ một niềm tin không phải phản bội, nó là bước đầu của việc làm cho niềm tin thành của riêng bạn.",
+    "memorable_message": "Có những điều bạn tin chỉ vì chưa ai từng hỏi bạn có thật sự muốn không.",
+    "advice": "Viết ra một niềm tin mà bạn hay nhắc, rồi viết bên cạnh: mình nghe câu này từ ai. Chỉ cần nhìn thấy nguồn đã đủ cho một ngày.",
+    "keywords": ["đặt lại câu hỏi", "kỳ vọng xã hội", "niềm tin riêng"]
+  }
+]

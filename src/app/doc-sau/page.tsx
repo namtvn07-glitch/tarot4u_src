@@ -16,7 +16,7 @@ import { saveLocalReading } from "@/lib/user-scoped-storage";
 function navigateToScreen(screen: AppScreen) {
   if (typeof window === "undefined") return;
   if (screen === "home") window.location.href = "/";
-  if (screen === "quick-read") window.location.href = "/trai-bai";
+  if (screen === "daily") window.location.href = "/hom-nay";
   if (screen === "library") window.location.href = "/thu-vien";
   if (screen === "account") window.location.href = "/tai-khoan";
 }

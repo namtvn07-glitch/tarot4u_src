@@ -36,7 +36,7 @@ export function isTransientAiError(error: unknown): boolean {
   const message = error instanceof Error ? error.message : String(error);
   // Model trả JSON sai schema là chuyện ngẫu nhiên theo từng lần sinh, không
   // phải lỗi cấu hình — sinh lại thường ra kết quả hợp lệ.
-  if (message === "ai_classify_parse_failed") return true;
+  if (message === "ai_classify_parse_failed" || message === "ai_json_parse_failed") return true;
   return TRANSIENT_MESSAGE.test(message);
 }
 

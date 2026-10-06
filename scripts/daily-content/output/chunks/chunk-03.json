@@ -1,0 +1,344 @@
+[
+  {
+    "card_id": "the-lovers", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay hợp để chọn điều đúng với giá trị của bạn, kể cả khi phương án còn lại nghe hấp dẫn hơn.",
+    "card": { "name": "Tình Nhân", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 9, "career": 7, "finance": 6, "energy": 7 },
+    "headline": "Chọn điều bạn có thể sống cùng, không chỉ điều bạn muốn có.",
+    "forecast": [
+      "Bạn có xu hướng đứng trước hai phương án đều ổn, và câu hỏi nên đổi từ cái nào lợi hơn sang cái nào giống mình hơn.",
+      "Một cuộc trò chuyện về điều mình coi trọng có thể giúp bạn thấy rõ ai thật sự đi cùng hướng.",
+      "Dễ xuất hiện cảm giác nhẹ người sau khi nói thật một điều bấy lâu giữ lại."
+    ],
+    "love": "Người đang yêu dễ có một khoảnh khắc nhận ra hai người hợp nhau ở những thứ rất nhỏ, như cách cùng im lặng. Đang tìm hiểu ai đó thì chú ý xem họ cư xử thế nào khi không cần gây ấn tượng. Người độc thân có khả năng bị thu hút bởi người chung quan điểm hơn là người chỉ nổi bật bề ngoài.",
+    "career": "Năng lượng nghiêng về hợp tác: một đồng nghiệp hoặc nhóm học cùng nhịp với bạn sẽ khiến việc trôi hơn hẳn. Nếu phải chọn giữa hai hướng đi, hãy nhìn xem hướng nào bạn không phải giả vờ hứng thú.",
+    "finance": "Tiền bạc ở mức ổn định, và những quyết định chi tiêu chung có xu hướng dễ bàn hơn thường lệ. Có khoản cần thống nhất với người thân thì hôm nay nên nói thẳng về ưu tiên của mỗi người.",
+    "insight": "Có thể bạn không phân vân vì thiếu thông tin, mà vì cả hai lựa chọn đều đòi bạn bỏ lại một phần mình quý. Mất một thứ là cái giá bình thường của việc chọn, không phải dấu hiệu bạn chọn sai.",
+    "memorable_message": "Lựa chọn tốt nhất là cái khiến bạn vẫn nhận ra mình trong gương sau khi chọn xong.",
+    "advice": "Viết ra ba điều bạn không muốn nhân nhượng, rồi đặt cạnh lựa chọn đang cân nhắc. Khớp cả ba thì yên tâm bước tiếp, còn lệch thì chưa cần kết luận vội, hãy hỏi thêm một câu nữa.",
+    "keywords": ["lựa chọn", "giá trị chung", "rõ ràng"]
+  },
+  {
+    "card_id": "the-lovers", "orientation": "upright", "variant": 2,
+    "summary": "Năng lượng hôm nay nghiêng về kết nối thật: bớt đóng vai, người đối diện sẽ dễ lại gần bạn hơn.",
+    "card": { "name": "Tình Nhân", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 9, "career": 7, "finance": 6, "energy": 8 },
+    "headline": "Được nhìn thấy đúng như mình là, đó mới là phần ngọt nhất.",
+    "forecast": [
+      "Bạn có xu hướng muốn nói điều thật lòng với một người, và người đó có khả năng đón nhận tốt hơn bạn lo.",
+      "Một tin nhắn hoặc cuộc gọi bình thường có thể kéo hai người gần nhau hơn hẳn buổi hẹn được dàn dựng.",
+      "Dễ xuất hiện khoảnh khắc bạn thấy mình thuộc về một nhóm, một cuộc trò chuyện hoặc một người."
+    ],
+    "love": "Đang yêu thì chuyện nhỏ như nấu chung một bữa hoặc kể một nỗi sợ ngớ ngẩn lại làm hai người gần nhau nhất. Người đang tìm hiểu có thể nhận được một tín hiệu rõ hơn mọi khi, nên đừng phân tích nó quá kỹ. Độc thân thì nụ cười thật của bạn đang có sức hút hơn mọi câu mở lời khéo.",
+    "career": "Giao tiếp trôi chảy, thích hợp để gỡ một hiểu lầm nho nhỏ với đồng nghiệp hoặc bạn học bằng một cuộc nói chuyện trực tiếp. Làm việc nhóm hôm nay thuận hơn làm một mình. Chỉ cần tránh nói cho vừa lòng thay vì nói đúng.",
+    "finance": "Tài chính yên ả, không có biến động lớn. Bạn dễ chi cho những thứ giúp gần người khác, như bữa ăn chung hoặc món quà nhỏ, và điều đó khá đáng nếu nằm trong mức bạn đã định.",
+    "insight": "Có thể bạn đang mệt vì giữ một phiên bản mình hơi hoàn hảo hơn thực tế khi ở cạnh ai đó. Sự gần gũi không đến từ việc bạn giỏi giấu, mà từ việc bạn dám để lộ một chút.",
+    "memorable_message": "Người thương bạn không cần bản trình chiếu, họ muốn nghe bản gốc.",
+    "advice": "Hôm nay nói với một người điều bạn hay chỉ nghĩ trong đầu, dù là lời cảm ơn hay một điều bạn cần. Nói chậm, nói ngắn là đủ.",
+    "keywords": ["kết nối thật", "chân thành", "gần gũi"]
+  },
+  {
+    "card_id": "the-lovers", "orientation": "upright", "variant": 3,
+    "summary": "Điều bạn nghĩ, nói và làm hôm nay có cơ hội khớp nhau, và sự khớp ấy mang lại cảm giác bình yên rất rõ.",
+    "card": { "name": "Tình Nhân", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 8, "career": 7, "finance": 6, "energy": 7 },
+    "headline": "Hài hòa không phải là ai cũng nhường, mà là không ai phải giả vờ.",
+    "forecast": [
+      "Bạn có xu hướng thấy dễ chịu khi một việc làm ra khớp với điều mình vẫn nói là quan trọng.",
+      "Một mối quan hệ có thể chuyển sang nhịp dễ thở hơn vì cả hai cùng thừa nhận một điều thẳng thắn.",
+      "Một cơ hội hợp tác, cùng làm hoặc cùng học có khả năng xuất hiện với người bạn không ngờ tới."
+    ],
+    "love": "Cảm xúc hôm nay thiên về sự ăn ý hơn là sự bùng nổ. Người đang yêu dễ thấy hai người chung một đích đến nhỏ, như muốn cùng chuyển nhà hoặc cùng dành dụm. Người độc thân nên để ý ai khiến mình thấy mình tử tế hơn khi ở cạnh.",
+    "career": "Việc làm hôm nay dễ trôi hơn khi bạn bớt cố làm vừa ý tất cả. Nếu có người hỏi ý kiến bạn, trả lời bằng quan điểm thật sẽ có trọng lượng hơn trả lời an toàn. Sinh viên hợp học nhóm với người chung mục tiêu.",
+    "finance": "Có xu hướng ổn, nhất là khi tiền được dùng cho điều bạn thật sự thấy đáng. Nếu dạo này hay chi để chứng tỏ gì đó, hôm nay bạn dễ nhận ra khoản nào là của mình và khoản nào là của ánh nhìn người khác.",
+    "insight": "Có thể lâu nay bạn chia mình thành nhiều phiên bản cho nhiều nơi, và cảm giác mệt đến từ việc nối chúng lại với nhau. Hôm nay là dịp hợp để chúng gặp nhau ở một điểm chung.",
+    "memorable_message": "Bình yên là khi lời bạn nói không phải chạy theo việc bạn làm.",
+    "advice": "Chọn một việc nhỏ hôm nay mà bạn làm đúng như điều mình đã tuyên bố, đúng giờ hoặc đúng lời hứa. Một việc khớp cũng đủ kéo cả ngày về một nhịp.",
+    "keywords": ["hài hòa", "nhất quán", "hợp tác"]
+  },
+  {
+    "card_id": "the-lovers", "orientation": "reversed", "variant": 1,
+    "summary": "Hôm nay dễ lệch nhịp với người thân thiết vì mỗi người đang giữ một thang giá trị khác nhau mà chưa ai nói ra.",
+    "card": { "name": "Tình Nhân", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 3, "career": 5, "finance": 4, "energy": 5 },
+    "headline": "Hai người cãi về chuyện nhỏ thường đang bất đồng chuyện lớn.",
+    "forecast": [
+      "Bạn có xu hướng cãi nhau vì một việc lặt vặt, trong khi gốc rễ là điều gì đó lớn hơn chưa ai gọi tên.",
+      "Một lời nói đùa hoặc một lần quên có thể bị hiểu nặng hơn ý định thật.",
+      "Dễ xuất hiện cảm giác ở cạnh nhau mà không cùng một câu chuyện."
+    ],
+    "love": "Người đang yêu dễ nhận ra hai bên đang kỳ vọng khác nhau về một điều nào đó, như thời gian dành cho nhau hay kế hoạch sắp tới. Đang tìm hiểu thì tín hiệu có thể loãng, đừng vội gán lý do. Độc thân thì cẩn thận với kiểu hợp vì cùng thích một thứ nhưng sống khác hẳn nhau.",
+    "career": "Dễ xảy ra bất đồng nhẹ về cách làm hoặc cách chia việc. Thay vì tranh ai đúng, hãy hỏi mục tiêu cuối cùng của mỗi người là gì. Nếu có một việc khiến bạn gượng ép, hôm nay nó dễ lộ ra.",
+    "finance": "Chi tiêu chung hoặc việc nhờ vả tiền bạc có thể trở thành điểm nhạy cảm. Đừng bàn những khoản lớn lúc hai bên đang khó chịu, để dành cho lúc bình tĩnh hơn.",
+    "insight": "Có thể bạn đang cãi để thắng một chuyện mà thật ra bạn muốn được hiểu. Khi giá trị của mình bị va chạm, ta thường phản ứng bằng độ to của giọng thay vì độ rõ của lý do.",
+    "memorable_message": "Cãi nhau đến đỏ mặt về cái bát, thường vì chưa dám nói về cái cuộc sống.",
+    "advice": "Khi thấy căng, nói một câu thẳng như điều tôi đang cần là gì, rồi hỏi người kia cần gì. Cho phép hai câu trả lời khác nhau cùng tồn tại một lúc.",
+    "keywords": ["lệch nhịp", "giá trị khác nhau", "nói thẳng"]
+  },
+  {
+    "card_id": "the-lovers", "orientation": "reversed", "variant": 2,
+    "summary": "Hôm nay đáng chậm lại với một quyết định, vì bạn dễ chọn theo nỗi sợ hoặc sự dễ chịu nhất thời.",
+    "card": { "name": "Tình Nhân", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 5, "finance": 4, "energy": 5 },
+    "headline": "Chọn vì ngại từ chối cũng là một cách chọn sai.",
+    "forecast": [
+      "Bạn có xu hướng nói đồng ý chỉ để không phải giải thích vì sao không.",
+      "Một lựa chọn hấp dẫn bề ngoài có thể che mất một điều không hợp ở bên trong.",
+      "Một quyết định cũ có thể bị bạn nhìn lại và thấy mình chọn trong lúc đang vội."
+    ],
+    "love": "Cẩn thận với kiểu ở lại vì quen hoặc đi tiếp vì sợ cô đơn. Người đang tìm hiểu nên hỏi bản thân mình thích con người đó hay thích cảm giác được chú ý. Nếu đang yêu, một băn khoăn nhỏ đã nằm đó lâu nên được nói ra thay vì để nó tự lớn.",
+    "career": "Đề nghị hoặc lời mời hôm nay có thể hấp dẫn, nhưng hãy đọc kỹ điều kiện và hỏi lại trước khi nhận. Có thể bạn đang nhận thêm việc chỉ vì khó nói không. Sinh viên đừng chọn hướng đi chỉ vì bạn bè đang chọn.",
+    "finance": "Tâm lý chi tiêu dễ nghiêng về chọn theo cảm xúc hoặc theo áp lực xung quanh. Với bất cứ khoản nào lớn hơn bình thường, đặt thêm một đêm để suy nghĩ cũng chẳng thiệt gì.",
+    "insight": "Có thể bạn biết câu trả lời từ lâu, nhưng nó đòi bạn làm một việc khó chịu nên bạn tiếp tục thu thập thêm ý kiến. Càng hỏi nhiều người, đôi khi chỉ càng trì hoãn cái nói thật của chính mình.",
+    "memorable_message": "Khi chọn mà phải tự thuyết phục mình liên tục, đó thường chưa phải là chọn.",
+    "advice": "Trước khi trả lời bất kỳ lời đề nghị nào, hỏi bản thân hai câu: mình muốn hay mình sợ từ chối, và một năm nữa mình có thấy ổn không. Rồi hãy trả lời.",
+    "keywords": ["chọn vội", "sợ từ chối", "nhìn lại"]
+  },
+  {
+    "card_id": "the-lovers", "orientation": "reversed", "variant": 3,
+    "summary": "Chiều ngược mời bạn nhìn xem mình đang cho đi hay nhận về quá nhiều ở một mối quan hệ, và lấy lại cân bằng.",
+    "card": { "name": "Tình Nhân", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 5, "finance": 4, "energy": 5 },
+    "headline": "Cán cân lệch không phải lỗi của ai, nhưng cần ai đó nói ra.",
+    "forecast": [
+      "Bạn có xu hướng nhận ra mình hay là người nhắn trước, nhường trước hoặc xoa dịu trước.",
+      "Một người có thể lơ là với bạn, hoặc bạn lơ là với họ, vì cả hai đều đang mải chuyện khác.",
+      "Dễ xuất hiện một cám dỗ dễ chịu hơn thứ bạn đang có, và nó chỉ đáng nhìn như một dấu hiệu, chưa phải câu trả lời."
+    ],
+    "love": "Một mối quan hệ nghiêng một bên sẽ lộ ra hôm nay, nhất là trong chuyện ai dành thời gian cho ai. Thay vì trách, hãy kể điều bạn đang thiếu bằng giọng bình thường. Người độc thân cẩn thận với việc vội lấp chỗ trống bằng người đầu tiên chú ý đến mình.",
+    "career": "Có thể bạn đang gánh phần việc không thuộc về mình để giữ hòa khí. Một cuộc nói chuyện rõ ràng về phân công hôm nay đỡ mệt hơn gánh thêm một tuần. Hợp tác có thể trục trặc nếu mỗi người nghĩ một đằng.",
+    "finance": "Chú ý các khoản bạn đang chi hộ, cho vay hoặc đóng góp nhiều hơn phần của mình. Rà lại xem việc cho đi có còn đúng với khả năng của bạn không.",
+    "insight": "Có thể bạn quen nghĩ yêu là phải chịu thiệt một chút, nên khi cán cân lệch, bạn không biết đó là lúc được phép lên tiếng. Mình cần được quan tâm cũng là một giá trị.",
+    "memorable_message": "Ai luôn là người nhường, cuối cùng sẽ quên mình thích gì.",
+    "advice": "Chọn một thứ bạn thường nhường và hôm nay giữ nó lại, dù chỉ là chọn quán ăn. Quan sát phản ứng của người kia rồi tính tiếp, không cần làm lớn chuyện.",
+    "keywords": ["mất cân bằng", "cho và nhận", "lên tiếng"]
+  },
+  {
+    "card_id": "the-chariot", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay hợp để chọn một hướng và đi thẳng, năng lượng quyết tâm của bạn đang cao hơn mức thường.",
+    "card": { "name": "Cỗ Xe", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 6, "career": 9, "finance": 7, "energy": 9 },
+    "headline": "Một hướng đi chọn dứt khoát đáng giá hơn mười hướng còn đang cân nhắc.",
+    "forecast": [
+      "Bạn có xu hướng thấy đầu óc rõ ràng hơn sau khi quyết định xong việc chính của ngày.",
+      "Một việc đã kéo dài lâu có khả năng chuyển từ đứng yên sang tiến triển thật.",
+      "Có thể bạn bị hỏi hoặc nhờ dẫn dắt một việc, vì trông bạn lúc này khá vững."
+    ],
+    "love": "Người đang tìm hiểu ai đó nên chủ động rủ một việc cụ thể thay vì chờ tín hiệu. Đang yêu thì hôm nay hợp để cùng chốt một kế hoạch còn treo. Độc thân dễ thu hút bằng vẻ tự tin, nhưng nhớ nghe nhiều bằng nói.",
+    "career": "Đây là ngày tốt để dồn lực vào một đầu việc lớn thay vì mở nhiều việc nhỏ. Bạn có thể đạt được kết quả đáng kể nếu tắt bớt thông báo và đi một mạch. Sinh viên hợp ôn hoặc hoàn thành bài đang dang dở.",
+    "finance": "Tình hình có xu hướng ổn nếu bạn giữ kỷ luật với các khoản đã định. Cảm giác chủ động giúp bạn nhìn rõ tiền đang đi đâu và đủ quyết tâm cắt một khoản không cần thiết.",
+    "insight": "Có thể điều bạn đang thiếu không phải là thêm động lực, mà là một lời cam kết với một hướng duy nhất. Phân vân kéo dài tốn năng lượng hơn đi sai đường rồi chỉnh.",
+    "memorable_message": "Xe không đến đích nhờ việc cân nhắc mọi con đường, nó đến nhờ việc ngừng nhìn bản đồ.",
+    "advice": "Chọn một việc quan trọng nhất hôm nay và làm nó trước, trước khi mở tin nhắn hay mạng xã hội. Khi đã đi, đừng quên liếc gương một lần để biết ai đang đi cùng.",
+    "keywords": ["quyết tâm", "tiến về phía trước", "tập trung"]
+  },
+  {
+    "card_id": "the-chariot", "orientation": "upright", "variant": 2,
+    "summary": "Hôm nay bạn có khả năng điều khiển được hai phần đang giằng co trong mình và cho chúng kéo cùng một hướng.",
+    "card": { "name": "Cỗ Xe", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 6, "career": 8, "finance": 7, "energy": 9 },
+    "headline": "Cầm cương không phải để dập tắt một bên, mà để hai bên cùng chạy.",
+    "forecast": [
+      "Bạn có xu hướng tìm ra cách dung hòa giữa điều mình muốn và điều mình cần làm.",
+      "Một mâu thuẫn trong đầu như muốn nghỉ nhưng sợ trễ có thể được giải quyết bằng một lịch trình hợp lý.",
+      "Dễ xuất hiện cảm giác làm chủ khi bạn dám nói rõ giới hạn của mình với người khác."
+    ],
+    "love": "Nếu đang có hai luồng cảm xúc đối nghịch về một người, hôm nay bạn đủ tỉnh để nhìn cả hai mà không bị cuốn. Đang yêu thì thử thỏa thuận một điểm giữa hai ý muốn khác nhau. Người độc thân đừng để lý trí và cảm xúc cãi nhau mãi, hãy nghe cả hai rồi quyết.",
+    "career": "Bạn xử lý tốt việc cần cân bằng giữa tốc độ và chất lượng, hoặc giữa hai yêu cầu trái nhau từ hai người. Hãy đặt ra một quy tắc rõ ràng cho chính mình rồi giữ nó. Sinh viên hợp lập lịch học vừa sức và theo đúng lịch.",
+    "finance": "Có xu hướng cân bằng được giữa muốn mua và nên để dành. Một ngân sách nhỏ cho điều mình thích, cộng một phần cố định cho phần an toàn, sẽ rất hợp với năng lượng hôm nay.",
+    "insight": "Có thể sự giằng co trong bạn không phải điểm yếu, mà là hai nguồn lực chưa được phân việc. Khi ngừng ép một bên im lặng, cả hai tự khắc dễ hợp tác hơn.",
+    "memorable_message": "Hai con ngựa kéo ngược nhau chỉ cần một người cầm cương bình tĩnh.",
+    "advice": "Viết hai cột ngắn gọn, một cột điều bạn muốn, một cột điều bạn cần, rồi chọn một việc chung đáp ứng cả hai. Không có thì nhường ưu tiên cho cột cần nhưng để lại một chỗ cho cột muốn.",
+    "keywords": ["làm chủ", "dung hòa", "kỷ luật"]
+  },
+  {
+    "card_id": "the-chariot", "orientation": "upright", "variant": 3,
+    "summary": "Đà tiến của bạn đang thấy rõ, hôm nay có khả năng nhận được dấu hiệu công nhận cho nỗ lực dạo gần đây.",
+    "card": { "name": "Cỗ Xe", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 9, "love": 7, "career": 9, "finance": 7, "energy": 8 },
+    "headline": "Bạn đang gần đích hơn cảm giác của mình.",
+    "forecast": [
+      "Một nỗ lực nhỏ bạn tưởng không ai thấy có khả năng được nhắc tới hoặc được ghi nhận.",
+      "Một mốc tiến độ, một bài nộp hoặc một cuộc hẹn quan trọng có xu hướng suôn sẻ hơn dự tính.",
+      "Dễ có cảm giác tự hào âm thầm, loại không cần khoe cũng thấy đủ."
+    ],
+    "love": "Sự tự tin sau khi hoàn thành điều gì đó khiến bạn có sức hút hơn bình thường. Người đang yêu thì chia sẻ một thành tựu nhỏ với người kia sẽ làm cả hai vui. Người độc thân có thể thấy mình đáng thích mà không cần cố gắng.",
+    "career": "Thuận lợi cho việc chốt, nộp, trình bày hoặc thuyết phục. Nếu có thứ cần đẩy qua vạch cuối, hãy làm hôm nay. Sinh viên có thể thấy kết quả của một thời gian nghiêm túc ôn luyện.",
+    "finance": "Tài chính có xu hướng tích cực, nhất là các khoản liên quan đến công sức của bạn, như thù lao, thưởng hoặc khoản đã chờ lâu. Vẫn nên giữ kỷ luật, đừng thưởng cho mình quá tay chỉ vì đang phấn khởi.",
+    "insight": "Có thể bạn quá mải nhìn khoảng cách còn lại nên quên đếm quãng đã đi. Cảm giác chưa đủ có thể song hành với việc bạn thật sự đã tiến rất xa.",
+    "memorable_message": "Đừng chê đoạn đường mình đã đi chỉ vì đích đến còn xa hơn ta nghĩ.",
+    "advice": "Hôm nay liệt kê ba thứ bạn đã làm được trong một tháng qua, rồi hoàn thành nốt một việc nhỏ đang dở. Đóng một vòng sẽ nạp thêm sức cho vòng tiếp theo.",
+    "keywords": ["chiến thắng", "ghi nhận", "đà tiến"]
+  },
+  {
+    "card_id": "the-chariot", "orientation": "reversed", "variant": 1,
+    "summary": "Bạn đang bị kéo đi nhiều hướng cùng lúc, nên hôm nay chạy nhiều mà ít đến, hãy chọn lại một hướng.",
+    "card": { "name": "Cỗ Xe", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 5, "career": 4, "finance": 4, "energy": 5 },
+    "headline": "Chạy nhanh về nhiều hướng thì rốt cuộc vẫn đứng nguyên chỗ.",
+    "forecast": [
+      "Bạn có xu hướng mở quá nhiều việc cùng lúc và thấy không việc nào xong.",
+      "Một kế hoạch có thể bị chệch vì người khác đổi ý hoặc vì chính bạn chưa chốt mục tiêu.",
+      "Dễ xuất hiện cảm giác bận rộn nhưng cuối ngày không rõ mình đã tiến được gì."
+    ],
+    "love": "Tâm trí bị phân tán nên bạn dễ trả lời qua loa hoặc quên mất điều người kia vừa nói. Người đang yêu nên dành mười phút tập trung thật sự thay vì cả buổi bên nhau mà cầm điện thoại. Người độc thân đừng đi tìm quá nhiều hướng một lúc.",
+    "career": "Danh sách việc dài và thứ tự ưu tiên mờ là vấn đề của hôm nay. Chọn ra một việc duy nhất phải xong, những thứ còn lại gạch bớt hoặc dời. Cẩn thận với việc đổi hướng giữa chừng chỉ vì thấy cái khác trông hấp dẫn hơn.",
+    "finance": "Khoản chi dễ rời rạc và khó theo dõi vì bạn đang bận tâm nhiều chuyện. Dành vài phút nhìn lại các khoản chi gần đây để bắt lại nhịp.",
+    "insight": "Có thể bạn không mất động lực, mà mất điểm đến rõ ràng. Khi không biết mình hướng về đâu, mọi lối đi đều có vẻ đáng thử và đều làm mình kiệt sức.",
+    "memorable_message": "Cái máy chạy hết công suất mà không có bản đồ chỉ tốn xăng.",
+    "advice": "Viết một câu duy nhất cho mục tiêu của hôm nay, rồi từ chối hoặc hoãn mọi thứ không phục vụ câu đó. Ngày mai bạn vẫn có thể quay lại những thứ đã hoãn.",
+    "keywords": ["mất phương hướng", "phân tán", "chọn lại"]
+  },
+  {
+    "card_id": "the-chariot", "orientation": "reversed", "variant": 2,
+    "summary": "Năng lượng ý chí hôm nay dễ biến thành cứng đầu hoặc gắt gỏng nếu bạn cố ép mọi thứ chạy đúng ý mình.",
+    "card": { "name": "Cỗ Xe", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 5, "finance": 5, "energy": 6 },
+    "headline": "Càng siết cương chặt, con ngựa càng bướng.",
+    "forecast": [
+      "Bạn có xu hướng muốn thắng một cuộc tranh luận hơn là giải quyết vấn đề.",
+      "Một người chậm hơn mong đợi có thể khiến bạn mất kiên nhẫn và nói nặng lời.",
+      "Dễ xuất hiện việc muốn kiểm soát một chuyện không thuộc quyền của mình, như cách người khác làm hoặc cảm nghĩ."
+    ],
+    "love": "Bạn dễ muốn người kia làm theo ý mình hoặc theo tốc độ của mình, và họ có thể thấy bị thúc ép. Người đang yêu nên hỏi trước khi quyết thay. Người độc thân đừng biến việc làm quen thành một cuộc chinh phục.",
+    "career": "Năng lượng cao nhưng dễ mất kiểm soát lời nói và thái độ, nhất là khi gặp người cản trở. Khi thấy nóng, ra ngoài đi vài phút rồi quay lại. Đừng chọn chiến thắng nhỏ mà trả giá bằng một mối quan hệ làm việc.",
+    "finance": "Có thể bạn muốn kiểm soát chặt chi tiêu của mình hoặc của người thân đến mức gây căng thẳng. Hãy chọn một ngưỡng hợp lý thay vì siết tuyệt đối, vì kỷ luật quá mức dễ dẫn tới bung ra một lần.",
+    "insight": "Có thể sự gắt gỏng hôm nay là cách bạn che đi nỗi lo mình không còn nắm được tình hình. Khi thấy mình cần kiểm soát từng chi tiết, thường bên dưới là một nỗi sợ chưa được gọi tên.",
+    "memorable_message": "Người lái giỏi nhất là người biết lúc nào nên nhả chân ga.",
+    "advice": "Tìm ra một việc hôm nay bạn đang cố ép, rồi thử buông nửa phần kiểm soát. Quan sát xem mọi thứ có tệ hơn thật không, hay chỉ khác với hình dung của bạn.",
+    "keywords": ["kiểm soát quá mức", "nóng nảy", "nhả cương"]
+  },
+  {
+    "card_id": "the-chariot", "orientation": "reversed", "variant": 3,
+    "summary": "Chiếc xe đang đỗ lại có thể là nhịp nghỉ cần thiết, miễn bạn đừng tự mắng mình vì chưa chạy.",
+    "card": { "name": "Cỗ Xe", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 5, "career": 4, "finance": 5, "energy": 5 },
+    "headline": "Nổ máy không được thì kiểm tra bình xăng trước khi trách đường.",
+    "forecast": [
+      "Bạn có xu hướng thấy động lực chậm khởi động dù biết việc cần làm.",
+      "Một việc có thể bị hoãn vì thiếu một mảnh thông tin hoặc chờ một người khác trả lời.",
+      "Dễ xuất hiện ý nghĩ rằng mình đang tụt lại so với người khác."
+    ],
+    "love": "Hôm nay bạn thiếu chủ động và dễ ngồi chờ người kia lên tiếng trước. Đang yêu thì chỉ cần ở bên nhau yên lặng cũng là đủ, không phải mọi ngày đều cần kế hoạch. Người độc thân đừng ép mình ra ngoài nếu thấy cạn pin.",
+    "career": "Tiến độ có thể chậm hơn kỳ vọng, và ép bản thân nhanh hơn chưa chắc hiệu quả. Hãy chia việc thành bước nhỏ nhất có thể, chẳng hạn mở file và viết ba dòng đầu. Nếu phải chờ ai đó, dùng thời gian đó dọn những việc vụn.",
+    "finance": "Không phải thời điểm cho những quyết định tài chính lớn hoặc vội vàng. Chậm lại một nhịp để xem lại số liệu, hóa đơn hoặc kế hoạch có lợi hơn là tăng tốc.",
+    "insight": "Có thể bạn không lười, mà đã đi liên tục quá lâu mà chưa dừng đổ thêm sức. Việc đứng yên sau một chặng dài là bảo dưỡng, và nó khác với bỏ cuộc.",
+    "memorable_message": "Nghỉ để nạp lại sức không phải thụt lùi, nó là một phần của chặng đường.",
+    "advice": "Chọn một việc nhỏ nhất, làm trong mười lăm phút rồi cho phép mình dừng. Phần còn lại của buổi dành cho việc gì đó nạp lại pin thật sự, như ngủ, ăn tử tế hoặc đi bộ.",
+    "keywords": ["trì hoãn", "nạp lại sức", "bước nhỏ"]
+  },
+  {
+    "card_id": "strength", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay sự kiên nhẫn dịu dàng của bạn hiệu quả hơn mọi cách nói to, nhất là với người khó chiều.",
+    "card": { "name": "Sức Mạnh", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 7, "career": 7, "finance": 6, "energy": 8 },
+    "headline": "Mềm mà không lùi, đó mới là kiểu mạnh khó cãi nhất.",
+    "forecast": [
+      "Bạn có xu hướng gặp một người hoặc một tình huống đòi sự bình tĩnh, và bạn xử lý tốt hơn dự tính.",
+      "Một cuộc nói chuyện căng có khả năng dịu xuống nhờ giọng điệu của bạn chứ không nhờ lý lẽ.",
+      "Dễ xuất hiện một khoảnh khắc bạn nén được cơn bực và thấy hài lòng về chính mình."
+    ],
+    "love": "Người đang yêu có thể làm dịu một chuyện bất đồng bằng sự kiên nhẫn và ánh nhìn ấm áp thay vì lập luận. Người đang tìm hiểu nên cho nhau thời gian, không ép tuyên bố. Độc thân thì vẻ điềm đạm của bạn đang có sức hút âm thầm.",
+    "career": "Hợp để xử lý một khách hàng, đồng nghiệp hoặc thầy cô khó tính bằng cách lắng nghe trước. Việc cần nhiều bền bỉ hơn là nhanh sẽ cho kết quả tốt. Đừng nhầm mềm mỏng với việc không nêu được giới hạn.",
+    "finance": "Tài chính ổn định khi bạn giữ nhịp đều đặn, không cần động thái mạnh. Một thói quen tiết kiệm nhỏ nhưng kiên trì có xu hướng hiệu quả hơn một quyết tâm lớn nhất thời.",
+    "insight": "Có thể bạn vẫn nghĩ mạnh mẽ là phải to tiếng hoặc phải thắng. Hôm nay bạn có cơ hội thấy kiểu mạnh khác: đủ vững để không cần chứng minh.",
+    "memorable_message": "Chú sư tử nghe lời bàn tay nhẹ, không nghe tiếng hét.",
+    "advice": "Khi gặp tình huống khó chịu hôm nay, hít một hơi sâu và trả lời chậm hơn thường lệ ba giây. Ba giây ấy thường là cả khác biệt giữa thắng cuộc cãi và giữ được người.",
+    "keywords": ["kiên nhẫn", "điềm tĩnh", "mềm mà vững"]
+  },
+  {
+    "card_id": "strength", "orientation": "upright", "variant": 2,
+    "summary": "Hôm nay bạn đủ can đảm làm một việc đáng sợ, không cần ồn ào, chỉ cần bình tĩnh đi từng bước.",
+    "card": { "name": "Sức Mạnh", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 7, "career": 8, "finance": 6, "energy": 8 },
+    "headline": "Can đảm thật thường rất yên lặng.",
+    "forecast": [
+      "Bạn có xu hướng đối diện một việc mình né từ lâu, và nó nhỏ hơn bạn tưởng.",
+      "Một thử thách bất ngờ có thể cho bạn thấy mình chịu đựng tốt hơn mình nghĩ.",
+      "Dễ có người nhận ra sự vững vàng của bạn và tìm đến để xin chỗ dựa."
+    ],
+    "love": "Hôm nay hợp để nói một điều khó nghe nhưng cần nói, bằng giọng ấm. Người đang yêu có thể là chỗ dựa cho nhau trong một chuyện khó. Người độc thân thì thử bước tới bắt chuyện dù tim hơi nhanh, bạn xử lý được.",
+    "career": "Hợp để nhận một đầu việc khó, xin phản hồi thẳng hoặc đề cập chuyện mà cả nhóm đang né. Sức bền của bạn đang tốt, và một việc làm từng chút một sẽ xong ngoài dự kiến. Chỉ cần tránh gồng quá để chứng tỏ.",
+    "finance": "Có xu hướng đủ tỉnh táo để nhìn thẳng vào một con số bạn vẫn né, như khoản nợ nhỏ hoặc mức chi quá tay. Nhìn rõ là bước đầu của kiểm soát, và hôm nay bạn đủ vững để làm bước đó.",
+    "insight": "Có thể bạn tưởng mình chưa đủ dũng cảm, trong khi bạn đã âm thầm chịu đựng nhiều điều rất lâu. Can đảm không phải là không sợ, mà là sợ và vẫn làm.",
+    "memorable_message": "Sợ mà vẫn bước tới, đó mới gọi là gan, còn không sợ chỉ là chưa biết.",
+    "advice": "Chọn một việc bạn đang né vì ngại, và làm phần nhỏ nhất của nó trước buổi trưa. Làm xong thì cho phép mình thấy tự hào, đừng vội bảo là chuyện nhỏ.",
+    "keywords": ["can đảm", "bền bỉ", "dám đối diện"]
+  },
+  {
+    "card_id": "strength", "orientation": "upright", "variant": 3,
+    "summary": "Hôm nay bạn có khả năng đối xử với bản thân dịu dàng hơn, và nhờ đó kiểm soát được cơn bốc đồng.",
+    "card": { "name": "Sức Mạnh", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 7, "career": 7, "finance": 7, "energy": 8 },
+    "headline": "Thuần hóa phần hoang trong mình bằng sự tử tế, không bằng roi.",
+    "forecast": [
+      "Bạn có xu hướng nhận ra một thói quen hay cơn thèm của mình và gọi tên nó mà không tự trách.",
+      "Một khoảnh khắc muốn bùng nổ có thể qua đi nhanh hơn mọi khi nếu bạn để nó thở.",
+      "Dễ xuất hiện sự dịu dàng với chính mình, điều mà dạo này bạn ít khi cho phép."
+    ],
+    "love": "Khi bản thân ổn hơn, bạn thương người khác bớt đòi hỏi hơn. Đang yêu thì thử đón nhận một chút bực bội của người kia như một cảm xúc, không phải một lời buộc tội. Người độc thân đừng mắng mình vì chuyện cũ, hãy đối xử với trái tim như một con vật nhỏ đang hồi phục.",
+    "career": "Bạn dễ giữ bình tĩnh trước sự chê bai hoặc phản hồi gắt, và nhờ đó rút ra được phần hữu ích. Với việc hay làm bạn nóng đầu, hôm nay là lúc thử cách xử lý khác. Sinh viên đừng so bản thân với điểm số của người khác.",
+    "finance": "Tâm lý tiền bạc có xu hướng chín chắn hơn: bạn cưỡng được một khoản mua theo cảm xúc mà không thấy bị cấm đoán. Cho mình một mức chi nhỏ dành cho niềm vui sẽ giúp kỷ luật bền hơn.",
+    "insight": "Có thể bạn vẫn dùng sự khắt khe để điều khiển mình, và nó chạy được một lúc rồi kiệt sức. Cách bền hơn là đối xử với bản thân như một người mình thật sự quý.",
+    "memorable_message": "Bạn không cần thắng chính mình, chỉ cần đứng về phía mình.",
+    "advice": "Khi thấy muốn làm điều mình biết là sẽ hối hận, đặt tay lên ngực, hít ba hơi và hỏi mình đang thật sự cần gì. Rồi đáp ứng nhu cầu ấy bằng cách lành mạnh nhất có thể.",
+    "keywords": ["trắc ẩn", "tự kiểm soát", "dịu dàng"]
+  },
+  {
+    "card_id": "strength", "orientation": "reversed", "variant": 1,
+    "summary": "Giọng chê bai bên trong bạn hôm nay hơi to, nhưng nó đang đánh giá bạn khắt khe hơn thực tế.",
+    "card": { "name": "Sức Mạnh", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Bạn giỏi hơn giọng nói trong đầu bạn cho phép.",
+    "forecast": [
+      "Bạn có xu hướng so sánh mình với người khác và thấy mình thiếu một thứ gì đó.",
+      "Một lời nhận xét bình thường có thể bị bạn nghe thành phê bình nặng.",
+      "Dễ xuất hiện việc muốn từ chối một cơ hội chỉ vì nghĩ rằng mình chưa đủ tốt."
+    ],
+    "love": "Nghi ngờ bản thân có thể khiến bạn nghĩ người kia sẽ chán mình hoặc chẳng đáng với mình. Người đang yêu nên hỏi thẳng thay vì tự đọc ý. Người độc thân đừng rút lui trước khi được thử, vì sự sợ bị từ chối đang nói to hơn thực tế.",
+    "career": "Bạn có thể làm tốt hơn mình nghĩ nhưng đang không dám khẳng định. Hãy ghi lại ba việc bạn đã làm tốt gần đây trước khi họp hoặc nộp bài. Đừng nhường cơ hội cho người khác chỉ vì họ nói to hơn bạn.",
+    "finance": "Tâm lý thiếu tự tin có thể khiến bạn ngại đòi một khoản xứng đáng hoặc ngại đàm phán. Chuẩn bị sẵn một con số hợp lý trước, vì nó giúp bạn bớt run khi cần mở lời.",
+    "insight": "Có thể bạn tự hạ mình xuống trước để đỡ đau nếu người khác làm thế. Sự khiêm tốn quá tay đôi khi chỉ là cách tự bảo vệ trước nỗi sợ bị đánh giá.",
+    "memorable_message": "Đừng cho kẻ nói xấu mình nhiều quyền nhất trong đầu, nhất là khi kẻ đó là chính bạn.",
+    "advice": "Hôm nay mỗi khi bạn nghe một câu tự chê, thử nói lại bằng giọng như đang nói với bạn thân. Nếu câu đó nghe quá phũ khi dành cho bạn thân, nó cũng không công bằng với bạn.",
+    "keywords": ["nghi ngờ bản thân", "tự chê", "công bằng với mình"]
+  },
+  {
+    "card_id": "strength", "orientation": "reversed", "variant": 2,
+    "summary": "Kiên nhẫn của bạn hôm nay mỏng hơn bình thường, nên lời nói và hành động dễ chạy trước suy nghĩ.",
+    "card": { "name": "Sức Mạnh", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 5 },
+    "headline": "Cơn bực chỉ kéo dài vài phút, nhưng câu nói thốt ra thì ở lại lâu hơn.",
+    "forecast": [
+      "Bạn có xu hướng cáu vì một chuyện nhỏ như tin nhắn trả lời chậm hoặc hàng chờ dài.",
+      "Một phản ứng bốc đồng có thể khiến bạn phải xin lỗi vào cuối ngày.",
+      "Dễ xuất hiện việc muốn phá vỡ một nguyên tắc cá nhân, chẳng hạn ăn uống, chi tiêu hoặc ngủ muộn, vì đang thấy khó chịu."
+    ],
+    "love": "Bạn dễ nói một câu gay gắt rồi mới thấy tiếc. Người đang yêu nên báo trước cho người kia rằng hôm nay mình hơi dễ cáu, như thế người ta sẽ hiểu. Người độc thân đừng nhắn gì khi đang bực.",
+    "career": "Năng lượng nôn nóng khiến bạn muốn kết thúc nhanh hoặc phản ứng gắt với đồng nghiệp. Trước khi trả lời một email gây khó chịu, hãy đợi thêm mười phút. Đừng bỏ ngang một việc đáng làm chỉ vì chán.",
+    "finance": "Cẩn thận với khoản mua do cảm xúc, nhất là khi bạn thấy muốn tự thưởng sau một lúc căng thẳng. Đặt một ngưỡng chi cho cả ngày và dừng khi chạm tới.",
+    "insight": "Có thể bạn không thiếu tự chủ, mà đang quá tải và phần kiên nhẫn của bạn đã dùng hết cho chuyện khác. Cơn nóng của hôm nay có thể là tín hiệu rằng bạn cần giảm tải.",
+    "memorable_message": "Hít một hơi trước khi nói tốn đúng một hơi, còn xin lỗi tốn nhiều hơn thế.",
+    "advice": "Chọn trước một tín hiệu cho mình, như cảm thấy nóng mặt thì dừng và uống một ngụm nước. Việc ấy cho bạn khoảng trống đủ để chọn phản ứng thay vì bị phản ứng điều khiển.",
+    "keywords": ["mất kiên nhẫn", "bốc đồng", "dừng một hơi"]
+  },
+  {
+    "card_id": "strength", "orientation": "reversed", "variant": 3,
+    "summary": "Hôm nay bạn dễ cạn pin nội tâm dưới vẻ ngoài vẫn ổn, và việc thừa nhận điều đó là bước đầu để hồi phục.",
+    "card": { "name": "Sức Mạnh", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 4, "finance": 5, "energy": 4 },
+    "headline": "Gồng mãi cũng có lúc mỏi, và mỏi không có nghĩa là yếu.",
+    "forecast": [
+      "Bạn có xu hướng nói mình ổn khi người khác hỏi, dù bên trong hơi hụt.",
+      "Một việc nhỏ có thể làm bạn nặng lòng hơn bình thường vì năng lượng cảm xúc đang thấp.",
+      "Dễ xuất hiện nhu cầu được nghỉ, được ai đó chăm sóc, hoặc ít nhất là không phải mạnh mẽ trong một lúc."
+    ],
+    "love": "Bạn có thể thu mình hoặc nhạy cảm hơn thường lệ. Người đang yêu hãy cho phép người kia biết bạn đang thấy hơi yếu, họ không cần sửa gì, chỉ cần ngồi cạnh. Người độc thân đừng buộc mình phải tươi tắn với mọi cuộc hẹn.",
+    "career": "Hiệu suất có thể thấp hơn mức quen thuộc, và việc đòi hỏi bản thân như mọi ngày sẽ càng làm bạn kiệt. Giảm bớt đầu việc phụ, giữ lại phần cốt lõi. Nếu có thể, xin dời một hạn chót không quá quan trọng.",
+    "finance": "Mệt mỏi dễ khiến bạn bỏ qua việc theo dõi chi tiêu hoặc mua đồ để bù đắp cảm xúc. Chọn những thứ thật sự giúp bạn nghỉ như bữa ăn đàng hoàng, thay vì món đồ chỉ có tác dụng vài phút.",
+    "insight": "Có thể bạn đã quen đóng vai người vững vàng đến mức không còn chỗ cho sự mệt mỏi của chính mình. Sức mạnh thật gồm cả việc biết khi nào mình cần được đỡ.",
+    "memorable_message": "Người mạnh nhất trong phòng cũng cần một cái ghế để ngồi.",
+    "advice": "Chọn một việc hôm nay để bỏ bớt hoặc nhờ người khác giúp, rồi nói thật với một người tin cậy rằng bạn đang hơi cạn sức. Nếu cảm giác nặng nề kéo dài nhiều tuần, hãy cân nhắc trò chuyện với người thân hoặc chuyên gia.",
+    "keywords": ["cạn sức", "nhạy cảm", "cho phép nghỉ"]
+  }
+]

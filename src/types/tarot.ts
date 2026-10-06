@@ -1,4 +1,7 @@
-export type AppScreen = 'home' | 'quick-read' | 'deep-read' | 'library' | 'card-detail' | 'account';
+import type { ThreeCardResult } from '@/lib/ai/schemas/three-card';
+import type { DailyResult } from '@/lib/daily-types';
+
+export type AppScreen = 'home' | 'daily' | 'deep-read' | 'library' | 'card-detail' | 'account';
 
 export type ArcanaType = 'major' | 'minor' | 'cups' | 'swords' | 'wands' | 'pentacles';
 export type CardSuit = 'wands' | 'cups' | 'swords' | 'pentacles';
@@ -68,7 +71,7 @@ export interface ReadingHistoryItem {
   date: string;
   topic?: string;
   topicVi?: string;
-  type?: 'deep' | 'quick';
+  type?: 'deep' | 'quick' | 'daily';
   category?: string;
   categoryVi?: string;
   categoryIcon?: string;
@@ -87,6 +90,11 @@ export interface ReadingHistoryItem {
     positionLabelVi?: string;
   }[];
   personalBody?: string;
+  // Kết quả có cấu trúc (3 lá hoặc Daily). Bản ghi cũ chỉ có `personalBody`.
+  result?: ThreeCardResult | DailyResult;
+  // false = mục lấy từ DANH SÁCH (chưa có `result`/nội dung đầy đủ); modal chi tiết
+  // tự tải khi mở. undefined/true = đã có đủ (vừa tạo trong phiên, hoặc từ trang chi tiết).
+  detailLoaded?: boolean;
   aiInterpretation?: string;
   isFavorite?: boolean;
 }
@@ -109,6 +117,11 @@ export interface ReadingRow {
   question: string | null;
   cards_drawn: DrawnCardRow[] | null;
   personal_body: string | null;
+  result?: ThreeCardResult | DailyResult | null;
+  // Trường rút gọn của truy vấn DANH SÁCH (xem HISTORY_LIST_SELECT) — thay cho `result`.
+  deep_summary?: string | null;
+  daily_summary?: string | null;
+  daily_headline?: string | null;
 }
 
 // Dòng thô từ bảng `credit_ledger`, đúng các cột trang tài khoản select.

@@ -40,7 +40,7 @@ function resolveNextPath(): string {
   // trang đó dùng, để hai cách đăng nhập không dẫn tới hai nơi khác nhau.
   if (pathname === "/dang-nhap") return "/tai-khoan";
 
-  // Modal mở ngay giữa một trang bất kỳ (/trai-bai, /doc-sau...): trả người
+  // Modal mở ngay giữa một trang bất kỳ (/hom-nay, /doc-sau...): trả người
   // dùng về đúng chỗ họ đang đứng. `error` là param của chính modal này, không
   // mang theo để lần quay lại không hiện lại thông báo cũ.
   params.delete("error");

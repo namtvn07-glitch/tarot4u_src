@@ -31,7 +31,10 @@ export default function DieuKhoanPage() {
       <section className="space-y-2">
         <h2 className="font-display text-xl text-[#d4af37] font-semibold">3. Cơ chế Credits</h2>
         <ul className="list-disc pl-5 space-y-1 text-[#b3a48d]">
-          <li>Rút Nhanh 1 lá luôn miễn phí.</li>
+          <li>
+            Thông Điệp Hôm Nay (1 lá): lượt rút đầu tiên mỗi ngày miễn phí; mỗi lượt rút thêm trong
+            cùng ngày tiêu hao 1 Credit, tối đa 5 lượt mỗi ngày.
+          </li>
           <li>Trải Bài Sâu 3 lá tiêu hao {DEEP_READING_CREDIT_COST} Credits cho mỗi phiên trải bài.</li>
           <li>Credits đã mua qua cổng PayOS không bị giới hạn thời gian sử dụng.</li>
         </ul>

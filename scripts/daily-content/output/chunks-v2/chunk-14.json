@@ -1,0 +1,650 @@
+[
+ {
+  "card_id": "four-of-cups",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay có một lời mời hoặc cơ hội đang chờ ngay bên cạnh, nhưng bạn dễ bỏ lỡ vì đang mải nhìn vào trong.",
+  "card": {
+   "name": "Bốn Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 4,
+   "finance": 6,
+   "energy": 3
+  },
+  "headline": "Có thứ đang được đưa tới tay bạn, chỉ là bạn chưa ngẩng lên.",
+  "card_meaning": "Bốn Cốc vẽ một người ngồi khoanh tay dưới gốc cây, trước mặt có ba chiếc cốc, còn từ đám mây bên cạnh một bàn tay đang đưa tới chiếc cốc thứ tư. Anh không thấy vì mắt mải nhìn xuống. Số 4 trong Tarot gắn với sự ổn định, và khi nó rơi vào bộ Cốc, nó thành một trạng thái cảm xúc đứng yên: không đau, không vui, chỉ thờ ơ. Ở chiều xuôi, lá bài nói về cơ hội nằm ngay cạnh nhưng bị bỏ lỡ vì sự chú ý đang quay vào trong. Hôm nay nó đáng chú ý vì thứ cần bạn ngẩng lên nhìn có thể rất gần và rất nhỏ.",
+  "forecast": [
+   "Bạn có xu hướng nghe người khác rủ rê hay gợi ý mà phản ứng chậm, kiểu ừ để mình xem, nhất là trong những cuộc trò chuyện ngắn ở nơi làm việc hoặc nhóm chat.",
+   "Một tin nhắn hoặc lời nhờ vả nhỏ dễ bị lướt qua vào buổi chiều, rồi tối mới nhớ ra nó khá thú vị và hơi tiếc.",
+   "Năng lượng nghiêng về trầm lặng, bạn dễ ngồi nhìn một điểm rất lâu mà đầu óc chẳng nghĩ gì cụ thể, nhất là khi đang ở một mình."
+  ],
+  "love": "Người độc thân có thể thấy ai đó chủ động hỏi han hoặc thả tương tác, nhưng bạn không buồn đáp lại nhiệt tình. Nếu đang tìm hiểu, sự lạnh nhạt hôm nay dễ bị đọc thành hết hứng thú, dù thực tế bạn chỉ đang trống. Đang yêu thì nói thẳng một câu kiểu hôm nay mình hơi trống, không phải vì bạn đâu sẽ đỡ hiểu lầm hơn là im lặng. Thử nhớ lần gần nhất mình hỏi lại người kia là khi nào.",
+  "career": "Việc hôm nay không tệ, chỉ là bạn thấy nó nhạt và khó khơi được động lực. Có thể xuất hiện một đầu việc, lời mời tham gia dự án hoặc buổi học hỏi nằm ngay tầm tay mà bạn chưa thèm xem kỹ. Sinh viên cũng dễ lướt qua một thông báo hay nhóm học trông chẳng có gì đặc biệt. Mở nó ra đọc thử năm phút trước khi quyết định bỏ qua, vì lướt rồi mới tiếc thì khó quay lại hơn nhiều.",
+  "finance": "Tiền bạc khá ổn định, và vì đang chán nên bạn ít có hứng mua sắm bốc đồng. Rủi ro nằm ở những thứ im lặng hơn: phí đăng ký ứng dụng, thành viên hay dịch vụ định kỳ mà bạn đã quên mình còn trả. Mười phút mở sao kê hoặc danh sách thuê bao có thể cho bạn thấy vài khoản đang chảy đi mà chẳng ai dùng. Không cần cắt hết, chỉ cần biết mình đang trả cho thứ gì.",
+  "insight": "Có thể bạn không thiếu thứ gì cả, bạn chỉ đang quá no với những gì quen thuộc nên khẩu vị cảm xúc đã chai lại. Cảm giác thờ ơ đôi khi là tín hiệu cần đổi món, chứ chưa phải bằng chứng rằng mọi thứ đều vô nghĩa. Người đang cầm sẵn một thứ tốt mà không nếm thường dễ nghĩ rằng mình chẳng còn mong muốn gì. Có khả năng ngay lúc bạn ngẩng lên, bạn sẽ nhận ra có thứ đã chờ sẵn từ lâu.",
+  "memorable_message": "Chiếc cốc được đưa tới không biến mất vì bạn đang nhìn đi chỗ khác, nhưng người đưa thì có thể mỏi tay.",
+  "advice": "Hôm nay hãy đáp lại ít nhất một lời mời hay một tin nhắn mà bạn định để đó, tốt nhất ngay trong buổi chiều trước khi quên. Chỉ cần một câu ngắn như được đó, để mình xem lại rồi nhắn bạn nhé. Bạn vẫn được từ chối, chỉ cần từ chối sau khi đã nhìn thật. Nếu chẳng muốn trả lời ai cả, hãy ghi lại điều đó để biết mình đang cần nghỉ.",
+  "keywords": [
+   "thờ ơ",
+   "bỏ lỡ cơ hội",
+   "trầm ngâm"
+  ]
+ },
+ {
+  "card_id": "four-of-cups",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Pin cảm xúc của bạn đang yếu, hôm nay hợp để nghỉ và giữ nhịp chậm hơn là cố ép mình hào hứng.",
+  "card": {
+   "name": "Bốn Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 6,
+   "energy": 3
+  },
+  "headline": "Không hào hứng không có nghĩa là bạn hỏng, có thể bạn chỉ đang hết pin.",
+  "card_meaning": "Trong lá Bốn Cốc, một người ngồi khoanh tay dưới tán cây, vẻ mặt vừa chán vừa mệt, ba chiếc cốc xếp trước mặt mà anh không đụng tới. Dáng ngồi khép kín ấy nói nhiều hơn mọi con chữ: đây không phải nỗi buồn lớn, mà là trạng thái cạn pin cảm xúc, khi mọi thứ đều xám và nhạt. Số 4 là khoảng dừng, nên trong bộ Cốc nó diễn tả một lúc cần đứng yên để nhìn lại. Ở chiều xuôi, sự thu mình có phần chính đáng, vì nó cho bạn không gian xử lý những gì đã dồn lại. Hôm nay lá bài cho phép bạn chậm lại mà không phải thấy có lỗi.",
+  "forecast": [
+   "Bạn có xu hướng thấy mọi thứ hơi xám, kể cả những việc mà tuần trước còn làm bạn vui, và điều đó không có nghĩa là bạn đã đổi tính.",
+   "Một cuộc trò chuyện xã giao, như họp nhóm, cà phê với đồng nghiệp hay bữa cơm đông người, có thể khiến bạn mệt hơn bình thường và dễ muốn rút sớm.",
+   "Cuối ngày, khoảng yên tĩnh một mình có khả năng giúp bạn nhẹ đầu hơn bất kỳ lời khuyên nào bạn nghe được trong ngày."
+  ],
+  "love": "Hôm nay bạn cần ít tiếng ồn hơn, và người đối diện dễ nhầm điều đó với sự xa cách hay giảm tình cảm. Hãy nói thẳng rằng bạn cần một buổi tối yên tĩnh, không phải một lý do để giận ai, để người kia khỏi phải đoán. Người đang tìm hiểu có thể nhắn một dòng ngắn thay vì gọi dài. Người độc thân đừng ép mình ra ngoài chỉ để cho đủ lệ, vì sự có mặt nửa vời cũng khó tạo ấn tượng tốt.",
+  "career": "Năng suất ở mức vừa phải, và đừng chấm điểm mình bằng mức của tuần trước, vì pin mỗi ngày mỗi khác. Chọn một hai việc thật sự quan trọng và làm cho xong, những việc còn lại có thể đi chậm hoặc dời sang hôm sau. Sinh viên có thể ôn bài ở chỗ yên tĩnh theo những khối ngắn, nghỉ giữa mỗi khối. Tránh nhận thêm việc chỉ vì ngại từ chối, vì hôm nay một lời đồng ý dễ thành gánh nặng cho cả tuần.",
+  "finance": "Dòng tiền không có biến động lớn, nên chẳng có gì phải căng thẳng. Điều cần để ý là xu hướng mua gì đó để lấp cảm giác trống, như đồ ăn vặt, một món đồ trực tuyến hay vài đơn giao hàng buổi tối. Thử để giỏ hàng nằm đó cho tới khi tâm trạng khá hơn, rồi xem mình còn muốn nó không. Nếu còn, đó mới là nhu cầu thật. Nếu quên mất, bạn vừa giữ được một khoản mà chẳng cần cố gắng.",
+  "insight": "Có thể bạn đang chán không phải vì cuộc sống nhạt, mà vì bạn đã gồng quá lâu và chưa cho mình nghỉ đúng nghĩa. Một người luôn phải ổn thì khi cạn năng lượng sẽ nghe cảm giác ấy như một lỗi của mình. Sự uể oải này có thể giống một lời nhắc từ cơ thể hơn là một lời phán xét về bạn. Có khả năng điều bạn thật sự thiếu là một khoảng trống mà không ai cần bạn trả lời.",
+  "memorable_message": "Điện thoại hết pin thì người ta đi sạc, chẳng ai ngồi mắng nó lười.",
+  "advice": "Cho mình một khoảng nghỉ thật sự trong ngày, không màn hình, không thông báo, ít nhất nửa tiếng, tốt nhất vào lúc bạn thấy mình bắt đầu cáu hoặc lơ mơ. Có thể là nằm duỗi chân, uống từ từ một ly nước ấm hay ngồi cạnh cửa sổ. Không cần tự hỏi mình đang nghĩ gì. Nếu cảm giác này kéo dài nhiều tuần, hãy nói với một người thân hoặc chuyên gia mà bạn tin.",
+  "keywords": [
+   "chán nản",
+   "cạn năng lượng",
+   "cần nghỉ"
+  ]
+ },
+ {
+  "card_id": "four-of-cups",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Hôm nay bạn dễ thấy mọi lựa chọn đều na ná nhau, và cái đang có chưa chắc đã kém hơn cái đang mơ.",
+  "card": {
+   "name": "Bốn Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 6,
+   "energy": 4
+  },
+  "headline": "Đôi khi cái bạn chê nhạt chỉ là cái bạn đã quen đến mức quên nếm.",
+  "card_meaning": "Bốn Cốc cho thấy một người ngồi bên ba chiếc cốc đã có sẵn, trong khi một bàn tay từ đám mây đưa ra chiếc cốc thứ tư mà anh chưa chịu nhận. Điểm thú vị là ba chiếc cốc kia không rỗng: chúng là những thứ anh đã có, nhưng nhìn mãi nên chẳng còn thấy đặc biệt. Ở chiều xuôi, lá bài nói về sự chán vì quen và cảm giác lựa chọn nào cũng na ná nhau, kèm thói kén chọn đôi khi che đi nỗi sợ chọn nhầm. Nó gợi một câu hỏi: mình đang chán thứ này, hay chỉ đang quên cách nhìn nó? Hôm nay câu hỏi ấy khá hợp để mang theo.",
+  "forecast": [
+   "Bạn có xu hướng so sánh những gì mình đang có với một phiên bản lý tưởng chưa tồn tại, nhất là khi lướt mạng xã hội thấy cuộc sống người khác trông trọn vẹn hơn.",
+   "Một người hoặc một việc quen thuộc có thể làm bạn thấy nhàm, trong khi họ không hề làm gì sai.",
+   "Một khoảnh khắc nhỏ, như ly cà phê ngon hay một câu nói tử tế, có thể đến vào quãng giữa buổi, và chỉ cần bạn chịu dừng lại để thấy."
+  ],
+  "love": "Có thể bạn đang nhìn người bên cạnh qua bộ lọc của sự quen thuộc, nên thấy họ mờ đi dù họ vẫn là người cũ ấy. Thử hỏi một câu mới mà bạn chưa từng hỏi, ví dụ điều gì làm họ bất ngờ gần đây. Người đang tìm hiểu đừng chấm điểm đối phương theo danh sách quá dài. Người độc thân dễ chê hết người này đến người khác, hãy xem mình đang tìm sự rung động hay đang tìm cái cớ để không bắt đầu.",
+  "career": "Công việc hiện tại hơi lặp lại và bạn dễ nghĩ rằng chỗ khác hay ngành khác sẽ thú vị hơn. Trước khi hành động theo cảm giác đó, thử tìm một phần việc bạn từng thích và xin làm nhiều hơn một chút. Sinh viên thấy ngành học nhạt cũng có thể đào sâu một môn mà mình thấy ít tệ nhất. Chán thường chỉ ra thứ bạn cần thêm, chưa chắc là cần đổi hết, nên hãy gọi tên nó trước khi bỏ cả bàn cờ.",
+  "finance": "Tài chính ở mức ổn định, không có gì đáng lo. Điều đáng để ý là cảm giác muốn tìm cái mới qua mua sắm: lướt ứng dụng, thấy món đồ nhìn hợp, thêm vào giỏ. Đặt giới hạn trước khi mở ứng dụng, ví dụ chỉ xem mười phút hoặc chỉ mua món đã nằm trong danh sách từ trước, sẽ đỡ tiếc hơn. Đồ mới thường vui nhất lúc mở hộp, nên hãy tự hỏi mình có đang mua cảm giác đó không.",
+  "insight": "Có thể điều bạn thiếu không phải là lựa chọn tốt hơn, mà là khả năng nhìn ra cái hay trong thứ đã nằm sẵn trong tay. Sự kén chọn đôi khi chỉ là nỗi sợ chọn nhầm đội lốt tiêu chuẩn cao, và nó khiến bạn mãi đứng ngoài mọi lựa chọn. Cái chưa có luôn được tô bằng toàn điểm mạnh, còn cái đang có thì bị soi cả khuyết điểm. Hôm nay bạn có thể thử đổi cách soi trong chỉ một tình huống.",
+  "memorable_message": "Cái cốc thứ tư luôn trông hấp dẫn hơn ba cái bạn đang ngồi cạnh, cho đến khi bạn có nó.",
+  "advice": "Viết ra ba điều bạn đang có mà một năm trước từng mong, một dòng mỗi điều, vào lúc nghỉ trưa hoặc trước khi ngủ. Đừng chọn những điều to tát, một căn phòng yên hay một người bạn hay hỏi thăm cũng được. Đọc lại ba dòng ấy một lần rồi mới quyết định bạn còn muốn gì thêm. Nếu danh sách thấy trống, đó cũng là thông tin hữu ích.",
+  "keywords": [
+   "nhàm chán",
+   "kén chọn",
+   "nhìn lại điều đang có"
+  ]
+ },
+ {
+  "card_id": "four-of-cups",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Sương đang tan: bạn có xu hướng nhìn rõ hơn và sẵn sàng nhận một lời mời mà mấy hôm trước còn lờ đi.",
+  "card": {
+   "name": "Bốn Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 7,
+   "finance": 6,
+   "energy": 7
+  },
+  "headline": "Bạn vừa ngẩng đầu lên, và thế giới vẫn còn đó để bạn chọn.",
+  "card_meaning": "Khi Bốn Cốc nằm ngược, người ngồi dưới gốc cây như vừa bỏ tay khỏi tư thế khoanh lại và ngước nhìn chiếc cốc đang được đưa tới. Nếu chiều xuôi là sự thờ ơ, thì chiều ngược là khoảnh khắc sương tan: bạn bắt đầu thấy rõ những gì mình đã lờ đi. Lá bài diễn tả sự tỉnh lại, một chút động lực quay về và sự sẵn sàng nhận một cơ hội mà trước đó còn thấy phiền. Sắc thái ở đây không phải sự bùng nổ, mà là đầu óc nhẹ đi sau một thời gian xám. Hôm nay cánh cửa này mở khá nhẹ, và bạn cần nhận ra nó.",
+  "forecast": [
+   "Bạn có xu hướng thấy hứng thú trở lại với một việc từng làm bạn nản, như bài tập dang dở hay một dự án bị đẩy xuống cuối danh sách.",
+   "Một lời mời hoặc đề nghị dễ xuất hiện đúng lúc bạn không còn thấy phiền khi nghe, có thể là từ bạn bè hoặc đồng nghiệp.",
+   "Có thể bạn chợt muốn dọn dẹp, gọi cho ai đó hoặc làm một việc mà vài ngày trước còn nặng nề, và làm xong thấy dễ hơn tưởng tượng."
+  ],
+  "love": "Bạn cởi mở hơn một chút và dễ chú ý tới những tín hiệu trước đó bạn bỏ qua, như một lời hỏi thăm đều đặn hay một người luôn thả tim bài đăng của bạn. Người độc thân có khả năng nhận ra sự quan tâm của ai đó đã có từ lâu. Đang yêu thì hôm nay là lúc nói lời cảm ơn hoặc rủ đi đâu đó khác thường ngày. Chỉ cần đủ nhẹ, đừng biến nó thành một cuộc nói chuyện nghiêm trọng.",
+  "career": "Động lực quay lại theo kiểu từ từ, đủ để bạn mở lại một việc bị bỏ dở hoặc trả lời một email nằm im mấy hôm. Một cơ hội học hoặc hợp tác có thể thu hút bạn hơn mức bạn tự dự đoán, nhất là khi đến từ người bạn tin. Sinh viên có thể thấy dễ vào việc hơn với phần bài tập mình né lâu nay. Cứ nhận một việc nhỏ trước, đừng đợi đủ hứng cho cả dự án.",
+  "finance": "Mức độ ổn định khá tốt và đầu óc đã đủ sáng để nhìn vào con số mà không thấy ngán. Tâm trạng khá hơn nên bạn dễ có hứng sắp xếp lại các khoản chi, xem lại một kế hoạch tiết kiệm đã để quên. Một việc nhỏ trong khoảng nửa tiếng là đủ, như phân loại chi tiêu của tuần qua. Đừng để cảm hứng kéo bạn vào những cam kết lớn, vì mục tiêu hôm nay chỉ là lấy lại nhịp.",
+  "insight": "Có thể bạn không thay đổi nhiều, chỉ là lớp sương mệt mỏi đã mỏng đi và bạn nhìn lại được những thứ vốn dĩ vẫn ở đó. Cảm giác muốn làm gì đó trở lại là dấu hiệu bạn đã nghỉ đủ, dù khi còn ở trong sương bạn ngờ rằng nó sẽ không đến. Điều đáng quý là bạn không cần phải ép nó. Nó tự đến khi cơ thể và đầu óc tìm lại được sự cân bằng.",
+  "memorable_message": "Cơ hội hiếm khi gõ cửa hai lần, nhưng một lần bạn chịu mở cửa là đủ.",
+  "advice": "Tận dụng lúc đang có đà này để nhận lời một việc bạn từng chần chừ, trong khả năng của mình, tốt nhất là xử lý trước giữa trưa khi đầu óc còn tươi. Trả lời ngay bằng một câu đồng ý rõ ràng và hẹn thời điểm cụ thể. Đừng nhận quá nhiều chỉ vì đang hào hứng, một việc làm cho tử tế vẫn tốt hơn ba việc ôm vào rồi bỏ lửng.",
+  "keywords": [
+   "tỉnh thức",
+   "đón nhận cơ hội",
+   "khơi lại động lực"
+  ]
+ },
+ {
+  "card_id": "four-of-cups",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Hôm nay thoát khỏi vòng lặp bằng những việc nhỏ cụ thể, chứ không cần một cú lột xác lớn.",
+  "card": {
+   "name": "Bốn Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 6,
+   "career": 7,
+   "finance": 6,
+   "energy": 7
+  },
+  "headline": "Thoát khỏi trì trệ thường bắt đầu từ việc đứng dậy, không phải từ việc nghĩ thông.",
+  "card_meaning": "Ở chiều ngược, Bốn Cốc có thể được đọc như cảnh người ngồi dưới tán cây cuối cùng cũng chống tay đứng dậy, bỏ lại ba chiếc cốc để đi tìm thứ khác. Điểm mấu chốt của chiều này là chuyển động: năng lượng bị mắc kẹt bắt đầu thông, không phải nhờ một ý tưởng lớn mà nhờ những cử động rất nhỏ. Lá bài hợp với người từng ngồi lì trong vòng lặp suy nghĩ rồi bỗng muốn làm gì đó bằng tay chân. Sự trì trệ ít khi tan bằng cách nghĩ thêm, mà thường tan khi ta bắt đầu một việc nhỏ. Hôm nay cơ thể bạn có thể sẵn sàng đi trước cái đầu.",
+  "forecast": [
+   "Bạn có xu hướng muốn cử động: đi bộ vài vòng, dọn góc bàn hoặc sắp lại danh sách việc cần làm, nhất là vào buổi sáng.",
+   "Một thói quen bị bỏ quên có thể quay lại, kiểu tập nhẹ, nấu một bữa ra hồn hoặc đọc vài trang sách.",
+   "Năng lượng nghiêng về thực hành hơn suy nghĩ, nên bạn dễ thấy khá hơn sau khi bắt tay làm, thay vì sau khi ngồi tìm hiểu cho thông."
+  ],
+  "love": "Sự ấm áp quay lại qua những hành động nhỏ như rủ đi ăn, gửi một tấm ảnh hợp với người kia hoặc nấu giúp một bữa. Người đang tìm hiểu có thể tiến một bước nhẹ, như hỏi cuối tuần người kia định đi đâu, không cần tuyên bố gì lớn. Người độc thân nên ra khỏi nhà một chút, ghé quán quen hoặc nhóm sở thích, vì tâm trạng đang có đà. Người đang yêu hãy làm gì đó cùng nhau thay vì chỉ bàn chuyện.",
+  "career": "Năng lượng đủ để bạn xử lý khoản việc tồn đọng lâu nay, nhất là những việc nhàm mà ai cũng né, như dọn thư mục, trả lời email cũ hay nhập số liệu. Làm theo từng khối ngắn khoảng ba mươi phút sẽ hiệu quả hơn cố ngồi một mạch. Sinh viên hãy bắt đầu bằng phần dễ nhất của bài để lấy đà. Cuối ngày, nhìn danh sách rút ngắn lại sẽ là phần thưởng thật.",
+  "finance": "Bạn dễ có động lực xem lại bảng chi tiêu, hủy một khoản không dùng hoặc gom hóa đơn về một chỗ. Việc này không thú vị, nhưng sau khi làm xong thường nhẹ người hơn bạn tưởng. Chỉ cần một buổi ngắn, khoảng nửa tiếng, là đủ để thấy tiền đang chảy đi đâu. Không cần kế hoạch lớn, vì hôm nay hợp để dọn dẹp hơn là để đặt mục tiêu dài hạn.",
+  "insight": "Có thể trước giờ bạn vẫn chờ có động lực rồi mới làm, trong khi nó thường đến theo chiều ngược lại. Phần lớn sự trì trệ không cần một lý do to, chỉ cần một cú chạm đầu tiên đủ nhỏ để đầu óc không kịp phản đối. Khi bạn đã đứng dậy, những điều trước đó nặng nề thường chỉ còn là một bước chân. Hôm nay có thể là một ví dụ nhỏ cho điều đó.",
+  "memorable_message": "Động lực không phải chiếc taxi bạn ngồi chờ, nó là con đường mà bạn đi được vài bước mới thấy.",
+  "advice": "Chọn một việc chỉ mất mười phút và làm ngay, trước khi kịp tìm lý do để lùi, ví dụ giặt đồ, dọn bàn hoặc gửi một email còn treo. Đặt đồng hồ, làm hết mười phút rồi dừng nếu muốn. Xong thì tự thưởng một thứ nhỏ như ly nước ngon hay vài phút nằm nghỉ, đừng bỏ qua phần này vì nó giúp não nhớ rằng bắt đầu cũng dễ chịu.",
+  "keywords": [
+   "thoát trì trệ",
+   "hành động nhỏ",
+   "lấy lại nhịp"
+  ]
+ },
+ {
+  "card_id": "four-of-cups",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Bạn bắt đầu nhận ra điều mình từng bỏ lỡ, và hôm nay có khả năng quay lại với một cánh cửa còn hé.",
+  "card": {
+   "name": "Bốn Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 6,
+   "finance": 6,
+   "energy": 6
+  },
+  "headline": "Nhận ra mình đã lơ một điều tốt không phải là muộn, mà là đúng lúc.",
+  "card_meaning": "Chiều ngược của Bốn Cốc thường gợi hình ảnh người ngồi dưới cây chợt quay đầu, nhận ra chiếc cốc từ bàn tay trên mây vẫn còn đó. Điểm riêng của chiều này là sự nhìn lại: nhận ra mình đã lơ một điều tốt, một lời mời hay một con người vì lúc ấy quá mệt hoặc quá chìm vào mình. Nó mang chút hối tiếc nhẹ, nhưng là loại hối tiếc có ích, vì đi kèm cảm giác còn kịp. Lá bài gợi một câu hỏi: cánh cửa nào còn hé, và bạn có muốn gõ lại không? Hôm nay đáng chú ý vì thời điểm quay lại có thể chưa muộn.",
+  "forecast": [
+   "Một người hoặc một cơ hội mà bạn từng phớt lờ có thể xuất hiện lại trong tâm trí hoặc ngoài đời, có thể qua một tin nhắn, một cái tên hay một tấm ảnh cũ.",
+   "Bạn có xu hướng thấy hối nhẹ, nhưng cảm giác ấy dễ chuyển thành động lực hơn là tự trách.",
+   "Một cuộc gọi hoặc tin nhắn xin lỗi muộn có khả năng được đón nhận tốt hơn bạn nghĩ, nhất là khi nó ngắn và không viện cớ."
+  ],
+  "love": "Nếu có ai đó từng ngỏ ý mà bạn đáp hời hợt, hôm nay bạn có thể thấy mình muốn nói chuyện lại với họ. Một câu thành thật kiểu hôm trước mình hơi xa cách, xin lỗi vì đã để bạn đợi thường đủ để mở lại không khí. Người đang yêu nên để ý một lời đề nghị gần gũi, như đi dạo hay xem phim chung, mà bạn từng gạt đi vì mệt. Hãy quan sát xem người kia còn cởi mở không, rồi mới bước tiếp.",
+  "career": "Một hướng đi, dự án hay lời gợi ý cũ có thể đáng nhìn lại với đầu óc tỉnh táo hơn, như một khóa học bạn từng từ chối hoặc một lời mời hợp tác bị bỏ ngang. Hỏi lại thay vì giả vờ như chưa từng bỏ qua, vì phần lớn người ta không để bụng chuyện đó. Sinh viên có thể tìm lại một cơ hội từng lơ đi. Bạn không mất mặt khi quay đầu, chỉ mất thời gian nếu cứ giả vờ không thấy.",
+  "finance": "Có thể bạn nhớ ra một khoản ưu đãi, quyền lợi hoặc khoản hoàn lại chưa dùng đến mà trước đó bạn lơ đi, như điểm thưởng, phiếu giảm giá hay tiền hoàn từ một đơn cũ. Dành khoảng mười lăm phút rà soát hộp thư và các ứng dụng quen dùng để xem còn chỗ nào bạn bỏ sót. Đây không phải chuyện làm giàu, chỉ là nhặt lại những thứ đáng ra là của mình. Nếu có hạn dùng, hãy ghi lại hạn ngay.",
+  "insight": "Có thể bạn không lạnh nhạt, bạn chỉ đang quá mệt để nhận ra điều tốt lúc nó đến. Người kiệt sức thường bỏ lỡ mà không hề chủ ý, và sau đó lại tự trách như thể mình cố tình. Tha cho phiên bản mệt mỏi của mình trước đây là bước đầu để không lặp lại, vì sự tự trách khắt khe thường khiến ta càng ngại quay lại. Hôm nay có thể là một dịp để sửa mà không cần làm lớn chuyện.",
+  "memorable_message": "Quay lại gõ cửa một lần còn hơn đứng ngoài nghĩ mãi về cánh cửa.",
+  "advice": "Chọn một điều bạn từng bỏ qua và nhắn hoặc hỏi lại bằng một câu ngắn, tốt nhất là gửi vào buổi trưa hay chiều khi bạn thấy bình tĩnh. Ví dụ: mình xin lỗi vì lúc đó trả lời chậm, bạn còn cần mình không. Không biện hộ dài dòng, không soạn lại nhiều lần. Câu trả lời có thể là không, và bạn vẫn ổn, vì bạn đã gõ cửa đúng cách.",
+  "keywords": [
+   "nhìn lại cơ hội",
+   "tỉnh ra",
+   "cánh cửa còn hé"
+  ]
+ },
+ {
+  "card_id": "five-of-cups",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay cảm xúc dễ dồn vào điều đã mất, trong khi vẫn còn những thứ còn nguyên sau lưng bạn.",
+  "card": {
+   "name": "Năm Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 4,
+   "finance": 5,
+   "energy": 3
+  },
+  "headline": "Ba chiếc cốc đã đổ, nhưng hai chiếc vẫn đứng đó chờ bạn quay lại nhìn.",
+  "card_meaning": "Năm Cốc vẽ một người khoác áo choàng đen cúi đầu trước ba chiếc cốc đổ, chất lỏng đỏ chảy loang ra đất. Phía sau lưng, hai chiếc cốc vẫn đứng thẳng, nhưng anh chưa quay lại nhìn. Xa hơn là dòng sông và cây cầu dẫn tới một ngôi nhà. Lá bài nói về mất mát, tiếc nuối và nỗi thất vọng, đồng thời nhắc rằng sự chú ý của ta thường dồn vào chỗ đau. Ở chiều xuôi, năng lượng này còn ở giai đoạn thấm cảm xúc, chưa phải giai đoạn giải quyết. Hôm nay nó đáng chú ý vì nó mời bạn nhìn cả phần đã đổ lẫn phần còn nguyên.",
+  "forecast": [
+   "Bạn có xu hướng để ý điều thiếu, điều hỏng, điều lẽ ra đã khác nhiều hơn điều đang ổn, nhất là lúc rảnh đầu óc.",
+   "Một lời nhận xét nhỏ có thể làm bạn chùng xuống lâu hơn mức nó đáng, và bạn dễ nghĩ về nó cả buổi.",
+   "Cuối ngày dễ xuất hiện một khoảnh khắc nhẹ, như tin nhắn của người thân hay bữa ăn ngon, nhắc bạn rằng mình chưa mất hết."
+  ],
+  "love": "Bạn dễ nhìn người bên cạnh qua lăng kính của điều chưa trọn vẹn giữa hai người, như lời hứa chưa làm hay cuộc cãi vã chưa nguôi. Hãy nói cảm giác của mình thay vì để nó thành những câu trách khéo, ví dụ mình hơi buồn vì chuyện hôm trước. Người đang tìm hiểu nên tránh đánh giá cả mối quan hệ qua một lần chưa như ý. Người độc thân có thể nhớ lại một mối tình cũ và cần thời gian, không cần vội gạt đi.",
+  "career": "Một việc không đạt như mong đợi, như bài nộp bị góp ý nhiều hay đề xuất không được chọn, có thể chiếm hết tâm trí và làm bạn quên rằng những phần khác vẫn ổn. Liệt kê ba điều đã làm được và một điều còn cứu được sẽ giúp nhìn rõ hơn. Sinh viên dễ vì một điểm số mà đánh giá thấp cả học kỳ. Tránh quyết định lớn như đổi việc hay bỏ môn khi tâm trạng đang thấp.",
+  "finance": "Có thể bạn tiếc một khoản đã chi hoặc một cơ hội đã trôi qua, kiểu nếu hôm đó mình không mua thứ ấy thì giờ đã có thêm một khoản. Nhìn lại để rút kinh nghiệm thì tốt, còn dằn vặt thì không đổi được số dư. Hãy chuyển cảm giác tiếc ấy thành một dòng ghi chú ngắn về điều mình sẽ làm khác lần sau. Sau đó nhìn lại phần tiền đang còn, vì nó thật hơn cái đã mất.",
+  "insight": "Có thể bạn không quá bi quan, bạn chỉ đang nhìn vào chỗ đau vì nó phát ra tiếng lớn nhất. Điều còn nguyên nhỏ tiếng hơn, nhưng không vì thế mà ít giá trị. Khi lòng đang nặng, sự chú ý tự động hẹp lại như ống nhòm, và những gì nằm ngoài khung đó biến mất khỏi tầm nhìn. Quay đầu lại không có nghĩa là phủ nhận mất mát, chỉ là để nó không chiếm cả bức tranh.",
+  "memorable_message": "Nước đổ thì nhớ, nhưng đừng quên đếm xem mình còn mấy cốc đầy.",
+  "advice": "Cho nỗi buồn một khoảng thời gian cụ thể trong ngày, chẳng hạn mười lăm phút vào buổi tối, và trong lúc đó cứ để nó được hiện ra: viết ra, nghe nhạc hoặc ngồi yên. Hết giờ, chuyển sang một việc thực tế như rửa bát hay soạn đồ cho ngày mai. Nếu thấy mình chìm lâu hơn một vài ngày, hãy tìm một người để kể.",
+  "keywords": [
+   "tiếc nuối",
+   "mất mát",
+   "còn lại điều quý"
+  ]
+ },
+ {
+  "card_id": "five-of-cups",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Một quyết định cũ có thể quay lại trong đầu bạn hôm nay, và nó dễ khiến bạn lặp đi lặp lại câu giá như.",
+  "card": {
+   "name": "Năm Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Câu giá như là chiếc cốc rỗng nhất mà bạn hay ôm lâu nhất.",
+  "card_meaning": "Trong Năm Cốc, người mặc áo choàng đen đứng nhìn xuống những chiếc cốc đã đổ, và dáng cúi đầu của anh gợi một thứ rất quen thuộc: câu giá như. Số 5 trong Tarot gắn với xáo trộn và những cú vấp, và trong bộ Cốc, nó thành nỗi tiếc cho điều đã xảy ra mà không thể chỉnh lại. Chất lỏng đã chảy đi rồi, nhưng người trong tranh vẫn chăm chú nhìn mãi vào chỗ ướt. Ở chiều xuôi, lá bài nói về việc ta hay phát lại một quyết định cũ trong đầu để tìm phiên bản tốt hơn. Hôm nay nó giúp phân biệt rút kinh nghiệm với tự giày vò.",
+  "forecast": [
+   "Bạn có xu hướng phát lại trong đầu một cuộc nói chuyện cũ và sửa lời thoại cho đúng hơn, thường là lúc đi đường hoặc trước khi ngủ.",
+   "Một thông tin về người khác, kiểu họ đã tiến xa hoặc đã đổi khác, có thể làm bạn chạnh lòng một lúc.",
+   "Có khả năng bạn thấy nhẹ đi đáng kể khi chuyện ấy được nói ra thành lời với một người đáng tin."
+  ],
+  "love": "Ký ức về người cũ hoặc một dịp lỡ làng dễ xuất hiện, kèm cảm giác lẽ ra mình nên nói hoặc làm khác. Hãy đừng nhắn lại cho ai chỉ vì buồn, vì lời nhắn lúc này thường mang nhiều cảm xúc hơn ý định. Người đang yêu thì tránh mang bóng của chuyện cũ ra so với người hiện tại, họ không có lỗi trong đoạn ấy. Người độc thân có thể viết ra điều mình tiếc thay vì nhắn đi, rồi đọc lại sau vài tiếng.",
+  "career": "Bạn dễ nghĩ nếu hôm đó chọn khác, như nhận lời công việc kia hay chọn ngành khác, thì giờ đã khác. Dùng câu hỏi đó để rút ra một điều cho lần sau, rồi đóng lại. Tập trung vào phần việc ngay trước mặt, chia thành các bước ngắn, sẽ giúp đầu óc ít xoay vòng hơn. Sinh viên có thể thấy tiếc một môn đã chọn hoặc một kỳ thi đã qua, nhưng điểm của hôm nay vẫn còn chỗ để cải thiện.",
+  "finance": "Tài chính không có biến động lớn. Bạn dễ nhớ một khoản bỏ lỡ hoặc đã chi không đúng, rồi tự hỏi sao lúc đó mình không nghĩ kỹ hơn. Thay vì tự trách, hãy ghi một quy tắc nhỏ cho lần sau, ví dụ chờ một đêm trước khi mua món vượt một mức nhất định. Quy tắc cụ thể cho bạn một lối đi, còn tự trách chỉ làm bạn mệt mà không thay đổi được gì.",
+  "insight": "Có thể điều làm bạn đau không phải là sự việc, mà là hình dung về phiên bản cuộc đời nếu mọi thứ khác đi. Phiên bản đó luôn đẹp hơn thực tế, vì nó chưa từng phải qua những ngày tệ. Bạn đang so sánh một cuộc đời có thật, đầy bụi bặm, với một bản nháp hoàn hảo chưa ai sống thử. Nhận ra khoảng cách đó có thể giúp bạn nhẹ tay hơn với chính mình.",
+  "memorable_message": "Quá khứ không đổi vì bạn thuộc lòng nó, nhưng buổi chiều hôm nay thì có thể.",
+  "advice": "Viết câu giá như ấy ra giấy, vào lúc nó bắt đầu xoay trong đầu, rồi viết ngay bên dưới một việc nhỏ bạn có thể làm hôm nay để lần sau khác đi. Chỉ cần hai dòng. Sau đó đóng cuốn sổ lại, và đứng dậy làm một việc khác như rửa mặt hoặc đi bộ vài phút. Việc đóng sổ cũng quan trọng như việc viết.",
+  "keywords": [
+   "tiếc nuối",
+   "giá như",
+   "nhìn lại quyết định"
+  ]
+ },
+ {
+  "card_id": "five-of-cups",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Nỗi buồn hôm nay có lý do của nó, và bạn không cần vội tỏ ra ổn chỉ để làm người khác yên tâm.",
+  "card": {
+   "name": "Năm Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 4,
+   "finance": 5,
+   "energy": 3
+  },
+  "headline": "Buồn cho đủ cũng là một cách tôn trọng điều mình từng trân trọng.",
+  "card_meaning": "Hình ảnh trung tâm của Năm Cốc là một dáng người phủ kín áo choàng đen, cúi đầu, quay lưng lại với cảnh vật. Chiếc áo ấy giống như tang phục, cho thấy lá bài nói nhiều về nỗi buồn có lý do, không phải một cơn buồn vô cớ. Trong Tarot, mất mát được vẽ ra khá thẳng thắn: không cố làm đẹp, chỉ cho thấy rằng có những lúc người ta cần ở yên cùng nỗi đau. Ở chiều xuôi, lá bài tôn trọng khoảng thời gian ấy thay vì thúc giục bạn vui lên. Hôm nay nó đáng chú ý vì cảm xúc nặng có thể đến mà bạn không cần phải biện hộ cho nó.",
+  "forecast": [
+   "Bạn có xu hướng nhạy cảm hơn thường lệ với giọng điệu, ánh mắt hay một bài hát bất chợt vang lên trong quán hoặc trên đường về.",
+   "Một khoảnh khắc nghẹn lại có thể đến mà không có lý do rõ ràng, nhất là lúc ở một mình.",
+   "Có khả năng ai đó nhận ra bạn không ổn và hỏi một câu chân thành, và bạn nên cho phép mình trả lời thật."
+  ],
+  "love": "Bạn cần được ở cạnh ai đó mà không phải giải thích quá nhiều. Người yêu hoặc bạn thân chỉ cần ngồi cạnh, đưa cho bạn ly nước, đã đủ làm nhẹ lòng. Nếu đang tìm hiểu, bạn có thể nói thật rằng hôm nay mình hơi trầm và thích những cuộc trò chuyện đơn giản. Người độc thân không cần bắt đầu điều gì mới khi tim còn đang xếp lại đồ cũ, vì nhịp của mình cũng cần được tôn trọng.",
+  "career": "Sức tập trung có thể bị xé nhỏ bởi những suy nghĩ lạc đề, nên đừng đòi hỏi mình làm việc sáng tạo hay ra những quyết định lớn. Hôm nay hợp để làm việc có quy trình rõ ràng và ít đòi hỏi cảm xúc, như nhập liệu, sắp xếp tài liệu hay ôn lại bài cũ. Nếu cần xin thêm thời gian cho một việc, hãy hỏi sớm và nói gọn, người ta thường thông cảm hơn bạn nghĩ. Đồng nghiệp tế nhị sẽ không hỏi lý do.",
+  "finance": "Tránh chi tiêu để dỗ mình, kiểu đặt đồ ăn thật nhiều, mua hàng vì buồn hoặc ghé quán tới khuya. Những thứ đó vui trong phút chốc nhưng để lại hóa đơn cho ngày mai. Nếu muốn tự thưởng, hãy chọn một món nhỏ đã biết giá rõ ràng và đặt giới hạn trước. Như vậy bạn vẫn có chút an ủi mà không bị cảm giác tiếc nuối về tiền cộng thêm vào nỗi buồn sẵn có.",
+  "insight": "Có thể bạn đang ép bản thân tích cực nhanh hơn tốc độ trái tim đi được. Cảm xúc không giải quyết xong khi bị gạt đi, nó chỉ chờ ở chỗ khác rồi quay lại vào lúc bạn mệt nhất. Việc cho phép mình buồn, trong một khoảng hợp lý, thường là cách nhanh nhất để đi qua chứ không phải cách để mắc kẹt. Hôm nay có thể bạn cần một lời cho phép hơn là một lời khuyên.",
+  "memorable_message": "Người biết buồn đúng cách thường đứng dậy nhẹ hơn người cố cười suốt.",
+  "advice": "Cho mình một việc dịu dàng vào cuối ngày, như tắm nước ấm, nghe một bản nhạc quen hoặc nhắn cho người hiểu bạn. Chọn thứ ít đòi hỏi nhất và làm trong khoảng nửa tiếng, tắt thông báo. Nếu có người hỏi thăm, bạn có thể nói đơn giản hôm nay mình hơi trầm. Nếu nỗi buồn kéo dài và nặng dần, hãy tìm người để nói chuyện cùng, một người thật chứ không chỉ màn hình.",
+  "keywords": [
+   "đau buồn",
+   "cho phép mình buồn",
+   "cần được thấu hiểu"
+  ]
+ },
+ {
+  "card_id": "five-of-cups",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Bạn đang quay lại nhìn hai chiếc cốc còn đứng và hôm nay hy vọng có xu hướng trở lại, dù còn nhẹ.",
+  "card": {
+   "name": "Năm Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 6,
+   "finance": 6,
+   "energy": 6
+  },
+  "headline": "Bạn đã khóc đủ lâu để thấy rằng vẫn còn thứ để giữ.",
+  "card_meaning": "Khi Năm Cốc đảo chiều, người mặc áo choàng bắt đầu quay đầu lại và thấy hai chiếc cốc vẫn đứng thẳng sau lưng. Đó là khoảnh khắc nhỏ nhưng quan trọng nhất của lá bài: sự chú ý chuyển từ cái mất sang cái còn. Chiều ngược của lá này thường nói về sự chấp nhận, hy vọng quay lại và việc bớt chìm trong nỗi buồn. Nó không có nghĩa nỗi đau biến mất, mà là bạn bắt đầu có chỗ để đặt nó xuống. Hôm nay lá bài đáng chú ý vì sự chuyển biến này thường rất nhẹ, như một góc nhìn khác đi, chứ không ồn ào như một cuộc đổi đời.",
+  "forecast": [
+   "Bạn có xu hướng thấy lòng nhẹ hơn khi nghĩ về điều từng khiến bạn nặng nề, như thể có thêm chỗ để thở.",
+   "Một người, một lời hỏi han hoặc một chuyện nhỏ có thể nhắc bạn rằng mình không đứng một mình.",
+   "Có khả năng bạn bắt đầu nói về chuyện cũ bằng giọng bình thản hơn, và chính bạn cũng ngạc nhiên."
+  ],
+  "love": "Tình cảm có khả năng ấm lên khi bạn bớt nhìn vào điều đã hỏng và để ý điều còn tốt, như một thói quen nhỏ người kia vẫn giữ vì bạn. Người đang yêu nên nói một câu biết ơn cụ thể, kiểu cảm ơn vì hôm trước đã ở cạnh lúc em im lặng. Người độc thân dễ cởi mở hơn với một cuộc gặp nhẹ nhàng, không kỳ vọng nhiều. Người mới cũng không cần phải mang theo bản đồ vết thương của bạn.",
+  "career": "Sự thất vọng về một việc không thành bắt đầu đổi thành bài học dùng được, như điều cần chuẩn bị kỹ hơn hay người nên hỏi sớm. Đây là lúc nhìn lại nhanh, ghi lại điều rút ra trong vài dòng và đi tiếp. Đồng nghiệp hoặc bạn học có thể hỗ trợ nhiều hơn bạn tưởng nếu bạn mở lời. Sinh viên có thể xin nhận xét từ giảng viên về bài chưa tốt, vì lúc này tâm trạng đủ vững để nghe.",
+  "finance": "Bạn dễ nhìn tình hình tiền bạc một cách bình tĩnh hơn sau một giai đoạn lo lắng hoặc tiếc nuối. Hôm nay hợp để sắp xếp lại phần còn có thể kiểm soát, như liệt kê khoản cố định, khoản linh hoạt và số dư còn lại. Chỉ cần nhìn thật rõ bức tranh hiện tại, không cần phán xét điều đã qua. Có một con số thật trước mắt thường làm bạn bớt sợ hơn là cứ đoán trong đầu.",
+  "insight": "Có thể bạn không quên được, bạn chỉ đang dần học cách sống chung với việc nó đã xảy ra. Hy vọng đôi khi không đến như một tia sáng lớn, mà như việc bạn chợt muốn mở cửa sổ hoặc nấu một bữa tử tế. Những dấu hiệu nhỏ ấy dễ bị bỏ qua vì ta cứ chờ một khoảnh khắc đủ trọng đại. Nếu để ý, có thể bạn đã đi qua nửa đường.",
+  "memorable_message": "Vết thương đang khép thường báo tin bằng một buổi sáng bạn thấy đói bụng.",
+  "advice": "Chọn một điều còn lại, dù nhỏ, và chăm sóc nó hôm nay: một mối quan hệ, một thói quen, một kế hoạch. Ví dụ gọi điện hỏi thăm một người đã ở cạnh bạn lúc khó, hoặc tưới cây vào buổi sáng. Làm bằng sự chú ý thật sự trong mười lăm phút, không cần kết quả. Cứ để hy vọng đến với tốc độ của nó.",
+  "keywords": [
+   "hy vọng trở lại",
+   "chữa lành",
+   "còn lại điều quý"
+  ]
+ },
+ {
+  "card_id": "five-of-cups",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Hôm nay có khả năng bạn mềm lòng với một chuyện cũ, với ai đó hoặc chính mình, mà không cần phải quên.",
+  "card": {
+   "name": "Năm Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 6,
+   "finance": 6,
+   "energy": 6
+  },
+  "headline": "Tha thứ không phải gật đầu cho chuyện đã qua, mà là đặt bớt gánh xuống.",
+  "card_meaning": "Ở chiều ngược, Năm Cốc nói về việc đặt gánh xuống bằng cách nhìn thẳng vào chuyện đã xảy ra. Những chiếc cốc đổ vẫn còn đó, nhưng người trong tranh không còn cúi gằm, anh đứng thẳng hơn và bắt đầu nghĩ tới dòng sông phía xa. Lá bài thường liên quan đến tha thứ, với người khác hoặc với chính mình, và sự chấp nhận rằng có những điều không thể sửa. Tha thứ ở đây là thôi tiếp tục trả giá cho nó mỗi ngày, chứ không có nghĩa là nói điều đó ổn. Hôm nay đáng chú ý vì lá bài gợi một sự mềm đi, có thể với một người, có thể với chính bạn.",
+  "forecast": [
+   "Bạn có xu hướng nghĩ lại về một người từng làm bạn tổn thương với ít giận dữ hơn trước.",
+   "Một lời xin lỗi, hoặc ý muốn nói lời xin lỗi, có khả năng xuất hiện trong ngày, có thể từ bạn hoặc từ phía người kia.",
+   "Bạn dễ nhận ra mình đã trách bản thân khắt khe hơn mức mình trách bất kỳ ai khác."
+  ],
+  "love": "Có thể xuất hiện cơ hội làm lành, hoặc ít nhất nói chuyện bình tĩnh về điều từng làm hai người xa nhau, kiểu một cuộc gọi ngắn hay một buổi cà phê. Tha thứ không đồng nghĩa với quay lại, bạn vẫn giữ quyền đặt ranh giới của mình. Người đang yêu có thể nhắc lại một cuộc cãi vã cũ bằng giọng nhẹ hơn, và nhờ đó hai người hiểu nhau hơn. Người độc thân nên thử bớt mang chuyện cũ vào người mới.",
+  "career": "Một mâu thuẫn hoặc thất bại trong công việc có thể bớt nặng nề khi bạn nhìn thấy phần của mình mà không tự đổ hết lên mình. Hôm nay thích hợp để hàn gắn một mối quan hệ làm việc, như nhắn cảm ơn đồng nghiệp từng góp ý gắt hay nói chuyện với bạn cùng nhóm sau một lần bất đồng. Lời nói ngắn gọn, thẳng và không đòi hơn thua sẽ hiệu quả hơn một lời giải thích dài.",
+  "finance": "Có thể bạn tự trách vì một quyết định tiền bạc cũ, như khoản cho mượn không được trả hay một món mua vội. Biến nó thành một quy tắc cụ thể cho lần sau, chẳng hạn chỉ cho mượn số tiền mình chấp nhận không lấy lại, sẽ có ích hơn chuyện cứ nghĩ lại. Nếu liên quan tới người quen, hãy tách chuyện tình cảm khỏi chuyện tiền để không phải vừa mất tiền vừa mất người. Đây là việc nhỏ nhưng nhẹ cho đầu óc.",
+  "insight": "Có thể điều khó tha nhất không phải là người khác, mà là phiên bản trước đây của bạn đã không biết điều bạn biết bây giờ. Người ở thời điểm đó đã làm tốt nhất trong hiểu biết có được. Khi nhìn lại bằng mắt của hôm nay, mọi dấu hiệu đều có vẻ quá rõ, nhưng lúc ấy chúng chưa rõ như vậy. Hiểu điều này không xóa điều đã xảy ra, nhưng có thể làm sự khắt khe dịu đi.",
+  "memorable_message": "Buông một nỗi giận không làm bạn thua, nó chỉ làm tay bạn rảnh để cầm thứ khác.",
+  "advice": "Viết một lá thư không gửi cho người ấy, hoặc cho chính mình, nói hết điều chưa nói, vào buổi tối khi mọi việc đã xong. Viết không chỉnh sửa, khoảng mười lăm phút. Sau đó gấp lại, đừng đọc ngay. Chỉ sau khi ngủ một đêm, bạn mới quyết định có cần nói thật hay không, và nói điều gì. Quyền quyết định vẫn là của bạn.",
+  "keywords": [
+   "tha thứ",
+   "chấp nhận",
+   "đặt gánh xuống"
+  ]
+ },
+ {
+  "card_id": "five-of-cups",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Bạn có xu hướng sẵn sàng bước qua cây cầu sau lưng, rời chỗ những chiếc cốc đổ mà không ngoái lại quá nhiều.",
+  "card": {
+   "name": "Năm Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 7,
+   "finance": 6,
+   "energy": 7
+  },
+  "headline": "Bạn không cần dọn sạch đống đổ vỡ mới được phép đi tiếp.",
+  "card_meaning": "Phía xa sau người mặc áo choàng trong Năm Cốc có một cây cầu bắc qua dòng sông và một ngôi nhà nhỏ, thứ mà ở chiều xuôi anh chưa nhìn tới. Khi lá bài đảo chiều, cây cầu ấy dần thành nhân vật chính: năng lượng chuyển từ nhìn lại sang bước tiếp. Ý nghĩa cốt lõi của chiều này là sự phục hồi thực tế, khi bạn thấy mình có chỗ cho việc mới mà không phải dọn sạch mọi đổ vỡ. Nó bảo rằng mang theo bài học nhẹ hơn mang theo cả đống đổ. Hôm nay năng lượng này nghiêng về hành động nhỏ hơn là phân tích thêm.",
+  "forecast": [
+   "Bạn có xu hướng muốn bắt tay vào một việc mới thay vì ngồi phân tích việc cũ thêm lần nữa.",
+   "Một đề nghị hoặc ý tưởng mới có thể đến đúng lúc bạn bắt đầu thấy mình có chỗ cho nó.",
+   "Có khả năng bạn bỏ một đồ vật, một cuộc trò chuyện hay một thói quen gắn với chuyện buồn cũ, và thấy nhẹ ra."
+  ],
+  "love": "Bạn bắt đầu thấy mình có chỗ cho điều mới, dù chưa chắc đã muốn gọi tên nó. Người độc thân dễ thoải mái hơn khi trò chuyện với người lạ, ở quán cà phê, lớp học hoặc nhóm bạn của bạn. Người đang tìm hiểu có thể thử một hoạt động chưa từng làm cùng nhau. Người đang yêu có thể cùng làm một việc chưa từng làm, như nấu món mới hay đi đường lạ, để viết thêm trang mới thay vì lặp lại trang cũ.",
+  "career": "Đây là nhịp tốt để chuyển sang giai đoạn tiếp theo của một dự án hoặc học một kỹ năng mới sau một lần không như ý. Bạn nhìn thất bại cũ như dữ liệu, không còn như bản án, nên dễ hỏi những câu thực tế như lần sau cần chuẩn bị gì. Sinh viên có thể bắt đầu một đề tài hoặc môn học mới với tâm thế nhẹ. Chỉ cần đừng vội đốt hết những gì đã xây, vì phần lớn công sức cũ vẫn dùng được.",
+  "finance": "Tinh thần khá hơn khiến bạn thực tế hơn với tiền bạc. Hôm nay thích hợp để lập một kế hoạch nhỏ cho những tuần tới, tập trung vào việc có thể kiểm soát, như số tiền cho ăn uống, đi lại hay một mục tiêu nhỏ bạn muốn đạt. Hãy giữ kế hoạch ở mức đơn giản vài dòng để dễ theo. Bạn không cần bù lại điều đã mất ngay, chỉ cần có một hướng đi rõ ràng cho phần phía trước.",
+  "insight": "Có thể bạn đã đi tiếp từ lâu mà chưa cho phép mình thừa nhận, vì cảm giác bỏ lại có vẻ như phản bội điều đã mất. Quay đầu nhìn một lần cuối là được, nhưng phần còn lại của cuộc đi nằm ở phía trước. Việc bước tiếp không làm giảm giá trị của điều trước đây, nó chỉ cho phép bạn giữ điều ấy ở một chỗ thích hợp hơn. Hôm nay bạn có thể thấy khoảng cách đó bớt đau hơn mình nghĩ.",
+  "memorable_message": "Bạn có thể mang theo bài học mà không phải mang theo chiếc cốc đổ.",
+  "advice": "Làm một cử chỉ nhỏ báo hiệu một chương mới, như sắp lại góc làm việc, đổi ảnh nền hoặc đặt lịch cho một điều đang mong chờ, trong khoảng nửa tiếng đầu giờ chiều. Chọn thứ bạn hoàn tất được ngay hôm nay, không phải dự án lớn. Mọi quyết định lớn vẫn nên đi theo nhịp của bạn, không cần vội. Cử chỉ nhỏ cũng đủ để cơ thể hiểu rằng đã đến lúc đi tiếp.",
+  "keywords": [
+   "bước tiếp",
+   "buông bỏ",
+   "chương mới"
+  ]
+ },
+ {
+  "card_id": "six-of-cups",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay một ký ức ấm hoặc một mùi vị, một bài hát quen có thể làm lòng bạn mềm lại và dễ chịu hơn.",
+  "card": {
+   "name": "Sáu Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 8,
+   "career": 6,
+   "finance": 6,
+   "energy": 6
+  },
+  "headline": "Có những ký ức đáng để ghé thăm, miễn là bạn nhớ đường về.",
+  "card_meaning": "Sáu Cốc vẽ một khu vườn nhỏ trong ánh nắng, nơi một đứa trẻ lớn hơn đưa cho đứa trẻ bé hơn chiếc cốc cắm đầy hoa. Các chiếc cốc trong tranh đều chứa hoa chứ không phải nước, như biểu tượng của những điều đẹp đẽ được trao đi không cần đổi chác. Lá bài nói về hoài niệm, ký ức tuổi thơ và sự ấm áp của những gì quen thuộc. Ở chiều xuôi, ký ức đóng vai nguồn ấm nhẹ chứ không phải cái neo giữ bạn lại. Hôm nay lá bài đáng chú ý vì một mùi hương, một âm thanh hay một món ăn có thể đưa bạn về một thời yên bình.",
+  "forecast": [
+   "Bạn có xu hướng bắt gặp một thứ nhỏ, kiểu bài hát, hình ảnh hay món ăn, kéo bạn về một thời đã qua.",
+   "Một ý nghĩ về điều mình từng yêu thích khi còn nhỏ có thể quay lại và khiến bạn mỉm cười giữa lúc đang làm việc khác.",
+   "Có khả năng bạn muốn chia sẻ ký ức đó với một người, và họ đón nhận nồng nhiệt hơn bạn nghĩ."
+  ],
+  "love": "Những câu chuyện xưa là cầu nối tự nhiên hôm nay: kể cho người kia nghe về tuổi nhỏ của bạn, món ăn nhà hay trò chơi cũ, rồi hỏi lại chuyện của họ. Người đang yêu dễ thấy gần gũi hơn khi nhắc lại kỷ niệm chung, như lần hẹn đầu hoặc chuyến đi đầu tiên. Người độc thân có thể bất ngờ có cảm giác thân quen với ai đó mới gặp. Hãy để ý xem mình thoải mái hơn bao nhiêu khi kể chuyện cũ.",
+  "career": "Bạn làm tốt những việc mang tính chăm sóc, hướng dẫn, kể chuyện hoặc làm việc với nhóm quen thuộc. Nếu đang đứng lớp, kèm người mới hay giúp bạn học, bạn có sự kiên nhẫn tự nhiên hơn thường ngày. Một ý tưởng cũ có thể đáng được lấy ra làm lại với cách nhìn mới. Giữ sự ấm áp trong giao tiếp, nhưng đừng để nó thay cho phần việc cần xong, vì hôm nay dễ ngồi tán chuyện quá lâu.",
+  "finance": "Có thể bạn dễ chi cho những thứ gợi nhớ, như đồ lưu niệm, món quà cũ, đồ ăn tuổi thơ hay một món đồ chơi sưu tầm. Một khoản nhỏ thì vui, và đôi khi còn là cách tưởng nhớ hợp lý. Chỉ cần để ý để nó không thành thói quen lấp cảm xúc mỗi khi nhớ nhà. Đặt trước một mức chi vừa phải rồi mới đi mua, và mua xong thì tận hưởng thay vì áy náy.",
+  "insight": "Có thể ký ức ấm không phải để sống lại, mà để nhắc bạn đã từng thích điều gì khi chưa phải đóng vai ai. Nhìn lại đúng cách giúp bạn nhận ra thứ mình đang thiếu trong hiện tại, như sự tự nhiên, tiếng cười hay một nơi yên ổn. Cảm giác dễ chịu khi nhớ cũng cho thấy bạn có một kho cảm xúc tốt để quay về. Điều quan trọng là mang một phần của nó trở lại hôm nay.",
+  "memorable_message": "Ký ức ngọt nhất không phải để ở lại, mà để mang một chút vị đó về hôm nay.",
+  "advice": "Làm một điều nhỏ lấy cảm hứng từ ký ức đẹp của bạn, như nấu lại món cũ, nghe bài hát thời đi học hoặc gọi người thân, vào buổi tối khi công việc đã xong. Cho mình khoảng ba mươi phút để thật sự tận hưởng. Cứ để hoài niệm làm bạn ấm lên rồi quay lại việc hôm nay, đừng để ký ức kéo bạn ở lại quá lâu.",
+  "keywords": [
+   "hoài niệm",
+   "ký ức ấm",
+   "kết nối"
+  ]
+ },
+ {
+  "card_id": "six-of-cups",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay có khả năng xuất hiện một cuộc tái ngộ, với người cũ hoặc mối quan hệ xưa, mang cảm giác quen mà dịu.",
+  "card": {
+   "name": "Sáu Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 8,
+   "career": 6,
+   "finance": 6,
+   "energy": 6
+  },
+  "headline": "Người từng biết bạn từ trước có thể nhắc bạn nhớ mình là ai.",
+  "card_meaning": "Trong Sáu Cốc, hai đứa trẻ đứng gần nhau giữa một sân nhà nhỏ có ngôi nhà cũ và những bông hoa trong cốc. Đứa lớn đang trao một món quà cho đứa nhỏ, như truyền lại điều gì đó giữa hai người đã biết nhau từ lâu. Số 6 trong Tarot gắn với sự hài hòa và trao đổi, nên trong bộ Cốc nó nói về những mối quan hệ cũ, tái ngộ và sự thân quen. Ở chiều xuôi, lá bài gợi một mối liên hệ từ quá khứ quay lại theo cách nhẹ nhàng. Hôm nay nó nhắc rằng người quen lâu năm giữ một phần câu chuyện của bạn mà người mới chưa có.",
+  "forecast": [
+   "Bạn có xu hướng nhận được tin hoặc nhớ tới một người bạn cũ, một người thầy hay một người hàng xóm xưa.",
+   "Một cuộc trò chuyện với người quen lâu năm dễ trôi chảy hơn, như chưa từng có khoảng cách.",
+   "Có khả năng bạn thấy mình ở trong một không gian quen thuộc, như quán cũ hay con đường cũ, và nó giúp bạn bình tĩnh hơn."
+  ],
+  "love": "Một người từ quá khứ có thể quay lại trong cuộc trò chuyện, dưới dạng một lời hỏi thăm chân thành hơn là một ý định tình cảm lớn. Nếu bạn muốn liên lạc lại, hãy làm nhẹ nhàng và không đặt kỳ vọng, ví dụ chỉ hỏi dạo này bạn thế nào. Người đang yêu nên tìm cách ôn lại chỗ hai người đã bắt đầu, như quán đầu tiên hay bài hát đầu tiên. Người độc thân có thể được bạn bè cũ giới thiệu một ai đó.",
+  "career": "Mối quan hệ cũ có thể trở thành nguồn thông tin, giới thiệu hoặc hợp tác hữu ích, như một đồng nghiệp cũ, bạn cùng lớp hay người hướng dẫn thời đầu. Hôm nay thích hợp để nhắn hỏi thăm một người trong số đó. Giữ mục đích giản dị, đừng biến lời hỏi thăm thành lời nhờ vả ngay, vì người đọc cảm được ý định rất nhanh. Nếu họ hỏi lại bạn đang làm gì, hãy sẵn sàng kể ngắn gọn.",
+  "finance": "Dòng tiền tương đối bình ổn. Nếu có chuyện liên quan người quen, như cho mượn, nhờ giúp hay chia khoản chi chung, hãy nói rõ điều kiện ngay từ đầu để tình cảm không bị lẫn với tiền. Với bạn cũ, người ta thường ngại nói thẳng chuyện này, nhưng chính sự rõ ràng mới giữ được mối quan hệ lâu dài. Một dòng tin nhắn xác nhận số tiền và thời hạn là đủ.",
+  "insight": "Có thể bạn đang nhớ người ta không chỉ vì họ, mà vì phiên bản của mình khi ở bên họ, vui hơn và ít phòng thủ hơn. Gặp lại hoặc nhớ lại là cơ hội để mang một phần nhẹ nhàng ấy vào hiện tại. Người quen lâu năm đôi khi là tấm gương chân thật nhất, vì họ biết bạn trước khi bạn học cách tỏ ra điều gì đó. Có thể hôm nay bạn muốn gặp lại chính mình hơn là gặp lại họ.",
+  "memorable_message": "Người quen cũ giữ cho bạn một tấm gương mà người mới chưa kịp có.",
+  "advice": "Nhắn một tin ngắn cho một người bạn lâu rồi chưa nói chuyện, chỉ để hỏi thăm, vào buổi trưa hoặc chiều muộn khi cả hai thường rảnh. Gợi lại một kỷ niệm cụ thể thì dễ mở lời hơn, ví dụ nhớ cái quán mình hay ngồi hồi xưa. Đừng soạn quá dài, đủ chân thành là được. Nếu họ chưa trả lời ngay, cứ để đó, không cần đo lường gì cả.",
+  "keywords": [
+   "tái ngộ",
+   "người cũ",
+   "thân quen"
+  ]
+ },
+ {
+  "card_id": "six-of-cups",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Hôm nay hợp để thả lỏng và chơi, vì sự vô tư của bạn đang gợi ý điều mình thực sự thích.",
+  "card": {
+   "name": "Sáu Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 6,
+   "finance": 6,
+   "energy": 7
+  },
+  "headline": "Chơi không cần lý do, và đó thường là lúc bạn thấy mình rõ nhất.",
+  "card_meaning": "Sáu Cốc có một khung cảnh rất bình yên: những đứa trẻ chơi trong khu vườn không ai vội vã, và những chiếc cốc đầy hoa thay cho mọi thứ nặng nề của người lớn. Trong lá bài này, tuổi thơ không chỉ là ký ức mà còn là một trạng thái: sự hồn nhiên, vui vì được chơi chứ không vì có ích. Ở chiều xuôi, lá bài đề cao niềm vui đơn giản và sự tự nhiên trong cách ta là chính mình. Nó nhắc rằng đứa trẻ trong mỗi người vẫn biết điều gì khiến mình thấy sống, nếu ta chịu hỏi. Hôm nay đáng chú ý vì có thể bạn cần chơi nhiều hơn mình nghĩ.",
+  "forecast": [
+   "Bạn có xu hướng muốn làm một việc chỉ vì vui, không vì có ích hay có lợi.",
+   "Một khoảnh khắc ngớ ngẩn, trẻ con hoặc rất đời thường có thể khiến bạn bật cười thật sự, nhất là khi ở cạnh bạn bè thân.",
+   "Có khả năng bạn nhớ ra một sở thích bỏ quên và muốn thử lại, dù chỉ nửa tiếng."
+  ],
+  "love": "Sự hồn nhiên là điểm hút của bạn: một trò đùa, một trò chơi nhỏ, một kiểu rủ đi chơi không mục đích rõ ràng. Người đang yêu nên làm gì đó ngốc nghếch cùng nhau, như chơi một trò cũ hay thi xem ai nấu tệ hơn. Người đang tìm hiểu có thể gợi ý một hoạt động nhẹ nhàng thay vì bữa tối trịnh trọng. Người độc thân dễ gây thiện cảm khi không cố tỏ ra quá chỉn chu.",
+  "career": "Phần sáng tạo của bạn hoạt động tốt khi có không khí nhẹ. Hãy thử brainstorm kiểu vui, vẽ nháp, hoặc học bằng trò chơi như tự đố mình hay làm flashcard màu sắc. Một buổi họp nhóm có thể thoải mái hơn nếu có ai mở đầu bằng một câu đùa. Chỉ cần giữ lại phần việc nghiêm túc như số liệu, hạn nộp và xác nhận cuối cùng cho đến khi xong, để niềm vui không lấn sang trách nhiệm.",
+  "finance": "Bạn dễ chi cho những thứ mang lại niềm vui đơn giản, như một cuốn truyện, đồ ăn vặt tuổi thơ hay vé một trò chơi, và điều đó ổn nếu có mức trần. Đặt trước một khoản nhỏ cho vui thì vui hơn mà không áy náy, ví dụ chừng giá một bữa trưa. Hết khoản đó thì dừng, và đừng lấy tiền của mục tiêu khác để bù. Niềm vui rẻ, khi có giới hạn, thường bền hơn niềm vui đắt mà vội.",
+  "insight": "Có thể bạn đã quen dành mọi thời gian cho những việc phải làm đến mức quên điều gì khiến mình thấy sống. Niềm vui không cần được biện minh, và đôi khi chính nó chỉ ra bạn nên đi hướng nào. Khi nhìn lại những gì mình từng chơi say mê, bạn có thể thấy một mạch chung mà đến nay vẫn chưa được dùng. Có khả năng nó chỉ chờ một buổi chiều rảnh để lên tiếng.",
+  "memorable_message": "Đứa trẻ trong bạn không cần lời khuyên, nó cần một buổi chiều.",
+  "advice": "Dành hai mươi phút cho một việc bạn thích mà không phải vì mục tiêu nào, ví dụ vẽ nghệch ngoạc, chơi một trò cũ hoặc nhảy theo bài nhạc yêu thích, vào lúc cuối buổi khi việc chính đã xong. Không chụp ảnh khoe, không đánh giá mình làm tốt hay dở, chỉ chơi. Hết giờ thì dừng, và để ý xem lòng mình nhẹ đi bao nhiêu.",
+  "keywords": [
+   "ngây thơ",
+   "niềm vui đơn giản",
+   "vô tư"
+  ]
+ },
+ {
+  "card_id": "six-of-cups",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Hôm nay bạn dễ sống nhiều trong ngày xưa, trong khi việc cần làm đang ở hiện tại.",
+  "card": {
+   "name": "Sáu Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Ngày xưa đẹp một phần vì bạn chỉ còn nhớ những đoạn đẹp.",
+  "card_meaning": "Chiều ngược của Sáu Cốc giữ nguyên khu vườn và những bông hoa trong cốc, nhưng sắc thái chuyển từ ấm áp sang níu kéo. Khi hoài niệm bị đẩy quá đà, ký ức trở thành nơi ẩn náu khỏi hiện tại thay vì nguồn thương nhớ. Lá bài hay liên quan tới việc sống trong ngày xưa, nhớ những đoạn đẹp và lược bỏ đoạn khó, rồi so sánh hiện tại với phiên bản đã được gọt giũa ấy. Đây không phải lỗi, mà là một thói quen rất người, nhất là khi hiện tại đang nhiều áp lực. Hôm nay đáng chú ý vì nó nhắc bạn kiểm tra: mình đang nhớ, hay đang trốn?",
+  "forecast": [
+   "Bạn có xu hướng nói hoặc nghĩ câu ngày xưa thế này, bây giờ thế kia nhiều hơn thường lệ.",
+   "Một việc đang chờ quyết định có thể bị đẩy sang bên vì bạn thấy nhớ hơn là muốn xử lý.",
+   "Có khả năng bạn lướt lại ảnh cũ hoặc tin nhắn cũ lâu hơn dự định, rồi thấy hơi hụt."
+  ],
+  "love": "Bạn dễ so sánh người hiện tại với một khoảng thời gian đẹp đã qua, và điều đó không công bằng với ai cả. Hãy hỏi mình đang nhớ người hay nhớ cảm giác thời ấy. Người đang yêu nên tạo thêm một kỷ niệm mới, dù nhỏ như một bữa ăn ở chỗ lạ, thay vì mãi nhắc kỷ niệm cũ. Người độc thân có thể thấy ai đó mới gặp không đủ sức nặng so với ký ức, nên hãy nhìn lại thước đo của mình.",
+  "career": "Bạn dễ nhớ giai đoạn trước, đội cũ, cách làm cũ, và thấy hiện tại kém vui hơn dù chưa chắc nó tệ hơn. Chọn một điều hay của hồi đó, như sự thoải mái trong giao tiếp, và xem có thể đưa vào cách làm hôm nay không. Sinh viên có thể nhớ thời cấp ba nhẹ nhàng hơn và thấy đại học quá nặng. Đừng chống lại sự thay đổi chỉ vì nó chưa quen, vì quen cũng cần thời gian.",
+  "finance": "Có thể bạn muốn mua lại thứ gợi nhớ, hoặc giữ những khoản chi cũ vì thói quen dù hoàn cảnh đã khác, như gói thuê bao từ thời ở chỗ cũ hay thói quen ăn ngoài từ khi thu nhập còn khác. Rà lại xem khoản nào còn phù hợp với hiện tại, khoản nào chỉ còn là quán tính. Hãy dựa vào số liệu hôm nay chứ không dựa vào mức sống ngày xưa, vì cảm giác ngày xưa thường đẹp hơn con số thật.",
+  "insight": "Có thể hoài niệm không phải vấn đề, vấn đề là khi nó thành lối thoát khỏi một hiện tại đang khó. Ký ức cho bạn cảm giác an toàn vì nó đã có kết thúc, còn hôm nay thì chưa, nên cần thêm dũng khí để đối diện. Có thể phần nào đó trong bạn đang mệt vì phải sống chung với những điều còn chưa rõ ràng. Nhận ra điều đó đã là một bước để quay lại với hôm nay.",
+  "memorable_message": "Quá khứ là nơi đẹp nhất để thăm và tệ nhất để thuê nhà.",
+  "advice": "Cho hoài niệm một khung giờ rõ ràng, ví dụ mười lăm phút xem lại ảnh cũ sau bữa tối, rồi làm một việc thật của hôm nay ngay sau đó như trả lời tin nhắn hoặc rửa bát. Để ý xem mình đang tránh điều gì ở hiện tại, và ghi lại một dòng. Dòng đó có thể là việc đầu tiên cần xử lý ngày mai.",
+  "keywords": [
+   "mắc kẹt quá khứ",
+   "trốn tránh hiện tại",
+   "ký ức tô hồng"
+  ]
+ },
+ {
+  "card_id": "six-of-cups",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Bạn đang nhìn một người hoặc một thời đã qua qua lớp lọc quá đẹp, và hôm nay hợp để nhìn lại thực tế hơn.",
+  "card": {
+   "name": "Sáu Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Người cũ trong trí nhớ thường tốt hơn người cũ ngoài đời.",
+  "card_meaning": "Sáu Cốc ngược có thể đọc như bức tranh bị phủ một lớp lọc màu quá đẹp: nụ cười của hai đứa trẻ vẫn rạng rỡ, nhưng những gì không đẹp trong khu vườn đã bị cắt khỏi khung hình. Ý nghĩa cốt lõi của chiều này là lý tưởng hóa quá khứ, đặc biệt một người hay một mối quan hệ đã qua. Ký ức không nói dối, nhưng nó có thói quen chọn lọc: giữ lại cảm giác dễ chịu và quên lý do mọi thứ kết thúc. Lá bài nhắc bạn đặt ký ức cạnh sự thật. Hôm nay đáng chú ý vì có thể bạn sắp đứng trước một lựa chọn quay lại điều cũ.",
+  "forecast": [
+   "Bạn có xu hướng nhớ lại một mối quan hệ cũ và quên mất vì sao nó từng kết thúc.",
+   "Một cơ hội quay lại với điều từng có dễ xuất hiện, và nó trông dễ chịu hơn thực tế.",
+   "Có khả năng một chi tiết nhỏ, như một câu nói hay một thói quen cũ, nhắc bạn rằng mọi thứ đã khác và bạn cũng đã khác."
+  ],
+  "love": "Nếu bạn muốn nhắn lại cho người cũ, hãy hỏi mình mong gì từ cuộc trò chuyện đó trước khi gõ chữ đầu tiên. Cảm giác thân quen dễ bị nhầm với cảm giác đúng, nhất là vào một buổi tối mệt. Người đang tìm hiểu một ai đó thì tránh đem họ so với người cũ trong ký ức. Người độc thân đừng để hình mẫu trong ký ức làm người mới luôn chịu thua, vì người mới chưa có cơ hội mắc lỗi như người cũ.",
+  "career": "Bạn dễ lý tưởng hóa chỗ làm cũ hoặc cách làm cũ trong khi quên những bất tiện của nó, như giờ giấc dài, sếp khó tính hay lương thấp. Hãy viết ra cả ưu lẫn nhược trong hai cột trước khi quyết định quay lại hay bắt chước. Nếu đang cân nhắc liên lạc với công ty cũ, hãy dựa vào lý do hiện tại chứ không dựa vào nỗi nhớ. Việc nhìn thực tế giúp bạn chọn đúng hơn.",
+  "finance": "Có thể bạn muốn trở lại mức sống, thói quen chi tiêu hoặc một khoản đã từng có, như thời còn đủ thoải mái để mua mà không cần nghĩ. Hãy dựa vào số liệu hiện tại thay vì cảm giác ngày xưa. Thử viết ra thu nhập và các khoản cố định của tháng này, rồi xem phần dư ra có hợp với mức sống bạn muốn không. Nếu khoảng cách còn lớn, điều chỉnh kỳ vọng là cách nhẹ nhàng hơn so với gồng gánh.",
+  "insight": "Có thể điều bạn nhớ không phải con người hay nơi chốn, mà là cảm giác chưa phải gánh nhiều trách nhiệm. Người ta thường nhớ phiên bản nhẹ nhàng của mình hơn là phiên bản thật của ai đó. Khi ký ức được tô màu bởi nỗi nhớ, các nhân vật trong đó trở nên tốt hơn hoặc đẹp hơn thực tế. Hôm nay có thể là lúc hỏi: mình đang nhớ điều gì, và hiện tại có thể trao lại một phần của điều đó không?",
+  "memorable_message": "Ảnh cũ luôn đẹp vì người chụp không đăng những tấm mờ.",
+  "advice": "Trước khi liên lạc hay quay lại với điều cũ, viết ra ba lý do nó từng kết thúc, trên một tờ giấy hoặc ghi chú điện thoại, vào lúc bạn bình tĩnh nhất trong ngày. Đọc lại một lần. Nếu vẫn muốn, bạn đi tiếp với đôi mắt mở, và mọi lựa chọn vẫn thuộc về bạn. Nếu ba lý do làm bạn chùn lại, đó cũng là một câu trả lời.",
+  "keywords": [
+   "lý tưởng hóa quá khứ",
+   "thiếu thực tế",
+   "nhìn lại cho thật"
+  ]
+ },
+ {
+  "card_id": "six-of-cups",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Có thể một phần trong bạn vẫn đang ở tuổi cũ, chờ được lắng nghe, và hôm nay hợp để trưởng thành thêm một bước.",
+  "card": {
+   "name": "Sáu Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Lớn lên không phải là quên tuổi thơ, mà là thôi chờ tuổi thơ trả lời.",
+  "card_meaning": "Ở chiều ngược, Sáu Cốc nhìn vào bên trong những đứa trẻ trong tranh: một phần của chúng vẫn còn sống trong người lớn là bạn. Tuổi thơ chưa xử lý xong có thể vẫn định hình cách ta phản ứng, đặc biệt khi bị phê bình, bỏ rơi hay thiếu công nhận. Đây không phải bóng tối đáng sợ, mà là thông tin: những phản ứng quá mức thường mang dấu vết của một câu chuyện cũ. Chiều ngược này nghiêng về nội tâm, và mời bạn trưởng thành thêm một bước bằng cách nhận ra phản ứng cũ khi nó đến. Hôm nay bạn có thể gặp một tình huống chạm vào điều đó.",
+  "forecast": [
+   "Bạn có xu hướng phản ứng với một việc người lớn theo kiểu hồi nhỏ, như giận dỗi, né tránh hoặc im lặng.",
+   "Một tình huống gợi lại cảm giác chưa được công nhận trước đây có thể xuất hiện, ví dụ lúc nhận góp ý hay bị bỏ qua trong cuộc họp.",
+   "Có khả năng bạn thấy rõ hơn một thói quen cũ đang kéo mình lùi, nếu bạn chịu dừng lại nhìn."
+  ],
+  "love": "Những tổn thương cũ có thể nhẹ nhàng lên tiếng qua cách bạn phản ứng với người thân thiết, như dỗi vì tin nhắn trả lời chậm hay thu mình khi người kia có vẻ bận. Thử nói điều bạn cần thay vì mong họ tự đoán, ví dụ hôm nay mình cần được hỏi han. Người đang tìm hiểu nên cho người kia cơ hội hiểu mình qua lời nói. Người độc thân nên chú ý nếu mình cứ lặp lại một kiểu người quen thuộc.",
+  "career": "Bạn dễ chùn trước phản hồi hoặc sự thiếu công nhận giống kiểu từng trải qua khi còn đi học, như bị so sánh hay bị gạt đi. Hãy tách chuyện hôm nay với chuyện ngày xưa, và hỏi cụ thể điều cần cải thiện thay vì tự đoán ý người đánh giá. Sinh viên có thể thấy lo khi bị gọi trả lời trước lớp. Làm việc với ranh giới rõ ràng, như hỏi hạn nộp và tiêu chí, sẽ giúp bạn ổn hơn.",
+  "finance": "Thói quen tiền bạc học từ nhà có thể trỗi dậy, như tiết kiệm quá mức vì từng thấy gia đình thiếu, hoặc chi để chứng tỏ vì từng bị coi nhẹ. Nhìn lại xem nó còn phù hợp với hoàn cảnh hiện tại không, và có đang chi phối bạn nhiều hơn bạn muốn. Không cần thay đổi ngay, chỉ cần gọi tên nó khi gặp. Nhận ra thói quen ấy đến từ đâu đã là một bước làm chủ.",
+  "insight": "Có thể bạn không mắc kẹt trong quá khứ vì thích nó, mà vì có điều ở đó chưa được xử lý xong. Ký ức muốn được nhìn, không phải để bạn sống lại mà để bạn hiểu và để nó yên. Một phản ứng quá mạnh với một chuyện nhỏ có thể là dấu hiệu đó. Khi bạn tách được người của hôm nay khỏi đứa trẻ của ngày xưa, lựa chọn tiếp theo thường thoáng hơn.",
+  "memorable_message": "Đứa trẻ trong bạn không cần cầm lái, chỉ cần có chỗ ngồi ở ghế sau.",
+  "advice": "Khi thấy mình phản ứng quá mức hôm nay, dừng lại ba nhịp thở và hỏi nhanh: chuyện này đang lớn như vậy, hay nó chạm vào chuyện cũ? Có thể ghi lại một dòng trong ghi chú điện thoại để tối nhìn lại. Nếu chuyện cũ còn nặng và cứ quay lại, hãy nói với người bạn tin hoặc một chuyên gia. Bạn không cần tự xử lý mọi thứ một mình.",
+  "keywords": [
+   "quá khứ chưa xong",
+   "tuổi thơ",
+   "trưởng thành thêm"
+  ]
+ }
+]

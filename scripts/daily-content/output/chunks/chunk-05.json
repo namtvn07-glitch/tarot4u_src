@@ -1,0 +1,344 @@
+[
+  {
+    "card_id": "the-hanged-man", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay có một khoảng chờ không thể rút ngắn, và dùng nó đúng cách sẽ có ích hơn là cố đẩy nó đi.",
+    "card": { "name": "Kẻ Treo Ngược", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 5, "finance": 6, "energy": 5 },
+    "headline": "Có những ngày tiến bộ nhất là ngày chịu đứng yên.",
+    "forecast": [
+      "Một việc bạn đang mong có phản hồi có xu hướng chưa có tin, và việc nhắc thêm một lần nữa chưa chắc giúp ích.",
+      "Bạn dễ gặp một khoảng trống giữa hai việc, kiểu cuộc họp bị dời hoặc người hẹn đến muộn.",
+      "Trong lúc chờ, một ý nghĩ rõ ràng hơn về chuyện đang lấn cấn có thể tự nổi lên mà bạn không cần ép."
+    ],
+    "love": "Với người đang tìm hiểu, nhịp của đối phương có thể chậm hơn bạn mong, và dồn thêm câu hỏi dễ làm cả hai nặng nề. Đang yêu thì có một chuyện nên để yên thêm một đêm trước khi bàn. Người độc thân chưa cần ép mình đi gặp ai, hôm nay hợp để quan sát hơn là chào hàng.",
+    "career": "Tiến độ có thể chậm lại vì phụ thuộc vào người khác duyệt hoặc phản hồi. Thay vì ngồi canh, hãy dùng thời gian rảnh dọn lại tài liệu hoặc đọc kỹ điều bạn vẫn lướt qua. Sinh viên có thể nhờ đó hiểu bài sâu hơn là học thêm bài mới.",
+    "finance": "Tiền đang ở trạng thái đứng im, chưa có biến động lớn. Hôm nay hợp để xem lại những khoản đang chờ, như khoản cần thanh toán hay khoản đang đợi nhận, hơn là đưa ra quyết định mới.",
+    "insight": "Có thể bạn coi mọi khoảng chờ là thời gian bị lãng phí, nên cứ phải làm gì đó cho đỡ cảm giác bất lực. Thật ra đôi khi đứng im là lúc duy nhất bạn nhìn thấy rõ cả bức tranh.",
+    "memorable_message": "Có những câu trả lời chỉ đến với người chịu ngồi yên đủ lâu để nghe.",
+    "advice": "Chọn một việc đang chờ và cho phép mình không đụng vào nó đến hết ngày. Dùng khoảng thời gian đó cho một việc nhỏ trong tầm tay của bạn.",
+    "keywords": ["tạm dừng", "chờ đợi", "nhìn rõ hơn"]
+  },
+  {
+    "card_id": "the-hanged-man", "orientation": "upright", "variant": 2,
+    "summary": "Hôm nay bạn có thể nhường một thứ nhỏ để đổi lấy một thứ lớn hơn, nếu chính bạn chọn chứ không bị bắt buộc.",
+    "card": { "name": "Kẻ Treo Ngược", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 7, "career": 5, "finance": 6, "energy": 5 },
+    "headline": "Nhường một bước không phải là thua, nếu chính bạn chọn nó.",
+    "forecast": [
+      "Có xu hướng xuất hiện một tình huống mà bạn chọn để người khác nói trước hoặc quyết trước.",
+      "Một thứ bạn định giữ chặt, như ý kiến, lịch cá nhân hay một thói quen, dễ lộ ra là nhẹ hơn khi buông.",
+      "Bạn có thể nhận ra một khoản đánh đổi mà mình đã trả từ lâu mà chưa gọi tên."
+    ],
+    "love": "Nhường nhịn đúng lúc dễ làm không khí giữa hai người mềm đi, miễn là bạn nhường vì muốn chứ không vì sợ. Nếu đang tìm hiểu ai đó, để họ chọn quán hoặc giờ hẹn là một cử chỉ đáng điểm. Người độc thân nên cẩn thận đừng hạ chuẩn của mình chỉ để được yên.",
+    "career": "Có thể bạn nhận thêm một phần việc không ai nhớ giao, hoặc nhường công cho đồng đội. Hãy ghi lại để tự biết mình đã đóng góp gì, và chỉ nhận khi nó đổi lại điều thật cho bạn, như kinh nghiệm hay một mối quan hệ. Sinh viên có thể bỏ một buổi chơi để dọn xong việc tồn đọng.",
+    "finance": "Hôm nay nghiêng về chuyện đánh đổi: bỏ một khoản vui để dành cho một khoản cần. Cắt giảm có chủ đích sẽ nhẹ đầu hơn là đến lúc túng mới phải cắt.",
+    "insight": "Có thể bạn đang phân vân giữa thứ mình muốn giữ và cái giá phải trả cho nó. Hy sinh chỉ có nghĩa khi bạn biết rõ mình đổi cái gì lấy cái gì.",
+    "memorable_message": "Cái giá chỉ đau khi bạn không nhớ mình đã chọn trả nó vì điều gì.",
+    "advice": "Trước khi nhường hay nhận thêm bất cứ điều gì, hãy tự hỏi: mình đổi cái này lấy gì. Nếu có câu trả lời rõ thì cứ nhường. Nếu chưa, bạn có quyền nói để mình nghĩ thêm.",
+    "keywords": ["hy sinh có chủ đích", "đánh đổi", "buông nhẹ"]
+  },
+  {
+    "card_id": "the-hanged-man", "orientation": "upright", "variant": 3,
+    "summary": "Một vấn đề cũ có thể trở nên khác khi bạn thử nhìn từ phía đối diện, mà chưa cần làm thêm gì.",
+    "card": { "name": "Kẻ Treo Ngược", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 6, "finance": 5, "energy": 5 },
+    "headline": "Đổi chỗ đứng đôi khi rẻ hơn đổi cả kế hoạch.",
+    "forecast": [
+      "Một lời của người khác, vốn nghe khó chịu, có xu hướng nghe hợp lý hơn khi bạn thử đặt mình vào vị trí họ.",
+      "Bạn dễ nhận ra một cách giải quyết mà trước giờ bị che khuất vì cứ nhìn theo thói quen.",
+      "Có thể một tình huống tưởng là rắc rối lại lộ ra một mặt có lợi."
+    ],
+    "love": "Có một chuyện làm bạn tự ái, và hôm nay hợp để thử nghĩ xem người kia đang thấy gì từ phía họ. Điều này không có nghĩa họ đúng, chỉ là bạn hiểu rõ hơn. Người độc thân có thể đổi cách nhìn về kiểu người mà mình vẫn nghĩ là mình thích.",
+    "career": "Một bài toán đang bí có thể mở ra nếu bạn hỏi lại từ đầu: nếu làm ngược lại thì sao. Hãy nghe ý kiến của người ít liên quan nhất tới việc đó, vì họ nhìn không bị lệch theo thói quen. Sinh viên thử giải thích bài cho người khác nghe để tìm ra chỗ hổng.",
+    "finance": "Cách nhìn về tiền hôm nay có thể đổi một chút: thứ bạn coi là tốn kém hóa ra là khoản đáng bỏ cho sự thoải mái, hoặc ngược lại. Đừng vội quyết gì, chỉ cần ghi lại phát hiện đó.",
+    "insight": "Có thể bạn không bị kẹt vì thiếu giải pháp, mà vì đã nhìn một chuyện bằng cùng một góc quá lâu. Khi góc nhìn đổi, nhiều điều tưởng nặng bỗng nhẹ đi.",
+    "memorable_message": "Bài toán vẫn là bài toán đó, chỉ là hôm nay bạn đổi chỗ ngồi.",
+    "advice": "Chọn một chuyện đang vướng và viết ra cách người kia, hoặc một người ngoài cuộc, sẽ mô tả nó. Chỉ cần ba câu, rồi xem bạn có thấy điều gì mới không.",
+    "keywords": ["góc nhìn mới", "đảo chiều", "thấu hiểu"]
+  },
+  {
+    "card_id": "the-hanged-man", "orientation": "reversed", "variant": 1,
+    "summary": "Bạn đang chờ một tín hiệu mà thật ra chỉ bạn mới có thể phát, và khoảng chờ này đã hết tác dụng.",
+    "card": { "name": "Kẻ Treo Ngược", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 5, "career": 4, "finance": 4, "energy": 5 },
+    "headline": "Chờ thêm không còn là kiên nhẫn, nó là một cách trì hoãn.",
+    "forecast": [
+      "Bạn có xu hướng mở lại cùng một danh sách, một cuộc trò chuyện hoặc một tab mà vẫn chưa bấm quyết định.",
+      "Một lý do mới để chờ thêm dễ xuất hiện, nghe rất hợp lý nhưng lại giống mấy lý do trước.",
+      "Có thể một người quanh bạn hỏi thẳng là tới đâu rồi, và câu trả lời của bạn làm chính bạn khựng lại."
+    ],
+    "love": "Có thể bạn đang chờ đối phương nói hoặc làm điều gì đó trước, trong khi bản thân cũng chưa nói điều mình muốn. Nếu chuyện cứ treo đã lâu, hãy hỏi một câu rõ ràng thay vì đọc ý qua tin nhắn. Người độc thân dễ viện cớ chưa sẵn sàng để khỏi phải thử.",
+    "career": "Một quyết định, một lần nộp hồ sơ hay một cuộc nói chuyện với sếp đang bị hoãn hết lần này sang lần khác. Sự chuẩn bị hôm nay chỉ còn thêm được rất ít, phần còn lại là bấm nút. Hãy đặt cho nó một mốc giờ cụ thể trong ngày.",
+    "finance": "Một việc tiền bạc bạn cứ để đó, như kiểm tra sao kê, hủy một khoản định kỳ hoặc nhắc người quen trả tiền, đang cần được xử lý. Trì hoãn không làm nó nhỏ đi.",
+    "insight": "Có thể sự chờ đợi lúc này đang bảo vệ bạn khỏi một câu trả lời mà mình đã đoán được. Chưa có kết quả thì còn hy vọng, và đó là điều làm việc dừng lại trở nên dễ chịu.",
+    "memorable_message": "Chờ để biết thêm là kiên nhẫn, chờ để khỏi phải chọn là né tránh.",
+    "advice": "Đặt hẹn giờ 15 phút và làm bước đầu tiên của việc bị hoãn lâu nhất, dù chỉ là soạn một dòng. Sau đó bạn vẫn có thể dừng nếu thấy cần.",
+    "keywords": ["trì hoãn", "mắc kẹt", "né tránh"]
+  },
+  {
+    "card_id": "the-hanged-man", "orientation": "reversed", "variant": 2,
+    "summary": "Có một điều bạn đang gánh thay người khác mà chẳng ai yêu cầu, và hôm nay hợp để hỏi vì sao.",
+    "card": { "name": "Kẻ Treo Ngược", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 5, "finance": 4, "energy": 4 },
+    "headline": "Hy sinh mà không ai nhận thì chỉ là tự bỏ đói mình.",
+    "forecast": [
+      "Bạn có xu hướng nhận thêm việc hoặc nhận lỗi thay người khác chỉ vì ngại mất lòng.",
+      "Một chút bực bội ngầm có thể nổi lên khi thấy mình cho đi nhiều hơn nhận lại.",
+      "Có thể bạn nhận ra một thói quen nhường nhịn lặp đi lặp lại với cùng một người."
+    ],
+    "love": "Có thể bạn là người luôn giữ hòa khí, và điều đó bắt đầu thành cảm giác bị thiệt. Nếu cứ im lặng chịu đựng, đối phương thường không biết bạn đang mệt. Người độc thân cẩn thận với việc cố làm hài lòng người mới quen.",
+    "career": "Một phần việc không thuộc về bạn có thể rơi lên bàn bạn, kèm câu nhờ nghe rất nhẹ nhàng. Bạn có quyền nói rõ phần nào là của mình và phần nào cần thương lượng lại. Sinh viên đừng làm hết bài nhóm chỉ vì sợ cả nhóm bị điểm thấp.",
+    "finance": "Dễ có chuyện bạn trả hộ, cho mượn hoặc chịu thiệt một khoản vì ngại nhắc. Hôm nay nên nhìn lại những khoản đã cho đi mà chưa có hẹn lại.",
+    "insight": "Có thể bạn tin rằng chịu thiệt là cách để giữ người ở lại. Nhưng người ở lại vì bạn luôn nhường thì chưa chắc ở lại vì bạn.",
+    "memorable_message": "Chịu thiệt có hạn mức, và hạn mức của bạn không phải vô tận.",
+    "advice": "Hôm nay thử nói không với một việc nhỏ, bằng một câu lịch sự và không giải thích dài dòng. Nếu muốn giúp thì giúp có thời hạn và nói rõ trước.",
+    "keywords": ["hy sinh vô nghĩa", "ranh giới", "tự nhường"]
+  },
+  {
+    "card_id": "the-hanged-man", "orientation": "reversed", "variant": 3,
+    "summary": "Bạn đang chống lại một nhịp dừng mà cơ thể và đầu óc đã xin từ lâu, và càng gồng càng mệt.",
+    "card": { "name": "Kẻ Treo Ngược", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 3 },
+    "headline": "Bạn không kẹt vì thiếu cố gắng, bạn kẹt vì cố sai hướng.",
+    "forecast": [
+      "Có xu hướng làm việc nhiều hơn nhưng cảm giác hiệu quả lại ít hơn.",
+      "Một kế hoạch bạn đang ép chạy có thể gặp một chỗ chặn lặp lại, vừa giải quyết xong chỗ này lại có chỗ khác.",
+      "Bạn dễ cáu với những việc nhỏ, như mạng chậm hay một câu nói vốn không có ý xấu."
+    ],
+    "love": "Khi bạn cố kiểm soát cách mối quan hệ diễn ra, đối phương dễ cảm thấy áp lực mà không biết gọi tên. Hôm nay hợp để bớt sắp xếp và chờ xem họ tự nhiên ra sao. Người độc thân đừng ép mình vào một cuộc hẹn chỉ để đỡ cảm giác lẻ loi.",
+    "career": "Làm thêm giờ hôm nay có thể không đổi lại tiến độ tương xứng, vì vấn đề nằm ở hướng chứ không ở sức. Dừng 10 phút để xem điều gì đang lặp lại mà không hiệu quả. Sinh viên có thể thử đổi cách học thay vì tăng số giờ.",
+    "finance": "Muốn giải quyết nhanh một áp lực tiền bạc có thể kéo bạn vào những quyết định gồng gánh. Thay vào đó, hãy kiểm tra xem có khoản rò rỉ nhỏ nào mà bạn đang bù bằng sự căng thẳng.",
+    "insight": "Có thể bạn sợ rằng nếu dừng thì mọi thứ sẽ sụp, hoặc sợ nhận ra mình đang đi sai hướng. Sức chống cự thường mạnh nhất ở đúng chỗ cần buông.",
+    "memorable_message": "Kéo mạnh hơn không giúp sợi dây hết rối.",
+    "advice": "Chọn một việc bạn đang gồng và nới lỏng một điều kiện của nó, như hạ mốc hôm nay xuống hoặc nhờ ai đó chia bớt. Quyết định cuối vẫn là của bạn.",
+    "keywords": ["chống cự", "mắc kẹt", "nới lỏng"]
+  },
+  {
+    "card_id": "death", "orientation": "upright", "variant": 1,
+    "summary": "Một thứ đã hết hạn sử dụng đang chuẩn bị khép lại, và việc để nó đi sẽ mở chỗ cho điều khác.",
+    "card": { "name": "Tử Thần", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 5, "career": 6, "finance": 5, "energy": 6 },
+    "headline": "Có những kết thúc chỉ là đóng một cuốn sổ đã viết hết trang.",
+    "forecast": [
+      "Một thói quen, một cuộc nói chuyện hay một việc kéo dài đã lâu có xu hướng đi tới điểm dừng.",
+      "Bạn dễ nhận ra mình không còn hứng thú với một thứ từng rất quan trọng.",
+      "Có thể xuất hiện một khoảng trống nhỏ sau khi một việc xong, và khoảng trống đó chưa cần lấp ngay."
+    ],
+    "love": "Một kiểu tương tác, một thói quen giữa hai người hoặc một sự ngóng đợi lâu năm có thể đến lúc khép lại. Điều đó không có nghĩa tình cảm biến mất, chỉ là cách cũ không còn vừa. Người độc thân có thể thấy mình sẵn sàng bỏ một tiêu chuẩn cũ hoặc một người cũ trong ký ức.",
+    "career": "Một dự án, một cách làm hoặc một vai trò có thể đã hoàn thành nhiệm vụ. Hôm nay hợp để tổng kết, dọn file và đóng những đầu việc tồn từ lâu. Sinh viên có thể quyết định bỏ một môn phụ hay một câu lạc bộ không còn phù hợp.",
+    "finance": "Hôm nay hợp để cắt một khoản chi đã mất ý nghĩa, như gói đăng ký không còn dùng hay thói quen mua sắm cũ. Đóng nó lại có thể nhẹ nhõm hơn bạn nghĩ.",
+    "insight": "Có thể bạn đã biết từ lâu một thứ nên kết thúc, nhưng chưa ai cho phép bạn dừng. Hôm nay bạn có thể tự cho phép mình.",
+    "memorable_message": "Kết thúc đúng lúc không phải thất bại, đó là dọn bàn trước khi bày bữa mới.",
+    "advice": "Chọn một thứ nhỏ đã hết vai trò và đóng nó lại hôm nay, như xóa, hủy hoặc nói một lời kết. Bạn không cần đóng hết mọi thứ trong một ngày.",
+    "keywords": ["kết thúc", "đóng chương", "dọn chỗ"]
+  },
+  {
+    "card_id": "death", "orientation": "upright", "variant": 2,
+    "summary": "Một phiên bản cũ của bạn đang dần không còn vừa, và hôm nay cho thấy rõ chỗ chật nhất.",
+    "card": { "name": "Tử Thần", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 5, "career": 6, "finance": 5, "energy": 7 },
+    "headline": "Bạn không mất đi, bạn đang lột bớt lớp áo đã chật.",
+    "forecast": [
+      "Bạn có xu hướng phản ứng khác thường lệ trước một tình huống quen, và ngạc nhiên về chính mình.",
+      "Một câu nhận xét kiểu 'dạo này bạn khác quá' có thể xuất hiện.",
+      "Một mục tiêu cũ nghe không còn đúng như trước, và bạn dễ muốn viết lại nó."
+    ],
+    "love": "Cách bạn yêu hoặc cách bạn muốn được yêu có thể đang thay đổi, và người bên cạnh cần thời gian để theo kịp. Hãy nói cho họ biết điều gì đang khác, thay vì để họ đoán. Người độc thân có thể thấy mình bớt hứng thú với kiểu người trước đây.",
+    "career": "Điều từng làm bạn hào hứng có thể không còn kích thích, và đó là tín hiệu để xem hướng nào đang thực sự vừa với mình. Chưa cần quyết gì lớn, chỉ cần ghi lại điều bạn muốn nhiều hơn. Sinh viên có thể thấy hứng thú dịch sang một lĩnh vực khác.",
+    "finance": "Cách bạn coi trọng tiền đang dịch chuyển, bớt chi cho hình ảnh và nhiều hơn cho thứ mình thật sự dùng. Hôm nay hợp để viết lại một mục tiêu tài chính theo con người hiện tại của bạn.",
+    "insight": "Có thể bạn đang trách mình vì không còn giống trước, trong khi đó là dấu hiệu bạn vừa đi qua một điều gì đó. Cảm giác lạ lẫm với chính mình thường đi kèm với việc lớn lên.",
+    "memorable_message": "Bạn không phải xin lỗi vì cái vỏ cũ đã không còn vừa.",
+    "advice": "Viết ra ba điều bạn từng nghĩ là mình mà nay không còn thấy đúng. Sau đó chọn một điều để sống khác đi trong hôm nay.",
+    "keywords": ["chuyển hóa", "lột xác", "thay đổi bản thân"]
+  },
+  {
+    "card_id": "death", "orientation": "upright", "variant": 3,
+    "summary": "Hôm nay bạn dễ chạm vào một mảnh quá khứ và nhận ra mình có thể đặt nó xuống mà không mất gì.",
+    "card": { "name": "Tử Thần", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 6, "career": 6, "finance": 5, "energy": 6 },
+    "headline": "Có những thứ bạn giữ không phải vì cần, mà vì sợ trống.",
+    "forecast": [
+      "Một kỷ niệm, một món đồ hay một tin nhắn cũ có thể bất ngờ hiện ra trước mắt bạn.",
+      "Bạn có xu hướng muốn dọn dẹp, từ tủ đồ tới danh bạ hoặc thư mục trong điện thoại.",
+      "Có thể bạn nhận ra mình đã mấy ngày không nghĩ tới một nỗi buồn cũ, và điều đó hoàn toàn ổn."
+    ],
+    "love": "Người cũ hoặc ký ức về một mối quan hệ có thể trở lại trong đầu bạn, nhưng lần này nó mang cảm giác đã qua nhiều hơn là còn dang dở. Không cần liên lạc để kiểm chứng điều đó. Người đang yêu nên để chuyện cũ nằm yên thay vì lôi ra so sánh.",
+    "career": "Hôm nay hợp để bỏ lại một cách làm cũ, một nỗi tiếc vì cơ hội đã qua, hoặc một sự so sánh với đồng nghiệp cũ. Dọn hộp thư hoặc danh sách việc giúp đầu óc nhẹ đáng kể. Sinh viên thử gác lại lần thi không như ý để tập trung cho bài tiếp theo.",
+    "finance": "Bạn có thể nhìn lại một quyết định tiền bạc trong quá khứ mà không còn tự trách nặng nề. Hôm nay hợp để bán hoặc cho đi một món đồ nằm lâu không dùng.",
+    "insight": "Có thể thứ nặng nhất bạn đang mang không phải là chuyện đã xảy ra, mà là việc cứ kể lại nó. Khi chịu ngừng kể, chỗ trống đó dần có chỗ cho điều mới.",
+    "memorable_message": "Bạn có thể nhớ một điều mà không cần mang nó đi khắp nơi.",
+    "advice": "Chọn một thứ cũ trong tầm tay như một tấm ảnh, một cuộc trò chuyện hay một món đồ, rồi cho nó một nơi mới hoặc nói lời tạm biệt. Làm ở mức bạn thấy thoải mái.",
+    "keywords": ["buông quá khứ", "dọn dẹp", "chỗ trống"]
+  },
+  {
+    "card_id": "death", "orientation": "reversed", "variant": 1,
+    "summary": "Bạn đang níu một thứ đã hết hạn vì thay đổi nghe đáng sợ hơn cái cũ đang làm bạn mệt.",
+    "card": { "name": "Tử Thần", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 5, "energy": 4 },
+    "headline": "Cái quen không an toàn hơn, nó chỉ ít bất ngờ hơn.",
+    "forecast": [
+      "Bạn có xu hướng tìm thêm lý do để giữ nguyên hiện trạng dù biết nó không còn tốt.",
+      "Một dấu hiệu nhẹ của sự thay đổi, như một lời mời hay lời gợi ý, dễ bị bạn gạt đi.",
+      "Có thể bạn thấy bực khi ai đó đề xuất làm khác đi, dù ý của họ không tệ."
+    ],
+    "love": "Có thể một mối quan hệ hoặc một kiểu tương tác đã cạn nhưng vẫn được giữ vì sợ cảm giác trống. Hôm nay hợp để thành thật hỏi mình: ở lại vì còn muốn, hay vì ngại phải bắt đầu lại. Người độc thân dễ ôm mãi một kỳ vọng với người đã không còn đáp lại.",
+    "career": "Việc đổi quy trình, đổi nhóm hay đổi hướng có thể làm bạn khó chịu. Thay vì phản đối ngay, thử liệt kê một điều có thể có lợi từ sự thay đổi đó. Sinh viên đừng bám mãi một cách học đã rõ là không hiệu quả.",
+    "finance": "Bạn nghiêng về giữ cách tiêu và cách quản lý tiền cũ dù nó đang rò rỉ. Một thay đổi nhỏ như đổi ngày trả hay chuyển một khoản có thể giúp ích nhiều hơn bạn tưởng.",
+    "insight": "Có thể thứ bạn sợ không phải là cái mới, mà là khoảng giữa, lúc cái cũ đã đi và cái mới chưa tới. Khoảng đó khó chịu thật, nhưng nó không kéo dài mãi.",
+    "memorable_message": "Cái ghế quen êm thật, nhưng không ai ngồi nó cả đời mà không đau lưng.",
+    "advice": "Chọn một thứ đang níu và thử xa nó trong một ngày, như tạm không kiểm tra hay không làm theo thói quen đó. Chỉ là thử, bạn vẫn có thể quay lại.",
+    "keywords": ["sợ thay đổi", "níu giữ", "khoảng giữa"]
+  },
+  {
+    "card_id": "death", "orientation": "reversed", "variant": 2,
+    "summary": "Một việc đã kết thúc một nửa vẫn nằm lơ lửng, và nó đang ngốn năng lượng nhiều hơn một lần kết thúc dứt khoát.",
+    "card": { "name": "Tử Thần", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 5, "finance": 4, "energy": 4 },
+    "headline": "Dở dang tốn sức hơn là kết thúc.",
+    "forecast": [
+      "Một việc bạn bảo là sắp xong có xu hướng vẫn sắp xong như cách đây cả tuần.",
+      "Bạn dễ lướt đi lướt lại một thứ đã nguội, như một cuộc trò chuyện hay một kế hoạch.",
+      "Có thể một người nhắc bạn về việc chưa được đóng và bạn thấy khó chịu hơn bình thường."
+    ],
+    "love": "Một mối quan hệ hoặc cuộc nói chuyện đang ở trạng thái chưa là gì mà cũng chưa hết có thể làm bạn mệt. Một câu hỏi rõ ràng, dù nghe khó, thường nhẹ hơn sự mơ hồ kéo dài. Người đang yêu nên để ý những chuyện đã lâu chưa bàn xong.",
+    "career": "Công việc có cảm giác chạy tại chỗ vì nhiều đầu việc cứ mở mà chưa đóng. Hôm nay hãy đóng hẳn một việc, dù chỉ ở mức đủ tốt. Sinh viên thử hoàn thành một bài tồn đọng thay vì mở thêm bài mới.",
+    "finance": "Một khoản chưa đối soát, chưa trả dứt hay chưa quyết định đang nằm chờ. Dứt điểm một khoản, dù nhỏ, giúp đầu óc nhẹ đi rõ ràng.",
+    "insight": "Có thể bạn tránh kết thúc vì chưa muốn chấp nhận rằng nó không đi như mong. Nhưng chưa kết thúc cũng là một cách chọn, và là kiểu chọn tốn nhiều sức nhất.",
+    "memorable_message": "Cánh cửa khép hờ làm gió lùa nhiều hơn cánh cửa đóng hẳn.",
+    "advice": "Chọn một việc dở dang và viết rõ điều kiện để coi nó là xong. Rồi làm tới đó thôi, không thêm.",
+    "keywords": ["trì trệ", "dở dang", "đóng việc"]
+  },
+  {
+    "card_id": "death", "orientation": "reversed", "variant": 3,
+    "summary": "Ký ức đang kéo bạn lùi về, nhưng bên dưới có một sự chuyển hóa chậm mà bạn chưa kịp nhận ra.",
+    "card": { "name": "Tử Thần", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 4, "finance": 4, "energy": 5 },
+    "headline": "Bạn đang sống hôm nay bằng đôi mắt của hôm qua.",
+    "forecast": [
+      "Bạn có xu hướng so sánh hiện tại với một thời điểm đẹp hơn trong ký ức.",
+      "Một bài hát, một nơi chốn hoặc một cái tên có thể kéo bạn về quá khứ chỉ trong vài giây.",
+      "Có thể bạn kể lại một chuyện cũ lần thứ không biết bao nhiêu và nhận ra nó không còn đau như trước."
+    ],
+    "love": "Chuyện cũ hoặc người cũ có thể len vào các phép so sánh, khiến người hiện tại luôn phải đứng cạnh một bóng hình. Hôm nay hãy để ý khi nào bạn mở lời bằng chữ ngày xưa. Người độc thân dễ ngắm một mối tình cũ đã được tô thêm màu.",
+    "career": "Bạn có thể nhớ lại thời làm tốt hơn hoặc công ty cũ vui hơn, và vì thế khó hào hứng với việc đang làm. Hãy tìm một điều ở hiện tại mà thời đó chưa có. Sinh viên đừng so mình với phong độ cũ, cứ bắt đầu từ chỗ đang đứng.",
+    "finance": "Thói quen tiền bạc cũ, như cách tiêu từ một thời khác hoặc nỗi tiếc một khoản đã mất, đang ảnh hưởng quyết định bây giờ. Hôm nay hợp để nhìn con số hiện tại thay vì con số trong ký ức.",
+    "insight": "Có thể bạn đã tiến xa hơn điều bạn tin, nhưng ký ức vẫn giữ nguyên tấm bản đồ cũ. Tình cảm cũ nhạt dần không phải là bạn phản bội nó, đó là bạn đang đi tiếp.",
+    "memorable_message": "Gương chiếu hậu để liếc, không phải để lái.",
+    "advice": "Mỗi lần bắt gặp mình mở câu bằng ngày xưa, thử nói thêm một câu bắt đầu bằng bây giờ. Chỉ cần một câu là đủ cho hôm nay.",
+    "keywords": ["hoài niệm", "quá khứ", "đi tiếp"]
+  },
+  {
+    "card_id": "temperance", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay thuận lợi nhất khi bạn trộn đúng liều: làm vừa đủ, nghỉ vừa đủ, nói vừa đủ.",
+    "card": { "name": "Tiết Chế", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 8, "career": 7, "finance": 7, "energy": 7 },
+    "headline": "Ngày tốt không phải ngày nhiều nhất, mà là ngày đúng liều.",
+    "forecast": [
+      "Bạn có xu hướng tìm được nhịp ổn giữa việc và nghỉ, nếu không ép mình theo một kế hoạch quá dày.",
+      "Một việc từng làm bạn căng thẳng có thể trôi qua nhẹ nhàng khi bạn chia nhỏ thời gian.",
+      "Có thể bạn nhận được một lời nhận xét ôn hòa, vừa đủ để điều chỉnh mà không bị tổn thương."
+    ],
+    "love": "Chuyện tình cảm hôm nay hợp nhịp vừa phải, không cần cao trào, chỉ cần đều và dễ chịu. Người đang yêu nên có một khoảng thời gian rất bình thường bên nhau, như nấu ăn hoặc đi dạo. Người độc thân dễ bắt chuyện tốt với người cùng nhịp sống.",
+    "career": "Hôm nay bạn dễ tìm được cách phối hợp giữa chất lượng và tốc độ, nên ít phải chọn bỏ một giữ một. Hãy đặt việc nặng vào buổi tinh thần tốt nhất và việc nhẹ vào lúc mệt. Sinh viên học đều từng đoạn ngắn sẽ nhớ lâu hơn học dồn.",
+    "finance": "Dòng tiền khá cân bằng, thích hợp để chia các khoản theo tỉ lệ vừa phải giữa chi cần, chi vui và để dành. Đừng quá khắt khe, cũng đừng quá phóng tay.",
+    "insight": "Có thể bạn quen nghĩ phải chọn một trong hai: hoặc hết mình hoặc buông xuôi. Hôm nay lá bài cho thấy đường giữa không phải là nhạt, đó là chỗ bạn đi được lâu nhất.",
+    "memorable_message": "Công thức tốt nhất là loại bạn còn pha được vào ngày mai.",
+    "advice": "Chia ngày thành ba khoảng và gán mỗi khoảng một loại việc: làm sâu, làm nhẹ, nghỉ. Giữ nhịp đó mà không cần hoàn hảo.",
+    "keywords": ["cân bằng", "đúng liều", "nhịp đều"]
+  },
+  {
+    "card_id": "temperance", "orientation": "upright", "variant": 2,
+    "summary": "Hôm nay hợp để nối hai phía đang lệch nhau, bằng sự mềm mỏng chứ không cần ai phải thua.",
+    "card": { "name": "Tiết Chế", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 8, "love": 8, "career": 8, "finance": 7, "energy": 7 },
+    "headline": "Hai bên không cần giống nhau để cùng chạy một nhịp.",
+    "forecast": [
+      "Một bất đồng nhỏ có xu hướng được giải bằng cách mỗi bên nhường một chút.",
+      "Bạn dễ trở thành người trung gian giúp hai người hiểu nhau hơn.",
+      "Có thể bạn tìm ra cách kết hợp hai ý tưởng tưởng như đối lập thành một thứ dùng được."
+    ],
+    "love": "Hôm nay chuyện tình cảm hợp với việc lắng nghe nhiều hơn phản bác. Nếu đang có chuyện chưa vui, nói bằng giọng thấp hơn nửa tông sẽ hiệu quả hơn nói cho đúng. Người độc thân có thể gặp một người dễ trò chuyện, không cần gây ấn tượng.",
+    "career": "Làm việc nhóm thuận lợi hơn bình thường, nhất là khi cần dung hòa những ý kiến khác nhau. Bạn có thể chắp nối nhiều ý và tìm ra điểm chung giữa hai bên. Sinh viên làm bài nhóm dễ phân công công bằng và êm.",
+    "finance": "Hôm nay hợp để bàn chuyện tiền với người thân hoặc bạn đời một cách cởi mở, như chia chi phí hoặc lập quỹ chung. Một thỏa thuận vừa phải với cả hai bên bền hơn một thỏa thuận có bên thiệt.",
+    "insight": "Có thể bạn nghĩ hòa giải là chịu thiệt, nhưng điều lá bài nhắc là pha trộn chứ không phải nhường hết. Bạn giữ nguyên bản chất của mình mà vẫn đủ chỗ cho người khác.",
+    "memorable_message": "Hai dòng sông gặp nhau không cần ai tan vào ai, chỉ cần chịu chảy chung một đoạn.",
+    "advice": "Trước khi phản bác một ý, hãy nói lại phần mình đồng ý trong đó. Chỉ riêng câu mở đầu ấy cũng làm cuộc trò chuyện mềm hơn nhiều.",
+    "keywords": ["hòa hợp", "trung gian", "kết nối"]
+  },
+  {
+    "card_id": "temperance", "orientation": "upright", "variant": 3,
+    "summary": "Một sự hồi phục chậm mà vững đang diễn ra, và hôm nay chỉ cần một bước nhỏ, đều, đúng việc.",
+    "card": { "name": "Tiết Chế", "arcana": "Major", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 7, "career": 7, "finance": 7, "energy": 7 },
+    "headline": "Tiến bộ nhỏ mà đều thường thắng một lần bứt phá rồi nghỉ dài.",
+    "forecast": [
+      "Bạn có xu hướng cảm nhận được một chút khá hơn so với tuần trước, dù chưa thật rõ ràng.",
+      "Một thói quen nhỏ đã duy trì lâu bắt đầu cho thấy tác dụng.",
+      "Có thể bạn thấy dễ chịu hơn khi không so mình với tốc độ của người khác."
+    ],
+    "love": "Một vết lòng cũ có thể dịu hơn hôm nay, và bạn bớt cần giải thích nó cho ai. Nếu đang yêu, những cử chỉ nhỏ đều đặn có tác dụng hơn một bất ngờ lớn. Người độc thân chưa cần vội, sự ổn định bên trong mới là phần chuẩn bị tốt nhất.",
+    "career": "Tiến độ hôm nay mang tính tích lũy: một chút việc đều đặn có thể làm bạn bất ngờ khi nhìn lại. Hợp để duy trì một kỹ năng đang học dở hoặc một quy trình mới. Sinh viên ôn đều mỗi ngày một ít, tránh dồn vào phút chót.",
+    "finance": "Tài chính hợp với cách làm chậm mà chắc, như để dành một khoản nhỏ đều đặn hay trả dần một khoản nợ nhỏ. Không cần một bước nhảy, chỉ cần không bỏ giữa chừng.",
+    "insight": "Có thể bạn đang sốt ruột vì cảm giác mình chưa khá lên đủ nhanh. Sự hồi phục thật thường không ồn ào, nó chỉ là một ngày bạn nhận ra mình ít để ý tới chuyện đó hơn.",
+    "memorable_message": "Hồi phục thường trông giống những ngày không có gì xảy ra.",
+    "advice": "Chọn một việc chăm sóc nhỏ mà bạn có thể lặp lại mỗi ngày, như ngủ đúng giờ hoặc đi bộ 15 phút, và làm nó hôm nay. Đừng thêm gì nữa.",
+    "keywords": ["hồi phục", "kiên nhẫn", "tích lũy"]
+  },
+  {
+    "card_id": "temperance", "orientation": "reversed", "variant": 1,
+    "summary": "Liều lượng hôm nay dễ bị quá tay, từ làm việc, chi tiêu tới cảm xúc, và điều cần là bớt đi một chút.",
+    "card": { "name": "Tiết Chế", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 3, "energy": 4 },
+    "headline": "Không có gì sai với thứ bạn thích, chỉ sai ở lượng.",
+    "forecast": [
+      "Bạn có xu hướng làm hơn kế hoạch, ăn hơn nhu cầu hoặc thức muộn hơn dự định.",
+      "Một cảm xúc nhỏ có thể bị thổi lớn thành một câu chuyện lớn.",
+      "Có thể cuối ngày bạn cảm thấy hụt hơi, như đã dùng hết pin cho những việc không quan trọng."
+    ],
+    "love": "Cảm xúc dễ lên nhanh và xuống nhanh, có thể bạn gửi quá nhiều tin hoặc nghĩ quá nhiều về một tín hiệu. Hôm nay bớt phân tích một tin nhắn là cách tử tế với chính mình. Người đang yêu nên tránh biến một bất đồng nhỏ thành tổng kết cả mối quan hệ.",
+    "career": "Bạn dễ nhận quá nhiều việc cùng lúc hoặc cầu toàn một việc nhỏ đến mức bỏ lỡ việc lớn. Chọn đúng hai việc quan trọng nhất và để phần còn lại xuống sau. Sinh viên tránh dồn một đêm cho nhiều môn.",
+    "finance": "Chi tiêu có xu hướng vượt một chút, thường là kiểu thêm một món cho đủ bộ hay thưởng cho mình vì mệt. Hãy đặt trần cho hôm nay trước khi bắt đầu mua.",
+    "insight": "Có thể bạn dùng sự thái quá để lấp một cảm giác thiếu, như thiếu nghỉ, thiếu được ghi nhận hoặc thiếu kết nối. Lượng nhiều chưa bao giờ trả lời được câu hỏi về chất.",
+    "memorable_message": "Thứ bạn thiếu hiếm khi nằm ở phần bạn đang thêm vào.",
+    "advice": "Đặt một giới hạn cụ thể cho thứ bạn dễ quá tay hôm nay, như giờ ngừng làm hoặc ngân sách mua sắm. Giới hạn do bạn đặt, nên bạn cũng có thể điều chỉnh.",
+    "keywords": ["thái quá", "quá liều", "giới hạn"]
+  },
+  {
+    "card_id": "temperance", "orientation": "reversed", "variant": 2,
+    "summary": "Bạn muốn kết quả nhanh hơn tốc độ mà việc đó thực sự cần, và sự sốt ruột đang làm hỏng điều đang chín.",
+    "card": { "name": "Tiết Chế", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Nóng lòng là cách nhanh nhất để làm chậm mọi thứ.",
+    "forecast": [
+      "Bạn có xu hướng kiểm tra kết quả hoặc tin nhắn liên tục, nhiều hơn mức cần thiết.",
+      "Một việc cần ba bước dễ bị bạn rút còn hai, và bước bị bỏ sẽ quay lại làm phiền.",
+      "Có thể bạn bực với người làm chậm hơn mình, dù họ không làm gì sai."
+    ],
+    "love": "Bạn có thể muốn đối phương cho câu trả lời hoặc xác định mối quan hệ nhanh hơn nhịp của họ. Nếu ép, bạn nhận được một đáp án vội, chưa chắc là đáp án thật. Người độc thân dễ mất kiên nhẫn với việc chưa gặp được ai.",
+    "career": "Kết quả chưa tới, và bạn muốn bỏ qua giai đoạn chín. Nhưng cắt bước hôm nay dễ tạo ra việc phải làm lại. Sinh viên đừng bỏ phần luyện nền để đi thẳng tới bài khó.",
+    "finance": "Sự nóng lòng về tiền, như muốn tăng thu nhập nhanh hay muốn thấy số dư đầy ngay, dễ dẫn tới quyết định thiếu kỹ lưỡng. Hãy dè chừng những lời hứa nhanh giàu, dù nghe thuyết phục đến đâu.",
+    "insight": "Có thể bạn không thiếu nỗ lực, mà đang thiếu niềm tin rằng đường chậm vẫn đi tới. Sốt ruột thường là cách lo lắng đòi bằng chứng.",
+    "memorable_message": "Bấm giục thang máy thêm lần nữa cũng không làm nó đến nhanh hơn.",
+    "advice": "Chọn một việc đang chờ kết quả và đặt một mốc kiểm tra duy nhất trong ngày, rồi không nhìn lại trước giờ đó. Mỗi lần muốn kiểm tra, thử hít vài hơi sâu trước.",
+    "keywords": ["thiếu kiên nhẫn", "vội vàng", "nóng lòng"]
+  },
+  {
+    "card_id": "temperance", "orientation": "reversed", "variant": 3,
+    "summary": "Hai nửa trong bạn đang kéo về hai hướng, và mệt không nằm ở việc chọn mà ở việc chưa chịu chọn.",
+    "card": { "name": "Tiết Chế", "arcana": "Major", "orientation": "Reversed" },
+    "daily_scores": { "overall": 5, "love": 4, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Bạn đang tranh luận với chính mình, và cả hai phía đều có lý.",
+    "forecast": [
+      "Bạn có xu hướng đổi ý nhiều lần về cùng một việc trong ngày.",
+      "Một câu hỏi đơn giản như ăn gì hay đi đâu có thể làm bạn mất năng lượng bất thường.",
+      "Có thể bạn muốn hai thứ trái nhau cùng lúc, như vừa muốn ở yên vừa muốn đi."
+    ],
+    "love": "Có thể bạn vừa muốn gần vừa muốn giữ khoảng cách, và đối phương khó đọc được tín hiệu của bạn. Hôm nay nói thật về sự lưỡng lự đó còn hơn đưa ra tín hiệu lẫn lộn. Người độc thân có thể thích một người nhưng lại lo về những điều đi kèm.",
+    "career": "Bạn có thể bị giằng giữa an toàn và tham vọng, hoặc giữa làm theo ý mình và làm theo kỳ vọng. Viết ra hai cột ưu nhược rồi xếp hạng điều bạn thật sự quan tâm. Sinh viên có thể lưỡng lự giữa hai hướng, chưa cần chốt ngay hôm nay.",
+    "finance": "Một nửa muốn tiết kiệm, một nửa muốn thưởng cho mình, và hai nửa đó dễ thay phiên nhau quyết định. Đặt trước một phần cho mỗi bên để chúng khỏi cãi nhau lúc thanh toán.",
+    "insight": "Có thể hai giọng nói trong bạn không phải kẻ thù, mỗi giọng đang giữ một nhu cầu thật. Khi cả hai được nghe, cuộc cãi mới chịu dịu xuống.",
+    "memorable_message": "Hai giọng trong đầu cãi nhau thường vì chưa ai hỏi giọng nào đang sợ điều gì.",
+    "advice": "Viết một câu cho mỗi giọng nói trong bạn, bắt đầu bằng mình muốn và mình sợ. Sau đó chọn một việc nhỏ làm hài lòng cả hai.",
+    "keywords": ["xung đột nội tâm", "lưỡng lự", "hai phía"]
+  }
+]

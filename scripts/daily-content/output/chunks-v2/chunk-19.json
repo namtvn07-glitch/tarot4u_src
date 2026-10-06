@@ -1,0 +1,650 @@
+[
+ {
+  "card_id": "five-of-swords",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay dễ có một cuộc cãi mà bạn thắng về lý nhưng thua về không khí, nên hãy chọn trận nào đáng đánh.",
+  "card": {
+   "name": "Năm Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Thắng được câu chuyện mà mất người nghe thì có lời gì.",
+  "card_meaning": "Năm Kiếm vẽ một người đàn ông nhếch mép cầm ba thanh kiếm trong tay, hai thanh còn lại nằm dưới đất, còn hai người khác cúi đầu bước đi xa dần dưới bầu trời xám. Anh ta đã thắng, nhưng thứ anh giữ được chỉ là vũ khí chứ không phải con người. Ở chiều xuôi, lá bài nói về xung đột mà phần thắng phải trả bằng quan hệ, thiện cảm hoặc sự tin cậy. Nó chỉ hỏi cuộc đấu này có đáng cái giá không. Hôm nay đáng chú ý vì khi cái tôi lên tiếng, một câu đáp trả sắc có thể thỏa mãn mười giây và để lại dư vị rất lâu.",
+  "forecast": [
+   "Có xu hướng xuất hiện một tranh luận nhỏ về chuyện không đáng, như ai đặt đồ sai chỗ hay ai hiểu sai một tin nhắn, và nó dễ lớn hơn kích cỡ thật.",
+   "Bạn dễ bắt gặp mình đang soạn sẵn câu đáp trả trong đầu khi người kia còn đang nói, nhất là ở những cuộc trò chuyện buổi chiều lúc đã mệt.",
+   "Một người có thể im lặng bỏ đi sau câu nói hơi sắc của bạn, và khoảng trống họ để lại mới là thứ nặng hơn cả cuộc cãi."
+  ],
+  "love": "Người đang yêu dễ biến một chuyện vặt như ai quên mua gì, ai nói giọng gì thành một phiên tòa nhỏ ngay giữa bữa cơm. Hãy để người kia nói hết ý rồi mới phản biện, và thử nhắc lại điều họ vừa nói trước khi đáp. Người đang tìm hiểu nên tránh bắt bẻ từng câu của đối phương, vì lý lẽ đúng cũng có thể làm người ta lùi lại. Người độc thân đừng dùng sự sắc sảo để thắng chính người mình đang có thiện cảm.",
+  "career": "Dễ có bất đồng về cách làm hoặc về chuyện ai đúng trong một cuộc họp, và điểm số cá nhân có thể át mất mục tiêu chung. Trước khi phản bác, hãy hỏi mình muốn thắng cuộc tranh luận hay muốn dự án chạy được. Nếu phải bất đồng, nói bằng dữ liệu và đề xuất thay vì giọng mỉa mai. Sinh viên làm việc nhóm cũng nên nhường một nước nhỏ ở chỗ không ảnh hưởng đến điểm số.",
+  "finance": "Dòng tiền khá bình thường, nhưng tâm lý hơn thua dễ khiến bạn chi để chứng tỏ, hoặc cãi nhau chuyện chia tiền ăn, tiền nhà. Với khoản chung, nói rõ con số và ai trả phần nào từ đầu sẽ tiết kiệm được cả tiền lẫn sự khó chịu. Nếu thấy mình muốn mua gì đó ngay sau một cuộc cãi, hãy đợi đến tối. Món đồ mua để xả giận hiếm khi còn hợp mắt sau vài hôm.",
+  "insight": "Có thể bạn không thật sự muốn thắng, mà muốn được công nhận rằng mình đã bị đối xử chưa công bằng. Cảm giác đó khá thật, chỉ là cuộc tranh luận không phải nơi tốt để đòi nó. Nếu gọi đúng tên điều mình cần, như một lời ghi nhận hay một sự tôn trọng, bạn đỡ phải mài sắc từng câu chữ. Người đối diện cũng dễ nghe hơn khi họ không phải đỡ đòn.",
+  "memorable_message": "Đừng thắng một ván cờ mà sau đó chẳng còn ai ngồi đối diện.",
+  "advice": "Trước khi đáp trả một câu làm bạn nóng mặt, hít một hơi chậm và hỏi: chuyện này còn quan trọng sau ba ngày nữa không? Nếu không, hãy trả lời bằng một câu ngắn như được rồi, để mình nghĩ thêm, rồi đi pha nước hoặc đi bộ vài phút. Nếu có, hẹn nói chuyện lúc cả hai đã nguội thay vì nói ngay giữa cơn bực.",
+  "keywords": [
+   "xung đột",
+   "thắng thua",
+   "giữ người"
+  ]
+ },
+ {
+  "card_id": "five-of-swords",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Không khí hơi cạnh tranh: có người muốn ghi điểm, và bạn dễ bị kéo vào cuộc đua mà không ai thật sự thắng.",
+  "card": {
+   "name": "Năm Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Không phải trận nào mời bạn cũng cần tới dự.",
+  "card_meaning": "Trong tranh Năm Kiếm, bầu trời cuộn mây xám, bờ biển lạnh và ba nhân vật không nhìn nhau, không ai trong cảnh này trông thật sự vui. Lá bài nhắc rằng có những cuộc đua mà người thắng lẫn người thua đều ra về nhẹ đi một thứ gì đó. Số 5 trong Tarot thường là con số của xáo trộn, nơi sự cân bằng bị lung lay và mọi người bắt đầu đo xem ai hơn ai. Ở chiều xuôi, năng lượng nghiêng về cạnh tranh, so bì và nhu cầu chứng tỏ mình. Hôm nay đáng chú ý vì bạn có thể được mời vào một trận mà chính bạn không hề đăng ký.",
+  "forecast": [
+   "Một lời bóng gió hoặc một câu so sánh, chẳng hạn khi nghe ai đó khoe thành tích trong nhóm chat, có thể chạm vào lòng tự trọng của bạn.",
+   "Có xu hướng xuất hiện kiểu cạnh tranh ngầm như giành công, giành lời nói cuối cùng hoặc giành sự chú ý của sếp, thầy cô.",
+   "Bạn có thể thấy nhẹ người rõ rệt vào cuối ngày nếu chọn rút khỏi một cuộc tranh cãi vô bổ."
+  ],
+  "love": "Chuyện tình cảm hôm nay dễ dính vào so sánh: bạn bè ai được tỏ tình hoành tráng hơn, người cũ giờ ra sao. Đừng lấy những thứ đó làm thước đo cho mối quan hệ của mình. Người đang tìm hiểu nên tránh thử lòng đối phương bằng mấy câu thách đố hay thả thính xem ai sốt ruột trước. Người đang yêu thì hôm nay hợp để khen nhau một câu thật, thay vì đếm ai làm nhiều hơn.",
+  "career": "Có thể có đồng nghiệp muốn nhận công về mình, hoặc chính bạn thấy mình đang muốn làm vậy. Ghi lại phần việc của mình bằng email, tài liệu hay lịch sử chỉnh sửa rõ ràng sẽ hiệu quả hơn đấu khẩu giữa chỗ đông người. Nếu bị nói chen, chờ một nhịp rồi nói tiếp phần của mình, không cần nâng giọng. Sinh viên nên cẩn thận với kiểu khoe điểm làm bạn học khó chịu, vì hôm nay một câu đùa dễ bị nghe thành mỉa.",
+  "finance": "Tiền bạc không biến động mạnh, nhưng cảm giác thua kém dễ khiến bạn mua sắm cho bằng bạn bằng bè, từ cái áo đến chuyến đi. Hãy hỏi mình món này mua cho bản thân hay cho cái nhìn của người khác. Nếu câu trả lời là vế sau, đưa nó vào danh sách chờ ba ngày. Phần tiền dành cho thứ bạn thật sự thích thường không cần ai chứng kiến.",
+  "insight": "Có thể bạn đang mệt vì lúc nào cũng phải chứng minh, dù chẳng ai thật sự đòi. Cuộc đua lớn nhất hôm nay có khi nằm trong đầu bạn chứ không ở ngoài kia, nơi bạn tự đặt vạch đích rồi tự chấm điểm mình. Khi nhận ra điều đó, bạn có thể thử hỏi một câu đơn giản: nếu không ai nhìn, mình có còn muốn thắng chuyện này không? Câu trả lời thường cho biết trận nào đáng dự.",
+  "memorable_message": "Người rút khỏi cuộc cãi đúng lúc thường là người còn nhiều sức nhất.",
+  "advice": "Nếu bị khiêu khích, trả lời bằng một câu ngắn và trung tính như mình hiểu ý bạn, rồi chuyển sang chủ đề khác, đừng giải thích thêm. Sau đó mở ngay một việc cụ thể có thể ra kết quả, như viết nốt một đoạn báo cáo hay dọn hộp thư, để sức không chảy vào chuyện hơn thua. Cuối ngày, ghi lại một trận bạn đã không dự và cảm giác của mình sau đó.",
+  "keywords": [
+   "cạnh tranh",
+   "giữ sức",
+   "chọn trận"
+  ]
+ },
+ {
+  "card_id": "five-of-swords",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Cái tôi đang nói to hơn bình thường, và sẽ có người thiệt nếu bạn chỉ lo phần của mình.",
+  "card": {
+   "name": "Năm Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Ai cũng muốn phần lớn hơn, kể cả khi bánh đã nhỏ.",
+  "card_meaning": "Điểm lạ của Năm Kiếm là người đàn ông trong tranh chủ động nhặt cả những thanh kiếm không thuộc về mình, trong khi chủ nhân của chúng bước đi tay trắng. Lá bài soi vào bản năng giữ phần: khi nguồn lực có hạn, cái tôi dễ gom thật nhiều trước khi nghĩ đến chuyện công bằng. Ở chiều xuôi, nó thiên về ích kỷ, ghi điểm cho riêng mình và quên người ở lại sau trận. Lá bài không chê bạn xấu, nó chỉ ra nơi bạn đang giữ chặt hơn mức cần. Hôm nay đáng chú ý vì chuyện chia việc, chia thời gian, chia công có thể xuất hiện rất bình thường.",
+  "forecast": [
+   "Có thể xuất hiện một tình huống chia phần như chia việc nhóm, chia khung giờ họp hoặc chia công trạng sau một dự án.",
+   "Bạn dễ chú ý đến phần mình bị thiệt hơn là phần người khác đang âm thầm gánh.",
+   "Một người có thể lặng lẽ rút lui khỏi cuộc trao đổi, và bạn nhận ra điều đó muộn hơn mong đợi."
+  ],
+  "love": "Năng lượng nghiêng về chuyện ai nhường ai nhiều hơn, nên một mối quan hệ dễ rơi vào cảnh đếm công: ai đón, ai nấu, ai nhắn trước. Thử hỏi người kia đang mệt chỗ nào trước khi kể mình mệt chỗ nào, bạn có thể nghe ra điều bất ngờ. Người đang tìm hiểu nên chú ý xem mình có đang chờ đối phương cố gắng nhiều hơn mình không. Người độc thân nên cẩn thận với kiểu tán tỉnh chỉ để thấy mình có giá.",
+  "career": "Có xu hướng giành nguồn lực: giành người giỏi vào nhóm mình, giành ngân sách hay giành khung giờ đẹp. Nếu cần gì thì nói luôn điều mình cần cùng lý do, đừng chờ người ta đoán rồi tự bực. Việc nhóm sẽ trơn hơn nếu bạn nhận phần lỗi của mình trước khi ai đó chỉ ra. Sinh viên chia bài thuyết trình nên chia cả phần nhẹ lẫn phần nặng, đừng chỉ giữ phần mình dễ làm.",
+  "finance": "Chuyện tiền có thể liên quan đến chia chi phí chung hoặc một khoản nợ nhỏ chưa nói rõ, như tiền ăn hôm trước hay tiền quà góp. Hôm nay hợp để minh bạch con số, bớt tính toán thầm trong lòng và bớt nhớ dai. Nếu bạn đang giữ một khoản của người khác, trả hoặc nhắc lại cho rõ ràng sẽ nhẹ đầu hơn. Nếu bạn là người đang chờ được trả, hỏi thẳng nhưng nhẹ nhàng.",
+  "insight": "Có thể sự ích kỷ hôm nay không đến từ chỗ bạn xấu, mà từ chỗ bạn đã nhường quá lâu nên bắt đầu giữ chặt. Khi cạn sức, ai cũng dễ co lại và đếm từng phần mình có. Điều đáng phân biệt là bảo vệ phần mình cần với giành thêm phần của người khác, vì hai việc trông giống nhau nhưng để lại hậu quả rất khác. Gọi đúng tên nhu cầu thường rẻ hơn tranh phần.",
+  "memorable_message": "Bánh càng giành càng vụn, chia ra thì ai cũng còn một miếng.",
+  "advice": "Nêu rõ một điều bạn cần, bằng giọng bình thường, trước khi nó biến thành một lời trách, ví dụ mình cần ba mươi phút yên tĩnh buổi tối hoặc mình cần cậu nhận giúp phần này. Rồi hỏi người kia họ cần gì và nghe hết câu trả lời. Làm việc này ngay trong cuộc trò chuyện đầu tiên của buổi chiều, khi chưa ai mệt.",
+  "keywords": [
+   "cái tôi",
+   "chia phần",
+   "nói rõ nhu cầu"
+  ]
+ },
+ {
+  "card_id": "five-of-swords",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Cơn giận đang hạ nhiệt, và hôm nay có một cơ hội mở lối cho một mối bất hòa cũ.",
+  "card": {
+   "name": "Năm Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 6,
+   "career": 6,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Cửa hòa giải thường mở ra từ phía người bước tới trước.",
+  "card_meaning": "Khi Năm Kiếm đảo chiều, cảnh trận đấu như được tua ngược: những thanh kiếm không còn bị gom lại, và những người đã quay đi có thể ngoảnh nhìn lại. Lá bài ở chiều này nói về hồi kết của một cuộc xung đột, khi người ta đủ mệt để nhận ra cái giá của việc tiếp tục. Nó có thể là hòa giải thật, cũng có thể là một sự im lặng đang chờ ai đó mở lời trước. Không có người thắng rõ ràng ở đây, và đó lại là chỗ lá bài dễ chịu. Hôm nay đáng chú ý vì cơn giận cũ có vẻ đã hạ nhiệt đủ để một cánh cửa hé ra.",
+  "forecast": [
+   "Có xu hướng một người từng cãi nhau với bạn nhắn tin hoặc xuất hiện lại bằng giọng mềm hơn, có thể chỉ là một câu hỏi thăm bình thường.",
+   "Bạn dễ nhận ra mình đã mang một chuyện nhỏ quá lâu trong lòng, nhất là khi vô tình nhìn thấy tên người đó trong danh bạ.",
+   "Một lời xin lỗi ngắn, nếu bạn nói, có khả năng được đón nhận tốt hơn điều bạn vẫn lo."
+  ],
+  "love": "Một khúc mắc cũ trong tình cảm có thể được nhắc đến nhẹ nhàng hơn trước, qua một tin nhắn hay một lần tình cờ gặp lại. Nếu đang giận ai, thử mở đầu bằng câu mình cũng có phần chưa khéo, rồi chờ họ đáp. Người đang yêu nên tránh nhắc lại toàn bộ chuyện cũ, chỉ cần chạm vào điểm chính. Người độc thân nên mở lòng lại sau một lần tổn thương, ít nhất là bằng việc nhắn lại cho ai đó mình từng ngại.",
+  "career": "Căng thẳng với đồng nghiệp hoặc nhóm học có dấu hiệu dịu đi, nhất là khi ai đó chịu nhượng một bước. Hãy nhắn một câu thân thiện hoặc rủ đi uống cà phê thay vì chờ họ xin lỗi trước, vì người đi trước thường giữ được thế chủ động. Khi nói chuyện công việc, tránh lôi lại những lần trước để so đo. Làm việc chung sẽ nhẹ hơn rất nhiều khi không khí trong phòng đã được dọn.",
+  "finance": "Tài chính khá yên, nhưng một chuyện tiền bạc từng gây khó chịu, như tiền chung hay khoản cho mượn giữa người quen, có thể được nói lại bình tĩnh. Chọn lúc cả hai đều ổn, đừng chọn lúc ai đó vừa tan làm mệt, rồi hẵng trao đổi. Hãy mở đầu bằng điều bạn muốn giữ là mối quan hệ, sau đó mới đến con số. Nếu chưa thể, ghi sẵn vài ý để nói khi đủ bình tĩnh.",
+  "insight": "Có thể bạn đã mệt vì phải giữ thái độ phòng thủ lâu như vậy, giống ôm cái khiên cả ngày mà quên rằng mình đang ở nhà. Hạ nó xuống không có nghĩa là người kia đúng, mà là bạn không muốn trả thêm lãi cho chuyện cũ. Khi cơn giận bớt ồn, thứ nằm bên dưới thường lộ ra là mong muốn được hiểu. Đó mới là điều đáng chạm tới hơn chiến thắng.",
+  "memorable_message": "Vũ khí nặng hơn bạn nghĩ, đặt xuống rồi mới thấy tay mình mỏi đến mức nào.",
+  "advice": "Chọn một người bạn còn giận hoặc còn ngại và nhắn một câu không kèm điều kiện, ví dụ lâu rồi không nói chuyện, dạo này cậu sao rồi. Gửi vào buổi trưa hoặc chiều muộn, lúc người ta thường dễ trả lời hơn. Không cần giải thích dài hay đòi họ nhận lỗi, bạn chỉ cần mở cánh cửa và để họ quyết định có bước vào hay không.",
+  "keywords": [
+   "hòa giải",
+   "hạ nhiệt",
+   "bước trước"
+  ]
+ },
+ {
+  "card_id": "five-of-swords",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Hôm nay bạn nhìn rõ cái giá của một cuộc đối đầu cũ, và chấp nhận thua đúng chỗ là một bước tiến.",
+  "card": {
+   "name": "Năm Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 6,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Thua một lần đúng lúc đôi khi là thắng cả tuần.",
+  "card_meaning": "Nếu Năm Kiếm xuôi là khoảnh khắc thắng, thì chiều ngược là buổi sáng hôm sau, khi bụi đã lắng và người ta bắt đầu đếm thiệt hại. Những thanh kiếm nằm lại trên cát, những người đã bỏ đi, bầu trời vẫn còn xám nhưng bớt giông. Lá bài ở chiều này nói về hậu quả của xung đột và khả năng chấp nhận thua đúng chỗ. Đó là sự trưởng thành lặng lẽ: nhìn thẳng việc mình đã đi quá xa mà không biến nó thành tự trách. Hôm nay đáng chú ý vì bạn có xu hướng thấy rõ phần mình trong một chuyện mà trước đây chỉ thấy phần người kia.",
+  "forecast": [
+   "Có thể một hệ quả từ lời nói gần đây của bạn hiện ra rõ hơn, nhất là ở một người mình từng làm tổn thương mà chưa nhận ra.",
+   "Bạn dễ muốn kiểm kê xem cuộc cãi cọ ấy đã lấy của mình những gì, từ thời gian, giấc ngủ đến một mối quan hệ.",
+   "Một việc bạn cố bảo vệ đến cùng có thể bắt đầu thấy không còn đáng, và cảm giác đó đến khá lặng lẽ."
+  ],
+  "love": "Bạn có xu hướng nhìn lại một cuộc tranh cãi và thấy rõ phần mình đã đi quá xa, có thể là một câu nói nặng hay một lần bỏ đi giữa chừng. Người đang yêu nên nói thẳng rằng mình đã nhìn lại, thay vì giả vờ chưa có gì xảy ra. Người đang tìm hiểu có thể sửa một hiểu lầm nhỏ bằng một lời nhận phần mình. Người độc thân dễ nhận ra mẫu người hay biến mình thành chiến binh,.",
+  "career": "Một quyết định hoặc một lần phản bác ở nơi làm việc có thể để lại dư âm, và bạn cần dọn nó. Thừa nhận phần sai bằng một câu gọn, không rào đón, thường khiến người ta nể hơn bạn tưởng. Hãy tách rõ việc mình sai ở đâu với chuyện mình là người thế nào, vì chỉ có vế đầu cần sửa. Sinh viên có thể sửa lại một bài nhóm bị lỡ vì giận dỗi, hoặc nhắn xin lỗi bạn cùng nhóm.",
+  "finance": "Một khoản chi hoặc khoản mất do cãi vã hay quyết định nóng nảy trước đó, như đồ mua trong lúc bực hoặc cuộc hẹn bị hủy, có thể được tính lại. Hãy ghi rõ con số một lần để rút ra bài học, chứ không để tự trách mãi mỗi khi nhớ tới. Sau đó đặt một quy tắc nhỏ cho lần sau, ví dụ đợi qua đêm trước khi chi lúc đang giận. Số tiền đã mất không lấy lại được, nhưng thói quen thì sửa được.",
+  "insight": "Có thể bạn đang sợ rằng thừa nhận thua đồng nghĩa với yếu, vì từ nhỏ đã quen gắn thắng với giá trị. Nhưng người dám nhìn thẳng hậu quả lại thường là người lấy lại quyền kiểm soát nhanh nhất, vì họ không còn tốn sức bảo vệ một lập trường đã hỏng. Cảm giác nhẹ người sau khi nhận phần mình không phải thất bại, nó là dấu hiệu bạn vừa đặt bớt một thứ nặng xuống.",
+  "memorable_message": "Nhận thua đúng chỗ không làm bạn nhỏ đi, chỉ làm gánh nhẹ đi.",
+  "advice": "Viết ra giấy ba điều cuộc xung đột đó đã lấy của bạn, ví dụ một người bạn, một buổi tối hay sự bình tĩnh. Rồi chọn một điều để lấy lại ngay hôm nay: có thể là một lời xin lỗi gửi trước bữa trưa, hoặc một giấc ngủ trọn vẹn tối nay. Làm vừa một việc thôi, không cần sửa hết mọi thứ trong một ngày.",
+  "keywords": [
+   "nhìn lại",
+   "nhận thua",
+   "dọn hậu quả"
+  ]
+ },
+ {
+  "card_id": "five-of-swords",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Trận cuối cùng hôm nay có thể là với chính mình: ngừng tự đánh vào những lỗi đã qua.",
+  "card": {
+   "name": "Năm Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 6,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Có những người bạn cần tha thứ nằm ngay trong gương.",
+  "card_meaning": "Chiều ngược của Năm Kiếm đôi khi không nói về người khác, mà về những cuộc đấu đã kết thúc ngoài đời nhưng vẫn còn diễn ra trong đầu. Hình ảnh người cầm kiếm đứng một mình trên bờ cát giờ có thể hiểu là chính bạn, vẫn nắm chặt vũ khí dù đối thủ đã rời sân. Năng lượng của lá bài lúc này hướng vào trong: tự trách, nhớ lại câu nói đã lỡ, diễn lại cảnh cũ với đoạn kết khác. Nhưng chiều này cũng mang tín hiệu mệt đủ lớn để bạn muốn dừng. Hôm nay đáng chú ý vì sự dừng đó đang đến gần.",
+  "forecast": [
+   "Có xu hướng một ký ức cũ về cuộc cãi cọ hoặc một câu nói làm bạn đau lại hiện về, nhưng lần này nhẹ hơn mọi khi.",
+   "Bạn dễ thôi không kể lại chuyện đó cho mọi người nghe nữa vì thấy mình đã chán kể, và đó là một tín hiệu tốt.",
+   "Một khoảng lặng giữa hai người có thể trở thành khoảng thở thay vì khoảng cách, nhất là vào buổi tối."
+  ],
+  "love": "Bạn có thể không cần thắng người cũ trong ký ức nữa, và điều đó mở chỗ cho cảm xúc mới đi vào. Với người đang yêu, hãy để một lần giận hờn qua đi mà không ghi vào sổ nợ. Nếu hôm nay hai người im lặng với nhau, thử xem đó là khoảng nghỉ chứ chưa phải dấu hiệu rạn nứt. Người độc thân dễ bớt đề phòng hơn, nên cứ để mình trò chuyện thoải mái với người lạ trong một buổi gặp.",
+  "career": "Một mâu thuẫn tưởng đã dừng nhưng vẫn làm bạn bực ngầm, như lần bị góp ý trước mặt mọi người, có thể dịu xuống. Dành năng lượng đã dùng để giận cho việc có thể hoàn thành hôm nay, bắt đầu từ việc quan trọng nhất. Bạn sẽ tập trung được lâu hơn thường lệ nếu không mở lại cuộc trò chuyện cũ trong đầu. Sinh viên có thể thấy học nhẹ hơn khi thôi so điểm với người từng khiến mình tự ái.",
+  "finance": "Tài chính ở mức ổn định, nhưng cảm xúc bực bội cũ có thể kéo bạn vào mua sắm để tự thưởng. Hãy thưởng bằng một thứ rẻ và tử tế như bữa ăn ngon hay quyển sách đã để mắt từ lâu, thay vì giải tỏa bằng món lớn. Nếu thấy mình muốn mua gì đó ngay lúc ký ức dâng lên, đặt vào giỏ và để đó qua tối. Món nào vẫn còn thích sau một đêm mới đáng mua.",
+  "insight": "Có thể thứ bạn mang lâu nhất không phải sự hận người khác, mà là giận chính mình vì đã im lặng đúng lúc cần nói hoặc đã nói quá lời. Phiên bản đó của bạn đã làm hết khả năng của thời điểm ấy, dù kết quả không đẹp. Khi nhìn người ấy bằng ánh mắt bớt khắt khe, bạn bớt phải bảo vệ nó, và những cuộc đối thoại trong đầu cũng thưa dần.",
+  "memorable_message": "Bạn không cần thắng thêm lần nào nữa trong một trận mà người kia đã rời sân từ lâu.",
+  "advice": "Hôm nay thử nói với mình về chuyện cũ ấy bằng giọng của một người bạn thân, ví dụ lúc đó cậu đã làm hết sức rồi. Làm việc này trong lúc đi bộ hoặc tắm, rồi làm thêm một việc nhỏ như dọn một góc phòng hay xếp lại ngăn kéo, để cơ thể hiểu rằng chuyện đã khép. Không cần xóa ký ức, chỉ cần thôi giao nó việc điều hành ngày của bạn.",
+  "keywords": [
+   "buông hận",
+   "tha thứ",
+   "hết chiến"
+  ]
+ },
+ {
+  "card_id": "six-of-swords",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Một giai đoạn nặng nề đang được bạn bỏ lại phía sau, và cảm giác nhẹ hơn hôm nay là có cơ sở.",
+  "card": {
+   "name": "Sáu Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 7,
+   "finance": 6,
+   "energy": 6
+  },
+  "headline": "Mặt nước chưa hoàn toàn phẳng, nhưng thuyền đã rời bến.",
+  "card_meaning": "Sáu Kiếm vẽ một chiếc thuyền nhỏ lướt qua mặt nước, bên trái là sóng rối, bên phải là mặt nước phẳng dần. Trên thuyền có người lái, một người phụ nữ khoác áo choàng và một đứa trẻ, cùng sáu thanh kiếm cắm đứng tượng trưng cho những lo âu và nỗi đau họ vẫn mang theo. Họ không bỏ chạy, họ đang chuyển sang vùng nước yên hơn. Ở chiều xuôi, lá bài là hành trình rời xa một giai đoạn khó khăn, chậm nhưng có hướng. Hôm nay nó đáng chú ý vì cảm giác nhẹ đi của bạn có cơ sở, dù nỗi đau chưa hết hẳn.",
+  "forecast": [
+   "Có xu hướng bạn thấy một chuyện từng đè nặng bắt đầu bớt chiếm chỗ trong đầu, nhất là lúc đang làm một việc khác.",
+   "Một tin hoặc một lời gợi ý cho thấy hướng đi mới có thể xuất hiện, qua email, một cuộc gọi hay một người quen.",
+   "Bạn dễ muốn yên tĩnh và ít trò chuyện hơn so với thường ngày, và điều đó không có gì sai."
+  ],
+  "love": "Tình cảm hôm nay nghiêng về sự êm dịu hơn là kịch tính. Nếu đang tìm hiểu ai, một cuộc trò chuyện thong thả có khả năng đưa hai người gần nhau hơn một màn tỏ bày to tát. Người đang yêu nên dành cho nhau một khoảng yên, như nấu một bữa đơn giản và tắt bớt thông báo. Người độc thân có thể nhận ra mình đã sẵn sàng hơn để nhìn về phía trước, dù chưa vội gặp ai.",
+  "career": "Có thể một dự án khó đang được đẩy sang giai đoạn sau, hoặc bạn đang tìm cách rời một môi trường căng thẳng sang nơi dễ thở hơn. Hãy xếp việc theo thứ tự và làm từng việc một, bắt đầu bằng việc nhỏ nhất để lấy nhịp. Nếu đang cân nhắc chuyển nhóm hay chuyển việc, ghi ra ba điều bạn muốn có ở chỗ mới. Sinh viên có thể thấy bài khó bớt rối khi chia nhỏ thành từng phần.",
+  "finance": "Dòng tiền có xu hướng ổn dần nếu bạn đã chịu cắt bớt phần chi không cần thiết trong thời gian gần đây. Hôm nay hợp để rà lại kế hoạch chi tiêu cho giai đoạn mới, như xem khoản nào thuộc về thời đã qua và không còn cần nữa. Chưa cần quyết định lớn, chỉ cần một bảng ghi đơn giản. Cảm giác nhẹ nhõm khi thấy các con số bắt đầu khớp lại đáng được ghi nhận.",
+  "insight": "Có thể bạn vẫn nghĩ mình chưa có quyền thấy nhẹ vì chuyện chưa xong hẳn, như thể nhẹ lòng là một sự phản bội với những gì đã trải qua. Nhưng rời đi từng chút cũng đã là đang rời đi, và không ai bắt bạn phải đến nơi mới được thở. Con thuyền trong lá bài vẫn chở theo kiếm, điều khác là nước phía trước bớt dữ và bạn đang được phép nhìn nó.",
+  "memorable_message": "Không ai chèo thuyền rời bờ mà vẫn cố mang cả bến theo.",
+  "advice": "Chọn một vật, một cuộc trò chuyện hoặc một thói quen thuộc giai đoạn cũ và nhẹ tay đặt nó xuống hôm nay, ví dụ xóa một đoạn chat chỉ để lại đau, hoặc cất một món đồ vào hộp. Làm vào buổi tối, lúc đã xong việc. Giữ lại điều học được, chỉ bỏ phần đau. Không cần nghi thức hay quyết định lớn.",
+  "keywords": [
+   "rời đi",
+   "nhẹ dần",
+   "bình yên"
+  ]
+ },
+ {
+  "card_id": "six-of-swords",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Bạn không cần tự chèo một mình: hôm nay có người hoặc lời khuyên giúp bạn qua đoạn nước khó.",
+  "card": {
+   "name": "Sáu Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 7,
+   "finance": 6,
+   "energy": 7
+  },
+  "headline": "Chuyển đi không có nghĩa là bỏ chạy.",
+  "card_meaning": "Trong Sáu Kiếm, người đứng cuối thuyền cầm sào là chi tiết dễ bị bỏ qua: bạn không thấy mặt anh, nhưng nhờ anh mà thuyền đi đúng hướng. Lá bài nhắc rằng việc chuyển giữa hai giai đoạn thường cần người dẫn đường, một lời khuyên hoặc một chỗ dựa. Nó cũng nhắc rằng đổi chỗ hay rời đi không đồng nghĩa với bỏ cuộc, đôi khi đó là cách tỉnh táo nhất để giữ sức. Ở chiều xuôi, năng lượng nghiêng về chuyển động có hỗ trợ, với những thay đổi về nơi chốn hay cách làm. Hôm nay đáng chú ý vì bạn không phải tự chèo một mình.",
+  "forecast": [
+   "Có thể một người đáng tin đưa ra lời chỉ dẫn đúng lúc bạn đang lưỡng lự, có thể là đàn anh, bạn thân hay một người mới quen.",
+   "Có xu hướng liên quan đến di chuyển, đổi chỗ, đổi lịch hoặc đổi cách làm, dù chỉ là một thay đổi nhỏ.",
+   "Bạn dễ thấy rõ trong hành lý của mình thứ nào đáng giữ, thứ nào chỉ làm thuyền chậm."
+  ],
+  "love": "Nếu giữa hai người có khoảng cách hoặc căng thẳng, hôm nay là lúc đổi không gian để nói chuyện, như đi dạo hoặc ngồi quán mới thay vì ngồi đối diện ở nhà. Người đang yêu sẽ thấy dễ chịu khi có một chuyến đi nhỏ cùng nhau. Người đang tìm hiểu có thể hỏi bạn bè chung xem nên làm gì tiếp theo. Người độc thân có thể gặp ai đó qua một môi trường mới, như lớp học hay nhóm sở thích.",
+  "career": "Một thay đổi về vị trí, nhóm, lớp học hoặc cách làm có khả năng đang đến gần. Hỏi người đi trước, họ có thể chỉ cho bạn con đường ngắn hơn và cho biết chỗ nào dễ vấp. Đừng ngại nhờ giúp, đó cũng là một kỹ năng, và người được nhờ thường vui hơn bạn nghĩ. Nếu đang bàn giao công việc cho ai, viết sẵn vài dòng hướng dẫn sẽ giúp cả hai nhẹ đầu.",
+  "finance": "Chi phí liên quan đến di chuyển hoặc đổi chỗ ở, đổi việc, như tiền xe, tiền cọc hay đồ dùng mới, có thể xuất hiện. Hãy liệt kê trước các khoản đó để không bị bất ngờ, kể cả khoản nhỏ. Dòng tiền nhìn chung vẫn trong tầm kiểm soát nếu bạn nhìn thấy chúng sớm. Có thể hỏi một người từng trải qua việc tương tự để biết khoản nào hay bị bỏ sót.",
+  "insight": "Có thể bạn quen làm người chèo thuyền cho mọi người, nên khi tới lượt mình cần được chở, bạn thấy ngại hoặc thấy mình yếu. Nhận giúp đỡ không làm bạn kém độc lập, nó chỉ giúp bạn đến bờ với nhiều sức hơn. Có khi điều khó nhất hôm nay không phải là thay đổi, mà là cho phép ai đó ở cạnh trong lúc bạn thay đổi.",
+  "memorable_message": "Thuyền nào cũng cần người lái, nhưng không thuyền nào cấm bạn ngồi nghỉ.",
+  "advice": "Nhờ đúng một người làm đúng một việc nhỏ mà bạn vẫn gồng làm một mình, ví dụ xem giúp một bản nháp hoặc đi cùng đến một nơi lạ. Nhắn trước buổi trưa, nói ngắn gọn bạn cần gì và trong bao lâu. Khi họ nhận lời, chỉ cần cảm ơn, không giải thích quá nhiều về lý do mình cần giúp.",
+  "keywords": [
+   "nhận giúp đỡ",
+   "đổi chỗ",
+   "đi tiếp"
+  ]
+ },
+ {
+  "card_id": "six-of-swords",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Đầu óc bạn bắt đầu lắng sau một giai đoạn nghĩ nhiều, và sự bình tĩnh này đáng được bảo vệ.",
+  "card": {
+   "name": "Sáu Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 7,
+   "finance": 6,
+   "energy": 6
+  },
+  "headline": "Có những bình yên chỉ tới khi bạn thôi phân tích.",
+  "card_meaning": "Hãy nhìn nửa bên phải của tranh Sáu Kiếm: mặt nước phẳng như gương, không sóng, không tiếng động. Đó là hình ảnh của một đầu óc đã qua giai đoạn nghĩ nhiều và bắt đầu tìm lại sự tĩnh. Kiếm là biểu tượng của tư duy, nên sáu thanh kiếm trong thuyền gợi những vòng suy nghĩ vẫn theo bạn nhưng không còn đâm mạnh. Ở chiều xuôi, lá bài là sự hồi phục dịu dàng của tâm trí: bớt phân tích, bớt tự vấn, nhiều khoảng lặng hơn. Hôm nay đáng chú ý vì sự bình tĩnh này còn mới, và đáng được bảo vệ khỏi những cuộc khuấy động không cần thiết.",
+  "forecast": [
+   "Có xu hướng bạn bớt quay lại một câu hỏi cứ lặp đi lặp lại những ngày trước, và nhận ra điều đó khá muộn.",
+   "Một cuộc trò chuyện nhẹ với người hiểu chuyện có thể giúp bạn gọi tên điều đã qua mà không cần kể quá dài.",
+   "Buổi tối dễ là lúc cảm giác nhẹ nhõm rõ nhất, khi căn nhà hay con phố đã bớt ồn."
+  ],
+  "love": "Cảm xúc dịu và ít phản ứng, thích hợp để nói chuyện nghiêm túc mà không cần to tiếng hay lên giọng. Nếu còn nhớ người cũ, hôm nay bạn có thể nhớ mà không đau, như nhớ một nơi từng ở. Người đang yêu nên giữ cho buổi tối yên tĩnh bên nhau, không cần chương trình gì. Người đang tìm hiểu nên để cuộc trò chuyện chậm lại, vì sự thoải mái đôi khi hấp dẫn hơn sự hào hứng.",
+  "career": "Tâm trí bớt rối giúp bạn quyết nhanh những việc tồn đọng, như trả lời email cũ hay chốt một lựa chọn đã để lâu. Tắt thông báo một lúc và làm việc cần tập trung trước, khi đầu còn sáng. Học sinh sinh viên có thể thấy bài vào đầu dễ hơn, nhất là khi ôn một mình trong không gian yên. Đừng nhận thêm việc chỉ vì thấy mình đang khỏe, hãy giữ sự thong thả này.",
+  "finance": "Không có biến động lớn, nhưng khi đầu óc bớt ồn, bạn dễ thấy chỗ tiền đang rò rỉ, như gói đăng ký quên hủy hay khoản ăn ngoài nhỏ lặp lại mỗi ngày. Một lần rà sao kê ngắn mười phút là đủ cho hôm nay. Chỉ cần đánh dấu ba khoản bạn thấy lấn cấn, chưa cần cắt ngay. Sự tỉnh táo hôm nay hợp để nhìn, chưa cần hành động mạnh.",
+  "insight": "Có thể bạn đang chờ cho đến khi hết đau hẳn rồi mới cho phép mình đi tiếp, như người đứng trên bờ chờ nước phẳng rồi mới xuống thuyền. Thực tế, bình yên thường đến khi bạn đã đi được một đoạn, vì chuyển động giúp đầu óc bớt xoay vòng. Có thể điều bạn cảm thấy hôm nay không phải là hết chuyện, mà là chuyện đã bớt quyền lực với mình.",
+  "memorable_message": "Mặt hồ chỉ trong khi bạn thôi khuấy nó.",
+  "advice": "Dành mười phút không màn hình, ngồi yên cạnh cửa sổ hoặc đi chậm quanh khu nhà, để đầu óc tự lắng. Làm vào lúc bạn thấy ồn nhất trong ngày, thường là giữa chiều. Nếu một ý nghĩ cũ trồi lên, ghi một dòng vào điện thoại rồi để đó. Việc gì cần nghĩ thêm thì mai nghĩ tiếp.",
+  "keywords": [
+   "lắng lại",
+   "bình tĩnh",
+   "đi tiếp"
+  ]
+ },
+ {
+  "card_id": "six-of-swords",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Có một điều cũ bạn chưa buông, và nó đang kéo chậm nhịp bước của ngày hôm nay.",
+  "card": {
+   "name": "Sáu Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 4,
+   "finance": 4,
+   "energy": 4
+  },
+  "headline": "Con thuyền đã sẵn, chỉ có chiếc neo là bạn chưa chịu cắt.",
+  "card_meaning": "Khi Sáu Kiếm bị đảo, chiếc thuyền trong tranh như đứng lại giữa hai bờ: sóng cũ vẫn quanh, mặt nước phẳng ở xa chưa chạm tới. Lá bài lúc này nói về những gì chưa rời đi được, như ký ức, người cũ hay một cách nghĩ đã không còn hợp. Nó không trách bạn chậm, vì đôi khi chiếc neo là thứ từng giữ bạn an toàn. Ý của lá bài là thứ từng bảo vệ bạn có thể đang giữ bạn đứng yên. Hôm nay đáng chú ý vì sự níu giữ hiện ra ở những chuyện rất nhỏ, như một dòng tin nhắn hay một thói quen.",
+  "forecast": [
+   "Có xu hướng một ký ức hoặc một người cũ xuất hiện trong đầu đúng lúc bạn cần tập trung, như giữa buổi họp hay khi đang học bài.",
+   "Bạn dễ kể lại một chuyện cũ lần nữa và thấy nó vẫn nóng như hôm qua.",
+   "Một lời mời đổi hướng có thể đến, nhưng bạn dễ viện lý do để lùi lại."
+  ],
+  "love": "Có thể bạn đang so sánh người hiện tại với một người đã qua, và người hiện tại luôn thua trong cuộc so sánh không công bằng đó. Nếu thấy mình làm vậy, hãy dừng một nhịp và hỏi xem mình đang nhớ con người đó hay nhớ cảm giác ngày ấy. Người đang yêu nên nói với nhau những điều của hiện tại thay vì kể lại quá khứ. Người độc thân nên nhìn lại xem mình đang chờ ai hay đang ngại ai.",
+  "career": "Công việc có xu hướng chậm vì bạn bám vào cách làm cũ, dù nó từng hiệu quả. Thử đổi một bước nhỏ trong quy trình, như đổi thứ tự làm việc hoặc dùng một công cụ mới, thay vì đợi một cuộc đổi lớn. Nếu đầu còn nghĩ về một chuyện đã qua ở chỗ làm cũ, ghi ra giấy rồi đóng lại. Sinh viên có thể thấy khó vào bài khi đầu còn đầy chuyện khác, nên chia việc học thành từng đoạn hai mươi lăm phút.",
+  "finance": "Có thể còn thói quen chi tiêu từ giai đoạn cũ không còn hợp với hoàn cảnh hiện tại, như gói đăng ký cũ, thói quen mua sắm giải stress hay khoản góp cho một kế hoạch đã đổi. Xem lại một khoản đăng ký hoặc chi định kỳ mà bạn đã không dùng nữa và quyết định giữ hay bỏ. Hạn chế quyết định lớn hôm nay vì đầu còn vướng. Chỉ cần cắt một khoản nhỏ là đủ tạo đà.",
+  "insight": "Có thể bạn không sợ thay đổi, mà sợ phải thừa nhận rằng chương cũ thật sự đã khép. Giữ lại cơn đau cũng là một cách để chưa phải chia tay, vì nếu còn đau thì chuyện vẫn còn thuộc về mình. Nhưng cái neo không cần gỡ hết trong một lần. Chỉ cần nhận ra mình đang giữ nó, bạn đã khác so với hôm qua.",
+  "memorable_message": "Chiếc neo giữ thuyền an toàn ở bến, nhưng cũng giữ nó không bao giờ ra khơi.",
+  "advice": "Tìm xem điều gì bạn đang giữ chỉ vì đã quen, như một cuộc trò chuyện cũ trong điện thoại hay một thói quen ngày nào cũng lặp, rồi cắt giảm một phần nhỏ. Làm ngay trong buổi sáng, trước khi đầu kịp tìm lý do. Hôm nay không cần bỏ hết, chỉ cần nới tay một chút và xem mình thấy gì.",
+  "keywords": [
+   "neo cũ",
+   "chưa buông",
+   "nới tay"
+  ]
+ },
+ {
+  "card_id": "six-of-swords",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Bạn đang đứng trước một thay đổi và chọn ở yên cho an toàn, dù chỗ này đã bớt thoải mái.",
+  "card": {
+   "name": "Sáu Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 4,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Ở yên cũng là một lựa chọn, và nó cũng có giá.",
+  "card_meaning": "Chiều ngược của Sáu Kiếm là cảnh con thuyền vẫn nằm bên bờ trong khi sáu thanh kiếm đã được xếp lên. Mọi thứ đã sẵn sàng cho chuyến đi, chỉ còn thiếu một cú đẩy sào. Lá bài ở chiều này nói về sự kháng cự thay đổi: người ta thường không ở yên vì thích chỗ đó, mà vì nó quen và nỗi sợ điều chưa biết còn mạnh hơn nỗi khó chịu đang có. Đôi khi đó chỉ là chưa đủ thông tin để đi. Hôm nay đáng chú ý vì có một quyết định đã nằm đó đủ lâu để bắt đầu có trọng lượng.",
+  "forecast": [
+   "Có xu hướng bạn tìm thêm một lý do để hoãn một quyết định đã nằm đó vài tuần.",
+   "Một người xung quanh có thể thúc bạn hành động, và bạn dễ thấy khó chịu dù biết họ có ý tốt.",
+   "Cảm giác ì ạch dễ xuất hiện vào buổi chiều, khi danh sách việc vẫn còn nguyên."
+  ],
+  "love": "Một mối quan hệ có thể đang đứng yên vì cả hai đều ngại nói điều cần nói, như chuyện tương lai hay chuyện muốn gì. Hãy chọn một câu thật nhỏ nhưng thật, thay vì chờ thời điểm hoàn hảo sẽ không đến. Người đang tìm hiểu nên hỏi nhẹ nhàng hai người đang ở đâu với nhau. Người độc thân dễ từ chối cơ hội vì đã quen sự một mình, nên thử nhận một lời mời mà bình thường mình sẽ bỏ qua.",
+  "career": "Bạn dễ ngại nhận một vị trí hoặc dự án mới vì chưa tin mình làm được, dù người khác đã thấy bạn đủ khả năng. Hỏi rõ yêu cầu và thời hạn sẽ giúp giảm mơ hồ, và mơ hồ mới là thứ làm nỗi sợ to ra. Việc đã hoãn nhiều lần nên được làm trong ba mươi phút đầu của buổi làm, trước khi kịp viện lý do. Sinh viên có thể thử đăng ký một hoạt động mà mình cứ để ngỏ.",
+  "finance": "Sự trì trệ có thể thể hiện qua việc chưa lên kế hoạch hoặc chưa kiểm tra các khoản cần xử lý, như hóa đơn chưa đóng, quỹ dự phòng chưa lập hay sao kê chưa xem. Chọn một việc giấy tờ hoặc sổ sách nhỏ và làm xong ngay trong ngày. Cảm giác nhẹ sau đó đáng giá hơn bạn nghĩ, vì nó cho bạn bằng chứng rằng mình làm được.",
+  "insight": "Có thể thứ bạn gọi là thận trọng thực ra là một nỗi sợ chưa được gọi tên. Thận trọng thì có thông tin và điều kiện rõ ràng, còn nỗi sợ thì chỉ thấy toàn mơ hồ. Khi viết ra điều tệ nhất có thể xảy ra, bạn thường thấy nó không to bằng trong đầu và thường có cách xoay xở. Điều đáng hỏi hôm nay là mình đang chờ thêm thông tin, hay chờ thêm can đảm.",
+  "memorable_message": "Đứng yên giữa dòng nước cũng mỏi chân như đi.",
+  "advice": "Viết một dòng cho điều tệ nhất có thể xảy ra nếu bạn bước đi, rồi viết một dòng cho điều sẽ xảy ra nếu bạn tiếp tục không bước. So hai dòng đó rồi quyết. Làm khi đang một mình và còn tỉnh táo, như đầu giờ chiều, và chọn một bước nhỏ có thể làm trong vòng một tiếng sau đó.",
+  "keywords": [
+   "sợ thay đổi",
+   "trì hoãn",
+   "bước nhỏ"
+  ]
+ },
+ {
+  "card_id": "six-of-swords",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Bạn đang mang quá nhiều thứ không phải của mình, nên con thuyền nhích đi rất chậm.",
+  "card": {
+   "name": "Sáu Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 4,
+   "finance": 4,
+   "energy": 4
+  },
+  "headline": "Không phải thuyền chậm, mà là hành lý quá nặng.",
+  "card_meaning": "Nếu để ý, thuyền trong Sáu Kiếm khá nhỏ mà chở khá nhiều: người, trẻ nhỏ, sáu thanh kiếm. Ở chiều ngược, hình ảnh này nói về việc con thuyền chậm không phải vì thiếu sức chèo mà vì tải quá nặng. Những thanh kiếm ở đây là lo âu, trách nhiệm hoặc cảm xúc, và không phải cái nào cũng của bạn. Lá bài gợi ý một sự quá tải âm thầm, nơi bạn quen chịu đựng đến mức không còn phân biệt gánh của mình với gánh nhặt thêm. Hôm nay đáng chú ý vì cảm giác mệt có thể đến mà không cần một lý do lớn.",
+  "forecast": [
+   "Có xu hướng bạn nhận thêm việc hoặc nhận thêm tâm sự của người khác dù mình đã đầy, nhất là khi họ nhờ rất nhẹ nhàng.",
+   "Một khoảnh khắc mệt đột ngột có thể đến, dù chưa có chuyện gì lớn xảy ra.",
+   "Bạn dễ nghĩ đến chuyện rời một nơi hoặc một vai trò nhưng chưa dám nói với ai."
+  ],
+  "love": "Bạn có thể đang gánh cảm xúc cho cả hai người và giữ im lặng để giữ hòa khí, dù trong lòng đã hơi đầy. Thử nói một điều bạn cần, kể cả khi nghe không dễ thương, ví dụ hôm nay mình cần được yên một chút. Người đang yêu nên để người kia tự lo phần cảm xúc của họ. Người độc thân nên tránh cứu giúp một ai đó chỉ vì thương hại, vì thương hại hiếm khi thành nền tốt cho một mối quan hệ.",
+  "career": "Khối lượng việc hoặc vai trò đang kéo bạn chậm lại, và bạn dễ ôm luôn việc của người khác vì thấy tiện tay. Học cách nói không với một việc hôm nay là bài tập tốt, ví dụ chuyển lại một yêu cầu về đúng người phụ trách. Liệt kê đầu việc cũng giúp thấy cái nào thực sự thuộc về mình. Sinh viên nên ưu tiên việc thật sự của mình trước bài nhóm của người khác.",
+  "finance": "Có thể bạn đang chi hoặc cho mượn nhiều hơn khả năng vì ngại từ chối, từ tiền ăn đến một khoản giúp bạn bè. Đặt một mức giới hạn rõ ràng cho các khoản giúp người khác mỗi tháng, và nhớ phần của mình vẫn cần được lo. Nếu ai đó nhờ, bạn có thể đáp để mình xem rồi nhắn lại, thay vì đồng ý ngay. Giúp có điểm dừng thì giúp được lâu hơn.",
+  "insight": "Có thể bạn quen xem việc chịu đựng là phẩm chất, nên khó nhận ra khi nào nó thành tự bỏ rơi mình. Người luôn nhận thêm thường không nghĩ mình đang quá tải, họ chỉ thấy mình hơi mệt. Mệt không có nghĩa là bạn yếu, chỉ là hành lý đã quá tải so với con thuyền. Câu hỏi đáng thử là thứ nào trong thuyền không phải do mình bỏ vào.",
+  "memorable_message": "Nhẹ đi không phải là bỏ rơi ai, mà là để khỏi chìm cùng tất cả.",
+  "advice": "Hôm nay thử đặt xuống một thứ không phải của bạn, bằng một câu lịch sự như hôm nay mình chưa nhận thêm được, hoặc việc này nên hỏi bạn A. Nói câu đó vào lần đầu tiên bị nhờ trong ngày, đừng đợi đến khi quá mệt. Bạn vẫn giữ được sự tử tế với người khác, và với cả chính mình.",
+  "keywords": [
+   "quá tải",
+   "nói không",
+   "giảm gánh"
+  ]
+ },
+ {
+  "card_id": "seven-of-swords",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay sự khôn khéo có chỗ dùng: bạn có thể đạt điều mình cần bằng đường vòng, miễn là không vòng qua sự thật.",
+  "card": {
+   "name": "Bảy Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 6,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Chiến lược tốt không cần giấu ai điều gì.",
+  "card_meaning": "Bảy Kiếm vẽ một người rón rén rời khỏi trại, ôm năm thanh kiếm trong tay, bỏ lại hai thanh cắm trên đất và ngoái nhìn như sợ ai bắt gặp. Anh ta khôn, nhưng cũng đang liều. Lá bài nói về chiến lược, mưu mẹo và sự khéo léo, đồng thời nhắc rằng cái khôn nào không dám nói thành lời thì có phần mong manh. Ở chiều xuôi, đó là năng lượng của người biết tính trước, giữ kín một phần, đi đường vòng để đạt điều mình cần. Hôm nay đáng chú ý vì bạn có thể nghiêng về lối đi khéo hơn lối đi thẳng, và câu hỏi là khéo đến đâu thì còn đàng hoàng.",
+  "forecast": [
+   "Có xu hướng bạn cân nhắc cách đi khéo hơn là đối đầu thẳng với một việc, nhất là việc liên quan đến người có vị thế cao hơn.",
+   "Có thể bạn nhận ra một đường tắt hợp lý trong công việc mà người khác chưa để ý, như một bước có thể bỏ hoặc gộp.",
+   "Một chi tiết bạn đang giữ cho riêng mình sẽ quyết định ngày hôm nay dễ hay khó."
+  ],
+  "love": "Bạn có thể giữ kín cảm xúc hoặc vài suy nghĩ vì sợ bị đánh giá, nhất là với người mới quen. Giữ riêng một chút thì ổn, nhưng nếu nó thành tránh nói điều quan trọng thì khoảng cách sẽ lớn hơn bạn nghĩ. Người đang yêu thử chia sẻ một điều nhỏ mình thường giấu, như một nỗi lo hay một bận tâm. Người độc thân dễ tán tỉnh khéo, miễn là thật, vì sự khéo léo đứng trên sự giả vờ rất dễ lộ.",
+  "career": "Năng lượng hợp để lập kế hoạch, tính trước các bước và chuẩn bị phương án hai trước một cuộc họp quan trọng. Dùng sự khôn ngoan để tiết kiệm công sức, như tìm cách làm gọn hơn, không dùng để qua mặt ai. Nếu đang đàm phán, biết rõ điều mình cần và điều mình có thể nhường là lợi thế thật. Sinh viên có thể tìm cách học thông minh hơn là học nhiều hơn, như lập sơ đồ hay hỏi người từng thi.",
+  "finance": "Hôm nay hợp để tính toán chi tiêu một cách tỉnh táo và tìm cách cắt các khoản thừa, như so sánh giá hay xem lại gói cước. Tránh các lời hứa có vẻ được lợi quá nhanh mà thiếu giải thích rõ ràng, nhất là những lời mời nhắn qua tin nhắn. Nếu một cách tiết kiệm đòi hỏi phải che giấu với người chung tiền, nên nghĩ lại. Khéo mà minh bạch vẫn bền hơn.",
+  "insight": "Có thể bạn quen tự xoay xở một mình, nên quên rằng nói ra kế hoạch đôi khi lại tạo được đồng minh. Giữ kín giúp bạn an toàn, nhưng cũng làm bạn phải gánh mọi rủi ro một mình và luôn phải canh chừng. Khôn ngoan mà thiếu minh bạch thường khiến bạn cô độc ở đích đến. Thử hình dung một kế hoạch bạn dám kể to cho người trong cuộc nghe, đó thường là kế hoạch tốt.",
+  "memorable_message": "Đường vòng đẹp nhất là đường vòng mà bạn dám kể lại cho người khác nghe.",
+  "advice": "Lập một kế hoạch khéo cho một việc khó hôm nay, viết ra ba bước và người liên quan ở mỗi bước. Rồi tự hỏi bạn có thoải mái kể kế hoạch đó với người liên quan không. Nếu không, chỉnh lại một chút cho tới khi trả lời được là có. Làm việc này vào đầu ngày, trước khi bắt tay vào việc.",
+  "keywords": [
+   "chiến lược",
+   "khéo léo",
+   "minh bạch"
+  ]
+ },
+ {
+  "card_id": "seven-of-swords",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Có xu hướng thông tin hôm nay thiếu một mảnh, nên hãy kiểm chứng trước khi tin hoặc kết luận.",
+  "card": {
+   "name": "Bảy Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Nghe một nửa câu chuyện là cách nhanh nhất để hiểu sai.",
+  "card_meaning": "Hãy nhìn người đàn ông trong Bảy Kiếm không như kẻ trộm, mà như một mảnh của câu chuyện: bạn chỉ thấy anh ta ôm kiếm đi, không biết vì sao, kiếm thuộc về ai, anh có được phép hay không. Đó chính là bài học của lá bài về thông tin không đầy đủ. Ở chiều xuôi, nó cảnh báo về nửa sự thật, lời hứa đẹp thiếu chi tiết và những điều được nói giảm đi. Nó không bảo bạn nghi ngờ mọi người, chỉ nhắc xác minh trước khi tin. Hôm nay đáng chú ý vì có một chỗ trống trong thông tin mà bạn dễ tự điền bằng tưởng tượng.",
+  "forecast": [
+   "Một lời hứa hoặc một tin đồn có thể nghe hợp lý nhưng thiếu chi tiết quan trọng, nhất là khi đến qua tin nhắn hoặc nhóm chat.",
+   "Có thể có người nói giảm một phần sự thật để mình trông ổn hơn.",
+   "Bạn dễ bắt gặp một mâu thuẫn nhỏ giữa điều ai đó nói và điều họ làm."
+  ],
+  "love": "Nếu có điều gì không khớp giữa cách đối phương nói và cách họ làm, hãy hỏi thẳng thay vì tự diễn trong đầu. Đừng vội kết luận ai đang giấu, chỉ cần quan sát và ghi nhận vài lần. Người đang tìm hiểu nên chú ý xem lời hẹn có đi cùng hành động không. Người độc thân nên chậm lại với người nói quá nhiều lời đẹp ngay từ đầu, vì sự nhất quán mới là thứ đáng tin theo thời gian.",
+  "career": "Cần cẩn thận với cam kết miệng, hãy xác nhận lại bằng một tin nhắn hoặc email ngắn kiểu mình thống nhất thế này nhé. Một báo cáo hoặc con số có thể thiếu sót, nên kiểm lần hai trước khi gửi đi hay trình bày. Nếu ai đó đổ lỗi quá nhanh, hỏi về dữ liệu thay vì tranh cãi. Sinh viên nên kiểm lại nguồn trước khi dùng cho bài làm, kể cả khi nguồn đó xuất hiện đầu tiên.",
+  "finance": "Cẩn thận với ưu đãi quảng cáo hoặc lời mời hợp tác nghe quá hấp dẫn mà thiếu giấy tờ rõ ràng, nhất là khi bị thúc phải quyết ngay. Đọc điều khoản, hỏi lại điều mơ hồ và đối chiếu với một nguồn thứ hai. Giữ tiền của mình ở chỗ mình hiểu rõ cách hoạt động. Nếu ai đó nói đừng kể với người khác, đó là tín hiệu để dừng lại.",
+  "insight": "Có thể bạn đang bỏ qua một cảm giác lấn cấn nhỏ vì không muốn nghi ngờ người khác, sợ mình nhỏ nhen. Cảm giác lấn cấn không phải lời buộc tội, nó chỉ là một lời nhắc kiểm tra. Bạn có thể vừa tử tế vừa tỉnh táo, hai điều này không loại trừ nhau. Thường điều làm ta mất nhiều nhất không phải sự lừa dối, mà là việc tránh hỏi một câu đã nằm sẵn trong đầu.",
+  "memorable_message": "Niềm tin tốt nhất là niềm tin có biên lai.",
+  "advice": "Với mỗi thông tin quan trọng hôm nay, hỏi thêm một câu cho rõ hoặc xác nhận lại bằng văn bản, ví dụ cho mình hỏi lại là phần này ai chịu trách nhiệm nhé. Ưu tiên làm vậy với những việc liên quan đến tiền, thời hạn hoặc lời hứa. Giọng lịch sự, nhẹ nhàng, nhưng đủ để bạn yên tâm.",
+  "keywords": [
+   "kiểm chứng",
+   "cảnh giác",
+   "nửa sự thật"
+  ]
+ },
+ {
+  "card_id": "seven-of-swords",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Người dễ bị bạn qua mặt nhất hôm nay có thể là chính bạn: một đường tắt nghe hợp lý nhưng trả giá sau.",
+  "card": {
+   "name": "Bảy Kiếm",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 6
+  },
+  "headline": "Né việc khó hôm nay, nó sẽ đứng chờ bạn vào ngày mai.",
+  "card_meaning": "Trong Bảy Kiếm, hai thanh kiếm bị bỏ lại trên đất là chi tiết hay bị bỏ qua: người đàn ông chỉ mang được năm, và tự nhủ thế là đủ. Lá bài nói về những lần ta lấy đường tắt rồi bỏ lại phần khó, kể cả khi người duy nhất bị lừa là chính mình. Ở chiều xuôi, đó là sự né tránh có lý do hợp lý, những phiên bản chỉnh sửa của sự thật để đỡ khó xử. Lá bài không buộc tội, nó chỉ chỉ ra hai thanh kiếm còn nằm trên mặt đất. Hôm nay đáng chú ý vì đường tắt thường trông rất thông minh vào đúng lúc bạn mệt.",
+  "forecast": [
+   "Có xu hướng bạn tìm ra một lý do rất hợp lý để làm việc dễ trước và để việc khó sau.",
+   "Một đường tắt xuất hiện, hấp dẫn nhưng bỏ qua một bước quan trọng.",
+   "Có thể bạn kể một phiên bản đã chỉnh sửa của một câu chuyện để mình đỡ khó xử."
+  ],
+  "love": "Bạn có thể nói giảm đi một chuyện nhỏ như hôm nay đi đâu hoặc với ai để tránh cãi. Chuyện nhỏ tích lại sẽ thành một khoảng im lặng lớn mà không ai nhớ bắt đầu từ đâu. Người đang yêu nên chọn nói thật những điều dễ nghe nhất trước, rồi tới điều khó hơn. Người độc thân nên trung thực về điều mình muốn thay vì nói theo kiểu dễ nghe, vì người phù hợp sẽ đến từ sự thật đó.",
+  "career": "Dễ có cám dỗ làm cho xong để qua vòng kiểm tra, hoặc đẩy trách nhiệm sang người khác khi thấy việc rắc rối. Hãy giữ chất lượng ở phần cốt lõi và nhờ giúp ở phần còn lại, thay vì cắt xén lặng lẽ. Nếu thiếu thời gian, nói sớm với người phụ trách luôn rẻ hơn bị phát hiện sau. Sinh viên nên tránh làm ẩu rồi hy vọng không bị hỏi.",
+  "finance": "Có thể có một khoản bạn tránh nhìn vì sợ con số, như dư nợ thẻ, tiền quên đóng hay khoản đã chi vượt. Nhìn nó hôm nay, dù chỉ năm phút, nhẹ hơn là tiếp tục né mỗi ngày. Đừng giấu một khoản chi với người cùng chia tài chính, vì sự giấu giếm tốn nhiều năng lượng hơn chính khoản chi. Viết ra con số trước, chưa cần giải pháp.",
+  "insight": "Có thể bạn không lười, bạn chỉ đang né cảm giác khó chịu khi bắt đầu. Cảm giác đó khá giống nhau ở nhiều người: bụng hơi thắt, đầu tự nghĩ ra việc khác. Sự khó chịu đó thường chỉ kéo dài mười phút đầu, rồi nhường chỗ cho đà làm việc. Điều đáng để ý là mỗi lần né, bạn học thêm rằng việc đó đáng sợ, và bài học này không có lợi.",
+  "memorable_message": "Đường tắt luôn có người thu phí, chỉ là họ gửi hóa đơn muộn.",
+  "advice": "Chọn việc bạn đang né nhất và làm đúng mười phút đầu, đặt đồng hồ, làm bản thô cũng được. Làm vào buổi sáng trước khi mở tin nhắn. Nếu thấy cần giấu hay chỉnh một chi tiết, đó là dấu hiệu bạn nên nói thật với người liên quan, hoặc ít nhất ghi lại sự thật cho chính mình.",
+  "keywords": [
+   "né tránh",
+   "đường tắt",
+   "thật với mình"
+  ]
+ },
+ {
+  "card_id": "seven-of-swords",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Điều bạn giữ kín đã đến lúc nhẹ đi: nói ra sớm thường rẻ hơn để người khác tự phát hiện.",
+  "card": {
+   "name": "Bảy Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Sự thật nói sớm luôn rẻ hơn sự thật bị lộ.",
+  "card_meaning": "Khi Bảy Kiếm bị đảo, người đàn ông trong tranh như dừng giữa đường, quay lại và đặt kiếm xuống. Chiều ngược của lá bài là khoảnh khắc điều giấu kín muốn được nói ra: thú nhận, hối lỗi, hoặc bị phát hiện trước khi kịp chạy. Điểm đáng chú ý là nó không nhất thiết là cuộc phán xét, nó có thể là cơ hội tự lên tiếng trước khi người khác làm thay. Năng lượng của lá lúc này là sự nặng nề của bí mật và cảm giác nhẹ của việc nói thật. Hôm nay đáng chú ý vì bạn dễ nhận ra mình đang mang một thứ không nên mang một mình.",
+  "forecast": [
+   "Có xu hướng bạn muốn thú nhận một sai sót nhỏ trước khi nó lớn lên, có thể là một việc trễ hay một câu nói giảm.",
+   "Cảm giác nhẹ người có thể xuất hiện ngay sau khi nói thật, dù trước đó khá run.",
+   "Một người có thể phản ứng dịu hơn bạn tưởng, nhất là khi bạn nói trước khi họ hỏi."
+  ],
+  "love": "Có thể có một điều bạn chưa nói với người mình thương, như một cảm xúc, một sai lầm nhỏ hay một chuyện cũ. Hôm nay là thời điểm tốt để nói, ngắn và thật, trong một lúc hai người cùng rảnh. Hãy mở đầu bằng mình muốn nói thật với bạn một chuyện, rồi vào thẳng điều chính. Người độc thân nên rõ ràng về điều mình đang tìm, kể cả khi nó nghe không giống mẫu người bình thường.",
+  "career": "Nếu có lỗi hoặc trễ hạn, hãy báo sớm cho người liên quan kèm một phương án sửa. Người ta thường bớt giận khi thấy bạn chủ động, và đôi khi còn đánh giá cao sự trung thực. Chuẩn bị sẵn thời gian thực tế thay vì hứa chung chung. Sinh viên có thể xin gia hạn bằng cách giải thích thật, ngắn gọn và kèm kế hoạch nộp bài.",
+  "finance": "Một khoản nợ, một chi tiêu bạn chưa nói hoặc con số bạn còn né có thể cần được đưa ra ánh sáng. Ngồi lại tính một lượt, rồi lập kế hoạch trả hoặc điều chỉnh theo từng tháng. Nếu liên quan đến người khác, nói với họ trước khi họ tự phát hiện. Nhẹ đầu hơn nhiều so với tiếp tục giấu, và thường con số thật không đáng sợ như trong tưởng tượng.",
+  "insight": "Có thể gánh nặng bạn mang không phải là sai lầm, mà là công sức giấu nó mỗi ngày: nhớ câu nào đã nói với ai, canh chừng ánh mắt, né một chủ đề. Khi thôi giấu, bạn lấy lại một phần năng lượng đã bị chiếm. Nói thật không xóa được điều đã xảy ra, nhưng nó đổi câu chuyện từ bí mật sang trách nhiệm, và trách nhiệm là thứ có thể xử lý.",
+  "memorable_message": "Chiếc túi giấu kín nặng nhất khi bạn là người duy nhất biết bên trong có gì.",
+  "advice": "Chọn điều đang làm bạn lấn cấn và chuẩn bị ba câu: chuyện gì đã xảy ra, bạn nhận phần nào, bạn sẽ sửa thế nào. Tập nói to một lần ở nhà, rồi nói với người liên quan vào lúc yên tĩnh trong ngày. Nói đúng ba câu đó, không biện hộ, và để người kia phản ứng theo cách của họ.",
+  "keywords": [
+   "thú nhận",
+   "nhẹ lòng",
+   "nói sớm"
+  ]
+ },
+ {
+  "card_id": "seven-of-swords",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Chuyện trước đó còn mờ có xu hướng lộ rõ hơn hôm nay, và cách bạn phản ứng quan trọng hơn chi tiết.",
+  "card": {
+   "name": "Bảy Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Khi sự thật lộ ra, hãy làm người đứng vững chứ đừng làm người phán xét.",
+  "card_meaning": "Ở chiều ngược, câu chuyện trong Bảy Kiếm được nhìn từ phía người chứng kiến: có ai đó bước ra khỏi lều và thấy dấu chân trên cát. Lá bài nói về những chuyện còn mờ đang được soi sáng, như một sự thật chợt lộ hay một điều ai đó kể mà không khớp với điều đã xảy ra. Điều quan trọng nằm ở thái độ khi biết: lá bài không bảo bạn trở thành người phán xét. Nó cho thấy sự thật chỉ là dữ liệu, và cách bạn phản ứng mới quyết định hậu quả. Hôm nay đáng chú ý vì bạn có thể phải xử lý thông tin mới trong lúc chưa chuẩn bị.",
+  "forecast": [
+   "Một thông tin hoặc một mâu thuẫn cũ có thể được làm sáng tỏ qua một lời nói tình cờ, trong bữa ăn hay một cuộc trò chuyện bên lề.",
+   "Có xu hướng bạn phát hiện một điều không như người ta kể.",
+   "Một tình huống bị che đậy có thể khiến vài người lúng túng trong chốc lát."
+  ],
+  "love": "Bạn có thể biết thêm một điều về đối phương hoặc về chính mình mà trước đó chưa rõ, có thể qua một câu nói lỡ hoặc một chi tiết vô tình thấy. Đừng phản ứng ngay lúc nóng, hãy hỏi để hiểu bối cảnh và để người kia kể phần của họ. Người đang yêu nên tránh lục lọi thêm, chỉ nói thẳng điều mình thấy. Người độc thân dễ nhận ra dấu hiệu đỏ mà trước giờ mình lờ đi.",
+  "career": "Một sai sót, một quy trình hoặc một thỏa thuận ngầm có thể bị đưa ra bàn. Giữ thái độ bình tĩnh và chỉ nói điều mình thấy, không suy đoán thêm về động cơ. Việc bạn làm đúng và rõ ràng, có ghi lại, sẽ bảo vệ bạn. Nếu có phần của mình trong đó, nói trước khi bị hỏi. Sinh viên nên giữ bản gốc bài làm và lịch sử trao đổi nhóm.",
+  "finance": "Một khoản chi hoặc điều khoản bị bỏ sót có khả năng lộ ra khi bạn rà lại, như phí ẩn, tiền gia hạn tự động hay số dư lệch. Kiểm tra sao kê hoặc hợp đồng đơn giản hôm nay có thể giúp bạn sửa sớm. Không cần hoảng, xử lý từng khoản một và ghi chú ngày đã xử lý. Nếu cần hỏi lại bên cung cấp, giữ giọng bình tĩnh và dẫn chứng cụ thể.",
+  "insight": "Có thể bạn sợ sự thật không phải vì nó tệ, mà vì nó buộc bạn đổi cách sống chung với nó. Chừng nào chưa biết, bạn vẫn có thể giữ mọi thứ như cũ. Nhưng biết rõ luôn dễ chọn hơn đoán mò, vì đoán mò tiêu tốn đúng thứ bạn đang thiếu là sự bình yên. Cái đau của việc biết thường ngắn hơn cái mệt của việc nghi ngờ kéo dài.",
+  "memorable_message": "Bật đèn không làm căn phòng bừa thêm, nó chỉ cho bạn biết chỗ cần dọn.",
+  "advice": "Khi nhận một thông tin gây sốc, đợi một tiếng rồi hẵng phản hồi, và trong thời gian đó đi bộ hoặc uống nước. Sau đó ghi ra hai cột: điều đã biết rõ và điều còn là suy đoán. Chỉ hành động dựa trên cột thứ nhất, và hỏi thêm để làm rõ cột thứ hai.",
+  "keywords": [
+   "lộ ra",
+   "bình tĩnh",
+   "làm rõ"
+  ]
+ },
+ {
+  "card_id": "seven-of-swords",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Niềm tin có thể được vá lại, nhưng bằng hành động nhất quán chứ không bằng một lời xin lỗi đẹp.",
+  "card": {
+   "name": "Bảy Kiếm",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 6,
+   "love": 5,
+   "career": 6,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Một lời xin lỗi chỉ thật khi nó đi cùng một thay đổi.",
+  "card_meaning": "Nếu Bảy Kiếm xuôi là khoảnh khắc người ta lén đi, thì chiều ngược của nó là phần sau đó: người ta nhìn lại và nhận ra mình đã làm gì với lòng tin của người khác. Lá bài gắn với hối lỗi, khả năng sửa sai và quá trình dựng lại sự tin cậy bằng việc làm đều đặn. Nó cũng nói về phía người bị tổn thương, khi họ cân nhắc cần gì để tin lại. Lá bài không hứa tha thứ nhanh, chỉ nhắc niềm tin được xây theo thời gian. Hôm nay đáng chú ý vì một lời xin lỗi hay nhận lỗi có thể xuất hiện, và cách đáp lại nó quan trọng.",
+  "forecast": [
+   "Có thể một người bày tỏ sự hối lỗi, hoặc chính bạn là người muốn làm vậy.",
+   "Bạn dễ nhận thấy khác biệt giữa lời xin lỗi để mình dễ chịu hơn và lời xin lỗi để sửa.",
+   "Một cuộc nói chuyện có thể mở lại những điều từng bị tránh, thường vào lúc yên tĩnh cuối ngày."
+  ],
+  "love": "Nếu có một vết nứt về niềm tin, hôm nay là lúc có thể nói chuyện nghiêm túc hơn. Người xin lỗi nên rõ ràng về điều sẽ làm khác đi, chứ đừng chỉ nói xin lỗi. Người nghe có quyền cần thời gian, không cần tha thứ ngay trong cuộc trò chuyện đầu tiên. Người đang tìm hiểu cũng vậy, hãy để hành động sau lời nói là thứ định giá, không phải sự ngọt ngào ban đầu.",
+  "career": "Có thể bạn phải sửa lại mối quan hệ với một đồng nghiệp hoặc khách hàng sau một sai sót. Hành động nhỏ như giao việc đúng hạn trong cả tuần này nói nhiều hơn lời giải thích. Cập nhật tiến độ chủ động cũng là cách làm lại uy tín. Sinh viên cũng vậy, một bài nộp đúng giờ và chỉn chu là cách xin lỗi tốt với nhóm và với giảng viên.",
+  "finance": "Nếu có chuyện tiền bạc làm mất lòng tin, như vay mượn hoặc chia tiền chưa rõ, hãy đặt lại thỏa thuận bằng văn bản, kể cả chỉ là một tin nhắn xác nhận. Ghi rõ số tiền, hạn trả và cách trả. Minh bạch từng khoản sẽ giúp hai bên bớt nghi ngờ. Nếu là người trả, giữ đúng từng mốc nhỏ quan trọng hơn trả một lần thật lớn rồi biến mất.",
+  "insight": "Có thể bạn đang mong người kia hiểu ý mình mà không cần nói, hoặc mong được tha mà không cần sửa. Cả hai đều cần một câu nói rõ ràng, vì sự im lặng dễ bị hiểu theo hướng xấu nhất. Lời xin lỗi tốt nhất thường nhỏ hơn bạn nghĩ và kéo dài hơn bạn nghĩ: một câu hôm nay, rồi nhiều hành động nhất quán trong những tuần sau. Chính sự lặp lại đó dựng lại lòng tin.",
+  "memorable_message": "Niềm tin là tấm kính vỡ: dán lại được, nhưng phải dán từng mảnh, mỗi ngày một mảnh.",
+  "advice": "Nếu bạn là người cần xin lỗi, hãy nói ba điều: mình đã làm gì, ảnh hưởng ra sao, mình sẽ làm khác thế nào. Nói vào lúc hai người đều có thể ngồi yên. Nếu bạn là người nghe, bạn được phép nói mình cần thêm thời gian, và bạn có thể nêu một việc nhỏ cụ thể để thấy sự thay đổi.",
+  "keywords": [
+   "hối lỗi",
+   "xây lại tin",
+   "hành động"
+  ]
+ }
+]

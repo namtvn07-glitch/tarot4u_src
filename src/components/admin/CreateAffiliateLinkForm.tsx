@@ -19,7 +19,7 @@ type Status = "idle" | "submitting" | "error" | "done";
 const LANDING_PAGES = [
   { path: "/", label: "Trang chủ" },
   { path: "/doc-sau", label: "Đọc sâu" },
-  { path: "/trai-bai", label: "Trải bài" },
+  { path: "/hom-nay", label: "Thông điệp hôm nay" },
   { path: "/thu-vien", label: "Thư viện 78 lá" },
 ] as const;
 

@@ -43,8 +43,8 @@ export const LibraryChrome: React.FC<LibraryChromeProps> = ({
       case "home":
         router.push("/");
         break;
-      case "quick-read":
-        router.push("/trai-bai");
+      case "daily":
+        router.push("/hom-nay");
         break;
       case "deep-read":
         router.push("/doc-sau");

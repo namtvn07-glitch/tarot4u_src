@@ -7,10 +7,10 @@ import { AccountScreen } from "@/screens/AccountScreen";
 import { CreditTopUpModal } from "@/components/CreditTopUpModal";
 import { AuthModal } from "@/components/AuthModal";
 import { ReadingDetailModal } from "@/components/ReadingDetailModal";
-import type { ReadingHistoryItem, ReadingRow, DrawnCardRow, UserProfile } from "@/types/tarot";
+import type { ReadingHistoryItem, UserProfile } from "@/types/tarot";
 import { createClient } from "@/lib/supabase/client";
 import { fromAuthModalLogin, GUEST_PROFILE, toUserProfile } from "@/lib/user-profile";
-import { findCardById } from "@/lib/cards";
+import { HISTORY_LIST_LIMIT, HISTORY_LIST_SELECT, rowsToHistoryItems } from "@/lib/reading-history";
 import { readLocalReadings } from "@/lib/user-scoped-storage";
 
 export default function TaiKhoanPage() {
@@ -40,29 +40,13 @@ export default function TaiKhoanPage() {
           // Fetch user's real readings from Supabase readings table
           const { data: dbReadings } = await supabase
             .from("readings")
-            .select("id, created_at, topic, tier, question, cards_drawn, personal_body")
+            .select(HISTORY_LIST_SELECT)
             .eq("user_id", authUser.id)
-            .order("created_at", { ascending: false });
+            .order("created_at", { ascending: false })
+            .limit(HISTORY_LIST_LIMIT);
 
           if (dbReadings && dbReadings.length > 0) {
-            const formatted = dbReadings.map((r: ReadingRow) => ({
-              id: r.id,
-              date: new Date(r.created_at).toLocaleDateString("vi-VN"),
-              topic: r.topic ?? undefined,
-              topicVi: r.topic === "love" ? "Tình Yêu" : r.topic === "career" ? "Sự Nghiệp" : r.topic === "finance" ? "Tài Chính" : "Tổng Quan",
-              question: r.question ?? undefined,
-              cards: (r.cards_drawn || []).map((c: DrawnCardRow, i: number) => {
-                const card = findCardById(c.card_id);
-                return {
-                  name: card?.name_en ?? c.card_id,
-                  nameVi: card?.name_vi ?? c.card_id,
-                  image: `/cards/${card?.image_filename ?? `${c.card_id}.jpg`}`,
-                  orientation: c.orientation || "upright",
-                  position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
-                };
-              }),
-              personalBody: r.personal_body ?? undefined,
-            }));
+            const formatted = rowsToHistoryItems(dbReadings);
             setReadings(formatted);
           } else {
             // Bộ đệm cục bộ chỉ để lấp khoảng trễ ngay sau khi lưu, và chỉ
@@ -115,7 +99,7 @@ export default function TaiKhoanPage() {
         onNavigate={(screen) => {
           if (typeof window !== "undefined") {
             if (screen === "home") window.location.href = "/";
-            if (screen === "quick-read") window.location.href = "/trai-bai";
+            if (screen === "daily") window.location.href = "/hom-nay";
             if (screen === "deep-read") window.location.href = "/doc-sau";
             if (screen === "library") window.location.href = "/thu-vien";
           }
@@ -136,7 +120,7 @@ export default function TaiKhoanPage() {
           onNavigate={(screen) => {
             if (typeof window !== "undefined") {
               if (screen === "home") window.location.href = "/";
-              if (screen === "quick-read") window.location.href = "/trai-bai";
+              if (screen === "daily") window.location.href = "/hom-nay";
               if (screen === "deep-read") window.location.href = "/doc-sau";
               if (screen === "library") window.location.href = "/thu-vien";
             }

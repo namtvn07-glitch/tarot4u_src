@@ -1,0 +1,650 @@
+[
+ {
+  "card_id": "knight-of-pentacles",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay không có phép màu, nhưng có tiến triển thật cho ai chịu làm tiếp phần việc nhàm chán nhất.",
+  "card": {
+   "name": "Kỵ Sĩ Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 8,
+   "finance": 7,
+   "energy": 6
+  },
+  "headline": "Đều tay thắng nhanh tay, ít nhất là trong hôm nay.",
+  "card_meaning": "Kỵ Sĩ Tiền là chàng hiệp sĩ ngồi trên con ngựa đen vạm vỡ, đứng yên giữa cánh đồng đã cày xới, hai tay nâng đồng xu như đang kiểm tra một mẻ hạt giống. Khác với những hiệp sĩ phi nước đại, anh chọn đi chậm, vì biết đất cần thời gian chứ không cần tiếng vó. Lá bài đại diện cho sự bền bỉ, thói quen làm đủ phần việc mỗi ngày dù chẳng ai vỗ tay. Ở chiều xuôi, năng lượng ấy chạy thông suốt: công sức lặp lại bắt đầu có hình hài. Hôm nay lá bài nhắc rằng phần việc tẻ nhạt nhất thường là móng nhà của kết quả.",
+  "forecast": [
+   "Một việc bạn đã làm lặp đi lặp lại suốt nhiều ngày có xu hướng bắt đầu lộ hình hài rõ ràng, có thể là bản báo cáo gần xong hoặc một bài tập đã ra dáng.",
+   "Năng lượng nghiêng về việc dọn nốt những đầu việc nhỏ còn tồn từ tuần trước, và cảm giác nhẹ người sau khi gạch xong chúng khá đáng giá.",
+   "Có thể ai đó, như một đồng nghiệp hay người thân, nhận ra sự đều đặn của bạn và nhắc đến nó, dù bạn tưởng chẳng ai để ý."
+  ],
+  "love": "Tình cảm hôm nay đi theo kiểu chậm mà bền: một tin nhắn hỏi thăm đúng giờ, một bữa cơm nấu đàng hoàng thay vì đặt đại. Người độc thân dễ có thiện cảm với người sống nề nếp, không màu mè. Nếu đang tìm hiểu ai đó, đừng đòi một khoảnh khắc lãng mạn, hãy xem cách họ giữ những hẹn nhỏ. Còn đang yêu thì sự đáng tin của bạn chính là món quà lớn nhất.",
+  "career": "Đây là ngày để cày cho xong phần khó chịu mà ai cũng né, như dọn lại dữ liệu, soát hồ sơ hay ôn phần kiến thức nền. Sinh viên học đều từng chút mỗi ngày sẽ hiệu quả hơn kiểu thức đêm học dồn. Nếu cảm giác mình tiến chậm, hãy thử đếm số việc đã hoàn tất thay vì số việc còn lại. Hướng đi đã đúng thì tốc độ vừa phải cũng không phải lỗi.",
+  "finance": "Dòng tiền khá yên ổn nếu bạn bám vào kế hoạch đã có, đừng đổi giữa chừng chỉ vì thấy ai đó chi mạnh tay. Hôm nay hợp để ghi lại toàn bộ chi tiêu của vài ngày gần đây vào một chỗ. Khi nhìn thành cột số, bạn dễ thấy khoản nào đang rò rỉ nhẹ mỗi tuần, như cà phê mang đi hay phí đăng ký ít dùng. Sửa một khoản nhỏ như vậy đã đủ làm tháng này dễ thở hơn.",
+  "insight": "Có thể bạn đang sốt ruột vì thấy người khác chạy nhanh, rồi quên rằng mình đang đi một con đường không cần vội. Sự kiên trì ít khi được khen thành tiếng, nên dễ bị đánh giá thấp, kể cả bởi chính bạn. Nhưng khi những màn trình diễn rực rỡ đã qua, thứ còn đứng được thường là phần việc làm đều. Có lẽ điều bạn cần hôm nay không phải thêm tốc độ mà là thêm một chút công nhận cho nhịp của mình.",
+  "memorable_message": "Cây cầu nào cũng được xây bằng những viên gạch không ai chụp ảnh.",
+  "advice": "Chọn một việc dở dang mà bạn cứ né, và làm nó đến nơi đến chốn trước buổi trưa, khi đầu óc còn tươi. Đặt đồng hồ hai mươi phút để bắt đầu, chưa cần nghĩ tới đích. Nếu xong sớm, cho phép mình nghỉ hẳn một lúc mà không áy náy. Hôm nay phần thưởng tốt nhất của sự chăm chỉ là được nghỉ có lý do.",
+  "keywords": [
+   "bền bỉ",
+   "đều đặn",
+   "đáng tin"
+  ]
+ },
+ {
+  "card_id": "knight-of-pentacles",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Năng lượng ngày hôm nay thưởng cho người giữ lời và kiểm tra kỹ, bạn sẽ được tin tưởng thêm một bậc.",
+  "card": {
+   "name": "Kỵ Sĩ Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 8,
+   "finance": 7,
+   "energy": 6
+  },
+  "headline": "Làm đúng điều đã hứa là cách quảng cáo rẻ nhất.",
+  "card_meaning": "Trong tranh, Kỵ Sĩ Tiền mặc giáp kín từ đầu đến chân, cầm đồng xu bằng cả hai tay và nhìn nó rất lâu, như người thợ soát lại món hàng trước khi giao. Con ngựa đen bên dưới đứng yên vì anh không cần phô trương, chỉ cần việc nào ra việc đó. Lá bài gắn với đất, tượng trưng cho trách nhiệm, sự cẩn thận và việc giữ đúng điều đã hứa. Ở chiều xuôi, nét này thành lợi thế rõ rệt: người xung quanh có xu hướng tin cậy bạn. Hôm nay đáng chú ý vì uy tín được xây từ các việc nhỏ, và lúc này chúng đang được nhìn thấy.",
+  "forecast": [
+   "Bạn có xu hướng được giao thêm trách nhiệm trong buổi sáng, chỉ vì người xung quanh thấy bạn làm gì cũng tới nơi tới chốn.",
+   "Một chi tiết nhỏ bạn kiểm tra lại kịp lúc, như con số trong bảng hay địa chỉ trong lời nhắn, có thể giúp tránh một rắc rối vào buổi chiều.",
+   "Dễ xuất hiện một người nhờ vả bạn đơn giản vì họ biết bạn sẽ không bỏ giữa chừng, dù việc đó không nằm trong danh sách của bạn."
+  ],
+  "love": "Hôm nay thể hiện tình cảm bằng hành động sẽ ăn điểm hơn lời hay: đến đúng hẹn, nhớ điều người kia từng nhắc thoáng qua. Nếu đang tìm hiểu ai đó, hãy để họ thấy bạn nhất quán, nhắn khi bảo sẽ nhắn. Người độc thân có thể thấy mình bị thu hút bởi người điềm đạm hơn là người nhiều kịch tính. Đang yêu thì một lời hứa nhỏ được giữ trọn sẽ khiến người kia an tâm hơn một lời tỏ tình lớn.",
+  "career": "Bạn đang ở thế mạnh của người làm việc cẩn thận: bảng biểu, hợp đồng, bài tập cần độ chính xác cao. Một lời hứa với đồng nghiệp hay thầy cô, nếu giữ được, sẽ tạo uy tín dài hơn bạn nghĩ. Hãy rà lại một lượt trước khi gửi bất cứ thứ gì đi, nhất là phần con số và tên riêng. Chỉ cần đừng để sự cẩn thận biến thành cầu toàn đến mức không dám bấm nộp.",
+  "finance": "Thanh toán đúng hạn, đối chiếu lại một hóa đơn hay một khoản nợ nhỏ giữa bạn bè là việc đáng làm hôm nay. Mọi thứ đang theo hướng ổn định, nên bạn không cần mạo hiểm để thấy yên tâm. Nếu có khoản nào bạn nhớ mang máng là chưa trả hoặc chưa thu, hãy mở tin nhắn cũ ra xác nhận thay vì đoán. Những việc gọn gàng kiểu này giúp đầu óc bớt nặng về cuối ngày.",
+  "insight": "Có thể bạn đang âm thầm mệt vì lúc nào cũng là người đáng tin trong mắt người khác, kiểu ai cũng nghĩ bạn sẽ lo được. Vai trò ấy mang lại sự tôn trọng, nhưng cũng dễ biến thành áp lực phải không bao giờ sai hay không được từ chối. Dù vậy, phần nhất quán đó đang tích lũy cho bạn một loại vốn không thể mua nhanh. Điều cần nhớ là đáng tin không có nghĩa là phải nhận hết.",
+  "memorable_message": "Uy tín là khoản tiết kiệm lớn nhất mà bạn gửi vào từng việc nhỏ.",
+  "advice": "Liệt kê ba việc bạn đã nhận lời và làm xong một việc trong số đó trước giờ ăn trưa. Với việc nào quá sức, hãy nhắn nói thẳng ngay hôm nay thay vì ôm rồi trễ hạn. Một câu như mình chưa kịp xong trước thứ sáu, bạn thấy dời được không, thường được đón nhận dễ hơn bạn lo.",
+  "keywords": [
+   "giữ lời",
+   "tỉ mỉ",
+   "trách nhiệm"
+  ]
+ },
+ {
+  "card_id": "knight-of-pentacles",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Hôm nay hợp để tin vào tốc độ riêng của mình, vì thứ bạn đang gieo cần thời gian chứ không cần thêm áp lực.",
+  "card": {
+   "name": "Kỵ Sĩ Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 6,
+   "career": 7,
+   "finance": 8,
+   "energy": 7
+  },
+  "headline": "Con ngựa đi bước một vẫn tới nơi, chỉ là không có khán giả.",
+  "card_meaning": "Trong bốn hiệp sĩ của Tarot, Kỵ Sĩ Tiền là người duy nhất không phi nước đại: con ngựa của anh đứng im, còn anh nhìn đồng xu và cánh đồng trước mặt. Nó cho thấy một kiểu tiến bộ không ồn ào, tích lũy qua kế hoạch dài hơi, tiết kiệm đều và kỷ luật nhỏ. Chiều xuôi nhấn vào phần được mùa: thứ gieo đúng cách cần thời gian, và thời gian đang đứng về phía bạn. Hôm nay lá bài xuất hiện như một lời nhắc nhẹ rằng chậm không đồng nghĩa với tụt lại.",
+  "forecast": [
+   "Bạn dễ thấy mình thoải mái hơn khi tạm gác việc so sánh tiến độ với bạn bè hay đồng nghiệp, nhất là lúc lướt mạng giữa giờ nghỉ.",
+   "Một kế hoạch dài hơi, như khoản tiết kiệm, kỳ thi hay kỹ năng đang luyện, có khả năng cho thấy một dấu hiệu nhỏ rằng nó đang đi đúng hướng.",
+   "Có thể bạn chọn cách làm chắc thay vì cách làm nhanh, và đến buổi tối sẽ thấy quyết định đó hợp lý hơn bạn nghĩ lúc sáng."
+  ],
+  "love": "Mối quan hệ hôm nay cần thời gian hơn là kịch tính, và bạn có đủ bình tĩnh để chấp nhận điều đó. Nếu đang tìm hiểu ai đó, đừng ép họ nhanh hơn nhịp của họ, hãy để cuộc trò chuyện đi tới đâu hay tới đó. Người độc thân thử bớt tự hỏi vì sao chưa gặp ai, vì có những mối duyên cần được tưới dần. Người đang yêu nên thử lập một thói quen chung thật nhỏ, như đi dạo sau bữa tối.",
+  "career": "Việc dài hạn như dự án kéo dài, kỳ thi sắp tới hay một kỹ năng đang luyện sẽ được lợi từ sự đều đặn hôm nay. Hãy chia mục tiêu lớn thành những phần bạn gạch xong được trong ngày, rồi gạch thật. Bớt nhìn bảng xếp hạng hay thành tích của người khác, nhìn nhiều hơn vào danh sách của mình. Một bước nhỏ làm đủ mỗi ngày thường thắng ba bước lớn làm trong cơn hứng.",
+  "finance": "Mức ổn định tốt nhất nằm ở thói quen tiết kiệm đều và kiểm soát chi tiêu, không phải ở lối tắt. Một khoản nhỏ để dành đúng chu kỳ sẽ làm bạn yên tâm hơn một cơ hội to nghe hấp dẫn. Nếu thấy sốt ruột vì số dư lên chậm, thử nhìn đường đi của vài tháng thay vì vài ngày. Tiền cũng giống mùa vụ, hiếm khi trả công ngay hôm gieo.",
+  "insight": "Có thể điều bạn đang thiếu không phải năng lực mà là kiên nhẫn với tốc độ của chính mình. Phần lớn cảm giác chậm chỉ xuất hiện khi nhìn quá nhiều vào đường chạy của người khác, với những đoạn họ chọn đăng lên. Bạn thấy kết quả của họ nhưng không thấy những năm họ đã âm thầm làm. Thứ bạn đang gieo có thể đã nảy mầm theo cách mà chưa ai, kể cả bạn, kịp nhìn ra.",
+  "memorable_message": "Mùa gặt không hỏi bạn gieo nhanh hay chậm, chỉ hỏi bạn có tưới đều không.",
+  "advice": "Tắt hoặc ẩn một thứ khiến bạn so sánh, như mạng xã hội trong giờ làm việc, ít nhất đến hết buổi chiều. Dành đúng khoảng thời gian đó cho một bước nhỏ trên kế hoạch dài hơi của mình. Cuối ngày, ghi lại một dòng về điều đã tiến lên, dù chỉ nhích một chút.",
+  "keywords": [
+   "kiên nhẫn",
+   "chắc tay",
+   "dài hơi"
+  ]
+ },
+ {
+  "card_id": "knight-of-pentacles",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Hôm nay bạn dễ chạy theo quán tính: làm cho xong, không còn nghĩ vì sao mình làm.",
+  "card": {
+   "name": "Kỵ Sĩ Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 4,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Đều đặn mà không còn thấy gì thì gọi là chạy tự động.",
+  "card_meaning": "Khi Kỵ Sĩ Tiền bị lật ngược, hình ảnh con ngựa đứng im giữa cánh đồng mang một sắc thái khác: không còn là kiên nhẫn mà gần với cảm giác kẹt cứng. Công việc vẫn được làm, nhưng bằng quán tính, như người đi qua đoạn đường quen mà không nhớ mình đã đi. Đây là bóng của sự chăm chỉ: lặp lại đến mức mất cảm giác mình đang làm vì điều gì. Lá bài không chê bạn lười, mà gợi ý rằng nếp quen đang chạy thay bạn. Hôm nay đáng để dừng lại một nhịp và hỏi lại ý nghĩa của việc mình làm hằng ngày.",
+  "forecast": [
+   "Bạn có xu hướng làm đúng như mọi ngày rồi thấy ngày trôi qua mà chẳng đọng lại gì, như một bữa cơm ăn vội đến quên cả vị.",
+   "Một đề xuất làm khác đi, từ đồng nghiệp hay người thân, có thể khiến bạn thấy phiền trước, vì nó phá vỡ nếp quen.",
+   "Năng lượng nghiêng về cảm giác chán nhẹ, kiểu không tệ nhưng cũng chẳng muốn làm tiếp, nhất là vào quãng đầu giờ chiều."
+  ],
+  "love": "Mối quan hệ dễ rơi vào nếp cũ: cùng một quán, cùng những câu chuyện, cùng những lời hỏi han vô thưởng vô phạt. Một thay đổi rất nhỏ như đổi giờ gặp, đổi chỗ ngồi hay hỏi một câu chưa từng hỏi cũng đủ làm không khí khác đi. Người độc thân dễ từ chối những cuộc gặp lạ chỉ vì lười bước ra khỏi vùng quen. Thử nhận lời một lần, dù chỉ để xem mình còn tò mò không.",
+  "career": "Bạn làm việc như một cái máy: không sai nhưng cũng chẳng nảy ra ý nào mới. Có thể có một việc cần cách tiếp cận khác mà bạn đang né vì quen tay với cách cũ. Thử tự hỏi một câu: nếu bắt đầu lại từ đầu, mình sẽ làm khác ở đâu. Sinh viên thì thử đổi thứ tự môn học trong buổi ôn, chỉ vậy thôi cũng đủ đánh thức đầu óc.",
+  "finance": "Không có biến động lớn, nhưng những khoản chi tự động như gói đăng ký, phí hằng tháng hay thói quen mua cùng một thứ có thể đang chạy mà bạn không còn xem lại. Mở danh sách ra rà một lượt là đủ, không cần cắt vội. Hãy để ý khoản nào bạn đã quên mất lần cuối dùng. Một vòng kiểm tra mười phút đôi khi hiệu quả hơn cả một tuần cố nhịn.",
+  "insight": "Có thể sự trì trệ này không phải lười mà là một phần trong bạn đang mệt vì lặp lại mà chưa từng được hỏi ý kiến. Nếp quen mang lại cảm giác an toàn, nhưng an toàn quá lâu thì dần thành chật. Biết đâu cảm giác chán nhẹ đang là tín hiệu rằng bạn đã học xong bài cũ và sẵn sàng cho một bài khác. Thay đổi không cần lớn, chỉ cần đủ để bạn thấy mình đang chọn chứ không chỉ chạy theo.",
+  "memorable_message": "Con đường quen thuộc nhất cũng là nơi dễ ngủ quên nhất.",
+  "advice": "Đổi đúng một thứ trong thói quen hôm nay, như tuyến đường đi làm, thứ tự công việc buổi sáng hoặc chỗ ngồi uống cà phê. Chỉ một thứ thôi, đừng đổi hết cùng lúc. Cuối ngày, quan sát xem đầu óc bạn có tỉnh hơn một chút không và ghi lại nếu có.",
+  "keywords": [
+   "quán tính",
+   "nếp cũ",
+   "chán nhẹ"
+  ]
+ },
+ {
+  "card_id": "knight-of-pentacles",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Bạn đang bám vào cách làm cũ vì nó từng hiệu quả, dù tình huống hôm nay có thể đã đổi.",
+  "card": {
+   "name": "Kỵ Sĩ Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Cách làm cũ không sai, chỉ là nó đã hết hạn dùng.",
+  "card_meaning": "Ở chiều ngược, Kỵ Sĩ Tiền hiện lên như người lính gác quá kỹ: giáp vẫn kín, đồng xu vẫn nằm trong tay, nhưng ngựa không chịu nhúc nhích dù đường đã đổi. Nét tích cực của lá xuôi là sự vững vàng, còn ở đây nó chuyển thành tính cứng, bám vào quy trình chỉ vì nó từng hiệu quả. Đây là bóng của sự cẩn trọng: ta gọi là nguyên tắc những thứ thực ra là thói quen. Hôm nay lá bài đáng chú ý vì nó gợi ý phân biệt giữa điều cần giữ và điều chỉ đang được giữ cho an tâm.",
+  "forecast": [
+   "Bạn dễ tranh luận với ai đó chỉ vì họ đề nghị làm khác kiểu bạn vẫn quen, nhất là trong một buổi họp hay bữa cơm gia đình.",
+   "Có xu hướng bạn buột miệng nói câu ngày xưa vẫn thế mà, rồi sau đó thấy lời nói của mình hơi cứng.",
+   "Một góp ý nhỏ có thể làm bạn khó chịu lúc đầu, nhưng bên trong nó có một phần đáng cân nhắc nếu để qua một lúc rồi đọc lại."
+  ],
+  "love": "Cứng đầu là điểm cần để ý: bạn có thể khăng khăng đúng theo cách mình hiểu về tình cảm, từ chuyện ai nhắn trước đến chuyện hẹn hò thế nào mới là đủ. Nếu người kia muốn đổi một thói quen chung, hãy nghe hết trước khi bác bỏ. Người độc thân nên mở tiêu chuẩn thêm một chút, thay vì giữ nguyên danh sách cũ từ nhiều năm trước. Có thể một người không khớp hết bảng mà vẫn hợp với bạn.",
+  "career": "Quy trình quen thuộc đang cản bạn nhìn ra một phương án nhanh hơn. Có thể một đồng nghiệp mới hoặc người ít tuổi hơn đưa ra cách làm mà bạn muốn gạt đi ngay. Thử cho nó một buổi chạy thử nhỏ trước khi phán xét, và đo kết quả bằng thời gian hay số lỗi thật. Nếu cách cũ vẫn thắng, bạn mất rất ít, còn nếu thua, bạn vừa tìm được lối đi gọn hơn.",
+  "finance": "Tâm lý ngại thay đổi có thể khiến bạn giữ nguyên một khoản chi hoặc một cách quản lý tiền đã không còn hợp với hiện tại. Hãy nhìn lại thu nhập bây giờ so với kế hoạch cũ, xem các con số có còn khớp không. Mức tiền dành cho từng việc có lẽ cần điều chỉnh sau một năm nhiều thứ đã khác. Một chỉnh sửa nhỏ trên giấy vẫn là việc nằm trong tầm tay bạn.",
+  "insight": "Có thể bạn sợ thay đổi không phải vì bảo thủ mà vì đã bỏ nhiều công mới xây được nếp này, nên bỏ nó đi nghe như phủ nhận chính mình. Nhưng giữ nếp vì tiếc công khác với giữ nếp vì nó còn hữu ích. Câu hỏi đáng thử hôm nay là nếu mình chưa từng làm theo cách này, mình có chọn nó không. Câu trả lời, dù là có hay không, đều cho bạn thêm thông tin.",
+  "memorable_message": "Đôi khi thứ ta gọi là nguyên tắc thực ra chỉ là thói quen mặc áo vest.",
+  "advice": "Hôm nay khi ai đó đề xuất một cách khác, hãy nói thử xem trước khi nói không, rồi nghe trọn ý họ. Có thể ghi lại một điểm bạn thấy hợp lý trong đề xuất đó. Bạn vẫn là người quyết định cuối cùng, chỉ là quyết định sau khi đã thấy đủ lựa chọn.",
+  "keywords": [
+   "cứng nhắc",
+   "ngại đổi",
+   "bám nếp"
+  ]
+ },
+ {
+  "card_id": "knight-of-pentacles",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Việc đứng yên hôm nay có thể là mệt mỏi chưa gọi tên, nên đừng vội dán nhãn lười lên chính mình.",
+  "card": {
+   "name": "Kỵ Sĩ Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 4,
+   "finance": 5,
+   "energy": 3
+  },
+  "headline": "Trì hoãn đôi khi là tín hiệu, không phải tính cách.",
+  "card_meaning": "Hình ảnh con ngựa đứng im của Kỵ Sĩ Tiền, khi lá bài bị ngược, đọc theo cách khác: không phải cố ý đứng yên mà là hết sức để bước. Chàng hiệp sĩ vốn chắc tay nay như cầm đồng xu mà không còn muốn nhìn nó. Lá bài ngược ở đây nói về trì hoãn, ngại bắt đầu và năng lượng cạn, thường là tín hiệu của mệt mỏi hay sợ làm chưa tốt hơn là tính cách lười. Hôm nay nó đáng chú ý vì nó mời bạn đọc sự chững lại như một thông tin, thay vì một bản án.",
+  "forecast": [
+   "Bạn có xu hướng mở một việc ra rồi lại đóng, hoặc chuyển sang làm một thứ không quan trọng, như dọn ngăn kéo thay vì viết bài.",
+   "Một việc lẽ ra mất nửa tiếng có thể bị kéo dài sang cả buổi vì khó vào guồng, nhất là trước giờ trưa.",
+   "Dễ xuất hiện cảm giác có lỗi nhẹ, đặc biệt khi thấy người khác tiến nhanh hơn trong cùng một việc."
+  ],
+  "love": "Bạn có thể trả lời tin nhắn chậm hoặc ngại sắp xếp một buổi hẹn, không phải vì hết thương mà vì hết pin. Nói thẳng với người kia rằng hôm nay mình hơi đuối sẽ tốt hơn im lặng, vì im lặng dễ bị đọc thành lạnh nhạt. Một lời hẹn nhẹ hơn, như xem phim ở nhà, đôi khi hợp hơn một buổi đi chơi tốn sức. Người độc thân cũng không cần ép mình đi gặp ai khi chưa muốn.",
+  "career": "Năng lượng làm việc thấp, và cố ép thường chỉ cho ra kết quả nửa vời. Hãy chọn việc nhỏ nhất trong danh sách, bật bộ đếm giờ hai mươi lăm phút rồi nghỉ hẳn năm phút. Việc khó nhất hôm nay không phải làm nhiều mà là bắt đầu, nên thử hạ ngưỡng bắt đầu xuống mức gần như buồn cười, chẳng hạn chỉ mở file và viết một dòng. Sinh viên có thể áp dụng y như vậy với một chương sách.",
+  "finance": "Có thể bạn đang trì hoãn việc xem sao kê hoặc đóng một khoản đến hạn vì ngại nhìn con số. Đối diện sớm thường nhẹ hơn tưởng tượng, và chỉ mất vài phút nếu làm lúc đầu óc chưa rối. Nếu chưa đủ sức làm cả việc, hãy làm phần đầu, như đăng nhập và nhìn số dư. Sự mơ hồ thường tốn năng lượng hơn chính con số.",
+  "insight": "Có thể phía sau sự uể oải là một nỗi sợ nhỏ: sợ làm chưa tốt, sợ bắt đầu rồi không theo nổi tới cuối. Người hay đáng tin thường nặng gánh này nhất, vì kỳ vọng của chính họ cao hơn cả kỳ vọng của người khác. Khi gọi được tên nỗi sợ ấy, việc cần làm tự nhiên bớt nặng. Cũng có thể đơn giản là cơ thể đang xin nghỉ, và đó là một lý do hoàn toàn chính đáng.",
+  "memorable_message": "Không phải lúc nào xe đứng yên cũng hỏng, đôi khi nó chỉ hết xăng.",
+  "advice": "Ăn một bữa đàng hoàng và uống đủ nước trước, rồi mới nghĩ đến chuyện năng suất. Sau đó chọn đúng một việc nhỏ nhất trong danh sách và làm nó trong hai mươi lăm phút. Xong thì dừng, không cần tự ép thêm. Chiều nay nếu còn sức, bạn có thể làm tiếp, còn nếu không thì một việc xong đã là một ngày tính được.",
+  "keywords": [
+   "trì hoãn",
+   "cạn năng lượng",
+   "ngại bắt đầu"
+  ]
+ },
+ {
+  "card_id": "queen-of-pentacles",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay sự ấm áp thực tế thắng mọi thứ: chăm chút không gian và cơ thể mình sẽ đổi tâm trạng rõ rệt.",
+  "card": {
+   "name": "Nữ Hoàng Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 7,
+   "finance": 8,
+   "energy": 7
+  },
+  "headline": "Một góc nhà gọn gàng đôi khi trị được cả một cái đầu rối.",
+  "card_meaning": "Nữ Hoàng Tiền ngồi trên chiếc ngai chạm hoa lá và trái cây, giữa khu vườn đầy hoa, ôm đồng xu vàng trong lòng như ôm một đứa trẻ, bên chân là chú thỏ tượng trưng cho sự sinh sôi. Bà đại diện cho kiểu quyền lực mềm của người biết biến một căn nhà thành chỗ ở, một bữa ăn thành sự ấm áp. Lá bài kết hợp đất và nước: thực tế nhưng giàu cảm nhận. Ở chiều xuôi, năng lượng chăm sóc chảy thuận cả ra người khác lẫn vào chính mình. Hôm nay đáng chú ý vì nó nhắc rằng không gian sống và cơ thể là nền của tâm trạng.",
+  "forecast": [
+   "Bạn có xu hướng muốn dọn dẹp, nấu một bữa tử tế hoặc sắp xếp lại góc làm việc, kể cả khi chẳng ai yêu cầu.",
+   "Những việc chăm chút nhỏ cho bản thân như uống đủ nước, đi ngủ sớm có thể cho cảm giác buổi sáng mai khác hẳn.",
+   "Dễ có một khoảnh khắc thấy đủ đầy ngay trong những thứ bình thường đang có, như ly trà nóng hay ánh nắng ở cửa sổ."
+  ],
+  "love": "Tình cảm hôm nay sưởi ấm qua hành động nhỏ, như nấu ăn cho nhau hay hỏi người kia đã ăn chưa. Người đang yêu sẽ thấy gần gũi hơn khi ở nhà, không cần kế hoạch to tát. Người độc thân nên để ý sức hút của sự chăm chút, tức là cách bạn ăn mặc gọn gàng hay nói chuyện nhẹ nhàng, thay vì cố tỏ ra cuốn hút. Đang tìm hiểu ai đó thì một bữa tối ấm cúng hợp hơn buổi đi chơi ồn ào.",
+  "career": "Công việc thuận khi bạn tạo được môi trường dễ chịu để làm: bàn gọn, ánh sáng tốt, nhạc nền hợp tai. Bạn dễ khéo léo cân bằng nhu cầu của nhiều người trong nhóm mà không ai thấy bị bỏ rơi. Một việc thực tế đòi hỏi sự chu đáo, như chuẩn bị tài liệu hay tổ chức buổi họp, sẽ được ghi nhận. Sinh viên có thể thử dọn bàn học trước khi ngồi vào bài, vì nó thường là mồi lửa cho sự tập trung.",
+  "finance": "Cảm giác đủ dùng và biết cách tính toán đang giúp bạn yên tâm. Mua sắm cho nhà cửa hay bữa ăn gia đình hôm nay thuận lợi nếu đã có ngân sách rõ ràng từ trước. Một khoản nhỏ cho thứ làm cuộc sống thường ngày dễ chịu hơn, như ga giường mới hay một chậu cây, thường đáng hơn món đồ chỉ để khoe. Hãy để ý khoản nào khiến bạn thấy ấm lòng sau khi mua, vì đó là dấu hiệu chi tiêu hợp ý.",
+  "insight": "Có thể bạn đang chăm cho mọi thứ xung quanh mà quên rằng nền móng của sự chăm sóc là một người còn sức. Một căn bếp ngăn nắp hay một giấc ngủ đủ không phải là xa xỉ, chúng là điều kiện để phần còn lại vận hành. Khi bạn đủ đầy, việc quan tâm người khác tự nhiên nhẹ hơn và bớt thành nghĩa vụ. Hôm nay có thể là lúc bạn nhận ra chăm chút bản thân không phải ích kỷ mà là thực tế.",
+  "memorable_message": "Một ấm trà nóng cũng là một cuộc họp nhỏ giữa bạn và chính mình.",
+  "advice": "Dành mười lăm phút sắp xếp một thứ nhỏ trong không gian mình sống, như bàn làm việc, tủ giày hay góc đầu giường. Làm vào cuối buổi chiều, lúc bạn bắt đầu thấy rối đầu. Sau đó ngồi lại một lúc với ly nước hoặc ấm trà để cảm nhận sự khác biệt. Nếu thấy dễ chịu hơn, hãy nhớ rằng đó là cách rẻ nhất để chỉnh tâm trạng.",
+  "keywords": [
+   "chăm chút",
+   "đủ đầy",
+   "ấm cúng"
+  ]
+ },
+ {
+  "card_id": "queen-of-pentacles",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Bạn đang ở vai người giữ ấm cho cả một nhóm, và hôm nay sự rộng rãi đó được đáp lại.",
+  "card": {
+   "name": "Nữ Hoàng Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 7,
+   "finance": 7,
+   "energy": 8
+  },
+  "headline": "Cho đi đúng cách là khi người nhận không thấy mình mắc nợ.",
+  "card_meaning": "Trong lá bài, Nữ Hoàng Tiền ngồi giữa vườn nở rộ và nhìn xuống đồng xu bằng ánh mắt dịu, như người chủ nhà đang nghĩ xem hôm nay nấu gì cho cả bàn. Bà tượng trưng cho sự hào phóng có tính toán: cho đi thật, nhưng vẫn đủ khôn để mình không cạn. Chiều xuôi cho thấy năng lượng này được đón nhận: người xung quanh nhìn bạn như một chỗ dựa. Điều làm lá này khác với sự hy sinh là nó đi cùng nền tảng vững, vì bà cho từ kho đầy chứ không từ đáy cạn. Hôm nay nó đáng chú ý ở chuyện cho và nhận.",
+  "forecast": [
+   "Có xu hướng ai đó tìm đến bạn xin một lời khuyên thực tế hoặc đơn giản là một chỗ để ngồi lại và kể chuyện.",
+   "Một cử chỉ hào phóng nhỏ của bạn, như chia phần ăn hay chỉ giúp một thủ tục, có thể quay lại dưới dạng sự giúp đỡ bất ngờ.",
+   "Bạn dễ thấy hài lòng khi làm cho người khác thoải mái bằng những việc cụ thể, nhất là vào quãng chiều tối."
+  ],
+  "love": "Bạn đang tỏa ra năng lượng an toàn, nên người đối diện dễ mở lòng và kể những điều họ thường giấu. Người đang yêu có thể có một buổi tối bình yên, nơi hai người ngồi cạnh nhau mà không cần lấp đầy khoảng lặng. Người độc thân dễ gặp ai đó nhận ra sự chu đáo của bạn qua những chi tiết tưởng nhỏ, như nhớ họ không ăn cay. Nếu có điều cần hỏi người thân, hôm nay là lúc dễ nghe thấy câu trả lời thật.",
+  "career": "Bạn có tài kết nối con người với nguồn lực họ cần, và hôm nay điều đó dễ lộ ra. Một nhóm đang rối có thể bình tĩnh hơn nhờ cách sắp xếp thực tế của bạn, chẳng hạn chia việc rõ ràng hay chuẩn bị sẵn đồ ăn nhẹ cho buổi họp. Nếu làm việc với khách hàng, sự chu đáo sẽ là điểm cộng khó thay thế. Chỉ cần để ý đừng nhận hết phần việc của người khác chỉ vì bạn làm được.",
+  "finance": "Tài chính có xu hướng ổn nếu bạn giữ được cân bằng giữa cho đi và giữ lại. Mời ai đó một bữa hay mua một món quà nhỏ là ổn khi nó nằm trong mức bạn đã tính sẵn từ đầu tháng. Thử đặt một khoản cố định cho những lần hào phóng như vậy, để bạn cho đi mà không phải cân nhắc lại với bản thân. Khi ngân sách đã có chỗ cho lòng tốt, bạn sẽ ít phân vân hơn mỗi lần thấy ai cần.",
+  "insight": "Có thể bạn quen cho đi theo kiểu không cần ai biết, và cũng quen từ chối khi ai muốn đáp lại. Nhưng cho mà không bao giờ nhận thì sớm muộn cũng thấy cạn, dù bạn khéo che giấu. Người xung quanh có thể cũng muốn có cơ hội làm điều gì đó cho bạn. Để họ làm vậy không phải là mắc nợ, mà là một cách giữ mối quan hệ cân bằng.",
+  "memorable_message": "Người nấu bếp giỏi nhất cũng cần ngồi xuống ăn cùng bàn.",
+  "advice": "Hôm nay hãy nhận một lời giúp đỡ hoặc một lời khen mà không kèm câu từ chối, chỉ cần nói cảm ơn rồi dừng ở đó. Có thể là ai đó xách giúp đồ, mời bạn ly nước hoặc khen bài làm của bạn. Cho đi và nhận lại cần được giữ ở mức ngang nhau, và hôm nay là lúc bạn tập phần ít quen hơn.",
+  "keywords": [
+   "rộng rãi",
+   "chỗ dựa",
+   "cho và nhận"
+  ]
+ },
+ {
+  "card_id": "queen-of-pentacles",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Hôm nay hãy xoay xở khéo với những gì đang có: ít mà đủ, giản dị mà đẹp.",
+  "card": {
+   "name": "Nữ Hoàng Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 7,
+   "finance": 8,
+   "energy": 7
+  },
+  "headline": "Giàu có là biết rõ mình đã có gì trong tủ.",
+  "card_meaning": "Nữ Hoàng Tiền không phải bà hoàng của cung điện mà của khu vườn: chiếc áo điểm hoa, chiếc ngai chạm trái cây, mọi thứ quanh bà đều là của người biết trồng và biết giữ. Bà đại diện cho sự khéo xoay xở, nhìn thứ có sẵn và nghĩ ra cách dùng cho đẹp, cho bền. Ở chiều xuôi, lá bài thiên về cảm giác đủ: không phải ít đòi hỏi mà là biết rõ mình đang có gì. Hôm nay nó đáng chú ý vì nó mời bạn đổi cách đo sự giàu có, từ nhìn vào cái thiếu sang nhìn vào cái đã tích lũy.",
+  "forecast": [
+   "Bạn có xu hướng tìm ra cách dùng lại một thứ cũ thành hữu ích, hoặc tận dụng nguyên liệu sẵn có để nấu một bữa ngon.",
+   "Một khoản tiết kiệm nhỏ hay ưu đãi hợp lý có thể xuất hiện đúng lúc bạn đang cần, như mã giảm giá cho thứ đã định mua.",
+   "Dễ xuất hiện cảm giác biết ơn khi nhìn lại những thứ mình đã xây dựng dần, từ căn phòng đến vài mối quan hệ lâu năm."
+  ],
+  "love": "Sự đủ đầy trong tình cảm hôm nay đến từ việc trân trọng những gì đã có, không phải đòi hỏi thêm. Người đang yêu thử kể cho nhau nghe một điều mình biết ơn ở người kia, càng cụ thể càng tốt, như cách họ pha cà phê cho mình. Người độc thân sẽ thoải mái hơn khi không còn vội tìm một nửa, và điều đó khiến bạn dễ gần hơn.",
+  "career": "Bạn làm tốt khi tận dụng nguồn lực có sẵn thay vì chờ điều kiện hoàn hảo. Đây là lúc tối ưu một quy trình, một thời khóa biểu hay một cách học đã có, thay vì đi tìm công cụ mới. Sự khéo léo thực tế của bạn có thể giúp nhóm tiết kiệm công sức, nhất là ở những chỗ ai cũng làm trùng. Sinh viên thử tận dụng lại ghi chú cũ để làm bản tóm tắt thay vì soạn từ đầu.",
+  "finance": "Đây là ngày tốt để rà ngân sách, gom các khoản nhỏ và xem chỗ nào còn dư. Bạn dễ thấy mình giàu hơn mình tưởng khi tính theo những gì đã sở hữu, không theo những gì còn thiếu. Thử kiểm tra tủ đồ, tủ bếp hoặc các ứng dụng đã trả phí nhưng ít dùng, vì có thể tuần này bạn không cần mua thêm gì. Khoản tiền không phải tiêu vì đã có sẵn cũng là một dạng thu nhập.",
+  "insight": "Có thể bạn hay nhìn vào khoảng cách giữa mình và cuộc sống lý tưởng, rồi quên đếm phần đã làm được. Thói quen so với một hình mẫu xa xôi khiến cái đang có trông nhỏ đi. Sự sung túc thường bắt đầu từ cách nhìn trước khi nó là con số trong tài khoản. Có lẽ hôm nay bạn không cần thêm gì, chỉ cần nhìn lại kho của mình một cách công bằng hơn.",
+  "memorable_message": "Tủ lạnh có đồ ăn và ví còn tiền lẻ cũng là một dạng sung túc.",
+  "advice": "Viết ra ba thứ bạn đang có mà một năm trước chưa có, có thể là một kỹ năng, một người bạn hay một thói quen tốt. Làm việc này vào buổi tối, khi ngày đã lắng xuống, và ghi bằng tay nếu tiện. Sau đó mới đặt mục tiêu tiếp theo, để mục tiêu ấy xuất phát từ điều bạn đã chứng minh được.",
+  "keywords": [
+   "khéo xoay xở",
+   "biết đủ",
+   "sung túc"
+  ]
+ },
+ {
+  "card_id": "queen-of-pentacles",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Bạn đang chăm cho mọi thứ trừ chính mình, và cơ thể hôm nay có thể đòi lại sự chú ý đó.",
+  "card": {
+   "name": "Nữ Hoàng Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 5,
+   "finance": 4,
+   "energy": 4
+  },
+  "headline": "Bạn không phải cái đèn pin, đừng tự bật suốt ngày cho người khác.",
+  "card_meaning": "Khi Nữ Hoàng Tiền bị lật ngược, khu vườn quen thuộc trông giống một công trường chưa bao giờ nghỉ: bà vẫn ôm đồng xu, vẫn lo cho tất cả, nhưng quên mất ai đang tưới cho chính mình. Lá bài chỉ ra sự mất cân bằng giữa công việc và đời sống, giữa cho đi và giữ lại. Ở góc đọc này, năng lượng chăm sóc không biến mất mà bị rút cạn, và cơ thể thường là nơi báo trước tiên. Hôm nay đáng chú ý vì nó mời bạn nhìn lại phần nào của mình đang bị xếp xuống cuối danh sách.",
+  "forecast": [
+   "Bạn có xu hướng ôm thêm việc của người khác rồi thấy mình hết sức vào cuối ngày, dù lúc nhận lời nghe có vẻ dễ.",
+   "Những việc cá nhân như ăn đúng bữa hay nghỉ giữa giờ dễ bị đẩy xuống cuối danh sách, rồi bị bỏ luôn.",
+   "Một chút cáu gắt vô cớ có thể xuất hiện, và nguồn gốc thật ra là thiếu nghỉ chứ không phải do ai đó."
+  ],
+  "love": "Bạn dễ rơi vào tình trạng có mặt nhưng không có tâm, vì đầu vẫn đang ở công việc. Người thân hay người yêu có thể cảm thấy bị bỏ lại phía sau, dù bạn vẫn ngồi ngay đó. Một cuộc nói chuyện ngắn không điện thoại sẽ đáng giá hơn một buổi ngồi chung nhưng mỗi người một màn hình. Người độc thân dễ gạt chuyện gặp gỡ đi bằng cớ bận, nên thử hỏi mình có đang dùng chữ bận làm lá chắn không.",
+  "career": "Ranh giới giữa việc và đời sống đang bị mờ đi: bạn trả lời tin nhắn công việc ngoài giờ, mang việc về nhà, ăn trưa trước màn hình. Hãy chọn một mốc giờ để dừng và giữ nó, chẳng hạn tắt thông báo công việc sau bảy giờ tối. Không phải việc nào cũng cần bạn xử lý ngay, và nhiều việc vẫn ổn nếu chờ đến sáng. Sinh viên thì thử chia lại giờ học để có khoảng nghỉ thật sự.",
+  "finance": "Cảm giác phải làm nhiều hơn để gia đình được đủ đầy có thể khiến bạn quên chi cho sức khỏe và nghỉ ngơi. Kiểm tra lại xem khoản nào dành cho bản thân đang bị cắt trước tiên, như bữa ăn đàng hoàng, buổi khám sức khỏe hay một buổi đi chơi. Nếu những khoản đó luôn là thứ biến mất đầu tiên, ngân sách đang vẽ ra một thứ tự ưu tiên mà có thể bạn không chủ ý. Chừa một khoản nhỏ cố định cho mình.",
+  "insight": "Có thể bạn đang chứng minh giá trị của mình bằng việc luôn bận và luôn sẵn sàng. Bận rộn cho cảm giác mình cần thiết, nhưng nó cũng che đi câu hỏi mình thực sự cần gì. Một người kiệt sức thì chăm ai cũng chỉ được nửa vời, kể cả người mình thương nhất. Giá trị của bạn không giảm đi khi bạn nghỉ, và hôm nay có thể là ngày bạn thử kiểm chứng điều đó.",
+  "memorable_message": "Chiếc cốc cạn thì rót cho ai cũng chỉ ra được vài giọt.",
+  "advice": "Chặn ra một khoảng ba mươi phút trong ngày chỉ dành cho riêng bạn, đặt vào lịch như một cuộc hẹn quan trọng với người khác. Dùng nó để ngồi yên, đi bộ hoặc làm gì đó không có mục đích. Và từ chối một việc không nằm trong phần của mình, bằng một câu ngắn gọn, không cần giải thích dài.",
+  "keywords": [
+   "mất cân bằng",
+   "kiệt sức",
+   "ranh giới"
+  ]
+ },
+ {
+  "card_id": "queen-of-pentacles",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Nỗi lo về tiền đang lớn hơn con số thật, và nó có thể làm bạn quyết định vì sợ hơn vì tính.",
+  "card": {
+   "name": "Nữ Hoàng Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 5,
+   "finance": 3,
+   "energy": 5
+  },
+  "headline": "Nỗi lo tiền bạc thường to hơn cái ví thật.",
+  "card_meaning": "Chiều ngược của Nữ Hoàng Tiền chạm vào phần lo âu nằm dưới sự sung túc: người phụ nữ vẫn ôm đồng xu, nhưng thay vì dịu dàng, bà nắm nó chặt vì sợ nó biến mất. Lá bài nói về bất an tài chính, cảm giác thiếu an toàn lớn hơn con số thực tế, và đôi khi là sự thờ ơ với chính nhu cầu của mình. Đây là bóng của sự thực tế: tính toán chuyển thành lo toan. Hôm nay lá bài đáng chú ý vì nó phân biệt hai điều dễ bị nhập làm một, là tiền thật sự thiếu và cảm giác thiếu.",
+  "forecast": [
+   "Bạn có xu hướng mở ứng dụng ngân hàng nhiều lần trong ngày chỉ để thấy nhẹ lòng hơn một chút, rồi lại thấy lo.",
+   "Một khoản chi bình thường, như tiền điện hay bữa ăn nhóm, dễ khiến bạn giật mình hơn mức nó đáng có.",
+   "Có thể bạn nảy ra ý định cắt giảm quá tay, kể cả những thứ làm cuộc sống dễ chịu như bữa ăn với bạn bè."
+  ],
+  "love": "Lo lắng về tiền có thể làm bạn dễ cáu hoặc né những cuộc hẹn tốn kém, và người kia chưa chắc hiểu lý do. Hãy nói thật về nỗi lo, vì một lời giải thích nhẹ nhàng thường dễ chịu hơn sự im lặng khó chịu. Bạn có thể đề nghị một buổi hẹn tiết kiệm, như nấu ăn cùng nhau, mà không cần xấu hổ. Người độc thân đừng để chuyện chi phí làm mình ngại gặp gỡ, vì nhiều cuộc gặp tốt không tốn gì cả.",
+  "career": "Cảm giác thiếu an toàn khiến bạn muốn nhận mọi việc có thu nhập, kể cả khi đã quá tải. Hãy cân nhắc việc nào thực sự đáng với sức bạn, và việc nào chỉ đang xoa dịu nỗi lo. Một cuộc trao đổi thẳng về đãi ngộ hoặc phạm vi công việc có thể cần thiết, nhất là nếu bạn đã gánh thêm một thời gian. Sinh viên thì cẩn thận đừng nhận quá nhiều việc làm thêm đến mức bỏ bê việc học.",
+  "finance": "Tâm lý bất an tài chính đang đi trước thực tế. Hãy ngồi viết ra thu, chi, khoản cố định và khoản có thể giảm, để biến cảm giác mơ hồ thành con số cụ thể. Chỉ cần một tờ giấy hoặc một bảng đơn giản là đủ. Khi các con số nằm trước mắt, nỗi lo thường co lại về đúng kích thước, và nếu thật sự có chỗ hở, bạn biết chỗ nào cần xử lý trước.",
+  "insight": "Có thể điều bạn đang tìm không phải thêm tiền mà là cảm giác được an toàn. Hai thứ này liên quan nhưng không phải lúc nào cũng là một, và có người nhiều tiền vẫn không yên tâm. Nỗi lo này có thể bắt nguồn từ một trải nghiệm cũ về thiếu thốn. Nhận ra nguồn gốc không làm nỗi lo biến mất, nhưng giúp bạn quyết định bằng số liệu thay vì bằng nỗi sợ.",
+  "memorable_message": "Con số trên giấy ít đáng sợ hơn con số trong đầu lúc nửa đêm.",
+  "advice": "Làm một bảng thu chi đơn giản chỉ trong mười phút, không cần hoàn hảo, tốt nhất vào lúc đầu óc còn tỉnh chứ không phải nửa đêm. Ghi ba cột là khoản bắt buộc, khoản linh hoạt và khoản dành cho niềm vui. Có số liệu rõ ràng trong tay, bạn sẽ quyết định bình tĩnh hơn.",
+  "keywords": [
+   "bất an",
+   "lo tiền",
+   "cần rõ ràng"
+  ]
+ },
+ {
+  "card_id": "queen-of-pentacles",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Sự quan tâm của bạn hôm nay dễ trượt thành kiểm soát hoặc ngược lại là nguội đi, cần một mức vừa phải.",
+  "card": {
+   "name": "Nữ Hoàng Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Lo cho ai đó nhiều quá đôi khi cũng là một kiểu không tin họ.",
+  "card_meaning": "Ở chiều ngược, sự chăm sóc của Nữ Hoàng Tiền có thể rẽ sang hai hướng đối nghịch: ôm chặt quá hoặc lạnh đi hẳn. Hình ảnh người mẹ trong khu vườn lúc này giống người luôn đứng chắn trước mọi bụi gai, đến mức người đi cùng chẳng được tự vấp. Có khi ngược lại, bà thờ ơ với việc nhà và việc chung vì cạn hứng. Lá bài không buộc tội, chỉ cho thấy tình thương chưa tìm được mức vừa phải. Hôm nay đáng chú ý vì nó gợi ý nhìn lại ai trong đời bạn cần được tin hơn là được lo.",
+  "forecast": [
+   "Bạn có xu hướng nhắc nhở hoặc làm hộ ai đó điều họ hoàn toàn có thể tự làm, như gói đồ hay nhớ lịch của họ.",
+   "Một lời quan tâm của bạn có thể bị hiểu thành áp đặt, dù ý định hoàn toàn tốt.",
+   "Cũng có thể xuất hiện lúc bạn thờ ơ với việc nhà hoặc việc chung vì thấy cạn hứng, rồi để mặc đến khi nó chất đống."
+  ],
+  "love": "Quan tâm đến mức bao bọc có thể khiến người kia thấy ngộp, dù họ hiểu bạn thương họ. Hãy hỏi họ cần gì thay vì tự đoán và làm sẵn, và chấp nhận câu trả lời cả khi nó là không cần. Nếu bạn thấy mình đang lạnh đi với ai đó, thử xem có phải bạn đang mệt chứ không phải hết thương. Người độc thân cũng nên để ý xem mình có xu hướng chọn người cần được chăm hay người ngang vai.",
+  "career": "Bạn dễ ôm việc của đồng nghiệp hoặc kiểm tra lại việc người khác quá mức. Trao quyền tự làm cũng là một cách tôn trọng và tiết kiệm sức, vì người ta chỉ lớn lên khi được tự xoay xở. Nếu cảm thấy thờ ơ với việc chung, hãy tìm xem phần nào đang làm bạn kiệt hứng, vì thường chỉ là một chi tiết, như cuộc họp lặp lại hay một người khó làm việc. Sinh viên làm nhóm cũng áp dụng được điều này.",
+  "finance": "Có thể bạn chi nhiều cho người thân để thấy mình có ích, hoặc ngược lại bỏ bê việc quản lý chi tiêu chung vì thấy nhàm. Vạch một mức rõ ràng cho từng nhóm khoản chi, như cho gia đình, cho mình, cho chung, sẽ giúp hai chiều cân bằng hơn. Khi ai nhờ, bạn có thể nói trong mức này thì mình giúp, và đó là một lời từ chối lịch sự. Rõ ràng như vậy giữ cho cả tiền lẫn tình cảm đỡ rối.",
+  "insight": "Có thể bạn lo cho người khác nhiều vì đó là cách bạn tìm cảm giác kiểm soát và cảm giác mình cần thiết. Nhưng được yêu không nhất thiết phải bằng việc luôn làm hộ, và người được lo quá đôi khi cảm nhận đó là thiếu tin tưởng. Cũng có thể sự thờ ơ hôm nay chỉ là cái phanh của một người đã cho đi quá nhiều. Cả hai đầu đều là tín hiệu rằng bạn cần tìm mức vừa.",
+  "memorable_message": "Buông tay ra đôi khi là cách ôm chặt nhất.",
+  "advice": "Hôm nay để một người thân hoặc đồng nghiệp tự làm một việc của họ, kể cả khi họ làm khác cách bạn. Chọn việc nhỏ, rủi ro thấp, và kiềm chế không sửa hộ trong vòng một tiếng. Sau đó nhìn xem bạn có bớt mệt hơn không và việc có hỏng thật hay chỉ khác đi.",
+  "keywords": [
+   "bao bọc quá mức",
+   "ranh giới",
+   "buông bớt"
+  ]
+ },
+ {
+  "card_id": "king-of-pentacles",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay bạn có năng lượng của người cầm lái bình tĩnh, quyết định chậm mà chắc sẽ được ủng hộ.",
+  "card": {
+   "name": "Vua Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 8,
+   "finance": 8,
+   "energy": 7
+  },
+  "headline": "Người cầm lái giỏi nhất là người không cần hét to.",
+  "card_meaning": "Vua Tiền ngồi trên ngai khắc đầu bò, áo thêu chùm nho, tay cầm quyền trượng và đồng xu, sau lưng là lâu đài do chính ông gây dựng. Ông là hình mẫu của người thành công bằng tích lũy: kiên trì, thực tế, biết tính đường dài. Điều đặc biệt là ông không cần quát, quyền lực của ông đến từ việc người khác thấy an tâm khi có ông. Ở chiều xuôi, lá bài nhấn vào khả năng ra quyết định bình tĩnh và nắm vững nguồn lực. Hôm nay nó đáng chú ý vì có thể bạn đang ở vị trí được người khác trông cậy.",
+  "forecast": [
+   "Bạn có xu hướng được hỏi ý kiến trong một quyết định mà nhiều người đang lưỡng lự, có thể là ở nhóm làm việc hay trong nhà.",
+   "Cách bạn bình tĩnh cân nhắc lợi hại có thể khiến một tình huống rối trở nên dễ thở hơn, nhất là vào buổi chiều.",
+   "Khả năng cao bạn nhận ra mình đang giữ nhiều hơn mình tưởng: kinh nghiệm, các mối quan hệ và uy tín đã tích lũy."
+  ],
+  "love": "Sự vững vàng của bạn là điểm thu hút lớn hôm nay, nhất là với người đang cần cảm giác yên tâm. Người đang yêu hãy cho người kia thấy bạn có thể là chỗ dựa cụ thể, như cùng lên kế hoạch cho một việc chung. Người độc thân dễ để ý đến những ai ổn định và rõ ràng trong lời nói. Nếu đang tìm hiểu ai đó, hãy thẳng thắn nói điều mình mong, bằng giọng bình tĩnh thay vì thử lòng.",
+  "career": "Bạn ở vị thế dễ dẫn dắt, dù không có chức danh chính thức. Hôm nay hợp để chốt một quyết định đã cân nhắc kỹ, phân công rõ ràng hoặc xin một nguồn lực cần thiết như ngân sách hay thêm người. Hãy để ý cách người khác nhìn về phía bạn khi cuộc họp lúng túng. Sinh viên có thể đảm nhận vai trò điều phối nhóm, chia việc theo sở trường của từng người.",
+  "finance": "Ổn định là từ khóa: dòng tiền hợp lý, khả năng kiểm soát tốt. Đây là ngày hợp để xem lại kế hoạch tài chính dài hạn của mình và điều chỉnh những chỗ lệch, chẳng hạn khoản chi đã tăng so với dự tính. Hãy nhìn bức tranh cả năm thay vì từng ngày. Khi mọi thứ vẫn trong tầm tay, việc nhỏ cần làm chỉ là giữ nhịp và bảo vệ phần đã có.",
+  "insight": "Có thể bạn đang đánh giá thấp mức ảnh hưởng của mình vì quen coi sự vững vàng là chuyện đương nhiên. Người khác nhìn vào bạn thấy một điểm tựa, dù chính bạn không thấy vậy. Việc bạn không cần chứng tỏ gì lại chính là điều làm họ tin. Có lẽ hôm nay bạn không phải làm gì lớn lao, chỉ cần dùng sự điềm tĩnh sẵn có đúng chỗ.",
+  "memorable_message": "Quyền lực yên lặng nhất là khi người khác thấy an tâm vì có bạn trong phòng.",
+  "advice": "Chốt một quyết định đã để treo vài ngày, dựa trên dữ kiện bạn đang có chứ không chờ thêm thông tin hoàn hảo. Làm trong buổi sáng, khi đầu óc còn gọn. Sau đó thông báo rõ ràng với những người liên quan, bằng hai ba câu, không rào đón và không xin lỗi trước.",
+  "keywords": [
+   "vững vàng",
+   "điều hành",
+   "uy tín"
+  ]
+ },
+ {
+  "card_id": "king-of-pentacles",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Thành quả bạn gom góp từ trước đang cho phép bạn thoải mái hơn: hãy tận hưởng và chia sẻ có chừng mực.",
+  "card": {
+   "name": "Vua Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 7,
+   "finance": 8,
+   "energy": 8
+  },
+  "headline": "Thành quả chỉ trọn vẹn khi có người cùng ngồi ăn.",
+  "card_meaning": "Trong lá bài, Vua Tiền ngồi giữa khu vườn nho chín, sau lưng là lâu đài và xung quanh là cây trái, như người đã đi hết mùa gieo và bước vào mùa gặt. Ông tượng trưng cho thành quả vật chất, nhưng quan trọng hơn là sự hào phóng của người đã có đủ. Ở chiều xuôi, năng lượng này cho phép tận hưởng mà không áy náy và chia sẻ mà không sợ thiếu. Hôm nay lá bài đáng chú ý vì nó nhắc rằng thành quả có hai nửa, một nửa là xây được và nửa còn lại là dám dùng nó cùng người mình quý.",
+  "forecast": [
+   "Có xu hướng bạn muốn thưởng cho mình hoặc người thân một thứ chất lượng, không cần phô trương, như một bữa ăn ngon.",
+   "Một người đi sau, có thể là đàn em hay một bạn mới, nhờ bạn chỉ dẫn, và bạn sẵn lòng chia sẻ kinh nghiệm.",
+   "Dễ xuất hiện khoảnh khắc nhận ra công sức của những tháng trước đang bắt đầu cho kết quả."
+  ],
+  "love": "Hôm nay hợp để dành thời gian chất lượng cho người quan trọng: một bữa ăn ngon, một buổi tối không vội. Sự hào phóng không nằm ở giá trị món quà mà ở chỗ bạn thật sự có mặt, điện thoại úp xuống. Người độc thân sẽ tự tin hơn khi biết mình đã xây được một cuộc sống ổn. Đang tìm hiểu ai đó thì thử mời họ đến một nơi bạn thật sự thích, thay vì nơi để gây ấn tượng.",
+  "career": "Sự công nhận hay một kết quả đáng kể có thể đang đến gần. Bạn có thể chia sẻ công lao với đồng đội, và điều đó sẽ tăng thêm uy tín chứ không làm giảm phần của bạn. Với người mới vào nghề, hôm nay là cơ hội xin lời khuyên của một người đi trước, và nếu bạn là người đi trước, hãy sẵn lòng trả lời. Một lời cảm ơn công khai cũng là cách giữ ấm quan hệ làm việc.",
+  "finance": "Mức độ thoải mái về tài chính khá tốt, bạn có thể chi cho một thứ đáng giá mà không áy náy nếu đã nằm trong kế hoạch. Dành một phần cho việc giúp người khác cũng là cách tận hưởng, như góp quỹ cho một việc chung hay mời bữa cho người thân. Điều quan trọng là bạn chi vì muốn, chứ không phải để chứng tỏ. Thử để ý cảm giác sau khi chi, vì khoản đáng thường để lại sự hài lòng lâu hơn.",
+  "insight": "Có thể bạn quen làm việc đến mức chưa bao giờ cho phép mình nhìn lại và hưởng thụ. Thành quả không dùng đến thì chỉ là con số, chưa phải cuộc sống. Việc tận hưởng đôi khi khiến người chăm chỉ thấy tội lỗi, như thể mình đang lấy phần của ngày mai. Hôm nay có thể là lúc bạn thử tin rằng một phần thành quả sinh ra là để được dùng.",
+  "memorable_message": "Bàn tiệc đẹp nhất là bàn mà ai cũng có ghế.",
+  "advice": "Tự thưởng cho mình hoặc ai đó gần gũi một điều nhỏ mà bạn vẫn hoãn mãi, như món ăn yêu thích hay một buổi đi dạo. Chọn một thời điểm cụ thể, chẳng hạn bữa tối nay, và đặt lịch luôn. Giữ mức chi nằm trong ngân sách đã định, để niềm vui không kèm cảm giác hối hận.",
+  "keywords": [
+   "thành quả",
+   "hào phóng",
+   "tận hưởng"
+  ]
+ },
+ {
+  "card_id": "king-of-pentacles",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Hôm nay hợp để xây hệ thống thay vì chạy theo từng việc, vì nền móng bạn đặt giờ sẽ giữ được lâu.",
+  "card": {
+   "name": "Vua Tiền",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 8,
+   "finance": 8,
+   "energy": 7
+  },
+  "headline": "Một hệ thống tốt làm việc thay bạn cả khi bạn ngủ.",
+  "card_meaning": "Vua Tiền thường được vẽ ngồi vững như một ngọn núi nhỏ, đồng xu đặt trên đầu gối, sau lưng là tòa lâu đài cho thấy ông biết xây thứ vượt quá một đời người. Điểm mạnh của ông không nằm ở sức mà ở cấu trúc: ông biến việc lặp lại thành quy trình, biến ý tưởng thành thứ vận hành được. Chiều xuôi gắn với tầm nhìn dài hạn, kỷ luật và sự chắc tay khi đặt nền. Hôm nay nó đáng chú ý vì năng lượng nghiêng về việc xây hệ thống thay vì chữa cháy từng việc, và những thứ bạn đặt xuống bây giờ có thể giữ được rất lâu.",
+  "forecast": [
+   "Bạn có xu hướng nhìn ra chỗ mình làm đi làm lại cùng một việc và muốn gom nó thành quy trình hoặc danh sách kiểm tra.",
+   "Một kế hoạch cho vài tháng tới có thể trở nên rõ ràng sau một cuộc trò chuyện thực tế với người có kinh nghiệm.",
+   "Năng lượng nghiêng về việc ra quyết định dựa trên dữ kiện thay vì cảm hứng nhất thời."
+  ],
+  "love": "Tình cảm cần cấu trúc nhỏ để bền: một nhịp gặp đều đặn, một lời thống nhất về chuyện chung như ai lo việc gì hay cuối tuần ưu tiên gì. Nếu đang tìm hiểu ai đó, sự rõ ràng về mong muốn của bạn sẽ được trân trọng hơn lối nói nửa vời. Người độc thân nên hỏi mình thật sự cần gì ở một mối quan hệ, rồi viết ra ba điều không thể thiếu. Nói rõ nền móng sớm giúp tránh hiểu lầm về sau.",
+  "career": "Bạn mạnh ở việc sắp xếp thứ tự ưu tiên, lập quy trình và biến ý tưởng thành thứ vận hành được. Hãy dành một khoảng thời gian để viết ra các bước quan trọng của một công việc lặp lại, để người khác cũng có thể làm theo. Sinh viên có thể lập kế hoạch ôn tập cho cả kỳ, chia theo tuần. Nếu đang quản lý người khác, hãy hỏi họ chỗ nào trong quy trình hiện tại hay bị vướng.",
+  "finance": "Đây là lúc hợp để thiết lập hoặc điều chỉnh thói quen tài chính dài hạn, như cách chia khoản tiết kiệm hay quỹ dự phòng cho những việc bất ngờ. Bắt đầu từ mức nhỏ nhưng đều thì vững hơn chạy theo một con số lớn rồi bỏ cuộc. Một quy tắc đơn giản, chẳng hạn trích một phần cố định ngay khi nhận thu nhập, thường dễ giữ hơn việc nhớ mỗi tháng. Hệ thống tốt là hệ thống bạn không phải cố gắng để theo.",
+  "insight": "Có thể bạn đang mệt vì mọi thứ vận hành nhờ trí nhớ và sức của một mình bạn. Chuyện này ít khi lộ ra, vì mọi việc vẫn trôi, chỉ có người giữ nó là hao dần. Thứ đáng làm hôm nay không phải chạy nhanh hơn, mà là bớt phụ thuộc vào việc phải nhớ hết. Khi hệ thống gánh phần lặp lại, bạn có thêm chỗ cho phần cần suy nghĩ thật sự.",
+  "memorable_message": "Người giàu thời gian nhất là người đã viết quy trình ra giấy.",
+  "advice": "Chọn một công việc lặp lại mà bạn hay làm theo trí nhớ và viết ra ba bước cố định cho nó, trong khoảng nửa tiếng vào đầu giờ chiều. Có thể là cách chuẩn bị báo cáo hay quy trình dọn nhà cuối tuần. Dán hoặc lưu nó ở chỗ dễ thấy. Từ mai bạn sẽ đỡ được một chút quyết định nhỏ.",
+  "keywords": [
+   "hệ thống",
+   "nền móng",
+   "kế hoạch dài"
+  ]
+ },
+ {
+  "card_id": "king-of-pentacles",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Bạn đang muốn nắm mọi thứ chặt hơn mức cần, và chính điều đó làm bạn và người xung quanh mệt.",
+  "card": {
+   "name": "Vua Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Nắm chặt quá thì tay không còn chỗ nhận thêm.",
+  "card_meaning": "Khi Vua Tiền bị lật ngược, ông vẫn ngồi trên ngai, nhưng tay cầm quyền trượng quá chặt, mắt nhìn lâu đài như sợ nó biến mất nếu chớp mắt. Lá bài ở chiều này nói về kiểm soát quá mức: muốn nắm hết chi tiết, không yên tâm khi giao việc, khó chịu với mọi thứ ngoài kế hoạch. Đây là bóng của sự vững vàng, khi cẩn thận chuyển thành khắt khe. Nó không có nghĩa bạn là người tệ, mà là sự trấn an đang tốn nhiều sức hơn mức cần. Hôm nay đáng chú ý vì nó chỉ ra chỗ bạn có thể nới tay mà vẫn giữ được chất lượng.",
+  "forecast": [
+   "Bạn có xu hướng kiểm tra lại từng chi tiết của việc đã giao cho người khác, dù họ đã báo là xong.",
+   "Một thay đổi ngoài kế hoạch có thể làm bạn khó chịu nhiều hơn mức nó đáng có.",
+   "Dễ xuất hiện những câu như để tôi làm cho nhanh, và sau đó bạn thấy mình quá tải vì ôm nhiều việc."
+  ],
+  "love": "Muốn kiểm soát mọi thứ trong mối quan hệ, từ kế hoạch cuối tuần đến cách người kia phản ứng, sẽ làm không khí căng. Thử đặt một câu hỏi thay vì một yêu cầu, ví dụ hỏi bạn thấy thế nào thay vì nói mình nghĩ nên làm vậy. Người độc thân dễ đặt tiêu chuẩn như một bản hợp đồng, nên cần mềm hơn một chút để người khác có chỗ bước vào. Hãy để ý xem người kia có đang im lặng để khỏi cãi không.",
+  "career": "Vai trò lãnh đạo hôm nay dễ biến thành quản lý chi tiết. Nếu bạn giao việc mà vẫn không yên tâm, hãy xem lại cách giao chứ chưa vội trách người nhận, vì có thể mục tiêu chưa đủ rõ. Một nhóm được tin tưởng sẽ làm tốt hơn một nhóm bị theo dõi từng bước. Sinh viên làm nhóm cũng vậy: chia phần rõ ràng rồi hẹn mốc kiểm tra thay vì nhắn hỏi liên tục.",
+  "finance": "Việc theo dõi tiền chặt chẽ là tốt, nhưng nếu đã chuyển thành lo lắng và hà khắc với mình hay người thân thì cần nới ra. Hãy chừa một khoản linh hoạt cho những bất ngờ vô hại, như một bữa ăn ngoài hay quà vặt. Khi mọi đồng đều phải giải trình, ngân sách thành nguồn căng thẳng thay vì công cụ. Một ngân sách có chút khoảng trống thường dễ giữ hơn một ngân sách khít từng đồng.",
+  "insight": "Có thể sự kiểm soát này là cách bạn tự trấn an trước một điều chưa rõ, như một dự án bấp bênh hay một mối quan hệ chưa định hình. Nhưng càng nắm chặt, bạn càng thấy mọi thứ trượt qua kẽ tay, vì người xung quanh bắt đầu giấu thay vì chia sẻ. Có lẽ phần cần giữ chỉ là vài việc cốt lõi, phần còn lại có thể trao ra. Cảm giác yên tâm thật thường đến từ sự tin tưởng hơn là từ việc theo dõi.",
+  "memorable_message": "Người nắm hết mọi chìa khóa thường cũng là người không bao giờ được nghỉ.",
+  "advice": "Giao hẳn một việc, nêu rõ kết quả mong muốn và hạn chót, rồi không kiểm tra lại cho đến khi đến hạn. Làm vào đầu ngày để bạn còn thời gian thấy mình vẫn ổn. Ghi chú xem kết quả có tệ như bạn lo không, và so với dự đoán ban đầu.",
+  "keywords": [
+   "kiểm soát",
+   "khắt khe",
+   "cần buông"
+  ]
+ },
+ {
+  "card_id": "king-of-pentacles",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Hôm nay dễ đo giá trị mọi thứ bằng con số, kể cả những điều vốn không có giá niêm yết.",
+  "card": {
+   "name": "Vua Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Không phải thứ gì quan trọng cũng có hóa đơn.",
+  "card_meaning": "Chiều ngược của Vua Tiền cho thấy một người ngồi giữa kho báu mà vẫn đếm: chùm nho, vàng, lâu đài, mọi thứ đều có giá. Từ khóa của chiều này là ám ảnh vật chất, đo giá trị bằng sở hữu, thành tích, địa vị, và sự tham muốn nhiều hơn dù đã có. Nó là bóng của thành công vật chất: khi thứ làm công cụ biến thành thước đo của chính mình. Lá bài không bảo bạn bỏ tiền đi, mà hỏi tiền đang phục vụ điều gì. Hôm nay nó đáng chú ý vì nó mời bạn tách giá trị con người khỏi giá niêm yết.",
+  "forecast": [
+   "Bạn có xu hướng so sánh thu nhập, tài sản hoặc địa vị của mình với người khác, nhất là khi lướt mạng giữa buổi.",
+   "Một lời nói hay việc làm của ai đó dễ bị bạn quy ra mức lợi hại thay vì nhìn như một cử chỉ tình cảm.",
+   "Có thể xuất hiện cảm giác nhiều bao nhiêu cũng chưa đủ, nhất là sau khi thấy cuộc sống chọn lọc của ai đó."
+  ],
+  "love": "Tính toán quá nhiều trong tình cảm, ai bỏ ra bao nhiêu, ai nhận được bao nhiêu, sẽ làm mối quan hệ mất đi sự ấm áp. Hãy thử cho đi một điều không cần được đáp lại, như một lời nhắn hỏi han hay phần ăn của mình. Người độc thân nên cẩn thận với việc chọn người theo điều kiện bề ngoài, vì điều kiện không nói được cách họ đối xử lúc khó khăn. Người đang yêu thử bỏ cuốn sổ ngầm trong đầu trong một buổi tối.",
+  "career": "Sự ám ảnh với thu nhập hoặc chức danh có thể lấn át niềm vui và ý nghĩa của việc bạn làm. Hãy tự hỏi mục tiêu hôm nay của mình là gì ngoài con số, chẳng hạn học được điều gì hay giúp được ai. Làm việc chỉ vì tiền, dù hiệu quả, thường để lại cảm giác trống vào cuối ngày. Sinh viên cũng dễ coi điểm số là thước đo giá trị, nên thử tự hỏi mình thật sự thích phần nào của môn học.",
+  "finance": "Tâm lý muốn tích trữ hoặc thắng người khác về tiền dễ làm bạn tiết kiệm quá mức hoặc ngược lại phô trương không cần thiết. Đặt ra một con số vừa đủ cho một năm tới sẽ dễ thở hơn đuổi theo một con số không có đích. Thử hỏi mình món định mua là vì cần, vì thích hay vì muốn người khác thấy. Hiểu rõ lý do chi thường cắt bớt những khoản bạn sẽ không nhớ nổi sau một tuần.",
+  "insight": "Có thể bạn đã quen tin rằng giá trị của mình tỷ lệ với những gì mình sở hữu. Niềm tin đó dễ hình thành trong môi trường ai cũng so đo, và nó khiến mọi bước lùi nghe như một sự mất mát về nhân cách. Nhưng người ta nhớ bạn vì cách bạn đối xử, hiếm ai nhớ vì số dư. Hôm nay có thể là lúc bạn thử đo mình bằng một cây thước khác.",
+  "memorable_message": "Có những thứ bạn chỉ giữ được khi thôi cố đếm chúng.",
+  "advice": "Hôm nay tránh mở trang cá nhân của những người bạn hay so sánh, ít nhất đến hết buổi chiều. Thay vào đó hãy làm một việc tử tế mà không ai biết và không tốn tiền, như nhường chỗ, chỉ đường hay nhắn một lời động viên. Tối đến, thử xem cảm giác đó khác với cảm giác khi đếm tiền ra sao.",
+  "keywords": [
+   "so đo",
+   "ám ảnh vật chất",
+   "thiếu đủ"
+  ]
+ },
+ {
+  "card_id": "king-of-pentacles",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Bạn đang cứng như một cánh cửa sắt: an toàn thật, nhưng không còn ai bước vào được.",
+  "card": {
+   "name": "Vua Tiền",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 4,
+   "energy": 6
+  },
+  "headline": "Sự vững vàng thành gông cùm khi nó không cho phép thử cái mới.",
+  "card_meaning": "Hình ảnh Vua Tiền ngược giống một cánh cửa sắt đóng chặt: tường dày, khóa kỹ, nhưng cũng không còn ai vào được. Đây là chiều đọc của sự bảo thủ, giữ khư khư, ngại hợp tác và gạt đi cái mới vì sợ rủi ro. Nét vững vàng của lá xuôi hóa thành gông cùm khi nó không cho phép thử. Thường có lý do phía sau, như một lần bị thiệt hay một thời thiếu thốn khiến ta thủ kỹ. Hôm nay đáng chú ý vì nó mời bạn phân biệt rủi ro thật với nỗi ngại, và mở một khe nhỏ thay vì mở cả cửa.",
+  "forecast": [
+   "Bạn có xu hướng từ chối nhanh một ý tưởng vì rủi ro, trước cả khi nghe hết, nhất là trong một cuộc trao đổi công việc.",
+   "Một cơ hội hợp tác hoặc lời nhờ vả có thể bị bạn gạt đi vì ngại mất phần của mình.",
+   "Dễ xuất hiện câu mình từng thử rồi, không hiệu quả đâu, dù hoàn cảnh nay đã khác."
+  ],
+  "love": "Bạn đang giữ khoảng cách an toàn, vừa vì sợ tổn thương vừa vì sợ mất quyền chủ động. Nếu đang tìm hiểu ai đó, thử để họ thấy một phần mềm hơn của mình, như kể một chuyện không hoàn hảo. Người đang yêu cần nhớ rằng kiên định không có nghĩa là không nhượng bộ, và có những lúc nhượng một bước lại giữ được cả mối quan hệ. Người độc thân thử nhận lời một cuộc gặp, dù không nằm trong kế hoạch.",
+  "career": "Sự thận trọng hôm nay có thể làm bạn bỏ lỡ một cơ hội hợp tác hoặc một cách làm mới. Hãy phân biệt rủi ro thật và nỗi ngại thay đổi, bằng cách viết ra điều tệ nhất có thể xảy ra và xem nó có xử lý được không. Chia sẻ quyền quyết định hoặc thông tin có thể khiến cả nhóm tiến nhanh hơn. Sinh viên thử nhận thêm một bạn vào nhóm thay vì tự làm hết.",
+  "finance": "Thói quen giữ khư khư có thể khiến bạn bỏ qua những khoản chi hợp lý cho sức khỏe, học hỏi hay các mối quan hệ. Tiết kiệm là tốt, nhưng cần có mục đích và một chỗ dành cho niềm vui. Thử xem lại danh sách những thứ bạn vẫn từ chối mua lâu nay, rồi chọn xem cái nào thực sự đáng, như một đôi giày tử tế hay một khóa học. Một khoản chi có chủ đích không phải là sự thua cuộc.",
+  "insight": "Có thể bạn giữ chặt vì từng có thời điểm thiếu thốn hoặc bị người khác làm thiệt. Nỗi sợ đó có lý do, và nó từng bảo vệ bạn thật. Nhưng nó không còn phải điều khiển mọi quyết định của hôm nay, vì hoàn cảnh và cả bạn đều đã khác. Có lẽ đã đến lúc xem lại điều bạn bảo vệ nay còn cần bức tường dày đến thế không.",
+  "memorable_message": "Khóa cửa kỹ mấy thì mùa xuân vẫn lọt qua khe.",
+  "advice": "Nghe trọn một ý tưởng mới, dù bạn nghĩ mình sẽ từ chối, và đừng ngắt giữa chừng. Làm việc này ở cuộc trao đổi đầu tiên có người đưa đề xuất hôm nay. Ghi lại một lý do để nói được thay vì chỉ lý do để nói không. Sau đó bạn vẫn có thể từ chối, nhưng đó là một lời từ chối có thông tin.",
+  "keywords": [
+   "bảo thủ",
+   "giữ khư khư",
+   "ngại hợp tác"
+  ]
+ }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "card_id": "ten-of-cups", "orientation": "upright", "variant": 1,
+    "summary": "Hôm nay hạnh phúc nằm ở những điều rất thường: một bữa cơm, một câu hỏi han, một người ở lại cạnh bạn.",
+    "card": { "name": "Mười Cốc", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 9, "love": 9, "career": 7, "finance": 7, "energy": 8 },
+    "headline": "Nhà không cần hoàn hảo, chỉ cần có người muốn về.",
+    "forecast": [
+      "Bạn có xu hướng thấy lòng ấm lên vì một chi tiết nhỏ trong gia đình hoặc nhóm bạn thân, như một tin nhắn hỏi đã ăn chưa.",
+      "Một bữa ăn hay buổi gặp mặt dễ trở thành điểm nhấn của ngày, dù không ai lên kế hoạch cho nó.",
+      "Một mâu thuẫn nhỏ kéo dài lâu nay có khả năng nhẹ đi chỉ nhờ một câu nói mềm."
+    ],
+    "love": "Người độc thân dễ thấy mình hợp với kiểu người cho cảm giác bình yên hơn là kiểu khiến tim đập loạn. Nếu đang tìm hiểu, tín hiệu tốt nằm ở chuyện hai bên thấy thoải mái khi im lặng cạnh nhau. Đang yêu thì hôm nay rất hợp để nói về chuyện dài hạn một cách nhẹ nhàng.",
+    "career": "Bầu không khí làm việc có xu hướng dễ chịu, đồng nghiệp sẵn lòng giúp nhau hơn thường lệ. Một lời cảm ơn đúng chỗ của bạn có thể khiến cả nhóm chạy trơn tru hơn. Sinh viên nên học cùng bạn bè thay vì ngồi một mình.",
+    "finance": "Dòng tiền khá ổn định, và khoản chi cho người thân hay bữa cơm chung dễ mang lại cảm giác đáng. Chỉ cần ghi lại để cuối tuần không bất ngờ vì tổng số.",
+    "insight": "Có thể bạn vẫn đang đợi một khoảnh khắc thật lớn mới cho phép mình thấy đủ đầy, trong khi nó đã diễn ra từng chút từ sáng. Hạnh phúc kiểu này hay bị bỏ qua vì nó quá yên.",
+    "memorable_message": "Hạnh phúc ít khi gõ cửa ầm ĩ, nó thường chỉ để đèn bếp sáng.",
+    "advice": "Hôm nay hãy chủ động hỏi thăm một người thân quen mà bạn lâu rồi chưa nói chuyện sâu. Đặt điện thoại xuống trong một bữa ăn để khoảnh khắc đó thực sự có mặt bạn.",
+    "keywords": ["bình yên", "gắn kết", "đủ đầy"]
+  },
+  {
+    "card_id": "ten-of-cups", "orientation": "upright", "variant": 2,
+    "summary": "Năng lượng nghiêng về cảm giác đủ: bạn dễ nhận ra mình đang có nhiều hơn mình vẫn hay kể.",
+    "card": { "name": "Mười Cốc", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 9, "love": 8, "career": 7, "finance": 7, "energy": 8 },
+    "headline": "Đủ không phải là dừng lại, mà là thôi so sánh.",
+    "forecast": [
+      "Có xu hướng bạn thấy biết ơn vì một thứ mà tuần trước còn xem là hiển nhiên.",
+      "Bạn dễ bớt lướt xem cuộc sống người khác khi chính buổi tối của mình đang dễ chịu.",
+      "Một cuộc trò chuyện với người thân có thể chạm tới điều bạn vẫn chưa nói thành lời."
+    ],
+    "love": "Cảm xúc hôm nay nghiêng về sự viên mãn, nên bạn ít cần chứng minh hay thử lòng người kia. Người đang yêu có thể nhận ra mối quan hệ mình đã đi xa hơn mình tưởng. Người độc thân thấy mình ổn khi ở một mình cũng chính là lúc sức hút rõ nhất.",
+    "career": "Bạn làm việc tốt khi thấy việc mình làm có ý nghĩa với ai đó, không chỉ là con số. Có khả năng một phản hồi tích cực đến và khiến bạn nhớ vì sao mình bắt đầu. Đừng vì đang vui mà bỏ dở phần việc nhàm chán còn lại.",
+    "finance": "Cảm giác đủ giúp bạn bớt thèm mua sắm để lấp chỗ trống, nên chuyện chi tiêu khá lành. Hôm nay hợp để nhìn lại xem khoản nào thực sự làm bạn vui lâu.",
+    "insight": "Có thể bạn quen đặt mốc hạnh phúc ở phía trước, nên mọi thứ hiện tại luôn là chưa đủ. Lá bài này nhắc rằng đích đến đôi khi đã nằm sẵn trong lòng bàn tay.",
+    "memorable_message": "Ly nước đã đầy thì đừng nhìn sang ly người khác để thấy thiếu.",
+    "advice": "Viết ra ba điều đang có mà một năm trước bạn từng cầu mong, ngắn thôi cũng được. Rồi cho phép mình vui mà không phải kèm câu nhưng mà.",
+    "keywords": ["viên mãn", "biết đủ", "biết ơn"]
+  },
+  {
+    "card_id": "ten-of-cups", "orientation": "upright", "variant": 3,
+    "summary": "Hôm nay hợp để xây điều gì đó cùng người khác: một nhóm, một tổ ấm, một kế hoạch có chỗ cho nhiều người.",
+    "card": { "name": "Mười Cốc", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 9, "love": 9, "career": 8, "finance": 7, "energy": 8 },
+    "headline": "Điều bền nhất bạn xây hôm nay có thể mang hơn một cái tên.",
+    "forecast": [
+      "Bạn có xu hướng thấy mình thuộc về một nhóm, dù là gia đình, bạn bè hay đồng đội, rõ hơn thường lệ.",
+      "Một đề xuất làm chung như đi chơi cùng hay góp ý tưởng cùng nhau dễ được hưởng ứng.",
+      "Một người lớn tuổi hoặc người thân có thể kể một câu chuyện giúp bạn hiểu mình hơn."
+    ],
+    "love": "Chủ đề của tình cảm hôm nay là tương lai chung: nhà ở đâu, cuối tuần làm gì, kỳ nghỉ nào. Những câu hỏi đó nghe nhẹ nhưng cho thấy hai người đang nhìn cùng một hướng. Người độc thân dễ gặp ai đó qua nhóm bạn quen.",
+    "career": "Làm việc nhóm là điểm mạnh, nhất là khi mọi người cùng hiểu mục tiêu. Bạn có thể là người nối hai bên chưa hiểu nhau. Hãy ghi nhận công của người khác trước khi buổi họp kết thúc.",
+    "finance": "Các khoản chung như quỹ nhóm, chi phí gia đình hay mua sắm chung nên được nói rõ ràng. Minh bạch từ đầu giúp tình cảm không bị tiền làm rối.",
+    "insight": "Có thể bạn quen tự gánh nhiều thứ vì nghĩ nhờ người khác là phiền. Thực ra người thân thường vui hơn khi được cần đến.",
+    "memorable_message": "Bàn ăn nào cũng vừa thêm được một cái ghế nếu người ta muốn.",
+    "advice": "Rủ một hai người thân thiết cùng làm một việc nhỏ trong hôm nay, như nấu ăn, dọn dẹp hay đi dạo. Việc nhỏ làm chung thường gắn người ta lại nhiều hơn lời tuyên bố lớn.",
+    "keywords": ["thuộc về", "tương lai chung", "tổ ấm"]
+  },
+  {
+    "card_id": "ten-of-cups", "orientation": "reversed", "variant": 1,
+    "summary": "Có độ lệch giữa điều mỗi người mong đợi ở nhau, nên một cuộc nói chuyện thẳng nhưng nhẹ đáng hơn im lặng.",
+    "card": { "name": "Mười Cốc", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 3, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Cùng một mái nhà không có nghĩa là cùng một kỳ vọng.",
+    "forecast": [
+      "Một câu nhận xét tưởng vô tình từ người thân có xu hướng chạm vào chỗ nhạy của bạn.",
+      "Bạn dễ nhận ra mình và ai đó trong nhà đang hiểu hai nghĩa khác nhau của chữ ổn.",
+      "Có khả năng một chuyện cũ chưa nói hết được nhắc lại vào lúc không ai chuẩn bị."
+    ],
+    "love": "Tình cảm dễ vướng vào áp lực từ bên ngoài, như ý kiến gia đình hay chuẩn mực về một mối quan hệ nên có. Nếu đang yêu, hãy hỏi nhau mình thật sự muốn gì thay vì làm theo hình mẫu. Người độc thân có thể thấy ngại khi bị hỏi chuyện chồng con.",
+    "career": "Giá trị cá nhân và kỳ vọng của người nhà về công việc của bạn có thể lệch nhau, gây chút căng. Hãy tách việc mình cần quyết khỏi việc người khác muốn bạn quyết. Ở chỗ làm, kiểm lại xem cả nhóm có hiểu giống nhau về phân công.",
+    "finance": "Chuyện tiền với người nhà là điểm dễ nhạy cảm, như hỗ trợ ai hay chia chi phí ra sao. Hôm nay đừng chốt chuyện lớn trong lúc cảm xúc đang căng. Nói rõ giới hạn của mình bằng giọng bình tĩnh.",
+    "insight": "Có thể bạn đang giữ hòa khí bằng cách nuốt vào, và phần nuốt ấy đang nặng dần. Giữ hòa khí không đồng nghĩa với giấu hết ý kiến của mình.",
+    "memorable_message": "Im lặng để yên ấm thì được một bữa, nói thật nhẹ nhàng thì được lâu hơn.",
+    "advice": "Chọn một vấn đề nhỏ cần nói và mở đầu bằng câu Mình muốn hiểu cách bạn nghĩ. Nếu chưa phải lúc, cho phép cuộc trò chuyện đợi đến hôm khác.",
+    "keywords": ["lệch kỳ vọng", "nói thật nhẹ", "giữ ranh giới"]
+  },
+  {
+    "card_id": "ten-of-cups", "orientation": "reversed", "variant": 2,
+    "summary": "Bề ngoài có thể đẹp hơn bên trong: điều đáng chú ý hôm nay là khoảng cách giữa điều bạn đăng và điều bạn thấy.",
+    "card": { "name": "Mười Cốc", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Ảnh đẹp không phải lúc nào cũng là nhà ấm.",
+    "forecast": [
+      "Bạn có xu hướng nói mình ổn khi ai đó hỏi thăm, dù trong lòng còn một chỗ nhói.",
+      "Một khung cảnh gia đình hay bạn bè trông rất hòa thuận có thể khiến bạn thấy lạc lõng.",
+      "Bạn dễ so sánh cuộc sống mình với hình ảnh đã được chọn lọc của người khác."
+    ],
+    "love": "Mối quan hệ có thể đang đóng vai đẹp hơn thực tế, hoặc bạn đang diễn vai người không cần gì. Nếu có điều muốn nói với người kia, hôm nay thử nói một phần nhỏ thôi. Người độc thân đừng ép mình hợp với hình mẫu cặp đôi hoàn hảo.",
+    "career": "Có thể bạn đang tỏ ra mọi việc trong tầm kiểm soát trong khi thực tế đang quá tải. Nói thật về tiến độ sớm thường rẻ hơn nhiều so với nói muộn. Đừng cố tạo ấn tượng bằng cách nhận thêm việc.",
+    "finance": "Cẩn thận với chi tiêu để giữ thể diện, như quà, tiệc hay đồ hiệu cho đủ vẻ. Hãy hỏi mình khoản này để người ta nhìn hay để mình dùng.",
+    "insight": "Có thể sự mệt của bạn không đến từ việc thiếu hạnh phúc mà từ việc phải duy trì hình ảnh hạnh phúc. Hình ảnh càng phải giữ lâu thì càng tốn sức.",
+    "memorable_message": "Nụ cười giữ quá lâu cũng mỏi như bất kỳ cơ bắp nào.",
+    "advice": "Tìm một người đủ an toàn và nói với họ một câu thật hơn thường lệ, ví dụ Dạo này mình hơi mệt. Hôm nay bớt chụp, bớt đăng, thử sống cho chính mình xem.",
+    "keywords": ["hạnh phúc diễn", "so sánh", "nói thật"]
+  },
+  {
+    "card_id": "ten-of-cups", "orientation": "reversed", "variant": 3,
+    "summary": "Một hình dung đẹp về cuộc sống hay một mối quan hệ có thể nứt hôm nay, và đó là chỗ dựng lại thật hơn.",
+    "card": { "name": "Mười Cốc", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 3, "career": 5, "finance": 3, "energy": 4 },
+    "headline": "Bức tranh vỡ đôi khi là lúc nhìn thấy khung cửa thật.",
+    "forecast": [
+      "Một kế hoạch tập thể như chuyến đi hay buổi họp mặt có xu hướng không diễn ra như mong đợi.",
+      "Bạn dễ thất vọng vì ai đó không phản ứng đúng theo kịch bản bạn đã tưởng tượng.",
+      "Có khả năng bạn nhận ra mình đang giữ một ước mơ về cuộc sống không còn hợp với mình."
+    ],
+    "love": "Điều làm bạn buồn có thể không phải là người kia làm sai, mà là họ không giống hình ảnh trong đầu bạn. Hãy phân biệt đâu là nhu cầu thật, đâu là kịch bản mượn từ phim. Người độc thân đừng vội kết luận hợp hay không từ buổi đầu.",
+    "career": "Một mục tiêu bạn từng coi là hiển nhiên có thể phải điều chỉnh lại. Hãy xem điều chỉnh là cập nhật chứ không phải thất bại. Đừng đổ lỗi vội trước khi thấy đủ dữ kiện.",
+    "finance": "Kế hoạch tiền bạc dựa trên giả định quá lạc quan có thể cần soát lại. Hôm nay hợp để viết ra con số thật thay vì con số mong muốn. Hoãn các khoản chi lớn sang một ngày đầu óc nhẹ hơn.",
+    "insight": "Có thể bạn không chỉ buồn vì điều đã vỡ, mà vì phải tạm biệt phiên bản tương lai mình từng yêu. Nỗi buồn đó chính đáng, và nó không có nghĩa là bạn không thể có điều tốt khác.",
+    "memorable_message": "Hạnh phúc dựng trên thực tế có thể nhỏ hơn bản vẽ, nhưng mưa không làm nó sập.",
+    "advice": "Viết ra một kỳ vọng bạn đang giữ rồi hỏi nó của mình hay của ai. Giữ lại phần thật, buông phần mượn.",
+    "keywords": ["kỳ vọng vỡ", "dựng lại", "thực tế"]
+  },
+  {
+    "card_id": "page-of-cups", "orientation": "upright", "variant": 1,
+    "summary": "Một tin nhắn, lời mời hoặc lời nói dịu dàng có thể đến hôm nay và khiến tâm trạng bạn sáng lên.",
+    "card": { "name": "Thị Đồng Cốc", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 8, "career": 7, "finance": 6, "energy": 7 },
+    "headline": "Có một tin nhỏ đang đi đường tới bạn.",
+    "forecast": [
+      "Bạn có xu hướng nhận tin nhắn hoặc lời hỏi thăm từ một người lâu rồi không liên lạc.",
+      "Một lời mời đi cà phê, đi dạo hay tham gia một việc nhẹ nhàng dễ xuất hiện.",
+      "Có thể bạn bất ngờ rung động vì một chi tiết rất đời thường ở người khác."
+    ],
+    "love": "Tín hiệu tình cảm hôm nay đến dưới dạng những điều nhỏ: một icon dễ thương, một câu hỏi thêm, một cái nhìn lâu hơn. Nếu đang tìm hiểu, bạn có thể nhắn trước một câu chân thành mà không sợ lộ. Người đang yêu nên nói một điều dễ thương mà lâu rồi chưa nói.",
+    "career": "Giao tiếp hợp để đón nhận phản hồi hoặc lời đề nghị từ đồng nghiệp. Ý tưởng mới mang màu sắc trẻ trung có thể gây chú ý. Đọc kỹ nội dung tin nhắn công việc trước khi trả lời.",
+    "finance": "Tài chính ở mức nhẹ nhàng, chưa có biến động lớn. Chỉ cần lưu ý khoản chi nhỏ cho đồ ăn, quà vặt khi tâm trạng đang tốt.",
+    "insight": "Có thể bạn đang hy vọng một điều gì đó nhưng ngại thừa nhận, sợ mình mong nhiều quá. Mong một điều tốt đẹp không có gì đáng xấu hổ.",
+    "memorable_message": "Đôi khi cả một ngày được cứu bởi một dòng tin dài đúng ba chữ.",
+    "advice": "Hãy là người nhắn trước với một người bạn đang nghĩ tới. Và hôm nay đừng giả vờ không quan tâm khi thật ra bạn đang quan tâm.",
+    "keywords": ["tin vui nhỏ", "lời mời", "rung động đầu"]
+  },
+  {
+    "card_id": "page-of-cups", "orientation": "upright", "variant": 2,
+    "summary": "Óc sáng tạo hôm nay chạy bằng niềm vui chứ không bằng áp lực: làm cho vui trước, hoàn hảo tính sau.",
+    "card": { "name": "Thị Đồng Cốc", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 7, "career": 8, "finance": 6, "energy": 8 },
+    "headline": "Ý tưởng hay thường đến lúc bạn đang chơi.",
+    "forecast": [
+      "Bạn có xu hướng nảy ra ý tưởng khi làm một việc không liên quan, như tắm, đi bộ hay nấu ăn.",
+      "Một thứ bạn từng bỏ vì cho rằng nó trẻ con có thể trở nên hấp dẫn trở lại.",
+      "Có thể bạn nhận được lời khen cho cách làm khác biệt, dù bạn không để ý mình đã làm khác."
+    ],
+    "love": "Sự dí dỏm và chân thành là điểm hút. Một món quà nhỏ tự làm hoặc một tin nhắn sáng tạo có khả năng ghi điểm hơn thứ đắt tiền. Người độc thân nên đi tới nơi gắn với sở thích của mình, vì người hợp thường xuất hiện ở đó.",
+    "career": "Hợp để brainstorm, thiết kế, viết, làm nội dung hay thử cách trình bày mới. Đừng tự duyệt ý tưởng quá sớm, cứ ghi hết xuống đã. Sinh viên có thể học qua sơ đồ, màu sắc hoặc kể lại bằng lời của mình.",
+    "finance": "Sáng tạo có thể dẫn đến một ý tưởng kiếm thêm nhỏ, nhưng hôm nay hãy xem nó như thử nghiệm nhỏ thôi. Đừng mua cả bộ dụng cụ đắt tiền chỉ vì hứng nhất thời.",
+    "insight": "Có thể bạn đã quen bắt mọi thứ phải có ích mới đáng làm. Phần trong bạn thích chơi đang xin được dùng thời gian không cần lý do.",
+    "memorable_message": "Đứa trẻ trong bạn không đòi bằng cấp, nó chỉ đòi một tờ giấy trắng.",
+    "advice": "Dành mười lăm phút vẽ, viết, chụp hoặc làm gì đó chỉ để vui và không đăng ở đâu. Tắt người chấm điểm trong đầu một lát.",
+    "keywords": ["sáng tạo", "vui chơi", "ý tưởng mới"]
+  },
+  {
+    "card_id": "page-of-cups", "orientation": "upright", "variant": 3,
+    "summary": "Trực giác nhạy hơn thường lệ: một cảm giác nhẹ mà bạn hay gạt đi hôm nay đáng được nghe.",
+    "card": { "name": "Thị Đồng Cốc", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 8, "career": 7, "finance": 6, "energy": 7 },
+    "headline": "Cảm giác nhỏ đôi khi nói đúng hơn lý lẽ to.",
+    "forecast": [
+      "Bạn có xu hướng cảm nhận được tâm trạng của ai đó trước khi họ nói ra.",
+      "Một cảm xúc mới, nhẹ và hơi ngượng, dễ xuất hiện với một người bạn mới quen hoặc đã quen từ lâu.",
+      "Một giấc mơ, một bài hát hoặc một ký ức có thể gợi lại điều bạn thật sự muốn."
+    ],
+    "love": "Khởi đầu tình cảm hôm nay mềm và còn rụt rè, nên không cần định nghĩa ngay. Nếu thấy có điều gì đó dễ chịu ở ai, cứ để nó lớn tự nhiên. Người đang yêu thử kể một nỗi sợ nhỏ cho người kia nghe.",
+    "career": "Trực giác giúp bạn đọc được bầu không khí phòng họp hoặc ý thật sau một câu nói của sếp hay khách hàng. Hãy dùng nó để định hướng chứ chưa phải để kết luận. Công việc cần sự thấu cảm như chăm sóc, tư vấn, giảng dạy sẽ thuận.",
+    "finance": "Cảm giác mách bảo có thể giúp bạn nhận ra một khoản chi không còn đáng. Hãy đối chiếu với con số cụ thể trước khi hành động theo cảm giác.",
+    "insight": "Có thể bạn đã quen không tin cảm xúc của mình vì nó không có bằng chứng. Nhưng cảm xúc cũng là dữ liệu, chỉ là loại dữ liệu cần đọc chậm.",
+    "memorable_message": "Có những câu trả lời đến dưới dạng rung nhẹ, không phải dạng thông báo.",
+    "advice": "Dừng một phút giữa ngày, hỏi bản thân đang thật sự cảm thấy gì và ghi lại một từ. Làm theo cảm giác ở mức nhỏ trước, kiểm chứng sau.",
+    "keywords": ["trực giác", "dịu dàng", "mở lòng"]
+  },
+  {
+    "card_id": "page-of-cups", "orientation": "reversed", "variant": 1,
+    "summary": "Cảm xúc lên xuống nhanh và dễ phóng đại, nên hôm nay đừng coi tâm trạng nhất thời là sự thật.",
+    "card": { "name": "Thị Đồng Cốc", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Tâm trạng là thời tiết, không phải khí hậu.",
+    "forecast": [
+      "Bạn có xu hướng thấy tủi hoặc dỗi vì một câu nói mà bình thường sẽ bỏ qua.",
+      "Cảm xúc có thể đổi chiều trong một buổi, từ hứng khởi sang chán rồi lại hứng.",
+      "Một lời nhận xét nhẹ có khả năng bị nghe thành chê trách."
+    ],
+    "love": "Bạn dễ nhạy cảm với từng chữ và từng khoảng im lặng của người kia. Nếu thấy muốn dỗi, hãy gọi tên cảm giác đó thay vì thử lòng. Người độc thân đừng đọc quá nhiều vào một lượt xem tin nhắn hay một icon bị thiếu.",
+    "career": "Tập trung dễ trôi và cảm xúc lấn vào phán đoán công việc. Hãy làm các việc có quy trình rõ trước, để quyết định quan trọng sang lúc bình tĩnh hơn. Nếu bị góp ý, đợi một lát rồi mới trả lời.",
+    "finance": "Chi tiêu để dỗ dành cảm xúc là điểm rủi ro chính: trà sữa, mua sắm online, đồ ăn. Nếu muốn thưởng cho mình, đặt trước mức nhỏ và dừng ở đó.",
+    "insight": "Có thể bạn không quá nhạy cảm, mà đang quá tải và cảm xúc là chỗ thủng đầu tiên. Cơ thể mệt và đầu óc thiếu nghỉ thường biến mọi thứ thành to hơn.",
+    "memorable_message": "Đừng ký hợp đồng với một tâm trạng, nó hết hạn trước giờ cơm tối.",
+    "advice": "Uống nước, ăn đúng bữa, đi bộ năm phút trước khi trả lời điều gì làm bạn tổn thương. Nếu cảm xúc nặng kéo dài nhiều ngày, hãy nói với một người đáng tin.",
+    "keywords": ["nhạy cảm", "dễ dao động", "bình tâm"]
+  },
+  {
+    "card_id": "page-of-cups", "orientation": "reversed", "variant": 2,
+    "summary": "Ý tưởng có đó nhưng bị chặn bởi sự tự phê phán, nên hôm nay hãy hạ tiêu chuẩn xuống để dòng chảy quay lại.",
+    "card": { "name": "Thị Đồng Cốc", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 3, "finance": 5, "energy": 4 },
+    "headline": "Bạn không cạn ý tưởng, bạn đang kiểm duyệt quá sớm.",
+    "forecast": [
+      "Bạn có xu hướng mở một file trắng, nhìn một lúc rồi chuyển sang lướt điện thoại.",
+      "Một ý tưởng vừa nảy dễ bị gạt đi bằng câu ai mà thèm xem.",
+      "Có thể bạn ghen tị nhẹ với người làm được điều mình còn dang dở."
+    ],
+    "love": "Bạn có thể khó diễn đạt cảm xúc, thấy trong lòng có mà ra lời lại cộc hoặc thiếu. Viết một dòng ngắn thay vì nói dài cũng đủ. Người độc thân dễ ngại giới thiệu bản thân vì sợ mình không đủ thú vị.",
+    "career": "Năng suất sáng tạo hơi thấp và chuyện chần chừ khá rõ. Đặt đồng hồ hai mươi phút, làm bản xấu trước, sửa sau. Sinh viên thử học bằng cách giải thích lại cho một người tưởng tượng.",
+    "finance": "Tài chính ở mức trung tính, không có biến động đáng kể. Nếu thấy muốn mua khóa học hay dụng cụ để lấy động lực, hãy làm thử bản miễn phí trước.",
+    "insight": "Có thể bạn sợ bản nháp đầu tiên vì nó không giống thứ trong đầu. Khoảng cách đó không phải thiếu tài năng, nó là khoảng cách bình thường của mọi người từng làm ra thứ gì đó.",
+    "memorable_message": "Bản nháp tệ còn hơn trang giấy hoàn hảo, vì nó còn sửa được.",
+    "advice": "Cố tình làm một bản xấu trong hôm nay và không cho ai xem. Giữ lại một ý ở cuối ngày để mai tiếp tục.",
+    "keywords": ["bế tắc sáng tạo", "tự phê phán", "bản nháp"]
+  },
+  {
+    "card_id": "page-of-cups", "orientation": "reversed", "variant": 3,
+    "summary": "Một tin hoặc phản hồi có thể không như bạn mong, và phản xạ trẻ con của chính mình mới là phần cần để ý.",
+    "card": { "name": "Thị Đồng Cốc", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 3, "career": 4, "finance": 4, "energy": 5 },
+    "headline": "Thất vọng thì được, giận dỗi kéo dài thì tốn.",
+    "forecast": [
+      "Một tin nhắn, phản hồi hoặc kết quả có xu hướng đến chậm hoặc kém hơn kỳ vọng.",
+      "Bạn dễ muốn né tránh, trả lời cộc lốc hoặc im lặng để người kia tự đoán.",
+      "Có thể ai đó xung quanh cư xử thiếu chín chắn và kéo bạn vào chuyện không đáng."
+    ],
+    "love": "Tín hiệu có thể mơ hồ hoặc chưa được đáp lại, dễ khiến bạn tủi. Đừng thử lòng bằng cách biến mất hay nói ngược. Nếu đang yêu, một câu nói thẳng như Mình hơi buồn vì chuyện này sẽ hiệu quả hơn cả buổi dỗi.",
+    "career": "Lời hứa hoặc câu trả lời bạn đang đợi từ người khác có thể trễ. Hãy theo dõi bằng một tin nhắn lịch sự thay vì đoán mò. Cẩn thận với việc đùn đẩy trách nhiệm vì ngại mất mặt.",
+    "finance": "Một khoản đang mong như tiền hoàn, duyệt thanh toán hay phản hồi có thể chậm. Nên tính phương án dự phòng thay vì tiêu trước vào số tiền chưa về.",
+    "insight": "Có thể bạn thất vọng nhiều nhất không phải vì kết quả mà vì cảm giác mình không được quan tâm. Hiểu điều đó giúp bạn xin điều mình cần thay vì phản ứng.",
+    "memorable_message": "Người lớn không phải người ít bị tổn thương, mà là người biết nói mình đang đau.",
+    "advice": "Trước khi im lặng hay nói mỉa, hãy viết ra một câu rõ ràng về điều bạn muốn. Gửi hoặc không, câu viết ra cũng giúp đầu bạn đỡ rối.",
+    "keywords": ["thất vọng", "bớt dỗi", "nói thẳng"]
+  },
+  {
+    "card_id": "knight-of-cups", "orientation": "upright", "variant": 1,
+    "summary": "Năng lượng lãng mạn và duyên dáng đang cao, hôm nay bạn dễ gây thiện cảm bằng sự tinh tế.",
+    "card": { "name": "Kỵ Sĩ Cốc", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 8, "career": 6, "finance": 6, "energy": 7 },
+    "headline": "Sức hút hôm nay nằm ở sự ân cần có chủ đích.",
+    "forecast": [
+      "Bạn có xu hướng nhận được hoặc trao đi một cử chỉ quan tâm khiến người ta nhớ lâu.",
+      "Một cuộc gặp gỡ hoặc lời mời có màu sắc lãng mạn dễ xuất hiện.",
+      "Bạn dễ ăn mặc, nói chuyện và cư xử duyên hơn thường lệ mà không cần cố."
+    ],
+    "love": "Người độc thân có khả năng thu hút sự chú ý và cũng dễ thấy tim rung vì một ánh mắt. Nếu đang tìm hiểu, hôm nay hợp để mời hẹn một cách rõ ràng và dịu dàng. Đang yêu thì một điều bất ngờ nhỏ như bữa tối, bài hát hay lá thư sẽ ghi điểm.",
+    "career": "Khả năng thuyết phục bằng sự dễ mến đang tốt, nên hợp để thuyết trình, gặp khách hay đàm phán nhẹ. Đừng chỉ dựa vào duyên mà quên chuẩn bị số liệu. Sinh viên có thể thuyết phục giảng viên bằng sự chân thành.",
+    "finance": "Cảm xúc lãng mạn dễ khiến bạn chi cho bữa ăn đẹp, hoa hay quà. Đặt trước một mức vui vẻ để vẫn tặng được mà không áy náy cuối tháng.",
+    "insight": "Có thể bạn muốn được thấy là người biết yêu thương, không chỉ là người giỏi việc. Phần mềm trong bạn đang muốn lộ ra và hôm nay nó có thể.",
+    "memorable_message": "Lãng mạn không phải hoa hồng to, mà là nhớ người ta ghét ăn hành.",
+    "advice": "Chọn một người và làm cho họ một điều cụ thể cho thấy bạn đã để ý. Giữ lời nói đẹp ở mức bạn thật sự làm được.",
+    "keywords": ["lãng mạn", "duyên dáng", "ân cần"]
+  },
+  {
+    "card_id": "knight-of-cups", "orientation": "upright", "variant": 2,
+    "summary": "Bạn có xu hướng đi theo điều mình thấy rung động, và hôm nay lối đó có thể đẹp nếu giữ được chút tỉnh táo.",
+    "card": { "name": "Kỵ Sĩ Cốc", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 7, "love": 7, "career": 7, "finance": 6, "energy": 8 },
+    "headline": "Theo trái tim cũng cần mang theo bản đồ.",
+    "forecast": [
+      "Bạn có xu hướng bị cuốn vào một dự án, một người hoặc một ý tưởng đang làm mình háo hức.",
+      "Một lời đề nghị hợp ý nhưng chưa rõ chi tiết có thể xuất hiện.",
+      "Bạn dễ muốn bày tỏ cảm xúc ngay thay vì chờ thời điểm hoàn hảo."
+    ],
+    "love": "Sự chủ động chân thành sẽ được nhìn nhận tốt hơn sự lấp lửng. Nếu thích ai, hãy nói một điều rõ ràng nhưng không dồn họ. Đang yêu thì thử theo đuổi lại chính người ở bên mình, như hồi mới.",
+    "career": "Đam mê là nhiên liệu tốt, nên bạn làm việc hiệu quả khi tin vào nội dung công việc. Chỉ cần hỏi thêm về thời hạn, phạm vi và quyền lợi trước khi nhận lời. Có thể có một đề nghị hợp tâm huyết.",
+    "finance": "Rung động với một cơ hội kiếm tiền hay một khoản mua lớn nên đi kèm một bước nguội lại. Hãy để con số có tiếng nói cùng cảm xúc, và đừng chốt khoản chi lớn hôm nay.",
+    "insight": "Có thể bạn tin vào cảm xúc nhiều hơn mình thừa nhận, và đó là sức mạnh. Chỉ là cảm xúc dẫn đường tốt nhất khi có đôi mắt kiểm tra đi cùng.",
+    "memorable_message": "Trái tim vẽ đích, đầu óc kiểm tra đường, cần cả hai mới tới nơi.",
+    "advice": "Với việc đang làm bạn rung động, viết ra ba câu hỏi thực tế rồi tìm câu trả lời trong tuần này. Vẫn đi, chỉ là đi có đèn pin.",
+    "keywords": ["theo đuổi", "đam mê", "tỉnh táo"]
+  },
+  {
+    "card_id": "knight-of-cups", "orientation": "upright", "variant": 3,
+    "summary": "Bạn dễ thấy một người hay một viễn cảnh đẹp hơn bình thường, hãy tận hưởng nhưng nhớ nhìn cả phần chưa có.",
+    "card": { "name": "Kỵ Sĩ Cốc", "arcana": "Minor", "orientation": "Upright" },
+    "daily_scores": { "overall": 6, "love": 7, "career": 6, "finance": 5, "energy": 7 },
+    "headline": "Yêu cái ý niệm thì dễ, quen người thật mới là phần hay.",
+    "forecast": [
+      "Bạn có xu hướng tô thêm màu cho một người mới gặp hoặc một cơ hội mới.",
+      "Một câu nói đẹp có thể khiến bạn tưởng tượng đi xa hơn thực tế.",
+      "Có khả năng bạn nhận ra mình đang mê mẩn hình ảnh hơn là con người."
+    ],
+    "love": "Rung động hôm nay là thật, nhưng phần bạn tưởng tượng ra có thể nhiều hơn phần bạn biết. Hãy hỏi những câu cụ thể về thói quen, nhịp sống, cách họ xử lý khi bực bội. Người đang yêu nên nhìn cả mặt chưa lung linh của nhau.",
+    "career": "Viễn cảnh về một công việc, một đội nhóm hay một đối tác nghe rất hay. Hãy hỏi người đã làm thật để biết ngày thường trông như thế nào. Lý tưởng là chiếc la bàn tốt khi gắn với hành động cụ thể.",
+    "finance": "Hình ảnh đẹp về một món đồ hay một lối sống có thể kéo ví bạn đi nhanh. Hãy đặt món đó vào ngày thường của bạn và xem nó còn đẹp không.",
+    "insight": "Có thể bạn không thiếu tình cảm, mà đang yêu một khả năng, vì khả năng thì không bao giờ làm bạn thất vọng. Người thật thì có, và cũng chỉ người thật mới ở lại.",
+    "memorable_message": "Bức tranh không cãi nhau với bạn, nên nó dễ yêu hơn con người.",
+    "advice": "Chọn một người hoặc một viễn cảnh và ghi hai điều bạn đã thấy thật sự, không phải điều bạn đoán. Rồi để thời gian đối chiếu phần còn lại.",
+    "keywords": ["lý tưởng hóa", "mộng mơ", "nhìn thực"]
+  },
+  {
+    "card_id": "knight-of-cups", "orientation": "reversed", "variant": 1,
+    "summary": "Ghen và bất an có thể trồi lên, nhưng đó thường là tín hiệu về nhu cầu chưa được nói chứ không phải bằng chứng.",
+    "card": { "name": "Kỵ Sĩ Cốc", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 3, "career": 5, "finance": 4, "energy": 5 },
+    "headline": "Cơn ghen là chuông báo, không phải bản án.",
+    "forecast": [
+      "Bạn có xu hướng soi một tin nhắn, một lượt thích hoặc một cái tên mà bình thường mình bỏ qua.",
+      "Một sự so sánh nhỏ với ai đó có thể làm tâm trạng chùng xuống cả buổi.",
+      "Có khả năng bạn muốn kiểm tra hay thử lòng người kia thay vì hỏi thẳng."
+    ],
+    "love": "Nỗi bất an dễ phóng to những chi tiết nhỏ, nhất là khi có yếu tố người thứ ba hoặc người cũ. Thay vì tra khảo, hãy nói cảm giác của mình bằng câu bắt đầu bằng chữ Mình. Người độc thân đừng so bản thân với người được người kia nhắc tới.",
+    "career": "Cảm giác bị so sánh với đồng nghiệp có thể làm bạn khó chịu. Dùng nó để biết mình muốn gì, không phải để chơi xấu. Tránh bàn tán sau lưng vì nó thường quay lại.",
+    "finance": "Tâm lý hơn thua dễ khiến bạn chi cho bằng người khác. Hãy nhìn vào mục tiêu riêng của mình thay vì bảng so sánh.",
+    "insight": "Có thể điều làm bạn ghen không phải người kia, mà là nỗi sợ mình không đủ quan trọng. Nỗi sợ ấy đáng được nghe, chỉ không đáng được cầm lái.",
+    "memorable_message": "Ghen là tình yêu mặc áo giáp, nhưng áo giáp thì ôm không êm.",
+    "advice": "Khi cơn ghen đến, đếm đến mười và hỏi mình đang cần điều gì ở người này. Rồi xin điều đó bằng lời thay vì bằng thử thách.",
+    "keywords": ["ghen tuông", "bất an", "nói nhu cầu"]
+  },
+  {
+    "card_id": "knight-of-cups", "orientation": "reversed", "variant": 2,
+    "summary": "Lời nói và hành động có thể lệch nhau, của người khác hoặc của chính bạn, nên hôm nay hãy tin vào việc làm.",
+    "card": { "name": "Kỵ Sĩ Cốc", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Lời ngọt dễ nói, việc làm mới là con dấu.",
+    "forecast": [
+      "Bạn có xu hướng gặp một người nói rất hay nhưng ít thấy làm.",
+      "Một lời hứa nghe đẹp có thể kéo dài hoài mà chưa có hành động đi kèm.",
+      "Có khả năng bạn nhận ra mình đang nói một điều trong khi lòng nghĩ điều khác."
+    ],
+    "love": "Tín hiệu có thể thất thường, khi nóng khi lạnh, làm bạn đoán già đoán non. Hãy nhìn nhịp liên lạc và sự nhất quán thay vì từng câu đẹp. Nếu đang yêu, đừng giấu điều mình khó nói, vì nói nửa vời thì cũng gần như dối.",
+    "career": "Cẩn thận với lời hứa không rõ cam kết hoặc thông tin nghe hay nhưng thiếu nguồn. Hãy yêu cầu mọi thỏa thuận được ghi lại. Cả bạn cũng đừng gật đầu cho êm mà sau không làm được.",
+    "finance": "Lời mời nghe hấp dẫn về tiền bạc hôm nay nên được kiểm lại. Chưa cần kết luận đó là lừa, chỉ cần không đưa tiền hay thông tin cá nhân khi chưa hiểu rõ.",
+    "insight": "Có thể bạn bị hút bởi những lời nói đúng điều mình muốn nghe. Đó là nhu cầu rất người, và phân biệt được nó giúp bạn bớt mong chờ ở người không cho được.",
+    "memorable_message": "Đo một người bằng quãng đường họ đi, đừng đo bằng độ dài lời hứa.",
+    "advice": "Ghi ra một lời hứa bạn đang đợi từ ai đó và hỏi mình đã có hành động nào đi kèm chưa. Tự mình cũng làm đúng một lời hứa nhỏ hôm nay.",
+    "keywords": ["lời hứa suông", "thất thường", "nhìn hành động"]
+  },
+  {
+    "card_id": "knight-of-cups", "orientation": "reversed", "variant": 3,
+    "summary": "Một mơ tưởng tình cảm có thể xẹp xuống hôm nay, mở chỗ cho bạn nhìn lại mình thực sự cần gì.",
+    "card": { "name": "Kỵ Sĩ Cốc", "arcana": "Minor", "orientation": "Reversed" },
+    "daily_scores": { "overall": 4, "love": 4, "career": 4, "finance": 4, "energy": 4 },
+    "headline": "Khi phép màu tan, người thật mới bắt đầu lộ ra.",
+    "forecast": [
+      "Bạn có xu hướng thấy hụt hẫng vì một cuộc hẹn hoặc cuộc trò chuyện không đẹp như hình dung.",
+      "Một người từng khiến bạn rung động có thể bỗng trông bình thường.",
+      "Bạn dễ thấy mệt vì cứ phải hy vọng và cần nghỉ khỏi chuyện tình cảm một chút."
+    ],
+    "love": "Hôm nay không hợp để quyết định lớn về tình cảm vì tâm trạng đang thiếu ổn định. Cho mình nghỉ khỏi việc đoán ý và chờ tin. Người đang yêu có thể thấy nhàm, hãy hỏi đó là nhàm thật hay chỉ đang thiếu chút mới mẻ.",
+    "career": "Hứng thú với công việc có thể xuống, và bạn dễ trì hoãn theo tâm trạng. Hãy làm việc theo danh sách thay vì theo cảm hứng. Đừng nhắn tin cá nhân giữa giờ hay trả lời bốc đồng sau lúc buồn.",
+    "finance": "Dễ chi tiêu để bù đắp cảm giác hụt hẫng, như mua sắm, ăn uống hay đi chơi bốc đồng. Hãy chờ qua một đêm trước khi thanh toán thứ gì không thiết yếu.",
+    "insight": "Có thể bạn đang buồn vì điều chưa thực sự mất, mà chỉ vì phiên bản trong mơ đã xẹp. Cho mình quyền buồn vài giờ rồi nhìn lại chuyện thật.",
+    "memorable_message": "Mơ tan thì ít nhất bạn cũng biết mình thích mơ về điều gì.",
+    "advice": "Ghi ra ba điều bạn thực sự tìm ở một mối quan hệ, rồi để ý hôm nay ai và điều gì khớp. Tạm tránh trang mạng xã hội của người kia nếu nó đang kéo bạn xuống.",
+    "keywords": ["hụt hẫng", "tỉnh mộng", "nhìn lại mình"]
+  }
+]

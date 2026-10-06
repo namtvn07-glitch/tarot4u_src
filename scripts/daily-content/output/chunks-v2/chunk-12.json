@@ -1,0 +1,650 @@
+[
+ {
+  "card_id": "knight-of-wands",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Năng lượng hôm nay là lao tới: việc nào bạn đã nghĩ đủ lâu thì nên bắt đầu làm, dù chưa hoàn hảo.",
+  "card": {
+   "name": "Kỵ Sĩ Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 8,
+   "finance": 6,
+   "energy": 9
+  },
+  "headline": "Có những ngày chỉ cần xuất phát, đường sẽ tự lộ ra.",
+  "card_meaning": "Kỵ Sĩ Gậy là lá số 12 của bộ Gậy, bộ bài của lửa và hành động. Trên lá bài, một hiệp sĩ ngồi trên con ngựa đang nhấc cao hai chân trước, tay cầm cây gậy vừa nảy lộc, sau lưng là sa mạc vàng và những kim tự tháp xa xa. Trong nhóm lá cung đình, Kỵ Sĩ là người của chuyển động: anh không ngồi bàn kế hoạch mà phóng đi trước, vừa chạy vừa tìm đường. Ở chiều xuôi, lá bài nói về nhiệt huyết thuần khiết và sự dám xuất phát. Hôm nay nó đáng chú ý vì chạm đúng khoảnh khắc bạn đã nghĩ đủ và chỉ còn thiếu một cú đạp ga.",
+  "forecast": [
+   "Bạn có xu hướng thức dậy với một nguồn hứng khó giải thích, đủ để muốn dọn ngay đống việc tồn đọng đã nằm trong danh sách từ lâu.",
+   "Một lời rủ rê hoặc cơ hội đến khá nhanh, năng lượng nghiêng về việc nhận lời trước rồi hỏi kỹ sau, nhất là khi người rủ là người bạn thấy hợp vía.",
+   "Có thể bạn bất ngờ khi làm xong trong một giờ điều từng kéo dài cả tuần, và cảm giác đó dễ đến vào quãng đầu giờ chiều."
+  ],
+  "love": "Người độc thân hôm nay toả ra vẻ rạng rỡ khiến người khác muốn lại gần, nên ở buổi tụ họp hay quán quen, đừng chờ ai mở lời trước. Nếu đang tìm hiểu một người, hãy rủ một việc cụ thể như đi ăn món họ từng nhắc, thay vì nhắn mười tin vòng vo. Người đang yêu hợp với hoạt động có vận động như đi bộ hay đạp xe, vì lúc cùng di chuyển, chuyện khó nói thường dễ nói hơn.",
+  "career": "Động lực đang cao, rất hợp để khởi động một dự án, nhận phần việc khó hoặc chốt một quyết định đã treo từ lâu. Sinh viên có thể học dồn trong một nhịp mạnh, ví dụ ôn trọn một chương thay vì rải rác. Chỉ cần đọc kỹ yêu cầu trước khi phóng đi, kẻo chạy rất nhanh mà sai hướng và phải làm lại từ đầu.",
+  "finance": "Dòng tiền không có biến động lớn, nhưng tâm trạng hào hứng dễ khiến tay mở ví nhanh hơn đầu óc, nhất là với đồ phục vụ một ý tưởng mới. Hãy cho mình một khoản nhỏ cho niềm vui trong ngày và để phần còn lại yên chỗ của nó. Nếu thấy muốn mua gì lớn, thử đợi qua một bữa ăn rồi xem còn muốn không.",
+  "insight": "Có thể bạn không thiếu quyết tâm, mà chỉ đang đợi một tín hiệu cho phép mình bắt đầu. Hôm nay tín hiệu đó có thể chính là cảm giác bồn chồn muốn làm gì đó trong người. Nhiều khi ta nhầm sự thôi thúc ấy với thiếu kiên nhẫn, trong khi nó chỉ là phần năng lượng đã chờ quá lâu để được dùng.",
+  "memorable_message": "Ngọn lửa chỉ ấm khi có thứ để đốt, đừng nhốt nó trong lò mãi.",
+  "advice": "Chọn một việc bạn hay trì hoãn và bắt tay vào ngay trong buổi sáng, trước khi hứng khởi kịp nguội. Đặt đồng hồ ba mươi phút và làm liền mạch, chưa cần đẹp. Giữ lại mười phút cuối ngày để rà lại xem mình có bỏ sót chi tiết nào khi chạy nhanh, như tên người nhận hay hạn nộp.",
+  "keywords": [
+   "lao tới",
+   "hứng khởi",
+   "hành động"
+  ]
+ },
+ {
+  "card_id": "knight-of-wands",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Bạn đang cần một cú đổi gió: đi đâu đó, thử gì đó, hoặc nói điều gì đó khác thường ngày.",
+  "card": {
+   "name": "Kỵ Sĩ Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 7,
+   "finance": 6,
+   "energy": 9
+  },
+  "headline": "Hôm nay hợp để lạc đường một chút.",
+  "card_meaning": "Kỵ Sĩ Gậy thuộc bộ Gậy, nơi mọi thứ đều bắt đầu từ ngọn lửa của mong muốn. Điều đặc biệt của lá này là bối cảnh: một sa mạc rộng, những kim tự tháp mờ ở phía chân trời, và chàng hiệp sĩ đang hướng về nơi nào đó chưa ai nói tên. Anh là hình ảnh của người đi tìm trải nghiệm hơn là tìm chốn dừng chân. Ở chiều xuôi, lá bài khuyến khích sự phiêu lưu, tò mò và một chút liều lĩnh có duyên. Hôm nay nó đáng chú ý vì có những ngày thứ ta thiếu không phải thời gian mà là cảm giác được mới mẻ.",
+  "forecast": [
+   "Bạn dễ thấy chán lịch trình quen thuộc và muốn đổi quán, đổi đường đi hoặc đổi luôn kế hoạch cuối tuần ngay từ buổi sáng.",
+   "Có xu hướng gặp một người nói chuyện đầy nhiệt huyết, và sự hào hứng của họ lây sang bạn như một cơn gió nhỏ.",
+   "Một chuyến đi, một buổi gặp hoặc một sở thích mới có thể được nhắc đến vào cuối ngày, và nghe hấp dẫn hơn bạn tưởng."
+  ],
+  "love": "Sức hút của bạn nằm ở sự tinh nghịch và việc dám nói thẳng điều mình thích. Người độc thân dễ có một màn tán tỉnh vui vẻ, nhẹ nhàng mà để lại ấn tượng, chẳng hạn một câu đùa đúng lúc ở bàn bên cạnh. Người đang yêu thì thử rủ nửa kia làm điều chưa từng làm chung, như ăn ở một khu phố lạ. Chú ý xem hai người cười nhiều hơn lúc nào.",
+  "career": "Môi trường làm việc hôm nay có thể hơi gò bó, nên hợp để đề xuất cách làm mới hoặc nhận phần việc cần đi lại, gặp gỡ khách. Ý tưởng bột phát của bạn có khả năng được chú ý nếu trình bày gọn trong vài câu. Sinh viên thử đổi chỗ học, ví dụ sang quán hoặc thư viện lạ. Chỉ cần đừng hứa quá tay vì đang phấn khích.",
+  "finance": "Cảm giác muốn trải nghiệm dễ kéo theo các khoản chi cho di chuyển, ăn uống hoặc món đồ mới lạ. Nhìn lại số dư một lần trước khi đặt vé hay chốt đơn sẽ giúp chuyến vui không thành chuyến tiếc. Một mức chi nhỏ cố định cho sự tò mò, đặt trước từ sáng, thường dễ giữ hơn việc tự kiềm chế giữa lúc đang hứng.",
+  "insight": "Có thể thứ làm bạn bồn chồn không phải một vấn đề cụ thể, mà là cảm giác đã lâu mình chưa làm gì khiến tim đập nhanh. Phần ưa phiêu lưu trong bạn không đòi cả một chuyến đi xa. Đôi khi nó chỉ muốn một điều khác thường nho nhỏ, đủ để nhắc rằng mình vẫn là người biết ngạc nhiên.",
+  "memorable_message": "Cuộc sống ít khi đổi khác khi bạn ngồi yên, nhưng chỉ cần đứng dậy là bản đồ đã mới.",
+  "advice": "Làm một việc nhỏ khác thường trước tối nay, như ăn món chưa thử, đi về bằng con đường khác hoặc nghe một thể loại nhạc lạ trên đường. Chọn lúc rảnh nhất trong ngày để làm cho trọn vẹn. Giữ lại một khoảng giờ trống cho việc phải làm, để niềm vui không chen mất trách nhiệm.",
+  "keywords": [
+   "đổi gió",
+   "phiêu lưu",
+   "tinh nghịch"
+  ]
+ },
+ {
+  "card_id": "knight-of-wands",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Nhiệt huyết hôm nay mạnh nhưng dễ tản mát, hãy dồn nó vào một mục tiêu thay vì rải cho năm việc.",
+  "card": {
+   "name": "Kỵ Sĩ Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 7,
+   "career": 8,
+   "finance": 6,
+   "energy": 8
+  },
+  "headline": "Lửa lớn cần một cái lò, không cần thêm củi.",
+  "card_meaning": "Kỵ Sĩ Gậy là lá của tốc độ: con ngựa trên lá bài đang chồm lên, bờm bay ngược, còn chiếc lông vũ trên mũ hiệp sĩ cũng phất ra sau như thể cả hai chạy nhanh hơn gió. Bộ Gậy là lửa, và Kỵ Sĩ là phần lửa chưa kịp thành bếp lò, nghĩa là rất mạnh nhưng chưa có hướng ổn định. Ở chiều xuôi, nhiệt huyết ấy là một món quà, miễn là người cưỡi biết mình đang phi về đâu. Hôm nay lá bài đáng chú ý vì nó vừa cho bạn sức, vừa hỏi bạn muốn dùng sức vào việc nào.",
+  "forecast": [
+   "Bạn có xu hướng bắt đầu nhiều việc cùng lúc ngay từ sáng, vì việc nào nhìn cũng có vẻ hấp dẫn và đáng làm.",
+   "Một người xung quanh, có thể là đồng nghiệp hoặc bạn học, nhờ bạn góp sức vì thấy bạn đang tràn năng lượng.",
+   "Đến quãng giữa chiều, khả năng cao bạn nhận ra việc nào thật sự đáng giữ lại và việc nào chỉ là hứng nhất thời."
+  ],
+  "love": "Bạn dễ nồng nhiệt và nói nhiều về chính mình, nên hãy chừa chỗ cho người đối diện kể chuyện của họ. Nếu đang tìm hiểu ai đó, sự chủ động của bạn được đón nhận khi đi cùng việc lắng nghe, ví dụ hỏi thêm một câu về điều họ vừa nói. Người đang yêu nên để ý xem mình có đang chạy nhanh hơn nhịp của người kia không.",
+  "career": "Đây là ngày bạn có thể làm được rất nhiều, nếu chịu chọn một đầu việc và làm tới nơi tới chốn. Tránh mở thêm tab hay thêm dự án khi cái cũ chưa khép lại. Sinh viên nên chia bài thành các chặng ngắn, hết mỗi chặng thì đánh dấu xong, vì cảm giác hoàn thành là thứ giữ đà tốt nhất.",
+  "finance": "Năng lượng cao dễ biến thành ý muốn mở rộng, như mua thêm công cụ, thêm phần mềm hay đăng ký thêm khoá học. Trước khi thêm khoản mới, hãy xem lại khoản nào bạn đã trả mà chưa dùng, rất có thể đang có một khoản đáng cắt. Việc rà này mất chừng mười phút nhưng cho bạn cái nhìn rõ hơn về tiền của mình.",
+  "insight": "Có thể bạn tưởng mình thiếu thời gian, trong khi thứ đang thiếu là một lựa chọn dứt khoát. Hứng khởi không có đích thường kết thúc bằng sự mệt mỏi chứ không phải thành tích. Chọn một đích không làm bạn bớt nhiệt huyết, nó chỉ cho nhiệt huyết một chỗ để cháy. Điều đáng để ý hôm nay là mình có dám nói không với một việc hay ho để dành chỗ cho việc quan trọng hơn hay không.",
+  "memorable_message": "Ngựa phi nhanh đến đâu cũng cần biết mình đang chạy về hướng nào.",
+  "advice": "Viết ra ba việc muốn làm hôm nay ngay từ đầu giờ làm việc, rồi gạch hai việc, giữ đúng một việc và làm cho xong. Hai việc còn lại ngày mai vẫn đợi được. Khi làm xong, hãy tự thưởng một khoảng nghỉ ngắn trước khi cân nhắc làm thêm bất cứ thứ gì.",
+  "keywords": [
+   "tập trung",
+   "nhiệt huyết",
+   "chọn một đích"
+  ]
+ },
+ {
+  "card_id": "knight-of-wands",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Hứng khởi đến nhanh và đi cũng nhanh, nên hôm nay hãy chọn việc đáng làm tới cùng trước khi bắt đầu thêm.",
+  "card": {
+   "name": "Kỵ Sĩ Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 4,
+   "energy": 6
+  },
+  "headline": "Đừng nhầm một cơn hứng với một kế hoạch.",
+  "card_meaning": "Ở chiều ngược, Kỵ Sĩ Gậy giống một ngọn lửa rơm: cháy bùng rất nhanh, sáng rất đẹp, rồi tàn khi chưa kịp nấu chín thứ gì. Hình ảnh trên lá bài vẫn là hiệp sĩ trên con ngựa tung vó trước sa mạc, nhưng khi lật ngược, sự lao tới bị đảo thành lao đi lung tung. Đây là năng lượng của kế hoạch hào hứng lúc đầu rồi bỏ dở. Lá ngược không có nghĩa là bạn thiếu đam mê, mà là đam mê đang chưa tìm được sức bền. Hôm nay nó đáng chú ý vì phần đầu của mọi việc luôn dễ, còn phần giữa mới là chỗ thử.",
+  "forecast": [
+   "Bạn có xu hướng bắt đầu một việc với đầy nhiệt huyết rồi mất hứng ngay khi gặp bước khó đầu tiên, nhất là vào buổi sáng khi mọi thứ còn mới.",
+   "Danh sách những việc dở dang có thể bất ngờ nhắc bạn bằng một cảm giác hơi cắn rứt khi bạn mở lại một file hay một cuốn sổ cũ.",
+   "Có thể bạn bỏ ngang một cuộc trò chuyện hoặc buổi học chỉ vì thấy nó chạy chậm, rồi sau đó tự hỏi mình có vội quá không."
+  ],
+  "love": "Cảm xúc dễ lên xuống thất thường, sáng thì nồng nhiệt, chiều lại hờ hững, và điều đó có thể khiến người kia bối rối nếu bạn không giải thích. Người độc thân nên tránh hứa hẹn quá sớm với ai đó mới quen, vì lời nói lúc hứng thường nặng hơn mình nghĩ. Nếu đang yêu, thử giữ một lời hẹn nhỏ cho thật đúng thay vì vạch ra kế hoạch lớn.",
+  "career": "Động lực có nhưng không bền, nên dễ nhảy từ việc này sang việc khác mà việc nào cũng dang dở. Hãy chọn một đầu việc và hoàn tất ít nhất phần đầu của nó, chẳng hạn một bản nháp cho trọn vẹn. Cẩn thận với việc hứa tiến độ khi chưa tính thời gian thật, vì lời hứa sáng nay có thể là gánh nặng chiều nay.",
+  "finance": "Hứng lên là dễ mua dụng cụ, ứng dụng hoặc đăng ký khoá học cho một kế hoạch mới, trong khi kế hoạch cũ còn nằm đó chưa xong. Một câu hỏi đơn giản trước khi mở ví: mình đã dùng hết thứ cũ chưa. Nếu câu trả lời là chưa, hôm nay cứ để tiền yên, và có thể đó là cách tiết kiệm dễ nhất.",
+  "insight": "Có thể bạn không thiếu đam mê, mà đã quen với cảm giác bắt đầu hơn cảm giác kiên trì. Phần đầu của mọi việc luôn vui, còn phần giữa, lúc không ai vỗ tay và mọi thứ hơi nhàm, mới là nơi bạn thật sự lớn lên. Việc dở dang nhiều khi không phải thất bại, mà là một lời mời quay lại.",
+  "memorable_message": "Bắt đầu chứng minh bạn có hứng, hoàn thành mới chứng minh bạn có sức.",
+  "advice": "Chọn một việc dở dang cũ nhất mà bạn vẫn còn thấy tiếc, và dành hai mươi phút hôm nay để đẩy nó thêm một bước. Chỉ một bước nhỏ thôi, như viết thêm một đoạn hay làm xong một mục, nhưng là bước thật. Ghi lại nó trong sổ để tối nay thấy mình đã tiến lên.",
+  "keywords": [
+   "dang dở",
+   "thất thường",
+   "kiên trì"
+  ]
+ },
+ {
+  "card_id": "knight-of-wands",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Bạn muốn mọi thứ xong ngay, nên dễ nóng ruột với người chậm hơn mình và với cả chính mình.",
+  "card": {
+   "name": "Kỵ Sĩ Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Chậm lại không có nghĩa là thua.",
+  "card_meaning": "Kỵ Sĩ Gậy xuôi là cú phi nước đại, còn khi ngược, cú phi ấy dễ biến thành nóng nảy: bàn tay cầm cương siết quá chặt, con ngựa lồng lên, và chính người cưỡi cũng không chịu nổi tốc độ của mình. Lá bài thuộc bộ Gậy nên nhiệt vẫn là chủ đề chính, nhưng ở chiều này nhiệt hướng ra ngoài thành sự gắt gỏng với người chậm hơn. Nó không có nghĩa bạn là người xấu tính, chỉ là năng lượng đang vượt quá sức chứa. Hôm nay lá bài đáng chú ý vì nó nhắc rằng đi nhanh chưa chắc là đi đúng.",
+  "forecast": [
+   "Một việc phụ thuộc vào người khác, như phản hồi hay chữ ký, có xu hướng chạy chậm hơn bạn mong và làm bạn cáu.",
+   "Bạn dễ ngắt lời hoặc trả lời cụt ngủn khi đang vội, rồi sau đó thấy hơi áy náy trong lòng.",
+   "Một kế hoạch đột ngột đổi hướng có thể làm bạn mất hứng, nhưng cũng buộc bạn nhìn lại cho kỹ trước khi đi tiếp."
+  ],
+  "love": "Sự sốt ruột có thể nghe như lạnh nhạt dù thật ra bạn chỉ đang mệt hoặc đang vội. Nếu đang yêu, hãy nói rõ mình cần gì, chẳng hạn mình cần nửa tiếng yên tĩnh, thay vì để người kia tự đoán qua giọng điệu. Người độc thân đừng vội kết luận về ai chỉ sau vài tin nhắn trả lời chậm, vì người ta có nhịp sống riêng của họ.",
+  "career": "Tiến độ có thể chững lại do chờ phản hồi hoặc chờ phê duyệt, và điều đó chạm đúng chỗ khó chịu của bạn. Thay vì thúc giục liên tục, hãy dùng thời gian chờ để làm phần việc mình tự quyết được. Cẩn thận với email gửi lúc đang bực, vì chữ viết ra có thể khó thu hồi hơn lời nói. Một ghi chú ngắn về việc đang chờ cũng giúp đầu óc bớt quay vòng.",
+  "finance": "Dòng tiền khá bình thường, nhưng thiếu kiên nhẫn dễ kéo bạn chọn phương án nhanh thay vì phương án rẻ hơn, như chọn giao hàng gấp hay mua luôn bản có sẵn. Hãy so sánh thêm một lựa chọn trước khi trả tiền cho sự nhanh chóng. Đôi khi chờ thêm một ngày là khoản tiết kiệm lớn nhất, nhỏ đến mức không ai thấy ngoài ví của bạn.",
+  "insight": "Có thể thứ bạn bực không phải tốc độ của người khác, mà là nỗi sợ mình đang bị bỏ lại phía sau. Khi thấy mình gấp, hãy thử hỏi xem sự gấp ấy đến từ một hạn chót thật hay từ một so sánh ngầm với ai đó. Câu trả lời thường làm cơn nóng giảm đi một nửa. Nhớ lại lần gần nhất bạn chờ mà hoá ra chờ đúng, có thể bạn sẽ thấy chậm đôi khi là một phần của việc chín.",
+  "memorable_message": "Cơn nóng ngắn như que diêm, nhưng lời nói trong đó có thể cháy rất lâu.",
+  "advice": "Trước khi trả lời điều làm bạn khó chịu, hãy hít sâu, đếm đến mười hoặc đi rót một cốc nước rồi mới quay lại. Bạn vẫn nói được điều cần nói, chỉ là nói bằng giọng mà bạn sẽ không tiếc vào buổi tối. Nếu có thể, hãy dùng khoảng chờ ấy để làm xong một việc nhỏ khác.",
+  "keywords": [
+   "sốt ruột",
+   "nóng vội",
+   "chậm lại"
+  ]
+ },
+ {
+  "card_id": "knight-of-wands",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Năng lượng muốn chạy nhưng bị kẹt đâu đó, nên hôm nay bạn dễ bứt rứt vì phải đứng yên.",
+  "card": {
+   "name": "Kỵ Sĩ Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 4,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Đã lên yên mà ngựa chưa chịu đi.",
+  "card_meaning": "Hãy hình dung con ngựa của Kỵ Sĩ Gậy đứng khựng lại, vó trước vẫn giơ cao nhưng không bước thêm, còn người cưỡi thì nắm chặt cương mà chưa biết nên thúc hay nên chờ. Đó là cách đọc ngược của lá này: năng lượng vẫn đầy, nhưng bị chặn đâu đó giữa ý định và hành động. Nguyên nhân có thể là sợ làm chưa tốt hoặc thiếu một mảnh thông tin. Lá ngược ở đây không phải dấu hiệu xấu, mà là tín hiệu rằng có điều gì đó cần được tháo ra trước khi chạy. Hôm nay nó đáng chú ý vì cảm giác bứt rứt chính là tiếng báo của năng lượng bị chặn.",
+  "forecast": [
+   "Một dự định bạn mong khởi động có xu hướng bị lùi lại vì thiếu một thứ nhỏ như thông tin, phản hồi hay một tập tin chưa đủ.",
+   "Bạn dễ lướt điện thoại hoặc dọn dẹp lung tung để xả sự bứt rứt thay vì làm việc chính, đặc biệt vào quãng sau bữa trưa.",
+   "Cuối ngày có thể bạn nhận ra mình chưa bắt đầu vì sợ làm chưa tốt, chứ không phải vì thiếu thời gian."
+  ],
+  "love": "Có thể bạn muốn tiến thêm một bước với ai đó nhưng cứ lần khân, chờ người kia chủ động trước. Nếu đang yêu, một chuyện nhỏ chưa nói ra có thể đang âm ỉ làm bạn khó chịu mà chính bạn cũng chưa gọi được tên. Hãy nói sớm khi nó còn nhỏ, bằng một câu mở đầu nhẹ như mình đang nghĩ về một chuyện, muốn kể anh hoặc em nghe.",
+  "career": "Công việc có cảm giác chậm hoặc lặp lại, và bạn khó giữ hứng. Chia việc lớn thành những phần rất nhỏ, mỗi phần mười lăm phút, sẽ dễ khởi động hơn là nhìn cả ngọn núi. Sinh viên nên bỏ bớt việc chuẩn bị kéo dài như sắp xếp bút vở hay tìm thêm tài liệu, và bắt đầu ngay với trang đầu tiên.",
+  "finance": "Có xu hướng trì hoãn việc xem lại sổ chi tiêu hoặc xử lý một khoản đang treo, như hoá đơn chưa trả hay khoản cần hỏi lại. Dành một khoảng ngắn nhìn vào con số thật thường nhẹ nhõm hơn là cứ lảng tránh. Mất khoảng mười phút để ghi ra, bạn có thể bớt đi một nỗi lo âm ỉ.",
+  "insight": "Có thể bạn không lười, mà đang giữ mình lại vì không muốn thử rồi thấy mình chưa giỏi. Đứng yên thì an toàn, nhưng cũng chính nó làm sự bứt rứt càng to dần. Năng lượng không được dùng không biến mất, nó chỉ chuyển thành cảm giác khó chịu khó gọi tên. Thử hỏi xem nó đang chờ điều gì, một mảnh thông tin hay một lời cho phép.",
+  "memorable_message": "Chuẩn bị mãi cũng là một cách trốn, chỉ là trốn trông có vẻ chăm chỉ.",
+  "advice": "Đặt đồng hồ hai mươi phút và làm đúng thứ bạn đang né, kể cả làm dở cũng được, miễn là có bắt đầu. Chọn thời điểm ngay sau khi xong bữa sáng hoặc trước bữa tối, lúc đầu óc còn đủ tỉnh. Hết hai mươi phút, bạn có quyền nghỉ hoặc làm tiếp.",
+  "keywords": [
+   "bứt rứt",
+   "trì hoãn",
+   "năng lượng bị chặn"
+  ]
+ },
+ {
+  "card_id": "queen-of-wands",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay bạn toả sáng khi dám là chính mình, và người xung quanh dễ bị thu hút bởi sự thoải mái đó.",
+  "card": {
+   "name": "Nữ Hoàng Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 8,
+   "finance": 7,
+   "energy": 8
+  },
+  "headline": "Sức hút lớn nhất là khi bạn thôi xin lỗi vì mình có mặt.",
+  "card_meaning": "Nữ Hoàng Gậy là lá số 13 của bộ Gậy, bộ bài của lửa và đam mê. Bà ngồi trên ngai chạm hình sư tử, một tay cầm cây gậy nảy lộc, tay kia giữ bông hướng dương, như người biết rõ chỗ của mình trong căn phòng. Trong nhóm lá cung đình, Nữ Hoàng là người sống với lửa từ bên trong: ấm, rạng rỡ và không cần xin phép để toả sáng. Ở chiều xuôi, lá bài nói về sự tự tin tự nhiên và sức hút đến từ việc dám là mình. Hôm nay nó đáng chú ý vì nó nhắc rằng chiếm một chỗ trong không gian không phải là tham lam.",
+  "forecast": [
+   "Bạn có xu hướng được chú ý hơn thường lệ, qua một lời khen, một cái nhìn hoặc một lời đề nghị bất ngờ từ người ít khi mở lời.",
+   "Một cuộc trò chuyện nhóm dễ để bạn là người dẫn nhịp mà không cần cố, nhất là vào buổi chiều khi mọi người đã thoải mái.",
+   "Có thể bạn nói ra một điều vẫn giữ trong lòng và thấy nhẹ hơn mong đợi, vì phản ứng của người nghe không đáng sợ như bạn tưởng."
+  ],
+  "love": "Người độc thân dễ khiến ai đó để ý chỉ bằng nụ cười và cách nói chuyện tự nhiên, nên hôm nay không cần chỉnh mình quá nhiều. Nếu đang tìm hiểu một người, hãy nói rõ điều bạn muốn, vì sự rõ ràng đang rất có duyên. Người đang yêu thử khen người bên cạnh một điều cụ thể trước, rồi xem không khí đổi thế nào.",
+  "career": "Đây là lúc hợp để lên tiếng, trình bày ý tưởng hoặc đề xuất điều bạn xứng đáng nhận, như một vai trò mới hay một khoản hỗ trợ. Giọng nói của bạn có sức nặng hơn bạn nghĩ, nên hãy nói chậm lại một nhịp. Sinh viên có thể thuyết trình tốt, miễn là nhớ chuẩn bị dẫn chứng chứ đừng chỉ dựa vào khí thế.",
+  "finance": "Tài chính ở mức ổn, và sự tự tin giúp bạn mạnh dạn hơn khi thương lượng một mức giá hoặc một khoản mình đáng được trả. Hãy chuẩn bị sẵn con số mình thấy hợp lý trước khi mở lời, vì nói có chuẩn bị luôn vững hơn nói theo cảm hứng. Chỉ cần để mắt tới các khoản chi chiều bản thân cho đúng ngân sách.",
+  "insight": "Có thể bạn đã quen thu nhỏ mình để người khác dễ chịu, đến mức quên rằng ánh sáng của bạn không lấy mất phần của ai. Người ta thường nhớ đến người dám hiện diện trọn vẹn hơn người luôn tỏ ra khéo léo. Hôm nay có thể là ngày thử đứng thẳng hơn một chút và xem điều gì xảy ra.",
+  "memorable_message": "Bạn không cần vặn nhỏ mình lại để người khác thấy thoải mái.",
+  "advice": "Nói một điều bạn đang giữ lại, hoặc xin một thứ bạn xứng đáng nhận, dù chỉ là đề nghị nhỏ như đổi lịch họp hay xin thêm thời gian. Làm việc đó vào đầu buổi, khi bạn còn đầy năng lượng. Giữ giọng ấm là đủ, không cần cứng, vì sức nặng của bạn đến từ sự rõ ràng chứ không phải từ độ lớn tiếng.",
+  "keywords": [
+   "tự tin",
+   "sức hút",
+   "dám lên tiếng"
+  ]
+ },
+ {
+  "card_id": "queen-of-wands",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Bạn mạnh nhất hôm nay khi tự làm chủ nhịp của mình, rồi chia sự ấm áp ra cho người xung quanh.",
+  "card": {
+   "name": "Nữ Hoàng Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 8,
+   "finance": 7,
+   "energy": 8
+  },
+  "headline": "Độc lập mà vẫn ấm, đó mới là kiểu mạnh mẽ dễ thương.",
+  "card_meaning": "Dưới chân Nữ Hoàng Gậy có một chú mèo đen ngồi ngay ngắn, mắt nhìn ra ngoài như đang canh chừng thế giới thay cho chủ nhân. Mèo là loài không cần ai khen cũng thấy đủ, và nó chính là biểu tượng cho sự độc lập mà lá này mang theo. Bà không phải người cô đơn, chỉ là người không cần ai lấp chỗ trống để thấy mình trọn vẹn. Ở chiều xuôi, đây là năng lượng của tự chủ đi cùng sự ấm áp, rất hợp với ai đang muốn tự quyết cuộc sống của mình. Hôm nay nó đáng chú ý vì độc lập thật sự không cần lạnh lùng.",
+  "forecast": [
+   "Bạn có xu hướng muốn tự quyết một việc thay vì chờ ai đó gật đầu, và lần này cảm giác ấy khá dễ chịu.",
+   "Một người xung quanh có thể tìm đến bạn để xin lời khuyên, hoặc chỉ để ngồi gần năng lượng tích cực của bạn một lát.",
+   "Có khả năng bạn nảy ra ý tưởng cho không gian sống hoặc làm việc, như dời bàn hay đổi ánh sáng, và muốn sắp xếp lại ngay."
+  ],
+  "love": "Bạn không cần ai lấp chỗ trống mới thấy vui, và chính điều đó khiến bạn cuốn hút. Người đang yêu nên dành thời gian riêng cho mình mà không áy náy, vì khi quay về bên nhau, không khí sẽ ấm hơn. Người độc thân dễ gặp ai đó thích sự tự chủ của bạn, nên hãy kể thật về những điều mình đang tự làm một mình.",
+  "career": "Bạn làm việc hiệu quả khi được tự chọn cách làm, vì vậy hãy xin quyền chủ động trong một phần việc cụ thể, như tự quyết quy trình hay thứ tự công việc. Sự nhiệt tình của bạn cũng giúp cả nhóm có thêm động lực. Chú ý đừng ôm hết mọi thứ chỉ vì tự làm thì nhanh hơn, vì phần việc bạn giữ lại là phần người khác chưa được học.",
+  "finance": "Cảm giác tự chủ cũng thể hiện ở ví tiền, nên hôm nay hợp để tự lên kế hoạch cho một khoản bạn đang muốn, như món đồ cho căn phòng hay một khoá học. Chi cho không gian của mình hoặc một món làm bạn vui là ổn, miễn nằm trong mức đã định từ trước. Đừng để vẻ tự tin bị kéo thành chi tiêu để chứng tỏ.",
+  "insight": "Có thể bạn đang nghĩ độc lập nghĩa là không được cần ai. Thật ra người vững nhất là người biết mình tự đứng được, và cũng cho phép mình nhận giúp đỡ khi thật sự muốn. Việc xin một lời khuyên hay nhờ giúp một việc nhỏ không làm bạn kém tự chủ đi, mà còn làm các mối quan hệ gần hơn.",
+  "memorable_message": "Ngọn đèn không cần ai đẩy mới sáng, nhưng ai cũng thích ngồi gần ánh sáng.",
+  "advice": "Chọn một việc để làm theo cách riêng của bạn và đừng giải thích dài dòng hay xin ý kiến quá nhiều người. Sau đó, vào cuối ngày, nhắn hỏi han một người bạn quý bằng một câu cụ thể, như hôm nay việc đó ra sao. Như vậy sự ấm áp của bạn đi được hai chiều, không chỉ dừng ở phần tự lo.",
+  "keywords": [
+   "độc lập",
+   "ấm áp",
+   "làm chủ"
+  ]
+ },
+ {
+  "card_id": "queen-of-wands",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Năng lượng của bạn đang cao và giàu sáng tạo, hãy dành nó cho thứ bạn thích thay vì thứ bạn chỉ thấy nên làm.",
+  "card": {
+   "name": "Nữ Hoàng Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 9,
+   "love": 8,
+   "career": 8,
+   "finance": 7,
+   "energy": 9
+  },
+  "headline": "Làm điều mình mê, rồi để người khác tự bị lây.",
+  "card_meaning": "Bông hướng dương trong tay Nữ Hoàng Gậy là chi tiết dễ quên nhất mà cũng đáng nhớ nhất trên lá bài. Hướng dương luôn quay về phía mặt trời, và Nữ Hoàng cũng vậy: bà xoay về phía thứ khiến bà sống động, thay vì thứ bà chỉ thấy mình nên làm. Bộ Gậy là lửa, và với lá này, lửa là sự đam mê sáng tạo, là cảm giác vui khi làm điều mình mê. Ở chiều xuôi, nó nói về năng lượng cao, ấm và có sức lan sang người khác. Hôm nay nó đáng chú ý vì có những ngày nhiên liệu tốt nhất lại nằm trong chính thứ ta thấy vui.",
+  "forecast": [
+   "Bạn có xu hướng thấy trong người đầy năng lượng và muốn vận động, sắp xếp hoặc sáng tạo thứ gì đó ngay từ đầu ngày.",
+   "Một sở thích hoặc dự án riêng có thể bất ngờ nhận được lời khen hay sự quan tâm từ người bạn không mong đợi.",
+   "Bạn dễ rủ được người khác cùng làm một việc, như đi triển lãm hay tập một môn mới, nhờ sự hào hứng rất tự nhiên."
+  ],
+  "love": "Khi bạn say sưa với điều mình thích, người khác tự thấy bạn đáng yêu hơn, vì nhiệt huyết thật bao giờ cũng cuốn. Nếu độc thân, nơi gặp gỡ tốt nhất có thể là chỗ có sở thích chung như lớp học, câu lạc bộ hay buổi nhạc nhỏ. Đang yêu thì thử rủ người ấy tham gia vào thứ bạn mê, thay vì chỉ kể về nó.",
+  "career": "Sáng tạo và khả năng thu hút người khác là lợi thế lớn của bạn hôm nay. Hợp để brainstorm, làm nội dung hoặc dẫn dắt một phần việc nhóm bằng cách kể thật hấp dẫn về ý tưởng. Cẩn thận đừng để hứng khởi làm bạn bỏ sót phần việc nhàm chán nhưng bắt buộc, vì nó thường chính là phần giữ cho ý tưởng đứng vững.",
+  "finance": "Có cơ hội để biến sở thích hoặc kỹ năng riêng thành một nguồn thu nhỏ, hoặc ít nhất bạn nảy ra ý tưởng về điều đó. Hôm nay chỉ cần ghi ý tưởng lại và ước lượng sơ về công sức, thời gian. Chi phí thật thì tính kỹ trước khi bỏ tiền vào, vì hứng khởi và con số thường không đi cùng một nhịp.",
+  "insight": "Có thể bạn đã xếp niềm vui xuống cuối danh sách vì thấy nó không hữu ích. Nhưng năng lượng của bạn lại sinh ra từ chính những điều bạn thích, và khi thiếu chúng, cả những việc có ích cũng trở nên nặng. Thử xem niềm vui như một khoản đầu tư cho sức làm việc chứ không phải phần thừa.",
+  "memorable_message": "Hứng thú là loại nhiên liệu mà cà phê không thay thế được.",
+  "advice": "Dành ít nhất ba mươi phút hôm nay cho một việc bạn làm vì thích chứ không vì có ích, như vẽ, chơi nhạc, nấu món mới hay chỉnh một món đồ yêu thích. Đặt nó vào lịch như một cuộc hẹn thật, tốt nhất là trước khi mệt. Nếu có ai đó đi cùng thì càng vui, nhưng một mình cũng đủ.",
+  "keywords": [
+   "năng động",
+   "sáng tạo",
+   "lan toả"
+  ]
+ },
+ {
+  "card_id": "queen-of-wands",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Hôm nay bạn dễ so sánh mình với người khác, và cảm giác thua kém có thể mượn hình dạng của sự ghen.",
+  "card": {
+   "name": "Nữ Hoàng Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Ghen là cách tự ti nói to.",
+  "card_meaning": "Ở chiều ngược, Nữ Hoàng Gậy là mặt tối của sự tự tin: khi ánh sáng bên trong bị lung lay, ta bắt đầu nhìn sang ánh sáng của người khác và đo mình bằng nó. Hình ảnh quen thuộc của lá, nữ hoàng trên ngai với chú mèo đen dưới chân, lúc này giống người ngồi nhìn xung quanh xem ai đang được chú ý hơn mình. Đây là năng lượng của sự so sánh, bất an và ghen tị, thứ cảm giác ai cũng từng có. Lá ngược không kết tội, mà chỉ ra chỗ lửa đang chảy mất. Hôm nay nó đáng chú ý vì nó nhắc rằng ghen cũng là một dạng thông tin.",
+  "forecast": [
+   "Bạn có xu hướng lướt thấy cuộc sống của ai đó rồi bỗng thấy mình đang đi chậm, dù lúc nãy còn thấy ổn.",
+   "Một câu nói vô tình có thể bị bạn đọc thành ẩn ý và làm tâm trạng tụt xuống, nhất là trong tin nhắn nhóm.",
+   "Có khả năng bạn muốn kiểm tra điều gì đó, như xem trang cá nhân hay hỏi lại cho yên tâm, rồi sau đó thấy không cần thiết."
+  ],
+  "love": "Cảm giác bất an dễ lên nếu người kia chậm trả lời hoặc nhắc đến một người mới. Thay vì thăm dò vòng vo, hãy nói thẳng điều bạn cần, như mình muốn được quan tâm thêm một chút dạo này. Người độc thân đừng so mình với những cặp đôi thấy trên mạng, vì bạn chỉ thấy khoảnh khắc đẹp nhất của họ.",
+  "career": "Bạn dễ nhìn đồng nghiệp được khen mà thấy chạnh lòng, dù phần của mình cũng không hề nhỏ. Hãy liệt kê ngắn gọn những gì bạn đã làm được tuần này, rồi đặt cạnh mục tiêu của riêng bạn thay vì của người khác. Tránh lời nói có gai trong cuộc họp, vì nó dễ bị nhớ lâu hơn cả thành tích.",
+  "finance": "Tâm lý thua kém có thể đẩy bạn mua sắm để thấy mình ngang bằng ai đó, như món đồ đang thịnh hành. Hãy chờ một ngày với món muốn mua, nếu hôm sau vẫn cần thì lúc đó mua cũng chưa muộn. Mua vì cần và mua vì sợ lạc nhịp là hai khoản chi khác nhau. Món nào sau một ngày vẫn khiến bạn muốn thì đáng cân nhắc.",
+  "insight": "Có thể bạn không thật sự ganh với người kia, mà đang nhìn thấy điều mình muốn nhưng chưa dám tự cho phép. Cảm giác ghen vì thế cũng là một chỉ dẫn, nếu bạn chịu đọc nó. Nó chỉ ra những nơi trong cuộc sống bạn đang khát, dù chưa gọi được tên. Thử hỏi mình muốn điều gì ở người ấy, rồi tự hỏi mình đã cho phép bản thân có nó chưa.",
+  "memorable_message": "Mỗi lần ghen là một tấm bản đồ chỉ ra điều bạn đang khao khát.",
+  "advice": "Khi thấy mình bắt đầu so sánh, hãy tắt màn hình, lấy giấy và viết một dòng về điều bạn muốn cho riêng mình. Sau đó chọn một hành động nhỏ làm được trong buổi chiều, như gửi một email, đăng ký một buổi học hay gọi một người. Một việc nhỏ thật hơn mười lần ngưỡng mộ.",
+  "keywords": [
+   "so sánh",
+   "bất an",
+   "ghen tị"
+  ]
+ },
+ {
+  "card_id": "queen-of-wands",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Bạn đang mong người khác đáp ứng nhiều hơn mức họ biết là bạn cần, nên dễ thất vọng và đòi hỏi.",
+  "card": {
+   "name": "Nữ Hoàng Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 3,
+   "career": 4,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Điều chưa nói ra thì đừng bắt người khác đoán đúng.",
+  "card_meaning": "Chiếc ngai của Nữ Hoàng Gậy trên lá bài xuôi là chỗ của một người ấm áp và tự tin. Lật ngược, chiếc ngai ấy dễ thành chỗ của người ngồi chờ được phục vụ: cảm xúc bị dồn lại, rồi đòi hỏi bật ra dưới dạng yêu sách. Đây là sắc thái khác của lá, không phải về ghen mà về kỳ vọng, về mong muốn người khác tự hiểu và tự đáp ứng. Nó thường xuất hiện khi ai đó đã cho đi khá nhiều và chưa thấy mình được ghi nhận. Hôm nay lá bài đáng chú ý vì nó khuyên đổi mong đợi thầm lặng thành lời nhờ cụ thể.",
+  "forecast": [
+   "Bạn có xu hướng kỳ vọng ai đó tự hiểu ý mình, rồi thất vọng khi họ không làm vậy.",
+   "Một yêu cầu nhỏ có thể được nói ra với giọng gắt hơn bạn định, và bạn thấy hơi ngượng ngay sau đó.",
+   "Có thể có một cuộc nói chuyện thẳng thắn khiến cả hai bên bớt căng hơn dự tính, nhất là nếu bạn mở lời trước."
+  ],
+  "love": "Sự đòi hỏi thường là nhu cầu được quan tâm đang mặc áo giáp. Nếu đang yêu, hãy đổi câu trách móc thành câu mình muốn tối nay hai đứa ở cạnh nhau, vì lời mong rõ ràng dễ được đáp hơn lời trách. Người đang tìm hiểu cũng nên cho đối phương một khoảng thở, đừng đo mức quan tâm của họ bằng tốc độ nhắn tin.",
+  "career": "Bạn dễ đòi hỏi cao ở đồng đội và hơi mất kiên nhẫn nếu ai đó làm không đúng ý. Hãy nói rõ tiêu chuẩn từ đầu, ví dụ gửi trước một ví dụ mẫu, thay vì bực khi kết quả ra. Việc cần chú ý là giữ cách đề nghị đủ lịch sự dù đang vội, vì giọng điệu thường được nhớ lâu hơn nội dung.",
+  "finance": "Cảm giác mình đáng được bù đắp có thể khiến bạn chi tiêu để tự thưởng sau một ngày mệt, như đồ ăn ngoài hay món đồ nhỏ. Một khoản nhỏ thì không sao, chỉ cần để ý khi bạn thưởng nhiều lần liên tiếp trong cùng một ngày. Thử hỏi mình đang thật sự cần món này hay cần được ghi nhận.",
+  "insight": "Có thể bạn đã cho đi khá nhiều mà chưa ai nhận ra, nên mong được đáp lại theo cách mình hình dung. Nhưng người khác chỉ đọc được những gì ta nói ra, không đọc được những gì ta mong. Nói rõ điều mình cần là cách công bằng hơn với cả hai phía, và thường ít tốn sức hơn việc chờ đợi.",
+  "memorable_message": "Người khác không đọc được tâm trí bạn, họ chỉ nghe được những gì bạn nói.",
+  "advice": "Chọn một điều bạn vẫn mong người khác hiểu mà chưa nói, và nói nó bằng một câu đơn giản, tốt nhất vào lúc cả hai đều rảnh và đã ăn uống đầy đủ. Hãy đặt yêu cầu thay vì đặt bài kiểm tra, ví dụ mình muốn hôm nay được giúp việc này. Sau đó cho người kia thời gian để đáp.",
+  "keywords": [
+   "kỳ vọng",
+   "đòi hỏi",
+   "nói rõ"
+  ]
+ },
+ {
+  "card_id": "queen-of-wands",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Ngọn lửa của bạn đang yếu đi vì tự ti, nên bạn dễ rụt lại đúng lúc cần toả sáng.",
+  "card": {
+   "name": "Nữ Hoàng Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 4,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Đừng tắt đèn chỉ vì sợ có người chê ánh sáng.",
+  "card_meaning": "Hãy nhớ bông hướng dương trong tay Nữ Hoàng Gậy, rồi hình dung nó cụp xuống thiếu nắng. Ở chiều ngược, lá bài này là ngọn lửa đang yếu đi: bà vẫn ngồi trên ngai, nhưng dáng đã chùng, ánh mắt tránh đám đông, và chú mèo đen dưới chân như thu mình theo chủ. Đây là năng lượng của tự ti, của thói quen hạ giọng đúng lúc cần toả sáng vì sợ bị chê hoặc bị nhận xét. Lá ngược không cho rằng bạn kém, mà nói rằng bạn đang nghi ngờ những gì mình có. Hôm nay nó đáng chú ý vì cảm giác thu mình thường không ai thấy ngoài chính bạn.",
+  "forecast": [
+   "Bạn có xu hướng từ chối một lời mời hoặc cơ hội vì nghĩ mình chưa đủ tốt, dù người mời hoàn toàn nghiêm túc.",
+   "Một lời góp ý nhỏ dễ bị nghe thành lời phán xét cả con người bạn, nhất là khi nó đến vào lúc bạn đang mệt.",
+   "Có thể xuất hiện một khoảnh khắc bạn mệt vì cố tỏ ra vui vẻ, và muốn thu mình lại một lúc cho yên."
+  ],
+  "love": "Sự tự ti có thể khiến bạn né tránh hoặc đẩy người khác ra trước khi họ kịp ở lại. Nếu đang yêu, hãy thừa nhận hôm nay mình hơi thiếu tự tin, vì người thương thường dễ cảm thông hơn bạn nghĩ. Người độc thân đừng vội kết luận mình kém hấp dẫn chỉ vì một lần không được hồi đáp như mong muốn.",
+  "career": "Bạn có thể hạ giọng đúng lúc nên nói, và để người khác nhận phần công của mình. Hãy ghi lại ít nhất một thành quả trong tuần và cho một người tin cậy xem, vì người ngoài thường thấy rõ hơn ta. Sinh viên đừng bỏ phần phát biểu chỉ vì sợ nói sai, một ý chưa hoàn hảo vẫn có ích cho cả lớp.",
+  "finance": "Cảm giác không đủ giỏi có thể làm bạn ngại hỏi giá, ngại thương lượng hoặc ngại đòi một khoản xứng đáng, như tiền công cho phần việc đã làm. Một câu hỏi lịch sự về mức giá không làm bạn mất giá trị gì. Hôm nay thử viết sẵn câu hỏi ấy trước khi gặp, để lúc nói không bị ngập ngừng.",
+  "insight": "Có thể bạn đang dùng một tiêu chuẩn hà khắc cho bản thân mà không bao giờ dùng với bạn bè. Phần nào đó trong bạn mong được đối xử dịu dàng như cách bạn đối xử với người mình thương. Sự khắt khe ấy đôi khi nghe như trách nhiệm, nhưng thực chất nó chỉ làm ánh sáng của bạn nhỏ lại.",
+  "memorable_message": "Bạn nói chuyện với mình bằng giọng nào, thế giới sẽ nghe theo giọng ấy.",
+  "advice": "Hôm nay hãy thay một câu tự chê bằng câu bạn sẽ nói với một người bạn thân trong đúng tình huống đó, và nói ra thành tiếng nếu có thể. Sau đó làm đúng một việc mà bạn vừa định né, như gửi tin nhắn hoặc giơ tay phát biểu, trước khi nghĩ thêm. Chỉ cần một việc, bấy nhiêu đã đủ.",
+  "keywords": [
+   "tự ti",
+   "thu mình",
+   "giá trị bản thân"
+  ]
+ },
+ {
+  "card_id": "king-of-wands",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay bạn nhìn xa hơn việc trước mắt, và đó là lúc nên đưa ra một quyết định có tầm.",
+  "card": {
+   "name": "Vua Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 9,
+   "finance": 7,
+   "energy": 8
+  },
+  "headline": "Người dẫn đường không biết hết, chỉ dám đi trước.",
+  "card_meaning": "Vua Gậy là lá số 14 của bộ Gậy, đại diện cho ngọn lửa đã trưởng thành. Nhà vua ngồi trên ngai chạm hình sư tử và kỳ nhông, tay cầm cây gậy nhỏ đang nảy lộc, ánh mắt hướng về phía xa thay vì cúi xuống nhìn việc ngay trước mặt. Nếu Kỵ Sĩ là người phi nhanh, thì Vua là người đã biết mình phi về đâu và vì sao. Ở chiều xuôi, lá bài nói về tầm nhìn, quyết đoán và khả năng định hướng cho cả mình lẫn người khác. Hôm nay nó đáng chú ý vì nó mời bạn ngồi xuống, lùi lại một bước và nhìn cả cánh đồng thay vì từng luống cây.",
+  "forecast": [
+   "Bạn có xu hướng thấy rõ đâu là việc quan trọng và đâu là việc chỉ làm cho có, nhất là khi nhìn lại danh sách buổi sáng.",
+   "Một người khác có thể trông chờ bạn đưa ra hướng đi hoặc chốt một quyết định mà cả nhóm đang đợi.",
+   "Có khả năng một ý tưởng lớn dần thành hình vào cuối ngày, dù hôm nay mới chỉ ở dạng phác thảo vài dòng."
+  ],
+  "love": "Bạn rõ ràng về điều mình muốn trong tình cảm, và điều đó có sức nặng, nhất là khi nói bằng giọng điềm tĩnh. Người độc thân dễ hấp dẫn người cùng chí hướng, nên hãy để họ thấy bạn đang đi đâu trong đời. Đang yêu thì thử nói về kế hoạch chung cho vài tháng tới, không cần quyết định gì lớn, chỉ cần hai người cùng nhìn về một hướng.",
+  "career": "Hợp để định hướng, phân việc hoặc đề xuất một hướng đi dài hạn cho nhóm. Nếu đang làm một mình, hãy vạch mục tiêu của quý này thay vì chỉ lo việc hôm nay, một tờ giấy ba dòng là đủ. Sinh viên thử viết ra điều muốn đạt được trong kỳ học. Cần chú ý lắng nghe thêm một ý kiến trước khi chốt.",
+  "finance": "Tư duy dài hạn nghiêng về thuận lợi, nên hôm nay hợp để ngồi xem bức tranh thu chi của cả tháng, thậm chí cả quý. Quyết định gọn như đặt giới hạn chi tiêu cho từng nhóm khoản thường hiệu quả hơn một kế hoạch lớn khó theo. Chỉ cần mục tiêu đủ rõ để bạn dễ nhận ra mình có đang đi lệch hay không.",
+  "insight": "Có thể bạn đã lâu không cho mình thời gian nhìn toàn cảnh vì quá bận chữa cháy từng việc nhỏ. Khi lùi lại một bước, nhiều nỗi lo sẽ thu về đúng kích cỡ, và những điều tưởng gấp hoá ra chưa phải. Có thể thứ bạn cần hôm nay không phải thêm nỗ lực, mà là một góc nhìn cao hơn.",
+  "memorable_message": "Đứng trên đồi một phút, bạn thấy xa hơn cả ngày đi dưới thung lũng.",
+  "advice": "Dành mười lăm phút vào đầu hoặc cuối ngày để viết ra điều bạn muốn đạt được trong ba tháng tới, rồi chọn một bước đầu tiên cho tuần này. Viết bằng tay nếu được, để chữ không trôi mất. Đừng quên hỏi một người bạn tin xem họ thấy gì ở kế hoạch đó, vì người ngoài thường thấy chỗ ta chưa thấy.",
+  "keywords": [
+   "tầm nhìn",
+   "quyết đoán",
+   "dẫn đường"
+  ]
+ },
+ {
+  "card_id": "king-of-wands",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay cần một chút can đảm: nhận lấy việc khó hoặc nói điều khó, và bạn có đủ sức cho điều đó.",
+  "card": {
+   "name": "Vua Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 8,
+   "finance": 6,
+   "energy": 8
+  },
+  "headline": "Can đảm là làm dù tay vẫn run.",
+  "card_meaning": "Hình sư tử chạm trên ngai của Vua Gậy không phải để trang trí. Chúng là biểu tượng của lòng can đảm, thứ mà nhà vua cần để dám ngồi vào chiếc ngai nơi mọi người trông vào mình. Lá bài này nhấn vào mặt trách nhiệm của ngọn lửa: lửa không chỉ sưởi ấm mà còn cần người dám giữ nó cháy khi gió thổi. Ở chiều xuôi, nó nói về can đảm trong hành động và lời nói, nhận phần việc khó, đứng ra trước khi thấy đủ yên tâm. Hôm nay nó đáng chú ý vì có những việc không có lúc nào hết sợ, chỉ có lúc ta quyết định làm.",
+  "forecast": [
+   "Bạn có xu hướng gặp một tình huống đòi hỏi mình đứng ra nhận trách nhiệm, có thể ở nhóm học, chỗ làm hoặc trong gia đình.",
+   "Một cuộc trò chuyện khó bị trì hoãn từ lâu có khả năng trở nên dễ mở lời hơn bạn nghĩ, nhất là vào quãng buổi sáng.",
+   "Có thể bạn bất ngờ vì mình bình tĩnh hơn mình tưởng khi gặp một áp lực nhỏ giữa ngày."
+  ],
+  "love": "Đây là ngày để nói thẳng mà dịu điều bạn vẫn giấu, như một mong muốn hoặc một ranh giới. Người đang yêu có thể thấy mối quan hệ vững hơn nhờ sự rõ ràng này, miễn là bạn mở đầu bằng điều mình cần chứ không phải điều người kia sai. Người độc thân đừng ngại chủ động bày tỏ nếu thật sự thích ai đó, một câu thật lòng là đủ.",
+  "career": "Bạn có thể nhận một phần việc mà người khác ngại, và làm tốt nó. Đây cũng là dịp để xin phản hồi, xin mở rộng vai trò hoặc nói không với một yêu cầu vô lý, theo cách ngắn gọn và lịch sự. Sinh viên hợp để xung phong ở bài nhóm, nhất là phần mà cả nhóm đều tránh.",
+  "finance": "Hợp để đối diện với một khoản tiền bạn vẫn né, như khoản nhỏ cần trả hoặc khoản cần hỏi lại một người quen. Nhìn vào con số thật thường đỡ đáng sợ hơn bạn hình dung, và bạn có thể ngạc nhiên vì nó nhỏ hơn mình tưởng. Một tin nhắn hỏi thẳng, viết gọn, có khi giải quyết được chuyện đã tồn nhiều ngày.",
+  "insight": "Có thể điều bạn đang chờ không phải là hết sợ, mà là sự cho phép để làm khi vẫn còn sợ. Nỗi sợ không phải dấu hiệu nên dừng lại, chỉ là dấu hiệu việc đó quan trọng với bạn. Thử nhìn nó như một tấm biển chỉ đường chứ không phải rào chắn. Hôm nay làm một việc nhỏ vẫn khiến mình hơi lo, rồi xem sự lo ấy có làm hỏng việc không.",
+  "memorable_message": "Người can đảm không phải kẻ không sợ, mà là người vẫn gõ cửa.",
+  "advice": "Chọn một cuộc nói chuyện hoặc một việc khó bạn đã né, và làm nó trước giữa trưa, lúc bạn còn nhiều tỉnh táo nhất. Chuẩn bị sẵn một câu mở đầu để dễ vào đề, ví dụ mình có chuyện muốn trao đổi, bạn có năm phút không. Làm xong rồi hãy tự thưởng một việc nhỏ bạn thích.",
+  "keywords": [
+   "can đảm",
+   "trách nhiệm",
+   "đối diện"
+  ]
+ },
+ {
+  "card_id": "king-of-wands",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Cách bạn làm việc hôm nay có sức lan toả, nên người khác dễ lấy bạn làm điểm tựa và nguồn cảm hứng.",
+  "card": {
+   "name": "Vua Gậy",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 9,
+   "love": 8,
+   "career": 8,
+   "finance": 7,
+   "energy": 8
+  },
+  "headline": "Dẫn đầu là khiến người khác muốn đi cùng, không phải bắt họ đi.",
+  "card_meaning": "Chiếc áo choàng của Vua Gậy thêu những con kỳ nhông, loài vật huyền thoại sống được trong lửa mà không bị thiêu. Đó là hình ảnh của người đã học cách điều khiển ngọn lửa của mình: nhiệt huyết còn nguyên, nhưng không còn cháy lung tung. Chính vì vậy, Vua Gậy truyền cảm hứng không bằng lời to mà bằng cách sống và làm việc. Ở chiều xuôi, lá bài nói về sự dẫn dắt có sức lan toả, người khác muốn đi cùng vì thấy đường mà bạn chọn có lý. Hôm nay nó đáng chú ý vì cách bạn làm có thể ảnh hưởng đến bầu không khí quanh mình.",
+  "forecast": [
+   "Có xu hướng ai đó xin lời khuyên hoặc muốn làm cùng bạn vì thấy bạn đáng tin, có thể là một người đang bắt đầu việc mới.",
+   "Một lời bạn nói trong ngày có thể được người khác nhớ và nhắc lại, kể cả khi bạn chỉ nói thoáng qua.",
+   "Bạn dễ nhận ra mình ảnh hưởng đến bầu không khí chung nhiều hơn mình nghĩ, nhất là trong buổi họp hay bữa ăn chung."
+  ],
+  "love": "Bạn thu hút bằng sự vững vàng và sự nhiệt tình đúng nơi đúng chỗ. Nếu đang yêu, hãy khích lệ người kia theo đuổi điều họ muốn, vì sự ủng hộ của bạn đang rất có trọng lượng. Người độc thân dễ gặp ai đó ngưỡng mộ cách bạn sống, nên hãy cứ tự nhiên làm điều mình làm hằng ngày và để họ tự nhận ra.",
+  "career": "Hợp để truyền lửa cho đội nhóm, dẫn một buổi họp hoặc kèm cặp người mới. Bạn không cần ra lệnh, chỉ cần làm gương và nói rõ mục đích của việc đang làm. Hãy khen đúng người đúng việc, vì lời khen cụ thể từ bạn lúc này có sức nặng. Sinh viên thử giải thích bài cho bạn cùng học để củng cố điều mình hiểu.",
+  "finance": "Bạn có khả năng giữ bình tĩnh trong chuyện tiền bạc và giúp người khác bình tĩnh theo, như trong chuyện chi tiêu chung của gia đình hay nhóm bạn. Một buổi trao đổi ngắn về ngân sách chung, nói rõ ai lo phần nào, có thể rất ích. Chỉ cần giữ giọng đều, vì cách bạn nói về tiền cũng truyền sang người nghe.",
+  "insight": "Có thể bạn chưa nhận ra mình đang là chỗ dựa cho ai đó, vì bạn hay nghĩ mình chỉ đang làm việc của mình. Ảnh hưởng thật nhất thường không ồn ào, nó nằm ở cách ta giữ lời, giữ bình tĩnh và giữ sự nhất quán. Nhìn lại, có thể bạn đang là hình mẫu cho một người nào đó mà chưa biết.",
+  "memorable_message": "Một người đốt lửa đúng chỗ có thể sưởi ấm cả căn phòng.",
+  "advice": "Hôm nay hãy khen cụ thể một người xung quanh về điều họ làm tốt, nói trực tiếp hoặc nhắn vào lúc cuối buổi làm việc. Câu khen nên có chi tiết, ví dụ cách bạn xử lý khách lúc nãy rất khéo. Nhớ giữ nhịp của chính mình, đừng cố gánh mọi người cùng một lúc.",
+  "keywords": [
+   "truyền cảm hứng",
+   "làm gương",
+   "vững vàng"
+  ]
+ },
+ {
+  "card_id": "king-of-wands",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Quyền chủ động của bạn hôm nay dễ biến thành kiểm soát, nên hãy kiềm lại trước khi ra lệnh.",
+  "card": {
+   "name": "Vua Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 3,
+   "career": 4,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Có quyền quyết không có nghĩa là phải quyết thay mọi người.",
+  "card_meaning": "Khi lật ngược, Vua Gậy là mặt tối của quyền lực: bàn tay cầm cây gậy siết quá chặt, và ngọn lửa từng sưởi ấm cả vương quốc bắt đầu làm người ta nóng. Hình ảnh nhà vua trên ngai vẫn còn đó, nhưng ở chiều này ông không còn lắng nghe, chỉ ra lệnh và chờ mọi người làm đúng ý. Đây là năng lượng của sự kiểm soát và độc đoán, thường xuất phát từ nỗi sợ mọi thứ sẽ rối nếu mình lơi tay. Lá ngược không phán xét, nó chỉ cho thấy chỗ sức mạnh đang quá tay. Hôm nay nó đáng chú ý vì nó nhắc rằng lãnh đạo tốt cần biết chừa chỗ.",
+  "forecast": [
+   "Bạn có xu hướng muốn mọi việc theo đúng cách của mình và khó chịu khi ai đó làm khác, dù kết quả cuối cùng có thể giống nhau.",
+   "Một người xung quanh có thể im lặng hoặc né tránh sau lời nói hơi cứng của bạn, và sự im lặng ấy đáng để ý hơn lời phản đối.",
+   "Có khả năng bạn nhận ra một góp ý của người khác thật ra hữu ích, dù lúc nghe thấy chói tai."
+  ],
+  "love": "Bạn dễ muốn quyết định thay người kia, từ chỗ ăn tới kế hoạch cuối tuần. Cho họ quyền lựa chọn sẽ mang lại nhiều thiện cảm hơn cả một phương án hoàn hảo, và đôi khi chỉ cần hỏi bạn muốn gì. Người độc thân đừng áp tiêu chuẩn quá chặt lên người mới gặp ngay từ buổi đầu, cho cuộc trò chuyện một chút khoảng trống để thật sự bắt đầu.",
+  "career": "Hôm nay dễ hoá thành người giám sát từng chi tiết, và đội nhóm cảm thấy ngột ngạt. Hãy giao trọn một việc cho ai đó và chỉ hỏi kết quả, đừng hỏi từng bước. Làm một mình thì chú ý đừng ép bản thân theo tiêu chuẩn mà chính bạn cũng thấy mệt, vì sự mệt đó thường làm chất lượng giảm chứ không tăng.",
+  "finance": "Ham kiểm soát có thể khiến bạn quyết định chi tiêu chung một mình mà không bàn bạc, nhất là với khoản lớn trong gia đình hay nhóm. Hỏi ý kiến người liên quan, dù chỉ bằng một tin nhắn, sẽ tránh được một cuộc cãi vã về sau. Quyết định có người cùng nghe thường được giữ bền hơn quyết định một mình.",
+  "insight": "Có thể sự cứng rắn của bạn là cách giữ cho mọi thứ khỏi vỡ, vì bạn sợ nếu buông tay thì sẽ rối. Nhưng đôi khi nới một phần lại giúp mọi thứ vững hơn, vì người khác có chỗ để chịu trách nhiệm thay vì chỉ làm theo. Thử xem sự kiểm soát này đang bảo vệ điều gì thật sự.",
+  "memorable_message": "Người cầm lái quá chặt thường chỉ làm cả xe lắc.",
+  "advice": "Hôm nay chọn một việc để thả tay, nhờ ai đó làm theo cách của họ và đừng sửa giữa chừng. Nếu thấy cần chỉnh, hãy chờ đến khi kết quả ra rồi mới góp ý, và bắt đầu bằng điều họ làm tốt. Làm như vậy vài lần, bạn sẽ thấy mình nhẹ gánh hơn mà việc vẫn xong.",
+  "keywords": [
+   "kiểm soát",
+   "độc đoán",
+   "buông bớt"
+  ]
+ },
+ {
+  "card_id": "king-of-wands",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Kỳ vọng của bạn đang đặt cao hơn mức ai đó làm được trong ngày, kể cả chính bạn.",
+  "card": {
+   "name": "Vua Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 4,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Tiêu chuẩn cao là tốt, nhưng đừng biến nó thành cái roi.",
+  "card_meaning": "Vua Gậy xuôi là người có tiêu chuẩn cao và dùng nó để dẫn đường. Ở chiều ngược, chính tiêu chuẩn ấy dễ biến thành cây thước đo mọi thứ, kể cả những thứ vốn không đo được bằng thước. Hình ảnh nhà vua nhìn xa vẫn còn, nhưng tầm nhìn đã thành kỳ vọng khó với tới, và mỗi bước đi của người khác đều dễ bị thấy là chưa đạt. Đây là sắc thái của cầu toàn, của việc đặt mục tiêu vượt xa sức chứa trong ngày. Hôm nay lá bài đáng chú ý vì nó nhắc rằng một tiêu chuẩn tốt vẫn cần chỗ cho con người.",
+  "forecast": [
+   "Bạn có xu hướng thấy kết quả của người khác chưa đạt, và cả kết quả của chính mình cũng vậy, dù ai cũng đã cố gắng.",
+   "Một kế hoạch đẹp trên giấy có thể gặp thực tế chậm hơn dự kiến, làm bạn bực nhưng cũng cho bạn một bài học.",
+   "Có thể ai đó khiến bạn bất ngờ vì làm tốt hơn bạn nghĩ, nếu bạn cho họ thêm thời gian."
+  ],
+  "love": "Sự kỳ vọng cao dễ khiến người bên cạnh cảm thấy họ luôn bị chấm điểm, ngay cả khi bạn không nói ra. Hãy ghi nhận một điều tốt người kia vừa làm trước khi nhắc điều chưa đạt, và để ý xem nét mặt họ đổi thế nào. Người độc thân nên xem lại danh sách tiêu chuẩn của mình, mục nào thật sự quan trọng, mục nào chỉ là thói quen.",
+  "career": "Bạn dễ sa vào việc đòi bản hoàn hảo trong khi hạn nộp đang đến gần. Chọn hai tiêu chí cốt lõi để giữ, còn lại chấp nhận ở mức đủ tốt, vì sản phẩm đúng hạn thường có giá trị hơn sản phẩm đẹp mà trễ. Với đồng nghiệp, hãy đặt kỳ vọng bằng lời rõ ràng thay vì mong họ đoán.",
+  "finance": "Kỳ vọng quá cao vào mục tiêu tiết kiệm có thể khiến bạn nản khi thấy con số chưa tới, rồi bỏ cuộc giữa chừng. Chia mục tiêu thành các mốc nhỏ và ghi nhận từng mốc sẽ bền hơn, chẳng hạn mỗi mốc một ô tick trong sổ. Một mức tiết kiệm vừa sức mà giữ được thường tốt hơn mức lý tưởng mà bỏ dở.",
+  "insight": "Có thể bạn đang đo mình bằng thước của một phiên bản lý tưởng chưa từng thật sự tồn tại. Người khác cũng bị đo bằng cái thước ấy, nên bạn mới thấy ai cũng thiếu một chút. Khi chiếc thước đổi thành một chiếc đèn pin, bạn sẽ thấy rõ điều đã làm được thay vì chỉ thấy điều chưa xong.",
+  "memorable_message": "Cây thước quá ngặt sẽ chỉ đo ra toàn thiếu sót.",
+  "advice": "Hôm nay chọn một việc và cố tình để nó ở mức tốt chứ không hoàn hảo, rồi đi tiếp sang việc khác. Giữa buổi chiều, nhìn lại và hỏi xem sự thiếu sót đó có thật sự ảnh hưởng ai không. Sau đó nói với một người một lời ghi nhận thật lòng, vì thói quen khen cũng cần được tập.",
+  "keywords": [
+   "kỳ vọng cao",
+   "cầu toàn",
+   "nới tay"
+  ]
+ },
+ {
+  "card_id": "king-of-wands",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Cơn nóng dễ bùng lên khi ai đó chạm vào sĩ diện của bạn, hãy nhớ bạn có quyền chờ rồi mới đáp.",
+  "card": {
+   "name": "Vua Gậy",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 3,
+   "career": 5,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Thắng một câu cãi là cách nhanh nhất để thua một mối quan hệ.",
+  "card_meaning": "Lửa là nguyên tố của Vua Gậy, và khi lá bài lật ngược, ngọn lửa ấy dễ bùng lên bất ngờ. Nhà vua trên ngai mang trong mình lòng tự trọng lớn, và khi ai đó chạm vào điều đó, cơn nóng nổi lên trước cả lý trí. Đây là sắc thái của sĩ diện bị thương, của phản ứng gay gắt, của lời nói thốt ra rồi mới thấy nặng. Lá ngược ở đây không bảo bạn phải dập tắt cảm xúc, chỉ nhắc rằng giữa cảm giác và lời nói vẫn còn một khoảng để chọn. Hôm nay nó đáng chú ý vì cơn nóng thường để lại hậu quả lâu hơn chính cơn nóng.",
+  "forecast": [
+   "Bạn có xu hướng phản ứng gay gắt khi cảm thấy quyền quyết định hay năng lực của mình bị đặt nghi vấn, nhất là trước mặt người khác.",
+   "Một quyết định đưa ra lúc đang nóng có thể cần chỉnh lại vào buổi chiều, khi đầu óc đã nguội hơn.",
+   "Có khả năng bạn nợ ai đó một lời xin lỗi và cảm giác muốn né nó khá mạnh."
+  ],
+  "love": "Sĩ diện có thể khiến một chuyện nhỏ thành một cuộc giằng co kéo dài. Nếu đang giận ai đó, hãy tách riêng chuyện cần giải quyết với chuyện ai đúng ai sai, và thử nói về cảm giác của mình thay vì lỗi của họ. Người độc thân đừng đáp trả bằng sự lạnh lùng khi ai đó từ chối khéo, một lời cảm ơn gọn đã là đủ lịch thiệp.",
+  "career": "Dễ nổi nóng khi bị chỉ ra lỗi trước đông người, và phản ứng đầu tiên thường không phải phản ứng tốt nhất. Hãy ghi lại ý kiến, đợi nguội rồi trả lời bằng bằng chứng và con số thay vì cảm xúc. Cẩn thận với những lời tuyên bố quyết liệt, vì sau đó khó rút lại mà không mất mặt.",
+  "finance": "Quyết định tiền bạc lúc đang tức, như chi để chứng tỏ hay từ bỏ một khoản vì giận, thường để lại tiếc nuối. Gác mọi giao dịch quan trọng sang lúc bình tĩnh hơn, và nếu có thể, đừng nhắn về chuyện tiền khi chưa uống nước hay ăn gì. Một khoảng chờ nhỏ thường rẻ hơn một hoá đơn của cơn giận.",
+  "insight": "Có thể bạn nóng không phải vì chuyện vừa xảy ra, mà vì nó chạm đúng vào nỗi sợ mình bị xem thường. Khi gọi tên nỗi sợ đó trong đầu, cơn nóng thường tự dịu bớt. Phần sĩ diện này cũng cho thấy bạn quan tâm đến việc mình được tôn trọng, một điều chính đáng, chỉ cần tìm cách bảo vệ nó mà không làm đau ai.",
+  "memorable_message": "Một lời xin lỗi đúng lúc nhẹ hơn rất nhiều so với một trận thắng lý lẽ.",
+  "advice": "Trước khi đáp một lời làm bạn khó chịu, hãy rời khỏi chỗ ngồi vài phút, đi rửa mặt hoặc ra hành lang hít thở. Quay lại với một câu ngắn thay vì cả bài phản biện. Nếu nợ ai đó một lời xin lỗi, hôm nay là lúc nhẹ nhàng nhất để nói, bằng một câu giản dị và không kèm điều kiện.",
+  "keywords": [
+   "nóng nảy",
+   "sĩ diện",
+   "bình tĩnh"
+  ]
+ }
+]

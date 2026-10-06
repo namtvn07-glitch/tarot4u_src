@@ -196,3 +196,26 @@ verify something calls it instead of hardcoding `npm run build`.
   tự: `git push origin <tag>` trước, `git push origin main` sau. Lỡ làm ngược
   rồi thì vào Vercel → Deployments → commit đó → ⋯ → Redeploy, **bỏ tick** "Use
   existing Build Cache" để `ignoreCommand` chạy lại.
+
+- **2026-10-04 — Callback prop không ổn định mà đưa vào deps của effect gọi API
+  = vòng lặp tải vô hạn.** `DailyScreen` nhận `onCreditsSync` là arrow tạo mới ở
+  mỗi lần render của trang cha; nó nằm trong deps của `loadState` → effect chạy lại
+  sau mỗi render, mà đồng bộ credits lại làm trang cha render. Chỉ lộ ra khi chạy
+  thật (typecheck/lint/build đều xanh). Giữ callback qua `useRef` để hàm tải ổn
+  định. Tương tự: phản hồi `GET` trạng thái chậm có thể về SAU lượt rút và ghi đè
+  kết quả — đánh số lần tải (`stateSeqRef`) và vô hiệu các lần cũ khi bắt đầu/kết thúc
+  một hành động.
+
+- **2026-10-04 — `npm ci` hỏng sẵn ở repo này (lock lệch `@sentry/webpack-plugin`
+  peer deps).** Cài bằng `npm install --no-package-lock --no-audit --no-fund` để
+  khỏi đụng `package-lock.json`. Script Node ở `scripts/` chạy trực tiếp TypeScript
+  được (Node 24 type stripping) nếu đặt đuôi `.mts` — `tsc` của repo (`include
+  **/*.ts`) bỏ qua `.mts`, và import file `src/*.ts` bằng đường dẫn tương đối có đuôi
+  `.ts`. Cần alias `@/` thì dùng `npx tsx` (đọc tsconfig paths).
+
+- **2026-10-04 — Việc đã trừ tiền phải chạy tới cùng độc lập với kết nối của client.**
+  `/api/reading/deep/personal` gói toàn bộ "sinh → kiểm tra → lưu → hoàn tiền khi lỗi"
+  vào MỘT promise không bao giờ ném lỗi và giữ nó sống bằng `after()` của Next; stream
+  chỉ là đường báo kết quả về. Kèm `replayOnly` (không bao giờ trừ tiền/gọi AI) để
+  client tải lại giữa chừng lấy lại kết quả theo `readingId`. Chưa kiểm chứng hành vi
+  này trên Vercel thật.

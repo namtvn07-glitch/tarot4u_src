@@ -10,7 +10,7 @@ import { CardDetailModal } from "@/components/CardDetailModal";
 import { ReadingDetailModal } from "@/components/ReadingDetailModal";
 
 import { HomeScreen } from "@/screens/HomeScreen";
-import { QuickReadScreen } from "@/screens/QuickReadScreen";
+import { DailyScreen } from "@/screens/DailyScreen";
 import { DeepReadScreen, clearDeepReadSession } from "@/screens/DeepReadScreen";
 import { LibraryScreen } from "@/screens/LibraryScreen";
 import { CardDetailScreen } from "@/screens/CardDetailScreen";
@@ -23,14 +23,12 @@ import type {
   TarotCard,
   UserProfile,
   ReadingHistoryItem,
-  ReadingRow,
-  DrawnCardRow,
   Topic,
 } from "@/types/tarot";
 import { useAuthUser } from "@/lib/useAuthUser";
 import { fromAuthModalLogin } from "@/lib/user-profile";
 import { createClient } from "@/lib/supabase/client";
-import { findCardById } from "@/lib/cards";
+import { HISTORY_LIST_LIMIT, HISTORY_LIST_SELECT, rowsToHistoryItems } from "@/lib/reading-history";
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<AppScreen>("home");
@@ -67,29 +65,13 @@ export default function App() {
           const supabase = createClient();
           const { data } = await supabase
             .from("readings")
-            .select("id, created_at, topic, question, cards_drawn, personal_body")
+            .select(HISTORY_LIST_SELECT)
             .eq("user_id", user.id)
-            .order("created_at", { ascending: false });
+            .order("created_at", { ascending: false })
+            .limit(HISTORY_LIST_LIMIT);
 
           if (data && data.length > 0) {
-            const formatted = data.map((r: ReadingRow) => ({
-              id: r.id,
-              date: new Date(r.created_at).toLocaleDateString("vi-VN"),
-              topic: r.topic ?? undefined,
-              topicVi: r.topic === "love" ? "Tình Yêu" : r.topic === "career" ? "Sự Nghiệp" : r.topic === "finance" ? "Tài Chính" : r.topic === "spiritual" ? "Tâm Linh" : "Tổng Quan",
-              question: r.question ?? undefined,
-              cards: (r.cards_drawn || []).map((c: DrawnCardRow, i: number) => {
-                const card = findCardById(c.card_id);
-                return {
-                  name: card?.name_en ?? c.card_id,
-                  nameVi: card?.name_vi ?? c.card_id,
-                  image: `/cards/${card?.image_filename ?? `${c.card_id}.jpg`}`,
-                  orientation: c.orientation || "upright",
-                  position: i === 0 ? "Quá Khứ" : i === 1 ? "Hiện Tại" : "Tương Lai",
-                };
-              }),
-              personalBody: r.personal_body ?? undefined,
-            }));
+            const formatted = rowsToHistoryItems(data);
             setLoadedReadings(formatted);
             setReadingsOwnerId(user.id);
           }
@@ -183,18 +165,18 @@ export default function App() {
       {/* Main Content View */}
       <main className="flex-grow flex flex-col relative z-10">
         {currentScreen === "home" && (
-          <HomeScreen
-            onNavigate={handleNavigate}
-            onSelectTopic={handleSelectTopicFromHome}
-            onViewCardDetail={handleNavigateToCardDetail}
-            onStartDeepReadWithInquiry={handleStartDeepReadWithInquiry}
-          />
+          <HomeScreen onNavigate={handleNavigate} onSelectTopic={handleSelectTopicFromHome} />
         )}
 
-        {currentScreen === "quick-read" && (
-          <QuickReadScreen
+        {currentScreen === "daily" && (
+          <DailyScreen
+            isAuthReady={!isAuthLoading}
+            userId={user.id ?? null}
+            isAnonymous={user.isAnonymous}
+            credits={user.credits}
             onNavigate={handleNavigate}
-            onStartDeepRead={() => handleNavigate("deep-read")}
+            onOpenTopUp={handleOpenPurchase}
+            onCreditsSync={(credits) => setUser((prev) => ({ ...prev, credits }))}
           />
         )}
 

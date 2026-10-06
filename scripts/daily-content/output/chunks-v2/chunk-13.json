@@ -1,0 +1,650 @@
+[
+ {
+  "card_id": "ace-of-cups",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Một cảm xúc mới đang mở ra trong bạn, nhẹ và thật, hãy cho nó chỗ để lớn lên.",
+  "card": {
+   "name": "Át Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 6,
+   "finance": 6,
+   "energy": 8
+  },
+  "headline": "Có thứ gì đó trong bạn vừa mềm ra, và đó là tin tốt.",
+  "card_meaning": "Át Cốc là lá mở đầu của bộ Cốc, bộ bài nói về cảm xúc và các mối quan hệ. Hình ảnh trung tâm là một bàn tay hiện ra từ đám mây, nâng một chiếc cốc đầy nước, và nước ấy tràn ra thành những dòng chảy xuống mặt hồ. Ở chiều xuôi, lá bài giống như một cảm xúc mới vừa được rót vào, chưa kịp có tên nhưng đã đủ ấm để nhận ra. Nó không đòi bạn phải hiểu hay phải làm gì ngay, chỉ mời bạn cho phép mình mềm đi một chút. Hôm nay lá này đáng chú ý vì bạn dễ nhận ra những rung động nhỏ mà thường ngày vẫn lướt qua.",
+  "forecast": [
+   "Bạn có xu hướng bị chạm vào bởi một điều rất nhỏ, như một bài hát cũ bật lên trong quán, một câu hỏi thăm bất chợt hay vệt nắng rơi trên bàn làm việc.",
+   "Một cuộc trò chuyện dễ xuất hiện vào quãng giữa ngày và mở ra cảm giác gần gũi mà bạn không hề lên kế hoạch, thường với người mà trước đó bạn ít để ý.",
+   "Năng lượng nghiêng về việc muốn bắt đầu lại một điều tử tế với chính mình, như ăn đúng bữa, uống đủ nước hoặc đi ngủ sớm hơn một chút."
+  ],
+  "love": "Người độc thân dễ để ý một ai đó vì sự ấm áp của họ chứ không phải vẻ ngoài, ví dụ người luôn nhớ tên mọi người hoặc cười thật khi nghe chuyện của bạn. Nếu đang tìm hiểu, cảm xúc có khả năng rõ ràng hơn nên bạn đỡ phải đoán già đoán non từng tin nhắn. Đang yêu thì một lời cảm ơn nói thật lòng có sức nặng hơn cả một món quà.",
+  "career": "Công việc không phải sân khấu chính hôm nay, nhưng bạn làm tốt hơn hẳn khi thấy việc mình làm có ý nghĩa với một ai đó cụ thể, như khách hàng, đồng đội hay người sẽ đọc báo cáo. Một lời ghi nhận nhỏ có thể xuất hiện và tiếp sức cho buổi chiều. Sinh viên nên học phần mình tò mò nhất trước, vì hứng thú đầu buổi sẽ kéo cả buổi học đi lên.",
+  "finance": "Dòng tiền ở mức bình thường, không có biến động lớn nào đáng lo. Bạn dễ chi cho thứ khiến mình thấy được quan tâm, như một bữa ăn ngon, một ly cà phê mời đồng nghiệp hoặc món quà nhỏ cho người thân. Những khoản này nhìn chung hợp lý, chỉ cần giữ trong mức mà ngày mai bạn không phải tiếc. Thử ghi nhanh số tiền đã tiêu cho cảm xúc hôm nay để thấy mình đang vui ở mức nào.",
+  "insight": "Có thể bạn đã quen sống bằng lý trí đến mức quên rằng mình cũng được phép cảm thấy mà không cần lý do kèm theo. Cảm xúc dễ chịu hôm nay không đòi bạn phải đặt tên hay phân tích ngay, nó chỉ cần được thừa nhận là đang ở đó. Đôi khi sự mềm lòng bị nhầm là yếu đuối, trong khi nó là dấu hiệu cho thấy bạn vẫn còn mở với điều tốt. Cho nó chỗ, bạn không mất gì cả.",
+  "memorable_message": "Trái tim không cần được thuyết phục, chỉ cần được mở cửa.",
+  "advice": "Dành năm phút vào lúc nghỉ trưa hoặc ngay sau khi tan làm để làm một việc chỉ vì nó khiến bạn thấy dễ chịu, như đi dạo quanh khu nhà, nghe trọn một bài hát hoặc pha một ly thật ngon. Để điện thoại sang một bên trong lúc đó. Nếu có ai làm bạn mềm lòng, cứ để họ biết một chút bằng một câu ngắn.",
+  "keywords": [
+   "cảm xúc mới",
+   "mở lòng",
+   "dịu dàng"
+  ]
+ },
+ {
+  "card_id": "ace-of-cups",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Lòng trắc ẩn là nguồn năng lượng chính hôm nay: bạn cho đi được nhiều và nhận lại cũng nhiều hơn mình nghĩ.",
+  "card": {
+   "name": "Át Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 7,
+   "finance": 6,
+   "energy": 7
+  },
+  "headline": "Cốc của bạn đang đầy, hãy để nó tràn sang người khác một chút.",
+  "card_meaning": "Trong lá Át Cốc, chiếc cốc không chỉ đầy mà còn tràn: năm dòng nước chảy ra từ nó xuống mặt hồ phía dưới, nơi những bông sen đang nở. Hình ảnh ấy nói rằng cảm xúc tốt đẹp là thứ sinh ra để chia đi chứ không để giữ khư khư. Ở chiều xuôi, lá bài nhấn vào lòng trắc ẩn, khả năng nhìn thấy người khác và muốn làm điều gì đó tử tế cho họ. Hôm nay lá này đáng chú ý vì bạn có nhiều chỗ để cho đi hơn mình tưởng, và người xung quanh dễ cảm nhận được điều đó.",
+  "forecast": [
+   "Có thể một người quen kể với bạn một chuyện đang khó khăn, vì bạn là người họ thấy an toàn để nói cùng, thường là lúc nghỉ giữa giờ hoặc qua một tin nhắn dài.",
+   "Bạn có xu hướng mềm lòng hơn với một người từng làm mình bực, một phần vì hôm nay bạn bớt muốn thắng.",
+   "Một lời tử tế bạn nói ra rất nhẹ nhàng có khả năng quay lại với bạn theo cách bất ngờ trước khi ngày kết thúc."
+  ],
+  "love": "Sự ân cần là điểm hút lớn nhất của bạn hôm nay, và nó hiện ra ở những chi tiết nhỏ như nhớ người kia thích uống gì. Đang yêu thì hãy hỏi người ấy một câu thật sự quan tâm, như hôm nay có gì làm bạn mệt không, thay vì hỏi cho có lệ. Người độc thân có thể thấy ai đó đáng mến qua cách họ đối xử với người phục vụ hay với một người xa lạ.",
+  "career": "Đồng nghiệp hoặc bạn học dễ tìm đến nhờ bạn giúp, và một chút kiên nhẫn của bạn có thể gỡ được một nút thắt nhỏ mà người khác loay hoay từ sáng. Làm việc nhóm thuận hơn khi bạn lắng nghe hết ý rồi mới góp ý. Người mới trong nhóm có thể cần một câu chỉ dẫn từ bạn. Chỉ cần nhớ đừng ôm hết phần việc của người khác, vì giúp là chỉ đường chứ không phải đi thay.",
+  "finance": "Bạn dễ muốn mời ai đó một bữa, góp tay giúp một người đang thiếu, hoặc ủng hộ một việc thiện nguyện nhỏ. Cho đi trong khả năng là điều tốt và thường làm lòng nhẹ hơn bạn nghĩ. Chỉ cần tính trước mức mình thấy thoải mái, ví dụ một con số cố định cho hôm nay, để lòng tốt không hóa thành áp lực khi cuối tháng đến. Khoản nào bạn cho đi mà vẫn thấy yên tâm thì đó là mức đúng.",
+  "insight": "Có thể bạn tưởng mình đang cần được cứu, trong khi thứ làm bạn nhẹ lòng nhất lại là giúp được một ai đó. Cảm giác mình có ích đôi khi làm lòng nhẹ nhanh hơn cả một ngày nghỉ, vì nó kéo sự chú ý ra khỏi vòng quẩn quanh của chính mình. Điều đó không có nghĩa là vấn đề của bạn nhỏ đi, chỉ là bạn nhìn nó với đôi mắt bớt chật hơn. Cho và nhận đang chung một dòng chảy.",
+  "memorable_message": "Lòng tốt là thứ hiếm hoi mà càng chia ra càng không hụt.",
+  "advice": "Gửi một tin nhắn hỏi thăm cho người đầu tiên hiện ra trong đầu bạn khi đọc dòng này, và viết riêng cho họ, đừng dùng câu chung chung. Làm ngay trong vài phút tới, trước khi lý do để trì hoãn kịp xuất hiện. Giữ lại một phần sức cho chính mình sau đó, vì cho đi không có nghĩa là cạn mình.",
+  "keywords": [
+   "trắc ẩn",
+   "cho đi",
+   "ân cần"
+  ]
+ },
+ {
+  "card_id": "ace-of-cups",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Trực giác hôm nay nói rất khẽ nhưng khá đúng, hãy chậm lại đủ để nghe nó trước khi lý trí chen vào.",
+  "card": {
+   "name": "Át Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 8,
+   "career": 6,
+   "finance": 6,
+   "energy": 8
+  },
+  "headline": "Tiếng nói nhỏ trong bụng bạn hôm nay đáng được nghe.",
+  "card_meaning": "Phía trên chiếc cốc trong lá Át Cốc có một con chim bồ câu đang ngậm chiếc bánh thánh nhỏ, và phía dưới là mặt nước phẳng điểm những bông sen. Nước từ xưa tượng trưng cho vùng sâu của tâm trí, nơi trực giác nằm yên chờ được nghe. Ở chiều xuôi, lá bài cho thấy kênh tiếp nhận ấy đang thông: bạn nhận ra điều gì đó trước khi kịp giải thích vì sao. Đây không phải phép màu mà là sự tinh tế của việc để ý mình đang cảm thấy gì. Hôm nay lá này đáng chú ý vì tiếng nói bên trong đang rõ hơn, chỉ cần bạn đủ yên để nghe.",
+  "forecast": [
+   "Bạn có xu hướng có một cảm giác khá rõ về việc nên hay không nên với một lời mời hoặc một lựa chọn, trước khi kịp liệt kê lý do.",
+   "Một giấc mơ, một câu nói tình cờ nghe được trên đường hoặc một hình ảnh lặp lại nhiều lần có thể gợi bạn nghĩ tới điều đang bị lờ đi.",
+   "Khi bạn ngồi yên vài phút, nhất là vào buổi tối, câu trả lời cho một chuyện đang lấn cấn dễ hiện ra rõ hơn bạn tưởng."
+  ],
+  "love": "Bạn đọc được không khí giữa hai người tốt hơn mọi khi, nên hãy tin vào cảm giác ấm hay lạnh mà mình nhận ra khi ở cạnh một người. Người độc thân có thể thấy mình bị hút về một người mà trên giấy tờ thì chưa hợp lắm, hoặc ngược lại thấy nhạt với một người rất hoàn hảo. Đang tìm hiểu thì tín hiệu nằm ở cảm giác sau cuộc trò chuyện, nhẹ hay nặng. Cứ quan sát, chưa cần quyết định gì.",
+  "career": "Với những quyết định chưa đủ dữ liệu, cảm giác của bạn hôm nay là một nguồn tham khảo hợp lý, ví dụ khi chọn nhận hay từ chối một việc mới. Hãy đối chiếu nó với số liệu hoặc ý kiến một người đáng tin thay vì bỏ qua hay chỉ nghe mỗi nó. Sinh viên dễ hiểu bài sâu hơn khi chịu ngồi yên vài phút và tự hỏi mình đã hiểu gì.",
+  "finance": "Bạn nhạy với cảm giác bất ổn về một khoản chi, nên hãy nhìn lại khoản nào đang làm mình lấn cấn dù chưa rõ vì sao, như một gói đăng ký tự gia hạn hoặc một khoản đã hứa góp. Chưa cần quyết điều gì lớn, chỉ cần ghi lại để xem xét sau khi đầu óc đã lắng. Cảm giác nhẹ nhõm khi nghĩ đến một khoản chi cũng là thông tin đáng lưu ý. Đây là lúc quan sát, chưa phải lúc hành động vội.",
+  "insight": "Có thể bạn đã biết câu trả lời từ lâu, chỉ là nó chưa đủ ồn ào để thắng những ý kiến xung quanh. Điều bạn thiếu không phải thông tin, mà là sự cho phép để tin vào mình. Nhiều khi ta xin thêm lời khuyên để người khác chịu trách nhiệm thay cho một điều ta đã cảm nhận được. Hôm nay hãy thử nghe mình trước, rồi mới mời thêm ý kiến vào.",
+  "memorable_message": "Câu trả lời thật hiếm khi hét lên, nó chỉ chờ bạn bớt ồn.",
+  "advice": "Tắt thông báo mười phút vào lúc yên nhất trong ngày, có thể là sau bữa tối, rồi ngồi yên và hỏi mình đúng một câu mà bạn đang né. Ghi lại điều đầu tiên hiện lên trong đầu, dù nghe vô lý. Sau đó mới để lý trí bình luận và đối chiếu. Làm theo thứ tự này giúp tiếng nói nhỏ không bị chen mất.",
+  "keywords": [
+   "trực giác",
+   "lắng nghe",
+   "tiếng nói bên trong"
+  ]
+ },
+ {
+  "card_id": "ace-of-cups",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Có cảm xúc đang bị nén sau câu tôi ổn, và hôm nay nó có xu hướng đòi một lối ra nhỏ.",
+  "card": {
+   "name": "Át Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Câu tôi ổn nói mãi cũng có ngày hết hạn.",
+  "card_meaning": "Khi Át Cốc nằm ngược, chiếc cốc như bị úp xuống hoặc đóng nắp: bàn tay vẫn đưa ra nhưng nước không còn chảy tự do. Hình ảnh ấy nói về cảm xúc có thật nhưng chưa có đường ra, bị nén lại sau những câu quen miệng như không sao đâu. Đây không phải là cảm xúc biến mất mà là cảm xúc bị giữ bên trong, nên đôi khi nó rò rỉ qua cáu gắt hoặc mệt mỏi vô cớ. Lá bài ở chiều này hỏi bạn đang tiết kiệm sự mềm yếu của mình vì ai. Hôm nay nó đáng chú ý vì áp lực bên trong có xu hướng tìm một lối thoát nhỏ.",
+  "forecast": [
+   "Bạn có xu hướng thấy bực hoặc buồn vì một chuyện nhỏ, như ai đó quên trả lời tin nhắn, trong khi nguyên nhân thật nằm ở một chuyện cũ hơn.",
+   "Một câu hỏi thăm của ai đó, nhất là người ít khi hỏi, có thể làm bạn nghẹn hơn mình tưởng.",
+   "Năng lượng nghiêng về việc muốn rút vào một góc, nhưng một cuộc nói chuyện thật lòng với người tin được có thể nhẹ hơn bạn lo."
+  ],
+  "love": "Bạn có thể đang giữ một điều chưa nói với người mình thương, và nó làm khoảng cách tăng lên dù không ai cãi nhau. Với người đang yêu, sự im lặng kiểu tôi ổn thường khiến người kia đoán sai. Nếu đang tìm hiểu, bạn dễ giữ khoảng cách để khỏi bị tổn thương. Người độc thân nên tự hỏi mình đang thật sự muốn ở một mình hay chỉ đã quen với việc đó. Một câu nói thật nhỏ cũng đủ mở cửa.",
+  "career": "Bạn làm việc vẫn được nhưng cảm giác hơi phẳng, như thiếu một phần hào hứng mà hôm trước còn có. Đừng ép mình tỏ ra vui ở chỗ làm, chỉ cần làm đủ phần cốt lõi và nghỉ đúng giờ. Tránh trút bực dọc lên đồng nghiệp trong một buổi họp, vì cơn bực ấy có thể không thuộc về họ. Sinh viên nên chọn môn dễ vào trước để lấy đà, rồi mới xử lý môn đang làm mình nặng đầu.",
+  "finance": "Tiền ở mức vừa phải, nhưng bạn dễ mua đồ để lấp một cảm giác khó gọi tên, như đặt thêm một món online lúc tối hay gọi đồ ăn dù chưa đói. Hỏi mình đây là thứ mình cần hay thứ mình muốn để thấy đỡ trống thì mọi thứ sẽ rõ hơn. Nếu là cái thứ hai, thử chờ đến khi cảm giác ấy lắng xuống rồi xem còn muốn không. Không cần tự trách, chỉ cần để ý.",
+  "insight": "Có thể bạn giỏi giữ cho mọi người yên ổn đến mức quên dành chỗ cho cảm xúc của chính mình. Điều bị nén lại không biến mất, nó chỉ chờ một lúc bạn mệt để lên tiếng bằng giọng khác, thường to hơn và ít đúng chỗ hơn. Việc nói ra không nhất thiết phải thành một cuộc đối thoại lớn, đôi khi chỉ cần một câu cho đúng người. Bạn có quyền chọn lúc nào và với ai.",
+  "memorable_message": "Cảm xúc bị nén lâu không biến mất, nó chỉ đổi giọng để quay lại.",
+  "advice": "Viết ra giấy ba câu bắt đầu bằng cụm Mình đang cảm thấy, không cần đẹp hay công bằng với ai cả. Làm việc này vào lúc yên nhất, có thể là buổi tối trước khi ngủ. Sau đó chọn một người đáng tin để kể một phần nhỏ trong đó, hoặc nếu chưa sẵn sàng thì chỉ cần giữ tờ giấy lại và đọc lại vào sáng mai.",
+  "keywords": [
+   "kìm nén",
+   "chưa nói ra",
+   "cần lối thoát"
+  ]
+ },
+ {
+  "card_id": "ace-of-cups",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Bạn đang rót ra nhiều hơn mức mình được nạp lại, hôm nay cần bù cho chính mình trước.",
+  "card": {
+   "name": "Át Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Không ai rót nước ra được từ một chiếc cốc đã cạn.",
+  "card_meaning": "Ở chiều ngược, Át Cốc là hình ảnh chiếc cốc nghiêng đi, nước đổ hết ra ngoài mà không còn gì để uống. Trong bộ bài này nước là cảm xúc, nên chiếc cốc cạn nói về lúc ta đã cho đi nhiều hơn mình được nạp lại. Lá bài không trách bạn kém cỏi, nó chỉ cho thấy pin cảm xúc đang ở mức thấp, kèm cảm giác trống rỗng. Đây là cách đọc thiên về cạn kiệt hơn là kìm nén. Hôm nay nó đáng chú ý vì những việc quen thuộc có thể bỗng nặng hơn bình thường, và đó là tín hiệu nên nạp lại chứ không phải nên cố thêm.",
+  "forecast": [
+   "Bạn có xu hướng thấy kiệt sức về cảm xúc dù lịch trình hôm nay không quá nặng, như mới đến giữa buổi sáng đã muốn nghỉ.",
+   "Một lời nhờ vả của ai đó có thể khiến bạn muốn từ chối nhưng vẫn gật đầu theo thói quen.",
+   "Một khoảnh khắc nghỉ ngắn, như một ly nước ấm hay năm phút không ai gọi tên bạn, có thể giúp nhiều hơn bạn nghĩ."
+  ],
+  "love": "Bạn có thể cảm thấy mình yêu nhiều hơn nhận, hoặc đơn giản là không còn sức để hiện diện trọn vẹn cạnh người thương, dù bạn vẫn muốn. Nói thẳng rằng bạn cần một buổi yên tĩnh sẽ tốt hơn là im lặng rồi hờn, vì người kia thường không đoán được. Người độc thân đừng ép mình đi hẹn hò khi pin xã hội đang thấp. Một cái ôm hay một bữa cơm không cần nói nhiều cũng là cách yêu chấp nhận được.",
+  "career": "Hiệu suất dễ tụt vì bạn đang gồng lên chăm sóc mọi người trong nhóm, từ trả lời tin nhắn đến nhận thêm việc không ai giao. Chọn một việc quan trọng nhất và để phần còn lại chờ, dù hơi áy náy. Sinh viên nên chia bài thành những khối ngắn khoảng nửa tiếng, nghỉ giữa các khối để đỡ ngợp. Nếu ai đó nhờ thêm, câu để mình xem lại rồi báo sau là một lời từ chối lịch sự.",
+  "finance": "Cảm giác trống có thể kéo bạn tới mua sắm giải tỏa hoặc gọi đồ ăn liên tục vì lúc mệt, tiện lợi nghe rất hấp dẫn. Một khoản nhỏ cho thứ thật sự nạp lại sức, như bữa ăn đàng hoàng hoặc một chỗ ngồi yên tĩnh, thì hợp lý. Còn các khoản khác nên chờ qua buổi tối, khi cơn mệt đã giảm. Dòng tiền chính vẫn ổn, vấn đề là quyết định lúc kiệt sức thường không phải quyết định tốt nhất.",
+  "insight": "Có thể bạn đã quen là người đáng tin cậy đến mức không ai hỏi bạn cần gì, kể cả chính bạn. Mệt không phải là yếu, chỉ là chiếc cốc cần được rót lại sau bao nhiêu lần chia cho người khác. Điều đáng chú ý là việc từ chối đôi khi có cảm giác như làm hỏng một hình ảnh mà ta tự dựng lên. Hình ảnh ấy không bắt bạn phải kiệt sức mới xứng đáng được quý mến.",
+  "memorable_message": "Cạn không phải lỗi của bạn, nhưng rót lại là việc của bạn.",
+  "advice": "Hủy hoặc dời một việc không bắt buộc trong chiều nay, rồi dùng quãng thời gian đó cho thứ thật sự nạp lại bạn, như ngủ trưa, đi bộ chậm hoặc ngồi một mình với ly trà. Nói với người liên quan bằng một câu ngắn và rõ. Nếu cảm giác trống kéo dài nhiều ngày liền, nói chuyện với người thân hoặc chuyên gia là một lựa chọn tốt.",
+  "keywords": [
+   "cạn sức",
+   "trống rỗng",
+   "nạp lại"
+  ]
+ },
+ {
+  "card_id": "ace-of-cups",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Cảm xúc hôm nay dễ lệch nhịp, to hơn hoặc nhỏ hơn chuyện thật, nên hãy đo lại trước khi phản ứng.",
+  "card": {
+   "name": "Át Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Nỗi buồn hôm nay có thể to hơn chuyện đang xảy ra.",
+  "card_meaning": "Khi Át Cốc nằm ngược, dòng nước đáng lẽ chảy đều từ chiếc cốc bỗng trở nên bất định: lúc tràn mạnh, lúc cạn khô. Lá bài mô tả những ngày cảm xúc không khớp với sự việc, buồn nhiều hơn lý do, hoặc tê đi trước một chuyện lẽ ra phải rung động. Ở góc đọc này, điều bị chặn là khả năng cảm xúc tự cân bằng, thường vì có một vết cũ chưa được xử lý nằm phía dưới. Lá bài không bảo bạn đang sai, nó chỉ nói thước đo bên trong đang lệch. Hôm nay nó đáng chú ý vì phản ứng đầu tiên của bạn có thể chưa phải phản ứng đáng tin nhất.",
+  "forecast": [
+   "Bạn có xu hướng phản ứng mạnh với một câu nói tưởng bình thường của đồng nghiệp hoặc người nhà, vì nó chạm vào chỗ chưa lành.",
+   "Một chuyện tình cảm còn dang dở, của mình hoặc của người quen, có thể được nhắc lại trong một cuộc nói chuyện tình cờ.",
+   "Tâm trạng lên xuống theo từng giờ, nên đừng lấy cảm xúc buổi sáng làm kết luận cho cả ngày."
+  ],
+  "love": "Nếu có ai từng để bạn dở dang, hôm nay ký ức dễ trở về và bạn muốn nhắn cho họ chỉ để xem họ còn nhớ không. Hãy hỏi mình muốn gì trước khi bấm gửi, vì mở lại một cuốn sách chưa viết xong có thể chỉ để đọc lại trang cũ. Người đang yêu đừng đòi người kia lấp hết chỗ trống trong mình, họ không thể và cũng không nên. Cảm xúc mạnh không có nghĩa là bạn nên làm gì đó với nó.",
+  "career": "Bạn làm được việc nhưng dễ nhạy cảm với góp ý, một câu nhận xét ngắn cũng có thể nghe như phê bình cả con người bạn. Hãy tách lời nhận xét về sản phẩm ra khỏi cảm giác về giá trị bản thân. Để phản hồi nguội vài phút rồi hãy trả lời, nhất là với email hoặc tin nhắn công việc. Sinh viên đừng bỏ buổi học chỉ vì tâm trạng, vì ngồi trong lớp cũng giúp ổn định nhịp ngày.",
+  "finance": "Cảm xúc lung lay dễ kéo theo chi tiêu bù đắp, như mua một thứ để tự thưởng sau một khoảnh khắc buồn, hoặc trả tiền cho thứ mình không dùng. Dòng tiền không có biến động lớn, nên hôm nay chỉ cần tránh mua sắm lúc đang buồn hoặc đang giận. Một mẹo nhỏ là bỏ món đồ vào giỏ và đợi đến sáng. Nếu sáng mai vẫn thấy cần, đó mới là nhu cầu của bạn chứ không phải của tâm trạng.",
+  "insight": "Có thể bạn đang chờ một người hay một điều gì đó đến lấp chỗ trống mà thực ra chỉ mình bạn mới chăm được. Không ai sinh ra để làm cốc nước của người khác, và khi ta đặt kỳ vọng ấy lên ai, họ dễ mệt còn ta vẫn khát. Cảm xúc lệch nhịp hôm nay có thể là một lời nhắc rằng có việc đang cần được nhìn tới. Nhìn tới thôi, chưa cần giải quyết cho xong.",
+  "memorable_message": "Đừng chờ ai đó rót đầy một chiếc cốc mà bạn chưa chịu rửa.",
+  "advice": "Gọi tên cảm xúc bằng một từ cụ thể, như tủi, nhớ hay giận, rồi hỏi xem nó muốn gì ở bạn. Làm việc này ngay khi thấy tâm trạng đổi, chẳng hạn trong lúc đi bộ hoặc ngồi trên xe. Chưa cần giải quyết hết, chỉ cần không để nó lái xe thay bạn trong những quyết định về tiền bạc, tin nhắn hay lời nói.",
+  "keywords": [
+   "lệch nhịp",
+   "dang dở",
+   "tự chăm mình"
+  ]
+ },
+ {
+  "card_id": "two-of-cups",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay hợp để gặp, nói và nghe: một sự đồng điệu hai chiều dễ xuất hiện quanh bạn.",
+  "card": {
+   "name": "Hai Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 9,
+   "career": 7,
+   "finance": 6,
+   "energy": 7
+  },
+  "headline": "Có những người mà chỉ cần ngồi cạnh là đã thấy hợp.",
+  "card_meaning": "Hai Cốc cho thấy hai người đứng đối diện nhau, mỗi người nâng một chiếc cốc và trao cho nhau, như một lời chúc hoặc một lời hứa nhẹ. Cốt lõi của lá là sự gặp nhau thật ở giữa: cả hai cùng đưa ra và cùng nhận về, không ai đứng cao hơn ai. Ở chiều xuôi, nó chỉ ra sự đồng điệu tự nhiên, thứ không phải cố gắng dựng lên mà tự có khi hai người ở cạnh nhau. Hôm nay lá này đáng chú ý vì bạn dễ nhận ra ai hợp nhịp với mình và ai thì chưa.",
+  "forecast": [
+   "Bạn có xu hướng bắt nhịp rất nhanh với một người mới quen hoặc một người lâu rồi chưa nói chuyện, như thể không có khoảng cách nào.",
+   "Một ánh nhìn hoặc câu đùa chung có thể làm bạn nhận ra mình và người kia giống nhau ở một điều bất ngờ.",
+   "Một lời mời đi cà phê hoặc đi dạo dễ xuất hiện vào cuối ngày, và nhận lời có vẻ là ý hay."
+  ],
+  "love": "Sự thu hút hôm nay mang tính hai chiều, nên người độc thân có khả năng gặp ai đó mà cả hai cùng chủ động, không bên nào phải đuổi theo. Nếu đang tìm hiểu, tín hiệu khá rõ, hãy đáp lại bằng điều gì đó cụ thể như một đề nghị gặp vào một khung giờ. Đang yêu thì dành chút thời gian không điện thoại cho nhau, dù chỉ ngồi cạnh nhau uống nước. Để ý xem cuộc trò chuyện của hai người có cân bằng không.",
+  "career": "Làm việc theo cặp hoặc nhóm nhỏ thuận hơn làm một mình, nhất là khi hai người có điểm mạnh khác nhau. Một cuộc trao đổi thẳng thắn có thể mở ra một hướng chung mà cả hai bên đều thấy có lợi. Nếu có việc đang bế tắc, thử rủ một người cùng nhìn vào nó thay vì ngồi vật lộn riêng. Sinh viên thử học nhóm hai người với một bạn cùng nhịp, vì giảng cho nhau nghe thường nhớ lâu hơn.",
+  "finance": "Tiền bạc ở mức ổn, và có thể xuất hiện cơ hội chia sẻ chi phí hoặc cùng làm một việc nhỏ có lợi cho cả hai, như mua chung một món hoặc chia tiền thuê. Hãy nói rõ phần của mỗi người ngay từ đầu để sau này khỏi lấn cấn. Một thỏa thuận minh bạch thường làm quan hệ bền hơn là một cái gật đầu cho qua. Hôm nay thuận cho kiểu chia sẻ nhỏ, chưa cần những cam kết lớn.",
+  "insight": "Có thể bạn quen nghĩ mối quan hệ tốt là thứ phải cố gắng thật nhiều, nên khi gặp điều dễ chịu lại sinh nghi ngờ rằng có gì đó không ổn. Đôi khi hợp nhau đơn giản là cảm giác không phải diễn, không phải canh từng câu. Sự dễ dàng ấy không làm tình cảm kém sâu, nó chỉ cho thấy hai người đang đi chung hướng. Hôm nay thử tin vào cảm giác thoải mái đó thêm một chút.",
+  "memorable_message": "Hợp nhau nghĩa là hai người cùng bước mà không ai phải kéo ai.",
+  "advice": "Chủ động nói với một người một điều bạn quý ở họ, ngắn gọn và cụ thể, như cách họ lắng nghe hoặc một việc họ đã làm gần đây. Gửi qua tin nhắn hay nói trực tiếp đều được, miễn là vào hôm nay. Rồi xem họ đáp lại thế nào, vì kết nối thật cần cả hai bên.",
+  "keywords": [
+   "đồng điệu",
+   "hai chiều",
+   "kết nối"
+  ]
+ },
+ {
+  "card_id": "two-of-cups",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Hôm nay thuận cho thỏa thuận và hợp tác, miễn là cả hai bên đều thấy mình được tôn trọng.",
+  "card": {
+   "name": "Hai Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 8,
+   "finance": 7,
+   "energy": 7
+  },
+  "headline": "Thỏa thuận tốt là khi hai bên cùng rời bàn với nụ cười thật.",
+  "card_meaning": "Trong lá Hai Cốc có một biểu tượng ít người để ý: phía trên hai chiếc cốc là cây trượng có hai con rắn quấn quanh, đầu một con sư tử có cánh. Hình ảnh này gợi sự giao ước, hai lực khác nhau được đặt cạnh nhau để cùng tạo ra thứ lớn hơn từng bên. Vì thế lá bài thường được hiểu là đối tác, thỏa thuận và sự tôn trọng ngang hàng chứ không chỉ là tình yêu lãng mạn. Ở chiều xuôi, sự cân bằng giữa cho và nhận đang giữ vững. Hôm nay lá này đáng chú ý vì nó nhắm vào những lời hứa và phân công giữa người với người.",
+  "forecast": [
+   "Có thể bạn nhận được lời đề nghị cùng làm một việc, với một người có điểm mạnh bù đúng chỗ yếu của bạn.",
+   "Một cuộc đàm phán hoặc bàn bạc, dù chuyện công việc hay chuyện nhà, có xu hướng đi êm hơn dự kiến.",
+   "Một mối quan hệ công việc có khả năng chuyển từ xã giao sang thân tình hơn sau một buổi trao đổi."
+  ],
+  "love": "Bạn và người ấy dễ tìm được điểm giữa trong một chuyện mà hai người từng nghĩ khác nhau, như cách chia thời gian hay kế hoạch cho dịp sắp tới. Người đang tìm hiểu có thể bàn thẳng về kỳ vọng mà không thấy ngại. Người độc thân nên để ý tới người có cùng mục tiêu sống với mình thay vì chỉ cùng sở thích. Hôm nay sự tôn trọng là điều hấp dẫn nhất, hơn cả những lời ngọt.",
+  "career": "Đây là ngày tốt để chốt phân công, bắt tay hợp tác hoặc nhờ một người cố vấn góp ý cho hướng đi. Bạn lắng nghe tốt nên dễ tìm ra cách làm vừa lòng đôi bên, kể cả khi lúc đầu hai bên đứng khác nhau. Nếu đang cân nhắc nhận một lời mời cộng tác, hôm nay là lúc hỏi cho rõ vai trò của từng người. Chỉ cần nhớ ghi lại những gì đã thỏa thuận bằng chữ.",
+  "finance": "Những khoản chung như tiền nhà, chi phí nhóm hay phần chia với đối tác có xu hướng được giải quyết gọn. Đừng để thiện chí thay cho con số cụ thể, vì thân đến đâu thì sự mơ hồ cũng dễ sinh hiểu lầm. Viết ra chính là cách giữ tình cảm: một dòng ghi chú trong điện thoại về ai trả gì, bao nhiêu, đến khi nào. Không cần làm nghiêm trọng, chỉ cần rõ ràng.",
+  "insight": "Có thể bạn hay nghĩ muốn được việc thì phải tự làm, vì nhờ người là phiền. Hôm nay cho thấy có người sẵn sàng đứng cùng bạn, nếu bạn chịu đưa tay ra trước. Việc không dựa vào ai đôi khi là một cách tự bảo vệ hơn là một sức mạnh thật. Chia việc không làm bạn kém đi, nó làm kết quả đi xa hơn mức một người có thể mang.",
+  "memorable_message": "Hai người đúng nhịp đi được xa hơn một người chạy nhanh.",
+  "advice": "Chọn một việc đang làm một mình và hỏi xem ai đó có muốn cùng làm không, tốt nhất là hỏi vào buổi sáng khi lịch còn trống. Trước khi gật đầu, nói rõ phần của mỗi bên, thời hạn và cách liên lạc để khỏi hiểu lầm về sau. Một cuộc trao đổi mười phút lúc đầu đỡ được nhiều ngày ấm ức phía sau.",
+  "keywords": [
+   "hợp tác",
+   "thỏa thuận",
+   "cùng thắng"
+  ]
+ },
+ {
+  "card_id": "two-of-cups",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Một mối quan hệ quen thuộc có cơ hội ấm lại hôm nay, nếu bạn chịu lắng nghe trước khi giải thích.",
+  "card": {
+   "name": "Hai Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 7,
+   "love": 8,
+   "career": 7,
+   "finance": 6,
+   "energy": 7
+  },
+  "headline": "Được hiểu đôi khi chỉ cần có người nghe hết câu.",
+  "card_meaning": "Ở một góc nhìn khác, Hai Cốc là khoảnh khắc yên tĩnh của hai người đứng đối diện nhau, và phía sau họ thường có ngôi nhà nhỏ trên đồi, thứ gợi sự gần gũi và tổ ấm. Điều lá bài nhấn mạnh là sự lắng nghe: để trao cốc cho nhau thì phải nhìn nhau trước. Ở chiều xuôi, nó nói về những mối quan hệ quen thuộc có thể ấm lại khi hai bên cùng hạ tốc độ. Đây có thể là bạn đời, người thân, hay một người bạn lâu ngày. Hôm nay lá này đáng chú ý vì một lời xin lỗi hay một cái nghe trọn vẹn có thể đổi cả không khí.",
+  "forecast": [
+   "Một xích mích nhỏ gần đây có xu hướng được gỡ bằng một câu xin lỗi giản dị, nói ngay lúc hai bên còn bình tĩnh.",
+   "Bạn dễ nhận ra một người thân đang âm thầm cố gắng vì mình, qua một chi tiết nhỏ như phần đồ ăn được để lại.",
+   "Một bữa ăn hay cuộc gọi bình thường có thể trở thành khoảnh khắc đáng nhớ hơn bạn dự đoán."
+  ],
+  "love": "Hôm nay hai người dễ đồng bộ nếu cùng chậm lại, ví dụ nấu một bữa, rửa chén cùng nhau hoặc đi dạo sau bữa tối. Hãy nói về điều bạn thương ở nhau thay vì điều cần sửa, ít nhất trong một cuộc trò chuyện. Người độc thân có thể thấy mình quý một người bạn lâu năm theo cách khác trước. Nếu vừa có chút giận nhau, người nói nhỏ nhẹ trước thường là người gỡ được cả hai.",
+  "career": "Quan hệ với đồng nghiệp hoặc quản lý dễ cải thiện khi bạn hỏi trước rồi mới đề xuất, ví dụ hỏi họ đang ưu tiên gì trước khi nêu yêu cầu của mình. Một buổi trao đổi một đối một mang lại nhiều hơn một cuộc họp lớn. Nếu có chút căng thẳng với ai trong nhóm, hôm nay là lúc mở lời nhẹ nhàng. Sinh viên có thể nhờ bạn học giảng lại điều mình chưa hiểu, và đổi lại giảng cho họ một phần khác.",
+  "finance": "Tiền bạc ổn và ít biến động. Nếu đang sống chung với ai đó, như người yêu, bạn cùng phòng hay gia đình, đây là lúc nhẹ nhàng nói về các khoản chung mà không có không khí kết tội. Mở đầu bằng câu mình cùng xem lại cho gọn nhé nghe dễ chịu hơn câu sao dạo này chi nhiều thế. Chuyện tiền được nói với giọng ấm thường ít trở thành chuyện giận.",
+  "insight": "Có thể bạn tưởng hòa giải là phải có người thắng người thua, nên cứ chờ người kia lên tiếng trước. Hôm nay cho thấy bước nửa đường của bạn nhẹ hơn bạn nghĩ, và người kia có thể đang chờ đúng tín hiệu đó. Chờ lâu thường làm một chuyện nhỏ lớn thêm, vì mỗi bên tự kể phần mình trong đầu. Chủ động không phải là nhận thua, đó chỉ là chọn quan hệ quan trọng hơn lý lẽ.",
+  "memorable_message": "Câu xin lỗi tốt nhất thường ngắn hơn phần lý do bạn đã chuẩn bị.",
+  "advice": "Chọn một người mà gần đây bạn chỉ nói chuyện qua loa, và dành mười phút nghe họ thật sự, tốt nhất là gọi hoặc gặp thay vì nhắn. Đừng chen ngang để giải thích, hãy hỏi thêm một câu nữa về điều họ vừa nói. Nếu có lời xin lỗi cần nói, hãy nói gọn, không kèm phần biện hộ phía sau.",
+  "keywords": [
+   "hòa hợp",
+   "lắng nghe",
+   "làm lành"
+  ]
+ },
+ {
+  "card_id": "two-of-cups",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Cán cân giữa cho và nhận đang lệch, hôm nay là lúc nhìn thẳng vào phần của mỗi bên.",
+  "card": {
+   "name": "Hai Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Mối quan hệ không nên là một bên chạy, một bên đứng.",
+  "card_meaning": "Khi Hai Cốc nằm ngược, hai chiếc cốc trao đổi giữa hai người không còn ngang nhau: một chiếc đầy, một chiếc vơi, hoặc một bên cứ đưa mà bên kia chỉ cầm. Lá bài mang hình ảnh một cán cân đang nghiêng. Chiều ngược không nhất thiết nói về chia tay, mà nói về sự mất cân bằng chưa ai gọi tên, như ai nhắn trước nhiều hơn, ai nhường nhiều hơn. Đây là bóng của lá xuôi: kết nối vẫn còn nhưng không còn hai chiều. Hôm nay nó đáng chú ý vì bạn dễ nhìn thẳng vào phần của mỗi bên hơn bình thường.",
+  "forecast": [
+   "Bạn có xu hướng nhận ra mình luôn là người nhắn trước, hẹn trước và nhường trước trong một mối quan hệ.",
+   "Một chuyện nhỏ như cuộc hẹn bị dời vào phút chót có thể lật ra cảm giác bị xem nhẹ.",
+   "Có thể một người đang mong ở bạn nhiều hơn mức họ chịu đáp lại, và bạn là người đầu tiên thấy điều đó."
+  ],
+  "love": "Nếu bạn luôn là người chủ động thì hôm nay dễ thấy mệt, như đang kéo một cỗ xe có hai người ngồi. Đừng im lặng để thử lòng, hãy nói một yêu cầu cụ thể, như tối nay cùng gọi điện nhé, rồi xem phản hồi. Người độc thân nên để ý ai chỉ nhắn khi cần, và ai nhắn cả khi không cần gì. Mối quan hệ khỏe là nơi cả hai cùng bỏ công, không phải nơi một người giữ lửa.",
+  "career": "Trong công việc, bạn có thể đang gánh phần của người khác mà không ai gọi tên, như nhắc deadline hộ hoặc sửa lỗi của đồng nghiệp. Ghi lại việc mình đã làm và nói rõ ranh giới một cách nhẹ nhàng, ví dụ phần này bạn lo, phần kia nhờ bạn. Một dự án nhóm có xu hướng lệch phần nếu không chia lại ngay từ đầu. Sinh viên làm bài nhóm nên viết tên người phụ trách cạnh từng mục.",
+  "finance": "Chuyện tiền bạc trong quan hệ, như ai trả nhiều hơn hay ai hay quên, có thể nổi lên trong một khoảnh khắc nhỏ như lúc tính tiền. Gọi tên con số thẳng thắn vẫn dễ chịu hơn là để nó tích tụ trong lòng thành một món nợ cảm xúc. Hôm nay không cần đòi lại ngay, chỉ cần ghi nhận và chọn lúc thích hợp để nói. Một thỏa thuận chia đều hoặc theo tỷ lệ rõ ràng thường làm cả hai nhẹ hơn.",
+  "insight": "Có thể bạn không giận vì bị thiệt, mà vì chưa bao giờ nói ra rằng mình cần được đáp lại. Người kia có thể không biết nếu bạn chưa cho họ biết, và sự chịu đựng im lặng đôi khi bị hiểu nhầm là mọi thứ đều ổn. Cũng có thể bạn quen làm người cho đi để tránh cảm giác bị từ chối. Nhận ra mình cần gì là bước đầu để khoảng cách ấy có cơ hội được lấp.",
+  "memorable_message": "Yêu một chiều lâu ngày sẽ thành đi bộ một mình, dù đang đi cạnh ai đó.",
+  "advice": "Chọn một điều bạn vẫn âm thầm làm hộ người kia, như nhắn nhắc lịch hoặc chuẩn bị mọi thứ, và thử dừng một lần để xem điều gì xảy ra. Hoặc nói thẳng với họ trong một khoảnh khắc yên ắng, mở đầu bằng cảm giác của mình thay vì lỗi của họ. Sự thật thường dễ hơn sự ấm ức.",
+  "keywords": [
+   "lệch cán cân",
+   "cho và nhận",
+   "ranh giới"
+  ]
+ },
+ {
+  "card_id": "two-of-cups",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Một chút nghi ngờ đang len vào quan hệ gần gũi, hôm nay hợp để hỏi thẳng thay vì tự suy diễn.",
+  "card": {
+   "name": "Hai Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 4,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Đừng viết hết kịch bản của người khác trong đầu.",
+  "card_meaning": "Ở chiều ngược, hai chiếc cốc của lá Hai Cốc như chưa kịp chạm nhau: hai người đứng đối diện nhưng ánh mắt nhìn đi nơi khác. Điều bị chặn ở đây là lòng tin, thứ làm nên sợi dây giữa hai chiếc cốc. Lá bài này thường xuất hiện khi khoảng cách trong một mối quan hệ rộng ra vì giả định, chứ chưa hẳn vì sự thật. Nó mời bạn phân biệt giữa điều đã xảy ra và điều đầu óc tự thêm vào. Hôm nay nó đáng chú ý vì trí tưởng tượng có xu hướng chạy nhanh hơn dữ kiện, và một câu hỏi thẳng có thể rút ngắn khoảng cách đó.",
+  "forecast": [
+   "Bạn có xu hướng đọc đi đọc lại một tin nhắn để tìm nghĩa ẩn, nhất là tin ngắn hoặc chỉ có một biểu tượng.",
+   "Một người im lặng lâu hơn thường lệ có thể khiến bạn tự dựng lên đủ loại lý do trong đầu.",
+   "Một câu hỏi thẳng vào buổi tối có thể xua tan nhiều giả định mà bạn đã giữ từ lâu."
+  ],
+  "love": "Sự thiếu tin tưởng có thể đến từ vết cũ chứ không phải từ người hiện tại, nên thử phân biệt đâu là phản ứng với họ, đâu là phản ứng với quá khứ. Hỏi một câu rõ ràng, như hôm nay bạn có ổn không, sẽ tốt hơn là thử lòng bằng im lặng. Người độc thân dễ đề phòng hơn bình thường, nên hãy cho người mới một cơ hội công bằng. Tin vừa đủ chứ chưa cần tin hết, vẫn là một cách mở cửa.",
+  "career": "Bạn có thể nghi ngờ ý đồ của một đồng nghiệp hoặc một lời góp ý nghe hơi lạ tai. Hãy kiểm chứng bằng việc cụ thể, như hỏi trực tiếp hoặc xem lại email gốc, trước khi kết luận. Với một thỏa thuận hợp tác, đọc kỹ điều khoản là hợp lý chứ không phải đa nghi. Sinh viên làm nhóm nên ghi lại phân công bằng tin nhắn để không ai phải nhớ theo cảm giác.",
+  "finance": "Nên rà lại các khoản chung hoặc chuyện cho vay mượn nếu thấy lấn cấn, nhất là khoản đã lâu chưa ai nhắc đến. Xác nhận bằng tin nhắn hay văn bản là cách bảo vệ cả hai bên, không phải dấu hiệu không tin nhau. Một câu như mình ghi lại cho khỏi quên nhé thường được đón nhận dễ hơn bạn tưởng. Hôm nay là lúc làm rõ, chưa phải lúc đòi hay cho thêm.",
+  "insight": "Có thể sự nghi ngờ hôm nay là cách bạn tự bảo vệ sau một lần thất vọng. Nó hợp lý, nhưng đừng để quá khứ viết kịch bản cho một ngày mới. Khi thiếu thông tin, đầu óc thường lấp chỗ trống bằng điều tệ nhất vì đó là điều nó muốn chuẩn bị trước. Việc bạn cần làm không phải bỏ cảnh giác, mà là kiểm tra xem cảnh giác ấy đang nhắm vào sự thật hay vào ký ức.",
+  "memorable_message": "Hỏi một câu còn rẻ hơn giận nhau cả tuần.",
+  "advice": "Viết ra điều bạn đang nghi, rồi tách thành hai cột là điều đã xảy ra và điều mình đoán. Làm trong khoảng mười phút, không cần ai thấy. Chỉ mang phần đã xảy ra đi nói chuyện với người kia, dùng giọng hỏi chứ không phải giọng buộc tội. Nếu cột thứ hai dài hơn cột thứ nhất nhiều, đó là tín hiệu để hỏi trước khi kết luận.",
+  "keywords": [
+   "nghi ngờ",
+   "tin tưởng",
+   "hỏi thẳng"
+  ]
+ },
+ {
+  "card_id": "two-of-cups",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Khoảng cách đang rộng ra giữa bạn và một người, hôm nay hợp để gọi tên nó thay vì giả vờ không thấy.",
+  "card": {
+   "name": "Hai Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Khoảng cách không ồn ào vẫn là khoảng cách.",
+  "card_meaning": "Hai Cốc ngược nói về hai người từng đứng sát nhau nay đang lùi lại một bước, cốc vẫn cầm trên tay nhưng không còn đưa ra. Lá bài này không ồn ào như một vụ cãi nhau lớn, mà giống một sự nhạt dần: cuộc nói chuyện ngắn đi, ánh mắt ít chạm hơn. Nó nhắc rằng không phải mọi sự chia xa đều có một khoảnh khắc đổ vỡ, đôi khi chỉ là hai đường dần tách ra. Ở chiều này, năng lượng của lá là sự thừa nhận hơn là kịch tính. Hôm nay nó đáng chú ý vì bạn có thể đủ tỉnh để gọi tên điều mình đã cảm thấy từ lâu.",
+  "forecast": [
+   "Bạn có xu hướng nhận ra một cuộc trò chuyện dạo này ngắn hơn và nhạt hơn trước, dù chưa ai cố ý.",
+   "Một chuyện chưa nói rõ giữa hai người có thể trở lại bề mặt vào một lúc không báo trước.",
+   "Có thể có một quyết định lùi lại hoặc giữ khoảng cách mà bạn thấy vừa buồn vừa nhẹ."
+  ],
+  "love": "Hai người có thể đang đi cùng hướng nhưng khác nhịp, và cả hai đều đang chờ đối phương chạm vào trước. Hãy thử nói về cảm giác xa nhau mà không đổ lỗi, bằng một câu như dạo này mình thấy hơi xa nhau. Nếu một mối quan hệ đã khép lại, hôm nay bạn có thể thấy mình bớt vương vấn hơn trước, và đó không phải điều đáng áy náy. Người độc thân đừng vội lấp chỗ trống bằng người đầu tiên xuất hiện.",
+  "career": "Quan hệ trong nhóm có thể lỏng ra, hoặc một người cộng sự có vẻ không còn cùng hướng với bạn như trước. Đừng ngại trao đổi lại vai trò và kỳ vọng, vì để mơ hồ lâu thường tốn công hơn nói thẳng. Một cuộc nói chuyện ngắn một đối một có thể làm rõ nhiều điều. Sinh viên dễ lơ là nhóm học nếu không còn ai giữ sợi dây kết nối, nên hãy là người nhắn một tin chốt lịch.",
+  "finance": "Các khoản chung hoặc chuyện phụ thuộc lẫn nhau, như tiền thuê chung hay một khoản góp, có thể cần bàn lại nếu quan hệ đang đổi hướng. Tách bạch rõ ràng giúp mối quan hệ khỏi bị cuốn vào chuyện tiền. Hôm nay chỉ cần liệt kê ra giấy những khoản đang chia chung, chưa cần quyết gì. Nhìn thấy cả danh sách thường làm bạn đỡ lo hơn là cứ mang nó trong đầu.",
+  "insight": "Có thể bạn không buồn vì mất một người, mà vì phải chấp nhận rằng mọi thứ đã khác từ lâu. Đôi khi chia xa là điều trung thực nhất mà hai bên làm được cho nhau, thay vì cứ giữ một hình thức đã rỗng. Nhưng cũng có thể, khi nói ra, bạn phát hiện đối phương cũng đang cảm thấy y như vậy và còn muốn thử lại. Hôm nay thông tin còn thiếu, nên chưa cần kết luận.",
+  "memorable_message": "Có những mối quan hệ không đổ vỡ, chúng chỉ nhạt dần cho đến khi bạn chịu nhìn.",
+  "advice": "Chọn một mối quan hệ đang nhạt và quyết định rõ bạn muốn vun lại hay để nó lùi xuống nhẹ nhàng. Dành mười phút ghi ra lý do cho lựa chọn đó. Dù chọn gì, hãy làm bằng một cuộc nói chuyện tử tế, trực tiếp hoặc qua điện thoại, chứ không phải bằng việc biến mất dần.",
+  "keywords": [
+   "xa dần",
+   "gọi tên",
+   "buông nhẹ"
+  ]
+ },
+ {
+  "card_id": "three-of-cups",
+  "orientation": "upright",
+  "variant": 1,
+  "summary": "Hôm nay đáng ăn mừng, kể cả chuyện nhỏ, và bạn có xu hướng được kéo vào một khoảnh khắc vui chung.",
+  "card": {
+   "name": "Ba Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 8,
+   "career": 7,
+   "finance": 6,
+   "energy": 8
+  },
+  "headline": "Chuyện nhỏ cũng xứng đáng một tiếng cụng ly.",
+  "card_meaning": "Ba Cốc vẽ ba người phụ nữ khiêu vũ giữa mùa gặt, cùng giơ cao cốc, dưới chân là những quả bí và chùm nho chín. Hình ảnh ấy là một lời cụng ly: sau một giai đoạn làm việc, ta dừng lại để mừng chung. Ý nghĩa cốt lõi của lá là niềm vui được chia, không cần lý do lớn, chỉ cần có người cùng đứng đó. Ở chiều xuôi, sự ăn mừng ấy trọn vẹn và tự nhiên. Hôm nay lá này đáng chú ý vì nó nhắc rằng chặng đường đã đi cũng xứng đáng được nhìn lại, không chỉ đích đến.",
+  "forecast": [
+   "Một tin vui, của bạn hoặc của người quanh bạn, có khả năng xuất hiện và biến thành lý do để tụ họp.",
+   "Bạn dễ nhận một lời mời đi chơi, ăn uống hoặc dự một buổi gặp nhỏ vào cuối ngày.",
+   "Một việc bạn làm xong từ trước mà chưa ai ghi nhận có thể được nhắc tới trước mặt người khác."
+  ],
+  "love": "Hôm nay hợp để hẹn hò ở nơi đông vui, như quán ăn rộn ràng hoặc một buổi cà phê nhóm, thay vì chỗ quá nghiêm túc. Người độc thân có xu hướng gặp ai đó qua nhóm bạn hoặc một buổi tụ tập, và quen qua người quen thường nhẹ nhàng hơn. Đang yêu thì cùng nhau ăn mừng một chuyện nhỏ, như đã qua một đợt bận hay hoàn thành một việc. Để ý xem người ấy có hòa vào nhóm bạn của bạn không.",
+  "career": "Không khí làm việc nhẹ và thân thiện hơn, hợp để chia sẻ một thành quả hoặc cảm ơn đồng đội về phần việc của họ. Một buổi họp có thể kết thúc bằng tiếng cười, và đôi khi chính khoảnh khắc đó làm kế hoạch trơn tru hơn. Sinh viên có thể ôn nhóm cho vui mà vẫn thu được kiến thức, nhất là khi mỗi người phụ trách một phần. Hôm nay hãy nói thành lời một lời cảm ơn mà bạn thường để trong đầu.",
+  "finance": "Bạn dễ chi cho ăn uống và gặp gỡ, nên đặt một mức vui vẻ trước khi ra khỏi nhà, như một con số bạn thấy thoải mái trong ví. Niềm vui không cần đắt, chỉ cần có người cùng chia, và một bữa ăn đơn giản với người đúng thường nhớ lâu hơn một bữa sang với người lạ. Nếu có ai muốn chia đều, hãy nói rõ ngay từ đầu bữa. Dòng tiền ổn, chỉ cần để ý các khoản nhỏ cộng dồn.",
+  "insight": "Có thể bạn quen bỏ qua những chiến thắng nhỏ vì mải nhìn mục tiêu lớn hơn, và cứ coi việc đã làm xong là điều hiển nhiên. Việc không ăn mừng khiến đường dài nặng hơn mức cần thiết, vì cái đầu chỉ nhìn thấy phần còn thiếu. Một cụng ly nhỏ không làm bạn kém nghiêm túc, nó giúp bạn nhớ vì sao mình đang đi. Hôm nay thử để ý xem mình đã làm được những gì mà chưa ai nhắc.",
+  "memorable_message": "Không ăn mừng chặng đường thì cả hành trình chỉ còn là danh sách việc phải làm.",
+  "advice": "Chọn một điều bạn đã làm tốt gần đây và làm một nghi thức nhỏ cho nó, như mời ai ly trà vào giờ nghỉ chiều hoặc kể với một người thân vào bữa tối. Kể thật chứ đừng nói quá nhẹ về chính mình. Chỉ cần vài phút nhưng làm ngay trong hôm nay, đừng để dành cho dịp lớn hơn.",
+  "keywords": [
+   "ăn mừng",
+   "niềm vui chung",
+   "tụ họp"
+  ]
+ },
+ {
+  "card_id": "three-of-cups",
+  "orientation": "upright",
+  "variant": 2,
+  "summary": "Những người bạn thật là nguồn năng lượng lớn nhất hôm nay, hãy tựa vào họ nhiều hơn một chút.",
+  "card": {
+   "name": "Ba Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 7,
+   "finance": 6,
+   "energy": 8
+  },
+  "headline": "Bạn không cần tự gánh cả ngày.",
+  "card_meaning": "Trong Ba Cốc, ba người đứng sát nhau thành một vòng tròn, tay nâng cốc lên ngang nhau, không ai đứng trước hay đứng sau. Vòng tròn ấy là hình ảnh của cộng đồng: nơi bạn không cần là người mạnh nhất để được ở trong. Ở bộ Cốc, lá này nói về tình bạn và sự nâng đỡ, những người cho bạn cảm giác thuộc về. Ở chiều xuôi, mạng lưới ấy đang hoạt động tốt, và sự giúp đỡ đến dễ dàng khi bạn mở lời. Hôm nay lá này đáng chú ý vì nó chỉ ra một nguồn lực nằm ngay quanh bạn.",
+  "forecast": [
+   "Một tin nhắn nhóm hoặc cuộc gọi từ bạn bè có xu hướng đến đúng lúc bạn cần một lời hỏi han.",
+   "Bạn có thể nhận ra mình có nhiều người ủng hộ hơn mình nghĩ, qua một lời khen hay một lời đề nghị giúp.",
+   "Một người bạn cũ có thể xuất hiện lại, dễ chịu như chưa từng xa."
+  ],
+  "love": "Tình cảm hôm nay được nuôi nhờ cộng đồng quanh bạn, vì những người thân thiết thường nhìn ra điều ta bỏ sót. Người độc thân nên đi cùng bạn bè, vì có thể có ai đó được giới thiệu, hoặc một người mới sẽ quen qua một người bạn chung. Đang yêu thì thử đưa nhau vào chuyện của nhóm bạn, một buổi ăn nhẹ cũng đủ. Hỏi bạn thân nghĩ gì về một chuyện tình cảm có thể cho bạn một góc nhìn mới.",
+  "career": "Làm việc nhóm là thế mạnh hôm nay: bạn có thể chia việc, xin giúp hoặc hỏi ý kiến người từng làm qua việc tương tự. Mạng lưới quan hệ của bạn có khả năng đem lại một thông tin hữu ích, như một cơ hội hay một mẹo làm nhanh. Đừng ngại hỏi nhờ, vì phần lớn mọi người vui khi được hỏi. Sinh viên nên rủ bạn cùng lớp đối chiếu ghi chép, mỗi người thường bắt được một ý mà người kia bỏ sót.",
+  "finance": "Tiền bạc khá ổn, và một mẹo tiết kiệm hay chỗ giảm giá có thể đến từ bạn bè trong một cuộc trò chuyện bình thường. Hãy tự kiểm chứng trước khi làm theo, vì điều hợp với họ chưa hẳn hợp với ví của bạn. Nếu có người rủ chung một khoản, như mua chung hay đi chung, hỏi rõ phần của mỗi bên. Hôm nay thông tin từ người quen đáng nghe, nhưng quyết định vẫn là của bạn.",
+  "insight": "Có thể bạn quen xử lý mọi thứ một mình vì sợ làm phiền. Nhưng với những người thương bạn, được giúp bạn đôi khi lại là một niềm vui, vì nó cho họ cảm giác mình có ích. Việc luôn tự gánh cũng vô tình khiến người khác không có cơ hội đến gần. Hôm nay thử cho ai đó một việc nhỏ để làm cho bạn, và để ý xem cảm giác ấy dễ chịu hơn hay khó chịu hơn bạn tưởng.",
+  "memorable_message": "Một bàn ăn đủ ghế quan trọng hơn một bản kế hoạch đủ ý.",
+  "advice": "Nhắn cho hai người bạn một câu mở đầu đơn giản như dạo này sao rồi, và hẹn một thời điểm cụ thể, ví dụ một buổi tối gần nhất. Gửi ngay trong sáng nay trước khi công việc cuốn bạn đi. Đừng chờ đến lúc rảnh, vì rảnh hiếm khi tự đến.",
+  "keywords": [
+   "tình bạn",
+   "cộng đồng",
+   "nâng đỡ"
+  ]
+ },
+ {
+  "card_id": "three-of-cups",
+  "orientation": "upright",
+  "variant": 3,
+  "summary": "Niềm vui nhân lên khi chia ra, và hôm nay bạn có thể là người thắp lên nó trong nhóm.",
+  "card": {
+   "name": "Ba Cốc",
+   "arcana": "Minor",
+   "orientation": "Upright"
+  },
+  "daily_scores": {
+   "overall": 8,
+   "love": 7,
+   "career": 8,
+   "finance": 6,
+   "energy": 9
+  },
+  "headline": "Bạn có thể là lý do khiến cả phòng nhẹ đi.",
+  "card_meaning": "Ba Cốc còn có một lớp nghĩa ít được nhắc: trong vòng tròn ba người, luôn có người khởi xướng nhịp, người cười trước để người khác dám cười theo. Những chùm nho và hoa quả trong tranh là thành quả chung, nhưng chính không khí mới làm nên bữa tiệc. Ở chiều xuôi, lá này nhấn vào khả năng lan tỏa năng lượng tích cực trong một nhóm: sự hào hứng, tiếng cười và tinh thần cùng chơi. Nó cho thấy bạn đóng góp bằng cách có mặt đúng kiểu, không nhất thiết bằng kết quả. Hôm nay lá này đáng chú ý vì bạn có thể là mạch nối của một nhóm nào đó.",
+  "forecast": [
+   "Một câu nói đùa hay một ý tưởng vui của bạn có khả năng làm cả nhóm thả lỏng giữa một buổi làm việc căng.",
+   "Một dự án chung có xu hướng chạy trơn tru hơn nhờ không khí tốt chứ không nhờ ai làm gấp hơn.",
+   "Bạn dễ được đề nghị tham gia tổ chức một sinh hoạt hoặc sự kiện nhỏ, như một buổi ăn chung hay một chuyến đi ngắn."
+  ],
+  "love": "Sự dí dỏm và dễ gần làm bạn nổi bật hơn mọi khi, và người ta chú ý đến cách bạn khiến không khí sáng lên. Người độc thân có thể có sức hút ở nơi đông người, cứ là chính mình thay vì cố tạo dáng. Đang yêu thì cùng nhau tham gia một hoạt động có thêm người khác, như chơi trò chơi nhóm hay một buổi ăn với bạn chung, sẽ vui hơn ở nhà.",
+  "career": "Đây là ngày tốt cho họp nhóm, brainstorm hoặc tổ chức một hoạt động gắn kết đồng đội. Sự hào hứng của bạn lan sang người khác và giúp việc chạy, nhất là khi nhóm đang hơi mệt hoặc thiếu ý. Hãy mời những người ít nói đưa ý kiến để không chỉ người nói nhiều quyết định. Chỉ cần nhớ giữ deadline, đừng vui quá mà quên giờ, vì không khí tốt không thay được bản giao đúng hạn.",
+  "finance": "Những khoản chi cho tập thể, như tiền ăn nhóm, quà chung hoặc quỹ tổ chức một buổi gặp, dễ xuất hiện. Hỏi trước phần của mỗi người để khỏi ai thấy thiệt, và nếu bạn là người thu tiền, hãy ghi lại rõ ràng. Một bảng chia đơn giản trong nhóm chat giúp mọi người thoải mái hơn. Chi cho niềm vui chung hôm nay là hợp lý, chỉ cần để ý tổng cuối cùng.",
+  "insight": "Có thể bạn nghĩ muốn được quý mến thì phải làm mọi thứ hoàn hảo, nên luôn kiểm tra mình trước khi mở lời. Hôm nay cho thấy người ta nhớ bạn vì cảm giác bạn mang lại, không phải vì bảng thành tích. Sự có mặt thoải mái đôi khi quý hơn một màn trình diễn chuẩn chỉnh. Nếu bạn dám vui mà không canh chừng, người xung quanh thường thả lỏng theo.",
+  "memorable_message": "Việc khó đi nhanh hơn khi cả nhóm còn cười được.",
+  "advice": "Chủ động làm một điều nhỏ cho không khí chung, như mang đồ ăn vặt vào văn phòng lúc đầu giờ chiều hoặc khen công khai một đồng đội trong nhóm chat. Nhớ kéo người ít nói trong nhóm vào cuộc vui, bằng cách hỏi riêng họ một câu. Một cử chỉ nhỏ là đủ, không cần dựng cả một buổi tiệc.",
+  "keywords": [
+   "tiếng cười",
+   "đồng đội",
+   "lan tỏa"
+  ]
+ },
+ {
+  "card_id": "three-of-cups",
+  "orientation": "reversed",
+  "variant": 1,
+  "summary": "Bạn có xu hướng đứng ngoài đám đông hôm nay, và đó có thể là nhu cầu thật chứ chưa hẳn là cô đơn.",
+  "card": {
+   "name": "Ba Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 4
+  },
+  "headline": "Ở giữa đông người vẫn có thể thấy mình ngoài cuộc.",
+  "card_meaning": "Khi Ba Cốc nằm ngược, vòng tròn ba người như khép lại hoặc lệch đi, và có một người đứng ở rìa nhìn vào. Lá bài nói về khoảng cách trong cộng đồng: ở giữa đám đông mà vẫn thấy mình ngoài cuộc, hoặc cần rút ra để nghỉ. Điều cần phân biệt là lá này không mặc định nói bạn bị bỏ rơi. Nó cũng có thể nói về nhu cầu cá nhân cần tách khỏi tiếng ồn xã hội để nạp lại. Hôm nay lá này đáng chú ý vì bạn có thể phải chọn giữa việc hòa vào và việc lắng lại, cả hai đều hợp lệ.",
+  "forecast": [
+   "Bạn có xu hướng từ chối hoặc lấp lửng trước một lời mời tụ tập, vì chưa thấy đủ sức.",
+   "Một cuộc vui có thể làm bạn thấy lạc nhịp, như mọi người nói chung một ngôn ngữ còn bạn thì chưa.",
+   "Một khoảng yên tĩnh một mình, như đi bộ hoặc nghe nhạc, có thể lại là thứ nạp đầy bạn."
+  ],
+  "love": "Bạn muốn gần ai đó nhưng lại ngại phải tỏ ra vui khi tụ họp, nên có lúc ở cạnh người thương mà đầu óc ở chỗ khác. Người độc thân nên chọn gặp một đối một thay vì nơi đông người, vì chỗ yên tĩnh giúp bạn thật hơn. Đang yêu thì nói rõ rằng bạn cần một buổi tối chỉ có hai người, để họ không nghĩ bạn xa cách. Rút lui có lý do và được nói ra khác hẳn rút lui im lặng.",
+  "career": "Bạn có thể thấy mình ngoài vòng chat nhóm hoặc không được hỏi ý kiến một quyết định. Đừng vội kết luận mình bị loại, hãy chủ động gửi một ý kiến ngắn để xem phản hồi. Làm việc một mình hôm nay hiệu quả hơn họp nhóm, nên nếu có thể, hãy xếp việc cần tập trung vào buổi sáng. Sinh viên nên tự học trước, rồi mới trao đổi với nhóm khi đã có điều để nói.",
+  "finance": "Cảm giác lạc lõng dễ kéo theo mua sắm online để giải khuây, nhất là khi lướt mạng xã hội thấy người khác đang vui. Để giỏ hàng qua đêm trước khi thanh toán là cách đơn giản, vì sáng mai bạn thường nhìn lại bằng con mắt khác. Dòng tiền không có biến động lớn, chỉ cần tránh những khoản chi nhỏ lặp đi lặp lại để lấp chỗ trống. Một khoản cho thứ thật sự nạp bạn lại thì ổn.",
+  "insight": "Có thể bạn không muốn tránh người, mà muốn tránh việc phải đóng vai ai đó khi ở cạnh họ. Có hai kiểu một mình, một kiểu tự chọn và một kiểu bị đẩy ra, và hôm nay bạn nên phân biệt. Kiểu đầu nạp bạn đầy, kiểu sau làm bạn cạn. Nếu nhận ra mình thuộc kiểu thứ hai, đó là thông tin quý để bạn chọn lên tiếng hoặc tìm người hợp hơn.",
+  "memorable_message": "Một mình là lựa chọn, cô đơn là cảm giác, và hôm nay bạn nên biết mình đang ở đâu.",
+  "advice": "Nhắn cho một người duy nhất mà bạn thấy thoải mái khi im lặng cùng, vào lúc buổi tối yên ắng. Không cần lý do đẹp, chỉ cần để họ biết bạn vẫn ở đây, ví dụ bằng một tấm ảnh nhỏ hoặc câu hôm nay mình hơi trầm. Nếu họ rảnh, hẹn một cuộc đi dạo không cần nói nhiều.",
+  "keywords": [
+   "rút lui",
+   "lạc nhịp",
+   "cần yên tĩnh"
+  ]
+ },
+ {
+  "card_id": "three-of-cups",
+  "orientation": "reversed",
+  "variant": 2,
+  "summary": "Vui thì được, nhưng hôm nay dễ quá đà về giờ giấc, chi tiêu hay lời nói, nên hãy đặt sẵn giới hạn.",
+  "card": {
+   "name": "Ba Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 5,
+   "love": 5,
+   "career": 4,
+   "finance": 4,
+   "energy": 5
+  },
+  "headline": "Cuộc vui tốt nhất là cuộc vui sáng hôm sau vẫn còn nhớ.",
+  "card_meaning": "Ở chiều ngược, ba chiếc cốc của lá Ba Cốc dễ bị nâng quá cao đến mức nước tràn ra. Lá bài vẽ mặt tối của bữa tiệc: khi niềm vui không còn điểm dừng, nó trượt thành quá đà, từ chuyện uống, chi tiêu đến lời nói. Ý nghĩa cốt lõi của chiều này là sự thiếu giới hạn, năng lượng xã giao bị đẩy quá mức. Đây là bóng của một lá nói về ăn mừng, nên nó không cấm vui mà nhắc rằng cần có một người nhớ đường về. Hôm nay lá này đáng chú ý vì đặt sẵn giới hạn thường dễ hơn dừng giữa lúc đang cuốn.",
+  "forecast": [
+   "Bạn có xu hướng nhận lời nhiều hơn sức mình, hết cuộc này sang cuộc khác trong cùng một ngày.",
+   "Một buổi tụ tập kéo dài hơn dự kiến có thể làm lịch ngày mai bị ảnh hưởng.",
+   "Một câu đùa quá trớn hoặc một chuyện kể tùy tiện có thể bị hiểu theo nghĩa khác."
+  ],
+  "love": "Sự hứng khởi dễ khiến bạn tán tỉnh hơi quá hoặc phân tán sự chú ý khỏi người quan trọng, nhất là khi xung quanh đông và ồn. Đang yêu thì đừng để vòng bạn bè nuốt hết thời gian dành cho nhau, và nhớ nhắn một câu cho người ấy khi đang ở cuộc vui. Người độc thân nên để ý sự quan tâm thật chứ không chỉ sự ồn ào, vì ai chịu nghe bạn lúc bớt vui mới đáng giữ.",
+  "career": "Việc dễ bị đẩy lùi vì ham vui, nên làm phần quan trọng trước khi đi chơi, kể cả khi chỉ làm được một nửa. Cẩn thận với chuyện nội bộ công ty khi nói trong lúc vui miệng, nhất là ở bàn ăn đông người. Sinh viên nên học trước rồi mới tụ tập, vì học sau cuộc vui thường không vào. Một việc xong sớm giúp bạn đi chơi mà không lấn cấn.",
+  "finance": "Chi tiêu cho ăn uống và giải trí có xu hướng tăng, vì không khí vui kéo theo lần gọi thêm món hay thêm một vòng khác. Đặt một mức trần bằng một con số cụ thể rồi dừng khi chạm tới nó, tốt nhất là nhắn cho mình trước khi ra khỏi nhà. Nếu cuộc vui chia đều, hỏi trước cách chia để khỏi bị tính thêm phần mình không dùng. Hôm nay mức trần là bạn của bạn.",
+  "insight": "Có thể bạn lấp đầy lịch để khỏi phải ở yên với một điều đang làm mình bứt rứt. Tiếng ồn tạm thời át được nó, nhưng không xóa được nó, và sáng hôm sau nó thường quay lại cùng cảm giác mệt. Ham vui không xấu, chỉ là đáng hỏi mình đang đi tới điều gì hay đang chạy khỏi điều gì. Biết được câu trả lời sẽ giúp bạn vui đúng chỗ hơn.",
+  "memorable_message": "Cuộc vui nào cũng cần một người nhớ giờ về, và hôm nay người đó là bạn.",
+  "advice": "Đặt giờ về và mức chi trước khi bước ra khỏi nhà, rồi nhắn cho một người để họ nhắc bạn lúc gần tới giờ. Chọn một cuộc vui thật sự đáng đi thay vì đi tất cả. Trước cuộc vui, ăn nhẹ và mang theo nước, vì cơ thể đủ đầy thì bạn dễ dừng đúng lúc hơn.",
+  "keywords": [
+   "quá đà",
+   "giới hạn",
+   "cân bằng"
+  ]
+ },
+ {
+  "card_id": "three-of-cups",
+  "orientation": "reversed",
+  "variant": 3,
+  "summary": "Trong vòng bạn bè có thể có chút gợn, như so sánh, ganh nhẹ hay chuyện sau lưng, và bạn được chọn đứng ở đâu.",
+  "card": {
+   "name": "Ba Cốc",
+   "arcana": "Minor",
+   "orientation": "Reversed"
+  },
+  "daily_scores": {
+   "overall": 4,
+   "love": 5,
+   "career": 5,
+   "finance": 5,
+   "energy": 5
+  },
+  "headline": "Mừng cho người khác cũng là một kỹ năng, và nó cần tập.",
+  "card_meaning": "Ở chiều ngược, ba người trong lá Ba Cốc vẫn đứng chung một vòng tròn nhưng ánh mắt đã khác: có người liếc, có người cười gượng, cốc nâng lên mà lòng không cùng. Lá bài chỉ ra bóng của tình bạn: so sánh, ganh nhẹ, chuyện sau lưng, những bè nhóm nhỏ trong nhóm lớn. Đây không phải điều xấu của riêng ai, nó là phần người trong bất cứ cộng đồng nào. Điều đáng chú ý là bạn có thể chọn đứng ở đâu khi chuyện ấy xuất hiện. Hôm nay lá này nhắc rằng không khí chung phụ thuộc vào từng lời mình thêm vào.",
+  "forecast": [
+   "Một tin tốt của bạn bè có xu hướng khiến bạn vừa mừng vừa nhói, nhất là khi nhìn thấy nó trên mạng xã hội.",
+   "Một câu chuyện về người vắng mặt có thể được kể trong nhóm, và bạn dễ bị kéo vào.",
+   "Một hiểu lầm nhỏ giữa hai người bạn có khả năng bị thổi lớn nếu chỉ trao đổi qua tin nhắn."
+  ],
+  "love": "Bạn có thể so sánh chuyện tình cảm của mình với bạn bè trên mạng xã hội, như ai được cầu hôn hay ai được tặng quà. Cứ nhắc mình rằng mỗi mối quan hệ có nhịp riêng và bức ảnh đẹp không cho thấy cả câu chuyện. Nếu một người bạn thân và người của bạn không hợp nhau, hãy giữ ranh giới nhẹ nhàng, đừng bắt ai phải chọn phe. Người độc thân đừng tự đo mình bằng tiến độ của bạn bè.",
+  "career": "Cạnh tranh ngầm hoặc chuyện đồng nghiệp được ghi nhận có thể làm bạn khó chịu một lúc. Hãy chuyển cảm giác ấy thành một mục tiêu cụ thể cho mình, như một kỹ năng muốn học hay một việc muốn đề xuất. Tránh bàn tán sau lưng ở bàn cà phê, vì nó thường quay lại và làm bạn mất điểm. Sinh viên đừng so điểm với bạn trong nhóm, hãy so với chính mình của lần trước.",
+  "finance": "Nhìn bạn bè mua sắm hoặc đi du lịch dễ kích thích bạn muốn chi theo, dù ngân sách của mình khác. Hỏi mình đây là nhu cầu thật hay chỉ là so sánh, rồi chờ một đêm trước khi quyết. Tiền của người khác chỉ là hình ảnh bạn nhìn thấy, còn tiền của bạn là cuộc sống của bạn. Hôm nay hợp để mở lại danh sách những điều bạn thật sự muốn dành tiền cho.",
+  "insight": "Có thể cảm giác ganh tị hôm nay không nói rằng bạn xấu, nó chỉ chỉ ra điều bạn đang khao khát mà chưa dám nói. Biết mình muốn gì là một thông tin có ích, nhiều khi hơn cả việc đạt được nó. Nếu nhìn kỹ, thứ làm bạn nhói thường chỉ là một phần nhỏ trong cuộc đời người kia mà bạn đang đặt lên toàn bộ. Hôm nay hãy đọc cảm giác đó như một tấm bản đồ chứ không phải một bản án.",
+  "memorable_message": "Ganh tị là tấm bản đồ chỉ nơi bạn muốn tới, nếu bạn chịu đọc nó.",
+  "advice": "Khi muốn nói về ai đó, hãy hỏi mình có dám nói điều đó trước mặt họ không, và nếu không thì để câu chuyện dừng lại ở mình. Còn nếu đang ganh, ghi lại điều bạn thật sự muốn vào ghi chú điện thoại và làm một bước nhỏ cho nó ngay chiều nay, như gửi một email hay đăng ký một lớp. Bắt đầu nhỏ vẫn hơn đứng nhìn người khác chạy.",
+  "keywords": [
+   "ganh tị",
+   "so sánh",
+   "ranh giới bạn bè"
+  ]
+ }
+]
