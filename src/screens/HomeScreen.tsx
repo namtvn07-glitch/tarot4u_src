@@ -1,16 +1,53 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Sparkles, ArrowRight, Zap, Compass, Heart, Briefcase, Coins, Flower2 } from "lucide-react";
 import { TOPICS, CARD_BACK_IMAGE } from "@/data/tarotCards";
 import type { AppScreen } from "@/types/tarot";
+import type { DailyDraw, DailyState } from "@/lib/daily-types";
 
 interface HomeScreenProps {
   onNavigate: (screen: AppScreen) => void;
   onSelectTopic: (topicId: string) => void;
+  // Danh tính hiện tại: đổi (đăng nhập/đăng xuất) thì tải lại "lá hôm nay".
+  userId?: string | null;
+  isAuthReady?: boolean;
 }
 
-export const HomeScreen: React.FC<HomeScreenProps> = ({ onNavigate, onSelectTopic }) => {
+// Lá Daily gần nhất của hôm nay, để panel trang chủ hiện đúng lá đó thay vì lời mời
+// rút. Lỗi mạng/chưa rút → null → panel giữ nguyên dạng "chưa rút".
+function useTodayDraw(userId: string | null | undefined, isAuthReady: boolean): DailyDraw | null {
+  const [today, setToday] = useState<{ owner: string | null; draw: DailyDraw } | null>(null);
+  const owner = userId ?? null;
+
+  useEffect(() => {
+    if (!isAuthReady || !owner) return;
+    let cancelled = false;
+    fetch("/api/reading/daily", { cache: "no-store" })
+      .then((res) => (res.ok ? (res.json() as Promise<DailyState>) : null))
+      .then((state) => {
+        if (!cancelled && state?.today) setToday({ owner, draw: state.today });
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [owner, isAuthReady]);
+
+  // Gắn nhãn chủ sở hữu thay vì xoá bằng effect: đăng xuất là lá cũ biến mất ngay
+  // trong lượt render đó, không để lọt một nhịp hiện lá của tài khoản trước.
+  return today && today.owner === owner ? today.draw : null;
+}
+
+export const HomeScreen: React.FC<HomeScreenProps> = ({
+  onNavigate,
+  onSelectTopic,
+  userId,
+  isAuthReady = true,
+}) => {
+  const todayDraw = useTodayDraw(userId, isAuthReady);
+  const todayReversed = todayDraw?.card.orientation === "reversed";
+
   const getTopicIcon = (id: string) => {
     switch (id) {
       case "love": return <Heart className="w-5 h-5 text-[#d4af37]" />;
@@ -95,26 +132,56 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onNavigate, onSelectTopi
       >
         <div className="relative overflow-hidden rounded-3xl border border-[#d4af37]/40 bg-gradient-to-br from-[#15100b]/95 via-[#0e0a08]/98 to-[#1c1611]/95 p-6 sm:p-8 shadow-[0_10px_40px_rgba(0,0,0,0.7)] flex flex-col sm:flex-row items-center gap-6">
           <div className="absolute top-0 right-1/4 w-72 h-72 bg-[#d4af37]/10 rounded-full blur-[80px] pointer-events-none" />
-          <div className="relative z-10 w-24 sm:w-28 aspect-[2/3] shrink-0 rounded-xl border-2 border-[#d4af37]/60 overflow-hidden shadow-[0_0_30px_rgba(212,175,55,0.35)] animate-levitate-1 motion-reduce:animate-none">
-            <img src={CARD_BACK_IMAGE} alt="" className="w-full h-full object-cover" />
-          </div>
+          {todayDraw ? (
+            <div className="relative z-10 w-24 sm:w-28 aspect-[2/3] shrink-0 rounded-xl border-2 border-[#d4af37] overflow-hidden shadow-[0_0_30px_rgba(212,175,55,0.45)] bg-[#15100b]">
+              <img
+                src={todayDraw.card.image}
+                alt={`${todayDraw.card.nameVi} (${todayDraw.card.nameEn}), ${todayReversed ? "ngược" : "xuôi"}`}
+                className={`w-full h-full object-cover ${todayReversed ? "rotate-180" : ""}`}
+              />
+            </div>
+          ) : (
+            <div className="relative z-10 w-24 sm:w-28 aspect-[2/3] shrink-0 rounded-xl border-2 border-[#d4af37]/60 overflow-hidden shadow-[0_0_30px_rgba(212,175,55,0.35)] animate-levitate-1 motion-reduce:animate-none">
+              <img src={CARD_BACK_IMAGE} alt="" className="w-full h-full object-cover" />
+            </div>
+          )}
           <div className="relative z-10 text-center sm:text-left flex-1">
-            <span className="text-[10px] font-bold uppercase tracking-widest text-[#d4af37]">
-              Mỗi ngày một lá
-            </span>
-            <h2 id="home-daily-heading" className="font-display text-2xl sm:text-3xl text-white font-bold mt-1 mb-2">
-              Hôm nay Tarot muốn nói gì với bạn?
-            </h2>
-            <p className="text-sm text-[#b3a48d] leading-relaxed max-w-xl">
-              Không cần câu hỏi. Rút một lá để nhận năng lượng trong ngày, tình yêu, công việc, tài chính và một lời nhắn riêng cho hôm nay. Lượt đầu mỗi ngày miễn phí.
-            </p>
+            {todayDraw ? (
+              <>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-[#d4af37]">
+                  Lá của bạn hôm nay
+                </span>
+                <h2 id="home-daily-heading" className="font-display text-2xl sm:text-3xl text-white font-bold mt-1">
+                  {todayDraw.card.nameVi}
+                </h2>
+                <p className="text-xs italic text-[#7a6e5d] mb-2">
+                  {todayDraw.card.nameEn} · {todayReversed ? "Chiều ngược" : "Chiều xuôi"}
+                </p>
+                <p className="font-display text-base sm:text-lg text-[#f5e6a3] leading-snug mb-1">
+                  {todayDraw.content.headline}
+                </p>
+                <p className="text-sm text-[#b3a48d] leading-relaxed max-w-xl">{todayDraw.content.summary}</p>
+              </>
+            ) : (
+              <>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-[#d4af37]">
+                  Mỗi ngày một lá
+                </span>
+                <h2 id="home-daily-heading" className="font-display text-2xl sm:text-3xl text-white font-bold mt-1 mb-2">
+                  Hôm nay Tarot muốn nói gì với bạn?
+                </h2>
+                <p className="text-sm text-[#b3a48d] leading-relaxed max-w-xl">
+                  Không cần câu hỏi. Rút một lá để nhận năng lượng trong ngày, tình yêu, công việc, tài chính và một lời nhắn riêng cho hôm nay. Lượt đầu mỗi ngày miễn phí.
+                </p>
+              </>
+            )}
           </div>
           <button
             onClick={() => onNavigate("daily")}
             className="relative z-10 shrink-0 px-6 py-3 rounded-full bg-gradient-to-r from-[#8f5a1f] to-[#764a19] hover:from-[#d4af37] hover:to-[#8f5a1f] text-white hover:text-[#050505] text-xs font-semibold uppercase tracking-wider transition-all duration-300 flex items-center gap-2 cursor-pointer active:scale-95 motion-reduce:transition-none"
           >
             <Sparkles className="w-4 h-4" aria-hidden="true" />
-            <span>Rút lá hôm nay</span>
+            <span>{todayDraw ? "Xem chi tiết" : "Rút lá hôm nay"}</span>
           </button>
         </div>
       </section>

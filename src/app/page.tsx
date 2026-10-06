@@ -165,7 +165,12 @@ export default function App() {
       {/* Main Content View */}
       <main className="flex-grow flex flex-col relative z-10">
         {currentScreen === "home" && (
-          <HomeScreen onNavigate={handleNavigate} onSelectTopic={handleSelectTopicFromHome} />
+          <HomeScreen
+            onNavigate={handleNavigate}
+            onSelectTopic={handleSelectTopicFromHome}
+            userId={user.id ?? null}
+            isAuthReady={!isAuthLoading}
+          />
         )}
 
         {currentScreen === "daily" && (
